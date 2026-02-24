@@ -18,6 +18,8 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[structure-plus-reasoning-beats-flat-similarity]] — spans architecture, knowledge systems, agents
 
 ## Recent Additions
+- [[orchestrator-agent-replaces-human-coordination]] — meta-agent spawns, routes, and monitors specialized agents autonomously (2026-02-24)
+- [[multi-model-ensemble-catches-single-model-blindspots]] — triple-model review creates adversarial robustness (2026-02-24)
 - [[personal-software-grows-through-relationship-not-configuration]] — agents evolve personality through interaction, not configuration (2026-02-24)
 - [[agent-trust-transfers-from-human-credibility]] — colleagues adopt agents operated by people they trust (2026-02-24)
 - [[deputies-and-sheriffs-distribute-agent-authority]] — two-tier agent hierarchy replaces centralized software (2026-02-24)
@@ -26,5 +28,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[error-memory-enables-learning-without-retraining]] — store error patterns to learn continuously without fine-tuning (2026-02-24)
 - [[tools-are-contracts-between-deterministic-and-nondeterministic-systems]] — agent tools are a new software category (2026-02-24)
 - [[evaluate-tools-with-real-multi-step-tasks]] — strong eval tasks require chained calls and verifiable outcomes (2026-02-24)
-- [[open-source-captures-value-through-services-not-software]] — free software builds billion-dollar companies; money is in services/cloud/governance (2026-02-24)
-- [[webmcp-turns-websites-into-agent-native-interfaces]] — websites expose structured tools to agents via MCP, replacing screen-scraping (2026-02-24)

@@ -45,3 +45,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[personal-software-grows-through-relationship-not-configuration]] — Agents evolve personality through ongoing interaction, not configuration
 - [[agent-trust-transfers-from-human-credibility]] — Colleagues adopt agents operated by people they trust
 - [[deputies-and-sheriffs-distribute-agent-authority]] — Two-tier agent hierarchy: personal Deputies + organizational Sheriffs
+- [[orchestrator-agent-replaces-human-coordination]] — Meta-agent spawns, routes, and monitors specialized agents autonomously
+- [[multi-model-ensemble-catches-single-model-blindspots]] — Triple-model review exploits diverse failure modes for emergent coverage

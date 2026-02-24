@@ -35,3 +35,5 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[session-capture-compounds-development-knowledge]] — shadcn's /done skill turns AI sessions into persistent, searchable knowledge
 - [[tools-are-contracts-between-deterministic-and-nondeterministic-systems]] — Agent tools need design for non-deterministic consumers
 - [[evaluate-tools-with-real-multi-step-tasks]] — Evaluate tools with chained calls and verifiable outcomes, not toy examples
+- [[orchestrator-agent-replaces-human-coordination]] — Meta-agent manages agent swarm: spawns, routes by model strength, monitors via deterministic scripts
+- [[multi-model-ensemble-catches-single-model-blindspots]] — Three different LLMs review the same PR for adversarial robustness
