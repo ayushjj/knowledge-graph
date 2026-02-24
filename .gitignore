@@ -1,0 +1,11 @@
+# Raw source material (chat exports, potentially copyrighted)
+content/
+
+# Internal audit notes
+AUDIT.md
+
+# Local maintenance skills (live in ~/.claude/skills/)
+skills/
+
+# Empty directories
+sources/
