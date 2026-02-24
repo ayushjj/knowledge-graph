@@ -114,7 +114,25 @@ These ideas belong to the people below — I'm just the curator who connected th
 
 ## How it grows
 
-I add insights weekly as I encounter ideas that change how I build. New nodes get linked to the existing graph via a `/learn` skill in Claude Code.
+I add insights weekly as I encounter ideas that change how I build. There are two ways to add to the graph:
+
+### Single URL or text — `/learn`
+
+In Claude Code, run `/learn` and either:
+- Paste a URL (tweet, article, blog post) — it fetches the content automatically via [Jina Reader](https://jina.ai/reader/)
+- Paste raw text (notes, conversation summary, article excerpt)
+
+The skill extracts insights, creates linked files, updates topic MOCs, and connects new nodes to the existing graph.
+
+### Batch bookmarks — `/ingest`
+
+For processing many bookmarks at once:
+
+1. **Export your Twitter/X bookmarks** using a browser extension like [twitter-web-exporter](https://github.com/prinsss/twitter-web-exporter) (exports as JSON/CSV)
+2. **Run `/ingest path/to/bookmarks.json`** in Claude Code
+3. **Review the created insights** — the skill deduplicates against existing nodes, fetches content via Jina Reader, and runs `/learn` on each bookmark
+
+This keeps the human in the loop — you decide when to process and can review what gets added.
 
 Star or watch to get updates.
 

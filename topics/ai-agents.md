@@ -16,6 +16,9 @@ Agents can work autonomously when given small enough stories, explicit acceptanc
 ### Agent Search: Reasoning Over Indexing
 Agents search by reasoning about where to look, not by pre-indexing and similarity matching. This applies to codebases (grep/glob), documents (tree navigation), and knowledge (skill graph traversal).
 
+### Personal Software & Agent Trust
+Agents develop through relationship with individual users, not configuration. Trust transfers socially — colleagues trust agents operated by people they already trust. Organizational structures (Deputies/Sheriffs) emerge naturally from human authority hierarchies.
+
 ## Insights
 - [[features-are-prompts-not-code]] — Agent-native means outcomes via prompts, not coded functions
 - [[skills-as-markdown-replace-fine-tuning]] — Skill files may match fine-tuned models at zero training cost
@@ -39,3 +42,6 @@ Agents search by reasoning about where to look, not by pre-indexing and similari
 - [[error-memory-enables-learning-without-retraining]] — Store error patterns to learn continuously without fine-tuning
 - [[tools-are-contracts-between-deterministic-and-nondeterministic-systems]] — Agent tools are a new category of software requiring different design principles
 - [[evaluate-tools-with-real-multi-step-tasks]] — Strong eval tasks require chained calls, ambiguity, and verifiable outcomes
+- [[personal-software-grows-through-relationship-not-configuration]] — Agents evolve personality through ongoing interaction, not configuration
+- [[agent-trust-transfers-from-human-credibility]] — Colleagues adopt agents operated by people they trust
+- [[deputies-and-sheriffs-distribute-agent-authority]] — Two-tier agent hierarchy: personal Deputies + organizational Sheriffs

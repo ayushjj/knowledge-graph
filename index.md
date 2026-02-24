@@ -18,6 +18,9 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[structure-plus-reasoning-beats-flat-similarity]] — spans architecture, knowledge systems, agents
 
 ## Recent Additions
+- [[personal-software-grows-through-relationship-not-configuration]] — agents evolve personality through interaction, not configuration (2026-02-24)
+- [[agent-trust-transfers-from-human-credibility]] — colleagues adopt agents operated by people they trust (2026-02-24)
+- [[deputies-and-sheriffs-distribute-agent-authority]] — two-tier agent hierarchy replaces centralized software (2026-02-24)
 - [[production-agents-route-decisions-not-every-call-to-llm]] — decision trees for routine cases, LLMs only for ambiguity (2026-02-24)
 - [[malleable-software-writes-its-own-extensions]] — tiny core + self-extension replaces fixed-feature applications (2026-02-24)
 - [[error-memory-enables-learning-without-retraining]] — store error patterns to learn continuously without fine-tuning (2026-02-24)
@@ -25,6 +28,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[evaluate-tools-with-real-multi-step-tasks]] — strong eval tasks require chained calls and verifiable outcomes (2026-02-24)
 - [[open-source-captures-value-through-services-not-software]] — free software builds billion-dollar companies; money is in services/cloud/governance (2026-02-24)
 - [[webmcp-turns-websites-into-agent-native-interfaces]] — websites expose structured tools to agents via MCP, replacing screen-scraping (2026-02-24)
-- [[prompt-caching-makes-long-context-economically-viable]] — prefix matching enables 80%+ cost reduction for rich context systems (2026-02-24)
-- [[parallel-agents-create-management-problem-not-coding-problem]] — multiple agents shift bottleneck from coding to coordination (2026-02-24)
-- [[session-capture-compounds-development-knowledge]] — shadcn's /done pattern turns ephemeral AI sessions into compounding knowledge (2026-01-24)

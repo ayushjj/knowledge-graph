@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-02-24
-node_count: 50
+node_count: 53
 
 nodes:
   features-are-prompts-not-code:
@@ -20,7 +20,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@danshipper — Agent-Native Architectures (co-authored with Claude)"
     outgoing: [build-for-obsolescence-models-eat-scaffolding, declarative-beats-imperative-for-agents, malleable-software-writes-its-own-extensions]
-    incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions]
+    incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions, personal-software-grows-through-relationship-not-configuration]
 
   files-are-the-universal-agent-interface:
     title: "Files are the universal interface between humans and agents"
@@ -44,7 +44,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, build-for-obsolescence-models-eat-scaffolding, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, build-for-obsolescence-models-eat-scaffolding, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -53,6 +53,14 @@ nodes:
     source: "@nicbstme + @gokulr — Fintool + OpenClaw Skills Paradigm"
     outgoing: [features-are-prompts-not-code, context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
     incoming: [context-is-the-product-not-the-model, cross-user-knowledge-transfer-needs-no-fine-tuning, skill-graphs-enable-progressive-disclosure, build-for-obsolescence-models-eat-scaffolding, compound-engineering-makes-future-work-easier]
+
+  deputies-and-sheriffs-distribute-agent-authority:
+    title: "Deputies and Sheriffs — distributed agent teams with hierarchical authority replace centralized software"
+    description: "Individual employees train specialized 'Deputy' agents while organizational 'Sheriff' agents manage permissions, rules, and onboarding across the team"
+    topics: [ai-agents, future-of-ai-business]
+    source: "@danshipper — Personal Software and AI Agents"
+    outgoing: [treat-ai-like-distributed-team-not-assistant, parallel-agents-create-management-problem-not-coding-problem, saas-survives-as-governance-and-coordination-layer]
+    incoming: [treat-ai-like-distributed-team-not-assistant]
 
   decision-traces-are-the-missing-data-layer:
     title: "Decision traces are the missing data layer — a trillion-dollar gap"
@@ -84,7 +92,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@clarashih (Clara Shih) — CEO of Salesforce AI, How to Survive the SaaS Reckoning"
     outgoing: [agents-become-the-buyer, middleware-dies-infrastructure-survives, context-is-the-product-not-the-model, production-agents-route-decisions-not-every-call-to-llm]
-    incoming: [open-source-captures-value-through-services-not-software]
+    incoming: [open-source-captures-value-through-services-not-software, agent-trust-transfers-from-human-credibility, deputies-and-sheriffs-distribute-agent-authority]
 
   software-abundance-unlocks-categories-that-never-existed:
     title: "Software abundance unlocks entire categories of applications that never existed"
@@ -140,7 +148,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture"
     outgoing: [decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining]
+    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility]
 
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
@@ -165,6 +173,14 @@ nodes:
     source: "Boris Cherny (Claude Code team) — Twitter discussion with Daniel San"
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, context-window-is-the-fundamental-constraint, boring-tech-wins-for-ai-native-startups]
     incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning]
+
+  personal-software-grows-through-relationship-not-configuration:
+    title: "Personal software grows through relationship, not configuration"
+    description: "Unlike traditional SaaS where users adapt to the tool, personal software agents grow personality and skills in response to their user through ongoing interaction"
+    topics: [ai-agents, future-of-ai-business]
+    source: "@danshipper — Personal Software and AI Agents"
+    outgoing: [malleable-software-writes-its-own-extensions, features-are-prompts-not-code, context-is-the-product-not-the-model]
+    incoming: [malleable-software-writes-its-own-extensions]
 
   postgresql-scales-further-than-you-think:
     title: "PostgreSQL scales further than you think"
@@ -220,7 +236,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents"
     outgoing: [treat-ai-like-distributed-team-not-assistant, implementation-gap-collapsed, autonomous-loops-need-small-stories-and-fast-feedback, specs-are-external-memory-surviving-context-resets]
-    incoming: [treat-ai-like-distributed-team-not-assistant]
+    incoming: [treat-ai-like-distributed-team-not-assistant, deputies-and-sheriffs-distribute-agent-authority]
 
   dont-be-the-discriminator-be-the-patron:
     title: "Don't be the discriminator — be the patron, not the judge"
@@ -270,21 +286,29 @@ nodes:
     outgoing: [ai-winners-already-decided-by-infrastructure, ui-moat-collapses-api-becomes-purchasing-criterion, open-source-captures-value-through-services-not-software]
     incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, boring-tech-wins-for-ai-native-startups, postgresql-scales-further-than-you-think, technology-transitions-create-more-not-less, agents-become-the-buyer, ai-winners-already-decided-by-infrastructure]
 
+  agent-trust-transfers-from-human-credibility:
+    title: "Agent trust transfers from human credibility — colleagues adopt agents operated by people they trust"
+    description: "When a human's agent consistently performs well, other team members inherit that trust and willingly depend on the agent, creating a credibility chain"
+    topics: [ai-agents, future-of-ai-business]
+    source: "@danshipper — Personal Software and AI Agents"
+    outgoing: [agents-become-the-buyer, saas-survives-as-governance-and-coordination-layer, agent-memory-preserves-institutional-knowledge]
+    incoming: [agents-become-the-buyer]
+
   agents-become-the-buyer:
     title: "B2B becomes B2A — agents become the buyer"
     description: "Software is increasingly consumed by agents, not humans; the agent recommends, the human approves"
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API"
-    outgoing: [webmcp-turns-websites-into-agent-native-interfaces, ui-moat-collapses-api-becomes-purchasing-criterion, middleware-dies-infrastructure-survives]
-    incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, webmcp-turns-websites-into-agent-native-interfaces]
+    outgoing: [webmcp-turns-websites-into-agent-native-interfaces, ui-moat-collapses-api-becomes-purchasing-criterion, middleware-dies-infrastructure-survives, agent-trust-transfers-from-human-credibility]
+    incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, webmcp-turns-websites-into-agent-native-interfaces, agent-trust-transfers-from-human-credibility]
 
   treat-ai-like-distributed-team-not-assistant:
     title: "Treat AI like a distributed team, not a single assistant"
     description: "Running 15 parallel Claude streams with specialized roles produces better results than one perfect conversation"
     topics: [ai-coding-tools, ai-agents]
     source: "Boris Cherny — Creator of Claude Code"
-    outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, parallel-agents-create-management-problem-not-coding-problem]
-    incoming: [parallel-agents-create-management-problem-not-coding-problem]
+    outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority]
+    incoming: [parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority]
 
   evolving-summaries-beat-append-only-memory:
     title: "Evolving summaries beat append-only memory — rewrite profiles, don't accumulate facts"
@@ -387,8 +411,8 @@ nodes:
     description: "Instead of adapting your workflow to the tool, the tool observes your workflow and extends itself to match it"
     topics: [ai-agents, future-of-ai-business]
     source: "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot"
-    outgoing: [features-are-prompts-not-code, ai-self-improvement-loop-accelerates-everything, build-for-obsolescence-models-eat-scaffolding]
-    incoming: [features-are-prompts-not-code]
+    outgoing: [features-are-prompts-not-code, ai-self-improvement-loop-accelerates-everything, build-for-obsolescence-models-eat-scaffolding, personal-software-grows-through-relationship-not-configuration]
+    incoming: [features-are-prompts-not-code, personal-software-grows-through-relationship-not-configuration]
 
   error-memory-enables-learning-without-retraining:
     title: "Agents that store error patterns learn continuously without fine-tuning or retraining"

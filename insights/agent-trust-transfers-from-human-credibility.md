@@ -1,0 +1,11 @@
+---
+title: "Agent trust transfers from human credibility — colleagues adopt agents operated by people they trust"
+description: "When a human's agent consistently performs well, other team members inherit that trust and willingly depend on the agent, creating a credibility chain"
+topics: [ai-agents, future-of-ai-business]
+source: "@danshipper — Personal Software and AI Agents"
+date: 2026-02-24
+---
+
+Shipper identifies a social mechanism for agent adoption: trust is not earned by the agent directly but transferred from its human operator. When colleagues see that your agent handles tasks reliably, they start depending on it — essentially borrowing your credibility. This mirrors how [[agents-become-the-buyer]] works at the organizational level, but at the interpersonal level.
+
+This has implications for [[saas-survives-as-governance-and-coordination-layer]] — if agent trust flows through human relationships, governance systems need to track not just what agents do but who operates them. It also connects to [[agent-memory-preserves-institutional-knowledge]] because the trust chain depends on the agent having a consistent track record, which requires persistent memory of past performance.
