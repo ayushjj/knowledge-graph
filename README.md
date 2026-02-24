@@ -24,7 +24,7 @@ Start with a topic, then follow links to individual insights:
 ### Clone as Obsidian vault
 
 ```bash
-git clone https://github.com/ayushgdev/knowledge-graph.git
+git clone https://github.com/ayushjj/knowledge-graph.git
 ```
 
 Open the cloned folder in Obsidian. All `[[wikilinks]]` resolve natively — you get full graph visualization showing how insights connect across topics.
@@ -97,4 +97,4 @@ Star or watch to get updates.
 
 ---
 
-Built by [Ayush](https://github.com/ayushgdev) with Claude Code.
+Built by [Ayush](https://github.com/ayushjj) with Claude Code.
