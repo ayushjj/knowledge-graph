@@ -1,8 +1,10 @@
 # AI Product Building Knowledge Graph
 
-50 curated insights about building AI products — distilled from experts like Karpathy, Dan Shipper, Clara Shih, Addy Osmani, and others. Structured for both human browsing and agent traversal.
+50 curated insights about building AI products — structured for both human browsing and agent traversal.
 
 ## Why this exists
+
+I didn't come up with any of these ideas — they come from people like Nicolas Bustamante, Andrej Karpathy, Boris Cherny, Clara Shih, Dan Shipper, and many others listed below. I just organized them into a connected graph so the patterns between them become visible.
 
 I follow AI builders and thinkers daily. The best insights are scattered across tweets, essays, and conversations. This graph captures the ones that actually changed how I build — connected so you can follow threads across topics.
 
@@ -74,20 +76,41 @@ Some insights span multiple topics. These are the most connected nodes in the gr
 
 ## Sources
 
-Insights are distilled from these people and teams:
+These ideas belong to the people below — I'm just the curator who connected them.
 
-- **[Dan Shipper](https://twitter.com/danshipper)** — Every, AI-native product thinking
-- **[Andrej Karpathy](https://twitter.com/karpathy)** — AI fundamentals, declarative programming
-- **[Clara Shih](https://twitter.com/clarashih)** — AI business strategy, SaaS evolution
-- **[Addy Osmani](https://twitter.com/addyosmani)** — AI-assisted engineering practices
-- **Rohit ([@rohit4verse](https://twitter.com/rohit4verse))** — Agent memory, knowledge transfer
-- **[Matt Shumer](https://twitter.com/mattshumer_)** — AI self-improvement, creative AI
-- **Boris Cherny** — Claude Code team, agentic search
-- **[Ryan Carson](https://twitter.com/ryancarson)** — Autonomous coding loops
-- **Anthropic Engineering** — Tool design, agent evaluation
+**Major contributors (2+ insights):**
+
+- **Nicolas Bustamante ([@nicbstme](https://twitter.com/nicbstme))** — AI agents for financial services, agent-native architecture, API-first SaaS
+- **Rohit ([@rohit4verse](https://twitter.com/rohit4verse))** — Agent memory, knowledge transfer, tiered retrieval, embeddings
+- **Anthropic Engineering** — Tool design, agent evaluation, best practices
+- **Boris Cherny** — Claude Code team, agentic search, distributed agent workflows
+- **Ashpreet Bedi ([@ashpreetbedi](https://twitter.com/ashpreetbedi))** — Spec-first development, error memory, Agno framework
+- **[Dan Shipper](https://twitter.com/danshipper)** — Every, agent-native architectures
+- **Alton Syn ([@WorkflowWhisper](https://twitter.com/WorkflowWhisper))** — Implementation gap, technical knowledge as liability
+
+**Single-insight contributors:**
+
+- **[Andrej Karpathy](https://twitter.com/karpathy)** — Declarative programming for agents
+- **[Clara Shih](https://twitter.com/clarashih)** — SaaS as governance layer
+- **Chrys Bader ([@chrysb](https://twitter.com/chrysb))** — Apps are dead, UI moat collapse
+- **[Matt Shumer](https://twitter.com/mattshumer_)** — AI self-improvement loop
+- **Nader Dabit ([@dabit3](https://twitter.com/dabit3))** — Software abundance
+- **Will Manidis ([@WillManidis](https://twitter.com/WillManidis))** — Against taste / patron vs. discriminator
+- **Steven Sinofsky ([@stevesi](https://twitter.com/stevesi))** — Technology transitions
+- **Myles Marino ([@MylesMarino1](https://twitter.com/MylesMarino1))** — Middleware dies, vendor audits
+- **Natasha Malpani ([@natashamalpani](https://twitter.com/natashamalpani))** — AI gold rush infrastructure
+- **Gokul R ([@gokulr](https://twitter.com/gokulr))** — OpenClaw skills paradigm
+- **Jaya Gupta ([@JayaGup10](https://twitter.com/JayaGup10))** — Decision traces, context graphs
+- **Akshay Pachaar ([@akshay_pachaar](https://twitter.com/akshay_pachaar))** — Semantic highlighting research
+- **Vasuman ([@vasuman](https://twitter.com/vasuman))** — AI Agents 101, decision routing
+- **Benjamin De Kraker** — Compound engineering
+- **Kushal Byatnal** — Boring tech wins (Extend)
+- **Tobi Lütke ([@tolobi](https://twitter.com/tolobi))** — Malleable software, Shopify
+- **[Ryan Carson](https://twitter.com/ryancarson)** — Autonomous coding loops (Ralph)
+- **Heinrich ([@arscontexta](https://twitter.com/arscontexta))** — Skill graphs, progressive disclosure
 - **[shadcn](https://twitter.com/shadcn)** — Session capture patterns
-- **Evan Schwartz** — OpenAI infrastructure
-- **Heinrich ([@arscontexta](https://twitter.com/arscontexta))** — Skill graphs
+- **Jarrod Watts** — Context window constraints
+- **[VectifyAI](https://github.com/VectifyAI/PageIndex)** — PageIndex, similarity vs. relevance
 
 ## How it grows
 

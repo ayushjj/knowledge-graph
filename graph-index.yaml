@@ -18,7 +18,7 @@ nodes:
     title: "In agent-native architecture, features are prompts — not code"
     description: "The shift from coding specific functions to describing outcomes that agents achieve by composing atomic tools"
     topics: [ai-agents, ai-native-product-architecture]
-    source: "@danshipper"
+    source: "@danshipper — Agent-Native Architectures (co-authored with Claude)"
     outgoing: [build-for-obsolescence-models-eat-scaffolding, declarative-beats-imperative-for-agents, malleable-software-writes-its-own-extensions]
     incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions]
 
@@ -26,7 +26,7 @@ nodes:
     title: "Files are the universal interface between humans and agents"
     description: "Markdown and YAML files on disk beat databases because agents already know file operations and humans can inspect everything"
     topics: [ai-native-product-architecture, knowledge-systems]
-    source: "@danshipper"
+    source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
     outgoing: [context-is-the-product-not-the-model, skills-as-markdown-replace-fine-tuning]
     incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure]
 
@@ -34,7 +34,7 @@ nodes:
     title: "Technical knowledge can become a liability when working with AI"
     description: "Experts get stuck on implementation details while novices describe outcomes and ship faster"
     topics: [ai-coding-tools, future-of-ai-business]
-    source: "@karpathy"
+    source: "@WorkflowWhisper (Alton Syn) — The n8n Gap Closed"
     outgoing: [implementation-gap-collapsed, declarative-beats-imperative-for-agents]
     incoming: [implementation-gap-collapsed]
 
@@ -42,7 +42,7 @@ nodes:
     title: "Context is the product, not the model"
     description: "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode"
     topics: [ai-native-product-architecture, business-models]
-    source: "@danshipper"
+    source: "@nicbstme (Nicolas Bustamante) — Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning]
     incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, build-for-obsolescence-models-eat-scaffolding, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm]
 
@@ -50,7 +50,7 @@ nodes:
     title: "Markdown skill files may replace expensive fine-tuning"
     description: "A SKILL.md file that teaches an agent how to do something specific can match domain-specific fine-tuned models — at zero training cost"
     topics: [ai-agents, ai-native-product-architecture]
-    source: "@danshipper"
+    source: "@nicbstme + @gokulr — Fintool + OpenClaw Skills Paradigm"
     outgoing: [features-are-prompts-not-code, context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
     incoming: [context-is-the-product-not-the-model, cross-user-knowledge-transfer-needs-no-fine-tuning, skill-graphs-enable-progressive-disclosure, build-for-obsolescence-models-eat-scaffolding, compound-engineering-makes-future-work-easier]
 
@@ -58,7 +58,7 @@ nodes:
     title: "Decision traces are the missing data layer — a trillion-dollar gap"
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
-    source: "@clarashih"
+    source: "@JayaGup10 (Jaya Gupta) — Foundation Capital, Context Graphs"
     outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge]
     incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
 
@@ -66,7 +66,7 @@ nodes:
     title: "Declarative beats imperative when working with agents"
     description: "Give agents success criteria and watch them go — don't tell them what to do step by step"
     topics: [ai-agents, ai-coding-tools]
-    source: "@karpathy"
+    source: "Andrej Karpathy — Coding Observations"
     outgoing: [features-are-prompts-not-code, technical-knowledge-becomes-liability]
     incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, implementation-gap-collapsed, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier]
 
@@ -74,7 +74,7 @@ nodes:
     title: "The UI moat collapses — API quality becomes the purchasing criterion"
     description: "When agents are the primary users of software, beautiful dashboards stop mattering and API design becomes the competitive surface"
     topics: [business-models, ai-native-product-architecture]
-    source: "@clarashih"
+    source: "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API"
     outgoing: [agents-become-the-buyer, middleware-dies-infrastructure-survives]
     incoming: [agents-become-the-buyer, middleware-dies-infrastructure-survives, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces]
 
@@ -82,7 +82,7 @@ nodes:
     title: "SaaS survives as the governance and coordination layer — determinism still rules"
     description: "When non-deterministic AI feeds into deterministic systems (databases, approvals, audit trails), the deterministic system governs; SaaS is that system"
     topics: [business-models, future-of-ai-business]
-    source: "@clarashih"
+    source: "@clarashih (Clara Shih) — CEO of Salesforce AI, How to Survive the SaaS Reckoning"
     outgoing: [agents-become-the-buyer, middleware-dies-infrastructure-survives, context-is-the-product-not-the-model, production-agents-route-decisions-not-every-call-to-llm]
     incoming: [open-source-captures-value-through-services-not-software]
 
@@ -90,7 +90,7 @@ nodes:
     title: "Software abundance unlocks entire categories of applications that never existed"
     description: "Software has always been more expensive than we can afford; when AI drops costs 10-20x, previously unviable software becomes economically possible"
     topics: [future-of-ai-business, ai-coding-tools]
-    source: "@danshipper"
+    source: "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance"
     outgoing: [technology-transitions-create-more-not-less, features-are-prompts-not-code, implementation-gap-collapsed]
     incoming: [technology-transitions-create-more-not-less]
 
@@ -98,7 +98,7 @@ nodes:
     title: "AI's self-improvement loop means each generation builds the next one faster"
     description: "GPT-5.3-Codex was instrumental in creating itself — recursive improvement compresses timelines and explains why building for obsolescence is the only safe strategy"
     topics: [future-of-ai-business, ai-agents]
-    source: "@mattshumer_ — Shumer thread on GPT-5.3"
+    source: "@mattshumer_ (Matt Shumer) — Something Big Is Happening"
     outgoing: [build-for-obsolescence-models-eat-scaffolding, dont-be-the-discriminator-be-the-patron, implementation-gap-collapsed]
     incoming: [build-for-obsolescence-models-eat-scaffolding, malleable-software-writes-its-own-extensions]
 
@@ -106,7 +106,7 @@ nodes:
     title: "Verification is the single highest-leverage practice for agent-assisted coding"
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
-    source: "Addy Osmani — AI-Assisted Engineering"
+    source: "Boris Cherny + Anthropic Official Best Practices"
     outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier]
     incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks]
 
@@ -114,7 +114,7 @@ nodes:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
     description: "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval"
     topics: [knowledge-systems, ai-agents]
-    source: "Rohit (@rohit4verse)"
+    source: "Ashpreet Bedi — Agents That Learn (Agno Framework)"
     outgoing: [agent-memory-preserves-institutional-knowledge, skills-as-markdown-replace-fine-tuning]
     incoming: [agent-memory-preserves-institutional-knowledge]
 
@@ -122,7 +122,7 @@ nodes:
     title: "Boring tech wins for AI-native startups — simpler stack means faster AI-assisted shipping"
     description: "React + Node + TypeScript + Postgres + Redis scales to $1M ARR with 3 engineers; monorepo is a superpower for AI coding assistants"
     topics: [ai-native-product-architecture, ai-coding-tools]
-    source: "@danshipper"
+    source: "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)"
     outgoing: [context-is-the-product-not-the-model, middleware-dies-infrastructure-survives]
     incoming: [agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think]
 
@@ -130,7 +130,7 @@ nodes:
     title: "Spec files are external memory that survives context resets"
     description: "A structured specs/ folder (design.md, implementation.md, decisions.md) bridges human intent and agent execution across sessions"
     topics: [knowledge-systems, ai-coding-tools]
-    source: "Addy Osmani"
+    source: "Ashpreet Bedi — Spec-First Development"
     outgoing: [files-are-the-universal-agent-interface, autonomous-loops-need-small-stories-and-fast-feedback, context-window-is-the-fundamental-constraint]
     incoming: [parallel-agents-create-management-problem-not-coding-problem, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery]
 
@@ -138,7 +138,7 @@ nodes:
     title: "Persistent agent memory preserves institutional knowledge that walks out the door with employees"
     description: "When agents maintain daily changelogs, decision logs, and work preferences, organizational knowledge survives personnel changes"
     topics: [knowledge-systems, ai-agents]
-    source: "Rohit (@rohit4verse)"
+    source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture"
     outgoing: [decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, cross-user-knowledge-transfer-needs-no-fine-tuning]
     incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining]
 
@@ -146,7 +146,7 @@ nodes:
     title: "Similarity is not relevance — relevance requires reasoning"
     description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning"
     topics: [ai-native-product-architecture]
-    source: "PageIndex paper / Nelson Elhage"
+    source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
     outgoing: [structure-plus-reasoning-beats-flat-similarity, agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model]
     incoming: [agentic-search-beats-rag-for-live-codebases, hybrid-search-is-the-default-not-the-exception, embeddings-measure-similarity-not-truth, evaluate-tools-with-real-multi-step-tasks]
 
@@ -154,7 +154,7 @@ nodes:
     title: "Structure plus reasoning beats flat similarity for complex domains"
     description: "Across documents, code, and skills, the same pattern holds: structured knowledge navigated by reasoning outperforms flat indexes searched by similarity"
     topics: [ai-native-product-architecture, knowledge-systems, ai-agents]
-    source: "Recurring pattern across PageIndex, Claude Code, skill graphs"
+    source: "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs"
     outgoing: [agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, files-are-the-universal-agent-interface, context-is-the-product-not-the-model]
     incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure]
 
@@ -162,7 +162,7 @@ nodes:
     title: "Agentic search beats RAG for live codebases"
     description: "Claude Code abandoned RAG and vector DB in favor of letting the agent grep/glob/read — reasoning about where to look outperforms pre-indexed similarity search"
     topics: [ai-native-product-architecture, ai-coding-tools]
-    source: "Boris Cherny (Claude Code team)"
+    source: "Boris Cherny (Claude Code team) — Twitter discussion with Daniel San"
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, context-window-is-the-fundamental-constraint, boring-tech-wins-for-ai-native-startups]
     incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning]
 
@@ -170,7 +170,7 @@ nodes:
     title: "PostgreSQL scales further than you think"
     description: "OpenAI runs ChatGPT on one PostgreSQL primary plus ~50 read replicas handling millions of QPS — no sharding, no specialized databases"
     topics: [ai-native-product-architecture]
-    source: "Evan Schwartz (OpenAI infrastructure)"
+    source: "OpenAI — https://openai.com/index/scaling-postgresql/"
     outgoing: [boring-tech-wins-for-ai-native-startups, three-layer-ai-stack-memory-search-reasoning, middleware-dies-infrastructure-survives]
     incoming: [hybrid-search-is-the-default-not-the-exception, three-layer-ai-stack-memory-search-reasoning]
 
@@ -178,7 +178,7 @@ nodes:
     title: "Response UX should match retrieval intelligence"
     description: "If your system uses semantic search to find results, the display should reflect that intelligence — keyword highlighting on semantic results creates a confusing mismatch"
     topics: [ai-native-product-architecture]
-    source: "Learning Technical Concepts chat"
+    source: "@akshay_pachaar — semantic highlighting research, Zilliz model"
     outgoing: [ui-moat-collapses-api-becomes-purchasing-criterion, three-layer-ai-stack-memory-search-reasoning, features-are-prompts-not-code]
     incoming: [hybrid-search-is-the-default-not-the-exception]
 
@@ -186,7 +186,7 @@ nodes:
     title: "Skill graphs enable progressive disclosure for complex domains"
     description: "Single skill files hit a ceiling — complex domains need interconnected knowledge that agents navigate progressively from index to description to links to sections to full content"
     topics: [knowledge-systems, ai-agents]
-    source: "@arscontexta (Heinrich)"
+    source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint]
     incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload]
 
@@ -194,7 +194,7 @@ nodes:
     title: "Open source captures value through services, not software"
     description: "Free software builds billion-dollar companies because the money is in support, cloud, and governance layers — not the code itself"
     topics: [business-models, future-of-ai-business]
-    source: "Learning Technical Concepts chat"
+    source: "Learning Technical Concepts chat — Ayush exploring open source revenue"
     outgoing: [middleware-dies-infrastructure-survives, saas-survives-as-governance-and-coordination-layer, context-is-the-product-not-the-model]
     incoming: [middleware-dies-infrastructure-survives]
 
@@ -202,7 +202,7 @@ nodes:
     title: "WebMCP turns websites into agent-native interfaces"
     description: "Chrome's MCP integration lets websites expose structured tools to agents instead of agents scraping and guessing at UI elements"
     topics: [ai-agents, ai-native-product-architecture]
-    source: "Chrome for Developers WebMCP announcement"
+    source: "Learning Technical Concepts chat — Chrome for Developers WebMCP announcement"
     outgoing: [ui-moat-collapses-api-becomes-purchasing-criterion, agents-become-the-buyer, features-are-prompts-not-code, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
     incoming: [agents-become-the-buyer]
 
@@ -210,7 +210,7 @@ nodes:
     title: "Prompt caching makes long context economically viable"
     description: "Prefix-matching cache enables 80%+ cost reduction for multi-turn conversations, making rich context systems affordable at scale"
     topics: [ai-native-product-architecture, ai-coding-tools]
-    source: "Learning Technical Concepts chat"
+    source: "Learning Technical Concepts chat — Thariq's prompt caching article"
     outgoing: [context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, context-is-the-product-not-the-model]
     incoming: [context-window-is-the-fundamental-constraint]
 
@@ -218,7 +218,7 @@ nodes:
     title: "Parallel agents create a management problem, not a coding problem"
     description: "When AI agents can work on multiple projects simultaneously, the bottleneck shifts from writing code to coordinating parallel workstreams"
     topics: [ai-coding-tools, ai-agents]
-    source: "Ryan Carson"
+    source: "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents"
     outgoing: [treat-ai-like-distributed-team-not-assistant, implementation-gap-collapsed, autonomous-loops-need-small-stories-and-fast-feedback, specs-are-external-memory-surviving-context-resets]
     incoming: [treat-ai-like-distributed-team-not-assistant]
 
@@ -226,7 +226,7 @@ nodes:
     title: "Don't be the discriminator — be the patron, not the judge"
     description: "Taste (selecting from AI output) is the function that gets automated first; participating in creation through friction and will is what endures"
     topics: [future-of-ai-business, knowledge-systems]
-    source: "@mattshumer_"
+    source: "@WillManidis (Will Manidis) — Against Taste"
     outgoing: [implementation-gap-collapsed, compound-engineering-makes-future-work-easier]
     incoming: [ai-self-improvement-loop-accelerates-everything, building-beats-following-for-ai-mastery]
 
@@ -242,7 +242,7 @@ nodes:
     title: "Technology transitions create more of the 'dying' thing, not less"
     description: "Every predicted death — mainframes, physical retail, traditional media — resulted in growth of both old and new; AI will create more software, not less"
     topics: [future-of-ai-business]
-    source: "@clarashih"
+    source: "@stevesi (Steven Sinofsky) — Death of Software?"
     outgoing: [software-abundance-unlocks-categories-that-never-existed, implementation-gap-collapsed, middleware-dies-infrastructure-survives]
     incoming: [software-abundance-unlocks-categories-that-never-existed, ai-winners-already-decided-by-infrastructure]
 
@@ -250,7 +250,7 @@ nodes:
     title: "Build for obsolescence — improving models will eat your scaffolding"
     description: "Every elaborate workaround you build today becomes unnecessary as models improve; design systems that gracefully shed complexity"
     topics: [ai-native-product-architecture, ai-agents]
-    source: "@danshipper"
+    source: "@nicbstme (Nicolas Bustamante) — Building AI Agents for Financial Services"
     outgoing: [skills-as-markdown-replace-fine-tuning, ai-self-improvement-loop-accelerates-everything, context-is-the-product-not-the-model]
     incoming: [features-are-prompts-not-code, ai-self-improvement-loop-accelerates-everything, malleable-software-writes-its-own-extensions]
 
@@ -258,7 +258,7 @@ nodes:
     title: "Hybrid search is the default, not the exception"
     description: "Neither keyword nor semantic search alone is complete — combining BM25 and vector search with reranking is the baseline for production systems"
     topics: [ai-native-product-architecture]
-    source: "Learning Technical Concepts chat"
+    source: "QMD by Tobi Lütke, pg_textsearch by Timescale, TigerData BM25 article"
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, three-layer-ai-stack-memory-search-reasoning, postgresql-scales-further-than-you-think, response-ux-should-match-retrieval-intelligence]
     incoming: [three-layer-ai-stack-memory-search-reasoning]
 
@@ -266,7 +266,7 @@ nodes:
     title: "AI kills middleware — infrastructure and expert judgment survive"
     description: "Companies that sell 'easy buttons' for technical chores die; physical infrastructure, expert judgment, and deep domain tools endure"
     topics: [business-models, future-of-ai-business]
-    source: "@clarashih"
+    source: "@MylesMarino1 (Myles Marino) — 2025 Vendor Audit"
     outgoing: [ai-winners-already-decided-by-infrastructure, ui-moat-collapses-api-becomes-purchasing-criterion, open-source-captures-value-through-services-not-software]
     incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, boring-tech-wins-for-ai-native-startups, postgresql-scales-further-than-you-think, technology-transitions-create-more-not-less, agents-become-the-buyer, ai-winners-already-decided-by-infrastructure]
 
@@ -274,7 +274,7 @@ nodes:
     title: "B2B becomes B2A — agents become the buyer"
     description: "Software is increasingly consumed by agents, not humans; the agent recommends, the human approves"
     topics: [future-of-ai-business, business-models]
-    source: "@clarashih"
+    source: "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API"
     outgoing: [webmcp-turns-websites-into-agent-native-interfaces, ui-moat-collapses-api-becomes-purchasing-criterion, middleware-dies-infrastructure-survives]
     incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, webmcp-turns-websites-into-agent-native-interfaces]
 
@@ -282,7 +282,7 @@ nodes:
     title: "Treat AI like a distributed team, not a single assistant"
     description: "Running 15 parallel Claude streams with specialized roles produces better results than one perfect conversation"
     topics: [ai-coding-tools, ai-agents]
-    source: "Addy Osmani"
+    source: "Boris Cherny — Creator of Claude Code"
     outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, parallel-agents-create-management-problem-not-coding-problem]
     incoming: [parallel-agents-create-management-problem-not-coding-problem]
 
@@ -290,7 +290,7 @@ nodes:
     title: "Evolving summaries beat append-only memory — rewrite profiles, don't accumulate facts"
     description: "An evolve_summary() function that rewrites category profiles with new information handles contradictions naturally, unlike append-only logs"
     topics: [knowledge-systems, ai-agents]
-    source: "Rohit (@rohit4verse)"
+    source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets]
     incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining]
 
@@ -298,7 +298,7 @@ nodes:
     title: "Treat an agent as an operating system, not a stateless function"
     description: "Agents need RAM (conversation context), a hard drive (persistent memory), garbage collection (decay/pruning), and I/O management (tools)"
     topics: [ai-agents, knowledge-systems]
-    source: "Rohit (@rohit4verse)"
+    source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, three-layer-ai-stack-memory-search-reasoning, error-memory-enables-learning-without-retraining]
     incoming: [context-window-is-the-fundamental-constraint]
 
@@ -306,7 +306,7 @@ nodes:
     title: "Tiered retrieval prevents context overload — summaries first, details on demand"
     description: "Reading category summaries first, then drilling to items, then raw resources only if needed keeps memory retrieval within token budgets"
     topics: [ai-native-product-architecture, knowledge-systems]
-    source: "Rohit (@rohit4verse)"
+    source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, embeddings-measure-similarity-not-truth]
     incoming: [three-layer-ai-stack-memory-search-reasoning]
 
@@ -314,7 +314,7 @@ nodes:
     title: "Session capture turns ephemeral AI conversations into a compounding knowledge base"
     description: "shadcn's /done pattern — dumping key decisions to markdown after each session — applies file-based memory architecture to development workflow"
     topics: [ai-coding-tools, knowledge-systems]
-    source: "shadcn"
+    source: "shadcn (via X/Twitter) — /done skill pattern"
     outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets, decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
     incoming: [compound-engineering-makes-future-work-easier]
 
@@ -322,7 +322,7 @@ nodes:
     title: "The AI gold rush winners are already decided by infrastructure ownership"
     description: "Unlike previous waves, AI's opportunity structure is pre-consolidated — NVIDIA, hyperscalers, foundation labs, and data monopolies hold structural advantages"
     topics: [future-of-ai-business, business-models]
-    source: "@clarashih"
+    source: "@natashamalpani (Natasha Malpani) — The AI Gold Rush"
     outgoing: [middleware-dies-infrastructure-survives, implementation-gap-collapsed, technology-transitions-create-more-not-less]
     incoming: [middleware-dies-infrastructure-survives]
 
@@ -330,7 +330,7 @@ nodes:
     title: "Embeddings measure similarity, not truth — vector databases have a temporal blind spot"
     description: "Vector search can't resolve contradictions or understand time; 'I love my job' and 'I'm quitting' retrieve with equal confidence"
     topics: [knowledge-systems, ai-native-product-architecture]
-    source: "Rohit (@rohit4verse)"
+    source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, three-layer-ai-stack-memory-search-reasoning, evolving-summaries-beat-append-only-memory]
     incoming: [tiered-retrieval-prevents-context-overload]
 
@@ -338,7 +338,7 @@ nodes:
     title: "The context window is the fundamental constraint — everything else follows"
     description: "Every best practice in AI coding (subagents, /clear, focused tasks, specs files) traces back to managing a single scarce resource: context"
     topics: [ai-coding-tools, ai-agents]
-    source: "Addy Osmani — AI-Assisted Engineering"
+    source: "Anthropic Official Best Practices + Jarrod Watts"
     outgoing: [context-is-the-product-not-the-model, treat-agent-as-operating-system-not-function, prompt-caching-makes-long-context-economically-viable, declarative-beats-imperative-for-agents]
     incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
@@ -346,7 +346,7 @@ nodes:
     title: "The three-layer AI stack: Memory, Search, Reasoning"
     description: "The emerging AI product architecture has three layers — Memory, Search, Reasoning — all running on PostgreSQL"
     topics: [ai-native-product-architecture, ai-agents]
-    source: "Rohit (@rohit4verse)"
+    source: "Synthesis from Supermemory, QMD, PageIndex, and OpenAI scaling discussions"
     outgoing: [hybrid-search-is-the-default-not-the-exception, agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tiered-retrieval-prevents-context-overload]
     incoming: [postgresql-scales-further-than-you-think, response-ux-should-match-retrieval-intelligence, prompt-caching-makes-long-context-economically-viable, hybrid-search-is-the-default-not-the-exception, treat-agent-as-operating-system-not-function, embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining]
 
@@ -354,7 +354,7 @@ nodes:
     title: "The implementation gap collapsed — clarity is the new technical skill"
     description: "The space between wanting something and having it closed; the ability to describe what you want precisely replaced the ability to build it"
     topics: [future-of-ai-business, ai-coding-tools]
-    source: "@karpathy"
+    source: "@WorkflowWhisper (Alton Syn) — The n8n Gap Closed"
     outgoing: [technical-knowledge-becomes-liability, declarative-beats-imperative-for-agents, building-beats-following-for-ai-mastery]
     incoming: [technical-knowledge-becomes-liability, software-abundance-unlocks-categories-that-never-existed, ai-self-improvement-loop-accelerates-everything, dont-be-the-discriminator-be-the-patron, parallel-agents-create-management-problem-not-coding-problem, technology-transitions-create-more-not-less, ai-winners-already-decided-by-infrastructure]
 
@@ -362,7 +362,7 @@ nodes:
     title: "Compound engineering makes each unit of work improve all future work"
     description: "The Plan 40% / Work 20% / Review 40% ratio ensures learning compounds across iterations, not just code"
     topics: [ai-coding-tools, knowledge-systems]
-    source: "Addy Osmani"
+    source: "Benjamin De Kraker — Compound Engineering"
     outgoing: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
     incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks]
 
@@ -370,7 +370,7 @@ nodes:
     title: "Building real projects teaches AI skills faster than following structured curricula"
     description: "A non-technical user who built a production WhatsApp bot reached 'Operator' level that a 30-day AI mastery roadmap targets — through building, not studying"
     topics: [ai-coding-tools, knowledge-systems]
-    source: "Personal experience — Ayush"
+    source: "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap"
     outgoing: [compound-engineering-makes-future-work-easier, specs-are-external-memory-surviving-context-resets, dont-be-the-discriminator-be-the-patron]
     incoming: [implementation-gap-collapsed]
 
@@ -386,7 +386,7 @@ nodes:
     title: "Malleable software — a tiny core that writes its own plugins — replaces fixed-feature applications"
     description: "Instead of adapting your workflow to the tool, the tool observes your workflow and extends itself to match it"
     topics: [ai-agents, future-of-ai-business]
-    source: "@tolobi (Shopify CEO)"
+    source: "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot"
     outgoing: [features-are-prompts-not-code, ai-self-improvement-loop-accelerates-everything, build-for-obsolescence-models-eat-scaffolding]
     incoming: [features-are-prompts-not-code]
 
@@ -394,7 +394,7 @@ nodes:
     title: "Agents that store error patterns learn continuously without fine-tuning or retraining"
     description: "Dash's 'GPU-poor continuous learning' separates validated knowledge from error-driven learnings — five lines of code replaces expensive retraining"
     topics: [ai-agents, ai-native-product-architecture]
-    source: "@ashpreetbedi — Dash"
+    source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
     outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning]
     incoming: [treat-agent-as-operating-system-not-function]
 
@@ -402,7 +402,7 @@ nodes:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
     description: "Agent tools must be designed for how agents think (context-limited, non-deterministic, description-dependent), not how programmers think"
     topics: [ai-agents, ai-coding-tools]
-    source: "Anthropic Engineering"
+    source: "Anthropic Engineering — Writing Effective Tools for Agents"
     outgoing: [context-window-is-the-fundamental-constraint, declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier]
     incoming: [webmcp-turns-websites-into-agent-native-interfaces]
 
@@ -410,6 +410,6 @@ nodes:
     title: "Evaluate agent tools with real multi-step tasks, not toy single-call examples"
     description: "Weak evaluation tasks hide tool design flaws — strong tasks require chained calls, ambiguity resolution, and verifiable outcomes"
     topics: [ai-agents, ai-coding-tools]
-    source: "Anthropic Engineering"
+    source: "Anthropic Engineering — Writing Effective Tools for Agents"
     outgoing: [verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier]
     incoming: [autonomous-loops-need-small-stories-and-fast-feedback]
