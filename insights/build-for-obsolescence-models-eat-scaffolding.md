@@ -1,13 +1,13 @@
 ---
 title: "Build for obsolescence — improving models will eat your scaffolding"
-description: "Every elaborate workaround you build today becomes unnecessary as models improve; design systems that gracefully shed complexity"
+description: "Every elaborate skill workaround you build today simplifies as models improve; design skills that gracefully shed complexity while keeping sandboxes and evals permanent"
 topics: [ai-native-product-architecture, ai-agents]
-source: "@nicbstme (Nicolas Bustamante) — Building AI Agents for Financial Services"
+source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
 date: 2026-02-24
 ---
 
-Everything Bustamante told his audience about skills, sandboxes, and evaluation systems? He says it's temporary. Models are improving so fast that elaborate workarounds become unnecessary. The practical advice: build for obsolescence and delete scaffolding when it becomes unnecessary.
+Bustamante's uncomfortable truth: "everything I just told you about skills? It's temporary." Models improve so fast that elaborate scaffolding becomes unnecessary — "every few months, there's a new model that makes half your code obsolete." The practical advice: write skills, delete them when they become unnecessary, and actively feed model limitations back to AI labs to accelerate their obsolescence.
 
-This is especially relevant for [[skills-as-markdown-replace-fine-tuning]] — today's skill files may themselves become unnecessary as models internalize domain knowledge. The key design principle is building systems that gracefully shed complexity rather than accumulating it.
+Crucially, this applies to **skills and scaffolding only** — not to sandboxes or evaluation systems. Bustamante is explicit: "The Sandbox Is Not Optional" and "Evaluation Is Not Optional." The temporary layer is the workaround code; the permanent layer is the safety and quality infrastructure.
 
-The [[ai-self-improvement-loop-accelerates-everything]] Shumer describes amplifies this urgency: GPT-5.3-Codex was instrumental in creating itself, each generation helps build the next, faster and smarter. Clara Shih at Salesforce adds a nuance — a game-changing new LLM drops every few months, so being locked to one provider is irresponsible. The systems that survive are those built on [[context-is-the-product-not-the-model]], where the value is in the context layer, not the model layer.
+His prediction: "in two years, most of our basic skills will be one-liners." Skills don't disappear — they simplify for routine tasks while the frontier shifts to harder problems. As basic tasks get commoditized, teams push into more complex territory. This connects to [[skills-as-markdown-replace-fine-tuning]] — today's skill files will evolve and simplify, not vanish. The key design principle is building systems that gracefully shed complexity while the value stays in [[context-is-the-product-not-the-model]] — the context layer, not the model layer.

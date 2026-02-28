@@ -6,6 +6,6 @@ source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
 date: 2026-02-24
 ---
 
-Elvis's agent swarm doesn't just use multiple models for generation — it uses three different models to review every PR before human approval. This is adversarial by design: each model has different training data, different blindspots, and different strengths. What Claude misses, Codex might catch; what Codex overlooks, Gemini might flag.
+Elvis's agent swarm doesn't just use multiple models for generation — it uses three different models to review every PR before human approval. The effect is adversarial: requiring all three models to pass before merging means each model's blindspots are covered by the others.
 
 This multiplies the insight from [[verification-multiplies-agent-output-quality]]: if verification 2-3x quality, verification by diverse verifiers compounds further. It's the code review equivalent of [[treat-ai-like-distributed-team-not-assistant]] — not just parallel work, but parallel judgment. Combined with [[evaluate-tools-with-real-multi-step-tasks]], the implication is that evaluation itself benefits from model diversity, not just task execution.

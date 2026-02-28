@@ -2,7 +2,7 @@
 title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
 description: "Agent tools must be designed for how agents think (context-limited, non-deterministic, description-dependent), not how programmers think"
 topics: [ai-agents, ai-coding-tools]
-source: "Anthropic Engineering — Writing Effective Tools for Agents"
+source: "Anthropic Engineering — Writing Effective Tools for AI Agents — Using AI Agents"
 date: 2026-02-24
 ---
 

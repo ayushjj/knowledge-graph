@@ -6,7 +6,7 @@ source: "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase"
 date: 2026-02-28
 ---
 
-Traditional databases haven't fundamentally changed since the 1980s — compute and storage bound together, rigid provisioning, proprietary formats, constant specialist oversight.
+Traditional databases bundle compute and storage together — a monolithic architecture that means, rigid provisioning, proprietary formats, constant specialist oversight.
 
 Lakebases are the third generation:
 - **Gen 1 (Monolith):** MySQL, Postgres, Oracle — compute and storage on one machine, proprietary formats

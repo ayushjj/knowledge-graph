@@ -2,7 +2,7 @@
 title: "Technical knowledge can become a liability when working with AI"
 description: "Experts get stuck on implementation details while novices describe outcomes and ship faster"
 topics: [ai-coding-tools, future-of-ai-business]
-source: "@WorkflowWhisper (Alton Syn) — The n8n Gap Closed"
+source: "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing"
 date: 2026-02-24
 ---
 

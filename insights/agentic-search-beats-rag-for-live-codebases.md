@@ -2,7 +2,7 @@
 title: "Agentic search beats RAG for live codebases"
 description: "Claude Code abandoned RAG and vector DB in favor of letting the agent grep/glob/read — reasoning about where to look outperforms pre-indexed similarity search for code"
 topics: [ai-native-product-architecture, ai-coding-tools]
-source: "Boris Cherny (Claude Code team) — Twitter discussion with Daniel San"
+source: "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik"
 date: 2026-02-24
 ---
 
