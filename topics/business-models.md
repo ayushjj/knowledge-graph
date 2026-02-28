@@ -21,3 +21,5 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[context-is-the-product-not-the-model]] — Differentiation lives in data + skills + domain, not model choice
 - [[saas-survives-as-governance-and-coordination-layer]] — Determinism, coordination, and accountability layers endure
 - [[open-source-captures-value-through-services-not-software]] — Free software builds billion-dollar companies; money is in services/cloud/governance
+- [[saas-grows-but-consolidates-around-platforms]] — AI makes the biggest SaaS moats bigger; 5-10 individual trillion-dollar companies, not fragmentation
+- [[model-market-fit-before-product-market-fit]] — Without model-market fit, no amount of product excellence drives adoption (87% legal vs 56% finance)

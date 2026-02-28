@@ -47,3 +47,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[deputies-and-sheriffs-distribute-agent-authority]] — Two-tier agent hierarchy: personal Deputies + organizational Sheriffs
 - [[orchestrator-agent-replaces-human-coordination]] — Meta-agent spawns, routes, and monitors specialized agents autonomously
 - [[multi-model-ensemble-catches-single-model-blindspots]] — Triple-model review exploits diverse failure modes for emergent coverage
+- [[tool-design-is-continuous-observation-see-like-an-agent]] — Tool design is iterative observation: watch the model, reshape the tool, repeat
+- [[multi-model-orchestration-beats-any-single-family]] — AI is the computer: Perplexity orchestrates 19 models as a unified agent system

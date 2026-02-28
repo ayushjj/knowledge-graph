@@ -33,3 +33,6 @@ AI's self-improvement loop compresses everything — each generation builds the 
 - [[personal-software-grows-through-relationship-not-configuration]] — Software evolves a personality in response to its user
 - [[agent-trust-transfers-from-human-credibility]] — Agent adoption spreads through human credibility chains
 - [[deputies-and-sheriffs-distribute-agent-authority]] — Distributed agent organizations replace centralized software
+- [[rigid-schemas-exist-because-rigid-apps-demand-them]] — Agents eat your system of record; SaaS becomes a dumb write endpoint, data moats evaporate
+- [[saas-grows-but-consolidates-around-platforms]] — No SaaSpocalypse — AI strengthens incumbent moats; people and relationships beat cheap code
+- [[model-market-fit-before-product-market-fit]] — Model-market fit precedes product-market fit in AI startups

@@ -41,3 +41,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[tiered-retrieval-prevents-context-overload]] — Summaries → items → raw resources; LLM decides at each tier if it has enough
 - [[production-agents-route-decisions-not-every-call-to-llm]] — Decision trees for routine cases, LLMs only for ambiguity in production
 - [[error-memory-enables-learning-without-retraining]] — Dash's six context layers enable GPU-poor continuous learning
+- [[rigid-schemas-exist-because-rigid-apps-demand-them]] — Agents clone entire CRMs in seconds; the rigid app was the constraint, data moats evaporate
+- [[lakebases-decouple-compute-from-storage]] — Third-gen databases: serverless Postgres on cloud object stores, instant branching, scale to zero
+- [[multi-model-orchestration-beats-any-single-family]] — The computer is the orchestration system: 19 models as unified intelligence

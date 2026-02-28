@@ -28,3 +28,4 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[tiered-retrieval-prevents-context-overload]] — Summaries first, details on demand keeps retrieval within token budgets
 - [[building-beats-following-for-ai-mastery]] — Real projects teach AI skills faster than structured curricula
 - [[session-capture-compounds-development-knowledge]] — shadcn's /done pattern turns ephemeral sessions into compounding knowledge
+- [[harness-engineers-need-docs-as-first-class-output]] — Harness engineering: AGENTS.md as map, doc-gardening agents, documentation as system of record

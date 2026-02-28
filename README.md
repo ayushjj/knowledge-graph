@@ -1,6 +1,6 @@
 # AI Product Building Knowledge Graph
 
-50 curated insights about building AI products — structured for both human browsing and agent traversal.
+62 curated insights about building AI products — structured for both human browsing and agent traversal.
 
 ## Why this exists
 
@@ -110,7 +110,13 @@ These ideas belong to the people below — I'm just the curator who connected th
 - **Heinrich ([@arscontexta](https://twitter.com/arscontexta))** — Skill graphs, progressive disclosure
 - **[shadcn](https://twitter.com/shadcn)** — Session capture patterns
 - **Jarrod Watts** — Context window constraints
+- **Zain Hoda ([@zain_hoda](https://twitter.com/zain_hoda))** — Rigid schemas, files as database, Vanna AI
+- **Thariq ([@trq212](https://twitter.com/trq212))** — Tool design for agents, Claude Code lessons
+- **Databricks (Ali Ghodsi, Matei Zaharia et al.)** — Lakebase architecture
+- **Konstantine Buhler ([@Konstantine](https://twitter.com/Konstantine))** — SaaS consolidation, Sequoia Capital
 - **[VectifyAI](https://github.com/VectifyAI/PageIndex)** — PageIndex, similarity vs. relevance
+- **OpenAI Codex Team** — Harness engineering, humans steer / agents execute
+- **Aravind Srinivas ([@AravSrinivas](https://twitter.com/AravSrinivas))** — AI is the computer, 19-model orchestration (Perplexity)
 
 ## How it grows
 
