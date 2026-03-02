@@ -1,0 +1,14 @@
+---
+title: "Excessive self-regard makes fixable failures persist — people excuse poor performance instead of correcting it"
+description: "The Tolstoy effect causes people to rationalize fixable shortcomings rather than address them, requiring meritocratic culture and objective evaluation as antidotes"
+topics: [psychology, decision-making]
+source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)"
+date: 2026-03-02
+domain: "mental-models"
+---
+
+Munger describes Excessive Self-Regard Tendency as universal and quantifiable: "ninety percent of Swedish drivers judge themselves to be above average." The tendency inflates appraisals of one's own possessions (the "endowment effect"), one's own decisions (which are "suddenly regarded by him as better than would have been the case just before he made them"), and one's own conclusions — which is why self-picked lottery numbers generate far more sales than randomly assigned ones, despite nearly identical odds.
+
+The most damaging manifestation is what Munger calls the "Tolstoy effect." Tolstoy observed that "the worst criminals don't appraise themselves as all that bad" — they believe either that they didn't commit their crimes or that circumstances made their behavior understandable. The second half of this effect is worse: "the man makes excuses for his fixable poor performance, instead of providing the fix." This is enormously important because "a majority of mankind will try to get along by making way too many unreasonable excuses for fixable poor performance." The antidote one father used: when his son took candy from his employer's stock claiming he'd replace it later, the father said, "Son, it would be better for you to simply take all you want and call yourself a thief every time you do it." Strip away the rationalization and force confrontation with what the behavior actually is.
+
+The institutional antidotes are structural: "a fair, meritocratic, demanding culture plus personnel handling methods that build up morale" combined with "severance of the worst offenders." In hiring, Munger prescribes underweighting face-to-face impressions and overweighting the applicant's past record — citing Hewlett-Packard's costly mistake with Carly Fiorina as a case where an "articulate, dynamic" presenter overcame objective evaluation. This parallels [[verification-multiplies-agent-output-quality]] — when self-assessment is systematically biased upward, only external verification catches the gap. It also connects to [[first-conclusions-become-nearly-permanent]] — once a person forms a positive self-appraisal, Inconsistency-Avoidance Tendency locks it in, making the combination of these two tendencies particularly resistant to correction.

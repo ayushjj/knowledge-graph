@@ -1,0 +1,12 @@
+---
+title: "Small concessions trigger disproportionate reciprocation — even at the subconscious level"
+description: "Reciprocation Tendency operates below conscious awareness, making tiny favors or concessions produce outsized compliance — the only reliable defense is structural prohibition"
+topics: [psychology, decision-making]
+source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 537-545)"
+date: 2026-03-02
+domain: "mental-models"
+---
+
+Munger places Reciprocation Tendency among the most powerful human drives, noting it "facilitates group cooperation" but is easily weaponized. Cialdini's campus experiment demonstrated the mechanism precisely: when practitioners asked strangers to supervise juvenile delinquents at a zoo, one in six agreed. But when they first made an absurd request (two years of weekly supervision), got rejected, then "conceded" down to the zoo trip, acceptance tripled to one in two. The practitioners' small concession was subconsciously reciprocated by a concession from the other side — people ended up "irrationally agreeing to go to a zoo with juvenile delinquents." Munger believes this same subconscious reciprocation caused the Watergate burglary: an aggressive subordinate proposed an extreme plan involving "whores and a gigantic yacht," and when rejected, backed off "in gracious concession" to merely requesting a burglary — and the attorney general went along.
+
+The antidotes split into personal and structural. Tom Murphy's personal rule — "You can always tell the man off tomorrow if it is such a good idea" — defers reciprocated hostility. But for reciprocated favors, structural prohibition works best: Sam Walton "wouldn't let purchasing agents accept so much as a hot dog from a vendor." This connects to [[systems-that-prevent-bad-behavior-beat-moral-appeals]] — Walton understood that the subconscious operation of reciprocation makes willpower an unreliable defense. Even in warfare, reciprocation operates constructively: "Weird pauses in fighting" occurred in WWI trench warfare, "triggered by some minor courtesy or favor on the part of one side," cascading into extended ceasefire periods "much to the dismay of the generals." The tendency is neither good nor bad — it's a force multiplier that amplifies whatever direction it's pointed, making [[incentive-caused-bias-makes-good-people-rationalize]] even more dangerous when combined with small favors from those with misaligned incentives.

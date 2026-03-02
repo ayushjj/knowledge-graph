@@ -16,13 +16,14 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[structure-plus-reasoning-beats-flat-similarity]] — spans architecture, knowledge systems, agents
 
 ## Recent Additions
+- [[confluence-of-tendencies-produces-extreme-outcomes]] — lollapalooza effects emerge when multiple biases push the same direction (2026-03-02)
+- [[social-proof-makes-groups-passive-before-visible-harm]] — conformity overrides individual judgment even in life-or-death situations (2026-03-02)
+- [[excessive-self-regard-makes-fixable-failures-persist]] — the Tolstoy effect: people excuse poor performance instead of correcting it (2026-03-02)
+- [[small-concessions-trigger-disproportionate-reciprocation]] — tiny favors produce outsized compliance at the subconscious level (2026-03-02)
+- [[incentive-caused-bias-makes-good-people-rationalize]] — incentive structures cause ethical drift and self-serving rationalization (2026-03-02)
+- [[systems-that-prevent-bad-behavior-beat-moral-appeals]] — design the cash register, not the sermon (2026-03-02)
+- [[first-conclusions-become-nearly-permanent]] — the brain's anti-change mode resists updating even wrong beliefs (2026-03-02)
 - [[orchestrator-agent-replaces-human-coordination]] — meta-agent spawns, routes, and monitors specialized agents autonomously (2026-02-24)
 - [[multi-model-ensemble-catches-single-model-blindspots]] — triple-model review creates adversarial robustness (2026-02-24)
 - [[personal-software-grows-through-relationship-not-configuration]] — agents evolve personality through interaction, not configuration (2026-02-24)
 - [[agent-trust-transfers-from-human-credibility]] — colleagues adopt agents operated by people they trust (2026-02-24)
-- [[deputies-and-sheriffs-distribute-agent-authority]] — two-tier agent hierarchy replaces centralized software (2026-02-24)
-- [[production-agents-route-decisions-not-every-call-to-llm]] — decision trees for routine cases, LLMs only for ambiguity (2026-02-24)
-- [[malleable-software-writes-its-own-extensions]] — tiny core + self-extension replaces fixed-feature applications (2026-02-24)
-- [[error-memory-enables-learning-without-retraining]] — store error patterns to learn continuously without fine-tuning (2026-02-24)
-- [[tools-are-contracts-between-deterministic-and-nondeterministic-systems]] — agent tools are a new software category (2026-02-24)
-- [[evaluate-tools-with-real-multi-step-tasks]] — strong eval tasks require chained calls and verifiable outcomes (2026-02-24)

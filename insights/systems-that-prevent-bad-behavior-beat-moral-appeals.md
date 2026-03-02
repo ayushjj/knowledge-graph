@@ -1,0 +1,12 @@
+---
+title: "Systems that prevent bad behavior beat moral appeals — design the cash register, not the sermon"
+description: "People who create mechanisms making dishonest behavior hard to accomplish are more effective than those who preach against dishonesty"
+topics: [psychology, engineering]
+source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)"
+date: 2026-03-02
+domain: "mental-models"
+---
+
+Munger argues that "people who create things like cash registers, which make dishonest behavior hard to accomplish, are some of the effective saints of our civilization." The pattern repeats across his examples: Federal Express couldn't get its night shift to work fast enough through "moral suasion" or "everything in the world" — but when they switched from paying by the hour to paying per shift (go home when planes are loaded), "lo and behold, that solution worked." Patterson's cash register invention came from personal experience — "his employees were stealing him blind" until the register made theft mechanically difficult. Westinghouse's accounting disaster shows the inverse: when the system *enabled* bad behavior (accounting that showed high starting income on risky loans), even well-meaning lending officers drifted into reckless decisions.
+
+The principle is that system design is a moral act. Sound accounting, proper incentive structures, and mechanical controls do more to prevent [[incentive-caused-bias-makes-good-people-rationalize]] than any amount of ethics training. This parallels the AI product architecture insight that [[production-agents-route-decisions-not-every-call-to-llm]] — routing routine decisions through deterministic systems rather than trusting judgment for every case. Munger's framing elevates engineering from a technical discipline to an ethical one: designing the constraints is where the real moral leverage lives.

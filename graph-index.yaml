@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-02
-node_count: 58
+node_count: 65
 domains: [ai, mental-models]
 
 nodes:
@@ -44,7 +44,7 @@ nodes:
     description: "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode"
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
-    outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning]
+    outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning]
     incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning]
 
   skills-as-markdown-replace-fine-tuning:
@@ -92,7 +92,7 @@ nodes:
     description: "When non-deterministic AI feeds into deterministic systems (databases, approvals, audit trails), the deterministic system governs; SaaS is that system"
     topics: [business-models, future-of-ai-business]
     source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"
-    outgoing: [agents-become-the-buyer, context-is-the-product-not-the-model, production-agents-route-decisions-not-every-call-to-llm, saas-grows-but-consolidates-around-platforms]
+    outgoing: [agents-become-the-buyer, context-is-the-product-not-the-model, open-source-captures-value-through-services-not-software, production-agents-route-decisions-not-every-call-to-llm, saas-grows-but-consolidates-around-platforms]
     incoming: [open-source-captures-value-through-services-not-software, agent-trust-transfers-from-human-credibility, deputies-and-sheriffs-distribute-agent-authority, saas-grows-but-consolidates-around-platforms]
 
   software-abundance-unlocks-categories-that-never-existed:
@@ -117,7 +117,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -132,7 +132,7 @@ nodes:
     description: "React + Node + TypeScript + Postgres + Redis scales to $1M ARR with 3 engineers; monorepo is a superpower for AI coding assistants"
     topics: [ai-native-product-architecture, ai-coding-tools]
     source: "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)"
-    outgoing: [context-is-the-product-not-the-model]
+    outgoing: [context-is-the-product-not-the-model, lakebases-decouple-compute-from-storage]
     incoming: [agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, lakebases-decouple-compute-from-storage]
 
   specs-are-external-memory-surviving-context-resets:
@@ -212,7 +212,7 @@ nodes:
     description: "Instead of humans managing AI agents, a meta-agent spawns specialized agents, routes tasks by model strength, and monitors progress"
     topics: [ai-agents, ai-coding-tools]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
-    outgoing: [parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, treat-ai-like-distributed-team-not-assistant]
+    outgoing: [parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, social-proof-makes-groups-passive-before-visible-harm, treat-ai-like-distributed-team-not-assistant]
     incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant]
 
   open-source-captures-value-through-services-not-software:
@@ -221,7 +221,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "Learning Technical Concepts chat — Ayush exploring open source revenue"
     outgoing: [saas-survives-as-governance-and-coordination-layer, context-is-the-product-not-the-model]
-    incoming: []
+    incoming: [saas-survives-as-governance-and-coordination-layer]
 
   webmcp-turns-websites-into-agent-native-interfaces:
     title: "WebMCP turns websites into agent-native interfaces"
@@ -252,7 +252,7 @@ nodes:
     description: "Taste (selecting from AI output) is the function that gets automated first; participating in creation through friction and will is what endures"
     topics: [future-of-ai-business, knowledge-systems]
     source: "@WillManidis (Will Manidis) — Against Taste"
-    outgoing: [compound-engineering-makes-future-work-easier]
+    outgoing: [building-beats-following-for-ai-mastery, compound-engineering-makes-future-work-easier]
     incoming: [ai-self-improvement-loop-accelerates-everything, building-beats-following-for-ai-mastery]
 
   autonomous-loops-need-small-stories-and-fast-feedback:
@@ -286,7 +286,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
     outgoing: [verification-multiplies-agent-output-quality, treat-ai-like-distributed-team-not-assistant, evaluate-tools-with-real-multi-step-tasks]
-    incoming: [multi-model-orchestration-beats-any-single-family, verification-multiplies-agent-output-quality, treat-ai-like-distributed-team-not-assistant]
+    incoming: [multi-model-orchestration-beats-any-single-family, verification-multiplies-agent-output-quality, treat-ai-like-distributed-team-not-assistant, confluence-of-tendencies-produces-extreme-outcomes]
 
 
   agent-trust-transfers-from-human-credibility:
@@ -310,7 +310,7 @@ nodes:
     description: "Running 15 parallel Claude streams with specialized roles produces better results than one perfect conversation"
     topics: [ai-coding-tools, ai-agents]
     source: "Boris Cherny — Creator of Claude Code"
-    outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots]
+    outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots]
     incoming: [parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, multi-model-orchestration-beats-any-single-family]
 
   evolving-summaries-beat-append-only-memory:
@@ -319,7 +319,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets]
-    incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining]
+    incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining, first-conclusions-become-nearly-permanent]
 
   treat-agent-as-operating-system-not-function:
     title: "Treat an agent as an operating system, not a stateless function"
@@ -376,7 +376,7 @@ nodes:
     description: "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learning compounds across iterations, not just code"
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
-    outgoing: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
+    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
     incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output]
 
   building-beats-following-for-ai-mastery:
@@ -385,7 +385,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap"
     outgoing: [compound-engineering-makes-future-work-easier, specs-are-external-memory-surviving-context-resets, dont-be-the-discriminator-be-the-patron]
-    incoming: []
+    incoming: [dont-be-the-discriminator-be-the-patron]
 
   production-agents-route-decisions-not-every-call-to-llm:
     title: "Production agents route routine cases through decision trees, reserving humans for complexity"
@@ -393,7 +393,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@vasuman — AI Agents 101"
     outgoing: [declarative-beats-imperative-for-agents, verification-multiplies-agent-output-quality, context-is-the-product-not-the-model]
-    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family]
+    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals]
 
   malleable-software-writes-its-own-extensions:
     title: "Malleable software — a tiny core that writes its own plugins — replaces fixed-feature applications"
@@ -424,7 +424,7 @@ nodes:
     description: "Weak evaluation tasks hide tool design flaws — strong tasks require chained calls, ambiguity resolution, and verifiable outcomes"
     topics: [ai-agents, ai-coding-tools]
     source: "Anthropic Engineering — Writing Effective Tools for Agents"
-    outgoing: [verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier]
+    outgoing: [confluence-of-tendencies-produces-extreme-outcomes, verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier]
     incoming: [autonomous-loops-need-small-stories-and-fast-feedback, multi-model-ensemble-catches-single-model-blindspots]
 
   rigid-schemas-exist-because-rigid-apps-demand-them:
@@ -449,7 +449,7 @@ nodes:
     topics: [ai-native-product-architecture]
     source: "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase"
     outgoing: [rigid-schemas-exist-because-rigid-apps-demand-them, boring-tech-wins-for-ai-native-startups]
-    incoming: []
+    incoming: [boring-tech-wins-for-ai-native-startups]
 
   saas-grows-but-consolidates-around-platforms:
     title: "AI won't destroy SaaS moats — it'll make the biggest ones even bigger"
@@ -465,7 +465,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
     outgoing: [context-is-the-product-not-the-model]
-    incoming: []
+    incoming: [context-is-the-product-not-the-model]
 
   harness-engineers-need-docs-as-first-class-output:
     title: "Harness engineering — humans steer, agents execute, documentation is the system of record"
@@ -473,7 +473,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
     outgoing: [specs-are-external-memory-surviving-context-resets, declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, verification-multiplies-agent-output-quality, files-are-the-universal-agent-interface]
-    incoming: []
+    incoming: [compound-engineering-makes-future-work-easier]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -481,4 +481,67 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer"
     outgoing: [multi-model-ensemble-catches-single-model-blindspots, orchestrator-agent-replaces-human-coordination, production-agents-route-decisions-not-every-call-to-llm, treat-ai-like-distributed-team-not-assistant]
-    incoming: []
+    incoming: [treat-ai-like-distributed-team-not-assistant]
+
+  incentive-caused-bias-makes-good-people-rationalize:
+    title: "Incentive-caused bias makes good people rationalize harmful behavior"
+    description: "People don't consciously choose to be unethical — incentive structures cause them to drift into immoral behavior and then rationalize it as virtuous"
+    topics: [psychology, economics]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 505-514)"
+    domain: mental-models
+    outgoing: [excessive-self-regard-makes-fixable-failures-persist, systems-that-prevent-bad-behavior-beat-moral-appeals]
+    incoming: [systems-that-prevent-bad-behavior-beat-moral-appeals, small-concessions-trigger-disproportionate-reciprocation]
+
+  systems-that-prevent-bad-behavior-beat-moral-appeals:
+    title: "Systems that prevent bad behavior beat moral appeals — design the cash register, not the sermon"
+    description: "People who create mechanisms making dishonest behavior hard to accomplish are more effective than those who preach against dishonesty"
+    topics: [psychology, engineering]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)"
+    domain: mental-models
+    outgoing: [incentive-caused-bias-makes-good-people-rationalize, production-agents-route-decisions-not-every-call-to-llm]
+    incoming: [incentive-caused-bias-makes-good-people-rationalize, small-concessions-trigger-disproportionate-reciprocation, confluence-of-tendencies-produces-extreme-outcomes, social-proof-makes-groups-passive-before-visible-harm]
+
+  first-conclusions-become-nearly-permanent:
+    title: "First conclusions become nearly permanent — the brain resists its own updates"
+    description: "Inconsistency-Avoidance Tendency means early-formed habits and first conclusions are maintained even against strong disconfirming evidence"
+    topics: [psychology, decision-making]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)"
+    domain: mental-models
+    outgoing: [evolving-summaries-beat-append-only-memory, small-concessions-trigger-disproportionate-reciprocation]
+    incoming: [excessive-self-regard-makes-fixable-failures-persist, social-proof-makes-groups-passive-before-visible-harm]
+
+  small-concessions-trigger-disproportionate-reciprocation:
+    title: "Small concessions trigger disproportionate reciprocation — even at the subconscious level"
+    description: "Reciprocation Tendency operates below conscious awareness, making tiny favors or concessions produce outsized compliance — the only reliable defense is structural prohibition"
+    topics: [psychology, decision-making]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 537-545)"
+    domain: mental-models
+    outgoing: [systems-that-prevent-bad-behavior-beat-moral-appeals, incentive-caused-bias-makes-good-people-rationalize]
+    incoming: [first-conclusions-become-nearly-permanent]
+
+  confluence-of-tendencies-produces-extreme-outcomes:
+    title: "Confluence of tendencies produces extreme outcomes — lollapalooza effects emerge when multiple psychological biases push the same direction"
+    description: "When several psychological tendencies combine toward the same outcome, the result is not additive but explosive — Munger's checklist method diagnoses these compound failures"
+    topics: [psychology, decision-making]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 599-604)"
+    domain: mental-models
+    outgoing: [multi-model-ensemble-catches-single-model-blindspots, systems-that-prevent-bad-behavior-beat-moral-appeals]
+    incoming: [evaluate-tools-with-real-multi-step-tasks]
+
+  social-proof-makes-groups-passive-before-visible-harm:
+    title: "Social proof makes groups passive before visible harm — conformity overrides individual judgment even in life-or-death situations"
+    description: "Social-Proof Tendency causes individuals to follow the crowd into inaction or corruption, with bystander apathy and institutional silence as its most dangerous manifestations"
+    topics: [psychology, decision-making]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 572-579)"
+    domain: mental-models
+    outgoing: [first-conclusions-become-nearly-permanent, systems-that-prevent-bad-behavior-beat-moral-appeals]
+    incoming: [orchestrator-agent-replaces-human-coordination]
+
+  excessive-self-regard-makes-fixable-failures-persist:
+    title: "Excessive self-regard makes fixable failures persist — people excuse poor performance instead of correcting it"
+    description: "The Tolstoy effect causes people to rationalize fixable shortcomings rather than address them, requiring meritocratic culture and objective evaluation as antidotes"
+    topics: [psychology, decision-making]
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)"
+    domain: mental-models
+    outgoing: [verification-multiplies-agent-output-quality, first-conclusions-become-nearly-permanent]
+    incoming: [incentive-caused-bias-makes-good-people-rationalize]
