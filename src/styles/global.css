@@ -23,6 +23,20 @@
   /* Font stack */
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Animations */
+  --animate-fade-in: fade-in 0.5s ease-out;
+  --animate-slide-up: slide-up 0.4s ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* Base dark theme */
@@ -30,22 +44,104 @@ body {
   background-color: var(--color-bg-primary);
   color: var(--color-text-secondary);
   font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Prose styling for insight content */
 .prose-insight p {
-  margin-bottom: 1rem;
-  line-height: 1.75;
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
 }
 
 .prose-insight a {
   color: #818cf8;
   text-decoration: none;
-  border-bottom: 1px dashed #818cf8;
+  border-bottom: 1px dashed rgba(129, 140, 248, 0.4);
   transition: color 0.15s, border-color 0.15s;
 }
 
 .prose-insight a:hover {
   color: #a5b4fc;
   border-color: #a5b4fc;
+}
+
+.prose-insight strong {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.prose-insight ul, .prose-insight ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose-insight li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.prose-insight ul li {
+  list-style-type: disc;
+}
+
+.prose-insight ol li {
+  list-style-type: decimal;
+}
+
+.prose-insight blockquote {
+  border-left: 3px solid var(--color-border-hover);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.prose-insight code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.15);
+  border-radius: 4px;
+  padding: 0.15em 0.35em;
+  color: #a5b4fc;
+}
+
+.prose-insight h2, .prose-insight h3 {
+  color: var(--color-text-primary);
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-insight h2 {
+  font-size: 1.25rem;
+}
+
+.prose-insight h3 {
+  font-size: 1.1rem;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-hover);
+}
+
+/* Selection */
+::selection {
+  background: rgba(99, 102, 241, 0.3);
+  color: var(--color-text-primary);
 }
