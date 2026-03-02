@@ -1,4 +1,4 @@
-import { getTopicColor, getTopicLabel } from '../lib/topics';
+import { getTopicColor, getTopicLabel, DOMAINS } from '../lib/topics';
 
 interface InsightCardProps {
   slug: string;
@@ -7,10 +7,12 @@ interface InsightCardProps {
   topics: string[];
   source: string;
   degree: number;
+  domain: string;
   basePath: string;
+  showDomain?: boolean;
 }
 
-export default function InsightCard({ slug, title, description, topics, source, degree, basePath }: InsightCardProps) {
+export default function InsightCard({ slug, title, description, topics, source, degree, domain, basePath, showDomain }: InsightCardProps) {
   const primaryColor = getTopicColor(topics[0]);
 
   return (
@@ -28,6 +30,11 @@ export default function InsightCard({ slug, title, description, topics, source, 
       }}
     >
       <div className="mb-3 flex flex-wrap gap-1.5">
+        {showDomain && (
+          <span className="inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium bg-white/5 text-text-dim border border-border">
+            {DOMAINS[domain]?.label || domain}
+          </span>
+        )}
         {topics.map(topic => (
           <span
             key={topic}

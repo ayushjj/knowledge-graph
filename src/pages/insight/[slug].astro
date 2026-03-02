@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { getConnections, getDegree } from '../../lib/graph';
-import { getTopicColor, getTopicLabel } from '../../lib/topics';
+import { getTopicColor, getTopicLabel, DOMAINS, getInsightDomain } from '../../lib/topics';
 import '../../styles/global.css';
 
 export async function getStaticPaths() {
@@ -16,6 +16,8 @@ export async function getStaticPaths() {
 const { insight } = Astro.props;
 const { Content } = await render(insight);
 const { title, description, topics, source, date } = insight.data;
+const domain = insight.data.domain || getInsightDomain(topics);
+const domainLabel = DOMAINS[domain]?.label || domain;
 const connections = getConnections(insight.id);
 const degree = getDegree(insight.id);
 const base = import.meta.env.BASE_URL;
@@ -34,6 +36,9 @@ const base = import.meta.env.BASE_URL;
     <!-- Header -->
     <header class="mb-10 animate-fade-in">
       <div class="flex flex-wrap gap-1.5 mb-4">
+        <span class="inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium bg-white/5 text-text-dim border border-border">
+          {domainLabel}
+        </span>
         {topics.map((topic: string) => (
           <a
             href={`${base}topic/${topic}`}

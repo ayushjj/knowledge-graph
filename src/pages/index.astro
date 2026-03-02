@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { getDegree } from '../lib/graph';
-import { getTopicColor, getTopicLabel } from '../lib/topics';
+import { getTopicColor, getTopicLabel, getInsightDomain } from '../lib/topics';
 import InsightFeed from '../components/InsightFeed';
 import '../styles/global.css';
 
@@ -17,6 +17,7 @@ const insights = allInsights
     topics: insight.data.topics,
     source: insight.data.source,
     degree: getDegree(insight.id),
+    domain: insight.data.domain || getInsightDomain(insight.data.topics),
   }))
   .sort((a, b) => b.degree - a.degree);
 
@@ -24,7 +25,7 @@ const insights = allInsights
 const allTopics = [...new Set(insights.flatMap(i => i.topics))].sort();
 ---
 
-<Layout title="Knowledge Graph — AI Product Insights">
+<Layout title="Knowledge Graph">
   <div class="mx-auto max-w-6xl px-4 py-10">
     <header class="mb-10 animate-fade-in">
       <div class="flex items-baseline gap-3">
@@ -36,7 +37,7 @@ const allTopics = [...new Set(insights.flatMap(i => i.topics))].sort();
         </span>
       </div>
       <p class="mt-3 text-[15px] leading-relaxed text-text-muted max-w-2xl">
-        Source-verified knowledge on building AI products — from practitioners, not pundits.
+        Source-verified knowledge across AI product building and mental models — from practitioners and timeless thinkers.
         Browse by topic, search, or <a href={`${import.meta.env.BASE_URL}graph`} class="text-[#818cf8] hover:text-[#a5b4fc] border-b border-dashed border-[#818cf860] hover:border-[#a5b4fc] transition-colors">explore the graph</a>.
       </p>
     </header>

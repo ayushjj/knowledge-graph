@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
-import { getTopicColor, getTopicLabel, TOPIC_COLORS } from '../lib/topics';
+import { useEffect, useRef, useState, useMemo } from 'react';
+import { getTopicColor, getTopicLabel, TOPIC_COLORS, DOMAINS, getTopicDomain } from '../lib/topics';
 
 interface GraphNode {
   id: string;
@@ -9,6 +9,7 @@ interface GraphNode {
   source: string;
   color: string;
   degree: number;
+  domain: string;
   x?: number;
   y?: number;
 }
@@ -27,14 +28,25 @@ interface GraphViewProps {
   basePath: string;
 }
 
+const domainEntries = Object.entries(DOMAINS);
+
 export default function GraphView({ basePath }: GraphViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const graphRef = useRef<any>(null);
+  const [activeDomain, setActiveDomain] = useState<string | null>(null);
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
   const [selectedNode, setSelectedNode] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [domainsInData, setDomainsInData] = useState(false);
   const neighborsRef = useRef<Record<string, Set<string>>>({});
   const nodeByIdRef = useRef<Record<string, GraphNode>>({});
+
+  // Filter topic pills by active domain
+  const visibleTopics = useMemo(() => {
+    const allTopics = Object.entries(TOPIC_COLORS);
+    if (!activeDomain) return allTopics;
+    return allTopics.filter(([topic]) => getTopicDomain(topic) === activeDomain);
+  }, [activeDomain]);
 
   useEffect(() => {
     let cancelled = false;
@@ -45,6 +57,10 @@ export default function GraphView({ basePath }: GraphViewProps) {
       const data: GraphData = await res.json();
 
       if (cancelled || !containerRef.current) return;
+
+      // Check if multiple domains exist in data
+      const domains = new Set(data.nodes.map(n => n.domain));
+      setDomainsInData(domains.size > 1);
 
       // Build neighbor lookup
       const neighbors: Record<string, Set<string>> = {};
@@ -70,6 +86,7 @@ export default function GraphView({ basePath }: GraphViewProps) {
         .nodeId('id')
         .nodeVal((n: any) => 3 + (n.degree / maxDegree) * 25)
         .nodeColor((n: any) => {
+          if (activeDomain && n.domain !== activeDomain) return 'rgba(100,100,100,0.15)';
           if (activeTopic && !n.topics.includes(activeTopic)) return 'rgba(100,100,100,0.15)';
           if (selectedNode && selectedNode !== n.id && !neighbors[selectedNode]?.has(n.id)) return 'rgba(100,100,100,0.15)';
           return n.color;
@@ -82,7 +99,9 @@ export default function GraphView({ basePath }: GraphViewProps) {
           ctx.textAlign = 'center';
           ctx.textBaseline = 'middle';
 
-          if (activeTopic && !node.topics.includes(activeTopic)) {
+          if (activeDomain && node.domain !== activeDomain) {
+            ctx.fillStyle = 'rgba(100,100,100,0.2)';
+          } else if (activeTopic && !node.topics.includes(activeTopic)) {
             ctx.fillStyle = 'rgba(100,100,100,0.2)';
           } else if (selectedNode && selectedNode !== node.id && !neighbors[selectedNode]?.has(node.id)) {
             ctx.fillStyle = 'rgba(100,100,100,0.2)';
@@ -123,30 +142,69 @@ export default function GraphView({ basePath }: GraphViewProps) {
     if (graphRef.current) {
       graphRef.current.nodeColor(graphRef.current.nodeColor());
     }
-  }, [activeTopic, selectedNode]);
+  }, [activeDomain, activeTopic, selectedNode]);
+
+  // Clear topic when switching domains
+  useEffect(() => {
+    if (activeDomain && activeTopic && getTopicDomain(activeTopic) !== activeDomain) {
+      setActiveTopic(null);
+    }
+  }, [activeDomain, activeTopic]);
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* Topic filter pills */}
-      <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-1.5">
-        {Object.entries(TOPIC_COLORS).map(([topic, color]) => (
-          <button
-            key={topic}
-            onClick={() => setActiveTopic(activeTopic === topic ? null : topic)}
-            className="rounded-full px-3 py-1 text-xs font-medium transition-all cursor-pointer"
-            style={activeTopic === topic ? {
-              backgroundColor: color,
-              color: '#0f1117',
-              border: `1.5px solid ${color}`,
-            } : {
-              backgroundColor: 'rgba(15, 17, 23, 0.8)',
-              color: '#e2e8f0',
-              border: `1.5px solid ${color}`,
-            }}
-          >
-            {getTopicLabel(topic)}
-          </button>
-        ))}
+      {/* Filters */}
+      <div className="absolute top-3 left-3 z-10 flex flex-col gap-2">
+        {/* Domain tabs — only show if multiple domains exist */}
+        {domainsInData && (
+          <div className="inline-flex rounded-lg border border-border bg-[rgba(15,17,23,0.9)] backdrop-blur p-0.5">
+            <button
+              onClick={() => setActiveDomain(null)}
+              className={`rounded-md px-3 py-1 text-xs font-medium transition-all cursor-pointer ${
+                activeDomain === null
+                  ? 'bg-white/10 text-text-primary'
+                  : 'text-text-dim hover:text-text-muted'
+              }`}
+            >
+              All
+            </button>
+            {domainEntries.map(([key, domain]) => (
+              <button
+                key={key}
+                onClick={() => setActiveDomain(activeDomain === key ? null : key)}
+                className={`rounded-md px-3 py-1 text-xs font-medium transition-all cursor-pointer ${
+                  activeDomain === key
+                    ? 'bg-white/10 text-text-primary'
+                    : 'text-text-dim hover:text-text-muted'
+                }`}
+              >
+                {domain.label}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Topic filter pills */}
+        <div className="flex flex-wrap gap-1.5">
+          {visibleTopics.map(([topic, color]) => (
+            <button
+              key={topic}
+              onClick={() => setActiveTopic(activeTopic === topic ? null : topic)}
+              className="rounded-full px-3 py-1 text-xs font-medium transition-all cursor-pointer"
+              style={activeTopic === topic ? {
+                backgroundColor: color,
+                color: '#0f1117',
+                border: `1.5px solid ${color}`,
+              } : {
+                backgroundColor: 'rgba(15, 17, 23, 0.8)',
+                color: '#e2e8f0',
+                border: `1.5px solid ${color}`,
+              }}
+            >
+              {getTopicLabel(topic)}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Graph container */}
@@ -172,7 +230,7 @@ export default function GraphView({ basePath }: GraphViewProps) {
 
       {/* Badge */}
       <div className="absolute bottom-3 left-3 z-10 text-[11px] text-text-dim">
-        Ayush's AI Knowledge Graph &mdash; {Object.keys(nodeByIdRef.current).length || '...'} insights
+        Ayush's Knowledge Graph &mdash; {Object.keys(nodeByIdRef.current).length || '...'} insights
       </div>
     </div>
   );

@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { getDegree } from '../../lib/graph';
-import { getTopicColor, getTopicLabel, TOPIC_COLORS } from '../../lib/topics';
+import { getTopicColor, getTopicLabel, TOPIC_COLORS, DOMAINS, getTopicDomain } from '../../lib/topics';
 import InsightFeed from '../../components/InsightFeed';
 import '../../styles/global.css';
 
@@ -27,12 +27,15 @@ const insights = allInsights
     topics: insight.data.topics,
     source: insight.data.source,
     degree: getDegree(insight.id),
+    domain: insight.data.domain || getTopicDomain(insight.data.topics[0]),
   }))
   .sort((a, b) => b.degree - a.degree);
 
 const allTopics = [...new Set(insights.flatMap(i => i.topics))].sort();
 const topicLabel = getTopicLabel(topic);
 const topicColor = getTopicColor(topic);
+const topicDomain = getTopicDomain(topic);
+const domainLabel = DOMAINS[topicDomain]?.label || topicDomain;
 ---
 
 <Layout title={`${topicLabel} — Knowledge Graph`}>
@@ -51,6 +54,9 @@ const topicColor = getTopicColor(topic);
         <h1 class="text-2xl font-bold text-text-primary tracking-tight">
           {topicLabel}
         </h1>
+        <span class="rounded-full px-2 py-0.5 text-[10px] font-medium bg-white/5 text-text-dim border border-border">
+          {domainLabel}
+        </span>
       </div>
       <p class="text-sm text-text-muted">
         {insights.length} insights in this topic

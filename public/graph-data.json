@@ -10,7 +10,8 @@
       ],
       "source": "@danshipper — Agent-Native Architectures (co-authored with Claude)",
       "color": "#6366f1",
-      "degree": 10
+      "degree": 9,
+      "domain": "ai"
     },
     {
       "id": "files-are-the-universal-agent-interface",
@@ -22,7 +23,8 @@
       ],
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
-      "degree": 11
+      "degree": 11,
+      "domain": "ai"
     },
     {
       "id": "technical-knowledge-becomes-liability",
@@ -34,7 +36,8 @@
       ],
       "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
       "color": "#06b6d4",
-      "degree": 4
+      "degree": 2,
+      "domain": "ai"
     },
     {
       "id": "context-is-the-product-not-the-model",
@@ -46,7 +49,8 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 20
+      "degree": 19,
+      "domain": "ai"
     },
     {
       "id": "skills-as-markdown-replace-fine-tuning",
@@ -58,7 +62,8 @@
       ],
       "source": "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services",
       "color": "#6366f1",
-      "degree": 9
+      "degree": 8,
+      "domain": "ai"
     },
     {
       "id": "deputies-and-sheriffs-distribute-agent-authority",
@@ -70,7 +75,8 @@
       ],
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "decision-traces-are-the-missing-data-layer",
@@ -82,7 +88,8 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 5
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "declarative-beats-imperative-for-agents",
@@ -94,7 +101,8 @@
       ],
       "source": "Andrej Karpathy — Coding Observations",
       "color": "#6366f1",
-      "degree": 11
+      "degree": 10,
+      "domain": "ai"
     },
     {
       "id": "ui-moat-collapses-api-becomes-purchasing-criterion",
@@ -106,7 +114,8 @@
       ],
       "source": "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API",
       "color": "#10b981",
-      "degree": 6
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "saas-survives-as-governance-and-coordination-layer",
@@ -118,7 +127,8 @@
       ],
       "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
       "color": "#10b981",
-      "degree": 9
+      "degree": 8,
+      "domain": "ai"
     },
     {
       "id": "software-abundance-unlocks-categories-that-never-existed",
@@ -130,7 +140,8 @@
       ],
       "source": "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance",
       "color": "#f59e0b",
-      "degree": 4
+      "degree": 3,
+      "domain": "ai"
     },
     {
       "id": "ai-self-improvement-loop-accelerates-everything",
@@ -142,7 +153,8 @@
       ],
       "source": "@mattshumer_ (Matt Shumer) — Something Big Is Happening",
       "color": "#f59e0b",
-      "degree": 4
+      "degree": 2,
+      "domain": "ai"
     },
     {
       "id": "verification-multiplies-agent-output-quality",
@@ -153,7 +165,8 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 8
+      "degree": 8,
+      "domain": "ai"
     },
     {
       "id": "cross-user-knowledge-transfer-needs-no-fine-tuning",
@@ -165,7 +178,8 @@
       ],
       "source": "Ashpreet Bedi — Agents That Learn (Agno Framework)",
       "color": "#f43f5e",
-      "degree": 3
+      "degree": 3,
+      "domain": "ai"
     },
     {
       "id": "boring-tech-wins-for-ai-native-startups",
@@ -177,7 +191,8 @@
       ],
       "source": "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)",
       "color": "#8b5cf6",
-      "degree": 5
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "specs-are-external-memory-surviving-context-resets",
@@ -189,7 +204,8 @@
       ],
       "source": "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)",
       "color": "#f43f5e",
-      "degree": 8
+      "degree": 8,
+      "domain": "ai"
     },
     {
       "id": "agent-memory-preserves-institutional-knowledge",
@@ -201,7 +217,8 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 12
+      "degree": 12,
+      "domain": "ai"
     },
     {
       "id": "similarity-is-not-relevance-relevance-requires-reasoning",
@@ -212,7 +229,8 @@
       ],
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
-      "degree": 7
+      "degree": 7,
+      "domain": "ai"
     },
     {
       "id": "structure-plus-reasoning-beats-flat-similarity",
@@ -225,7 +243,8 @@
       ],
       "source": "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs",
       "color": "#8b5cf6",
-      "degree": 6
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "agentic-search-beats-rag-for-live-codebases",
@@ -237,7 +256,8 @@
       ],
       "source": "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik",
       "color": "#8b5cf6",
-      "degree": 6
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "personal-software-grows-through-relationship-not-configuration",
@@ -249,7 +269,8 @@
       ],
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "postgresql-scales-further-than-you-think",
@@ -260,7 +281,8 @@
       ],
       "source": "OpenAI — https://openai.com/index/scaling-postgresql/",
       "color": "#8b5cf6",
-      "degree": 5
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "response-ux-should-match-retrieval-intelligence",
@@ -271,7 +293,8 @@
       ],
       "source": "@akshay_pachaar — 'Your RAG System Has a Hidden UX Problem' (Daily Dose of Data Science blog), referencing Zilliz semantic highlighting model",
       "color": "#8b5cf6",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "skill-graphs-enable-progressive-disclosure",
@@ -283,7 +306,8 @@
       ],
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
-      "degree": 7
+      "degree": 7,
+      "domain": "ai"
     },
     {
       "id": "orchestrator-agent-replaces-human-coordination",
@@ -295,7 +319,8 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 7
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "open-source-captures-value-through-services-not-software",
@@ -307,7 +332,8 @@
       ],
       "source": "Learning Technical Concepts chat — Ayush exploring open source revenue",
       "color": "#10b981",
-      "degree": 4
+      "degree": 2,
+      "domain": "ai"
     },
     {
       "id": "webmcp-turns-websites-into-agent-native-interfaces",
@@ -319,7 +345,8 @@
       ],
       "source": "Learning Technical Concepts chat — Chrome for Developers WebMCP announcement",
       "color": "#6366f1",
-      "degree": 5
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "prompt-caching-makes-long-context-economically-viable",
@@ -331,7 +358,8 @@
       ],
       "source": "Learning Technical Concepts chat — Thariq's prompt caching article",
       "color": "#8b5cf6",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "parallel-agents-create-management-problem-not-coding-problem",
@@ -343,7 +371,8 @@
       ],
       "source": "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents",
       "color": "#06b6d4",
-      "degree": 8
+      "degree": 7,
+      "domain": "ai"
     },
     {
       "id": "dont-be-the-discriminator-be-the-patron",
@@ -355,7 +384,8 @@
       ],
       "source": "@WillManidis (Will Manidis) — Against Taste",
       "color": "#f59e0b",
-      "degree": 4
+      "degree": 3,
+      "domain": "ai"
     },
     {
       "id": "autonomous-loops-need-small-stories-and-fast-feedback",
@@ -367,7 +397,8 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 7
+      "degree": 7,
+      "domain": "ai"
     },
     {
       "id": "technology-transitions-create-more-not-less",
@@ -378,19 +409,8 @@
       ],
       "source": "@stevesi (Steven Sinofsky) — Death of Software?",
       "color": "#f59e0b",
-      "degree": 7
-    },
-    {
-      "id": "build-for-obsolescence-models-eat-scaffolding",
-      "label": "Build for obsolescence — improving models will eat your scaffolding",
-      "description": "Every elaborate skill workaround you build today simplifies as models improve; design skills that gracefully shed complexity while keeping sandboxes and evals permanent",
-      "topics": [
-        "ai-native-product-architecture",
-        "ai-agents"
-      ],
-      "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
-      "color": "#8b5cf6",
-      "degree": 9
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "hybrid-search-is-the-default-not-the-exception",
@@ -401,7 +421,8 @@
       ],
       "source": "QMD by Tobi Lütke, pg_textsearch by Timescale, TigerData BM25 article",
       "color": "#8b5cf6",
-      "degree": 5
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "multi-model-ensemble-catches-single-model-blindspots",
@@ -413,19 +434,8 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#06b6d4",
-      "degree": 6
-    },
-    {
-      "id": "middleware-dies-infrastructure-survives",
-      "label": "AI kills middleware — infrastructure and expert judgment survive",
-      "description": "Companies that sell 'easy buttons' for technical chores die; physical infrastructure, expert judgment, and deep domain tools endure",
-      "topics": [
-        "business-models",
-        "future-of-ai-business"
-      ],
-      "source": "Editorial synthesis — vendor audit analysis (source originally attributed to @MylesMarino1 could not be verified)",
-      "color": "#10b981",
-      "degree": 13
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "agent-trust-transfers-from-human-credibility",
@@ -437,7 +447,8 @@
       ],
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "agents-become-the-buyer",
@@ -449,7 +460,8 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API",
       "color": "#f59e0b",
-      "degree": 9
+      "degree": 8,
+      "domain": "ai"
     },
     {
       "id": "treat-ai-like-distributed-team-not-assistant",
@@ -461,7 +473,8 @@
       ],
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
-      "degree": 11
+      "degree": 11,
+      "domain": "ai"
     },
     {
       "id": "evolving-summaries-beat-append-only-memory",
@@ -473,7 +486,8 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "treat-agent-as-operating-system-not-function",
@@ -485,7 +499,8 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#6366f1",
-      "degree": 5
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "tiered-retrieval-prevents-context-overload",
@@ -497,7 +512,8 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#8b5cf6",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "session-capture-compounds-development-knowledge",
@@ -509,19 +525,8 @@
       ],
       "source": "shadcn (via X/Twitter) — /done skill pattern",
       "color": "#06b6d4",
-      "degree": 5
-    },
-    {
-      "id": "ai-winners-already-decided-by-infrastructure",
-      "label": "The AI gold rush winners are already decided by infrastructure ownership",
-      "description": "Unlike previous waves, AI's opportunity structure is pre-consolidated — NVIDIA, hyperscalers, foundation labs, and data monopolies hold structural advantages",
-      "topics": [
-        "future-of-ai-business",
-        "business-models"
-      ],
-      "source": "Editorial synthesis — multiple sources (source originally attributed to Natasha Malpani could not be verified)",
-      "color": "#f59e0b",
-      "degree": 7
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "embeddings-measure-similarity-not-truth",
@@ -533,7 +538,8 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "context-window-is-the-fundamental-constraint",
@@ -545,7 +551,8 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 14
+      "degree": 14,
+      "domain": "ai"
     },
     {
       "id": "three-layer-ai-stack-memory-search-reasoning",
@@ -557,19 +564,8 @@
       ],
       "source": "Synthesis from Supermemory, QMD, and PageIndex architectures",
       "color": "#8b5cf6",
-      "degree": 13
-    },
-    {
-      "id": "implementation-gap-collapsed",
-      "label": "The implementation gap collapsed — clarity is the new technical skill",
-      "description": "The space between wanting something and having it closed; the ability to describe what you want precisely replaced the ability to build it",
-      "topics": [
-        "future-of-ai-business",
-        "ai-coding-tools"
-      ],
-      "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
-      "color": "#f59e0b",
-      "degree": 11
+      "degree": 13,
+      "domain": "ai"
     },
     {
       "id": "compound-engineering-makes-future-work-easier",
@@ -581,7 +577,8 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 14
+      "degree": 14,
+      "domain": "ai"
     },
     {
       "id": "building-beats-following-for-ai-mastery",
@@ -593,7 +590,8 @@
       ],
       "source": "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap",
       "color": "#06b6d4",
-      "degree": 4
+      "degree": 3,
+      "domain": "ai"
     },
     {
       "id": "production-agents-route-decisions-not-every-call-to-llm",
@@ -605,7 +603,8 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 6
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "malleable-software-writes-its-own-extensions",
@@ -617,7 +616,8 @@
       ],
       "source": "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot",
       "color": "#6366f1",
-      "degree": 6
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "error-memory-enables-learning-without-retraining",
@@ -629,7 +629,8 @@
       ],
       "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
       "color": "#6366f1",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
@@ -641,7 +642,8 @@
       ],
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
-      "degree": 6
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "evaluate-tools-with-real-multi-step-tasks",
@@ -653,7 +655,8 @@
       ],
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
-      "degree": 5
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "rigid-schemas-exist-because-rigid-apps-demand-them",
@@ -665,7 +668,8 @@
       ],
       "source": "@zain_hoda (Zain Hoda, Vanna AI) — The Agent Will Eat Your System of Record",
       "color": "#8b5cf6",
-      "degree": 6
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "tool-design-is-continuous-observation-see-like-an-agent",
@@ -677,7 +681,8 @@
       ],
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
-      "degree": 5
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "lakebases-decouple-compute-from-storage",
@@ -688,7 +693,8 @@
       ],
       "source": "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase",
       "color": "#8b5cf6",
-      "degree": 3
+      "degree": 2,
+      "domain": "ai"
     },
     {
       "id": "saas-grows-but-consolidates-around-platforms",
@@ -700,7 +706,8 @@
       ],
       "source": "@Konstantine (Konstantine Buhler, Sequoia Capital) — The Great SaaS Consolidation + AI Ascent 2025",
       "color": "#10b981",
-      "degree": 8
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "model-market-fit-before-product-market-fit",
@@ -712,7 +719,8 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 3
+      "degree": 1,
+      "domain": "ai"
     },
     {
       "id": "harness-engineers-need-docs-as-first-class-output",
@@ -724,7 +732,8 @@
       ],
       "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
       "color": "#06b6d4",
-      "degree": 6
+      "degree": 6,
+      "domain": "ai"
     },
     {
       "id": "multi-model-orchestration-beats-any-single-family",
@@ -736,14 +745,11 @@
       ],
       "source": "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer",
       "color": "#6366f1",
-      "degree": 4
+      "degree": 4,
+      "domain": "ai"
     }
   ],
   "links": [
-    {
-      "source": "features-are-prompts-not-code",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
-    },
     {
       "source": "features-are-prompts-not-code",
       "target": "declarative-beats-imperative-for-agents"
@@ -763,10 +769,6 @@
     {
       "source": "files-are-the-universal-agent-interface",
       "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
-    },
-    {
-      "source": "technical-knowledge-becomes-liability",
-      "target": "implementation-gap-collapsed"
     },
     {
       "source": "technical-knowledge-becomes-liability",
@@ -829,16 +831,8 @@
       "target": "agents-become-the-buyer"
     },
     {
-      "source": "ui-moat-collapses-api-becomes-purchasing-criterion",
-      "target": "middleware-dies-infrastructure-survives"
-    },
-    {
       "source": "saas-survives-as-governance-and-coordination-layer",
       "target": "agents-become-the-buyer"
-    },
-    {
-      "source": "saas-survives-as-governance-and-coordination-layer",
-      "target": "middleware-dies-infrastructure-survives"
     },
     {
       "source": "saas-survives-as-governance-and-coordination-layer",
@@ -861,20 +855,8 @@
       "target": "features-are-prompts-not-code"
     },
     {
-      "source": "software-abundance-unlocks-categories-that-never-existed",
-      "target": "implementation-gap-collapsed"
-    },
-    {
-      "source": "ai-self-improvement-loop-accelerates-everything",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
-    },
-    {
       "source": "ai-self-improvement-loop-accelerates-everything",
       "target": "dont-be-the-discriminator-be-the-patron"
-    },
-    {
-      "source": "ai-self-improvement-loop-accelerates-everything",
-      "target": "implementation-gap-collapsed"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -899,10 +881,6 @@
     {
       "source": "boring-tech-wins-for-ai-native-startups",
       "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "boring-tech-wins-for-ai-native-startups",
-      "target": "middleware-dies-infrastructure-survives"
     },
     {
       "source": "specs-are-external-memory-surviving-context-resets",
@@ -989,10 +967,6 @@
       "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
-      "source": "postgresql-scales-further-than-you-think",
-      "target": "middleware-dies-infrastructure-survives"
-    },
-    {
       "source": "response-ux-should-match-retrieval-intelligence",
       "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
@@ -1031,14 +1005,6 @@
     {
       "source": "orchestrator-agent-replaces-human-coordination",
       "target": "treat-ai-like-distributed-team-not-assistant"
-    },
-    {
-      "source": "orchestrator-agent-replaces-human-coordination",
-      "target": "ai-winners-already-decided-by-infrastructure"
-    },
-    {
-      "source": "open-source-captures-value-through-services-not-software",
-      "target": "middleware-dies-infrastructure-survives"
     },
     {
       "source": "open-source-captures-value-through-services-not-software",
@@ -1082,10 +1048,6 @@
     },
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
-      "target": "implementation-gap-collapsed"
-    },
-    {
-      "source": "parallel-agents-create-management-problem-not-coding-problem",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
@@ -1095,10 +1057,6 @@
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
       "target": "orchestrator-agent-replaces-human-coordination"
-    },
-    {
-      "source": "dont-be-the-discriminator-be-the-patron",
-      "target": "implementation-gap-collapsed"
     },
     {
       "source": "dont-be-the-discriminator-be-the-patron",
@@ -1130,23 +1088,7 @@
     },
     {
       "source": "technology-transitions-create-more-not-less",
-      "target": "implementation-gap-collapsed"
-    },
-    {
-      "source": "technology-transitions-create-more-not-less",
-      "target": "middleware-dies-infrastructure-survives"
-    },
-    {
-      "source": "technology-transitions-create-more-not-less",
       "target": "saas-grows-but-consolidates-around-platforms"
-    },
-    {
-      "source": "build-for-obsolescence-models-eat-scaffolding",
-      "target": "skills-as-markdown-replace-fine-tuning"
-    },
-    {
-      "source": "build-for-obsolescence-models-eat-scaffolding",
-      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "hybrid-search-is-the-default-not-the-exception",
@@ -1177,22 +1119,6 @@
       "target": "evaluate-tools-with-real-multi-step-tasks"
     },
     {
-      "source": "middleware-dies-infrastructure-survives",
-      "target": "ai-winners-already-decided-by-infrastructure"
-    },
-    {
-      "source": "middleware-dies-infrastructure-survives",
-      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
-    },
-    {
-      "source": "middleware-dies-infrastructure-survives",
-      "target": "open-source-captures-value-through-services-not-software"
-    },
-    {
-      "source": "middleware-dies-infrastructure-survives",
-      "target": "saas-grows-but-consolidates-around-platforms"
-    },
-    {
       "source": "agent-trust-transfers-from-human-credibility",
       "target": "agents-become-the-buyer"
     },
@@ -1211,10 +1137,6 @@
     {
       "source": "agents-become-the-buyer",
       "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
-    },
-    {
-      "source": "agents-become-the-buyer",
-      "target": "middleware-dies-infrastructure-survives"
     },
     {
       "source": "agents-become-the-buyer",
@@ -1297,22 +1219,6 @@
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
-      "source": "ai-winners-already-decided-by-infrastructure",
-      "target": "middleware-dies-infrastructure-survives"
-    },
-    {
-      "source": "ai-winners-already-decided-by-infrastructure",
-      "target": "implementation-gap-collapsed"
-    },
-    {
-      "source": "ai-winners-already-decided-by-infrastructure",
-      "target": "technology-transitions-create-more-not-less"
-    },
-    {
-      "source": "ai-winners-already-decided-by-infrastructure",
-      "target": "saas-grows-but-consolidates-around-platforms"
-    },
-    {
       "source": "embeddings-measure-similarity-not-truth",
       "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
@@ -1365,18 +1271,6 @@
       "target": "tiered-retrieval-prevents-context-overload"
     },
     {
-      "source": "implementation-gap-collapsed",
-      "target": "technical-knowledge-becomes-liability"
-    },
-    {
-      "source": "implementation-gap-collapsed",
-      "target": "declarative-beats-imperative-for-agents"
-    },
-    {
-      "source": "implementation-gap-collapsed",
-      "target": "building-beats-following-for-ai-mastery"
-    },
-    {
       "source": "compound-engineering-makes-future-work-easier",
       "target": "skills-as-markdown-replace-fine-tuning"
     },
@@ -1423,10 +1317,6 @@
     {
       "source": "malleable-software-writes-its-own-extensions",
       "target": "ai-self-improvement-loop-accelerates-everything"
-    },
-    {
-      "source": "malleable-software-writes-its-own-extensions",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
     },
     {
       "source": "malleable-software-writes-its-own-extensions",
@@ -1478,10 +1368,6 @@
     },
     {
       "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
-    },
-    {
-      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
       "target": "agents-become-the-buyer"
     },
     {
@@ -1491,10 +1377,6 @@
     {
       "source": "tool-design-is-continuous-observation-see-like-an-agent",
       "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
-    },
-    {
-      "source": "tool-design-is-continuous-observation-see-like-an-agent",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
     },
     {
       "source": "tool-design-is-continuous-observation-see-like-an-agent",
@@ -1513,14 +1395,6 @@
       "target": "boring-tech-wins-for-ai-native-startups"
     },
     {
-      "source": "lakebases-decouple-compute-from-storage",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
-    },
-    {
-      "source": "saas-grows-but-consolidates-around-platforms",
-      "target": "middleware-dies-infrastructure-survives"
-    },
-    {
       "source": "saas-grows-but-consolidates-around-platforms",
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
@@ -1529,20 +1403,8 @@
       "target": "technology-transitions-create-more-not-less"
     },
     {
-      "source": "saas-grows-but-consolidates-around-platforms",
-      "target": "ai-winners-already-decided-by-infrastructure"
-    },
-    {
       "source": "model-market-fit-before-product-market-fit",
       "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "model-market-fit-before-product-market-fit",
-      "target": "build-for-obsolescence-models-eat-scaffolding"
-    },
-    {
-      "source": "model-market-fit-before-product-market-fit",
-      "target": "implementation-gap-collapsed"
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",

@@ -12,6 +12,7 @@
 
 last_updated: 2026-03-02
 node_count: 58
+domains: [ai, mental-models]
 
 nodes:
   features-are-prompts-not-code:

@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import InsightCard from './InsightCard';
-import { getTopicColor, getTopicLabel } from '../lib/topics';
+import { getTopicColor, getTopicLabel, DOMAINS, getTopicDomain } from '../lib/topics';
 
 interface Insight {
   slug: string;
@@ -9,6 +9,7 @@ interface Insight {
   topics: string[];
   source: string;
   degree: number;
+  domain: string;
 }
 
 interface InsightFeedProps {
@@ -17,12 +18,34 @@ interface InsightFeedProps {
   basePath: string;
 }
 
+const domainEntries = Object.entries(DOMAINS);
+
 export default function InsightFeed({ insights, topics, basePath }: InsightFeedProps) {
+  const [activeDomain, setActiveDomain] = useState<string | null>(null);
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
   const [search, setSearch] = useState('');
   const [pagefindResults, setPagefindResults] = useState<string[] | null>(null);
   const pagefindRef = useRef<any>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>();
+
+  // Only show domain tabs if there are multiple domains in the data
+  const domainsInData = useMemo(() => {
+    const domains = new Set(insights.map(i => i.domain));
+    return domains.size > 1;
+  }, [insights]);
+
+  // Filter topics to show only those in the active domain (or all if no domain selected)
+  const visibleTopics = useMemo(() => {
+    if (!activeDomain) return topics;
+    return topics.filter(t => getTopicDomain(t) === activeDomain);
+  }, [topics, activeDomain]);
+
+  // Clear topic filter when switching domains if the topic doesn't belong to the new domain
+  useEffect(() => {
+    if (activeDomain && activeTopic && getTopicDomain(activeTopic) !== activeDomain) {
+      setActiveTopic(null);
+    }
+  }, [activeDomain, activeTopic]);
 
   // Load Pagefind on mount (only available after build)
   useEffect(() => {
@@ -70,6 +93,10 @@ export default function InsightFeed({ insights, topics, basePath }: InsightFeedP
   const filtered = useMemo(() => {
     let result = insights;
 
+    if (activeDomain) {
+      result = result.filter(i => i.domain === activeDomain);
+    }
+
     if (activeTopic) {
       result = result.filter(i => i.topics.includes(activeTopic));
     }
@@ -91,7 +118,7 @@ export default function InsightFeed({ insights, topics, basePath }: InsightFeedP
     }
 
     return result;
-  }, [insights, activeTopic, search, pagefindResults]);
+  }, [insights, activeDomain, activeTopic, search, pagefindResults]);
 
   return (
     <div>
@@ -112,9 +139,38 @@ export default function InsightFeed({ insights, topics, basePath }: InsightFeedP
         />
       </div>
 
+      {/* Domain tabs — only show if multiple domains exist */}
+      {domainsInData && (
+        <div className="mb-4 inline-flex rounded-lg border border-border bg-bg-secondary p-0.5">
+          <button
+            onClick={() => setActiveDomain(null)}
+            className={`rounded-md px-3 py-1.5 text-xs font-medium transition-all cursor-pointer ${
+              activeDomain === null
+                ? 'bg-white/10 text-text-primary'
+                : 'text-text-dim hover:text-text-muted'
+            }`}
+          >
+            All
+          </button>
+          {domainEntries.map(([key, domain]) => (
+            <button
+              key={key}
+              onClick={() => setActiveDomain(activeDomain === key ? null : key)}
+              className={`rounded-md px-3 py-1.5 text-xs font-medium transition-all cursor-pointer ${
+                activeDomain === key
+                  ? 'bg-white/10 text-text-primary'
+                  : 'text-text-dim hover:text-text-muted'
+              }`}
+            >
+              {domain.label}
+            </button>
+          ))}
+        </div>
+      )}
+
       {/* Topic pills */}
       <div className="mb-6 flex flex-wrap gap-2">
-        {topics.map(topic => {
+        {visibleTopics.map(topic => {
           const isActive = activeTopic === topic;
           const color = getTopicColor(topic);
           return (
@@ -136,9 +192,9 @@ export default function InsightFeed({ insights, topics, basePath }: InsightFeedP
             </button>
           );
         })}
-        {activeTopic && (
+        {(activeTopic || activeDomain) && (
           <button
-            onClick={() => setActiveTopic(null)}
+            onClick={() => { setActiveTopic(null); setActiveDomain(null); }}
             className="rounded-full px-3 py-1 text-xs text-text-dim hover:text-text-muted transition-colors cursor-pointer"
           >
             Clear
@@ -160,6 +216,7 @@ export default function InsightFeed({ insights, topics, basePath }: InsightFeedP
           <InsightCard
             key={insight.slug}
             basePath={basePath}
+            showDomain={!activeDomain && domainsInData}
             {...insight}
           />
         ))}

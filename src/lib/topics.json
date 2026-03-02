@@ -1,0 +1,84 @@
+{
+  "domains": {
+    "ai": {
+      "label": "AI Product Building",
+      "description": "Insights on building AI-native products, from practitioners"
+    },
+    "mental-models": {
+      "label": "Mental Models",
+      "description": "Timeless mental models from Charlie Munger and multidisciplinary thinking"
+    }
+  },
+  "topics": {
+    "ai-agents": {
+      "label": "AI Agents",
+      "color": "#6366f1",
+      "domain": "ai"
+    },
+    "ai-native-product-architecture": {
+      "label": "Architecture",
+      "color": "#8b5cf6",
+      "domain": "ai"
+    },
+    "ai-coding-tools": {
+      "label": "Coding Tools",
+      "color": "#06b6d4",
+      "domain": "ai"
+    },
+    "future-of-ai-business": {
+      "label": "Future of AI",
+      "color": "#f59e0b",
+      "domain": "ai"
+    },
+    "business-models": {
+      "label": "Business Models",
+      "color": "#10b981",
+      "domain": "ai"
+    },
+    "knowledge-systems": {
+      "label": "Knowledge Systems",
+      "color": "#f43f5e",
+      "domain": "ai"
+    },
+    "psychology": {
+      "label": "Psychology",
+      "color": "#ec4899",
+      "domain": "mental-models"
+    },
+    "economics": {
+      "label": "Economics",
+      "color": "#f97316",
+      "domain": "mental-models"
+    },
+    "mathematics": {
+      "label": "Mathematics",
+      "color": "#3b82f6",
+      "domain": "mental-models"
+    },
+    "biology": {
+      "label": "Biology",
+      "color": "#22c55e",
+      "domain": "mental-models"
+    },
+    "engineering": {
+      "label": "Engineering",
+      "color": "#a855f7",
+      "domain": "mental-models"
+    },
+    "decision-making": {
+      "label": "Decision Making",
+      "color": "#eab308",
+      "domain": "mental-models"
+    },
+    "philosophy": {
+      "label": "Philosophy",
+      "color": "#64748b",
+      "domain": "mental-models"
+    },
+    "physics": {
+      "label": "Physics",
+      "color": "#14b8a6",
+      "domain": "mental-models"
+    }
+  }
+}

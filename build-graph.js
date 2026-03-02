@@ -2,17 +2,19 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const require = createRequire(import.meta.url);
 
-const TOPIC_COLORS = {
-  'ai-agents': '#6366f1',
-  'ai-native-product-architecture': '#8b5cf6',
-  'ai-coding-tools': '#06b6d4',
-  'future-of-ai-business': '#f59e0b',
-  'business-models': '#10b981',
-  'knowledge-systems': '#f43f5e',
-};
+// Single source of truth for topic colors + domains
+const topicData = require('./src/lib/topics.json');
+const TOPIC_COLORS = {};
+const TOPIC_DOMAINS = {};
+for (const [slug, info] of Object.entries(topicData.topics)) {
+  TOPIC_COLORS[slug] = info.color;
+  TOPIC_DOMAINS[slug] = info.domain;
+}
 
 // Read graph-index.yaml
 const yamlPath = path.join(__dirname, 'graph-index.yaml');
@@ -27,6 +29,7 @@ for (const [slug, node] of Object.entries(nodes)) {
   const incoming = node.incoming || [];
   const degree = outgoing.length + incoming.length;
   const color = TOPIC_COLORS[node.topics[0]] || '#888888';
+  const domain = TOPIC_DOMAINS[node.topics[0]] || 'ai';
 
   graphNodes.push({
     id: slug,
@@ -36,6 +39,7 @@ for (const [slug, node] of Object.entries(nodes)) {
     source: node.source,
     color,
     degree,
+    domain,
   });
 
   for (const target of outgoing) {
