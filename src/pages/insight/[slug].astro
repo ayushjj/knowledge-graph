@@ -1,0 +1,128 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import { getConnections, getDegree } from '../../lib/graph';
+import { getTopicColor, getTopicLabel } from '../../lib/topics';
+import '../../styles/global.css';
+
+export async function getStaticPaths() {
+  const insights = await getCollection('insights');
+  return insights.map(insight => ({
+    params: { slug: insight.id },
+    props: { insight },
+  }));
+}
+
+const { insight } = Astro.props;
+const { Content } = await render(insight);
+const { title, description, topics, source, date } = insight.data;
+const connections = getConnections(insight.id);
+const degree = getDegree(insight.id);
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title={`${title} — Knowledge Graph`} description={description}>
+  <article class="mx-auto max-w-3xl px-4 py-10" data-pagefind-body>
+    <!-- Back link -->
+    <a href={base} class="inline-flex items-center gap-1.5 text-[13px] text-text-dim hover:text-text-muted transition-colors mb-8 group">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transition-transform group-hover:-translate-x-0.5">
+        <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
+      </svg>
+      All insights
+    </a>
+
+    <!-- Header -->
+    <header class="mb-10 animate-fade-in">
+      <div class="flex flex-wrap gap-1.5 mb-4">
+        {topics.map((topic: string) => (
+          <a
+            href={`${base}topic/${topic}`}
+            class="inline-flex items-center rounded-full px-2.5 py-0.5 text-[11px] font-medium transition-opacity hover:opacity-80"
+            style={{
+              backgroundColor: `${getTopicColor(topic)}15`,
+              color: getTopicColor(topic),
+              border: `1px solid ${getTopicColor(topic)}25`,
+            }}
+          >
+            {getTopicLabel(topic)}
+          </a>
+        ))}
+      </div>
+
+      <h1 class="text-[1.65rem] font-bold leading-tight text-text-primary tracking-tight">
+        {title}
+      </h1>
+
+      <p class="mt-3 text-[15px] leading-relaxed text-text-muted">
+        {description}
+      </p>
+
+      <div class="mt-5 flex items-center gap-3 text-xs text-text-dim">
+        <span>{source}</span>
+        <span class="text-border">&middot;</span>
+        {date && <time datetime={date.toISOString().split('T')[0]}>{date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</time>}
+        {degree > 0 && (
+          <>
+            <span class="text-border">&middot;</span>
+            <span>{degree} connection{degree !== 1 ? 's' : ''}</span>
+          </>
+        )}
+      </div>
+    </header>
+
+    <!-- Divider -->
+    <div class="mb-8 border-t border-border"></div>
+
+    <!-- Prose content -->
+    <div class="prose-insight text-[15px] leading-relaxed text-text-secondary animate-slide-up">
+      <Content />
+    </div>
+
+    <!-- Connections -->
+    {(connections.outgoing.length > 0 || connections.incoming.length > 0) && (
+      <div class="mt-12 border-t border-border pt-8">
+        <h2 class="text-xs font-medium uppercase tracking-widest text-text-dim mb-5">
+          Connected Insights
+        </h2>
+
+        {connections.outgoing.length > 0 && (
+          <div class="mb-6">
+            <h3 class="text-[11px] uppercase tracking-wider text-text-dim mb-2.5">
+              References <span class="text-border">({connections.outgoing.length})</span>
+            </h3>
+            <div class="space-y-0.5">
+              {connections.outgoing.map(conn => (
+                <a
+                  href={`${base}insight/${conn.slug}`}
+                  class="group flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm text-text-muted hover:text-text-primary hover:bg-white/[0.03] transition-all duration-150"
+                >
+                  <span class="text-text-dim transition-transform group-hover:translate-x-0.5">&rarr;</span>
+                  <span class="border-b border-transparent group-hover:border-border-hover transition-colors">{conn.title}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {connections.incoming.length > 0 && (
+          <div>
+            <h3 class="text-[11px] uppercase tracking-wider text-text-dim mb-2.5">
+              Referenced by <span class="text-border">({connections.incoming.length})</span>
+            </h3>
+            <div class="space-y-0.5">
+              {connections.incoming.map(conn => (
+                <a
+                  href={`${base}insight/${conn.slug}`}
+                  class="group flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm text-text-muted hover:text-text-primary hover:bg-white/[0.03] transition-all duration-150"
+                >
+                  <span class="text-text-dim transition-transform group-hover:-translate-x-0.5">&larr;</span>
+                  <span class="border-b border-transparent group-hover:border-border-hover transition-colors">{conn.title}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    )}
+  </article>
+</Layout>

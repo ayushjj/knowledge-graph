@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GraphView from '../components/GraphView';
+import '../styles/global.css';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Graph — Knowledge Graph">
+  <GraphView client:only="react" basePath={base} />
+</Layout>

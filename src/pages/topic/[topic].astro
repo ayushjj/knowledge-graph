@@ -1,0 +1,67 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { getDegree } from '../../lib/graph';
+import { getTopicColor, getTopicLabel, TOPIC_COLORS } from '../../lib/topics';
+import InsightFeed from '../../components/InsightFeed';
+import '../../styles/global.css';
+
+export async function getStaticPaths() {
+  const allTopics = Object.keys(TOPIC_COLORS);
+  return allTopics.map(topic => ({
+    params: { topic },
+    props: { topic },
+  }));
+}
+
+const { topic } = Astro.props;
+const allInsights = await getCollection('insights');
+const base = import.meta.env.BASE_URL;
+
+const insights = allInsights
+  .filter(i => i.data.topics.includes(topic))
+  .map(insight => ({
+    slug: insight.id,
+    title: insight.data.title,
+    description: insight.data.description,
+    topics: insight.data.topics,
+    source: insight.data.source,
+    degree: getDegree(insight.id),
+  }))
+  .sort((a, b) => b.degree - a.degree);
+
+const allTopics = [...new Set(insights.flatMap(i => i.topics))].sort();
+const topicLabel = getTopicLabel(topic);
+const topicColor = getTopicColor(topic);
+---
+
+<Layout title={`${topicLabel} — Knowledge Graph`}>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <!-- Back link -->
+    <a href={base} class="inline-flex items-center gap-1.5 text-sm text-text-dim hover:text-text-muted transition-colors mb-6">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
+      </svg>
+      All insights
+    </a>
+
+    <div class="mb-8">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="h-3 w-3 rounded-full" style={`background-color: ${topicColor}`}></div>
+        <h1 class="text-2xl font-bold text-text-primary tracking-tight">
+          {topicLabel}
+        </h1>
+      </div>
+      <p class="text-sm text-text-muted">
+        {insights.length} insights in this topic
+      </p>
+    </div>
+
+    <InsightFeed
+      client:load
+      insights={insights}
+      topics={allTopics}
+      basePath={base}
+    />
+  </div>
+</Layout>

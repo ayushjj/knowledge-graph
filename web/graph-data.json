@@ -1,0 +1,1588 @@
+{
+  "nodes": [
+    {
+      "id": "features-are-prompts-not-code",
+      "label": "In agent-native architecture, features are prompts — not code",
+      "description": "The shift from coding specific functions to describing outcomes that agents achieve by composing atomic tools",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@danshipper — Agent-Native Architectures (co-authored with Claude)",
+      "color": "#6366f1",
+      "degree": 10
+    },
+    {
+      "id": "files-are-the-universal-agent-interface",
+      "label": "Files are the universal interface between humans and agents",
+      "description": "Markdown and YAML files on disk beat databases because agents already know file operations and humans can inspect everything",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
+      "color": "#8b5cf6",
+      "degree": 11
+    },
+    {
+      "id": "technical-knowledge-becomes-liability",
+      "label": "Technical knowledge can become a liability when working with AI",
+      "description": "Experts get stuck on implementation details while novices describe outcomes and ship faster",
+      "topics": [
+        "ai-coding-tools",
+        "future-of-ai-business"
+      ],
+      "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
+      "color": "#06b6d4",
+      "degree": 4
+    },
+    {
+      "id": "context-is-the-product-not-the-model",
+      "label": "Context is the product, not the model",
+      "description": "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
+      "color": "#8b5cf6",
+      "degree": 20
+    },
+    {
+      "id": "skills-as-markdown-replace-fine-tuning",
+      "label": "Markdown skill files may replace expensive fine-tuning",
+      "description": "A SKILL.md file that teaches an agent how to do something specific can match domain-specific fine-tuned models — at zero training cost",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services",
+      "color": "#6366f1",
+      "degree": 9
+    },
+    {
+      "id": "deputies-and-sheriffs-distribute-agent-authority",
+      "label": "Deputies and Sheriffs — distributed agent teams with hierarchical authority replace centralized software",
+      "description": "Individual employees train specialized 'Deputy' agents while organizational 'Sheriff' agents manage permissions, rules, and onboarding across the team",
+      "topics": [
+        "ai-agents",
+        "future-of-ai-business"
+      ],
+      "source": "@danshipper — Personal Software and AI Agents",
+      "color": "#6366f1",
+      "degree": 4
+    },
+    {
+      "id": "decision-traces-are-the-missing-data-layer",
+      "label": "Decision traces are the missing data layer — a trillion-dollar gap",
+      "description": "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record",
+      "topics": [
+        "ai-native-product-architecture",
+        "future-of-ai-business"
+      ],
+      "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
+      "color": "#8b5cf6",
+      "degree": 5
+    },
+    {
+      "id": "declarative-beats-imperative-for-agents",
+      "label": "Declarative beats imperative when working with agents",
+      "description": "Give agents success criteria and watch them go — don't tell them what to do step by step",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Andrej Karpathy — Coding Observations",
+      "color": "#6366f1",
+      "degree": 11
+    },
+    {
+      "id": "ui-moat-collapses-api-becomes-purchasing-criterion",
+      "label": "The UI moat collapses — API quality becomes the purchasing criterion",
+      "description": "When agents are the primary users of software, beautiful dashboards stop mattering and API design becomes the competitive surface",
+      "topics": [
+        "business-models",
+        "ai-native-product-architecture"
+      ],
+      "source": "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API",
+      "color": "#10b981",
+      "degree": 6
+    },
+    {
+      "id": "saas-survives-as-governance-and-coordination-layer",
+      "label": "SaaS survives as the governance and coordination layer — determinism still rules",
+      "description": "When non-deterministic AI feeds into deterministic systems (databases, approvals, audit trails), the deterministic system governs; SaaS is that system",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
+      "color": "#10b981",
+      "degree": 9
+    },
+    {
+      "id": "software-abundance-unlocks-categories-that-never-existed",
+      "label": "Software abundance unlocks entire categories of applications that never existed",
+      "description": "Software has always been more expensive than we can afford; when AI drops costs 10-20x, previously unviable software becomes economically possible",
+      "topics": [
+        "future-of-ai-business",
+        "ai-coding-tools"
+      ],
+      "source": "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance",
+      "color": "#f59e0b",
+      "degree": 4
+    },
+    {
+      "id": "ai-self-improvement-loop-accelerates-everything",
+      "label": "AI's self-improvement loop means each generation builds the next one faster",
+      "description": "GPT-5.3-Codex was instrumental in creating itself — recursive improvement compresses timelines and explains why building for obsolescence is the only safe strategy",
+      "topics": [
+        "future-of-ai-business",
+        "ai-agents"
+      ],
+      "source": "@mattshumer_ (Matt Shumer) — Something Big Is Happening",
+      "color": "#f59e0b",
+      "degree": 4
+    },
+    {
+      "id": "verification-multiplies-agent-output-quality",
+      "label": "Verification is the single highest-leverage practice for agent-assisted coding",
+      "description": "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind",
+      "topics": [
+        "ai-coding-tools"
+      ],
+      "source": "Boris Cherny + Anthropic Official Best Practices",
+      "color": "#06b6d4",
+      "degree": 8
+    },
+    {
+      "id": "cross-user-knowledge-transfer-needs-no-fine-tuning",
+      "label": "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering",
+      "description": "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "Ashpreet Bedi — Agents That Learn (Agno Framework)",
+      "color": "#f43f5e",
+      "degree": 3
+    },
+    {
+      "id": "boring-tech-wins-for-ai-native-startups",
+      "label": "Boring tech wins for AI-native startups — simpler stack means faster AI-assisted shipping",
+      "description": "React + Node + TypeScript + Postgres + Redis scales to $1M ARR with 3 engineers; monorepo is a superpower for AI coding assistants",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-coding-tools"
+      ],
+      "source": "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)",
+      "color": "#8b5cf6",
+      "degree": 5
+    },
+    {
+      "id": "specs-are-external-memory-surviving-context-resets",
+      "label": "Spec files are external memory that survives context resets",
+      "description": "A structured specs/ folder (design.md, implementation.md, decisions.md) bridges human intent and agent execution across sessions",
+      "topics": [
+        "knowledge-systems",
+        "ai-coding-tools"
+      ],
+      "source": "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)",
+      "color": "#f43f5e",
+      "degree": 8
+    },
+    {
+      "id": "agent-memory-preserves-institutional-knowledge",
+      "label": "Persistent agent memory preserves institutional knowledge that walks out the door with employees",
+      "description": "When agents maintain daily changelogs, decision logs, and work preferences, organizational knowledge survives personnel changes",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
+      "color": "#f43f5e",
+      "degree": 12
+    },
+    {
+      "id": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "label": "Similarity is not relevance — relevance requires reasoning",
+      "description": "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning",
+      "topics": [
+        "ai-native-product-architecture"
+      ],
+      "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
+      "color": "#8b5cf6",
+      "degree": 7
+    },
+    {
+      "id": "structure-plus-reasoning-beats-flat-similarity",
+      "label": "Structure plus reasoning beats flat similarity for complex domains",
+      "description": "Across documents, code, and skills, the same pattern holds: structured knowledge navigated by reasoning outperforms flat indexes searched by similarity",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs",
+      "color": "#8b5cf6",
+      "degree": 6
+    },
+    {
+      "id": "agentic-search-beats-rag-for-live-codebases",
+      "label": "Agentic search beats RAG for live codebases",
+      "description": "Claude Code abandoned RAG and vector DB in favor of letting the agent grep/glob/read — reasoning about where to look outperforms pre-indexed similarity search",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-coding-tools"
+      ],
+      "source": "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik",
+      "color": "#8b5cf6",
+      "degree": 6
+    },
+    {
+      "id": "personal-software-grows-through-relationship-not-configuration",
+      "label": "Personal software grows through relationship, not configuration",
+      "description": "Unlike traditional SaaS where users adapt to the tool, personal software agents grow personality and skills in response to their user through ongoing interaction",
+      "topics": [
+        "ai-agents",
+        "future-of-ai-business"
+      ],
+      "source": "@danshipper — Personal Software and AI Agents",
+      "color": "#6366f1",
+      "degree": 4
+    },
+    {
+      "id": "postgresql-scales-further-than-you-think",
+      "label": "PostgreSQL scales further than you think",
+      "description": "OpenAI runs ChatGPT on one PostgreSQL primary plus ~50 read replicas handling millions of QPS — no sharding of PostgreSQL itself, just excellent operations",
+      "topics": [
+        "ai-native-product-architecture"
+      ],
+      "source": "OpenAI — https://openai.com/index/scaling-postgresql/",
+      "color": "#8b5cf6",
+      "degree": 5
+    },
+    {
+      "id": "response-ux-should-match-retrieval-intelligence",
+      "label": "Response UX should match retrieval intelligence",
+      "description": "If your system uses semantic search to find results, the display should reflect that intelligence — keyword highlighting on semantic results creates a confusing mismatch",
+      "topics": [
+        "ai-native-product-architecture"
+      ],
+      "source": "@akshay_pachaar — 'Your RAG System Has a Hidden UX Problem' (Daily Dose of Data Science blog), referencing Zilliz semantic highlighting model",
+      "color": "#8b5cf6",
+      "degree": 4
+    },
+    {
+      "id": "skill-graphs-enable-progressive-disclosure",
+      "label": "Skill graphs enable progressive disclosure for complex domains",
+      "description": "Single skill files hit a ceiling — complex domains need interconnected knowledge that agents navigate progressively from index to description to links to sections to full content",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
+      "color": "#f43f5e",
+      "degree": 7
+    },
+    {
+      "id": "orchestrator-agent-replaces-human-coordination",
+      "label": "An orchestrator agent that manages other agents solves the parallel coordination problem without human bottleneck",
+      "description": "Instead of humans managing AI agents, a meta-agent spawns specialized agents, routes tasks by model strength, and monitors progress",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
+      "color": "#6366f1",
+      "degree": 7
+    },
+    {
+      "id": "open-source-captures-value-through-services-not-software",
+      "label": "Open source captures value through services, not software",
+      "description": "Free software builds billion-dollar companies because the money is in support, cloud, and governance layers — not the code itself",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "Learning Technical Concepts chat — Ayush exploring open source revenue",
+      "color": "#10b981",
+      "degree": 4
+    },
+    {
+      "id": "webmcp-turns-websites-into-agent-native-interfaces",
+      "label": "WebMCP turns websites into agent-native interfaces",
+      "description": "Chrome's MCP integration lets websites expose structured tools to agents instead of agents scraping and guessing at UI elements",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Learning Technical Concepts chat — Chrome for Developers WebMCP announcement",
+      "color": "#6366f1",
+      "degree": 5
+    },
+    {
+      "id": "prompt-caching-makes-long-context-economically-viable",
+      "label": "Prompt caching makes long context economically viable",
+      "description": "Prefix-matching cache enables 80%+ cost reduction for multi-turn conversations, making rich context systems affordable at scale",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-coding-tools"
+      ],
+      "source": "Learning Technical Concepts chat — Thariq's prompt caching article",
+      "color": "#8b5cf6",
+      "degree": 4
+    },
+    {
+      "id": "parallel-agents-create-management-problem-not-coding-problem",
+      "label": "Parallel agents create a management problem, not a coding problem",
+      "description": "When AI agents can work on multiple projects simultaneously, the bottleneck shifts from writing code to coordinating parallel workstreams",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents",
+      "color": "#06b6d4",
+      "degree": 8
+    },
+    {
+      "id": "dont-be-the-discriminator-be-the-patron",
+      "label": "Don't be the discriminator — be the patron, not the judge",
+      "description": "Taste (selecting from AI output) is the function that gets automated first; participating in creation through friction and will is what endures",
+      "topics": [
+        "future-of-ai-business",
+        "knowledge-systems"
+      ],
+      "source": "@WillManidis (Will Manidis) — Against Taste",
+      "color": "#f59e0b",
+      "degree": 4
+    },
+    {
+      "id": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "label": "Autonomous coding loops need small stories and fast feedback to work",
+      "description": "The Ralph pattern ships 13 features in 1 hour by decomposing into context-window-sized tasks with explicit acceptance criteria and test-based feedback",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
+      "color": "#6366f1",
+      "degree": 7
+    },
+    {
+      "id": "technology-transitions-create-more-not-less",
+      "label": "Technology transitions create more of the 'dying' thing, not less",
+      "description": "Every predicted death — mainframes, physical retail, traditional media — resulted in growth of both old and new; AI will create more software, not less",
+      "topics": [
+        "future-of-ai-business"
+      ],
+      "source": "@stevesi (Steven Sinofsky) — Death of Software?",
+      "color": "#f59e0b",
+      "degree": 7
+    },
+    {
+      "id": "build-for-obsolescence-models-eat-scaffolding",
+      "label": "Build for obsolescence — improving models will eat your scaffolding",
+      "description": "Every elaborate skill workaround you build today simplifies as models improve; design skills that gracefully shed complexity while keeping sandboxes and evals permanent",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
+      "color": "#8b5cf6",
+      "degree": 9
+    },
+    {
+      "id": "hybrid-search-is-the-default-not-the-exception",
+      "label": "Hybrid search is the default, not the exception",
+      "description": "Neither keyword nor semantic search alone is complete — combining BM25 and vector search with reranking is the baseline for production systems",
+      "topics": [
+        "ai-native-product-architecture"
+      ],
+      "source": "QMD by Tobi Lütke, pg_textsearch by Timescale, TigerData BM25 article",
+      "color": "#8b5cf6",
+      "degree": 5
+    },
+    {
+      "id": "multi-model-ensemble-catches-single-model-blindspots",
+      "label": "Multi-model code review creates adversarial robustness — each model catches what others miss",
+      "description": "Using 3 different LLMs to review the same PR exploits the fact that models have different failure modes, creating emergent coverage no single model achieves",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
+      "color": "#06b6d4",
+      "degree": 6
+    },
+    {
+      "id": "middleware-dies-infrastructure-survives",
+      "label": "AI kills middleware — infrastructure and expert judgment survive",
+      "description": "Companies that sell 'easy buttons' for technical chores die; physical infrastructure, expert judgment, and deep domain tools endure",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "Editorial synthesis — vendor audit analysis (source originally attributed to @MylesMarino1 could not be verified)",
+      "color": "#10b981",
+      "degree": 13
+    },
+    {
+      "id": "agent-trust-transfers-from-human-credibility",
+      "label": "Agent trust transfers from human credibility — colleagues adopt agents operated by people they trust",
+      "description": "When a human's agent consistently performs well, other team members inherit that trust and willingly depend on the agent, creating a credibility chain",
+      "topics": [
+        "ai-agents",
+        "future-of-ai-business"
+      ],
+      "source": "@danshipper — Personal Software and AI Agents",
+      "color": "#6366f1",
+      "degree": 4
+    },
+    {
+      "id": "agents-become-the-buyer",
+      "label": "B2B becomes B2A — agents become the buyer",
+      "description": "Software is increasingly consumed by agents, not humans; the agent recommends, the human approves",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API",
+      "color": "#f59e0b",
+      "degree": 9
+    },
+    {
+      "id": "treat-ai-like-distributed-team-not-assistant",
+      "label": "Treat AI like a distributed team, not a single assistant",
+      "description": "Running 15 parallel Claude streams with specialized roles produces better results than one perfect conversation",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "Boris Cherny — Creator of Claude Code",
+      "color": "#06b6d4",
+      "degree": 11
+    },
+    {
+      "id": "evolving-summaries-beat-append-only-memory",
+      "label": "Evolving summaries beat append-only memory — rewrite profiles, don't accumulate facts",
+      "description": "An evolve_summary() function that rewrites category profiles with new information handles contradictions naturally, unlike append-only logs",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
+      "color": "#f43f5e",
+      "degree": 4
+    },
+    {
+      "id": "treat-agent-as-operating-system-not-function",
+      "label": "Treat an agent as an operating system, not a stateless function",
+      "description": "Agents need RAM (conversation context), a hard drive (persistent memory), garbage collection (decay/pruning), and I/O management (tools)",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
+      "color": "#6366f1",
+      "degree": 5
+    },
+    {
+      "id": "tiered-retrieval-prevents-context-overload",
+      "label": "Tiered retrieval prevents context overload — summaries first, details on demand",
+      "description": "Reading category summaries first, then drilling to items, then raw resources only if needed keeps memory retrieval within token budgets",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
+      "color": "#8b5cf6",
+      "degree": 4
+    },
+    {
+      "id": "session-capture-compounds-development-knowledge",
+      "label": "Session capture turns ephemeral AI conversations into a compounding knowledge base",
+      "description": "shadcn's /done pattern — dumping key decisions to markdown after each session — applies file-based memory architecture to development workflow",
+      "topics": [
+        "ai-coding-tools",
+        "knowledge-systems"
+      ],
+      "source": "shadcn (via X/Twitter) — /done skill pattern",
+      "color": "#06b6d4",
+      "degree": 5
+    },
+    {
+      "id": "ai-winners-already-decided-by-infrastructure",
+      "label": "The AI gold rush winners are already decided by infrastructure ownership",
+      "description": "Unlike previous waves, AI's opportunity structure is pre-consolidated — NVIDIA, hyperscalers, foundation labs, and data monopolies hold structural advantages",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "Editorial synthesis — multiple sources (source originally attributed to Natasha Malpani could not be verified)",
+      "color": "#f59e0b",
+      "degree": 7
+    },
+    {
+      "id": "embeddings-measure-similarity-not-truth",
+      "label": "Embeddings measure similarity, not truth — vector databases have a temporal blind spot",
+      "description": "Vector search can't resolve contradictions or understand time; 'I love my job' and 'I'm quitting' retrieve with equal confidence",
+      "topics": [
+        "knowledge-systems",
+        "ai-native-product-architecture"
+      ],
+      "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
+      "color": "#f43f5e",
+      "degree": 4
+    },
+    {
+      "id": "context-window-is-the-fundamental-constraint",
+      "label": "The context window is the fundamental constraint — everything else follows",
+      "description": "Every best practice in AI coding (subagents, /clear, focused tasks, specs files) traces back to managing a single scarce resource: context",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "Anthropic Official Best Practices + Jarrod Watts",
+      "color": "#06b6d4",
+      "degree": 14
+    },
+    {
+      "id": "three-layer-ai-stack-memory-search-reasoning",
+      "label": "The three-layer AI stack: Memory, Search, Reasoning",
+      "description": "The emerging AI product architecture has three layers — Memory, Search, Reasoning — all running on PostgreSQL",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "Synthesis from Supermemory, QMD, and PageIndex architectures",
+      "color": "#8b5cf6",
+      "degree": 13
+    },
+    {
+      "id": "implementation-gap-collapsed",
+      "label": "The implementation gap collapsed — clarity is the new technical skill",
+      "description": "The space between wanting something and having it closed; the ability to describe what you want precisely replaced the ability to build it",
+      "topics": [
+        "future-of-ai-business",
+        "ai-coding-tools"
+      ],
+      "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
+      "color": "#f59e0b",
+      "degree": 11
+    },
+    {
+      "id": "compound-engineering-makes-future-work-easier",
+      "label": "Compound engineering makes each unit of work improve all future work",
+      "description": "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learning compounds across iterations, not just code",
+      "topics": [
+        "ai-coding-tools",
+        "knowledge-systems"
+      ],
+      "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
+      "color": "#06b6d4",
+      "degree": 14
+    },
+    {
+      "id": "building-beats-following-for-ai-mastery",
+      "label": "Building real projects teaches AI skills faster than following structured curricula",
+      "description": "A non-technical user who built a production WhatsApp bot reached 'Operator' level that a 30-day AI mastery roadmap targets — through building, not studying",
+      "topics": [
+        "ai-coding-tools",
+        "knowledge-systems"
+      ],
+      "source": "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap",
+      "color": "#06b6d4",
+      "degree": 4
+    },
+    {
+      "id": "production-agents-route-decisions-not-every-call-to-llm",
+      "label": "Production agents route routine cases through decision trees, reserving humans for complexity",
+      "description": "Handle exact matches and known patterns without AI; invoke the model for ambiguity, and route genuinely complex cases to human judgment",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@vasuman — AI Agents 101",
+      "color": "#6366f1",
+      "degree": 6
+    },
+    {
+      "id": "malleable-software-writes-its-own-extensions",
+      "label": "Malleable software — a tiny core that writes its own plugins — replaces fixed-feature applications",
+      "description": "Instead of adapting your workflow to the tool, the tool observes your workflow and extends itself to match it",
+      "topics": [
+        "ai-agents",
+        "future-of-ai-business"
+      ],
+      "source": "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot",
+      "color": "#6366f1",
+      "degree": 6
+    },
+    {
+      "id": "error-memory-enables-learning-without-retraining",
+      "label": "Agents that store error patterns learn continuously without fine-tuning or retraining",
+      "description": "Dash's 'GPU-poor continuous learning' separates validated knowledge from error-driven learnings — five lines of code replaces expensive retraining",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
+      "color": "#6366f1",
+      "degree": 4
+    },
+    {
+      "id": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
+      "label": "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents",
+      "description": "Agent tools must be designed for how agents think (context-limited, non-deterministic, description-dependent), not how programmers think",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Anthropic Engineering — Writing Effective Tools for Agents",
+      "color": "#6366f1",
+      "degree": 6
+    },
+    {
+      "id": "evaluate-tools-with-real-multi-step-tasks",
+      "label": "Evaluate agent tools with real multi-step tasks, not toy single-call examples",
+      "description": "Weak evaluation tasks hide tool design flaws — strong tasks require chained calls, ambiguity resolution, and verifiable outcomes",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Anthropic Engineering — Writing Effective Tools for Agents",
+      "color": "#6366f1",
+      "degree": 5
+    },
+    {
+      "id": "rigid-schemas-exist-because-rigid-apps-demand-them",
+      "label": "Agents eat your system of record — the rigid app was the constraint, not the schema",
+      "description": "When agents can clone your entire CRM in seconds and become the real interface, the SaaS product becomes a dumb write endpoint. Data moats evaporate because agents eliminate the rigid app that demanded rigid schemas.",
+      "topics": [
+        "ai-native-product-architecture",
+        "future-of-ai-business"
+      ],
+      "source": "@zain_hoda (Zain Hoda, Vanna AI) — The Agent Will Eat Your System of Record",
+      "color": "#8b5cf6",
+      "degree": 6
+    },
+    {
+      "id": "tool-design-is-continuous-observation-see-like-an-agent",
+      "label": "Tool design is continuous observation — see like an agent",
+      "description": "Designing effective agent tools requires iterating by watching actual model behavior, not specifying upfront; tools that helped weaker models may constrain stronger ones",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
+      "color": "#6366f1",
+      "degree": 5
+    },
+    {
+      "id": "lakebases-decouple-compute-from-storage",
+      "label": "Lakebases decouple compute from storage — databases become elastic infrastructure",
+      "description": "Third-generation databases separate compute and storage entirely, putting data in open formats on cloud object stores; the database becomes a serverless layer that scales to zero",
+      "topics": [
+        "ai-native-product-architecture"
+      ],
+      "source": "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase",
+      "color": "#8b5cf6",
+      "degree": 3
+    },
+    {
+      "id": "saas-grows-but-consolidates-around-platforms",
+      "label": "AI won't destroy SaaS moats — it'll make the biggest ones even bigger",
+      "description": "Enterprise SaaS consolidates rather than fragments: we could see 5-10 individual trillion-dollar SaaS companies. Moats are people, relationships, and enterprise integrations — not code. Cheaper AI-built software doesn't overcome distribution advantages.",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "@Konstantine (Konstantine Buhler, Sequoia Capital) — The Great SaaS Consolidation + AI Ascent 2025",
+      "color": "#10b981",
+      "degree": 8
+    },
+    {
+      "id": "model-market-fit-before-product-market-fit",
+      "label": "Model-market fit comes before product-market fit — without it, no amount of product excellence drives adoption",
+      "description": "AI startups need a prerequisite layer beneath PMF: the capability threshold where models can actually satisfy market demands. Legal AI crossed it at 87% accuracy; finance AI at 56% hasn't — same demand, opposite outcomes.",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
+      "color": "#10b981",
+      "degree": 3
+    },
+    {
+      "id": "harness-engineers-need-docs-as-first-class-output",
+      "label": "Harness engineering — humans steer, agents execute, documentation is the system of record",
+      "description": "OpenAI built a million-line production codebase with zero manually-written code in 5 months. The discipline shifted from writing code to designing the harness: architecture constraints, documentation, tooling, and feedback loops that make agents reliable at scale.",
+      "topics": [
+        "ai-coding-tools",
+        "knowledge-systems"
+      ],
+      "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
+      "color": "#06b6d4",
+      "degree": 6
+    },
+    {
+      "id": "multi-model-orchestration-beats-any-single-family",
+      "label": "AI is the computer — orchestration across 19 models is the product, not any single model",
+      "description": "Perplexity launched a unified agent system orchestrating 19 backend models that delegate tasks, manage files, execute code, and browse the web. The differentiation isn't the models — it's the orchestration. 'The computer is the orchestration system.'",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer",
+      "color": "#6366f1",
+      "degree": 4
+    }
+  ],
+  "links": [
+    {
+      "source": "features-are-prompts-not-code",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "features-are-prompts-not-code",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "features-are-prompts-not-code",
+      "target": "malleable-software-writes-its-own-extensions"
+    },
+    {
+      "source": "files-are-the-universal-agent-interface",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "files-are-the-universal-agent-interface",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "files-are-the-universal-agent-interface",
+      "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
+    },
+    {
+      "source": "technical-knowledge-becomes-liability",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "technical-knowledge-becomes-liability",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "skills-as-markdown-replace-fine-tuning",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "skills-as-markdown-replace-fine-tuning",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "skills-as-markdown-replace-fine-tuning",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "deputies-and-sheriffs-distribute-agent-authority",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "deputies-and-sheriffs-distribute-agent-authority",
+      "target": "parallel-agents-create-management-problem-not-coding-problem"
+    },
+    {
+      "source": "deputies-and-sheriffs-distribute-agent-authority",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "declarative-beats-imperative-for-agents",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "declarative-beats-imperative-for-agents",
+      "target": "technical-knowledge-becomes-liability"
+    },
+    {
+      "source": "ui-moat-collapses-api-becomes-purchasing-criterion",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "ui-moat-collapses-api-becomes-purchasing-criterion",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "saas-grows-but-consolidates-around-platforms"
+    },
+    {
+      "source": "software-abundance-unlocks-categories-that-never-existed",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "software-abundance-unlocks-categories-that-never-existed",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "software-abundance-unlocks-categories-that-never-existed",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "ai-self-improvement-loop-accelerates-everything",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "ai-self-improvement-loop-accelerates-everything",
+      "target": "dont-be-the-discriminator-be-the-patron"
+    },
+    {
+      "source": "ai-self-improvement-loop-accelerates-everything",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "multi-model-ensemble-catches-single-model-blindspots"
+    },
+    {
+      "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "boring-tech-wins-for-ai-native-startups",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "boring-tech-wins-for-ai-native-startups",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "specs-are-external-memory-surviving-context-resets",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "specs-are-external-memory-surviving-context-resets",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "specs-are-external-memory-surviving-context-resets",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "agent-memory-preserves-institutional-knowledge",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "agent-memory-preserves-institutional-knowledge",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "agent-memory-preserves-institutional-knowledge",
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "agentic-search-beats-rag-for-live-codebases"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "agentic-search-beats-rag-for-live-codebases"
+    },
+    {
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "agentic-search-beats-rag-for-live-codebases",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "agentic-search-beats-rag-for-live-codebases",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "agentic-search-beats-rag-for-live-codebases",
+      "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "personal-software-grows-through-relationship-not-configuration",
+      "target": "malleable-software-writes-its-own-extensions"
+    },
+    {
+      "source": "personal-software-grows-through-relationship-not-configuration",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "personal-software-grows-through-relationship-not-configuration",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "postgresql-scales-further-than-you-think",
+      "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "postgresql-scales-further-than-you-think",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "postgresql-scales-further-than-you-think",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "response-ux-should-match-retrieval-intelligence",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
+      "source": "response-ux-should-match-retrieval-intelligence",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "response-ux-should-match-retrieval-intelligence",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "orchestrator-agent-replaces-human-coordination",
+      "target": "parallel-agents-create-management-problem-not-coding-problem"
+    },
+    {
+      "source": "orchestrator-agent-replaces-human-coordination",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "orchestrator-agent-replaces-human-coordination",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "orchestrator-agent-replaces-human-coordination",
+      "target": "ai-winners-already-decided-by-infrastructure"
+    },
+    {
+      "source": "open-source-captures-value-through-services-not-software",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "open-source-captures-value-through-services-not-software",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "open-source-captures-value-through-services-not-software",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "webmcp-turns-websites-into-agent-native-interfaces",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
+      "source": "webmcp-turns-websites-into-agent-native-interfaces",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "webmcp-turns-websites-into-agent-native-interfaces",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "webmcp-turns-websites-into-agent-native-interfaces",
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
+    },
+    {
+      "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "dont-be-the-discriminator-be-the-patron",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "dont-be-the-discriminator-be-the-patron",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "technology-transitions-create-more-not-less",
+      "target": "software-abundance-unlocks-categories-that-never-existed"
+    },
+    {
+      "source": "technology-transitions-create-more-not-less",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "technology-transitions-create-more-not-less",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "technology-transitions-create-more-not-less",
+      "target": "saas-grows-but-consolidates-around-platforms"
+    },
+    {
+      "source": "build-for-obsolescence-models-eat-scaffolding",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "build-for-obsolescence-models-eat-scaffolding",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "hybrid-search-is-the-default-not-the-exception",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "hybrid-search-is-the-default-not-the-exception",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "hybrid-search-is-the-default-not-the-exception",
+      "target": "postgresql-scales-further-than-you-think"
+    },
+    {
+      "source": "hybrid-search-is-the-default-not-the-exception",
+      "target": "response-ux-should-match-retrieval-intelligence"
+    },
+    {
+      "source": "multi-model-ensemble-catches-single-model-blindspots",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "multi-model-ensemble-catches-single-model-blindspots",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "multi-model-ensemble-catches-single-model-blindspots",
+      "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "middleware-dies-infrastructure-survives",
+      "target": "ai-winners-already-decided-by-infrastructure"
+    },
+    {
+      "source": "middleware-dies-infrastructure-survives",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
+      "source": "middleware-dies-infrastructure-survives",
+      "target": "open-source-captures-value-through-services-not-software"
+    },
+    {
+      "source": "middleware-dies-infrastructure-survives",
+      "target": "saas-grows-but-consolidates-around-platforms"
+    },
+    {
+      "source": "agent-trust-transfers-from-human-credibility",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "agent-trust-transfers-from-human-credibility",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "agent-trust-transfers-from-human-credibility",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "webmcp-turns-websites-into-agent-native-interfaces"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "agent-trust-transfers-from-human-credibility"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "parallel-agents-create-management-problem-not-coding-problem"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "deputies-and-sheriffs-distribute-agent-authority"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "multi-model-ensemble-catches-single-model-blindspots"
+    },
+    {
+      "source": "evolving-summaries-beat-append-only-memory",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "evolving-summaries-beat-append-only-memory",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "treat-agent-as-operating-system-not-function",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "treat-agent-as-operating-system-not-function",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "treat-agent-as-operating-system-not-function",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "treat-agent-as-operating-system-not-function",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "tiered-retrieval-prevents-context-overload",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "tiered-retrieval-prevents-context-overload",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "tiered-retrieval-prevents-context-overload",
+      "target": "embeddings-measure-similarity-not-truth"
+    },
+    {
+      "source": "session-capture-compounds-development-knowledge",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "session-capture-compounds-development-knowledge",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "session-capture-compounds-development-knowledge",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "session-capture-compounds-development-knowledge",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "ai-winners-already-decided-by-infrastructure",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "ai-winners-already-decided-by-infrastructure",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "ai-winners-already-decided-by-infrastructure",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "ai-winners-already-decided-by-infrastructure",
+      "target": "saas-grows-but-consolidates-around-platforms"
+    },
+    {
+      "source": "embeddings-measure-similarity-not-truth",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "embeddings-measure-similarity-not-truth",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "embeddings-measure-similarity-not-truth",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "context-window-is-the-fundamental-constraint",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "context-window-is-the-fundamental-constraint",
+      "target": "treat-agent-as-operating-system-not-function"
+    },
+    {
+      "source": "context-window-is-the-fundamental-constraint",
+      "target": "prompt-caching-makes-long-context-economically-viable"
+    },
+    {
+      "source": "context-window-is-the-fundamental-constraint",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "hybrid-search-is-the-default-not-the-exception"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "agentic-search-beats-rag-for-live-codebases"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "postgresql-scales-further-than-you-think"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "tiered-retrieval-prevents-context-overload"
+    },
+    {
+      "source": "implementation-gap-collapsed",
+      "target": "technical-knowledge-becomes-liability"
+    },
+    {
+      "source": "implementation-gap-collapsed",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "implementation-gap-collapsed",
+      "target": "building-beats-following-for-ai-mastery"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "session-capture-compounds-development-knowledge"
+    },
+    {
+      "source": "building-beats-following-for-ai-mastery",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "building-beats-following-for-ai-mastery",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "building-beats-following-for-ai-mastery",
+      "target": "dont-be-the-discriminator-be-the-patron"
+    },
+    {
+      "source": "production-agents-route-decisions-not-every-call-to-llm",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "production-agents-route-decisions-not-every-call-to-llm",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "production-agents-route-decisions-not-every-call-to-llm",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "malleable-software-writes-its-own-extensions",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "malleable-software-writes-its-own-extensions",
+      "target": "ai-self-improvement-loop-accelerates-everything"
+    },
+    {
+      "source": "malleable-software-writes-its-own-extensions",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "malleable-software-writes-its-own-extensions",
+      "target": "personal-software-grows-through-relationship-not-configuration"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
+      "source": "evaluate-tools-with-real-multi-step-tasks",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "evaluate-tools-with-real-multi-step-tasks",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "evaluate-tools-with-real-multi-step-tasks",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
+    },
+    {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "lakebases-decouple-compute-from-storage",
+      "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
+    },
+    {
+      "source": "lakebases-decouple-compute-from-storage",
+      "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "lakebases-decouple-compute-from-storage",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "saas-grows-but-consolidates-around-platforms",
+      "target": "middleware-dies-infrastructure-survives"
+    },
+    {
+      "source": "saas-grows-but-consolidates-around-platforms",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "saas-grows-but-consolidates-around-platforms",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "saas-grows-but-consolidates-around-platforms",
+      "target": "ai-winners-already-decided-by-infrastructure"
+    },
+    {
+      "source": "model-market-fit-before-product-market-fit",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "model-market-fit-before-product-market-fit",
+      "target": "build-for-obsolescence-models-eat-scaffolding"
+    },
+    {
+      "source": "model-market-fit-before-product-market-fit",
+      "target": "implementation-gap-collapsed"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "multi-model-orchestration-beats-any-single-family",
+      "target": "multi-model-ensemble-catches-single-model-blindspots"
+    },
+    {
+      "source": "multi-model-orchestration-beats-any-single-family",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "multi-model-orchestration-beats-any-single-family",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "multi-model-orchestration-beats-any-single-family",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    }
+  ]
+}
