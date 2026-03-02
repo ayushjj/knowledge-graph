@@ -2,11 +2,11 @@
 title: "Treat AI like a distributed team, not a single assistant"
 description: "Running 15 parallel Claude streams with specialized roles (writer, reviewer, architect) produces better results than one perfect conversation"
 topics: [ai-coding-tools, ai-agents]
-source: "Boris Cherny — Creator of Claude Code"
+source: "Boris Cherny — How I Use Claude Code"
 date: 2025-01-13
 ---
 
-Cherny runs 5 Claude instances in terminal, 5-10 on claude.ai in browser — 15 parallel streams simultaneously, each with a different task. This isn't multitasking for efficiency; it's a mental model shift. The AI isn't your assistant. It's your team.
+Cherny runs 5 Claude instances in terminal, 5-10 on claude.ai in browser — 15 parallel streams simultaneously, each with a different task. This isn't multitasking for efficiency; it's a mental model shift. (Note: the "distributed team" framing is editorial — Cherny describes the workflow patterns, and this insight synthesizes them into a team metaphor.)
 
 The writer/reviewer pattern makes this concrete: Session A implements, Session B reviews the implementation, feedback flows back to Session A. Test-first variant: Session A writes tests, Session B writes code to pass them. Fan-out for batch: a shell loop processes dozens of files in parallel. Each stream has isolated context, which addresses [[context-window-is-the-fundamental-constraint]] — instead of cramming everything into one conversation, you distribute work across separate context windows.
 

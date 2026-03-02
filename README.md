@@ -1,6 +1,6 @@
 # AI Product Building Knowledge Graph
 
-62 curated insights about building AI products — structured for both human browsing and agent traversal.
+58 curated insights about building AI products — structured for both human browsing and agent traversal.
 
 ## Why this exists
 
@@ -33,7 +33,7 @@ Open the cloned folder in Obsidian. All `[[wikilinks]]` resolve natively — you
 
 ### Use with Claude Code or other AI agents
 
-Point your agent at `graph-index.yaml` — it contains all 50 nodes' metadata, descriptions, and link structure in a single file. An agent can read this one file and navigate the entire graph without scanning individual files.
+Point your agent at `graph-index.yaml` — it contains all 58 nodes' metadata, descriptions, and link structure in a single file. An agent can read this one file and navigate the entire graph without scanning individual files.
 
 ```
 # Example: add to your CLAUDE.md or agent context
@@ -53,7 +53,7 @@ knowledge-graph/
 │   ├── future-of-ai-business.md
 │   ├── business-models.md
 │   └── knowledge-systems.md
-└── insights/             # 50 individual insight files
+└── insights/             # 58 individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...
@@ -70,7 +70,6 @@ knowledge-graph/
 Some insights span multiple topics. These are the most connected nodes in the graph:
 
 - **Context is the product, not the model** — spans architecture, business models, knowledge systems (11 incoming links)
-- **Middleware dies, infrastructure survives** — spans business models, future of AI (7 incoming links)
 - **Declarative beats imperative for agents** — spans agents, coding tools (8 incoming links)
 - **Compound engineering makes future work easier** — spans coding tools, knowledge systems (9 incoming links)
 
@@ -97,7 +96,7 @@ These ideas belong to the people below — I'm just the curator who connected th
 - **Nader Dabit ([@dabit3](https://twitter.com/dabit3))** — Software abundance
 - **Will Manidis ([@WillManidis](https://twitter.com/WillManidis))** — Against taste / patron vs. discriminator
 - **Steven Sinofsky ([@stevesi](https://twitter.com/stevesi))** — Technology transitions
-- **Myles Marino ([@MylesMarino1](https://twitter.com/MylesMarino1))** — Middleware dies, vendor audits
+
 - **Natasha Malpani ([@natashamalpani](https://twitter.com/natashamalpani))** — AI gold rush infrastructure
 - **Gokul R ([@gokulr](https://twitter.com/gokulr))** — OpenClaw skills paradigm
 - **Jaya Gupta ([@JayaGup10](https://twitter.com/JayaGup10))** — Decision traces, context graphs
@@ -105,11 +104,11 @@ These ideas belong to the people below — I'm just the curator who connected th
 - **Vasuman ([@vasuman](https://twitter.com/vasuman))** — AI Agents 101, decision routing
 - **Benjamin De Kraker** — Compound engineering
 - **Kushal Byatnal** — Boring tech wins (Extend)
-- **Tobi Lütke ([@tolobi](https://twitter.com/tolobi))** — Malleable software, Shopify
+- **Tobi Lütke ([@tobi](https://twitter.com/tobi))** — Malleable software, Shopify
 - **[Ryan Carson](https://twitter.com/ryancarson)** — Autonomous coding loops (Ralph)
 - **Heinrich ([@arscontexta](https://twitter.com/arscontexta))** — Skill graphs, progressive disclosure
 - **[shadcn](https://twitter.com/shadcn)** — Session capture patterns
-- **Jarrod Watts** — Context window constraints
+
 - **Zain Hoda ([@zain_hoda](https://twitter.com/zain_hoda))** — Rigid schemas, files as database, Vanna AI
 - **Thariq ([@trq212](https://twitter.com/trq212))** — Tool design for agents, Claude Code lessons
 - **Databricks (Ali Ghodsi, Matei Zaharia et al.)** — Lakebase architecture

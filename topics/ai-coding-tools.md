@@ -18,7 +18,6 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 
 ## Insights
 - [[declarative-beats-imperative-for-agents]] — Karpathy: success criteria > step-by-step instructions
-- [[implementation-gap-collapsed]] — Building went from hours to minutes; clarity is the new skill
 - [[technical-knowledge-becomes-liability]] — Implementation reflexes slow you down when agents handle the building
 - [[software-abundance-unlocks-categories-that-never-existed]] — AI drops development costs 10-20x, making new software categories viable
 - [[compound-engineering-makes-future-work-easier]] — Plan 40% / Work 20% / Review 40% makes each iteration smarter

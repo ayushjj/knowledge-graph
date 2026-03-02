@@ -2,7 +2,7 @@
 title: "Prompt caching makes long context economically viable"
 description: "Prefix-matching cache enables 80%+ cost reduction for multi-turn conversations, making rich context systems affordable at scale"
 topics: [ai-native-product-architecture, ai-coding-tools]
-source: "Learning Technical Concepts chat — Thariq's prompt caching article"
+source: "Anthropic documentation — Prompt Caching"
 date: 2026-02-24
 ---
 

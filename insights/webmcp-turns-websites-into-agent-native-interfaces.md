@@ -2,7 +2,7 @@
 title: "WebMCP turns websites into agent-native interfaces"
 description: "Chrome's MCP integration lets websites expose structured tools to agents instead of agents scraping and guessing at UI elements"
 topics: [ai-agents, ai-native-product-architecture]
-source: "Learning Technical Concepts chat — Chrome for Developers WebMCP announcement"
+source: "Chrome for Developers — WebMCP announcement (https://developer.chrome.com/blog/web-mcp)"
 date: 2026-02-24
 ---
 

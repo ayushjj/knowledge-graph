@@ -2,7 +2,7 @@
 title: "Personal software grows through relationship, not configuration"
 description: "Unlike traditional SaaS where users adapt to the tool, personal software agents grow personality and skills in response to their user through ongoing interaction"
 topics: [ai-agents, future-of-ai-business]
-source: "@danshipper — Personal Software and AI Agents"
+source: "@danshipper (Dan Shipper) — 'What personal software actually is' (tweet thread)"
 date: 2026-02-24
 ---
 

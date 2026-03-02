@@ -25,7 +25,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[features-are-prompts-not-code]] — Architecture where features are prompts composed from atomic tools
 - [[skills-as-markdown-replace-fine-tuning]] — Skill files as the knowledge layer of AI products
 - [[decision-traces-are-the-missing-data-layer]] — Capturing "why" creates searchable precedent and a new system of record
-- [[build-for-obsolescence-models-eat-scaffolding]] — Design systems that gracefully shed complexity
 - [[ui-moat-collapses-api-becomes-purchasing-criterion]] — API design becomes the competitive surface
 - [[boring-tech-wins-for-ai-native-startups]] — Simpler stack = faster AI-assisted shipping; monorepo amplifies context
 - [[similarity-is-not-relevance-relevance-requires-reasoning]] — Vector search finds similar, but relevance requires LLM reasoning (PageIndex: 98.7% vs RAG's 70-80%)

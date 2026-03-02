@@ -23,7 +23,6 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[features-are-prompts-not-code]] — Agent-native means outcomes via prompts, not coded functions
 - [[skills-as-markdown-replace-fine-tuning]] — Skill files may match fine-tuned models at zero training cost
 - [[declarative-beats-imperative-for-agents]] — Give success criteria, not step-by-step instructions
-- [[build-for-obsolescence-models-eat-scaffolding]] — Improving models will make today's workarounds unnecessary
 - [[agent-memory-preserves-institutional-knowledge]] — Persistent memory files outlive employee turnover
 - [[ai-self-improvement-loop-accelerates-everything]] — Each AI generation builds the next faster
 - [[context-window-is-the-fundamental-constraint]] — Context is the bottleneck agents constantly manage

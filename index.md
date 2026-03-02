@@ -13,8 +13,6 @@ Claude: read this index first, then follow relevant topic links based on the cur
 
 ## Cross-Domain Insights
 - [[context-is-the-product-not-the-model]] — spans architecture, business models, knowledge systems
-- [[middleware-dies-infrastructure-survives]] — spans business models, future of AI business
-- [[ai-winners-already-decided-by-infrastructure]] — spans future of AI business, business models
 - [[structure-plus-reasoning-beats-flat-similarity]] — spans architecture, knowledge systems, agents
 
 ## Recent Additions
