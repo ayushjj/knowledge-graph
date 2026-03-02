@@ -12,3 +12,10 @@ sources/
 
 # Dependencies
 node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Claude Code local config
+.claude/

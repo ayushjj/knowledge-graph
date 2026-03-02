@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Custom theme tokens */
+@theme {
+  --color-bg-primary: #0f1117;
+  --color-bg-secondary: #1a1d27;
+  --color-bg-card: #1e2130;
+  --color-border: #2d3348;
+  --color-border-hover: #3d4462;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
+  --color-text-dim: #64748b;
+
+  /* Topic colors */
+  --color-topic-agents: #6366f1;
+  --color-topic-architecture: #8b5cf6;
+  --color-topic-coding: #06b6d4;
+  --color-topic-future: #f59e0b;
+  --color-topic-business: #10b981;
+  --color-topic-knowledge: #f43f5e;
+
+  /* Font stack */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* Base dark theme */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+}
+
+/* Prose styling for insight content */
+.prose-insight p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+.prose-insight a {
+  color: #818cf8;
+  text-decoration: none;
+  border-bottom: 1px dashed #818cf8;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.prose-insight a:hover {
+  color: #a5b4fc;
+  border-color: #a5b4fc;
+}
