@@ -1,5 +1,7 @@
 # AI Product Building Knowledge Graph
 
+[**Explore the interactive graph**](https://ayushjj.github.io/knowledge-graph/)
+
 62 curated insights about building AI products — structured for both human browsing and agent traversal.
 
 ## Why this exists
