@@ -2,7 +2,7 @@
 
 [**Explore the interactive graph**](https://ayushjj.github.io/knowledge-graph/)
 
-65 curated insights about building AI products — structured for both human browsing and agent traversal.
+74 curated insights about building AI products — structured for both human browsing and agent traversal.
 
 ## Why this exists
 

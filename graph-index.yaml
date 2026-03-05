@@ -498,7 +498,7 @@ nodes:
     topics: [psychology, engineering]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)"
     domain: mental-models
-    outgoing: [incentive-caused-bias-makes-good-people-rationalize, production-agents-route-decisions-not-every-call-to-llm]
+    outgoing: [incentive-caused-bias-makes-good-people-rationalize, pilot-training-model-builds-reliable-knowledge, production-agents-route-decisions-not-every-call-to-llm]
     incoming: [incentive-caused-bias-makes-good-people-rationalize, small-concessions-trigger-disproportionate-reciprocation, confluence-of-tendencies-produces-extreme-outcomes, social-proof-makes-groups-passive-before-visible-harm, scale-advantages-cascade-until-bureaucracy-kills-them]
 
   first-conclusions-become-nearly-permanent:
@@ -525,7 +525,7 @@ nodes:
     topics: [psychology, decision-making]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 599-604)"
     domain: mental-models
-    outgoing: [multi-model-ensemble-catches-single-model-blindspots, systems-that-prevent-bad-behavior-beat-moral-appeals]
+    outgoing: [multi-model-ensemble-catches-single-model-blindspots, pavlovian-association-builds-durable-brand-moats, systems-that-prevent-bad-behavior-beat-moral-appeals]
     incoming: [evaluate-tools-with-real-multi-step-tasks, latticework-of-models-beats-isolated-facts]
 
   social-proof-makes-groups-passive-before-visible-harm:
@@ -543,7 +543,7 @@ nodes:
     topics: [psychology, decision-making]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)"
     domain: mental-models
-    outgoing: [verification-multiplies-agent-output-quality, first-conclusions-become-nearly-permanent]
+    outgoing: [ideology-is-among-the-most-extreme-distorters-of-cognition, verification-multiplies-agent-output-quality, first-conclusions-become-nearly-permanent]
     incoming: [incentive-caused-bias-makes-good-people-rationalize, circle-of-competence-determines-where-you-can-win]
 
   latticework-of-models-beats-isolated-facts:
@@ -552,7 +552,7 @@ nodes:
     topics: [decision-making, philosophy]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)"
     domain: mental-models
-    outgoing: [first-conclusions-become-nearly-permanent, confluence-of-tendencies-produces-extreme-outcomes]
+    outgoing: [bet-seldom-but-heavily-when-odds-are-extreme, first-conclusions-become-nearly-permanent, confluence-of-tendencies-produces-extreme-outcomes]
     incoming: [circle-of-competence-determines-where-you-can-win, invert-always-invert-to-solve-hard-problems, pilot-training-model-builds-reliable-knowledge, ideology-is-among-the-most-extreme-distorters-of-cognition]
 
   scale-advantages-cascade-until-bureaucracy-kills-them:
@@ -571,7 +571,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)"
     domain: mental-models
     outgoing: [technology-transitions-create-more-not-less, scale-advantages-cascade-until-bureaucracy-kills-them]
-    incoming: []
+    incoming: [pavlovian-association-builds-durable-brand-moats]
 
   circle-of-competence-determines-where-you-can-win:
     title: "Circle of competence determines where you can win"
@@ -589,7 +589,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 206-220)"
     domain: mental-models
     outgoing: [circle-of-competence-determines-where-you-can-win, incentive-caused-bias-makes-good-people-rationalize]
-    incoming: []
+    incoming: [latticework-of-models-beats-isolated-facts]
 
   invert-always-invert-to-solve-hard-problems:
     title: "Invert, always invert — many problems are best solved backward"
@@ -606,8 +606,8 @@ nodes:
     topics: [psychology, economics]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 305-315)"
     domain: mental-models
-    outgoing: [scale-advantages-cascade-until-bureaucracy-kills-them, social-proof-makes-groups-passive-before-visible-harm]
-    incoming: []
+    outgoing: [scale-advantages-cascade-until-bureaucracy-kills-them, social-proof-makes-groups-passive-before-visible-harm, technology-helps-moats-kills-commodity-businesses]
+    incoming: [confluence-of-tendencies-produces-extreme-outcomes]
 
   pilot-training-model-builds-reliable-knowledge:
     title: "The pilot training model builds reliable knowledge — fluency, checklists, and maintenance prevent cognitive failure"
@@ -616,13 +616,13 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 5: The Need for More Multidisciplinary Skills (pp. 327-336)"
     domain: mental-models
     outgoing: [latticework-of-models-beats-isolated-facts, invert-always-invert-to-solve-hard-problems, first-conclusions-become-nearly-permanent]
-    incoming: []
+    incoming: [systems-that-prevent-bad-behavior-beat-moral-appeals]
 
   ideology-is-among-the-most-extreme-distorters-of-cognition:
     title: "Ideology is among the most extreme distorters of human cognition"
     description: "Heavy ideology locks your brain into dysfunctional patterns — if it can warp a genius like Chomsky, imagine what it does to ordinary minds"
     topics: [psychology, decision-making]
-    source: "Charlie Munger — Poor Charlie's Almanack, Talk 3: Elementary Worldly Wisdom, Revisited (pp. 246-250)"
+    source: "Charlie Munger — Poor Charlie's Almanack, Talk 3: Elementary Worldly Wisdom, Revisited (pp. 235-239)"
     domain: mental-models
     outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts]
-    incoming: []
+    incoming: [excessive-self-regard-makes-fixable-failures-persist]

@@ -21,4 +21,5 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[bet-seldom-but-heavily-when-odds-are-extreme]] — The wise ones bet big when odds favor them, not the rest of the time
 - [[invert-always-invert-to-solve-hard-problems]] — Jacobi's method: think forward and backward to solve hard problems
 - [[pilot-training-model-builds-reliable-knowledge]] — Six elements of pilot training apply to all serious professional education
+- [[scale-advantages-cascade-until-bureaucracy-kills-them]] — Scale advantages compound toward winner-take-all until bureaucracy undoes them
 - [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — Heavy ideology locks the brain into dysfunctional patterns
