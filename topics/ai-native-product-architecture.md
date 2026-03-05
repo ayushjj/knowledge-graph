@@ -43,3 +43,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[rigid-schemas-exist-because-rigid-apps-demand-them]] — Agents clone entire CRMs in seconds; the rigid app was the constraint, data moats evaporate
 - [[lakebases-decouple-compute-from-storage]] — Third-gen databases: serverless Postgres on cloud object stores, instant branching, scale to zero
 - [[multi-model-orchestration-beats-any-single-family]] — The computer is the orchestration system: 19 models as unified intelligence
+- [[context-inefficiency-compounds-three-penalties]] — Wasted tokens create a triple tax: higher cost, slower responses, degraded output quality
+- [[kv-cache-hit-rate-determines-agent-economics]] — Stable prefixes + append-only context maximize cache reuse, slashing cost and latency
+- [[safety-enforcement-belongs-in-tool-design-not-prompts]] — Embed safety invariants in the tool API, not in system prompt instructions

@@ -21,3 +21,7 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[open-source-captures-value-through-services-not-software]] — Free software builds billion-dollar companies; money is in services/cloud/governance
 - [[saas-grows-but-consolidates-around-platforms]] — AI makes the biggest SaaS moats bigger; 5-10 individual trillion-dollar companies, not fragmentation
 - [[model-market-fit-before-product-market-fit]] — Without model-market fit, no amount of product excellence drives adoption (87% legal vs 56% finance)
+- [[llms-selectively-destroy-vertical-software-moats]] — Taxonomy of which vertical software defenses survive LLMs and which don't
+- [[llm-competition-fragments-markets-not-consolidates]] — Market reprices on anticipated 3-to-300 competition fragmentation, not current revenue loss
+- [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — Aggregation Theory's final chapter: brand visibility disappears when LLMs become the interface
+- [[domain-skill-libraries-are-the-real-agent-moat]] — Defensibility ladder: model (commodity) → tools (months) → domain skills (years) → user data (irreplaceable)

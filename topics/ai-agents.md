@@ -48,3 +48,6 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[multi-model-ensemble-catches-single-model-blindspots]] — Triple-model review exploits diverse failure modes for emergent coverage
 - [[tool-design-is-continuous-observation-see-like-an-agent]] — Tool design is iterative observation: watch the model, reshape the tool, repeat
 - [[multi-model-orchestration-beats-any-single-family]] — AI is the computer: Perplexity orchestrates 19 models as a unified agent system
+- [[kv-cache-hit-rate-determines-agent-economics]] — Cache hit rate is the #1 metric for production agents; append-only context is key
+- [[safety-enforcement-belongs-in-tool-design-not-prompts]] — Tool-enforced safety scales; behavioral compliance with system prompts doesn't
+- [[domain-skill-libraries-are-the-real-agent-moat]] — Core infrastructure is replicable in months; domain skill libraries take years

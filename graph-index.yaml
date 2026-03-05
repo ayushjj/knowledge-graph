@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-05
-node_count: 74
+node_count: 81
 domains: [ai, mental-models]
 
 nodes:
@@ -29,7 +29,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
     outgoing: [context-is-the-product-not-the-model, skills-as-markdown-replace-fine-tuning, rigid-schemas-exist-because-rigid-apps-demand-them]
-    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output]
+    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties]
 
   technical-knowledge-becomes-liability:
     title: "Technical knowledge can become a liability when working with AI"
@@ -45,7 +45,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -53,7 +53,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services"
     outgoing: [features-are-prompts-not-code, context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
-    incoming: [context-is-the-product-not-the-model, cross-user-knowledge-transfer-needs-no-fine-tuning, skill-graphs-enable-progressive-disclosure, compound-engineering-makes-future-work-easier, files-are-the-universal-agent-interface]
+    incoming: [context-is-the-product-not-the-model, cross-user-knowledge-transfer-needs-no-fine-tuning, skill-graphs-enable-progressive-disclosure, compound-engineering-makes-future-work-easier, files-are-the-universal-agent-interface, llms-selectively-destroy-vertical-software-moats, llm-competition-fragments-markets-not-consolidates, domain-skill-libraries-are-the-real-agent-moat]
 
   deputies-and-sheriffs-distribute-agent-authority:
     title: "Deputies and Sheriffs — distributed agent teams with hierarchical authority replace centralized software"
@@ -85,7 +85,7 @@ nodes:
     topics: [business-models, ai-native-product-architecture]
     source: "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API"
     outgoing: [agents-become-the-buyer]
-    incoming: [agents-become-the-buyer, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces]
+    incoming: [agents-become-the-buyer, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, llms-selectively-destroy-vertical-software-moats, llms-complete-aggregation-theory-by-collapsing-interface-layer]
 
   saas-survives-as-governance-and-coordination-layer:
     title: "SaaS survives as the governance and coordination layer — determinism still rules"
@@ -93,7 +93,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"
     outgoing: [agents-become-the-buyer, context-is-the-product-not-the-model, open-source-captures-value-through-services-not-software, production-agents-route-decisions-not-every-call-to-llm, saas-grows-but-consolidates-around-platforms]
-    incoming: [open-source-captures-value-through-services-not-software, agent-trust-transfers-from-human-credibility, deputies-and-sheriffs-distribute-agent-authority, saas-grows-but-consolidates-around-platforms]
+    incoming: [open-source-captures-value-through-services-not-software, agent-trust-transfers-from-human-credibility, deputies-and-sheriffs-distribute-agent-authority, saas-grows-but-consolidates-around-platforms, llms-selectively-destroy-vertical-software-moats]
 
   software-abundance-unlocks-categories-that-never-existed:
     title: "Software abundance unlocks entire categories of applications that never existed"
@@ -204,7 +204,7 @@ nodes:
     description: "Single skill files hit a ceiling — complex domains need interconnected knowledge that agents navigate progressively from index to description to links to sections to full content"
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
-    outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint]
+    outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat]
     incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent]
 
   orchestrator-agent-replaces-human-coordination:
@@ -236,7 +236,7 @@ nodes:
     description: "Prefix-matching cache enables 80%+ cost reduction for multi-turn conversations, making rich context systems affordable at scale"
     topics: [ai-native-product-architecture, ai-coding-tools]
     source: "Learning Technical Concepts chat — Thariq's prompt caching article"
-    outgoing: [context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, context-is-the-product-not-the-model]
+    outgoing: [context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, context-is-the-product-not-the-model, kv-cache-hit-rate-determines-agent-economics]
     incoming: [context-window-is-the-fundamental-constraint]
 
   parallel-agents-create-management-problem-not-coding-problem:
@@ -268,7 +268,7 @@ nodes:
     description: "Every predicted death — mainframes, physical retail, traditional media — resulted in growth of both old and new; AI will create more software, not less"
     topics: [future-of-ai-business]
     source: "@stevesi (Steven Sinofsky) — Death of Software?"
-    outgoing: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms]
+    outgoing: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, llm-competition-fragments-markets-not-consolidates]
     incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses]
 
 
@@ -302,7 +302,7 @@ nodes:
     description: "Software is increasingly consumed by agents, not humans; the agent recommends, the human approves"
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API"
-    outgoing: [webmcp-turns-websites-into-agent-native-interfaces, ui-moat-collapses-api-becomes-purchasing-criterion, agent-trust-transfers-from-human-credibility]
+    outgoing: [webmcp-turns-websites-into-agent-native-interfaces, ui-moat-collapses-api-becomes-purchasing-criterion, agent-trust-transfers-from-human-credibility, llms-complete-aggregation-theory-by-collapsing-interface-layer]
     incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, webmcp-turns-websites-into-agent-native-interfaces, agent-trust-transfers-from-human-credibility, rigid-schemas-exist-because-rigid-apps-demand-them]
 
   treat-ai-like-distributed-team-not-assistant:
@@ -360,7 +360,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Anthropic Official Best Practices + Jarrod Watts"
     outgoing: [context-is-the-product-not-the-model, treat-agent-as-operating-system-not-function, prompt-caching-makes-long-context-economically-viable, declarative-beats-imperative-for-agents]
-    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload]
+    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties]
 
   three-layer-ai-stack-memory-search-reasoning:
     title: "The three-layer AI stack: Memory, Search, Reasoning"
@@ -393,7 +393,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@vasuman — AI Agents 101"
     outgoing: [declarative-beats-imperative-for-agents, verification-multiplies-agent-output-quality, context-is-the-product-not-the-model]
-    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals]
+    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals, safety-enforcement-belongs-in-tool-design-not-prompts]
 
   malleable-software-writes-its-own-extensions:
     title: "Malleable software — a tiny core that writes its own plugins — replaces fixed-feature applications"
@@ -417,14 +417,14 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Anthropic Engineering — Writing Effective Tools for Agents"
     outgoing: [context-window-is-the-fundamental-constraint, declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, tool-design-is-continuous-observation-see-like-an-agent]
-    incoming: [webmcp-turns-websites-into-agent-native-interfaces, tool-design-is-continuous-observation-see-like-an-agent]
+    incoming: [webmcp-turns-websites-into-agent-native-interfaces, tool-design-is-continuous-observation-see-like-an-agent, safety-enforcement-belongs-in-tool-design-not-prompts]
 
   evaluate-tools-with-real-multi-step-tasks:
     title: "Evaluate agent tools with real multi-step tasks, not toy single-call examples"
     description: "Weak evaluation tasks hide tool design flaws — strong tasks require chained calls, ambiguity resolution, and verifiable outcomes"
     topics: [ai-agents, ai-coding-tools]
     source: "Anthropic Engineering — Writing Effective Tools for Agents"
-    outgoing: [confluence-of-tendencies-produces-extreme-outcomes, verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier]
+    outgoing: [confluence-of-tendencies-produces-extreme-outcomes, verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier, safety-enforcement-belongs-in-tool-design-not-prompts]
     incoming: [autonomous-loops-need-small-stories-and-fast-feedback, multi-model-ensemble-catches-single-model-blindspots]
 
   rigid-schemas-exist-because-rigid-apps-demand-them:
@@ -443,6 +443,33 @@ nodes:
     outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint]
     incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
+  domain-skill-libraries-are-the-real-agent-moat:
+    title: "Domain-specific skill libraries are the real agent moat, not core infrastructure"
+    description: "An elite team can replicate any agent's tool architecture in months, but accumulated domain workflows (LBO modeling, compliance, bankruptcy) represent years of structural expertise"
+    topics: [ai-agents, business-models]
+    source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
+    domain: ai
+    outgoing: [skills-as-markdown-replace-fine-tuning, context-is-the-product-not-the-model]
+    incoming: [skill-graphs-enable-progressive-disclosure]
+
+  context-inefficiency-compounds-three-penalties:
+    title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
+    description: "Every wasted token in an LLM context window doesn't just cost money — it slows responses and degrades output quality, creating a triple tax on production agents"
+    topics: [ai-native-product-architecture, knowledge-systems]
+    source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
+    domain: ai
+    outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface]
+    incoming: [kv-cache-hit-rate-determines-agent-economics]
+
+  kv-cache-hit-rate-determines-agent-economics:
+    title: "KV cache hit rate is the most critical metric for production agents"
+    description: "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
+    domain: ai
+    outgoing: [context-inefficiency-compounds-three-penalties]
+    incoming: [prompt-caching-makes-long-context-economically-viable]
+
   lakebases-decouple-compute-from-storage:
     title: "Lakebases decouple compute from storage — databases become elastic infrastructure"
     description: "Third-generation databases separate compute and storage entirely, putting data in open formats on cloud object stores; the database becomes a serverless layer that scales to zero"
@@ -450,6 +477,42 @@ nodes:
     source: "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase"
     outgoing: [rigid-schemas-exist-because-rigid-apps-demand-them, boring-tech-wins-for-ai-native-startups]
     incoming: [boring-tech-wins-for-ai-native-startups]
+
+  llms-complete-aggregation-theory-by-collapsing-interface-layer:
+    title: "LLMs complete Aggregation Theory by collapsing the interface layer"
+    description: "Ben Thompson's framework reaches its final chapter: LLMs eliminate the interface layer that protected software suppliers, turning the entire web into a backend database where suppliers compete on data quality alone"
+    topics: [future-of-ai-business, business-models]
+    source: "@nicbstme — The Crumbling Workflow Moat: Aggregation Theory's Final Chapter"
+    domain: ai
+    outgoing: [ui-moat-collapses-api-becomes-purchasing-criterion, llms-selectively-destroy-vertical-software-moats]
+    incoming: [agents-become-the-buyer]
+
+  llms-selectively-destroy-vertical-software-moats:
+    title: "LLMs selectively destroy vertical software moats — 5 fall, 5 hold"
+    description: "Learned interfaces, custom workflows, public data access, talent scarcity, and bundling collapse under LLMs, while proprietary data, regulatory lock-in, network effects, transaction embedding, and system-of-record status remain defensible"
+    topics: [future-of-ai-business, business-models]
+    source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
+    domain: ai
+    outgoing: [skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer]
+    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer]
+
+  llm-competition-fragments-markets-not-consolidates:
+    title: "LLM competition fragments markets from 3 incumbents to 300"
+    description: "When LLMs lower the cost of building vertical software, competition doesn't add one new entrant — it explodes combinatorially, explaining market repricing before revenue loss"
+    topics: [future-of-ai-business, business-models]
+    source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
+    domain: ai
+    outgoing: [llms-selectively-destroy-vertical-software-moats, skills-as-markdown-replace-fine-tuning]
+    incoming: [technology-transitions-create-more-not-less]
+
+  safety-enforcement-belongs-in-tool-design-not-prompts:
+    title: "Safety enforcement belongs in tool design, not system prompts"
+    description: "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
+    domain: ai
+    outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, production-agents-route-decisions-not-every-call-to-llm]
+    incoming: [evaluate-tools-with-real-multi-step-tasks]
 
   saas-grows-but-consolidates-around-platforms:
     title: "AI won't destroy SaaS moats — it'll make the biggest ones even bigger"

@@ -30,3 +30,6 @@ AI's self-improvement loop compresses everything — each generation builds the 
 - [[rigid-schemas-exist-because-rigid-apps-demand-them]] — Agents eat your system of record; SaaS becomes a dumb write endpoint, data moats evaporate
 - [[saas-grows-but-consolidates-around-platforms]] — No SaaSpocalypse — AI strengthens incumbent moats; people and relationships beat cheap code
 - [[model-market-fit-before-product-market-fit]] — Model-market fit precedes product-market fit in AI startups
+- [[llms-selectively-destroy-vertical-software-moats]] — 5 moats fall (UI, workflows, data access, talent, bundling), 5 hold (proprietary data, regulatory, network effects, transactions, system-of-record)
+- [[llm-competition-fragments-markets-not-consolidates]] — Competition explodes from 3 incumbents to 300 when engineering barriers collapse
+- [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — The web becomes a backend database; suppliers compete on data quality alone
