@@ -15,7 +15,24 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[context-is-the-product-not-the-model]] — spans architecture, business models, knowledge systems
 - [[structure-plus-reasoning-beats-flat-similarity]] — spans architecture, knowledge systems, agents
 
+## Mental Models Domain
+- [[decision-making]] — checklists, inversion, concentrated betting, circle of competence
+- [[psychology]] — cognitive biases, conditioning, ideology, social proof
+- [[economics]] — scale advantages, moats, brand conditioning, incentive structures
+- [[engineering]] — systems design for human nature, pilot training model
+- [[philosophy]] — knowledge architecture, latticework of mental models
+- [[mathematics]] — inversion, probability, compound interest
+
 ## Recent Additions
+- [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — heavy ideology locks the brain into dysfunctional patterns (2026-03-05)
+- [[pilot-training-model-builds-reliable-knowledge]] — six-element pilot training system as model for all professional education (2026-03-05)
+- [[pavlovian-association-builds-durable-brand-moats]] — brands are conditioned reflexes that compound via Pavlovian association (2026-03-05)
+- [[invert-always-invert-to-solve-hard-problems]] — Jacobi's method: think forward and backward (2026-03-05)
+- [[bet-seldom-but-heavily-when-odds-are-extreme]] — the wise ones bet big when odds favor them (2026-03-05)
+- [[circle-of-competence-determines-where-you-can-win]] — play within your aptitudes (2026-03-05)
+- [[technology-helps-moats-kills-commodity-businesses]] — productivity gains flow to customers in commodities, to bottom line in moats (2026-03-05)
+- [[scale-advantages-cascade-until-bureaucracy-kills-them]] — scale economics compound toward winner-take-all (2026-03-05)
+- [[latticework-of-models-beats-isolated-facts]] — 80-90 mental models from multiple disciplines carry 90% of the freight (2026-03-05)
 - [[confluence-of-tendencies-produces-extreme-outcomes]] — lollapalooza effects emerge when multiple biases push the same direction (2026-03-02)
 - [[social-proof-makes-groups-passive-before-visible-harm]] — conformity overrides individual judgment even in life-or-death situations (2026-03-02)
 - [[excessive-self-regard-makes-fixable-failures-persist]] — the Tolstoy effect: people excuse poor performance instead of correcting it (2026-03-02)

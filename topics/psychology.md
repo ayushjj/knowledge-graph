@@ -21,3 +21,6 @@ People overrate their own possessions, decisions, and performance. This isn't oc
 - [[excessive-self-regard-makes-fixable-failures-persist]] — The Tolstoy effect: excuses for fixable poor performance instead of fixes
 - [[confluence-of-tendencies-produces-extreme-outcomes]] — Lollapalooza effects when multiple biases push the same direction
 - [[social-proof-makes-groups-passive-before-visible-harm]] — Conformity overrides individual judgment even in life-or-death situations
+- [[circle-of-competence-determines-where-you-can-win]] — Self-assessment is biased; knowing what you don't know is the dawning of wisdom
+- [[pavlovian-association-builds-durable-brand-moats]] — Classical conditioning creates durable brand associations at subconscious level
+- [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — Heavy ideology warps cognition even in geniuses like Chomsky
