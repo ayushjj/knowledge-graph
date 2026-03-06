@@ -447,7 +447,7 @@ nodes:
     title: "Domain-specific skill libraries are the real agent moat, not core infrastructure"
     description: "An elite team can replicate any agent's tool architecture in months, but accumulated domain workflows (LBO modeling, compliance, bankruptcy) represent years of structural expertise"
     topics: [ai-agents, business-models]
-    source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
+    source: "@nicbstme — article title unverified (not found in Substack archive; may be X Article)"
     domain: ai
     outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning]
     incoming: [skill-graphs-enable-progressive-disclosure]
@@ -509,7 +509,7 @@ nodes:
     title: "Safety enforcement belongs in tool design, not system prompts"
     description: "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions"
     topics: [ai-agents, ai-native-product-architecture]
-    source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
+    source: "@nicbstme — article title unverified (not found in Substack archive; may be X Article)"
     domain: ai
     outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, production-agents-route-decisions-not-every-call-to-llm]
     incoming: [evaluate-tools-with-real-multi-step-tasks]
