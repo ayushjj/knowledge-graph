@@ -24,16 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[weaponize-sycophancy-with-adversarial-agent-ensembles]] — bug-finder/adversary/referee pattern exploits sycophancy for high-fidelity results (2026-03-05)
+- [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as minimal IF-ELSE directory, not monolithic knowledge dump (2026-03-05)
+- [[frontier-companies-absorb-every-useful-agentic-pattern]] — if it's truly useful, OpenAI/Anthropic will build it in (2026-03-05)
+- [[one-session-per-contract-beats-long-running-agents]] — fresh context per contract; orchestration spawns sessions (2026-03-05)
+- [[separate-research-from-implementation-to-preserve-context]] — research pollutes implementation context; split sessions (2026-03-05)
 - [[safety-enforcement-belongs-in-tool-design-not-prompts]] — tool-enforced safety scales; behavioral compliance doesn't (2026-03-05)
 - [[domain-skill-libraries-are-the-real-agent-moat]] — core infrastructure is replicable; domain skills take years (2026-03-05)
 - [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — Aggregation Theory's final chapter: the web becomes a backend database (2026-03-05)
 - [[context-inefficiency-compounds-three-penalties]] — wasted tokens tax cost, latency, and quality simultaneously (2026-03-05)
 - [[kv-cache-hit-rate-determines-agent-economics]] — append-only context + stable prefixes maximize cache reuse (2026-03-05)
-- [[llms-selectively-destroy-vertical-software-moats]] — 5 moats fall, 5 hold in the LLM era (2026-03-05)
-- [[llm-competition-fragments-markets-not-consolidates]] — competition explodes from 3 to 300 when barriers collapse (2026-03-05)
-- [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — heavy ideology locks the brain into dysfunctional patterns (2026-03-05)
-- [[pilot-training-model-builds-reliable-knowledge]] — six-element pilot training system as model for all professional education (2026-03-05)
-- [[pavlovian-association-builds-durable-brand-moats]] — brands are conditioned reflexes that compound via Pavlovian association (2026-03-05)
-- [[invert-always-invert-to-solve-hard-problems]] — Jacobi's method: think forward and backward (2026-03-05)
-- [[bet-seldom-but-heavily-when-odds-are-extreme]] — the wise ones bet big when odds favor them (2026-03-05)
-- [[orchestrator-agent-replaces-human-coordination]] — meta-agent spawns, routes, and monitors specialized agents autonomously (2026-02-24)

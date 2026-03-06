@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-05
-node_count: 81
+node_count: 86
 domains: [ai, mental-models]
 
 nodes:
@@ -117,7 +117,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -133,7 +133,7 @@ nodes:
     topics: [ai-native-product-architecture, ai-coding-tools]
     source: "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)"
     outgoing: [context-is-the-product-not-the-model, lakebases-decouple-compute-from-storage]
-    incoming: [agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, lakebases-decouple-compute-from-storage]
+    incoming: [agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, lakebases-decouple-compute-from-storage, frontier-companies-absorb-every-useful-agentic-pattern]
 
   specs-are-external-memory-surviving-context-resets:
     title: "Spec files are external memory that survives context resets"
@@ -141,7 +141,7 @@ nodes:
     topics: [knowledge-systems, ai-coding-tools]
     source: "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)"
     outgoing: [files-are-the-universal-agent-interface, autonomous-loops-need-small-stories-and-fast-feedback, context-window-is-the-fundamental-constraint]
-    incoming: [parallel-agents-create-management-problem-not-coding-problem, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, harness-engineers-need-docs-as-first-class-output]
+    incoming: [parallel-agents-create-management-problem-not-coding-problem, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, harness-engineers-need-docs-as-first-class-output, one-session-per-contract-beats-long-running-agents, separate-research-from-implementation-to-preserve-context]
 
   agent-memory-preserves-institutional-knowledge:
     title: "Persistent agent memory preserves institutional knowledge that walks out the door with employees"
@@ -205,7 +205,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat]
-    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent]
+    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base]
 
   orchestrator-agent-replaces-human-coordination:
     title: "An orchestrator agent that manages other agents solves the parallel coordination problem without human bottleneck"
@@ -213,7 +213,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
     outgoing: [parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, social-proof-makes-groups-passive-before-visible-harm, treat-ai-like-distributed-team-not-assistant]
-    incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant]
+    incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant, one-session-per-contract-beats-long-running-agents]
 
   open-source-captures-value-through-services-not-software:
     title: "Open source captures value through services, not software"
@@ -260,8 +260,8 @@ nodes:
     description: "The Ralph pattern ships 13 features in 1 hour by decomposing into context-window-sized tasks with explicit acceptance criteria and test-based feedback"
     topics: [ai-agents, ai-coding-tools]
     source: "Ryan Carson — Ralph / Autonomous Coding Loop"
-    outgoing: [verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, agent-memory-preserves-institutional-knowledge, evaluate-tools-with-real-multi-step-tasks]
-    incoming: [specs-are-external-memory-surviving-context-resets, parallel-agents-create-management-problem-not-coding-problem]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality]
+    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets]
 
   technology-transitions-create-more-not-less:
     title: "Technology transitions create more of the 'dying' thing, not less"
@@ -269,7 +269,7 @@ nodes:
     topics: [future-of-ai-business]
     source: "@stevesi (Steven Sinofsky) — Death of Software?"
     outgoing: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, llm-competition-fragments-markets-not-consolidates]
-    incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses]
+    incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses, frontier-companies-absorb-every-useful-agentic-pattern]
 
 
   hybrid-search-is-the-default-not-the-exception:
@@ -285,8 +285,8 @@ nodes:
     description: "Using 3 different LLMs to review the same PR exploits the fact that models have different failure modes, creating emergent coverage no single model achieves"
     topics: [ai-coding-tools, ai-agents]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
-    outgoing: [verification-multiplies-agent-output-quality, treat-ai-like-distributed-team-not-assistant, evaluate-tools-with-real-multi-step-tasks]
-    incoming: [multi-model-orchestration-beats-any-single-family, verification-multiplies-agent-output-quality, treat-ai-like-distributed-team-not-assistant, confluence-of-tendencies-produces-extreme-outcomes]
+    outgoing: [evaluate-tools-with-real-multi-step-tasks, treat-ai-like-distributed-team-not-assistant, verification-multiplies-agent-output-quality, weaponize-sycophancy-with-adversarial-agent-ensembles]
+    incoming: [confluence-of-tendencies-produces-extreme-outcomes, multi-model-orchestration-beats-any-single-family, treat-ai-like-distributed-team-not-assistant, verification-multiplies-agent-output-quality]
 
 
   agent-trust-transfers-from-human-credibility:
@@ -359,8 +359,8 @@ nodes:
     description: "Every best practice in AI coding (subagents, /clear, focused tasks, specs files) traces back to managing a single scarce resource: context"
     topics: [ai-coding-tools, ai-agents]
     source: "Anthropic Official Best Practices + Jarrod Watts"
-    outgoing: [context-is-the-product-not-the-model, treat-agent-as-operating-system-not-function, prompt-caching-makes-long-context-economically-viable, declarative-beats-imperative-for-agents]
-    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties]
+    outgoing: [context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, one-session-per-contract-beats-long-running-agents, prompt-caching-makes-long-context-economically-viable, treat-agent-as-operating-system-not-function]
+    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base]
 
   three-layer-ai-stack-memory-search-reasoning:
     title: "The three-layer AI stack: Memory, Search, Reasoning"
@@ -377,7 +377,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -425,7 +425,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Anthropic Engineering — Writing Effective Tools for Agents"
     outgoing: [confluence-of-tendencies-produces-extreme-outcomes, verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier, safety-enforcement-belongs-in-tool-design-not-prompts]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, multi-model-ensemble-catches-single-model-blindspots]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, multi-model-ensemble-catches-single-model-blindspots, weaponize-sycophancy-with-adversarial-agent-ensembles]
 
   rigid-schemas-exist-because-rigid-apps-demand-them:
     title: "Agents eat your system of record — the rigid app was the constraint, not the schema"
@@ -449,7 +449,7 @@ nodes:
     topics: [ai-agents, business-models]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
-    outgoing: [skills-as-markdown-replace-fine-tuning, context-is-the-product-not-the-model]
+    outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning]
     incoming: [skill-graphs-enable-progressive-disclosure]
 
   context-inefficiency-compounds-three-penalties:
@@ -459,7 +459,7 @@ nodes:
     source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
     domain: ai
     outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface]
-    incoming: [kv-cache-hit-rate-determines-agent-economics]
+    incoming: [kv-cache-hit-rate-determines-agent-economics, separate-research-from-implementation-to-preserve-context]
 
   kv-cache-hit-rate-determines-agent-economics:
     title: "KV cache hit rate is the most critical metric for production agents"
@@ -535,7 +535,7 @@ nodes:
     description: "OpenAI built a million-line production codebase with zero manually-written code in 5 months. The discipline shifted from writing code to designing the harness: architecture constraints, documentation, tooling, and feedback loops that make agents reliable at scale."
     topics: [ai-coding-tools, knowledge-systems]
     source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
-    outgoing: [specs-are-external-memory-surviving-context-resets, declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, verification-multiplies-agent-output-quality, files-are-the-universal-agent-interface]
+    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, files-are-the-universal-agent-interface, specs-are-external-memory-surviving-context-resets, verification-multiplies-agent-output-quality]
     incoming: [compound-engineering-makes-future-work-easier]
 
   multi-model-orchestration-beats-any-single-family:
@@ -689,3 +689,48 @@ nodes:
     domain: mental-models
     outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts]
     incoming: [excessive-self-regard-makes-fixable-failures-persist]
+
+  weaponize-sycophancy-with-adversarial-agent-ensembles:
+    title: "Weaponize sycophancy with adversarial agent ensembles instead of fighting it"
+    description: "Deploy bug-finder, adversary, and referee agents with scoring incentives that exploit each agent's eagerness to please — triangulating truth from competing biases"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@systematicls — How To Be A World-Class Agentic Engineer"
+    domain: ai
+    outgoing: [evaluate-tools-with-real-multi-step-tasks, verification-multiplies-agent-output-quality]
+    incoming: [multi-model-ensemble-catches-single-model-blindspots]
+
+  claude-md-should-be-routing-table-not-knowledge-base:
+    title: "CLAUDE.md should be a routing table, not a knowledge base"
+    description: "Structure CLAUDE.md as a minimal IF-ELSE conditional directory that points to context files, not a monolithic knowledge dump that wastes context window"
+    topics: [ai-coding-tools, knowledge-systems]
+    source: "@systematicls — How To Be A World-Class Agentic Engineer"
+    domain: ai
+    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, skill-graphs-enable-progressive-disclosure]
+    incoming: [harness-engineers-need-docs-as-first-class-output]
+
+  frontier-companies-absorb-every-useful-agentic-pattern:
+    title: "Frontier companies absorb every useful agentic pattern into their products"
+    description: "If a workaround truly works, OpenAI/Anthropic will build it in — skills, memory, planning all get absorbed, making the wrapper layer fragile"
+    topics: [future-of-ai-business, ai-agents]
+    source: "@systematicls — How To Be A World-Class Agentic Engineer"
+    domain: ai
+    outgoing: [boring-tech-wins-for-ai-native-startups, technology-transitions-create-more-not-less]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat]
+
+  one-session-per-contract-beats-long-running-agents:
+    title: "One session per contract beats long-running agent sessions"
+    description: "Fresh context per task contract outperforms 24-hour agent sessions because cross-contract context bloat degrades performance by construction"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@systematicls — How To Be A World-Class Agentic Engineer"
+    domain: ai
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, orchestrator-agent-replaces-human-coordination, specs-are-external-memory-surviving-context-resets]
+    incoming: [context-window-is-the-fundamental-constraint]
+
+  separate-research-from-implementation-to-preserve-context:
+    title: "Separate research from implementation to preserve context quality"
+    description: "Research pollutes implementation context with irrelevant exploration tokens — split into separate agent sessions with specs as the handoff mechanism"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@systematicls — How To Be A World-Class Agentic Engineer"
+    domain: ai
+    outgoing: [context-inefficiency-compounds-three-penalties, specs-are-external-memory-surviving-context-resets]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback]

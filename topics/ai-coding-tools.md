@@ -38,3 +38,8 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[multi-model-ensemble-catches-single-model-blindspots]] — Three different LLMs review the same PR for adversarial robustness
 - [[tool-design-is-continuous-observation-see-like-an-agent]] — Tools that help weaker models constrain stronger ones; design by observing agent behavior
 - [[harness-engineers-need-docs-as-first-class-output]] — Humans steer, agents execute: million-line codebase with zero hand-written code via harness engineering
+- [[weaponize-sycophancy-with-adversarial-agent-ensembles]] — Exploit sycophancy through scoring-incentivized adversarial agents
+- [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as minimal IF-ELSE directory, not monolithic knowledge dump
+- [[frontier-companies-absorb-every-useful-agentic-pattern]] — If it's truly useful, OpenAI/Anthropic will build it in
+- [[one-session-per-contract-beats-long-running-agents]] — New session per contract; stop-hooks enforce completion
+- [[separate-research-from-implementation-to-preserve-context]] — Research pollutes implementation context; split into separate sessions

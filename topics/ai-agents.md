@@ -51,3 +51,7 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[kv-cache-hit-rate-determines-agent-economics]] — Cache hit rate is the #1 metric for production agents; append-only context is key
 - [[safety-enforcement-belongs-in-tool-design-not-prompts]] — Tool-enforced safety scales; behavioral compliance with system prompts doesn't
 - [[domain-skill-libraries-are-the-real-agent-moat]] — Core infrastructure is replicable in months; domain skill libraries take years
+- [[weaponize-sycophancy-with-adversarial-agent-ensembles]] — Bug-finder/adversary/referee pattern exploits competing biases for high-fidelity results
+- [[one-session-per-contract-beats-long-running-agents]] — Fresh context per task contract; orchestration layer spawns sessions
+- [[separate-research-from-implementation-to-preserve-context]] — Split research and implementation into separate agent sessions
+- [[frontier-companies-absorb-every-useful-agentic-pattern]] — Useful agentic patterns get absorbed into foundation company products

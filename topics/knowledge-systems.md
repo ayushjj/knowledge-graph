@@ -30,3 +30,4 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[session-capture-compounds-development-knowledge]] — shadcn's /done pattern turns ephemeral sessions into compounding knowledge
 - [[harness-engineers-need-docs-as-first-class-output]] — Harness engineering: AGENTS.md as map, doc-gardening agents, documentation as system of record
 - [[context-inefficiency-compounds-three-penalties]] — Every wasted token taxes cost, latency, and output quality simultaneously
+- [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as nested conditional directory, not knowledge monolith

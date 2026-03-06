@@ -33,3 +33,4 @@ AI's self-improvement loop compresses everything — each generation builds the 
 - [[llms-selectively-destroy-vertical-software-moats]] — 5 moats fall (UI, workflows, data access, talent, bundling), 5 hold (proprietary data, regulatory, network effects, transactions, system-of-record)
 - [[llm-competition-fragments-markets-not-consolidates]] — Competition explodes from 3 incumbents to 300 when engineering barriers collapse
 - [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — The web becomes a backend database; suppliers compete on data quality alone
+- [[frontier-companies-absorb-every-useful-agentic-pattern]] — Useful agentic patterns get absorbed into foundation company products
