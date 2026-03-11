@@ -26,7 +26,7 @@ export default function InsightFeed({ insights, topics, basePath }: InsightFeedP
   const [search, setSearch] = useState('');
   const [pagefindResults, setPagefindResults] = useState<string[] | null>(null);
   const pagefindRef = useRef<any>(null);
-  const debounceRef = useRef<ReturnType<typeof setTimeout>>();
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   // Only show domain tabs if there are multiple domains in the data
   const domainsInData = useMemo(() => {

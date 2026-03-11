@@ -11,7 +11,7 @@ export function remarkWikilinks() {
     const index = getGraphIndex();
 
     visit(tree, 'text', (node: Text, idx, parent) => {
-      if (!parent || idx === null) return;
+      if (!parent || idx == null) return;
 
       const regex = /\[\[([^\]]+)\]\]/g;
       const value = node.value;

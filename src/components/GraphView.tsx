@@ -80,7 +80,7 @@ export default function GraphView({ basePath }: GraphViewProps) {
 
       const maxDegree = Math.max(...data.nodes.map(n => n.degree));
 
-      const graph = ForceGraph()(containerRef.current)
+      const graph = (ForceGraph as any)()(containerRef.current)
         .graphData(data)
         .backgroundColor('#0f1117')
         .nodeId('id')

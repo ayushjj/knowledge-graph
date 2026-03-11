@@ -41,7 +41,7 @@ done < "$YAML"
 # --- Check 1: Node count match (files vs yaml vs README) ---
 file_count=$(ls insights/*.md 2>/dev/null | wc -l | tr -d ' ')
 yaml_count=$(grep '^node_count:' "$YAML" | awk '{print $2}')
-readme_count=$(grep -o '^[0-9]* curated insights' README.md | awk '{print $1}')
+readme_count=$(grep -oE '^[0-9]+\+? insights' README.md | grep -oE '^[0-9]+')
 
 if [[ "$file_count" == "$yaml_count" && "$yaml_count" == "$readme_count" ]]; then
   pass "Node count: $file_count files, $yaml_count in yaml, $readme_count in README"

@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master, feature/interactive-graph]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -26,6 +26,8 @@ jobs:
           cache: npm
 
       - run: npm ci
+      - run: npx astro check
+      - run: bash validate-graph.sh
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
