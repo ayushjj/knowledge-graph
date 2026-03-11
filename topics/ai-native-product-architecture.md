@@ -46,3 +46,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[context-inefficiency-compounds-three-penalties]] — Wasted tokens create a triple tax: higher cost, slower responses, degraded output quality
 - [[kv-cache-hit-rate-determines-agent-economics]] — Stable prefixes + append-only context maximize cache reuse, slashing cost and latency
 - [[safety-enforcement-belongs-in-tool-design-not-prompts]] — Embed safety invariants in the tool API, not in system prompt instructions
+- [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
+- [[context-layers-supersede-semantic-layers]] — Context layers are a superset of semantic layers: entities, identity resolution, tribal knowledge, governance
+- [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static artifacts

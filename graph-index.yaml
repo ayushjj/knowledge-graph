@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-06
-node_count: 90
+last_updated: 2026-03-11
+node_count: 94
 domains: [ai, mental-models]
 
 nodes:
@@ -44,8 +44,8 @@ nodes:
     description: "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode"
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
-    outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget]
+    outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning, data-agents-fail-from-missing-context-not-sql-gaps]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -63,13 +63,22 @@ nodes:
     outgoing: [treat-ai-like-distributed-team-not-assistant, parallel-agents-create-management-problem-not-coding-problem, saas-survives-as-governance-and-coordination-layer]
     incoming: [treat-ai-like-distributed-team-not-assistant]
 
+  data-agents-fail-from-missing-context-not-sql-gaps:
+    title: "Data agent failures stem from missing business context, not SQL generation gaps"
+    description: "The industry initially blamed text-to-SQL capability for data agent failures, but the real blockers are undefined business definitions, ambiguous sources of truth, and missing tribal knowledge"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@jasonscui — Your Data Agents Need Context, a16z"
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, similarity-is-not-relevance-relevance-requires-reasoning, decision-traces-are-the-missing-data-layer]
+    incoming: [context-is-the-product-not-the-model]
+
   decision-traces-are-the-missing-data-layer:
     title: "Decision traces are the missing data layer — a trillion-dollar gap"
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
-    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
+    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -149,7 +158,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture"
     outgoing: [decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility]
+    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility, tribal-knowledge-is-the-last-mile-for-agent-automation]
 
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
@@ -157,7 +166,7 @@ nodes:
     topics: [ai-native-product-architecture]
     source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
     outgoing: [structure-plus-reasoning-beats-flat-similarity, agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model]
-    incoming: [agentic-search-beats-rag-for-live-codebases, hybrid-search-is-the-default-not-the-exception, embeddings-measure-similarity-not-truth, evaluate-tools-with-real-multi-step-tasks]
+    incoming: [agentic-search-beats-rag-for-live-codebases, hybrid-search-is-the-default-not-the-exception, embeddings-measure-similarity-not-truth, evaluate-tools-with-real-multi-step-tasks, data-agents-fail-from-missing-context-not-sql-gaps]
 
   structure-plus-reasoning-beats-flat-similarity:
     title: "Structure plus reasoning beats flat similarity for complex domains"
@@ -165,7 +174,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems, ai-agents]
     source: "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs"
     outgoing: [agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, files-are-the-universal-agent-interface, context-is-the-product-not-the-model]
-    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure]
+    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure, context-layers-supersede-semantic-layers]
 
   agentic-search-beats-rag-for-live-codebases:
     title: "Agentic search beats RAG for live codebases"
@@ -205,7 +214,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat]
-    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base]
+    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers]
 
   orchestrator-agent-replaces-human-coordination:
     title: "An orchestrator agent that manages other agents solves the parallel coordination problem without human bottleneck"
@@ -355,6 +364,15 @@ nodes:
     outgoing: [skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, embeddings-measure-similarity-not-truth]
     incoming: [three-layer-ai-stack-memory-search-reasoning]
 
+  tribal-knowledge-is-the-last-mile-for-agent-automation:
+    title: "Tribal knowledge is the irreducible human input that enables agent automation"
+    description: "Automated context construction handles most of the corpus, but the most critical context is implicit, conditional, and historically contingent — only humans can provide it"
+    topics: [ai-agents, knowledge-systems]
+    source: "@jasonscui — Your Data Agents Need Context, a16z"
+    domain: ai
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model]
+    incoming: [decision-traces-are-the-missing-data-layer]
+
   session-capture-compounds-development-knowledge:
     title: "Session capture turns ephemeral AI conversations into a compounding knowledge base"
     description: "shadcn's /done pattern — dumping key decisions to markdown after each session — applies file-based memory architecture to development workflow"
@@ -395,7 +413,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -426,8 +444,8 @@ nodes:
     description: "Dash's 'GPU-poor continuous learning' separates validated knowledge from error-driven learnings — five lines of code replaces expensive retraining"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
-    outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning]
-    incoming: [treat-agent-as-operating-system-not-function]
+    outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems]
+    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems]
 
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
@@ -467,8 +485,8 @@ nodes:
     topics: [ai-agents, business-models]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
-    outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning]
-    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool]
+    outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers]
+    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -478,6 +496,24 @@ nodes:
     domain: ai
     outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface]
     incoming: [kv-cache-hit-rate-determines-agent-economics, separate-research-from-implementation-to-preserve-context]
+
+  context-layers-must-be-living-systems:
+    title: "Context layers must be living systems, not static artifacts"
+    description: "Unlike semantic layers that rot when maintainers leave, context layers need self-updating feedback loops where agent errors refine the context corpus"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "@jasonscui — Your Data Agents Need Context, a16z"
+    domain: ai
+    outgoing: [error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier]
+    incoming: [error-memory-enables-learning-without-retraining]
+
+  context-layers-supersede-semantic-layers:
+    title: "Context layers supersede semantic layers for agent autonomy"
+    description: "Traditional semantic layers handle metric definitions but agents need a superset: canonical entities, identity resolution, tribal knowledge instructions, and governance guidance"
+    topics: [ai-native-product-architecture, knowledge-systems]
+    source: "@jasonscui — Your Data Agents Need Context, a16z"
+    domain: ai
+    outgoing: [structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, domain-skill-libraries-are-the-real-agent-moat]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat]
 
   kv-cache-hit-rate-determines-agent-economics:
     title: "KV cache hit rate is the most critical metric for production agents"

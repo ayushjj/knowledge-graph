@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[data-agents-fail-from-missing-context-not-sql-gaps]] — data agents fail from missing business context, not SQL gaps (2026-03-11)
+- [[context-layers-supersede-semantic-layers]] — context layers are a superset of semantic layers for agent autonomy (2026-03-11)
+- [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — the most critical context is implicit and historically contingent (2026-03-11)
+- [[context-layers-must-be-living-systems]] — context layers need self-updating feedback loops, not static artifacts (2026-03-11)
 - [[sell-the-work-not-the-tool]] — model improvements compound for services, against software (2026-03-06)
 - [[intelligence-judgement-ratio-determines-automation-order]] — intelligence automates first; software engineering crossed the threshold (2026-03-06)
 - [[autopilots-capture-work-budget-not-tool-budget]] — six dollars in services for every one in software (2026-03-06)
 - [[outsourcing-is-the-autopilot-wedge]] — vendor swap beats reorg; three signals of autopilot readiness (2026-03-06)
 - [[weaponize-sycophancy-with-adversarial-agent-ensembles]] — bug-finder/adversary/referee pattern exploits sycophancy for high-fidelity results (2026-03-05)
 - [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as minimal IF-ELSE directory, not monolithic knowledge dump (2026-03-05)
-- [[frontier-companies-absorb-every-useful-agentic-pattern]] — if it's truly useful, OpenAI/Anthropic will build it in (2026-03-05)
-- [[one-session-per-contract-beats-long-running-agents]] — fresh context per contract; orchestration spawns sessions (2026-03-05)
-- [[separate-research-from-implementation-to-preserve-context]] — research pollutes implementation context; split sessions (2026-03-05)
-- [[safety-enforcement-belongs-in-tool-design-not-prompts]] — tool-enforced safety scales; behavioral compliance doesn't (2026-03-05)

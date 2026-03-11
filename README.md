@@ -16,7 +16,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ## What's in it
 
-90+ insights across 2 domains, updated weekly as I encounter new ideas:
+94+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 
@@ -38,7 +38,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ### 2. Feed it to an AI agent
 
-This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 90+ nodes, descriptions, and connections.
+This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 94+ nodes, descriptions, and connections.
 
 ```yaml
 # Add this one line to your CLAUDE.md:
@@ -46,7 +46,7 @@ When making architectural decisions or reviewing plans, read `graph-index.yaml`
 and check if any insights are relevant to the current decision.
 ```
 
-Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 90 connected insights produces genuinely different thinking than starting from scratch.
+Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 94 connected insights produces genuinely different thinking than starting from scratch.
 
 ## How it grows
 
@@ -74,7 +74,7 @@ knowledge-graph/
 │   ├── ai-agents.md
 │   ├── business-models.md
 │   └── ...
-└── insights/             # 90+ individual insight files
+└── insights/             # 94+ individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...

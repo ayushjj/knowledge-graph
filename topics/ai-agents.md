@@ -56,3 +56,6 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[separate-research-from-implementation-to-preserve-context]] — Split research and implementation into separate agent sessions
 - [[frontier-companies-absorb-every-useful-agentic-pattern]] — Useful agentic patterns get absorbed into foundation company products
 - [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence-heavy professions automate first; judgement remains human
+- [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
+- [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — The most critical context is implicit and historically contingent — only humans provide it
+- [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static YAML definitions
