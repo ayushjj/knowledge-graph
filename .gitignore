@@ -17,5 +17,8 @@ node_modules/
 dist/
 .astro/
 
+# Session learnings (internal process notes)
+learnings/
+
 # Claude Code local config
 .claude/

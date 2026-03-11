@@ -23,7 +23,7 @@
       ],
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -49,7 +49,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 19,
+      "degree": 22,
       "domain": "ai"
     },
     {
@@ -62,7 +62,7 @@
       ],
       "source": "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -114,7 +114,7 @@
       ],
       "source": "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -127,7 +127,7 @@
       ],
       "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
       "color": "#10b981",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -165,7 +165,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -191,7 +191,7 @@
       ],
       "source": "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -204,7 +204,7 @@
       ],
       "source": "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)",
       "color": "#f43f5e",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -306,7 +306,7 @@
       ],
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
-      "degree": 7,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -319,7 +319,20 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 8,
+      "domain": "ai"
+    },
+    {
+      "id": "outsourcing-is-the-autopilot-wedge",
+      "label": "Already-outsourced tasks are the autopilot wedge — vendor swap beats reorg",
+      "description": "If work is already outsourced, budget exists, external delivery is accepted, and the buyer purchases outcomes — substitution is frictionless",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@julienbek — Services: The New Software",
+      "color": "#f59e0b",
+      "degree": 2,
       "domain": "ai"
     },
     {
@@ -332,7 +345,7 @@
       ],
       "source": "Learning Technical Concepts chat — Ayush exploring open source revenue",
       "color": "#10b981",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -358,7 +371,7 @@
       ],
       "source": "Learning Technical Concepts chat — Thariq's prompt caching article",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -384,7 +397,7 @@
       ],
       "source": "@WillManidis (Will Manidis) — Against Taste",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -397,7 +410,20 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 9,
+      "domain": "ai"
+    },
+    {
+      "id": "autopilots-capture-work-budget-not-tool-budget",
+      "label": "Autopilots capture the work budget — six dollars in services for every one in software",
+      "description": "Copilots sell tools to professionals; autopilots sell outcomes to end customers and access the vastly larger services TAM from day one",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@julienbek — Services: The New Software",
+      "color": "#f59e0b",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -409,7 +435,7 @@
       ],
       "source": "@stevesi (Steven Sinofsky) — Death of Software?",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -434,7 +460,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -460,7 +486,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API",
       "color": "#f59e0b",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -473,7 +499,7 @@
       ],
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
-      "degree": 11,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -486,7 +512,7 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -551,7 +577,7 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 14,
+      "degree": 17,
       "domain": "ai"
     },
     {
@@ -577,7 +603,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 14,
+      "degree": 16,
       "domain": "ai"
     },
     {
@@ -590,7 +616,7 @@
       ],
       "source": "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap",
       "color": "#06b6d4",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -603,7 +629,7 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -642,7 +668,7 @@
       ],
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -655,7 +681,7 @@
       ],
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -685,6 +711,45 @@
       "domain": "ai"
     },
     {
+      "id": "domain-skill-libraries-are-the-real-agent-moat",
+      "label": "Domain-specific skill libraries are the real agent moat, not core infrastructure",
+      "description": "An elite team can replicate any agent's tool architecture in months, but accumulated domain workflows (LBO modeling, compliance, bankruptcy) represent years of domain expertise",
+      "topics": [
+        "ai-agents",
+        "business-models"
+      ],
+      "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "context-inefficiency-compounds-three-penalties",
+      "label": "Context inefficiency compounds three penalties: cost, latency, and quality degradation",
+      "description": "Every wasted token in an LLM context window doesn't just cost money — it slows responses and degrades output quality, creating a triple tax on production agents",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "kv-cache-hit-rate-determines-agent-economics",
+      "label": "KV cache hit rate is the most critical metric for production agents",
+      "description": "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
+      "color": "#8b5cf6",
+      "degree": 2,
+      "domain": "ai"
+    },
+    {
       "id": "lakebases-decouple-compute-from-storage",
       "label": "Lakebases decouple compute from storage — databases become elastic infrastructure",
       "description": "Third-generation databases separate compute and storage entirely, putting data in open formats on cloud object stores; the database becomes a serverless layer that scales to zero",
@@ -693,7 +758,59 @@
       ],
       "source": "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase",
       "color": "#8b5cf6",
-      "degree": 2,
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
+      "label": "LLMs complete Aggregation Theory by collapsing the interface layer",
+      "description": "Ben Thompson's framework reaches its final chapter: LLMs eliminate the interface layer that protected software suppliers, turning the entire web into a backend database where suppliers compete on data quality alone",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@nicbstme — The Crumbling Workflow Moat: Aggregation Theory's Final Chapter",
+      "color": "#f59e0b",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "llms-selectively-destroy-vertical-software-moats",
+      "label": "LLMs selectively destroy vertical software moats — 5 fall, 5 hold",
+      "description": "Learned interfaces, custom workflows, public data access, talent scarcity, and bundling collapse under LLMs, while proprietary data, regulatory lock-in, network effects, transaction embedding, and system-of-record status remain defensible",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
+      "color": "#f59e0b",
+      "degree": 7,
+      "domain": "ai"
+    },
+    {
+      "id": "llm-competition-fragments-markets-not-consolidates",
+      "label": "LLM competition fragments markets from 3 incumbents to 300",
+      "description": "When LLMs lower the cost of building vertical software, competition doesn't add one new entrant — it explodes combinatorially, explaining market repricing before revenue loss",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "safety-enforcement-belongs-in-tool-design-not-prompts",
+      "label": "Safety enforcement belongs in tool design, not system prompts",
+      "description": "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
+      "color": "#6366f1",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -706,7 +823,7 @@
       ],
       "source": "@Konstantine (Konstantine Buhler, Sequoia Capital) — The Great SaaS Consolidation + AI Ascent 2025",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -719,7 +836,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 1,
+      "degree": 2,
       "domain": "ai"
     },
     {
@@ -732,7 +849,7 @@
       ],
       "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -745,6 +862,305 @@
       ],
       "source": "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer",
       "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "incentive-caused-bias-makes-good-people-rationalize",
+      "label": "Incentive-caused bias makes good people rationalize harmful behavior",
+      "description": "People don't consciously choose to be unethical — incentive structures cause them to drift into immoral behavior and then rationalize it as virtuous",
+      "topics": [
+        "psychology",
+        "economics"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 505-514)",
+      "color": "#ec4899",
+      "degree": 6,
+      "domain": "mental-models"
+    },
+    {
+      "id": "intelligence-judgement-ratio-determines-automation-order",
+      "label": "The intelligence-to-judgement ratio determines which professions AI automates first",
+      "description": "Intelligence work (complex but rule-based) is already automatable; judgement (experience, taste, intuition) remains human — software engineering crossed the threshold first",
+      "topics": [
+        "future-of-ai-business",
+        "ai-agents"
+      ],
+      "source": "@julienbek — Services: The New Software",
+      "color": "#f59e0b",
+      "degree": 2,
+      "domain": "ai"
+    },
+    {
+      "id": "systems-that-prevent-bad-behavior-beat-moral-appeals",
+      "label": "Systems that prevent bad behavior beat moral appeals — design the cash register, not the sermon",
+      "description": "People who create mechanisms making dishonest behavior hard to accomplish are more effective than those who preach against dishonesty",
+      "topics": [
+        "psychology",
+        "engineering"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)",
+      "color": "#ec4899",
+      "degree": 8,
+      "domain": "mental-models"
+    },
+    {
+      "id": "first-conclusions-become-nearly-permanent",
+      "label": "First conclusions become nearly permanent — the brain resists its own updates",
+      "description": "Inconsistency-Avoidance Tendency means early-formed habits and first conclusions are maintained even against strong disconfirming evidence",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)",
+      "color": "#ec4899",
+      "degree": 8,
+      "domain": "mental-models"
+    },
+    {
+      "id": "small-concessions-trigger-disproportionate-reciprocation",
+      "label": "Small concessions trigger disproportionate reciprocation — even at the subconscious level",
+      "description": "Reciprocation Tendency operates below conscious awareness, making tiny favors or concessions produce outsized compliance — the only reliable defense is structural prohibition",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 537-545)",
+      "color": "#ec4899",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "confluence-of-tendencies-produces-extreme-outcomes",
+      "label": "Confluence of tendencies produces extreme outcomes — lollapalooza effects emerge when multiple psychological biases push the same direction",
+      "description": "When several psychological tendencies combine toward the same outcome, the result is not additive but explosive — Munger's checklist method diagnoses these compound failures",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 599-604)",
+      "color": "#ec4899",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "social-proof-makes-groups-passive-before-visible-harm",
+      "label": "Social proof makes groups passive before visible harm — conformity overrides individual judgment even in life-or-death situations",
+      "description": "Social-Proof Tendency causes individuals to follow the crowd into inaction or corruption, with bystander apathy and institutional silence as its most dangerous manifestations",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 572-579)",
+      "color": "#ec4899",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
+      "id": "excessive-self-regard-makes-fixable-failures-persist",
+      "label": "Excessive self-regard makes fixable failures persist — people excuse poor performance instead of correcting it",
+      "description": "The Tolstoy effect causes people to rationalize fixable shortcomings rather than address them, requiring meritocratic culture and objective evaluation as antidotes",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)",
+      "color": "#ec4899",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "latticework-of-models-beats-isolated-facts",
+      "label": "A latticework of mental models beats isolated facts for real understanding",
+      "description": "You can't know anything useful by remembering isolated facts — they must hang on a latticework of theory from multiple disciplines, with 80-90 key models carrying 90% of the freight",
+      "topics": [
+        "decision-making",
+        "philosophy"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)",
+      "color": "#eab308",
+      "degree": 7,
+      "domain": "mental-models"
+    },
+    {
+      "id": "scale-advantages-cascade-until-bureaucracy-kills-them",
+      "label": "Scale advantages cascade toward dominance until bureaucracy kills them",
+      "description": "Advantages of scale — cost curves, social proof, informational edge, advertising reach — compound toward winner-take-all, but large organizations breed bureaucracy and territoriality that can undo every advantage",
+      "topics": [
+        "economics",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 174-192)",
+      "color": "#f97316",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
+      "id": "technology-helps-moats-kills-commodity-businesses",
+      "label": "Technology helps moat businesses but kills commodity businesses",
+      "description": "In commodity businesses, productivity improvements flow entirely to customers; in businesses with competitive advantages, the same improvements go to the bottom line",
+      "topics": [
+        "economics",
+        "engineering"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)",
+      "color": "#f97316",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "circle-of-competence-determines-where-you-can-win",
+      "label": "Circle of competence determines where you can win",
+      "description": "Every person has a circle of competence — playing inside it with discipline compounds advantage, playing outside it guarantees loss, and it's very hard to enlarge",
+      "topics": [
+        "decision-making",
+        "psychology"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 196-200)",
+      "color": "#eab308",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "bet-seldom-but-heavily-when-odds-are-extreme",
+      "label": "Bet seldom but heavily when the odds are extreme",
+      "description": "The wise ones bet big when they have the odds and don't bet the rest of the time — most of Berkshire's billions came from about ten insights over a lifetime",
+      "topics": [
+        "decision-making",
+        "economics"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 206-220)",
+      "color": "#eab308",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "invert-always-invert-to-solve-hard-problems",
+      "label": "Invert, always invert — many problems are best solved backward",
+      "description": "Thinking in reverse is one of the most powerful problem-solving techniques: instead of asking what you want, ask what you want to avoid, then don't do that",
+      "topics": [
+        "decision-making",
+        "mathematics"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)",
+      "color": "#eab308",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "pavlovian-association-builds-durable-brand-moats",
+      "label": "Pavlovian association builds durable brand moats that compound for over a century",
+      "description": "Brands are conditioned reflexes — the trade name is the stimulus, purchase is the response, and Pavlovian association with things consumers admire creates advantages that scale economics alone cannot explain",
+      "topics": [
+        "psychology",
+        "economics"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 305-315)",
+      "color": "#ec4899",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
+      "id": "pilot-training-model-builds-reliable-knowledge",
+      "label": "The pilot training model builds reliable knowledge — fluency, checklists, and maintenance prevent cognitive failure",
+      "description": "Just as pilot training uses six elements to prevent fatal errors, the same structure should govern all serious professional education",
+      "topics": [
+        "decision-making",
+        "engineering"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 5: The Need for More Multidisciplinary Skills (pp. 327-336)",
+      "color": "#eab308",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
+      "id": "ideology-is-among-the-most-extreme-distorters-of-cognition",
+      "label": "Ideology is among the most extreme distorters of human cognition",
+      "description": "Heavy ideology locks your brain into dysfunctional patterns — if it can warp a genius like Chomsky, imagine what it does to ordinary minds",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "Charlie Munger — Poor Charlie's Almanack, Talk 3: Elementary Worldly Wisdom, Revisited (pp. 235-239)",
+      "color": "#ec4899",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "weaponize-sycophancy-with-adversarial-agent-ensembles",
+      "label": "Weaponize sycophancy with adversarial agent ensembles instead of fighting it",
+      "description": "Deploy bug-finder, adversary, and referee agents with scoring incentives that exploit each agent's eagerness to please — triangulating truth from competing biases",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@systematicls — How To Be A World-Class Agentic Engineer",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "claude-md-should-be-routing-table-not-knowledge-base",
+      "label": "CLAUDE.md should be a routing table, not a knowledge base",
+      "description": "Structure CLAUDE.md as a minimal IF-ELSE conditional directory that points to context files, not a monolithic knowledge dump that wastes context window",
+      "topics": [
+        "ai-coding-tools",
+        "knowledge-systems"
+      ],
+      "source": "@systematicls — How To Be A World-Class Agentic Engineer",
+      "color": "#06b6d4",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "frontier-companies-absorb-every-useful-agentic-pattern",
+      "label": "Frontier companies absorb every useful agentic pattern into their products",
+      "description": "If a workaround truly works, OpenAI/Anthropic will build it in — skills, memory, planning all get absorbed, making the wrapper layer fragile",
+      "topics": [
+        "future-of-ai-business",
+        "ai-agents"
+      ],
+      "source": "@systematicls — How To Be A World-Class Agentic Engineer",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "one-session-per-contract-beats-long-running-agents",
+      "label": "One session per contract beats long-running agent sessions",
+      "description": "Fresh context per task contract outperforms 24-hour agent sessions because cross-contract context bloat degrades performance by construction",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@systematicls — How To Be A World-Class Agentic Engineer",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "separate-research-from-implementation-to-preserve-context",
+      "label": "Separate research from implementation to preserve context quality",
+      "description": "Research pollutes implementation context with irrelevant exploration tokens — split into separate agent sessions with specs as the handoff mechanism",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@systematicls — How To Be A World-Class Agentic Engineer",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "sell-the-work-not-the-tool",
+      "label": "Sell the work, not the tool — model improvements compound for services, against software",
+      "description": "If you sell the tool, you race the model; if you sell the outcome, every model improvement makes your service faster, cheaper, and harder to compete with",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@julienbek — Services: The New Software",
+      "color": "#f59e0b",
       "degree": 4,
       "domain": "ai"
     }
@@ -781,6 +1197,10 @@
     {
       "source": "context-is-the-product-not-the-model",
       "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "model-market-fit-before-product-market-fit"
     },
     {
       "source": "context-is-the-product-not-the-model",
@@ -840,6 +1260,10 @@
     },
     {
       "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "open-source-captures-value-through-services-not-software"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
       "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
@@ -881,6 +1305,10 @@
     {
       "source": "boring-tech-wins-for-ai-native-startups",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "boring-tech-wins-for-ai-native-startups",
+      "target": "lakebases-decouple-compute-from-storage"
     },
     {
       "source": "specs-are-external-memory-surviving-context-resets",
@@ -995,6 +1423,10 @@
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
       "source": "orchestrator-agent-replaces-human-coordination",
       "target": "parallel-agents-create-management-problem-not-coding-problem"
     },
@@ -1004,7 +1436,15 @@
     },
     {
       "source": "orchestrator-agent-replaces-human-coordination",
+      "target": "social-proof-makes-groups-passive-before-visible-harm"
+    },
+    {
+      "source": "orchestrator-agent-replaces-human-coordination",
       "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "outsourcing-is-the-autopilot-wedge",
+      "target": "technology-transitions-create-more-not-less"
     },
     {
       "source": "open-source-captures-value-through-services-not-software",
@@ -1043,6 +1483,10 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
+      "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "kv-cache-hit-rate-determines-agent-economics"
+    },
+    {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
       "target": "treat-ai-like-distributed-team-not-assistant"
     },
@@ -1060,18 +1504,10 @@
     },
     {
       "source": "dont-be-the-discriminator-be-the-patron",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "building-beats-following-for-ai-mastery"
     },
     {
-      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
-      "target": "verification-multiplies-agent-output-quality"
-    },
-    {
-      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
-      "target": "context-window-is-the-fundamental-constraint"
-    },
-    {
-      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "source": "dont-be-the-discriminator-be-the-patron",
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
@@ -1080,7 +1516,31 @@
     },
     {
       "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
       "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "separate-research-from-implementation-to-preserve-context"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "autopilots-capture-work-budget-not-tool-budget",
+      "target": "llm-competition-fragments-markets-not-consolidates"
+    },
+    {
+      "source": "autopilots-capture-work-budget-not-tool-budget",
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "technology-transitions-create-more-not-less",
@@ -1089,6 +1549,10 @@
     {
       "source": "technology-transitions-create-more-not-less",
       "target": "saas-grows-but-consolidates-around-platforms"
+    },
+    {
+      "source": "technology-transitions-create-more-not-less",
+      "target": "llm-competition-fragments-markets-not-consolidates"
     },
     {
       "source": "hybrid-search-is-the-default-not-the-exception",
@@ -1108,7 +1572,7 @@
     },
     {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "evaluate-tools-with-real-multi-step-tasks"
     },
     {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
@@ -1116,7 +1580,11 @@
     },
     {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
-      "target": "evaluate-tools-with-real-multi-step-tasks"
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "multi-model-ensemble-catches-single-model-blindspots",
+      "target": "weaponize-sycophancy-with-adversarial-agent-ensembles"
     },
     {
       "source": "agent-trust-transfers-from-human-credibility",
@@ -1143,12 +1611,24 @@
       "target": "agent-trust-transfers-from-human-credibility"
     },
     {
+      "source": "agents-become-the-buyer",
+      "target": "llms-complete-aggregation-theory-by-collapsing-interface-layer"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "autopilots-capture-work-budget-not-tool-budget"
+    },
+    {
       "source": "treat-ai-like-distributed-team-not-assistant",
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "multi-model-orchestration-beats-any-single-family"
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
@@ -1165,6 +1645,10 @@
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
       "target": "multi-model-ensemble-catches-single-model-blindspots"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "intelligence-judgement-ratio-determines-automation-order"
     },
     {
       "source": "evolving-summaries-beat-append-only-memory",
@@ -1236,7 +1720,11 @@
     },
     {
       "source": "context-window-is-the-fundamental-constraint",
-      "target": "treat-agent-as-operating-system-not-function"
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "context-window-is-the-fundamental-constraint",
+      "target": "one-session-per-contract-beats-long-running-agents"
     },
     {
       "source": "context-window-is-the-fundamental-constraint",
@@ -1244,7 +1732,7 @@
     },
     {
       "source": "context-window-is-the-fundamental-constraint",
-      "target": "declarative-beats-imperative-for-agents"
+      "target": "treat-agent-as-operating-system-not-function"
     },
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
@@ -1269,6 +1757,10 @@
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
       "target": "tiered-retrieval-prevents-context-overload"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "harness-engineers-need-docs-as-first-class-output"
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
@@ -1352,6 +1844,10 @@
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
+      "target": "confluence-of-tendencies-produces-extreme-outcomes"
+    },
+    {
+      "source": "evaluate-tools-with-real-multi-step-tasks",
       "target": "verification-multiplies-agent-output-quality"
     },
     {
@@ -1361,6 +1857,10 @@
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "evaluate-tools-with-real-multi-step-tasks",
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
     },
     {
       "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
@@ -1387,12 +1887,76 @@
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "context-inefficiency-compounds-three-penalties",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "context-inefficiency-compounds-three-penalties",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "kv-cache-hit-rate-determines-agent-economics",
+      "target": "context-inefficiency-compounds-three-penalties"
+    },
+    {
       "source": "lakebases-decouple-compute-from-storage",
       "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
     },
     {
       "source": "lakebases-decouple-compute-from-storage",
       "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
+      "source": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
+      "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "llm-competition-fragments-markets-not-consolidates",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "llm-competition-fragments-markets-not-consolidates",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
+    },
+    {
+      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
       "source": "saas-grows-but-consolidates-around-platforms",
@@ -1403,16 +1967,16 @@
       "target": "technology-transitions-create-more-not-less"
     },
     {
+      "source": "saas-grows-but-consolidates-around-platforms",
+      "target": "outsourcing-is-the-autopilot-wedge"
+    },
+    {
       "source": "model-market-fit-before-product-market-fit",
       "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
-      "target": "specs-are-external-memory-surviving-context-resets"
-    },
-    {
-      "source": "harness-engineers-need-docs-as-first-class-output",
-      "target": "declarative-beats-imperative-for-agents"
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
@@ -1424,11 +1988,19 @@
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "declarative-beats-imperative-for-agents"
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "multi-model-orchestration-beats-any-single-family",
@@ -1445,6 +2017,222 @@
     {
       "source": "multi-model-orchestration-beats-any-single-family",
       "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "incentive-caused-bias-makes-good-people-rationalize",
+      "target": "excessive-self-regard-makes-fixable-failures-persist"
+    },
+    {
+      "source": "incentive-caused-bias-makes-good-people-rationalize",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "intelligence-judgement-ratio-determines-automation-order",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
+      "target": "incentive-caused-bias-makes-good-people-rationalize"
+    },
+    {
+      "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
+      "target": "pilot-training-model-builds-reliable-knowledge"
+    },
+    {
+      "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "first-conclusions-become-nearly-permanent",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "first-conclusions-become-nearly-permanent",
+      "target": "small-concessions-trigger-disproportionate-reciprocation"
+    },
+    {
+      "source": "small-concessions-trigger-disproportionate-reciprocation",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "small-concessions-trigger-disproportionate-reciprocation",
+      "target": "incentive-caused-bias-makes-good-people-rationalize"
+    },
+    {
+      "source": "confluence-of-tendencies-produces-extreme-outcomes",
+      "target": "multi-model-ensemble-catches-single-model-blindspots"
+    },
+    {
+      "source": "confluence-of-tendencies-produces-extreme-outcomes",
+      "target": "pavlovian-association-builds-durable-brand-moats"
+    },
+    {
+      "source": "confluence-of-tendencies-produces-extreme-outcomes",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "social-proof-makes-groups-passive-before-visible-harm",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "social-proof-makes-groups-passive-before-visible-harm",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "excessive-self-regard-makes-fixable-failures-persist",
+      "target": "ideology-is-among-the-most-extreme-distorters-of-cognition"
+    },
+    {
+      "source": "excessive-self-regard-makes-fixable-failures-persist",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "excessive-self-regard-makes-fixable-failures-persist",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "latticework-of-models-beats-isolated-facts",
+      "target": "bet-seldom-but-heavily-when-odds-are-extreme"
+    },
+    {
+      "source": "latticework-of-models-beats-isolated-facts",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "latticework-of-models-beats-isolated-facts",
+      "target": "confluence-of-tendencies-produces-extreme-outcomes"
+    },
+    {
+      "source": "scale-advantages-cascade-until-bureaucracy-kills-them",
+      "target": "incentive-caused-bias-makes-good-people-rationalize"
+    },
+    {
+      "source": "scale-advantages-cascade-until-bureaucracy-kills-them",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "technology-helps-moats-kills-commodity-businesses",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "technology-helps-moats-kills-commodity-businesses",
+      "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
+    },
+    {
+      "source": "circle-of-competence-determines-where-you-can-win",
+      "target": "excessive-self-regard-makes-fixable-failures-persist"
+    },
+    {
+      "source": "circle-of-competence-determines-where-you-can-win",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "bet-seldom-but-heavily-when-odds-are-extreme",
+      "target": "circle-of-competence-determines-where-you-can-win"
+    },
+    {
+      "source": "bet-seldom-but-heavily-when-odds-are-extreme",
+      "target": "incentive-caused-bias-makes-good-people-rationalize"
+    },
+    {
+      "source": "invert-always-invert-to-solve-hard-problems",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "invert-always-invert-to-solve-hard-problems",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "pavlovian-association-builds-durable-brand-moats",
+      "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
+    },
+    {
+      "source": "pavlovian-association-builds-durable-brand-moats",
+      "target": "social-proof-makes-groups-passive-before-visible-harm"
+    },
+    {
+      "source": "pavlovian-association-builds-durable-brand-moats",
+      "target": "technology-helps-moats-kills-commodity-businesses"
+    },
+    {
+      "source": "pilot-training-model-builds-reliable-knowledge",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "pilot-training-model-builds-reliable-knowledge",
+      "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "pilot-training-model-builds-reliable-knowledge",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "ideology-is-among-the-most-extreme-distorters-of-cognition",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "ideology-is-among-the-most-extreme-distorters-of-cognition",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "weaponize-sycophancy-with-adversarial-agent-ensembles",
+      "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "weaponize-sycophancy-with-adversarial-agent-ensembles",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "claude-md-should-be-routing-table-not-knowledge-base",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "claude-md-should-be-routing-table-not-knowledge-base",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "claude-md-should-be-routing-table-not-knowledge-base",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "frontier-companies-absorb-every-useful-agentic-pattern",
+      "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "frontier-companies-absorb-every-useful-agentic-pattern",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "one-session-per-contract-beats-long-running-agents",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "one-session-per-contract-beats-long-running-agents",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "one-session-per-contract-beats-long-running-agents",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "separate-research-from-implementation-to-preserve-context",
+      "target": "context-inefficiency-compounds-three-penalties"
+    },
+    {
+      "source": "separate-research-from-implementation-to-preserve-context",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "sell-the-work-not-the-tool",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "sell-the-work-not-the-tool",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "sell-the-work-not-the-tool",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
     }
   ]
 }

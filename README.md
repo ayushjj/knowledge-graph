@@ -1,79 +1,84 @@
-# AI Product Building Knowledge Graph
+# Knowledge Graph
 
-[**Explore the interactive graph**](https://ayushjj.github.io/knowledge-graph/)
+[![Live Site](https://img.shields.io/badge/Live_Site-ayushjj.github.io-blue)](https://ayushjj.github.io/knowledge-graph/) [![Last Commit](https://img.shields.io/github/last-commit/ayushjj/knowledge-graph)](https://github.com/ayushjj/knowledge-graph/commits/master)
 
-90 curated insights about building AI products — structured for both human browsing and agent traversal.
+> Munger says you can't really know anything useful by remembering isolated facts — they must hang on a latticework of theory. I was doing exactly that with AI articles: isolated facts scattered across dozens of chat threads, rediscovered months later with no connection between them.
+
+![Interactive graph visualization](public/screenshots/graph-view.png)
 
 ## Why this exists
 
-I didn't come up with any of these ideas — they come from people like Nicolas Bustamante, Andrej Karpathy, Boris Cherny, Clara Shih, Dan Shipper, and many others listed below. I just organized them into a connected graph so the patterns between them become visible.
+I had dozens of Claude conversations, each exploring a different AI article. But I kept rediscovering the same patterns months later in different threads. I couldn't connect the dots across sources.
 
-I follow AI builders and thinkers daily. The best insights are scattered across tweets, essays, and conversations. This graph captures the ones that actually changed how I build — connected so you can follow threads across topics.
+So I built a knowledge graph. Each article gets broken into 2-5 atomic insights, and those insights get linked to related ones from other sources. The connections are where the real value lives — not any single insight.
 
-## How to use it
+It's still an experiment. The agent use case works well. The human browsing UX needs your help.
 
-### Browse on GitHub
+## What's in it
 
-Start with a topic, then follow links to individual insights:
+90+ insights across 2 domains, updated weekly as I encounter new ideas:
 
-| Topic | What it covers |
-|-------|---------------|
-| [AI Agents](topics/ai-agents.md) | Autonomous systems, tool use, multi-agent, agent frameworks |
-| [AI-Native Product Architecture](topics/ai-native-product-architecture.md) | Database, search, context graphs, RAG, system design |
-| [AI Coding Tools](topics/ai-coding-tools.md) | Claude Code, Cursor, leveraging AI to build faster |
-| [Future of AI Business](topics/future-of-ai-business.md) | How businesses will be created and run in the AI age |
-| [Business Models](topics/business-models.md) | AI-native SaaS, pricing, GTM, revenue models |
-| [Knowledge Systems](topics/knowledge-systems.md) | Context engineering, skill graphs, second brains, memory |
+**AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 
-### Clone as Obsidian vault
+**Mental Models** (6 topics): Psychology, Economics, Decision Making, Engineering, Philosophy, Mathematics
 
-```bash
-git clone https://github.com/ayushjj/knowledge-graph.git
+**Sources**: Charlie Munger's Almanack, Nicolas Bustamante, Dan Shipper, Andrej Karpathy, Anthropic Engineering, and [20+ other practitioners](#sources).
+
+## Two ways to use it
+
+### 1. Browse the web app
+
+![Card feed with topic filters and search](public/screenshots/card-feed.png)
+
+- Card feed sorted by most-connected insights, with topic filtering and full-text search
+- Interactive force-directed graph visualization — see how insights cluster and connect
+- Also works as an Obsidian vault (all `[[wikilinks]]` resolve natively)
+
+**[Explore the live site](https://ayushjj.github.io/knowledge-graph/)**
+
+### 2. Feed it to an AI agent
+
+This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 90+ nodes, descriptions, and connections.
+
+```yaml
+# Add this one line to your CLAUDE.md:
+When making architectural decisions or reviewing plans, read `graph-index.yaml`
+and check if any insights are relevant to the current decision.
 ```
 
-Open the cloned folder in Obsidian. All `[[wikilinks]]` resolve natively — you get full graph visualization showing how insights connect across topics.
+Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 90 connected insights produces genuinely different thinking than starting from scratch.
 
-### Use with Claude Code or other AI agents
+## How it grows
 
-Point your agent at `graph-index.yaml` — it contains all 90 nodes' metadata, descriptions, and link structure in a single file. An agent can read this one file and navigate the entire graph without scanning individual files.
+This is a living graph, not a snapshot. I add insights every week as I encounter ideas that shift how I think.
 
-```
-# Example: add to your CLAUDE.md or agent context
-Read graph-index.yaml from [repo-path] for AI product building knowledge
-```
+- **Source-verified**: Every insight traced to original author + page number
+- **`/learn <url>`** extracts insights from any article automatically
+- **`/learn-book <pdf>`** processes books chapter by chapter
 
-## How it's structured
+Star or watch the repo to see new insights as they land.
+
+## Contributing
+
+If you've found value in the graph, add an insight from an article that changed how you think. See [CONTRIBUTING.md](CONTRIBUTING.md) for the simple process: fork, add a file, submit a PR.
+
+All PRs reviewed by maintainer before merging.
+
+## Structure
 
 ```
 knowledge-graph/
 ├── index.md              # Entry point — topic map + cross-domain highlights
 ├── graph-index.yaml      # Machine-readable graph (all nodes + links)
-├── topics/               # 6 topic MOCs (Maps of Content)
+├── topics/               # 12 topic MOCs (Maps of Content)
 │   ├── ai-agents.md
-│   ├── ai-native-product-architecture.md
-│   ├── ai-coding-tools.md
-│   ├── future-of-ai-business.md
 │   ├── business-models.md
-│   └── knowledge-systems.md
-└── insights/             # 90 individual insight files
+│   └── ...
+└── insights/             # 90+ individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...
 ```
-
-**Topics** are Maps of Content — each groups related insights with key themes and wikilinks.
-
-**Insights** are atomic nodes with YAML frontmatter (title, description, topics, source) and prose. Each connects to other insights via typed links.
-
-**graph-index.yaml** is the materialized link map — read this instead of scanning all files. Contains every node's metadata, outgoing links, and incoming links.
-
-## Cross-domain insights
-
-Some insights span multiple topics. These are the most connected nodes in the graph:
-
-- **Context is the product, not the model** — spans architecture, business models, knowledge systems (11 incoming links)
-- **Declarative beats imperative for agents** — spans agents, coding tools (8 incoming links)
-- **Compound engineering makes future work easier** — spans coding tools, knowledge systems (9 incoming links)
 
 ## Sources
 
@@ -91,58 +96,32 @@ These ideas belong to the people below — I'm just the curator who connected th
 
 **Single-insight contributors:**
 
-- **[Andrej Karpathy](https://twitter.com/karpathy)** — Declarative programming for agents
-- **[Clara Shih](https://twitter.com/clarashih)** — SaaS as governance layer
-- **Chrys Bader ([@chrysb](https://twitter.com/chrysb))** — Apps are dead, UI moat collapse
-- **[Matt Shumer](https://twitter.com/mattshumer_)** — AI self-improvement loop
-- **Nader Dabit ([@dabit3](https://twitter.com/dabit3))** — Software abundance
-- **Will Manidis ([@WillManidis](https://twitter.com/WillManidis))** — Against taste / patron vs. discriminator
-- **Steven Sinofsky ([@stevesi](https://twitter.com/stevesi))** — Technology transitions
-
-- **Natasha Malpani ([@natashamalpani](https://twitter.com/natashamalpani))** — AI gold rush infrastructure
-- **Gokul R ([@gokulr](https://twitter.com/gokulr))** — OpenClaw skills paradigm
-- **Jaya Gupta ([@JayaGup10](https://twitter.com/JayaGup10))** — Decision traces, context graphs
-- **Akshay Pachaar ([@akshay_pachaar](https://twitter.com/akshay_pachaar))** — Semantic highlighting research
-- **Vasuman ([@vasuman](https://twitter.com/vasuman))** — AI Agents 101, decision routing
-- **Benjamin De Kraker** — Compound engineering
-- **Kushal Byatnal** — Boring tech wins (Extend)
-- **Tobi Lütke ([@tobi](https://twitter.com/tobi))** — Malleable software, Shopify
-- **[Ryan Carson](https://twitter.com/ryancarson)** — Autonomous coding loops (Ralph)
-- **Heinrich ([@arscontexta](https://twitter.com/arscontexta))** — Skill graphs, progressive disclosure
-- **[shadcn](https://twitter.com/shadcn)** — Session capture patterns
-
-- **Zain Hoda ([@zain_hoda](https://twitter.com/zain_hoda))** — Rigid schemas, files as database, Vanna AI
-- **Thariq ([@trq212](https://twitter.com/trq212))** — Tool design for agents, Claude Code lessons
-- **Databricks (Ali Ghodsi, Matei Zaharia et al.)** — Lakebase architecture
-- **Konstantine Buhler ([@Konstantine](https://twitter.com/Konstantine))** — SaaS consolidation, Sequoia Capital
-- **[VectifyAI](https://github.com/VectifyAI/PageIndex)** — PageIndex, similarity vs. relevance
-- **OpenAI Codex Team** — Harness engineering, humans steer / agents execute
-- **Aravind Srinivas ([@AravSrinivas](https://twitter.com/AravSrinivas))** — AI is the computer, 19-model orchestration (Perplexity)
-
-## How it grows
-
-I add insights weekly as I encounter ideas that change how I build. There are two ways to add to the graph:
-
-### Single URL or text — `/learn`
-
-In Claude Code, run `/learn` and either:
-- Paste a URL (tweet, article, blog post) — it fetches the content automatically via [Jina Reader](https://jina.ai/reader/)
-- Paste raw text (notes, conversation summary, article excerpt)
-
-The skill extracts insights, creates linked files, updates topic MOCs, and connects new nodes to the existing graph.
-
-### Batch bookmarks — `/ingest`
-
-For processing many bookmarks at once:
-
-1. **Export your Twitter/X bookmarks** using a browser extension like [twitter-web-exporter](https://github.com/prinsss/twitter-web-exporter) (exports as JSON/CSV)
-2. **Run `/ingest path/to/bookmarks.json`** in Claude Code
-3. **Review the created insights** — the skill deduplicates against existing nodes, fetches content via Jina Reader, and runs `/learn` on each bookmark
-
-This keeps the human in the loop — you decide when to process and can review what gets added.
-
-Star or watch to get updates.
+[Andrej Karpathy](https://twitter.com/karpathy) ·
+[Clara Shih](https://twitter.com/clarashih) ·
+[Chrys Bader](https://twitter.com/chrysb) ·
+[Matt Shumer](https://twitter.com/mattshumer_) ·
+[Nader Dabit](https://twitter.com/dabit3) ·
+[Will Manidis](https://twitter.com/WillManidis) ·
+[Steven Sinofsky](https://twitter.com/stevesi) ·
+[Natasha Malpani](https://twitter.com/natashamalpani) ·
+[Gokul R](https://twitter.com/gokulr) ·
+[Jaya Gupta](https://twitter.com/JayaGup10) ·
+[Akshay Pachaar](https://twitter.com/akshay_pachaar) ·
+[Vasuman](https://twitter.com/vasuman) ·
+Benjamin De Kraker ·
+Kushal Byatnal ·
+[Tobi Lutke](https://twitter.com/tobi) ·
+[Ryan Carson](https://twitter.com/ryancarson) ·
+[Heinrich](https://twitter.com/arscontexta) ·
+[shadcn](https://twitter.com/shadcn) ·
+[Zain Hoda](https://twitter.com/zain_hoda) ·
+[Thariq](https://twitter.com/trq212) ·
+Databricks ·
+[Konstantine Buhler](https://twitter.com/Konstantine) ·
+[VectifyAI](https://github.com/VectifyAI/PageIndex) ·
+OpenAI Codex Team ·
+[Aravind Srinivas](https://twitter.com/AravSrinivas)
 
 ---
 
-Built by [Ayush](https://github.com/ayushjj) with Claude Code.
+Built by [Ayush](https://github.com/ayushjj) with Claude Code. Still an experiment — feedback welcome.

@@ -1,7 +1,7 @@
 {
   "name": "knowledge-graph",
   "version": "1.0.0",
-  "description": "62 curated insights about building AI products — structured for both human browsing and agent traversal.",
+  "description": "A growing knowledge graph of curated insights about building AI products — structured for both human browsing and agent traversal.",
   "scripts": {
     "dev": "astro dev",
     "build": "node build-graph.js && astro build && npx pagefind --site dist",
@@ -12,8 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/ayushjj/knowledge-graph.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "knowledge-graph",
+    "ai-insights",
+    "mental-models",
+    "astro"
+  ],
+  "author": "Ayush",
   "license": "ISC",
   "type": "module",
   "bugs": {
