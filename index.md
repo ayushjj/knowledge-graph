@@ -24,6 +24,9 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[platform-economics-beat-labor-arbitrage]] — platform margins fund flywheels that body shops cannot (2026-03-11)
+- [[automation-amplifies-expert-demand]] — AI automation amplifies expert demand rather than replacing it (2026-03-11)
+- [[commodity-terminal-value-zero-expert-judgment-compounds]] — commodity annotation dies, structured expert judgment compounds (2026-03-11)
 - [[data-agents-fail-from-missing-context-not-sql-gaps]] — data agents fail from missing business context, not SQL gaps (2026-03-11)
 - [[context-layers-supersede-semantic-layers]] — context layers are a superset of semantic layers for agent autonomy (2026-03-11)
 - [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — the most critical context is implicit and historically contingent (2026-03-11)
@@ -31,6 +34,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[sell-the-work-not-the-tool]] — model improvements compound for services, against software (2026-03-06)
 - [[intelligence-judgement-ratio-determines-automation-order]] — intelligence automates first; software engineering crossed the threshold (2026-03-06)
 - [[autopilots-capture-work-budget-not-tool-budget]] — six dollars in services for every one in software (2026-03-06)
-- [[outsourcing-is-the-autopilot-wedge]] — vendor swap beats reorg; three signals of autopilot readiness (2026-03-06)
-- [[weaponize-sycophancy-with-adversarial-agent-ensembles]] — bug-finder/adversary/referee pattern exploits sycophancy for high-fidelity results (2026-03-05)
-- [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as minimal IF-ELSE directory, not monolithic knowledge dump (2026-03-05)

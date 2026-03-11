@@ -41,3 +41,6 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence work automates first; judgement remains human (software engineering crossed first)
 - [[autopilots-capture-work-budget-not-tool-budget]] — Six dollars in services for every one in software; autopilots access the larger TAM
 - [[outsourcing-is-the-autopilot-wedge]] — Already-outsourced intelligence-heavy tasks are frictionless vendor swaps
+- [[automation-amplifies-expert-demand]] — AI automation amplifies demand for expert judgment rather than replacing it
+- [[commodity-terminal-value-zero-expert-judgment-compounds]] — Commodity annotation dies but structured expert judgment compounds indefinitely
+- [[platform-economics-beat-labor-arbitrage]] — Platform margins fund flywheels that BPO body shops cannot

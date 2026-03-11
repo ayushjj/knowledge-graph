@@ -28,3 +28,5 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[sell-the-work-not-the-tool]] — Sell outcomes not tools; model improvements become tailwinds
 - [[autopilots-capture-work-budget-not-tool-budget]] — Copilots sell tools at $10K; autopilots sell work at $120K
 - [[outsourcing-is-the-autopilot-wedge]] — Vendor swap not reorg; three signals of autopilot readiness
+- [[platform-economics-beat-labor-arbitrage]] — Platform margins fund flywheels that BPO body shops cannot
+- [[commodity-terminal-value-zero-expert-judgment-compounds]] — Commodity annotation dies but structured expert judgment compounds indefinitely

@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-11
-node_count: 94
+node_count: 97
 domains: [ai, mental-models]
 
 nodes:
@@ -192,6 +192,15 @@ nodes:
     outgoing: [malleable-software-writes-its-own-extensions, features-are-prompts-not-code, context-is-the-product-not-the-model]
     incoming: [malleable-software-writes-its-own-extensions]
 
+  platform-economics-beat-labor-arbitrage:
+    title: "Platform economics beat labor arbitrage — margins fund flywheels that body shops cannot"
+    description: "Scale AI's 50%+ gross margins fund ML pre-labeling and workflow optimization, creating a flywheel; Indian BPOs at 10-15% margins cannot invest in R&D and remain trapped competing on price"
+    topics: [business-models, future-of-ai-business]
+    source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
+    domain: ai
+    outgoing: [technology-helps-moats-kills-commodity-businesses, domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool]
+    incoming: [sell-the-work-not-the-tool]
+
   postgresql-scales-further-than-you-think:
     title: "PostgreSQL scales further than you think"
     description: "OpenAI runs ChatGPT on one PostgreSQL primary plus ~50 read replicas handling millions of QPS — no sharding of PostgreSQL itself, just excellent operations"
@@ -290,13 +299,22 @@ nodes:
     outgoing: [llm-competition-fragments-markets-not-consolidates, context-is-the-product-not-the-model]
     incoming: [agents-become-the-buyer]
 
+  automation-amplifies-expert-demand:
+    title: "AI automation amplifies demand for expert human judgment rather than replacing it"
+    description: "Pre-labeling cuts costs 100,000x for simple tasks, but projects that needed 500 contributors now need 100 doing far higher-value work at up to $200/hour"
+    topics: [future-of-ai-business]
+    source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
+    domain: ai
+    outgoing: [intelligence-judgement-ratio-determines-automation-order, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    incoming: [intelligence-judgement-ratio-determines-automation-order]
+
   technology-transitions-create-more-not-less:
     title: "Technology transitions create more of the 'dying' thing, not less"
     description: "Every predicted death — mainframes, physical retail, traditional media — resulted in growth of both old and new; AI will create more software, not less"
     topics: [future-of-ai-business]
     source: "@stevesi (Steven Sinofsky) — Death of Software?"
-    outgoing: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, llm-competition-fragments-markets-not-consolidates]
-    incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses, frontier-companies-absorb-every-useful-agentic-pattern, outsourcing-is-the-autopilot-wedge]
+    outgoing: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, llm-competition-fragments-markets-not-consolidates, commodity-terminal-value-zero-expert-judgment-compounds]
+    incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses, frontier-companies-absorb-every-useful-agentic-pattern, outsourcing-is-the-autopilot-wedge, commodity-terminal-value-zero-expert-judgment-compounds]
 
 
   hybrid-search-is-the-default-not-the-exception:
@@ -371,7 +389,7 @@ nodes:
     source: "@jasonscui — Your Data Agents Need Context, a16z"
     domain: ai
     outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model]
-    incoming: [decision-traces-are-the-missing-data-layer]
+    incoming: [decision-traces-are-the-missing-data-layer, automation-amplifies-expert-demand]
 
   session-capture-compounds-development-knowledge:
     title: "Session capture turns ephemeral AI conversations into a compounding knowledge base"
@@ -414,6 +432,15 @@ nodes:
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
     incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems]
+
+  commodity-terminal-value-zero-expert-judgment-compounds:
+    title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
+    description: "Appen collapsed from $4.5B to $140M as LLMs displaced commodity annotation, while Scale AI reached $29B by owning expert alignment infrastructure — the market is bifurcating"
+    topics: [future-of-ai-business, business-models]
+    source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
+    domain: ai
+    outgoing: [technology-transitions-create-more-not-less, llms-selectively-destroy-vertical-software-moats]
+    incoming: [technology-transitions-create-more-not-less]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -486,7 +513,7 @@ nodes:
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
     outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers]
-    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers]
+    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -548,7 +575,7 @@ nodes:
     source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
     domain: ai
     outgoing: [skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool]
-    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer, sell-the-work-not-the-tool]
+    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer, sell-the-work-not-the-tool, commodity-terminal-value-zero-expert-judgment-compounds]
 
   llm-competition-fragments-markets-not-consolidates:
     title: "LLM competition fragments markets from 3 incumbents to 300"
@@ -615,8 +642,8 @@ nodes:
     topics: [future-of-ai-business, ai-agents]
     source: "@julienbek — Services: The New Software"
     domain: ai
-    outgoing: [production-agents-route-decisions-not-every-call-to-llm]
-    incoming: [treat-ai-like-distributed-team-not-assistant]
+    outgoing: [production-agents-route-decisions-not-every-call-to-llm, automation-amplifies-expert-demand]
+    incoming: [treat-ai-like-distributed-team-not-assistant, automation-amplifies-expert-demand]
 
   systems-that-prevent-bad-behavior-beat-moral-appeals:
     title: "Systems that prevent bad behavior beat moral appeals — design the cash register, not the sermon"
@@ -697,7 +724,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)"
     domain: mental-models
     outgoing: [technology-transitions-create-more-not-less, scale-advantages-cascade-until-bureaucracy-kills-them]
-    incoming: [pavlovian-association-builds-durable-brand-moats]
+    incoming: [pavlovian-association-builds-durable-brand-moats, platform-economics-beat-labor-arbitrage]
 
   circle-of-competence-determines-where-you-can-win:
     title: "Circle of competence determines where you can win"
@@ -804,5 +831,5 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@julienbek — Services: The New Software"
     domain: ai
-    outgoing: [llms-selectively-destroy-vertical-software-moats, frontier-companies-absorb-every-useful-agentic-pattern, domain-skill-libraries-are-the-real-agent-moat]
-    incoming: [llms-selectively-destroy-vertical-software-moats]
+    outgoing: [llms-selectively-destroy-vertical-software-moats, frontier-companies-absorb-every-useful-agentic-pattern, domain-skill-libraries-are-the-real-agent-moat, platform-economics-beat-labor-arbitrage]
+    incoming: [llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage]

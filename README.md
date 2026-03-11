@@ -16,7 +16,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ## What's in it
 
-94+ insights across 2 domains, updated weekly as I encounter new ideas:
+97+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 
@@ -38,7 +38,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ### 2. Feed it to an AI agent
 
-This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 94+ nodes, descriptions, and connections.
+This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 97+ nodes, descriptions, and connections.
 
 ```yaml
 # Add this one line to your CLAUDE.md:
@@ -74,7 +74,7 @@ knowledge-graph/
 │   ├── ai-agents.md
 │   ├── business-models.md
 │   └── ...
-└── insights/             # 94+ individual insight files
+└── insights/             # 97+ individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...
@@ -93,6 +93,8 @@ These ideas belong to the people below — I'm just the curator who connected th
 - **Ashpreet Bedi ([@ashpreetbedi](https://twitter.com/ashpreetbedi))** — Spec-first development, error memory, Agno framework
 - **[Dan Shipper](https://twitter.com/danshipper)** — Every, agent-native architectures
 - **Alton Syn ([@WorkflowWhisper](https://twitter.com/WorkflowWhisper))** — Implementation gap, technical knowledge as liability
+- **Jason Cui ([@jasonscui](https://twitter.com/jasonscui))** — a16z, data agent context layers, tribal knowledge
+- **Gowri Shankar Nag ([@GowriShankarNag](https://twitter.com/GowriShankarNag))** — Antler India, AI labeling market dynamics, platform economics
 
 **Single-insight contributors:**
 
