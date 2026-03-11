@@ -2,7 +2,7 @@
 
 [**Explore the interactive graph**](https://ayushjj.github.io/knowledge-graph/)
 
-86 curated insights about building AI products — structured for both human browsing and agent traversal.
+90 curated insights about building AI products — structured for both human browsing and agent traversal.
 
 ## Why this exists
 
@@ -35,7 +35,7 @@ Open the cloned folder in Obsidian. All `[[wikilinks]]` resolve natively — you
 
 ### Use with Claude Code or other AI agents
 
-Point your agent at `graph-index.yaml` — it contains all 86 nodes' metadata, descriptions, and link structure in a single file. An agent can read this one file and navigate the entire graph without scanning individual files.
+Point your agent at `graph-index.yaml` — it contains all 90 nodes' metadata, descriptions, and link structure in a single file. An agent can read this one file and navigate the entire graph without scanning individual files.
 
 ```
 # Example: add to your CLAUDE.md or agent context
@@ -55,7 +55,7 @@ knowledge-graph/
 │   ├── future-of-ai-business.md
 │   ├── business-models.md
 │   └── knowledge-systems.md
-└── insights/             # 86 individual insight files
+└── insights/             # 90 individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...

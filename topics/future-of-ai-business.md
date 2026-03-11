@@ -13,6 +13,9 @@ Technology transitions historically create more of the "dying" thing. AI will cr
 ### Accelerating Timelines
 AI's self-improvement loop compresses everything — each generation builds the next faster. Software abundance, job displacement, and model obsolescence all happen on an accelerating curve, not a linear one.
 
+### Services as the New Software
+Selling outcomes (the work) beats selling tools — model improvements compound for services providers. The intelligence-to-judgement ratio determines automation order; already-outsourced tasks are the wedge.
+
 ## Insights
 - [[technical-knowledge-becomes-liability]] — Experts debug while novices deliver
 - [[technology-transitions-create-more-not-less]] — Historical pattern: predicted deaths result in growth of both old and new
@@ -34,3 +37,7 @@ AI's self-improvement loop compresses everything — each generation builds the 
 - [[llm-competition-fragments-markets-not-consolidates]] — Competition explodes from 3 incumbents to 300 when engineering barriers collapse
 - [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — The web becomes a backend database; suppliers compete on data quality alone
 - [[frontier-companies-absorb-every-useful-agentic-pattern]] — Useful agentic patterns get absorbed into foundation company products
+- [[sell-the-work-not-the-tool]] — Model improvements compound for services, against software
+- [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence work automates first; judgement remains human (software engineering crossed first)
+- [[autopilots-capture-work-budget-not-tool-budget]] — Six dollars in services for every one in software; autopilots access the larger TAM
+- [[outsourcing-is-the-autopilot-wedge]] — Already-outsourced intelligence-heavy tasks are frictionless vendor swaps

@@ -25,3 +25,6 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[llm-competition-fragments-markets-not-consolidates]] — Market reprices on anticipated 3-to-300 competition fragmentation, not current revenue loss
 - [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — Aggregation Theory's final chapter: brand visibility disappears when LLMs become the interface
 - [[domain-skill-libraries-are-the-real-agent-moat]] — Defensibility ladder: model (commodity) → tools (months) → domain skills (years) → user data (irreplaceable)
+- [[sell-the-work-not-the-tool]] — Sell outcomes not tools; model improvements become tailwinds
+- [[autopilots-capture-work-budget-not-tool-budget]] — Copilots sell tools at $10K; autopilots sell work at $120K
+- [[outsourcing-is-the-autopilot-wedge]] — Vendor swap not reorg; three signals of autopilot readiness

@@ -55,3 +55,4 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[one-session-per-contract-beats-long-running-agents]] — Fresh context per task contract; orchestration layer spawns sessions
 - [[separate-research-from-implementation-to-preserve-context]] — Split research and implementation into separate agent sessions
 - [[frontier-companies-absorb-every-useful-agentic-pattern]] — Useful agentic patterns get absorbed into foundation company products
+- [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence-heavy professions automate first; judgement remains human
