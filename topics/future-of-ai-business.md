@@ -44,3 +44,5 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[automation-amplifies-expert-demand]] — AI automation amplifies demand for expert judgment rather than replacing it
 - [[commodity-terminal-value-zero-expert-judgment-compounds]] — Commodity annotation dies but structured expert judgment compounds indefinitely
 - [[platform-economics-beat-labor-arbitrage]] — Platform margins fund flywheels that BPO body shops cannot
+- [[proprietary-feedback-loops-widen-the-moat]] — Usage creates unreplicable data that widens the competitive moat
+- [[the-80-99-gap-is-where-ai-products-die]] — Demo accuracy and production reliability are infinitely far apart

@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-11
-node_count: 97
+last_updated: 2026-03-16
+node_count: 102
 domains: [ai, mental-models]
 
 nodes:
@@ -77,8 +77,8 @@ nodes:
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
-    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps]
+    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -125,8 +125,8 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles]
+    outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -134,7 +134,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "Ashpreet Bedi — Agents That Learn (Agno Framework)"
     outgoing: [agent-memory-preserves-institutional-knowledge, skills-as-markdown-replace-fine-tuning]
-    incoming: [agent-memory-preserves-institutional-knowledge]
+    incoming: [agent-memory-preserves-institutional-knowledge, proprietary-feedback-loops-widen-the-moat]
 
   boring-tech-wins-for-ai-native-startups:
     title: "Boring tech wins for AI-native startups — simpler stack means faster AI-assisted shipping"
@@ -288,7 +288,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Ryan Carson — Ralph / Autonomous Coding Loop"
     outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality]
-    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets]
+    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces]
 
   autopilots-capture-work-budget-not-tool-budget:
     title: "Autopilots capture the work budget — six dollars in services for every one in software"
@@ -430,8 +430,8 @@ nodes:
     description: "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learning compounds across iterations, not just code"
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
-    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems]
+    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -472,7 +472,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
     outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems]
-    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems]
+    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline]
 
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
@@ -488,7 +488,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Anthropic Engineering — Writing Effective Tools for Agents"
     outgoing: [confluence-of-tendencies-produces-extreme-outcomes, verification-multiplies-agent-output-quality, similarity-is-not-relevance-relevance-requires-reasoning, compound-engineering-makes-future-work-easier, safety-enforcement-belongs-in-tool-design-not-prompts]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, multi-model-ensemble-catches-single-model-blindspots, weaponize-sycophancy-with-adversarial-agent-ensembles]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, multi-model-ensemble-catches-single-model-blindspots, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces]
 
   rigid-schemas-exist-because-rigid-apps-demand-them:
     title: "Agents eat your system of record — the rigid app was the constraint, not the schema"
@@ -512,8 +512,8 @@ nodes:
     topics: [ai-agents, business-models]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
-    outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers]
-    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage]
+    outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers, proprietary-feedback-loops-widen-the-moat]
+    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -549,7 +549,7 @@ nodes:
     source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
     domain: ai
     outgoing: [context-inefficiency-compounds-three-penalties]
-    incoming: [prompt-caching-makes-long-context-economically-viable]
+    incoming: [prompt-caching-makes-long-context-economically-viable, observability-is-the-missing-agent-discipline]
 
   lakebases-decouple-compute-from-storage:
     title: "Lakebases decouple compute from storage — databases become elastic infrastructure"
@@ -608,8 +608,8 @@ nodes:
     description: "AI startups need a prerequisite layer beneath PMF: the capability threshold where models can actually satisfy market demands. Legal AI crossed it at 87% accuracy; finance AI at 56% hasn't — same demand, opposite outcomes."
     topics: [business-models, future-of-ai-business]
     source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
-    outgoing: [context-is-the-product-not-the-model]
-    incoming: [context-is-the-product-not-the-model]
+    outgoing: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die]
+    incoming: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die]
 
   harness-engineers-need-docs-as-first-class-output:
     title: "Harness engineering — humans steer, agents execute, documentation is the system of record"
@@ -833,3 +833,48 @@ nodes:
     domain: ai
     outgoing: [llms-selectively-destroy-vertical-software-moats, frontier-companies-absorb-every-useful-agentic-pattern, domain-skill-libraries-are-the-real-agent-moat, platform-economics-beat-labor-arbitrage]
     incoming: [llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage]
+
+  observability-is-the-missing-agent-discipline:
+    title: "Observability is the missing discipline for agent systems — you can't improve what you can't measure"
+    description: "Agent systems need telemetry (token usage, latency, error rates, cost per task) as a first-class engineering concern, not an afterthought bolted on after production failures"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining]
+    incoming: [decision-traces-are-the-missing-data-layer]
+
+  property-based-testing-explores-agent-input-spaces:
+    title: "Property-based testing explores agent input spaces that example-based tests miss"
+    description: "Generative tests that produce random or adversarial inputs discover edge cases in agent behavior that hand-written examples never cover"
+    topics: [ai-coding-tools, ai-agents]
+    source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
+    domain: ai
+    outgoing: [verification-multiplies-agent-output-quality, evaluate-tools-with-real-multi-step-tasks, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: [verification-multiplies-agent-output-quality]
+
+  proprietary-feedback-loops-widen-the-moat:
+    title: "Proprietary feedback loops create moats that widen with every interaction"
+    description: "When usage generates data that competitors cannot replicate — correction patterns, preference signals, domain-specific edge cases — the product improves faster than any new entrant can catch up"
+    topics: [business-models, future-of-ai-business]
+    source: "Nikunj Kothari — Revealed Preferences"
+    domain: ai
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier]
+
+  the-80-99-gap-is-where-ai-products-die:
+    title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
+    description: "Getting an AI system from 80% demo accuracy to 99% production reliability requires fundamentally different engineering than the first 80%"
+    topics: [business-models, future-of-ai-business]
+    source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
+    domain: ai
+    outgoing: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality]
+    incoming: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality]
+
+  revealed-preferences-trump-stated-preferences:
+    title: "Revealed preferences trump stated preferences — track what users do, not what they say"
+    description: "Users' actual behavior (what they click, skip, edit, redo) is the ground truth for product decisions; stated preferences systematically mislead"
+    topics: [business-models, ai-native-product-architecture]
+    source: "Nikunj Kothari — Revealed Preferences"
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
+    incoming: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]

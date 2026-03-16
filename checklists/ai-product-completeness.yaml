@@ -1,0 +1,431 @@
+# AI Product Completeness Checklist
+# 9 dimensions for evaluating AI-powered products and agent systems
+#
+# Usage:
+#   - /audit-project          → evaluate entire project against all 9 dimensions
+#   - /audit-project --feature "description" → pre-flight check for a specific feature
+#
+# Each item has:
+#   term: vocabulary concept name
+#   definition: what it means
+#   insight: slug of existing graph node (null = gap)
+#   coverage: full | partial | gap
+#   check: the evaluation question to ask about a project
+
+last_updated: 2026-03-16
+
+dimensions:
+
+  agent-runtime:
+    label: "Agent Runtime"
+    description: "How the agent executes — harness, orchestration, granularity, scaffolding, sandboxing"
+    items:
+      - term: "Agent harness"
+        definition: "The runtime scaffolding that wraps an LLM — context injection, tool routing, memory management, error recovery"
+        insight: treat-agent-as-operating-system-not-function
+        coverage: full
+        check: "Does the project have a defined agent harness (not just raw API calls)?"
+
+      - term: "Orchestration layer"
+        definition: "The system that coordinates multiple agents or models — routing, sequencing, parallel execution"
+        insight: orchestrator-agent-replaces-human-coordination
+        coverage: full
+        check: "Is there an orchestration layer that routes tasks to the right agent/model?"
+
+      - term: "Task granularity"
+        definition: "Breaking work into atomic units small enough for agents to complete reliably in one session"
+        insight: one-session-per-contract-beats-long-running-agents
+        coverage: full
+        check: "Are agent tasks scoped to complete within a single session?"
+
+      - term: "Scaffolding"
+        definition: "External structures that constrain and guide agent behavior — specs, templates, checklists, skill files"
+        insight: skills-as-markdown-replace-fine-tuning
+        coverage: full
+        check: "Does the project use external scaffolding (skill files, specs, templates) to guide agent behavior?"
+
+      - term: "Sandbox / isolation"
+        definition: "Containment that prevents agents from causing irreversible damage — file system boundaries, API rate limits, approval gates"
+        insight: safety-enforcement-belongs-in-tool-design-not-prompts
+        coverage: partial
+        check: "Are agent actions sandboxed with appropriate containment and approval gates?"
+
+      - term: "Agent parity"
+        definition: "Agents can do anything a user can do, and see anything a user can see — no UI-only features"
+        insight: null
+        coverage: partial
+        check: "Can agents access all features and data that human users can?"
+
+      - term: "Multi-model routing"
+        definition: "Using different models for different tasks based on capability, cost, and latency requirements"
+        insight: multi-model-orchestration-beats-any-single-family
+        coverage: full
+        check: "Does the system route to different models based on task requirements?"
+
+      - term: "Autonomous loops"
+        definition: "Agent cycles of plan-execute-verify that run without human intervention"
+        insight: autonomous-loops-need-small-stories-and-fast-feedback
+        coverage: full
+        check: "Do autonomous loops have tight feedback cycles with clear exit conditions?"
+
+  context-and-memory:
+    label: "Context & Memory"
+    description: "How the system manages knowledge — context windows, memory persistence, institutional knowledge"
+    items:
+      - term: "Context window management"
+        definition: "Strategies for fitting the right information into limited token budgets — tiering, summarization, caching"
+        insight: context-window-is-the-fundamental-constraint
+        coverage: full
+        check: "Is there an explicit strategy for managing context window limits?"
+
+      - term: "Context graph / layers"
+        definition: "Structured context that provides agents with business rules, domain knowledge, and decision history"
+        insight: context-layers-must-be-living-systems
+        coverage: full
+        check: "Does the project maintain structured context layers (not just raw dumps)?"
+
+      - term: "Decision traces"
+        definition: "Recording what the agent decided and why — the audit trail for agent reasoning"
+        insight: decision-traces-are-the-missing-data-layer
+        coverage: full
+        check: "Are agent decisions logged with reasoning traces?"
+
+      - term: "Memory files"
+        definition: "Persistent files (CLAUDE.md, MEMORY.md) that survive context resets and encode institutional knowledge"
+        insight: specs-are-external-memory-surviving-context-resets
+        coverage: full
+        check: "Does the project use persistent memory files that survive across sessions?"
+
+      - term: "Institutional knowledge"
+        definition: "Organizational knowledge captured in a form agents can consume — not locked in people's heads"
+        insight: agent-memory-preserves-institutional-knowledge
+        coverage: full
+        check: "Is tribal/institutional knowledge captured in agent-accessible formats?"
+
+      - term: "Skills as products"
+        definition: "Reusable skill definitions that encode domain expertise as composable, versionable units"
+        insight: domain-skill-libraries-are-the-real-agent-moat
+        coverage: full
+        check: "Are domain skills defined as reusable, composable units (not one-off prompts)?"
+
+      - term: "Tiered retrieval"
+        definition: "Multi-level information access — summaries first, details on demand — to prevent context overload"
+        insight: tiered-retrieval-prevents-context-overload
+        coverage: full
+        check: "Does retrieval use multiple tiers (summary → detail) rather than dumping everything?"
+
+      - term: "Evolving summaries"
+        definition: "Memory that rewrites itself as new information arrives rather than appending indefinitely"
+        insight: evolving-summaries-beat-append-only-memory
+        coverage: full
+        check: "Does the system rewrite/consolidate memory rather than append-only?"
+
+      - term: "KV cache optimization"
+        definition: "Structuring prompts so repeated prefixes hit the KV cache, reducing cost and latency"
+        insight: kv-cache-hit-rate-determines-agent-economics
+        coverage: full
+        check: "Are prompts structured to maximize KV cache hit rates?"
+
+  quality-and-verification:
+    label: "Quality & Verification"
+    description: "How the system ensures correctness — testing, evals, quality gates, backpressure"
+    items:
+      - term: "Quality gates"
+        definition: "Automated checkpoints that block progression if standards aren't met — type checks, linters, validators"
+        insight: verification-multiplies-agent-output-quality
+        coverage: full
+        check: "Are there automated quality gates that block bad output from proceeding?"
+
+      - term: "Evals"
+        definition: "Systematic evaluation of agent output against ground truth — accuracy, recall, precision on real data"
+        insight: evaluate-tools-with-real-multi-step-tasks
+        coverage: partial
+        check: "Are agent outputs evaluated against ground truth datasets (not just spot-checked)?"
+
+      - term: "Backpressure"
+        definition: "Slowing or stopping the pipeline when quality drops rather than pushing bad output forward"
+        insight: null
+        coverage: partial
+        check: "Does the system slow down or stop when quality metrics degrade?"
+
+      - term: "Property-based testing"
+        definition: "Generative tests that explore input spaces with random or adversarial inputs to find edge cases"
+        insight: property-based-testing-explores-agent-input-spaces
+        coverage: full
+        check: "Are there generative/property-based tests that explore agent behavior across input spaces?"
+
+      - term: "Deterministic simulation"
+        definition: "Replaying recorded inputs to reproduce agent behavior exactly — essential for debugging non-deterministic systems"
+        insight: null
+        coverage: gap
+        check: "Can agent sessions be replayed deterministically for debugging?"
+
+      - term: "Linters that teach"
+        definition: "Static analysis rules that explain WHY something is wrong, not just WHAT — turning enforcement into education"
+        insight: compound-engineering-makes-future-work-easier
+        coverage: partial
+        check: "Do quality tools explain the reasoning behind failures (not just flag them)?"
+
+      - term: "Adversarial review"
+        definition: "Using a second model or agent to critique the first one's output — catching blindspots through disagreement"
+        insight: weaponize-sycophancy-with-adversarial-agent-ensembles
+        coverage: full
+        check: "Is there adversarial/multi-model review of critical agent outputs?"
+
+      - term: "Automated testing"
+        definition: "Tests that run without human intervention — unit, integration, end-to-end — as part of CI/CD"
+        insight: null
+        coverage: partial
+        check: "Is there an automated test suite that runs in CI for agent-related code?"
+
+  safety-and-guardrails:
+    label: "Safety & Guardrails"
+    description: "How the system prevents harm — circuit breakers, sandboxing, red teaming, annotation sovereignty"
+    items:
+      - term: "Circuit breakers"
+        definition: "Automatic stops triggered by anomalous behavior — cost spikes, error rate thresholds, loop detection"
+        insight: null
+        coverage: partial
+        check: "Are there circuit breakers that halt agent execution on anomalous behavior?"
+
+      - term: "Guardrails"
+        definition: "Constraints on agent behavior enforced at the tool/system level, not just in prompts"
+        insight: safety-enforcement-belongs-in-tool-design-not-prompts
+        coverage: full
+        check: "Are safety constraints enforced in tool design (not just system prompts)?"
+
+      - term: "Red teaming"
+        definition: "Deliberately trying to break the system — adversarial inputs, prompt injection, boundary testing"
+        insight: weaponize-sycophancy-with-adversarial-agent-ensembles
+        coverage: partial
+        check: "Has the system been red-teamed for adversarial inputs and prompt injection?"
+
+      - term: "Sovereign annotation"
+        definition: "Human labelers and domain experts maintaining authority over training data quality — not outsourcing judgment"
+        insight: null
+        coverage: gap
+        check: "Do domain experts maintain authority over data labeling and quality standards?"
+
+      - term: "Human-in-the-loop"
+        definition: "Humans approve critical decisions before execution — the safety net for high-stakes actions"
+        insight: production-agents-route-decisions-not-every-call-to-llm
+        coverage: full
+        check: "Do high-stakes agent decisions require human approval before execution?"
+
+      - term: "Human-on-the-loop"
+        definition: "Humans monitor agent execution and can intervene, but don't approve every action"
+        insight: parallel-agents-create-management-problem-not-coding-problem
+        coverage: partial
+        check: "Can humans monitor and intervene in agent execution without blocking every action?"
+
+  observability:
+    label: "Observability"
+    description: "How the system is monitored — telemetry, tracing, audit trails, cost tracking"
+    items:
+      - term: "Telemetry"
+        definition: "Collecting runtime data — token usage, latency, error rates, cost per task — to understand system behavior"
+        insight: observability-is-the-missing-agent-discipline
+        coverage: full
+        check: "Is there telemetry tracking token usage, latency, error rates, and cost per task?"
+
+      - term: "Decision tracing"
+        definition: "End-to-end traces of agent reasoning chains — which tools were called, what context was used, what was decided"
+        insight: decision-traces-are-the-missing-data-layer
+        coverage: full
+        check: "Can you trace an agent's full reasoning chain from input to output?"
+
+      - term: "Audit trail"
+        definition: "Immutable log of all agent actions for compliance, debugging, and learning"
+        insight: session-capture-compounds-development-knowledge
+        coverage: partial
+        check: "Is there an immutable audit trail of agent actions?"
+
+      - term: "Cost tracking"
+        definition: "Per-task and per-session cost visibility — knowing what each agent run costs in tokens and compute"
+        insight: kv-cache-hit-rate-determines-agent-economics
+        coverage: partial
+        check: "Can you see the cost of each agent run (tokens, API calls, compute)?"
+
+      - term: "Error pattern detection"
+        definition: "Identifying recurring failure modes across agent runs to fix systemic issues"
+        insight: error-memory-enables-learning-without-retraining
+        coverage: full
+        check: "Are recurring error patterns detected and surfaced for systemic fixes?"
+
+  data-and-learning:
+    label: "Data & Learning"
+    description: "How the system improves — feedback loops, continuous learning, proprietary data, divergence detection"
+    items:
+      - term: "Feedback loops"
+        definition: "User corrections and outcomes flowing back to improve agent behavior — the compound interest of AI products"
+        insight: compound-engineering-makes-future-work-easier
+        coverage: partial
+        check: "Do user corrections and outcomes feed back into improving agent behavior?"
+
+      - term: "Continuous improvement"
+        definition: "Systematic process for the system to get better over time — not just shipping features but learning from usage"
+        insight: error-memory-enables-learning-without-retraining
+        coverage: partial
+        check: "Is there a systematic process for the system to improve from its own usage?"
+
+      - term: "Proprietary feedback loops"
+        definition: "Usage creates data that competitors cannot replicate — the moat that widens with every interaction"
+        insight: proprietary-feedback-loops-widen-the-moat
+        coverage: full
+        check: "Does usage generate proprietary data that competitors cannot replicate?"
+
+      - term: "Revealed preferences"
+        definition: "Tracking what users actually do (not what they say) — the ground truth for product decisions"
+        insight: revealed-preferences-trump-stated-preferences
+        coverage: full
+        check: "Does the system track actual user behavior (not just stated preferences) to guide decisions?"
+
+      - term: "Synthetic data"
+        definition: "LLM-generated training data for bootstrapping, augmentation, or eval set creation"
+        insight: null
+        coverage: gap
+        check: "Is synthetic data used for bootstrapping evals or training where real data is scarce?"
+
+      - term: "Divergence detection"
+        definition: "Monitoring when agent behavior drifts from expected patterns — model updates, prompt changes, data shifts"
+        insight: null
+        coverage: gap
+        check: "Is there monitoring for when agent behavior diverges from expected baselines?"
+
+      - term: "Cross-user learning"
+        definition: "Knowledge gained from one user's interactions benefiting all users — without fine-tuning"
+        insight: cross-user-knowledge-transfer-needs-no-fine-tuning
+        coverage: full
+        check: "Does knowledge from one user's interactions benefit other users?"
+
+  product-and-market:
+    label: "Product & Market"
+    description: "How the product fits its market — model-market fit, the 80/99 gap, agentic threshold, API-first"
+    items:
+      - term: "Model-market fit"
+        definition: "The AI model's capabilities must match what the market actually needs — before product-market fit matters"
+        insight: model-market-fit-before-product-market-fit
+        coverage: full
+        check: "Has the project validated that current model capabilities match the target use case?"
+
+      - term: "The 80/99 gap"
+        definition: "The infinite distance between demo accuracy (80%) and production reliability (99%) — where most AI products die"
+        insight: the-80-99-gap-is-where-ai-products-die
+        coverage: full
+        check: "Has the project addressed the gap between demo accuracy and production reliability?"
+
+      - term: "Agentic threshold"
+        definition: "The capability level where the model can reliably complete multi-step tasks — unlocking new product categories"
+        insight: software-abundance-unlocks-categories-that-never-existed
+        coverage: partial
+        check: "Are the product's agentic features within the model's reliable capability threshold?"
+
+      - term: "B2A / API-first"
+        definition: "Business-to-Agent — products designed for agent consumers, not human UI users"
+        insight: agents-become-the-buyer
+        coverage: full
+        check: "Is the product accessible via API for agent consumers (not just human UI)?"
+
+      - term: "Sell the work"
+        definition: "Selling outcomes and completed work rather than access to tools — the services model for AI"
+        insight: sell-the-work-not-the-tool
+        coverage: full
+        check: "Does the product sell completed work/outcomes rather than tool access?"
+
+      - term: "Frontier absorption"
+        definition: "Frontier AI companies absorb every useful pattern into their products — features with no moat get commoditized"
+        insight: frontier-companies-absorb-every-useful-agentic-pattern
+        coverage: full
+        check: "Is the product's value defensible against frontier model providers absorbing the pattern?"
+
+  architecture-patterns:
+    label: "Architecture Patterns"
+    description: "Structural patterns — workflow gravity, data gravity, human-in/on-loop, headless operation"
+    items:
+      - term: "Workflow gravity"
+        definition: "The tendency for work to consolidate around wherever the agent already has context — CLAUDE.md, skill files, project structure"
+        insight: claude-md-should-be-routing-table-not-knowledge-base
+        coverage: full
+        check: "Does the architecture consolidate agent context in a discoverable location?"
+
+      - term: "Data gravity"
+        definition: "Data attracts more data and processing — the system of record becomes the center of gravity"
+        insight: rigid-schemas-exist-because-rigid-apps-demand-them
+        coverage: partial
+        check: "Is there a clear system of record that serves as the data gravity center?"
+
+      - term: "Headless operation"
+        definition: "The system can run without a UI — all functionality accessible programmatically"
+        insight: ui-moat-collapses-api-becomes-purchasing-criterion
+        coverage: full
+        check: "Can the system operate headlessly (all functions accessible without UI)?"
+
+      - term: "File-based architecture"
+        definition: "Using files on disk as the primary interface — inspectable, versionable, agent-friendly"
+        insight: files-are-the-universal-agent-interface
+        coverage: full
+        check: "Does the architecture use files (not databases) as the primary agent interface?"
+
+      - term: "Declarative over imperative"
+        definition: "Describing what should happen (outcomes) rather than how to do it (steps)"
+        insight: declarative-beats-imperative-for-agents
+        coverage: full
+        check: "Are agent instructions declarative (outcomes) rather than imperative (steps)?"
+
+      - term: "Tool contracts"
+        definition: "Well-defined interfaces between deterministic code and non-deterministic LLM — clear inputs, outputs, error handling"
+        insight: tools-are-contracts-between-deterministic-and-nondeterministic-systems
+        coverage: full
+        check: "Do tools have well-defined contracts (inputs, outputs, error handling)?"
+
+      - term: "Routing layer"
+        definition: "Decision logic that sends tasks to the right handler — LLM for ambiguity, code for deterministic paths"
+        insight: production-agents-route-decisions-not-every-call-to-llm
+        coverage: full
+        check: "Does the system route deterministic tasks to code and ambiguous ones to LLMs?"
+
+  team-and-process:
+    label: "Team & Process"
+    description: "How teams work with agents — context as product, skills as product, workflow moats"
+    items:
+      - term: "Context is the product"
+        definition: "The real value is in the curated context you provide, not the model you call"
+        insight: context-is-the-product-not-the-model
+        coverage: full
+        check: "Is the team investing in context quality as a first-class product concern?"
+
+      - term: "Skills are the product"
+        definition: "Domain expertise encoded as reusable skills — the compound advantage that grows with every project"
+        insight: skills-as-markdown-replace-fine-tuning
+        coverage: full
+        check: "Are domain skills being captured and refined as reusable assets?"
+
+      - term: "The moat is in the workflow"
+        definition: "Defensibility comes from deeply embedded workflow integration, not from model access or data alone"
+        insight: domain-skill-libraries-are-the-real-agent-moat
+        coverage: full
+        check: "Is the product deeply embedded in user workflows (not easily replaceable)?"
+
+      - term: "Harness engineering"
+        definition: "The discipline of building the scaffolding around LLMs — the new core competency for AI teams"
+        insight: harness-engineers-need-docs-as-first-class-output
+        coverage: full
+        check: "Does the team practice harness engineering (scaffolding, not just prompting)?"
+
+      - term: "Compound engineering"
+        definition: "Each unit of work improves all future work — session capture, skill refinement, error memory"
+        insight: compound-engineering-makes-future-work-easier
+        coverage: full
+        check: "Does the team's workflow compound — each session improving future ones?"
+
+      - term: "Separate research from implementation"
+        definition: "Exploring and understanding before building — prevents wasted context and wrong-direction implementation"
+        insight: separate-research-from-implementation-to-preserve-context
+        coverage: full
+        check: "Does the team separate research/exploration from implementation phases?"
+
+      - term: "Documentation as system of record"
+        definition: "Docs are the primary artifact, not an afterthought — agents need docs to function, humans need docs to onboard"
+        insight: harness-engineers-need-docs-as-first-class-output
+        coverage: full
+        check: "Is documentation treated as a first-class output (not an afterthought)?"

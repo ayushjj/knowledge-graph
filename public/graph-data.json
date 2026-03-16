@@ -49,7 +49,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 22,
+      "degree": 25,
       "domain": "ai"
     },
     {
@@ -79,6 +79,19 @@
       "domain": "ai"
     },
     {
+      "id": "data-agents-fail-from-missing-context-not-sql-gaps",
+      "label": "Data agent failures stem from missing business context, not SQL generation gaps",
+      "description": "The industry initially blamed text-to-SQL capability for data agent failures, but the real blockers are undefined business definitions, ambiguous sources of truth, and missing tribal knowledge",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@jasonscui — Your Data Agents Need Context, a16z",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "decision-traces-are-the-missing-data-layer",
       "label": "Decision traces are the missing data layer — a trillion-dollar gap",
       "description": "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record",
@@ -88,7 +101,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -165,7 +178,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 10,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -178,7 +191,7 @@
       ],
       "source": "Ashpreet Bedi — Agents That Learn (Agno Framework)",
       "color": "#f43f5e",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -217,7 +230,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -229,7 +242,7 @@
       ],
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -243,7 +256,7 @@
       ],
       "source": "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs",
       "color": "#8b5cf6",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -269,6 +282,19 @@
       ],
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "platform-economics-beat-labor-arbitrage",
+      "label": "Platform economics beat labor arbitrage — margins fund flywheels that body shops cannot",
+      "description": "Scale AI's 50%+ gross margins fund ML pre-labeling and workflow optimization, creating a flywheel; Indian BPOs at 10-15% margins cannot invest in R&D and remain trapped competing on price",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
+      "color": "#10b981",
       "degree": 4,
       "domain": "ai"
     },
@@ -306,7 +332,7 @@
       ],
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -410,7 +436,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -427,6 +453,18 @@
       "domain": "ai"
     },
     {
+      "id": "automation-amplifies-expert-demand",
+      "label": "AI automation amplifies demand for expert human judgment rather than replacing it",
+      "description": "Pre-labeling cuts costs 100,000x for simple tasks, but projects that needed 500 contributors now need 100 doing far higher-value work at up to $200/hour",
+      "topics": [
+        "future-of-ai-business"
+      ],
+      "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
+      "color": "#f59e0b",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "technology-transitions-create-more-not-less",
       "label": "Technology transitions create more of the 'dying' thing, not less",
       "description": "Every predicted death — mainframes, physical retail, traditional media — resulted in growth of both old and new; AI will create more software, not less",
@@ -435,7 +473,7 @@
       ],
       "source": "@stevesi (Steven Sinofsky) — Death of Software?",
       "color": "#f59e0b",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -542,6 +580,19 @@
       "domain": "ai"
     },
     {
+      "id": "tribal-knowledge-is-the-last-mile-for-agent-automation",
+      "label": "Tribal knowledge is the irreducible human input that enables agent automation",
+      "description": "Automated context construction handles most of the corpus, but the most critical context is implicit, conditional, and historically contingent — only humans can provide it",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@jasonscui — Your Data Agents Need Context, a16z",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "session-capture-compounds-development-knowledge",
       "label": "Session capture turns ephemeral AI conversations into a compounding knowledge base",
       "description": "shadcn's /done pattern — dumping key decisions to markdown after each session — applies file-based memory architecture to development workflow",
@@ -603,7 +654,20 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 16,
+      "degree": 21,
+      "domain": "ai"
+    },
+    {
+      "id": "commodity-terminal-value-zero-expert-judgment-compounds",
+      "label": "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely",
+      "description": "Appen collapsed from $4.5B to $140M as LLMs displaced commodity annotation, while Scale AI reached $29B by owning expert alignment infrastructure — the market is bifurcating",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
+      "color": "#f59e0b",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -655,7 +719,7 @@
       ],
       "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -681,7 +745,7 @@
       ],
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -720,7 +784,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -737,6 +801,32 @@
       "domain": "ai"
     },
     {
+      "id": "context-layers-must-be-living-systems",
+      "label": "Context layers must be living systems, not static artifacts",
+      "description": "Unlike semantic layers that rot when maintainers leave, context layers need self-updating feedback loops where agent errors refine the context corpus",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "@jasonscui — Your Data Agents Need Context, a16z",
+      "color": "#8b5cf6",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "context-layers-supersede-semantic-layers",
+      "label": "Context layers supersede semantic layers for agent autonomy",
+      "description": "Traditional semantic layers handle metric definitions but agents need a superset: canonical entities, identity resolution, tribal knowledge instructions, and governance guidance",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "@jasonscui — Your Data Agents Need Context, a16z",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "kv-cache-hit-rate-determines-agent-economics",
       "label": "KV cache hit rate is the most critical metric for production agents",
       "description": "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows",
@@ -746,7 +836,7 @@
       ],
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -784,7 +874,7 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -836,7 +926,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 2,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -888,7 +978,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 2,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -1005,7 +1095,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)",
       "color": "#f97316",
-      "degree": 3,
+      "degree": 4,
       "domain": "mental-models"
     },
     {
@@ -1161,6 +1251,71 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "observability-is-the-missing-agent-discipline",
+      "label": "Observability is the missing discipline for agent systems — you can't improve what you can't measure",
+      "description": "Agent systems need telemetry (token usage, latency, error rates, cost per task) as a first-class engineering concern, not an afterthought bolted on after production failures",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "property-based-testing-explores-agent-input-spaces",
+      "label": "Property-based testing explores agent input spaces that example-based tests miss",
+      "description": "Generative tests that produce random or adversarial inputs discover edge cases in agent behavior that hand-written examples never cover",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
+      "color": "#06b6d4",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "proprietary-feedback-loops-widen-the-moat",
+      "label": "Proprietary feedback loops create moats that widen with every interaction",
+      "description": "When usage generates data that competitors cannot replicate — correction patterns, preference signals, domain-specific edge cases — the product improves faster than any new entrant can catch up",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "Nikunj Kothari — Revealed Preferences",
+      "color": "#10b981",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "the-80-99-gap-is-where-ai-products-die",
+      "label": "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart",
+      "description": "Getting an AI system from 80% demo accuracy to 99% production reliability requires fundamentally different engineering than the first 80%",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
+      "color": "#10b981",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "revealed-preferences-trump-stated-preferences",
+      "label": "Revealed preferences trump stated preferences — track what users do, not what they say",
+      "description": "Users' actual behavior (what they click, skip, edit, redo) is the ground truth for product decisions; stated preferences systematically mislead",
+      "topics": [
+        "business-models",
+        "ai-native-product-architecture"
+      ],
+      "source": "Nikunj Kothari — Revealed Preferences",
+      "color": "#10b981",
       "degree": 4,
       "domain": "ai"
     }
@@ -1207,6 +1362,10 @@
       "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
+      "source": "context-is-the-product-not-the-model",
+      "target": "data-agents-fail-from-missing-context-not-sql-gaps"
+    },
+    {
       "source": "skills-as-markdown-replace-fine-tuning",
       "target": "features-are-prompts-not-code"
     },
@@ -1231,12 +1390,36 @@
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
+      "source": "data-agents-fail-from-missing-context-not-sql-gaps",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "data-agents-fail-from-missing-context-not-sql-gaps",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "data-agents-fail-from-missing-context-not-sql-gaps",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
       "source": "decision-traces-are-the-missing-data-layer",
       "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
       "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "tribal-knowledge-is-the-last-mile-for-agent-automation"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "revealed-preferences-trump-stated-preferences"
     },
     {
       "source": "declarative-beats-imperative-for-agents",
@@ -1293,6 +1476,14 @@
     {
       "source": "verification-multiplies-agent-output-quality",
       "target": "multi-model-ensemble-catches-single-model-blindspots"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "property-based-testing-explores-agent-input-spaces"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "the-80-99-gap-is-where-ai-products-die"
     },
     {
       "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
@@ -1385,6 +1576,18 @@
     {
       "source": "personal-software-grows-through-relationship-not-configuration",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "platform-economics-beat-labor-arbitrage",
+      "target": "technology-helps-moats-kills-commodity-businesses"
+    },
+    {
+      "source": "platform-economics-beat-labor-arbitrage",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "platform-economics-beat-labor-arbitrage",
+      "target": "sell-the-work-not-the-tool"
     },
     {
       "source": "postgresql-scales-further-than-you-think",
@@ -1543,6 +1746,14 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
+      "source": "automation-amplifies-expert-demand",
+      "target": "intelligence-judgement-ratio-determines-automation-order"
+    },
+    {
+      "source": "automation-amplifies-expert-demand",
+      "target": "tribal-knowledge-is-the-last-mile-for-agent-automation"
+    },
+    {
       "source": "technology-transitions-create-more-not-less",
       "target": "software-abundance-unlocks-categories-that-never-existed"
     },
@@ -1553,6 +1764,10 @@
     {
       "source": "technology-transitions-create-more-not-less",
       "target": "llm-competition-fragments-markets-not-consolidates"
+    },
+    {
+      "source": "technology-transitions-create-more-not-less",
+      "target": "commodity-terminal-value-zero-expert-judgment-compounds"
     },
     {
       "source": "hybrid-search-is-the-default-not-the-exception",
@@ -1687,6 +1902,14 @@
       "target": "embeddings-measure-similarity-not-truth"
     },
     {
+      "source": "tribal-knowledge-is-the-last-mile-for-agent-automation",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "tribal-knowledge-is-the-last-mile-for-agent-automation",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
       "source": "session-capture-compounds-development-knowledge",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
@@ -1779,6 +2002,22 @@
       "target": "session-capture-compounds-development-knowledge"
     },
     {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "commodity-terminal-value-zero-expert-judgment-compounds",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "commodity-terminal-value-zero-expert-judgment-compounds",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
       "source": "building-beats-following-for-ai-mastery",
       "target": "compound-engineering-makes-future-work-easier"
     },
@@ -1825,6 +2064,10 @@
     {
       "source": "error-memory-enables-learning-without-retraining",
       "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
+      "target": "context-layers-must-be-living-systems"
     },
     {
       "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
@@ -1899,12 +2142,40 @@
       "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "context-layers-supersede-semantic-layers"
+    },
+    {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
       "source": "context-inefficiency-compounds-three-penalties",
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
       "source": "context-inefficiency-compounds-three-penalties",
       "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "context-layers-must-be-living-systems",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "context-layers-must-be-living-systems",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "context-layers-supersede-semantic-layers",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
+      "source": "context-layers-supersede-semantic-layers",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "context-layers-supersede-semantic-layers",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
     },
     {
       "source": "kv-cache-hit-rate-determines-agent-economics",
@@ -1975,6 +2246,10 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
+      "source": "model-market-fit-before-product-market-fit",
+      "target": "the-80-99-gap-is-where-ai-products-die"
+    },
+    {
       "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
@@ -2029,6 +2304,10 @@
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
       "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "intelligence-judgement-ratio-determines-automation-order",
+      "target": "automation-amplifies-expert-demand"
     },
     {
       "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
@@ -2233,6 +2512,62 @@
     {
       "source": "sell-the-work-not-the-tool",
       "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "sell-the-work-not-the-tool",
+      "target": "platform-economics-beat-labor-arbitrage"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "kv-cache-hit-rate-determines-agent-economics"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "property-based-testing-explores-agent-input-spaces",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "property-based-testing-explores-agent-input-spaces",
+      "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "property-based-testing-explores-agent-input-spaces",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
+    },
+    {
+      "source": "the-80-99-gap-is-where-ai-products-die",
+      "target": "model-market-fit-before-product-market-fit"
+    },
+    {
+      "source": "the-80-99-gap-is-where-ai-products-die",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "revealed-preferences-trump-stated-preferences",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "revealed-preferences-trump-stated-preferences",
+      "target": "compound-engineering-makes-future-work-easier"
     }
   ]
 }

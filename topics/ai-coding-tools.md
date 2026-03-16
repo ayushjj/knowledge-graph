@@ -43,3 +43,4 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[frontier-companies-absorb-every-useful-agentic-pattern]] — If it's truly useful, OpenAI/Anthropic will build it in
 - [[one-session-per-contract-beats-long-running-agents]] — New session per contract; stop-hooks enforce completion
 - [[separate-research-from-implementation-to-preserve-context]] — Research pollutes implementation context; split into separate sessions
+- [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior that example-based tests miss

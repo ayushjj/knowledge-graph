@@ -49,3 +49,5 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
 - [[context-layers-supersede-semantic-layers]] — Context layers are a superset of semantic layers: entities, identity resolution, tribal knowledge, governance
 - [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static artifacts
+- [[observability-is-the-missing-agent-discipline]] — Agent systems need telemetry as a first-class engineering concern
+- [[revealed-preferences-trump-stated-preferences]] — Track what users do, not what they say, for product decisions

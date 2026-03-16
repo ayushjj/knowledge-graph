@@ -59,3 +59,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
 - [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — The most critical context is implicit and historically contingent — only humans provide it
 - [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static YAML definitions
+- [[observability-is-the-missing-agent-discipline]] — Agent systems need telemetry as a first-class engineering concern
+- [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior across input spaces
