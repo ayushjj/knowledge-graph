@@ -20,5 +20,8 @@ dist/
 # Session learnings (internal process notes)
 learnings/
 
+# Skill telemetry (personal session data)
+telemetry/skill-log.jsonl
+
 # Claude Code local config
 .claude/

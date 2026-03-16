@@ -7,7 +7,8 @@
     "build": "node build-graph.js && astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "build:graph": "node build-graph.js",
-    "check": "astro check && node build-graph.js && bash validate-graph.sh"
+    "check": "astro check && node build-graph.js && bash validate-graph.sh && vitest run",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -44,6 +45,7 @@
     "@astrojs/check": "^0.9.7",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^25.4.0",
-    "pagefind": "^1.4.0"
+    "pagefind": "^1.4.0",
+    "vitest": "^4.1.0"
   }
 }
