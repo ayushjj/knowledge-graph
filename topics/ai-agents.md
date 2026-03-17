@@ -61,3 +61,7 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static YAML definitions
 - [[observability-is-the-missing-agent-discipline]] — Agent systems need telemetry as a first-class engineering concern
 - [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior across input spaces
+- [[harness-quality-beats-model-intelligence]] — A mediocre agent inside a strong harness outperforms a stronger agent in a messy one
+- [[rollback-safety-nets-enable-autonomy-not-intelligence]] — Cheap rollback makes aggressive autonomous exploration safe
+- [[every-optimization-has-a-shadow-regression]] — Guard commands catch silent regressions in dimensions you're not optimizing
+- [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force optimization for real-world throughput

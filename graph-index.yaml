@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-16
-node_count: 102
+last_updated: 2026-03-17
+node_count: 106
 domains: [ai, mental-models]
 
 nodes:
@@ -86,7 +86,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Andrej Karpathy — Coding Observations"
     outgoing: [features-are-prompts-not-code, technical-knowledge-becomes-liability]
-    incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier, harness-engineers-need-docs-as-first-class-output]
+    incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier, harness-engineers-need-docs-as-first-class-output, harness-quality-beats-model-intelligence]
 
   ui-moat-collapses-api-becomes-purchasing-criterion:
     title: "The UI moat collapses — API quality becomes the purchasing criterion"
@@ -125,8 +125,8 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die]
+    outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -287,8 +287,8 @@ nodes:
     description: "The Ralph pattern ships 13 features in 1 hour by decomposing into context-window-sized tasks with explicit acceptance criteria and test-based feedback"
     topics: [ai-agents, ai-coding-tools]
     source: "Ryan Carson — Ralph / Autonomous Coding Loop"
-    outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality]
-    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness]
+    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness]
 
   autopilots-capture-work-budget-not-tool-budget:
     title: "Autopilots capture the work budget — six dollars in services for every one in software"
@@ -366,6 +366,15 @@ nodes:
     outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets]
     incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining, first-conclusions-become-nearly-permanent]
 
+  every-optimization-has-a-shadow-regression:
+    title: "Every optimization has a shadow regression — guard commands make the shadow visible"
+    description: "When optimizing metric A, metric B silently degrades unless you run a separate invariant check (a guard) alongside the primary verification"
+    topics: [ai-agents, decision-making]
+    source: "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)"
+    domain: ai
+    outgoing: [invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
+    incoming: [invert-always-invert-to-solve-hard-problems]
+
   treat-agent-as-operating-system-not-function:
     title: "Treat an agent as an operating system, not a stateless function"
     description: "Agents need RAM (conversation context), a hard drive (persistent memory), garbage collection (decay/pruning), and I/O management (tools)"
@@ -414,7 +423,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Anthropic Official Best Practices + Jarrod Watts"
     outgoing: [context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, one-session-per-contract-beats-long-running-agents, prompt-caching-makes-long-context-economically-viable, treat-agent-as-operating-system-not-function]
-    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base]
+    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base, time-bounded-evaluation-optimizes-for-usefulness]
 
   three-layer-ai-stack-memory-search-reasoning:
     title: "The three-layer AI stack: Memory, Search, Reasoning"
@@ -431,7 +440,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -497,6 +506,15 @@ nodes:
     source: "@zain_hoda (Zain Hoda, Vanna AI) — The Agent Will Eat Your System of Record"
     outgoing: [files-are-the-universal-agent-interface, agents-become-the-buyer, context-is-the-product-not-the-model]
     incoming: [files-are-the-universal-agent-interface, lakebases-decouple-compute-from-storage]
+
+  rollback-safety-nets-enable-autonomy-not-intelligence:
+    title: "Rollback safety nets enable autonomous iteration — not model intelligence"
+    description: "The minimum viable safety net for autonomy is a quantifiable metric, atomic changes, and automatic rollback — these make cheap failure possible, which makes aggressive exploration safe"
+    topics: [ai-agents, ai-coding-tools]
+    source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works; Andrej Karpathy — autoresearch program.md"
+    domain: ai
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback]
 
   tool-design-is-continuous-observation-see-like-an-agent:
     title: "Tool design is continuous observation — see like an agent"
@@ -616,8 +634,17 @@ nodes:
     description: "OpenAI built a million-line production codebase with zero manually-written code in 5 months. The discipline shifted from writing code to designing the harness: architecture constraints, documentation, tooling, and feedback loops that make agents reliable at scale."
     topics: [ai-coding-tools, knowledge-systems]
     source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
-    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, files-are-the-universal-agent-interface, specs-are-external-memory-surviving-context-resets, verification-multiplies-agent-output-quality]
+    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, files-are-the-universal-agent-interface, specs-are-external-memory-surviving-context-resets, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
     incoming: [compound-engineering-makes-future-work-easier]
+
+  harness-quality-beats-model-intelligence:
+    title: "A mediocre agent inside a strong harness outperforms a stronger agent inside a messy one"
+    description: "The surrounding machinery — metrics, rollback, scoping, observability — determines autonomous system performance more than model capability"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
+    domain: ai
+    outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -750,8 +777,8 @@ nodes:
     topics: [decision-making, mathematics]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)"
     domain: mental-models
-    outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts]
-    incoming: [pilot-training-model-builds-reliable-knowledge]
+    outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts, every-optimization-has-a-shadow-regression]
+    incoming: [pilot-training-model-builds-reliable-knowledge, every-optimization-has-a-shadow-regression]
 
   pavlovian-association-builds-durable-brand-moats:
     title: "Pavlovian association builds durable brand moats that compound for over a century"
@@ -869,6 +896,15 @@ nodes:
     domain: ai
     outgoing: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality]
     incoming: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality]
+
+  time-bounded-evaluation-optimizes-for-usefulness:
+    title: "Time-bounded evaluation forces optimization for real-world usefulness instead of idealized performance"
+    description: "A fixed wall-clock budget per experiment makes results comparable, normalizes across hardware, and forces agents to optimize for improvement per unit time"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
+    domain: ai
+    outgoing: [context-window-is-the-fundamental-constraint, harness-quality-beats-model-intelligence, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback]
 
   revealed-preferences-trump-stated-preferences:
     title: "Revealed preferences trump stated preferences — track what users do, not what they say"

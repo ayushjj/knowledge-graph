@@ -114,7 +114,7 @@
       ],
       "source": "Andrej Karpathy — Coding Observations",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -178,7 +178,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 14,
+      "degree": 19,
       "domain": "ai"
     },
     {
@@ -436,7 +436,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -554,6 +554,19 @@
       "domain": "ai"
     },
     {
+      "id": "every-optimization-has-a-shadow-regression",
+      "label": "Every optimization has a shadow regression — guard commands make the shadow visible",
+      "description": "When optimizing metric A, metric B silently degrades unless you run a separate invariant check (a guard) alongside the primary verification",
+      "topics": [
+        "ai-agents",
+        "decision-making"
+      ],
+      "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "treat-agent-as-operating-system-not-function",
       "label": "Treat an agent as an operating system, not a stateless function",
       "description": "Agents need RAM (conversation context), a hard drive (persistent memory), garbage collection (decay/pruning), and I/O management (tools)",
@@ -628,7 +641,7 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 17,
+      "degree": 18,
       "domain": "ai"
     },
     {
@@ -654,7 +667,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 21,
+      "degree": 22,
       "domain": "ai"
     },
     {
@@ -758,6 +771,19 @@
       ],
       "source": "@zain_hoda (Zain Hoda, Vanna AI) — The Agent Will Eat Your System of Record",
       "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "rollback-safety-nets-enable-autonomy-not-intelligence",
+      "label": "Rollback safety nets enable autonomous iteration — not model intelligence",
+      "description": "The minimum viable safety net for autonomy is a quantifiable metric, atomic changes, and automatic rollback — these make cheap failure possible, which makes aggressive exploration safe",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works; Andrej Karpathy — autoresearch program.md",
+      "color": "#6366f1",
       "degree": 5,
       "domain": "ai"
     },
@@ -939,7 +965,20 @@
       ],
       "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 9,
+      "domain": "ai"
+    },
+    {
+      "id": "harness-quality-beats-model-intelligence",
+      "label": "A mediocre agent inside a strong harness outperforms a stronger agent inside a messy one",
+      "description": "The surrounding machinery — metrics, rollback, scoping, observability — determines autonomous system performance more than model capability",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
+      "color": "#6366f1",
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1134,7 +1173,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)",
       "color": "#eab308",
-      "degree": 3,
+      "degree": 5,
       "domain": "mental-models"
     },
     {
@@ -1303,6 +1342,19 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "time-bounded-evaluation-optimizes-for-usefulness",
+      "label": "Time-bounded evaluation forces optimization for real-world usefulness instead of idealized performance",
+      "description": "A fixed wall-clock budget per experiment makes results comparable, normalizes across hardware, and forces agents to optimize for improvement per unit time",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
+      "color": "#6366f1",
       "degree": 4,
       "domain": "ai"
     },
@@ -1484,6 +1536,14 @@
     {
       "source": "verification-multiplies-agent-output-quality",
       "target": "the-80-99-gap-is-where-ai-products-die"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
     },
     {
       "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
@@ -1738,6 +1798,14 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "time-bounded-evaluation-optimizes-for-usefulness"
+    },
+    {
       "source": "autopilots-capture-work-budget-not-tool-budget",
       "target": "llm-competition-fragments-markets-not-consolidates"
     },
@@ -1872,6 +1940,18 @@
     {
       "source": "evolving-summaries-beat-append-only-memory",
       "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "every-optimization-has-a-shadow-regression",
+      "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "every-optimization-has-a-shadow-regression",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "every-optimization-has-a-shadow-regression",
+      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
@@ -2118,6 +2198,18 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
+      "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
       "source": "tool-design-is-continuous-observation-see-like-an-agent",
       "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
     },
@@ -2278,6 +2370,26 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
       "source": "multi-model-orchestration-beats-any-single-family",
       "target": "multi-model-ensemble-catches-single-model-blindspots"
     },
@@ -2422,6 +2534,10 @@
       "target": "latticework-of-models-beats-isolated-facts"
     },
     {
+      "source": "invert-always-invert-to-solve-hard-problems",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
       "source": "pavlovian-association-builds-durable-brand-moats",
       "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
     },
@@ -2560,6 +2676,18 @@
     {
       "source": "the-80-99-gap-is-where-ai-products-die",
       "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "time-bounded-evaluation-optimizes-for-usefulness",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "time-bounded-evaluation-optimizes-for-usefulness",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "time-bounded-evaluation-optimizes-for-usefulness",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
       "source": "revealed-preferences-trump-stated-preferences",

@@ -23,3 +23,4 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[pilot-training-model-builds-reliable-knowledge]] — Six elements of pilot training apply to all serious professional education
 - [[scale-advantages-cascade-until-bureaucracy-kills-them]] — Scale advantages compound toward winner-take-all until bureaucracy undoes them
 - [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — Heavy ideology locks the brain into dysfunctional patterns
+- [[every-optimization-has-a-shadow-regression]] — Inversion applied to optimization: always ask what's getting worse

@@ -44,3 +44,4 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[one-session-per-contract-beats-long-running-agents]] — New session per contract; stop-hooks enforce completion
 - [[separate-research-from-implementation-to-preserve-context]] — Research pollutes implementation context; split into separate sessions
 - [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior that example-based tests miss
+- [[rollback-safety-nets-enable-autonomy-not-intelligence]] — Automatic rollback enables autonomous coding loops without AGI

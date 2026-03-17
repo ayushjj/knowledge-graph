@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[harness-quality-beats-model-intelligence]] — a mediocre agent inside a strong harness outperforms a stronger agent in a messy one (2026-03-17)
+- [[rollback-safety-nets-enable-autonomy-not-intelligence]] — cheap rollback makes aggressive autonomous exploration safe (2026-03-17)
+- [[every-optimization-has-a-shadow-regression]] — guard commands catch silent regressions in unmonitored dimensions (2026-03-17)
+- [[time-bounded-evaluation-optimizes-for-usefulness]] — fixed time budgets force optimization for real-world throughput (2026-03-17)
 - [[observability-is-the-missing-agent-discipline]] — agent systems need telemetry as a first-class engineering concern (2026-03-16)
 - [[property-based-testing-explores-agent-input-spaces]] — generative tests explore agent behavior that example-based tests miss (2026-03-16)
 - [[proprietary-feedback-loops-widen-the-moat]] — usage creates unreplicable data that widens the competitive moat (2026-03-16)
 - [[the-80-99-gap-is-where-ai-products-die]] — demo accuracy and production reliability are infinitely far apart (2026-03-16)
 - [[revealed-preferences-trump-stated-preferences]] — track what users do, not what they say (2026-03-16)
 - [[platform-economics-beat-labor-arbitrage]] — platform margins fund flywheels that body shops cannot (2026-03-11)
-- [[automation-amplifies-expert-demand]] — AI automation amplifies expert demand rather than replacing it (2026-03-11)
-- [[commodity-terminal-value-zero-expert-judgment-compounds]] — commodity annotation dies, structured expert judgment compounds (2026-03-11)
-- [[data-agents-fail-from-missing-context-not-sql-gaps]] — data agents fail from missing business context, not SQL gaps (2026-03-11)
-- [[context-layers-supersede-semantic-layers]] — context layers are a superset of semantic layers for agent autonomy (2026-03-11)
