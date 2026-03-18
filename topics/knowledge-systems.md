@@ -33,3 +33,5 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as nested conditional directory, not knowledge monolith
 - [[context-layers-supersede-semantic-layers]] — Context layers are a superset of semantic layers for agent autonomy
 - [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — The most critical context is implicit, conditional, and historically contingent
+- [[skill-folder-structure-is-context-engineering]] — A skill's folder structure is its context architecture — file system as progressive disclosure
+- [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries

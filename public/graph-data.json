@@ -10,7 +10,7 @@
       ],
       "source": "@danshipper — Agent-Native Architectures (co-authored with Claude)",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -23,7 +23,7 @@
       ],
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -49,7 +49,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 25,
+      "degree": 26,
       "domain": "ai"
     },
     {
@@ -101,7 +101,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -178,7 +178,20 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 19,
+      "degree": 21,
+      "domain": "ai"
+    },
+    {
+      "id": "verification-is-a-red-queen-race",
+      "label": "Verification is a Red Queen race — optimizing against a fixed eval contaminates it",
+      "description": "Eval suites degrade the moment you use them to improve an agent — the agent adapts to the distribution, and the eval stops measuring what it was designed to measure",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
+      "color": "#6366f1",
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -243,6 +256,19 @@
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
       "degree": 8,
+      "domain": "ai"
+    },
+    {
+      "id": "stronger-models-expand-the-verification-gap",
+      "label": "Stronger models expand the verification gap, not close it",
+      "description": "More capable models increase the deployment surface and raise the stakes of failures, making verification infrastructure more valuable rather than less",
+      "topics": [
+        "future-of-ai-business",
+        "ai-native-product-architecture"
+      ],
+      "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
+      "color": "#f59e0b",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -332,7 +358,20 @@
       ],
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
-      "degree": 10,
+      "degree": 11,
+      "domain": "ai"
+    },
+    {
+      "id": "skill-folder-structure-is-context-engineering",
+      "label": "A skill's folder structure is its context architecture — the file system is a form of context engineering",
+      "description": "Skills are not just markdown files but folders where scripts, references, and assets enable progressive disclosure — the agent reads deeper files only when it reaches the relevant step",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills",
+      "color": "#f43f5e",
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -563,7 +602,7 @@
       ],
       "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -590,6 +629,19 @@
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#8b5cf6",
       "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "trust-boundaries-must-be-mapped-and-externalized",
+      "label": "Trust boundaries must be externalized — not held in engineers' heads",
+      "description": "Where an agent's behavior is well-understood vs. unknown should be mapped, made auditable, and connected to deployment gates — not left as implicit tribal knowledge",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
+      "color": "#6366f1",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -823,7 +875,7 @@
       ],
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -943,6 +995,19 @@
       "domain": "ai"
     },
     {
+      "id": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
+      "label": "Metadata consumed by LLMs needs trigger specifications, not human summaries",
+      "description": "When an LLM scans metadata to decide what to invoke, the description should specify when to activate — not summarize what the thing does — because LLMs are a fundamentally different consumer than humans",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "model-market-fit-before-product-market-fit",
       "label": "Model-market fit comes before product-market fit — without it, no amount of product excellence drives adoption",
       "description": "AI startups need a prerequisite layer beneath PMF: the capability threshold where models can actually satisfy market demands. Legal AI crossed it at 87% accuracy; finance AI at 56% hasn't — same demand, opposite outcomes.",
@@ -965,7 +1030,7 @@
       ],
       "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
       "color": "#06b6d4",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -978,7 +1043,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1238,7 +1303,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1303,7 +1368,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1342,7 +1407,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1546,6 +1611,26 @@
       "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
     },
     {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "the-80-99-gap-is-where-ai-products-die"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "stronger-models-expand-the-verification-gap"
+    },
+    {
       "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
@@ -1596,6 +1681,14 @@
     {
       "source": "similarity-is-not-relevance-relevance-requires-reasoning",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "stronger-models-expand-the-verification-gap",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "stronger-models-expand-the-verification-gap",
+      "target": "verification-is-a-red-queen-race"
     },
     {
       "source": "structure-plus-reasoning-beats-flat-similarity",
@@ -1688,6 +1781,18 @@
     {
       "source": "skill-graphs-enable-progressive-disclosure",
       "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "skill-folder-structure-is-context-engineering",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "skill-folder-structure-is-context-engineering",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "skill-folder-structure-is-context-engineering",
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
     {
       "source": "orchestrator-agent-replaces-human-coordination",
@@ -1982,6 +2087,14 @@
       "target": "embeddings-measure-similarity-not-truth"
     },
     {
+      "source": "trust-boundaries-must-be-mapped-and-externalized",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "trust-boundaries-must-be-mapped-and-externalized",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
       "source": "tribal-knowledge-is-the-last-mile-for-agent-automation",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
@@ -2250,6 +2363,10 @@
       "target": "files-are-the-universal-agent-interface"
     },
     {
+      "source": "context-inefficiency-compounds-three-penalties",
+      "target": "skill-folder-structure-is-context-engineering"
+    },
+    {
       "source": "context-layers-must-be-living-systems",
       "target": "error-memory-enables-learning-without-retraining"
     },
@@ -2334,6 +2451,18 @@
       "target": "outsourcing-is-the-autopilot-wedge"
     },
     {
+      "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
+    },
+    {
+      "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
       "source": "model-market-fit-before-product-market-fit",
       "target": "context-is-the-product-not-the-model"
     },
@@ -2372,6 +2501,10 @@
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries"
     },
     {
       "source": "harness-quality-beats-model-intelligence",
@@ -2646,6 +2779,10 @@
       "target": "error-memory-enables-learning-without-retraining"
     },
     {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "trust-boundaries-must-be-mapped-and-externalized"
+    },
+    {
       "source": "property-based-testing-explores-agent-input-spaces",
       "target": "verification-multiplies-agent-output-quality"
     },
@@ -2676,6 +2813,10 @@
     {
       "source": "the-80-99-gap-is-where-ai-products-die",
       "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "the-80-99-gap-is-where-ai-products-die",
+      "target": "verification-is-a-red-queen-race"
     },
     {
       "source": "time-bounded-evaluation-optimizes-for-usefulness",

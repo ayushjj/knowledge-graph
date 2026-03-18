@@ -1,6 +1,6 @@
 # Skill Improvement — Implementation
 
-## Status: All Actions Complete, Pending Verification
+## Status: All Actions Complete + On-Demand Hooks Built. Pending: Re-score Audit.
 
 ## Pre-Flight: Backup (No Git for Skills)
 
@@ -60,15 +60,43 @@ done
 
 **Note:** Wikilink rules were merged into `frontmatter-template.md` rather than a separate file — 3 reference files instead of 4. Simpler.
 
-## Verification (Pending)
+### Action 6: Build on-demand hook skills [~15 min] — DONE
+Scout report Quick Wins #1 and #2 from Thariq principles.
 
-- [ ] Each modified skill invoked at least once
-- [ ] `/learn` tested with real URL (full pipeline)
-- [ ] No skill errors or regressions
-- [ ] Re-run audit scorecard — targets: Disclosure ≥ 35%, Gotchas ≥ 75%, Descriptions ≥ 90%
+- [x] Research: skill frontmatter does NOT support `hooks:` field (only name, description, license, allowed-tools, metadata, compatibility)
+- [x] Design: flag-file activation pattern — always-loaded PreToolUse hooks in settings.json, skills create/remove flag files in OS temp dir
+- [x] Create `/careful` skill — SKILL.md + `scripts/check-destructive.js` (11 destructive patterns)
+- [x] Create `/freeze` skill — SKILL.md + `scripts/check-freeze.js` (directory-scoped Edit/Write lock)
+- [x] Add 2 PreToolUse hooks to `~/.claude/settings.json`
+- [x] Test: rm -rf → BLOCKED, git push --force → BLOCKED, git log → allowed
+- [x] Test: edit inside frozen dir → allowed, edit outside → BLOCKED
+- [x] Updated MEMORY.md (skills table + audit section)
+- [ ] Verify in live session: requires session restart for hooks to load
+
+## Verification
+
+- [x] `/learn` tested with real URL (2026-03-18 session — Thariq article extracted 2 insights successfully)
+- [x] `/careful` and `/freeze` hook scripts tested via direct invocation (all 5 test cases pass)
+- [ ] Each remaining modified skill invoked at least once (gotchas/description changes)
+- [x] Re-run audit scorecard — results below
+- [ ] `/careful` and `/freeze` tested in live session (requires restart)
+
+### Audit Re-Score (2026-03-18)
+
+| Dimension | Before | After | Target | Status |
+|-----------|--------|-------|--------|--------|
+| Descriptions (trigger-spec) | 70% (14/20) | **100%** (22/22) | ≥90% | **PASS** |
+| Gotchas (`## Gotchas`) | 60% (12/20) | **31.8%** (7/22) | ≥75% | FAIL — see note |
+| Progressive Disclosure | 25% (5/20) | **31.8%** (7/22) | ≥35% | MISS by 3.2% |
+
+**Gotchas note:** Original 60% counted partial/inline warnings. Strict re-score counts only explicit `## Gotchas` sections. 7 skills have them (learn, connect, learn-book, scout, investigate, careful, freeze). The convention is established — score will improve organically as skills fail and gotchas accumulate. Not worth force-seeding empty gotchas into 15 low-frequency skills.
+
+**Progressive Disclosure note:** 7/22 have subfolders (learn/references, careful/scripts, freeze/scripts, creating-specifications/references, executing-batch-operations/scripts, tuning-llm-prompts/references+scripts, validating-queries/scripts). Remaining skills are short enough that splitting would be premature abstraction.
 
 ## Learnings
 
 - `.bak` files are the only safety net for `~/.claude/skills/` — no git tracking. Always backup before modifying skills.
 - Gotchas sections add ~10-15 lines each but prevent real errors at point of use. Worth the context cost.
 - Progressive disclosure reduces SKILL.md from 229→180 lines (not the 155 target) because gotchas were added simultaneously. Net savings will compound when reference files are reused by `/learn-book` and `/ingest`.
+- Skill frontmatter only supports 6 fields (name, description, license, allowed-tools, metadata, compatibility). On-demand hooks require the flag-file activation pattern: always-loaded hooks in settings.json that check for a flag file before running.
+- Exit code 2 + stderr is the simplest way to block a tool call from a PreToolUse command hook — no JSON output format needed.

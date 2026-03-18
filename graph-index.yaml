@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-18
-node_count: 109
+node_count: 111
 domains: [ai, mental-models]
 
 nodes:
@@ -21,7 +21,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@danshipper — Agent-Native Architectures (co-authored with Claude)"
     outgoing: [declarative-beats-imperative-for-agents, malleable-software-writes-its-own-extensions]
-    incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions, personal-software-grows-through-relationship-not-configuration]
+    incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions, personal-software-grows-through-relationship-not-configuration, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
 
   files-are-the-universal-agent-interface:
     title: "Files are the universal interface between humans and agents"
@@ -29,7 +29,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
     outgoing: [context-is-the-product-not-the-model, skills-as-markdown-replace-fine-tuning, rigid-schemas-exist-because-rigid-apps-demand-them]
-    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties]
+    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties, skill-folder-structure-is-context-engineering]
 
   technical-knowledge-becomes-liability:
     title: "Technical knowledge can become a liability when working with AI"
@@ -45,7 +45,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning, data-agents-fail-from-missing-context-not-sql-gaps]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -241,7 +241,16 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat]
-    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers]
+    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers, skill-folder-structure-is-context-engineering]
+
+  skill-folder-structure-is-context-engineering:
+    title: "A skill's folder structure is its context architecture — the file system is a form of context engineering"
+    description: "Skills are not just markdown files but folders where scripts, references, and assets enable progressive disclosure — the agent reads deeper files only when it reaches the relevant step"
+    topics: [knowledge-systems, ai-agents]
+    source: "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills"
+    domain: ai
+    outgoing: [skill-graphs-enable-progressive-disclosure, files-are-the-universal-agent-interface, claude-md-should-be-routing-table-not-knowledge-base]
+    incoming: [context-inefficiency-compounds-three-penalties]
 
   orchestrator-agent-replaces-human-coordination:
     title: "An orchestrator agent that manages other agents solves the parallel coordination problem without human bottleneck"
@@ -566,7 +575,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
     domain: ai
-    outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface]
+    outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface, skill-folder-structure-is-context-engineering]
     incoming: [kv-cache-hit-rate-determines-agent-economics, separate-research-from-implementation-to-preserve-context]
 
   context-layers-must-be-living-systems:
@@ -648,6 +657,15 @@ nodes:
     outgoing: [saas-survives-as-governance-and-coordination-layer, technology-transitions-create-more-not-less, outsourcing-is-the-autopilot-wedge]
     incoming: [saas-survives-as-governance-and-coordination-layer, technology-transitions-create-more-not-less]
 
+  metadata-for-llm-consumers-needs-trigger-specs-not-summaries:
+    title: "Metadata consumed by LLMs needs trigger specifications, not human summaries"
+    description: "When an LLM scans metadata to decide what to invoke, the description should specify when to activate — not summarize what the thing does — because LLMs are a fundamentally different consumer than humans"
+    topics: [ai-native-product-architecture, knowledge-systems]
+    source: "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills"
+    domain: ai
+    outgoing: [features-are-prompts-not-code, claude-md-should-be-routing-table-not-knowledge-base, context-is-the-product-not-the-model]
+    incoming: [harness-engineers-need-docs-as-first-class-output]
+
   model-market-fit-before-product-market-fit:
     title: "Model-market fit comes before product-market fit — without it, no amount of product excellence drives adoption"
     description: "AI startups need a prerequisite layer beneath PMF: the capability threshold where models can actually satisfy market demands. Legal AI crossed it at 87% accuracy; finance AI at 56% hasn't — same demand, opposite outcomes."
@@ -661,7 +679,7 @@ nodes:
     description: "OpenAI built a million-line production codebase with zero manually-written code in 5 months. The discipline shifted from writing code to designing the harness: architecture constraints, documentation, tooling, and feedback loops that make agents reliable at scale."
     topics: [ai-coding-tools, knowledge-systems]
     source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
-    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, files-are-the-universal-agent-interface, specs-are-external-memory-surviving-context-resets, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
+    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, compound-engineering-makes-future-work-easier, context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, files-are-the-universal-agent-interface, specs-are-external-memory-surviving-context-resets, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
     incoming: [compound-engineering-makes-future-work-easier]
 
   harness-quality-beats-model-intelligence:
@@ -850,7 +868,7 @@ nodes:
     source: "@systematicls — How To Be A World-Class Agentic Engineer"
     domain: ai
     outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, skill-graphs-enable-progressive-disclosure]
-    incoming: [harness-engineers-need-docs-as-first-class-output]
+    incoming: [harness-engineers-need-docs-as-first-class-output, skill-folder-structure-is-context-engineering, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
 
   frontier-companies-absorb-every-useful-agentic-pattern:
     title: "Frontier companies absorb every useful agentic pattern into their products"

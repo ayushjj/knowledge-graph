@@ -67,3 +67,4 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[trust-boundaries-must-be-mapped-and-externalized]] — Where agent behavior is understood vs. unknown must be made auditable
 - [[every-optimization-has-a-shadow-regression]] — Guard commands catch silent regressions in dimensions you're not optimizing
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force optimization for real-world throughput
+- [[skill-folder-structure-is-context-engineering]] — A skill's folder structure is its context architecture — file system as progressive disclosure

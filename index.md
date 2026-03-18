@@ -24,6 +24,8 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[skill-folder-structure-is-context-engineering]] — a skill's folder structure is its context architecture — file system as progressive disclosure (2026-03-18)
+- [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — metadata consumed by LLMs needs trigger specs, not human summaries (2026-03-18)
 - [[verification-is-a-red-queen-race]] — optimizing against a fixed eval contaminates it — verification is a permanent race (2026-03-18)
 - [[stronger-models-expand-the-verification-gap]] — more capability means more deployment surface, harder verification (2026-03-18)
 - [[trust-boundaries-must-be-mapped-and-externalized]] — where agent behavior is understood vs. unknown must be made auditable (2026-03-18)
@@ -33,4 +35,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — fixed time budgets force optimization for real-world throughput (2026-03-17)
 - [[observability-is-the-missing-agent-discipline]] — agent systems need telemetry as a first-class engineering concern (2026-03-16)
 - [[property-based-testing-explores-agent-input-spaces]] — generative tests explore agent behavior that example-based tests miss (2026-03-16)
-- [[proprietary-feedback-loops-widen-the-moat]] — usage creates unreplicable data that widens the competitive moat (2026-03-16)

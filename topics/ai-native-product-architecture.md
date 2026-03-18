@@ -56,3 +56,4 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[revealed-preferences-trump-stated-preferences]] — Track what users do, not what they say, for product decisions
 - [[harness-quality-beats-model-intelligence]] — The surrounding machinery matters more than model capability
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force practical optimization over idealized performance
+- [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries
