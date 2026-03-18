@@ -63,5 +63,7 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior across input spaces
 - [[harness-quality-beats-model-intelligence]] — A mediocre agent inside a strong harness outperforms a stronger agent in a messy one
 - [[rollback-safety-nets-enable-autonomy-not-intelligence]] — Cheap rollback makes aggressive autonomous exploration safe
+- [[verification-is-a-red-queen-race]] — Optimizing against a fixed eval contaminates it — verification is a permanent race
+- [[trust-boundaries-must-be-mapped-and-externalized]] — Where agent behavior is understood vs. unknown must be made auditable
 - [[every-optimization-has-a-shadow-regression]] — Guard commands catch silent regressions in dimensions you're not optimizing
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force optimization for real-world throughput

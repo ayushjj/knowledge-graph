@@ -26,6 +26,7 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[software-abundance-unlocks-categories-that-never-existed]] — Cost reduction makes previously impossible software viable
 - [[ai-self-improvement-loop-accelerates-everything]] — Recursive model improvement compresses all timelines
 - [[open-source-captures-value-through-services-not-software]] — Free software builds billion-dollar companies through services layers
+- [[stronger-models-expand-the-verification-gap]] — The generation/verification asymmetry is where the next important companies get built
 - [[malleable-software-writes-its-own-extensions]] — Dawn of self-extending tools that adapt to users, not the reverse
 - [[personal-software-grows-through-relationship-not-configuration]] — Software evolves a personality in response to its user
 - [[agent-trust-transfers-from-human-credibility]] — Agent adoption spreads through human credibility chains

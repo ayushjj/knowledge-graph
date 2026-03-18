@@ -24,6 +24,9 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[verification-is-a-red-queen-race]] — optimizing against a fixed eval contaminates it — verification is a permanent race (2026-03-18)
+- [[stronger-models-expand-the-verification-gap]] — more capability means more deployment surface, harder verification (2026-03-18)
+- [[trust-boundaries-must-be-mapped-and-externalized]] — where agent behavior is understood vs. unknown must be made auditable (2026-03-18)
 - [[harness-quality-beats-model-intelligence]] — a mediocre agent inside a strong harness outperforms a stronger agent in a messy one (2026-03-17)
 - [[rollback-safety-nets-enable-autonomy-not-intelligence]] — cheap rollback makes aggressive autonomous exploration safe (2026-03-17)
 - [[every-optimization-has-a-shadow-regression]] — guard commands catch silent regressions in unmonitored dimensions (2026-03-17)
@@ -31,6 +34,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[observability-is-the-missing-agent-discipline]] — agent systems need telemetry as a first-class engineering concern (2026-03-16)
 - [[property-based-testing-explores-agent-input-spaces]] — generative tests explore agent behavior that example-based tests miss (2026-03-16)
 - [[proprietary-feedback-loops-widen-the-moat]] — usage creates unreplicable data that widens the competitive moat (2026-03-16)
-- [[the-80-99-gap-is-where-ai-products-die]] — demo accuracy and production reliability are infinitely far apart (2026-03-16)
-- [[revealed-preferences-trump-stated-preferences]] — track what users do, not what they say (2026-03-16)
-- [[platform-economics-beat-labor-arbitrage]] — platform margins fund flywheels that body shops cannot (2026-03-11)

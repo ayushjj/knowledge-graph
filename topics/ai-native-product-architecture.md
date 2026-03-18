@@ -29,6 +29,9 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[boring-tech-wins-for-ai-native-startups]] — Simpler stack = faster AI-assisted shipping; monorepo amplifies context
 - [[similarity-is-not-relevance-relevance-requires-reasoning]] — Vector search finds similar, but relevance requires LLM reasoning (PageIndex: 98.7% vs RAG's 70-80%)
 - [[hybrid-search-is-the-default-not-the-exception]] — BM25 + vector + reranking is the production baseline, not an optimization
+- [[verification-is-a-red-queen-race]] — Eval suites degrade the moment you optimize against them — structural property of verification
+- [[stronger-models-expand-the-verification-gap]] — More capability means more deployment surface, harder verification
+- [[trust-boundaries-must-be-mapped-and-externalized]] — Trust characterization must be auditable and connected to deployment gates
 - [[structure-plus-reasoning-beats-flat-similarity]] — Across documents, code, and skills, structured knowledge navigated by reasoning wins
 - [[agentic-search-beats-rag-for-live-codebases]] — Claude Code abandoned RAG for grep/glob; agent reasons about where to look
 - [[postgresql-scales-further-than-you-think]] — OpenAI: 1 primary + ~50 replicas, millions QPS, no sharding

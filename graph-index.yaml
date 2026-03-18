@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-17
-node_count: 106
+last_updated: 2026-03-18
+node_count: 109
 domains: [ai, mental-models]
 
 nodes:
@@ -78,7 +78,7 @@ nodes:
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
     outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -125,8 +125,17 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression]
+    outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, verification-is-a-red-queen-race]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race]
+
+  verification-is-a-red-queen-race:
+    title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
+    description: "Eval suites degrade the moment you use them to improve an agent — the agent adapts to the distribution, and the eval stops measuring what it was designed to measure"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
+    domain: ai
+    outgoing: [verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, every-optimization-has-a-shadow-regression, stronger-models-expand-the-verification-gap]
+    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -167,6 +176,15 @@ nodes:
     source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
     outgoing: [structure-plus-reasoning-beats-flat-similarity, agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model]
     incoming: [agentic-search-beats-rag-for-live-codebases, hybrid-search-is-the-default-not-the-exception, embeddings-measure-similarity-not-truth, evaluate-tools-with-real-multi-step-tasks, data-agents-fail-from-missing-context-not-sql-gaps]
+
+  stronger-models-expand-the-verification-gap:
+    title: "Stronger models expand the verification gap, not close it"
+    description: "More capable models increase the deployment surface and raise the stakes of failures, making verification infrastructure more valuable rather than less"
+    topics: [future-of-ai-business, ai-native-product-architecture]
+    source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
+    domain: ai
+    outgoing: [harness-quality-beats-model-intelligence, verification-is-a-red-queen-race]
+    incoming: [verification-is-a-red-queen-race]
 
   structure-plus-reasoning-beats-flat-similarity:
     title: "Structure plus reasoning beats flat similarity for complex domains"
@@ -373,7 +391,7 @@ nodes:
     source: "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)"
     domain: ai
     outgoing: [invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
-    incoming: [invert-always-invert-to-solve-hard-problems]
+    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race]
 
   treat-agent-as-operating-system-not-function:
     title: "Treat an agent as an operating system, not a stateless function"
@@ -390,6 +408,15 @@ nodes:
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, embeddings-measure-similarity-not-truth]
     incoming: [three-layer-ai-stack-memory-search-reasoning]
+
+  trust-boundaries-must-be-mapped-and-externalized:
+    title: "Trust boundaries must be externalized — not held in engineers' heads"
+    description: "Where an agent's behavior is well-understood vs. unknown should be mapped, made auditable, and connected to deployment gates — not left as implicit tribal knowledge"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
+    domain: ai
+    outgoing: [observability-is-the-missing-agent-discipline, decision-traces-are-the-missing-data-layer]
+    incoming: [observability-is-the-missing-agent-discipline]
 
   tribal-knowledge-is-the-last-mile-for-agent-automation:
     title: "Tribal knowledge is the irreducible human input that enables agent automation"
@@ -644,7 +671,7 @@ nodes:
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback]
-    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -867,8 +894,8 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     domain: ai
-    outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining]
-    incoming: [decision-traces-are-the-missing-data-layer]
+    outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining, trust-boundaries-must-be-mapped-and-externalized]
+    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized]
 
   property-based-testing-explores-agent-input-spaces:
     title: "Property-based testing explores agent input spaces that example-based tests miss"
@@ -894,8 +921,8 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
     domain: ai
-    outgoing: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality]
-    incoming: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality]
+    outgoing: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality, verification-is-a-red-queen-race]
+    incoming: [model-market-fit-before-product-market-fit, verification-multiplies-agent-output-quality, verification-is-a-red-queen-race]
 
   time-bounded-evaluation-optimizes-for-usefulness:
     title: "Time-bounded evaluation forces optimization for real-world usefulness instead of idealized performance"
