@@ -1,5 +1,7 @@
 # Scout Auto-Review: Implementation Plan
 
+> **Status:** All 3 tasks COMPLETE (2026-03-23). Scout SKILL.md upgraded, mvanhorn report corrected, GStack re-scouted. Surviving action items: 1 quick win (Stop beep), 2 worth investigating (/last30days, Granola), 1 conditional (/cso pattern), 4 trivial GStack carryover items.
+
 ## Execution Order
 
 ```
