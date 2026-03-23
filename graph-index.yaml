@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-18
-node_count: 111
+node_count: 112
 domains: [ai, mental-models]
 
 nodes:
@@ -37,7 +37,7 @@ nodes:
     topics: [ai-coding-tools, future-of-ai-business]
     source: "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing"
     outgoing: [declarative-beats-imperative-for-agents]
-    incoming: [declarative-beats-imperative-for-agents]
+    incoming: [declarative-beats-imperative-for-agents, inference-capability-lowers-input-fidelity-requirements]
 
   context-is-the-product-not-the-model:
     title: "Context is the product, not the model"
@@ -86,7 +86,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Andrej Karpathy — Coding Observations"
     outgoing: [features-are-prompts-not-code, technical-knowledge-becomes-liability]
-    incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier, harness-engineers-need-docs-as-first-class-output, harness-quality-beats-model-intelligence]
+    incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier, harness-engineers-need-docs-as-first-class-output, harness-quality-beats-model-intelligence, inference-capability-lowers-input-fidelity-requirements]
 
   ui-moat-collapses-api-becomes-purchasing-criterion:
     title: "The UI moat collapses — API quality becomes the purchasing criterion"
@@ -663,7 +663,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills"
     domain: ai
-    outgoing: [features-are-prompts-not-code, claude-md-should-be-routing-table-not-knowledge-base, context-is-the-product-not-the-model]
+    outgoing: [features-are-prompts-not-code, claude-md-should-be-routing-table-not-knowledge-base, context-is-the-product-not-the-model, inference-capability-lowers-input-fidelity-requirements]
     incoming: [harness-engineers-need-docs-as-first-class-output]
 
   model-market-fit-before-product-market-fit:
@@ -815,6 +815,15 @@ nodes:
     domain: mental-models
     outgoing: [circle-of-competence-determines-where-you-can-win, incentive-caused-bias-makes-good-people-rationalize]
     incoming: [latticework-of-models-beats-isolated-facts]
+
+  inference-capability-lowers-input-fidelity-requirements:
+    title: "Inference capability lowers input fidelity requirements — smart listeners make imprecise input work"
+    description: "When the consumer of input has strong inference ability, the quality bar for that input drops — voice works not because transcription improved, but because the listener got smarter"
+    topics: [ai-native-product-architecture, ai-coding-tools]
+    source: "@mvanhorn (Matt Van Horn) — Every Claude Code Hack I Know (March 2026)"
+    domain: ai
+    outgoing: [declarative-beats-imperative-for-agents, technical-knowledge-becomes-liability]
+    incoming: [metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
 
   invert-always-invert-to-solve-hard-problems:
     title: "Invert, always invert — many problems are best solved backward"

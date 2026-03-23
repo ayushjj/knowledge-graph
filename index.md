@@ -24,6 +24,7 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[inference-capability-lowers-input-fidelity-requirements]] — smart listeners make imprecise input work — input fidelity drops when the consumer infers (2026-03-23)
 - [[skill-folder-structure-is-context-engineering]] — a skill's folder structure is its context architecture — file system as progressive disclosure (2026-03-18)
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — metadata consumed by LLMs needs trigger specs, not human summaries (2026-03-18)
 - [[verification-is-a-red-queen-race]] — optimizing against a fixed eval contaminates it — verification is a permanent race (2026-03-18)

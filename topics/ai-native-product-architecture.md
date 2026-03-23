@@ -57,3 +57,4 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[harness-quality-beats-model-intelligence]] — The surrounding machinery matters more than model capability
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force practical optimization over idealized performance
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries
+- [[inference-capability-lowers-input-fidelity-requirements]] — Smart listeners make imprecise input work — input quality bars drop when the consumer infers
