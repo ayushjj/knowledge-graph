@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-18
-node_count: 112
+last_updated: 2026-03-24
+node_count: 113
 domains: [ai, mental-models]
 
 nodes:
@@ -126,7 +126,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, verification-is-a-red-queen-race]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race, adversarial-branch-walking-beats-review-for-planning]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -315,7 +315,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Ryan Carson — Ralph / Autonomous Coding Loop"
     outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness]
-    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness]
+    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness, adversarial-branch-walking-beats-review-for-planning]
 
   autopilots-capture-work-budget-not-tool-budget:
     title: "Autopilots capture the work budget — six dollars in services for every one in software"
@@ -733,7 +733,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)"
     domain: mental-models
     outgoing: [evolving-summaries-beat-append-only-memory, small-concessions-trigger-disproportionate-reciprocation]
-    incoming: [excessive-self-regard-makes-fixable-failures-persist, social-proof-makes-groups-passive-before-visible-harm, latticework-of-models-beats-isolated-facts, invert-always-invert-to-solve-hard-problems, pilot-training-model-builds-reliable-knowledge, ideology-is-among-the-most-extreme-distorters-of-cognition]
+    incoming: [excessive-self-regard-makes-fixable-failures-persist, social-proof-makes-groups-passive-before-visible-harm, latticework-of-models-beats-isolated-facts, invert-always-invert-to-solve-hard-problems, pilot-training-model-builds-reliable-knowledge, ideology-is-among-the-most-extreme-distorters-of-cognition, adversarial-branch-walking-beats-review-for-planning]
 
   small-concessions-trigger-disproportionate-reciprocation:
     title: "Small concessions trigger disproportionate reciprocation — even at the subconscious level"
@@ -832,7 +832,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)"
     domain: mental-models
     outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts, every-optimization-has-a-shadow-regression]
-    incoming: [pilot-training-model-builds-reliable-knowledge, every-optimization-has-a-shadow-regression]
+    incoming: [pilot-training-model-builds-reliable-knowledge, every-optimization-has-a-shadow-regression, adversarial-branch-walking-beats-review-for-planning]
 
   pavlovian-association-builds-durable-brand-moats:
     title: "Pavlovian association builds durable brand moats that compound for over a century"
@@ -968,3 +968,12 @@ nodes:
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
     incoming: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
+
+  adversarial-branch-walking-beats-review-for-planning:
+    title: "Adversarial branch-walking beats review for planning — walk every design branch until resolved"
+    description: "The most effective planning intervention is not post-hoc review or divergent brainstorming but convergent, exhaustive questioning that traverses each branch of the decision tree with recommended answers"
+    topics: [ai-coding-tools, decision-making]
+    source: "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)"
+    domain: ai
+    outgoing: [first-conclusions-become-nearly-permanent, invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: []

@@ -36,7 +36,7 @@
       ],
       "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
       "color": "#06b6d4",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -114,7 +114,7 @@
       ],
       "source": "Andrej Karpathy — Coding Observations",
       "color": "#6366f1",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -178,7 +178,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 21,
+      "degree": 22,
       "domain": "ai"
     },
     {
@@ -475,7 +475,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 15,
+      "degree": 16,
       "domain": "ai"
     },
     {
@@ -1004,7 +1004,7 @@
       ],
       "source": "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1108,7 +1108,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)",
       "color": "#ec4899",
-      "degree": 8,
+      "degree": 9,
       "domain": "mental-models"
     },
     {
@@ -1229,6 +1229,19 @@
       "domain": "mental-models"
     },
     {
+      "id": "inference-capability-lowers-input-fidelity-requirements",
+      "label": "Inference capability lowers input fidelity requirements — smart listeners make imprecise input work",
+      "description": "When the consumer of input has strong inference ability, the quality bar for that input drops — voice works not because transcription improved, but because the listener got smarter",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-coding-tools"
+      ],
+      "source": "@mvanhorn (Matt Van Horn) — Every Claude Code Hack I Know (March 2026)",
+      "color": "#8b5cf6",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "invert-always-invert-to-solve-hard-problems",
       "label": "Invert, always invert — many problems are best solved backward",
       "description": "Thinking in reverse is one of the most powerful problem-solving techniques: instead of asking what you want, ask what you want to avoid, then don't do that",
@@ -1238,7 +1251,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)",
       "color": "#eab308",
-      "degree": 5,
+      "degree": 6,
       "domain": "mental-models"
     },
     {
@@ -1433,6 +1446,19 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "adversarial-branch-walking-beats-review-for-planning",
+      "label": "Adversarial branch-walking beats review for planning — walk every design branch until resolved",
+      "description": "The most effective planning intervention is not post-hoc review or divergent brainstorming but convergent, exhaustive questioning that traverses each branch of the decision tree with recommended answers",
+      "topics": [
+        "ai-coding-tools",
+        "decision-making"
+      ],
+      "source": "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)",
+      "color": "#06b6d4",
       "degree": 4,
       "domain": "ai"
     }
@@ -2463,6 +2489,10 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
+      "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
+      "target": "inference-capability-lowers-input-fidelity-requirements"
+    },
+    {
       "source": "model-market-fit-before-product-market-fit",
       "target": "context-is-the-product-not-the-model"
     },
@@ -2659,6 +2689,14 @@
       "target": "incentive-caused-bias-makes-good-people-rationalize"
     },
     {
+      "source": "inference-capability-lowers-input-fidelity-requirements",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "inference-capability-lowers-input-fidelity-requirements",
+      "target": "technical-knowledge-becomes-liability"
+    },
+    {
       "source": "invert-always-invert-to-solve-hard-problems",
       "target": "first-conclusions-become-nearly-permanent"
     },
@@ -2837,6 +2875,22 @@
     {
       "source": "revealed-preferences-trump-stated-preferences",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     }
   ]
 }

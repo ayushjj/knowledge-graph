@@ -46,3 +46,4 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior that example-based tests miss
 - [[rollback-safety-nets-enable-autonomy-not-intelligence]] — Automatic rollback enables autonomous coding loops without AGI
 - [[inference-capability-lowers-input-fidelity-requirements]] — Voice/typos work because the LLM consumer infers intent from imprecise input
+- [[adversarial-branch-walking-beats-review-for-planning]] — Socratic branch-walking during planning beats post-hoc review for decision quality
