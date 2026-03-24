@@ -1537,7 +1537,7 @@
       ],
       "source": "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -3062,6 +3062,10 @@
     {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
       "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "token-spend-replaces-headcount-as-scaling-unit"
     },
     {
       "source": "token-spend-replaces-headcount-as-scaling-unit",

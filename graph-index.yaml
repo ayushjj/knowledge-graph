@@ -1029,7 +1029,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
     domain: ai
-    outgoing: [sell-the-work-not-the-tool, llms-selectively-destroy-vertical-software-moats, technology-helps-moats-kills-commodity-businesses, agents-become-the-buyer]
+    outgoing: [sell-the-work-not-the-tool, llms-selectively-destroy-vertical-software-moats, technology-helps-moats-kills-commodity-businesses, agents-become-the-buyer, token-spend-replaces-headcount-as-scaling-unit]
     incoming: [token-spend-replaces-headcount-as-scaling-unit]
 
   token-spend-replaces-headcount-as-scaling-unit:
