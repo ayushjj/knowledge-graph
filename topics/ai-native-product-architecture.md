@@ -60,3 +60,4 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[inference-capability-lowers-input-fidelity-requirements]] — Smart listeners make imprecise input work — input quality bars drop when the consumer infers
 - [[detect-everything-notify-selectively]] — Watch every signal, but filter aggressively before alerting humans
 - [[auto-generated-monitors-beat-handwritten-broad-checks]] — 1,000+ code-shaped monitors catch more than 10 hand-written broad checks
+- [[reasoning-evaporation-destroys-agent-decision-chains]] — Multi-step reasoning exists only in the context window; session close destroys it permanently

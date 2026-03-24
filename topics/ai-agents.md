@@ -71,3 +71,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[detect-everything-notify-selectively]] — Watch every signal, but filter aggressively before alerting humans
 - [[auto-generated-monitors-beat-handwritten-broad-checks]] — 1,000+ code-shaped monitors catch more than 10 hand-written broad checks
 - [[unfocused-agents-develop-path-dependency]] — Broad mandates cause agents to explore the same paths repeatedly
+- [[reasoning-evaporation-destroys-agent-decision-chains]] — Multi-step reasoning exists only in the context window; session close destroys it permanently
+- [[agent-trace-accumulation-produces-emergent-world-models]] — Accumulated agent traces form discovered world models nobody explicitly designed

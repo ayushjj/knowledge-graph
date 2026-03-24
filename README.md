@@ -16,7 +16,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ## What's in it
 
-116+ insights across 2 domains, updated weekly as I encounter new ideas:
+118+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 
@@ -87,7 +87,7 @@ These ideas belong to the people below — I'm just the curator who connected th
 **Major contributors (2+ insights):**
 
 - **Nicolas Bustamante ([@nicbstme](https://twitter.com/nicbstme))** — AI agents for financial services, agent-native architecture, API-first SaaS
-- **Rohit ([@rohit4verse](https://twitter.com/rohit4verse))** — Agent memory, knowledge transfer, tiered retrieval, embeddings
+- **Rohit ([@rohit4verse](https://twitter.com/rohit4verse))** — Agent memory, knowledge transfer, tiered retrieval, embeddings, trace architecture
 - **Anthropic Engineering** — Tool design, agent evaluation, best practices
 - **Boris Cherny** — Claude Code team, agentic search, distributed agent workflows
 - **Ashpreet Bedi ([@ashpreetbedi](https://twitter.com/ashpreetbedi))** — Spec-first development, error memory, Agno framework

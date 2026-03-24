@@ -101,7 +101,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 12,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -667,7 +667,7 @@
       ],
       "source": "shadcn (via X/Twitter) — /done skill pattern",
       "color": "#06b6d4",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -693,7 +693,7 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 18,
+      "degree": 19,
       "domain": "ai"
     },
     {
@@ -719,7 +719,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 22,
+      "degree": 23,
       "domain": "ai"
     },
     {
@@ -784,7 +784,7 @@
       ],
       "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -1497,6 +1497,32 @@
         "ai-coding-tools"
       ],
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "reasoning-evaporation-destroys-agent-decision-chains",
+      "label": "Reasoning evaporation permanently destroys agent decision chains when the context window closes",
+      "description": "An agent's multi-step reasoning exists only in the context window; when the session ends, the output survives but the decision chain — why each step was taken — is gone forever",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "agent-trace-accumulation-produces-emergent-world-models",
+      "label": "Accumulated agent traces produce emergent world models — discovered, not designed",
+      "description": "When agent decision trajectories accumulate over time, they form a context graph that reveals entities, relationships, and constraints nobody explicitly modeled",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
       "degree": 3,
       "domain": "ai"
@@ -2970,6 +2996,30 @@
     {
       "source": "unfocused-agents-develop-path-dependency",
       "target": "auto-generated-monitors-beat-handwritten-broad-checks"
+    },
+    {
+      "source": "reasoning-evaporation-destroys-agent-decision-chains",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "reasoning-evaporation-destroys-agent-decision-chains",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "reasoning-evaporation-destroys-agent-decision-chains",
+      "target": "session-capture-compounds-development-knowledge"
+    },
+    {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "compound-engineering-makes-future-work-easier"
     }
   ]
 }

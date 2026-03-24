@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-24
-node_count: 116
+node_count: 118
 domains: [ai, mental-models]
 
 nodes:
@@ -78,7 +78,7 @@ nodes:
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
     outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -442,7 +442,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "shadcn (via X/Twitter) — /done skill pattern"
     outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets, decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
-    incoming: [compound-engineering-makes-future-work-easier]
+    incoming: [compound-engineering-makes-future-work-easier, reasoning-evaporation-destroys-agent-decision-chains]
 
 
   embeddings-measure-similarity-not-truth:
@@ -459,7 +459,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Anthropic Official Best Practices + Jarrod Watts"
     outgoing: [context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, one-session-per-contract-beats-long-running-agents, prompt-caching-makes-long-context-economically-viable, treat-agent-as-operating-system-not-function]
-    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base, time-bounded-evaluation-optimizes-for-usefulness]
+    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base, time-bounded-evaluation-optimizes-for-usefulness, reasoning-evaporation-destroys-agent-decision-chains]
 
   three-layer-ai-stack-memory-search-reasoning:
     title: "The three-layer AI stack: Memory, Search, Reasoning"
@@ -476,7 +476,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -517,7 +517,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
     outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems]
-    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline]
+    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models]
 
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
@@ -1003,4 +1003,22 @@ nodes:
     source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
     domain: ai
     outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, declarative-beats-imperative-for-agents, auto-generated-monitors-beat-handwritten-broad-checks]
+    incoming: []
+
+  reasoning-evaporation-destroys-agent-decision-chains:
+    title: "Reasoning evaporation permanently destroys agent decision chains when the context window closes"
+    description: "An agent's multi-step reasoning exists only in the context window; when the session ends, the output survives but the decision chain — why each step was taken — is gone forever"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
+    domain: ai
+    outgoing: [context-window-is-the-fundamental-constraint, decision-traces-are-the-missing-data-layer, session-capture-compounds-development-knowledge]
+    incoming: []
+
+  agent-trace-accumulation-produces-emergent-world-models:
+    title: "Accumulated agent traces produce emergent world models — discovered, not designed"
+    description: "When agent decision trajectories accumulate over time, they form a context graph that reveals entities, relationships, and constraints nobody explicitly modeled"
+    topics: [ai-agents, knowledge-systems]
+    source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier]
     incoming: []
