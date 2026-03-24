@@ -321,7 +321,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -384,7 +384,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -488,7 +488,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -500,7 +500,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -563,7 +563,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API",
       "color": "#f59e0b",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -952,7 +952,7 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1199,7 +1199,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)",
       "color": "#f97316",
-      "degree": 4,
+      "degree": 5,
       "domain": "mental-models"
     },
     {
@@ -1368,7 +1368,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1525,6 +1525,32 @@
       "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
       "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "software-bimodal-fork-growth-or-margins-no-middle",
+      "label": "The comfortable middle is over — software companies must either accelerate AI growth or rebuild for 40%+ margins",
+      "description": "Growth-path companies ship AI-native products in 4-person pods with token-based pricing; margin-path companies flatten management, raise prices, and let low-value customers churn",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software",
+      "color": "#f59e0b",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "token-spend-replaces-headcount-as-scaling-unit",
+      "label": "Cap headcount, not compute — token spend per engineer replaces headcount as the scaling unit",
+      "description": "At $1,000/month per engineer as table stakes, top engineers manage 20-30 agents simultaneously; R&D scales through compute investment, not hiring",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software",
+      "color": "#f59e0b",
+      "degree": 6,
       "domain": "ai"
     }
   ],
@@ -3020,6 +3046,42 @@
     {
       "source": "agent-trace-accumulation-produces-emergent-world-models",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "technology-helps-moats-kills-commodity-businesses"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "autopilots-capture-work-budget-not-tool-budget"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "automation-amplifies-expert-demand"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "platform-economics-beat-labor-arbitrage"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "software-bimodal-fork-growth-or-margins-no-middle"
     }
   ]
 }

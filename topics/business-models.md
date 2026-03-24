@@ -33,3 +33,5 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[proprietary-feedback-loops-widen-the-moat]] — Usage creates unreplicable data that widens the competitive moat
 - [[the-80-99-gap-is-where-ai-products-die]] — Demo accuracy and production reliability are infinitely far apart
 - [[revealed-preferences-trump-stated-preferences]] — Track what users do, not what they say, for product decisions
+- [[software-bimodal-fork-growth-or-margins-no-middle]] — Comfortable middle is over; accelerate AI growth or rebuild for 40%+ margins
+- [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes

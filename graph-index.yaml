@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-24
-node_count: 118
+node_count: 120
 domains: [ai, mental-models]
 
 nodes:
@@ -217,7 +217,7 @@ nodes:
     source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
     domain: ai
     outgoing: [technology-helps-moats-kills-commodity-businesses, domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool]
-    incoming: [sell-the-work-not-the-tool]
+    incoming: [sell-the-work-not-the-tool, token-spend-replaces-headcount-as-scaling-unit]
 
   postgresql-scales-further-than-you-think:
     title: "PostgreSQL scales further than you think"
@@ -258,7 +258,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
     outgoing: [parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, social-proof-makes-groups-passive-before-visible-harm, treat-ai-like-distributed-team-not-assistant]
-    incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant, one-session-per-contract-beats-long-running-agents]
+    incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant, one-session-per-contract-beats-long-running-agents, token-spend-replaces-headcount-as-scaling-unit]
 
   outsourcing-is-the-autopilot-wedge:
     title: "Already-outsourced tasks are the autopilot wedge — vendor swap beats reorg"
@@ -324,7 +324,7 @@ nodes:
     source: "@julienbek — Services: The New Software"
     domain: ai
     outgoing: [llm-competition-fragments-markets-not-consolidates, context-is-the-product-not-the-model]
-    incoming: [agents-become-the-buyer]
+    incoming: [agents-become-the-buyer, token-spend-replaces-headcount-as-scaling-unit]
 
   automation-amplifies-expert-demand:
     title: "AI automation amplifies demand for expert human judgment rather than replacing it"
@@ -333,7 +333,7 @@ nodes:
     source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
     domain: ai
     outgoing: [intelligence-judgement-ratio-determines-automation-order, tribal-knowledge-is-the-last-mile-for-agent-automation]
-    incoming: [intelligence-judgement-ratio-determines-automation-order]
+    incoming: [intelligence-judgement-ratio-determines-automation-order, token-spend-replaces-headcount-as-scaling-unit]
 
   technology-transitions-create-more-not-less:
     title: "Technology transitions create more of the 'dying' thing, not less"
@@ -375,7 +375,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API"
     outgoing: [webmcp-turns-websites-into-agent-native-interfaces, ui-moat-collapses-api-becomes-purchasing-criterion, agent-trust-transfers-from-human-credibility, llms-complete-aggregation-theory-by-collapsing-interface-layer, autopilots-capture-work-budget-not-tool-budget]
-    incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, webmcp-turns-websites-into-agent-native-interfaces, agent-trust-transfers-from-human-credibility, rigid-schemas-exist-because-rigid-apps-demand-them]
+    incoming: [ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, webmcp-turns-websites-into-agent-native-interfaces, agent-trust-transfers-from-human-credibility, rigid-schemas-exist-because-rigid-apps-demand-them, software-bimodal-fork-growth-or-margins-no-middle]
 
   treat-ai-like-distributed-team-not-assistant:
     title: "Treat AI like a distributed team, not a single assistant"
@@ -629,7 +629,7 @@ nodes:
     source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
     domain: ai
     outgoing: [skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool]
-    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer, sell-the-work-not-the-tool, commodity-terminal-value-zero-expert-judgment-compounds]
+    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer, sell-the-work-not-the-tool, commodity-terminal-value-zero-expert-judgment-compounds, software-bimodal-fork-growth-or-margins-no-middle]
 
   llm-competition-fragments-markets-not-consolidates:
     title: "LLM competition fragments markets from 3 incumbents to 300"
@@ -796,7 +796,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)"
     domain: mental-models
     outgoing: [technology-transitions-create-more-not-less, scale-advantages-cascade-until-bureaucracy-kills-them]
-    incoming: [pavlovian-association-builds-durable-brand-moats, platform-economics-beat-labor-arbitrage]
+    incoming: [pavlovian-association-builds-durable-brand-moats, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle]
 
   circle-of-competence-determines-where-you-can-win:
     title: "Circle of competence determines where you can win"
@@ -913,7 +913,7 @@ nodes:
     source: "@julienbek — Services: The New Software"
     domain: ai
     outgoing: [llms-selectively-destroy-vertical-software-moats, frontier-companies-absorb-every-useful-agentic-pattern, domain-skill-libraries-are-the-real-agent-moat, platform-economics-beat-labor-arbitrage]
-    incoming: [llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage]
+    incoming: [llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle]
 
   observability-is-the-missing-agent-discipline:
     title: "Observability is the missing discipline for agent systems — you can't improve what you can't measure"
@@ -1022,3 +1022,21 @@ nodes:
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier]
     incoming: []
+
+  software-bimodal-fork-growth-or-margins-no-middle:
+    title: "The comfortable middle is over — software companies must either accelerate AI growth or rebuild for 40%+ margins"
+    description: "Growth-path companies ship AI-native products in 4-person pods with token-based pricing; margin-path companies flatten management, raise prices, and let low-value customers churn"
+    topics: [future-of-ai-business, business-models]
+    source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
+    domain: ai
+    outgoing: [sell-the-work-not-the-tool, llms-selectively-destroy-vertical-software-moats, technology-helps-moats-kills-commodity-businesses, agents-become-the-buyer]
+    incoming: [token-spend-replaces-headcount-as-scaling-unit]
+
+  token-spend-replaces-headcount-as-scaling-unit:
+    title: "Cap headcount, not compute — token spend per engineer replaces headcount as the scaling unit"
+    description: "At $1,000/month per engineer as table stakes, top engineers manage 20-30 agents simultaneously; R&D scales through compute investment, not hiring"
+    topics: [future-of-ai-business, business-models]
+    source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
+    domain: ai
+    outgoing: [autopilots-capture-work-budget-not-tool-budget, orchestrator-agent-replaces-human-coordination, automation-amplifies-expert-demand, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle]
+    incoming: [software-bimodal-fork-growth-or-margins-no-middle]

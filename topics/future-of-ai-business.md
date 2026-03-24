@@ -47,3 +47,5 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[platform-economics-beat-labor-arbitrage]] — Platform margins fund flywheels that BPO body shops cannot
 - [[proprietary-feedback-loops-widen-the-moat]] — Usage creates unreplicable data that widens the competitive moat
 - [[the-80-99-gap-is-where-ai-products-die]] — Demo accuracy and production reliability are infinitely far apart
+- [[software-bimodal-fork-growth-or-margins-no-middle]] — Comfortable middle is over; accelerate AI growth or rebuild for 40%+ margins
+- [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes
