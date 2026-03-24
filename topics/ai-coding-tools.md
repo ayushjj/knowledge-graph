@@ -47,3 +47,4 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[rollback-safety-nets-enable-autonomy-not-intelligence]] — Automatic rollback enables autonomous coding loops without AGI
 - [[inference-capability-lowers-input-fidelity-requirements]] — Voice/typos work because the LLM consumer infers intent from imprecise input
 - [[adversarial-branch-walking-beats-review-for-planning]] — Socratic branch-walking during planning beats post-hoc review for decision quality
+- [[unfocused-agents-develop-path-dependency]] — Broad mandates cause agents to explore the same paths repeatedly

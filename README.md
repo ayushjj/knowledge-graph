@@ -16,7 +16,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ## What's in it
 
-113+ insights across 2 domains, updated weekly as I encounter new ideas:
+116+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 

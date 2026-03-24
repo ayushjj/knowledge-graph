@@ -114,7 +114,7 @@
       ],
       "source": "Andrej Karpathy — Coding Observations",
       "color": "#6366f1",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -178,7 +178,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 22,
+      "degree": 23,
       "domain": "ai"
     },
     {
@@ -475,7 +475,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 16,
+      "degree": 17,
       "domain": "ai"
     },
     {
@@ -602,7 +602,7 @@
       ],
       "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -758,7 +758,7 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1043,7 +1043,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -1381,7 +1381,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1394,7 +1394,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1460,6 +1460,45 @@
       "source": "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)",
       "color": "#06b6d4",
       "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "detect-everything-notify-selectively",
+      "label": "Detect everything, notify selectively — the observability-to-notification ratio determines system trust",
+      "description": "Watch every signal but ensure alerts reaching humans always mean something; teams ignore noisy monitors AND noisy agents equally fast",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "auto-generated-monitors-beat-handwritten-broad-checks",
+      "label": "Auto-generated narrow monitors beat handwritten broad checks — a tight mesh over the exact shape of the code",
+      "description": "1,000+ AI-generated monitors that each target specific code paths catch more bugs than 10 hand-written checks that cover general categories",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "unfocused-agents-develop-path-dependency",
+      "label": "Unfocused agents develop path dependency — without a specific mission, they explore the same paths repeatedly",
+      "description": "Agents given broad mandates converge on familiar exploration paths, catching high-radius issues but missing narrow situational problems",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
+      "color": "#6366f1",
+      "degree": 3,
       "domain": "ai"
     }
   ],
@@ -2891,6 +2930,46 @@
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "detect-everything-notify-selectively",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "detect-everything-notify-selectively",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "detect-everything-notify-selectively",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "auto-generated-monitors-beat-handwritten-broad-checks",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "auto-generated-monitors-beat-handwritten-broad-checks",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "auto-generated-monitors-beat-handwritten-broad-checks",
+      "target": "property-based-testing-explores-agent-input-spaces"
+    },
+    {
+      "source": "auto-generated-monitors-beat-handwritten-broad-checks",
+      "target": "detect-everything-notify-selectively"
+    },
+    {
+      "source": "unfocused-agents-develop-path-dependency",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "unfocused-agents-develop-path-dependency",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "unfocused-agents-develop-path-dependency",
+      "target": "auto-generated-monitors-beat-handwritten-broad-checks"
     }
   ]
 }

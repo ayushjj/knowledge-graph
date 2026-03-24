@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-24
-node_count: 113
+node_count: 116
 domains: [ai, mental-models]
 
 nodes:
@@ -86,7 +86,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Andrej Karpathy — Coding Observations"
     outgoing: [features-are-prompts-not-code, technical-knowledge-becomes-liability]
-    incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier, harness-engineers-need-docs-as-first-class-output, harness-quality-beats-model-intelligence, inference-capability-lowers-input-fidelity-requirements]
+    incoming: [technical-knowledge-becomes-liability, features-are-prompts-not-code, verification-multiplies-agent-output-quality, context-window-is-the-fundamental-constraint, production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems, compound-engineering-makes-future-work-easier, harness-engineers-need-docs-as-first-class-output, harness-quality-beats-model-intelligence, inference-capability-lowers-input-fidelity-requirements, unfocused-agents-develop-path-dependency]
 
   ui-moat-collapses-api-becomes-purchasing-criterion:
     title: "The UI moat collapses — API quality becomes the purchasing criterion"
@@ -126,7 +126,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, verification-is-a-red-queen-race]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race, adversarial-branch-walking-beats-review-for-planning]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race, adversarial-branch-walking-beats-review-for-planning, auto-generated-monitors-beat-handwritten-broad-checks]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -315,7 +315,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Ryan Carson — Ralph / Autonomous Coding Loop"
     outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness]
-    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness, adversarial-branch-walking-beats-review-for-planning]
+    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness, adversarial-branch-walking-beats-review-for-planning, unfocused-agents-develop-path-dependency]
 
   autopilots-capture-work-budget-not-tool-budget:
     title: "Autopilots capture the work budget — six dollars in services for every one in software"
@@ -400,7 +400,7 @@ nodes:
     source: "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)"
     domain: ai
     outgoing: [invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
-    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race]
+    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race, auto-generated-monitors-beat-handwritten-broad-checks]
 
   treat-agent-as-operating-system-not-function:
     title: "Treat an agent as an operating system, not a stateless function"
@@ -501,7 +501,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@vasuman — AI Agents 101"
     outgoing: [declarative-beats-imperative-for-agents, verification-multiplies-agent-output-quality, context-is-the-product-not-the-model]
-    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals, safety-enforcement-belongs-in-tool-design-not-prompts, intelligence-judgement-ratio-determines-automation-order]
+    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals, safety-enforcement-belongs-in-tool-design-not-prompts, intelligence-judgement-ratio-determines-automation-order, detect-everything-notify-selectively]
 
   malleable-software-writes-its-own-extensions:
     title: "Malleable software — a tiny core that writes its own plugins — replaces fixed-feature applications"
@@ -689,7 +689,7 @@ nodes:
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback]
-    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -922,7 +922,7 @@ nodes:
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining, trust-boundaries-must-be-mapped-and-externalized]
-    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized]
+    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized, detect-everything-notify-selectively]
 
   property-based-testing-explores-agent-input-spaces:
     title: "Property-based testing explores agent input spaces that example-based tests miss"
@@ -931,7 +931,7 @@ nodes:
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, evaluate-tools-with-real-multi-step-tasks, autonomous-loops-need-small-stories-and-fast-feedback]
-    incoming: [verification-multiplies-agent-output-quality]
+    incoming: [verification-multiplies-agent-output-quality, auto-generated-monitors-beat-handwritten-broad-checks]
 
   proprietary-feedback-loops-widen-the-moat:
     title: "Proprietary feedback loops create moats that widen with every interaction"
@@ -976,4 +976,31 @@ nodes:
     source: "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)"
     domain: ai
     outgoing: [first-conclusions-become-nearly-permanent, invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: []
+
+  detect-everything-notify-selectively:
+    title: "Detect everything, notify selectively — the observability-to-notification ratio determines system trust"
+    description: "Watch every signal but ensure alerts reaching humans always mean something; teams ignore noisy monitors AND noisy agents equally fast"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
+    domain: ai
+    outgoing: [observability-is-the-missing-agent-discipline, production-agents-route-decisions-not-every-call-to-llm, harness-quality-beats-model-intelligence]
+    incoming: [auto-generated-monitors-beat-handwritten-broad-checks]
+
+  auto-generated-monitors-beat-handwritten-broad-checks:
+    title: "Auto-generated narrow monitors beat handwritten broad checks — a tight mesh over the exact shape of the code"
+    description: "1,000+ AI-generated monitors that each target specific code paths catch more bugs than 10 hand-written checks that cover general categories"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
+    domain: ai
+    outgoing: [verification-multiplies-agent-output-quality, every-optimization-has-a-shadow-regression, property-based-testing-explores-agent-input-spaces, detect-everything-notify-selectively]
+    incoming: [unfocused-agents-develop-path-dependency]
+
+  unfocused-agents-develop-path-dependency:
+    title: "Unfocused agents develop path dependency — without a specific mission, they explore the same paths repeatedly"
+    description: "Agents given broad mandates converge on familiar exploration paths, catching high-radius issues but missing narrow situational problems"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
+    domain: ai
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, declarative-beats-imperative-for-agents, auto-generated-monitors-beat-handwritten-broad-checks]
     incoming: []

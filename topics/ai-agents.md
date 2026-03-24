@@ -68,3 +68,6 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[every-optimization-has-a-shadow-regression]] — Guard commands catch silent regressions in dimensions you're not optimizing
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force optimization for real-world throughput
 - [[skill-folder-structure-is-context-engineering]] — A skill's folder structure is its context architecture — file system as progressive disclosure
+- [[detect-everything-notify-selectively]] — Watch every signal, but filter aggressively before alerting humans
+- [[auto-generated-monitors-beat-handwritten-broad-checks]] — 1,000+ code-shaped monitors catch more than 10 hand-written broad checks
+- [[unfocused-agents-develop-path-dependency]] — Broad mandates cause agents to explore the same paths repeatedly
