@@ -24,3 +24,4 @@ People overrate their own possessions, decisions, and performance. This isn't oc
 - [[circle-of-competence-determines-where-you-can-win]] — Self-assessment is biased; knowing what you don't know is the dawning of wisdom
 - [[pavlovian-association-builds-durable-brand-moats]] — Classical conditioning creates durable brand associations at subconscious level
 - [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — Heavy ideology warps cognition even in geniuses like Chomsky
+- [[non-attached-action-enables-clearer-course-correction]] — Non-attachment as structural defense against Inconsistency-Avoidance and Excessive Self-Regard

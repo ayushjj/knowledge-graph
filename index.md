@@ -24,15 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[negative-maintenance-reduces-future-work-for-everyone]] — rarest team archetype: people who actively reduce future work for others (2026-03-25)
+- [[non-attached-action-enables-clearer-course-correction]] — detach from outcomes to see reality and change course without ego (2026-03-25)
+- [[ask-for-no-not-yes-to-accelerate-decisions]] — default-proceed framing accelerates organizational decisions (2026-03-25)
+- [[resolve-ambiguity-before-passing-it-downstream]] — don't forward confusion — resolve it at the point of origin (2026-03-25)
 - [[inference-capability-lowers-input-fidelity-requirements]] — smart listeners make imprecise input work — input fidelity drops when the consumer infers (2026-03-23)
 - [[skill-folder-structure-is-context-engineering]] — a skill's folder structure is its context architecture — file system as progressive disclosure (2026-03-18)
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — metadata consumed by LLMs needs trigger specs, not human summaries (2026-03-18)
 - [[verification-is-a-red-queen-race]] — optimizing against a fixed eval contaminates it — verification is a permanent race (2026-03-18)
 - [[stronger-models-expand-the-verification-gap]] — more capability means more deployment surface, harder verification (2026-03-18)
 - [[trust-boundaries-must-be-mapped-and-externalized]] — where agent behavior is understood vs. unknown must be made auditable (2026-03-18)
-- [[harness-quality-beats-model-intelligence]] — a mediocre agent inside a strong harness outperforms a stronger agent in a messy one (2026-03-17)
-- [[rollback-safety-nets-enable-autonomy-not-intelligence]] — cheap rollback makes aggressive autonomous exploration safe (2026-03-17)
-- [[every-optimization-has-a-shadow-regression]] — guard commands catch silent regressions in unmonitored dimensions (2026-03-17)
-- [[time-bounded-evaluation-optimizes-for-usefulness]] — fixed time budgets force optimization for real-world throughput (2026-03-17)
-- [[observability-is-the-missing-agent-discipline]] — agent systems need telemetry as a first-class engineering concern (2026-03-16)
-- [[property-based-testing-explores-agent-input-spaces]] — generative tests explore agent behavior that example-based tests miss (2026-03-16)

@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-24
-node_count: 120
+last_updated: 2026-03-25
+node_count: 124
 domains: [ai, mental-models]
 
 nodes:
@@ -227,6 +227,15 @@ nodes:
     outgoing: [boring-tech-wins-for-ai-native-startups, three-layer-ai-stack-memory-search-reasoning]
     incoming: [hybrid-search-is-the-default-not-the-exception, three-layer-ai-stack-memory-search-reasoning]
 
+  resolve-ambiguity-before-passing-it-downstream:
+    title: "Resolve ambiguity before passing it downstream — don't forward confusion"
+    description: "Ambiguity compounds as it flows through an organization; resolve it at the point of origin rather than propagating it"
+    topics: [engineering, decision-making]
+    source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
+    domain: mental-models
+    outgoing: [systems-that-prevent-bad-behavior-beat-moral-appeals]
+    incoming: [systems-that-prevent-bad-behavior-beat-moral-appeals]
+
   response-ux-should-match-retrieval-intelligence:
     title: "Response UX should match retrieval intelligence"
     description: "If your system uses semantic search to find results, the display should reflect that intelligence — keyword highlighting on semantic results creates a confusing mismatch"
@@ -352,6 +361,24 @@ nodes:
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, three-layer-ai-stack-memory-search-reasoning, postgresql-scales-further-than-you-think, response-ux-should-match-retrieval-intelligence]
     incoming: [three-layer-ai-stack-memory-search-reasoning]
 
+  negative-maintenance-reduces-future-work-for-everyone:
+    title: "Negative maintenance teammates reduce future work for everyone around them"
+    description: "The rarest team archetype: people who actively make life easier for others by solving problems upstream before they propagate"
+    topics: [engineering, decision-making]
+    source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
+    domain: mental-models
+    outgoing: [systems-that-prevent-bad-behavior-beat-moral-appeals, compound-engineering-makes-future-work-easier]
+    incoming: [compound-engineering-makes-future-work-easier]
+
+  non-attached-action-enables-clearer-course-correction:
+    title: "Non-attached action enables clearer course correction — detach from outcomes to see reality"
+    description: "Acting without attachment to being right or to a specific outcome lets you see when something isn't working and change course without ego friction"
+    topics: [decision-making, psychology]
+    source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
+    domain: mental-models
+    outgoing: [first-conclusions-become-nearly-permanent, excessive-self-regard-makes-fixable-failures-persist]
+    incoming: [first-conclusions-become-nearly-permanent]
+
   multi-model-ensemble-catches-single-model-blindspots:
     title: "Multi-model code review creates adversarial robustness — each model catches what others miss"
     description: "Using 3 different LLMs to review the same PR exploits the fact that models have different failure modes, creating emergent coverage no single model achieves"
@@ -368,6 +395,15 @@ nodes:
     source: "@danshipper — Personal Software and AI Agents"
     outgoing: [agents-become-the-buyer, saas-survives-as-governance-and-coordination-layer, agent-memory-preserves-institutional-knowledge]
     incoming: [agents-become-the-buyer]
+
+  ask-for-no-not-yes-to-accelerate-decisions:
+    title: "Ask for 'no' not 'yes' — default-proceed framing accelerates organizational decisions"
+    description: "Framing proposals as 'I will do X unless you object' rather than 'Can I do X?' shifts the decision burden, maintains momentum, and shows ownership"
+    topics: [decision-making, engineering]
+    source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
+    domain: mental-models
+    outgoing: [invert-always-invert-to-solve-hard-problems]
+    incoming: [invert-always-invert-to-solve-hard-problems]
 
   agents-become-the-buyer:
     title: "B2B becomes B2A — agents become the buyer"
@@ -475,8 +511,8 @@ nodes:
     description: "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learning compounds across iterations, not just code"
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
-    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models]
+    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, negative-maintenance-reduces-future-work-for-everyone]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models, negative-maintenance-reduces-future-work-for-everyone]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -723,8 +759,8 @@ nodes:
     topics: [psychology, engineering]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)"
     domain: mental-models
-    outgoing: [incentive-caused-bias-makes-good-people-rationalize, pilot-training-model-builds-reliable-knowledge, production-agents-route-decisions-not-every-call-to-llm]
-    incoming: [incentive-caused-bias-makes-good-people-rationalize, small-concessions-trigger-disproportionate-reciprocation, confluence-of-tendencies-produces-extreme-outcomes, social-proof-makes-groups-passive-before-visible-harm, scale-advantages-cascade-until-bureaucracy-kills-them]
+    outgoing: [incentive-caused-bias-makes-good-people-rationalize, pilot-training-model-builds-reliable-knowledge, production-agents-route-decisions-not-every-call-to-llm, resolve-ambiguity-before-passing-it-downstream]
+    incoming: [incentive-caused-bias-makes-good-people-rationalize, small-concessions-trigger-disproportionate-reciprocation, confluence-of-tendencies-produces-extreme-outcomes, social-proof-makes-groups-passive-before-visible-harm, scale-advantages-cascade-until-bureaucracy-kills-them, negative-maintenance-reduces-future-work-for-everyone, resolve-ambiguity-before-passing-it-downstream]
 
   first-conclusions-become-nearly-permanent:
     title: "First conclusions become nearly permanent — the brain resists its own updates"
@@ -732,8 +768,8 @@ nodes:
     topics: [psychology, decision-making]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)"
     domain: mental-models
-    outgoing: [evolving-summaries-beat-append-only-memory, small-concessions-trigger-disproportionate-reciprocation]
-    incoming: [excessive-self-regard-makes-fixable-failures-persist, social-proof-makes-groups-passive-before-visible-harm, latticework-of-models-beats-isolated-facts, invert-always-invert-to-solve-hard-problems, pilot-training-model-builds-reliable-knowledge, ideology-is-among-the-most-extreme-distorters-of-cognition, adversarial-branch-walking-beats-review-for-planning]
+    outgoing: [evolving-summaries-beat-append-only-memory, small-concessions-trigger-disproportionate-reciprocation, non-attached-action-enables-clearer-course-correction]
+    incoming: [excessive-self-regard-makes-fixable-failures-persist, social-proof-makes-groups-passive-before-visible-harm, latticework-of-models-beats-isolated-facts, invert-always-invert-to-solve-hard-problems, pilot-training-model-builds-reliable-knowledge, ideology-is-among-the-most-extreme-distorters-of-cognition, adversarial-branch-walking-beats-review-for-planning, non-attached-action-enables-clearer-course-correction]
 
   small-concessions-trigger-disproportionate-reciprocation:
     title: "Small concessions trigger disproportionate reciprocation — even at the subconscious level"
@@ -769,7 +805,7 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)"
     domain: mental-models
     outgoing: [ideology-is-among-the-most-extreme-distorters-of-cognition, verification-multiplies-agent-output-quality, first-conclusions-become-nearly-permanent]
-    incoming: [incentive-caused-bias-makes-good-people-rationalize, circle-of-competence-determines-where-you-can-win]
+    incoming: [incentive-caused-bias-makes-good-people-rationalize, circle-of-competence-determines-where-you-can-win, non-attached-action-enables-clearer-course-correction]
 
   latticework-of-models-beats-isolated-facts:
     title: "A latticework of mental models beats isolated facts for real understanding"
@@ -831,8 +867,8 @@ nodes:
     topics: [decision-making, mathematics]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)"
     domain: mental-models
-    outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts, every-optimization-has-a-shadow-regression]
-    incoming: [pilot-training-model-builds-reliable-knowledge, every-optimization-has-a-shadow-regression, adversarial-branch-walking-beats-review-for-planning]
+    outgoing: [first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts, every-optimization-has-a-shadow-regression, ask-for-no-not-yes-to-accelerate-decisions]
+    incoming: [pilot-training-model-builds-reliable-knowledge, every-optimization-has-a-shadow-regression, adversarial-branch-walking-beats-review-for-planning, ask-for-no-not-yes-to-accelerate-decisions]
 
   pavlovian-association-builds-durable-brand-moats:
     title: "Pavlovian association builds durable brand moats that compound for over a century"

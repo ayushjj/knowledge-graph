@@ -25,3 +25,7 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — Heavy ideology locks the brain into dysfunctional patterns
 - [[every-optimization-has-a-shadow-regression]] — Inversion applied to optimization: always ask what's getting worse
 - [[adversarial-branch-walking-beats-review-for-planning]] — Convergent + exhaustive questioning that walks every design branch before commitment
+- [[negative-maintenance-reduces-future-work-for-everyone]] — Invest in reducing future work rather than just doing current work well
+- [[non-attached-action-enables-clearer-course-correction]] — Detach from outcomes to see reality and change course without ego friction
+- [[ask-for-no-not-yes-to-accelerate-decisions]] — Default-proceed framing maintains momentum while preserving oversight
+- [[resolve-ambiguity-before-passing-it-downstream]] — Don't forward confusion — resolve it at the point of origin
