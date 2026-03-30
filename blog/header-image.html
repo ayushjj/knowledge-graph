@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #333; }
+  .canvas {
+    width: 1200px;
+    height: 630px;
+    background: #faf9f6;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Georgia', serif;
+  }
+
+  /* Scattered fragments on the left */
+  .fragment {
+    position: absolute;
+    border-radius: 4px;
+    opacity: 0.6;
+    transform: rotate(var(--rot));
+  }
+  .f1  { width: 48px; height: 48px; background: #1a6b4a30; top: 60px;  left: 40px;  --rot: 15deg; }
+  .f2  { width: 36px; height: 56px; background: #c9a96e40; top: 140px; left: 90px;  --rot: -22deg; }
+  .f3  { width: 52px; height: 40px; background: #1a6b4a25; top: 45px;  left: 160px; --rot: 8deg; }
+  .f4  { width: 44px; height: 44px; background: #c9a96e35; top: 200px; left: 30px;  --rot: -35deg; }
+  .f5  { width: 38px; height: 50px; background: #1a6b4a20; top: 280px; left: 100px; --rot: 42deg; }
+  .f6  { width: 50px; height: 36px; background: #c9a96e30; top: 170px; left: 180px; --rot: -12deg; }
+  .f7  { width: 42px; height: 42px; background: #1a6b4a35; top: 350px; left: 55px;  --rot: 28deg; }
+  .f8  { width: 34px; height: 48px; background: #c9a96e25; top: 320px; left: 170px; --rot: -45deg; }
+  .f9  { width: 46px; height: 38px; background: #1a6b4a30; top: 420px; left: 40px;  --rot: 18deg; }
+  .f10 { width: 40px; height: 52px; background: #c9a96e35; top: 400px; left: 140px; --rot: -8deg; }
+  .f11 { width: 50px; height: 42px; background: #1a6b4a20; top: 500px; left: 80px;  --rot: 33deg; }
+  .f12 { width: 36px; height: 36px; background: #c9a96e30; top: 480px; left: 185px; --rot: -28deg; }
+  .f13 { width: 44px; height: 50px; background: #1a6b4a25; top: 540px; left: 30px;  --rot: 12deg; }
+  .f14 { width: 48px; height: 40px; background: #c9a96e20; top: 100px; left: 220px; --rot: -38deg; }
+  .f15 { width: 38px; height: 46px; background: #1a6b4a30; top: 250px; left: 210px; --rot: 25deg; }
+
+  /* Transition zone — fragments aligning */
+  .t1 { width: 48px; height: 48px; background: #1a6b4a40; top: 80px;  left: 320px; --rot: 6deg; border-radius: 3px; }
+  .t2 { width: 48px; height: 48px; background: #c9a96e45; top: 160px; left: 350px; --rot: -3deg; border-radius: 3px; }
+  .t3 { width: 48px; height: 48px; background: #1a6b4a35; top: 240px; left: 310px; --rot: 4deg; border-radius: 3px; }
+  .t4 { width: 48px; height: 48px; background: #c9a96e40; top: 320px; left: 340px; --rot: -2deg; border-radius: 3px; }
+  .t5 { width: 48px; height: 48px; background: #1a6b4a30; top: 400px; left: 325px; --rot: 3deg; border-radius: 3px; }
+  .t6 { width: 48px; height: 48px; background: #c9a96e35; top: 480px; left: 355px; --rot: -1deg; border-radius: 3px; }
+
+  /* Structured lattice on the right */
+  .lattice {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: grid;
+    grid-template-columns: repeat(5, 56px);
+    grid-template-rows: repeat(5, 56px);
+    gap: 12px;
+  }
+  .cell {
+    border-radius: 4px;
+    position: relative;
+  }
+  .cell::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+  }
+
+  /* 5 shelf colors */
+  .c-kitchen   { background: #1a6b4a; }
+  .c-track     { background: #2d8a6a; }
+  .c-team      { background: #c9a96e; }
+  .c-store     { background: #a08040; }
+  .c-snowball  { background: #1a6b4a; opacity: 0.7; }
+
+  .c-kitchen-l  { background: #1a6b4a40; }
+  .c-track-l    { background: #2d8a6a40; }
+  .c-team-l     { background: #c9a96e50; }
+  .c-store-l    { background: #a0804040; }
+  .c-snowball-l { background: #1a6b4a30; }
+
+  /* Connection lines */
+  .connections {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 348px;
+    height: 348px;
+  }
+  .connections svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Gradient fade from chaos to order */
+  .gradient-overlay {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(to right, #faf9f600, #faf9f6);
+    z-index: 1;
+  }
+
+  /* Arrow suggestion */
+  .flow-arrow {
+    position: absolute;
+    top: 50%;
+    left: 440px;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  .flow-arrow svg {
+    width: 80px;
+    height: 40px;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <!-- Scattered fragments (left) -->
+  <div class="fragment f1"></div>
+  <div class="fragment f2"></div>
+  <div class="fragment f3"></div>
+  <div class="fragment f4"></div>
+  <div class="fragment f5"></div>
+  <div class="fragment f6"></div>
+  <div class="fragment f7"></div>
+  <div class="fragment f8"></div>
+  <div class="fragment f9"></div>
+  <div class="fragment f10"></div>
+  <div class="fragment f11"></div>
+  <div class="fragment f12"></div>
+  <div class="fragment f13"></div>
+  <div class="fragment f14"></div>
+  <div class="fragment f15"></div>
+
+  <!-- Transition zone -->
+  <div class="fragment t1"></div>
+  <div class="fragment t2"></div>
+  <div class="fragment t3"></div>
+  <div class="fragment t4"></div>
+  <div class="fragment t5"></div>
+  <div class="fragment t6"></div>
+
+  <!-- Gradient fade -->
+  <div class="gradient-overlay"></div>
+
+  <!-- Flow arrow -->
+  <div class="flow-arrow">
+    <svg viewBox="0 0 80 40">
+      <path d="M 0 20 L 60 20 M 50 10 L 65 20 L 50 30" fill="none" stroke="#1a6b4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+    </svg>
+  </div>
+
+  <!-- Connection lines behind lattice -->
+  <div class="connections">
+    <svg viewBox="0 0 348 348">
+      <!-- Horizontal connections -->
+      <line x1="56" y1="28" x2="68" y2="28" stroke="#1a6b4a" stroke-width="1.5" opacity="0.15"/>
+      <line x1="124" y1="28" x2="136" y2="28" stroke="#1a6b4a" stroke-width="1.5" opacity="0.15"/>
+      <line x1="192" y1="28" x2="204" y2="28" stroke="#1a6b4a" stroke-width="1.5" opacity="0.15"/>
+      <line x1="260" y1="28" x2="272" y2="28" stroke="#1a6b4a" stroke-width="1.5" opacity="0.15"/>
+      <line x1="56" y1="96" x2="68" y2="96" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <line x1="124" y1="96" x2="136" y2="96" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <line x1="192" y1="96" x2="204" y2="96" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <line x1="260" y1="96" x2="272" y2="96" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <!-- Vertical connections -->
+      <line x1="28" y1="56" x2="28" y2="68" stroke="#1a6b4a" stroke-width="1.5" opacity="0.15"/>
+      <line x1="96" y1="56" x2="96" y2="68" stroke="#1a6b4a" stroke-width="1.5" opacity="0.15"/>
+      <line x1="164" y1="56" x2="164" y2="68" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <line x1="28" y1="124" x2="28" y2="136" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <line x1="96" y1="124" x2="96" y2="136" stroke="#c9a96e" stroke-width="1.5" opacity="0.15"/>
+      <!-- Diagonal connections (cross-domain bridges) -->
+      <line x1="56" y1="56" x2="68" y2="68" stroke="#1a6b4a" stroke-width="1" opacity="0.1"/>
+      <line x1="124" y1="124" x2="136" y2="136" stroke="#c9a96e" stroke-width="1" opacity="0.1"/>
+      <line x1="192" y1="56" x2="204" y2="68" stroke="#1a6b4a" stroke-width="1" opacity="0.1"/>
+    </svg>
+  </div>
+
+  <!-- Structured lattice (right) -->
+  <div class="lattice">
+    <div class="cell c-kitchen"></div>
+    <div class="cell c-kitchen-l"></div>
+    <div class="cell c-track"></div>
+    <div class="cell c-track-l"></div>
+    <div class="cell c-kitchen-l"></div>
+
+    <div class="cell c-kitchen-l"></div>
+    <div class="cell c-team"></div>
+    <div class="cell c-team-l"></div>
+    <div class="cell c-kitchen"></div>
+    <div class="cell c-track-l"></div>
+
+    <div class="cell c-track"></div>
+    <div class="cell c-team-l"></div>
+    <div class="cell c-store"></div>
+    <div class="cell c-team-l"></div>
+    <div class="cell c-snowball"></div>
+
+    <div class="cell c-store-l"></div>
+    <div class="cell c-kitchen-l"></div>
+    <div class="cell c-team"></div>
+    <div class="cell c-snowball-l"></div>
+    <div class="cell c-store-l"></div>
+
+    <div class="cell c-snowball-l"></div>
+    <div class="cell c-store"></div>
+    <div class="cell c-snowball-l"></div>
+    <div class="cell c-kitchen-l"></div>
+    <div class="cell c-track"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The More I Read About AI, the Less I Could See the Big Picture</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lora', Georgia, serif;
+            background: #faf9f6;
+            color: #1a1a1a;
+            line-height: 1.8;
+            font-size: 19px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header-bar {
+            background: #1a1a1a;
+            padding: 14px 0;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #999;
+        }
+
+        .header-bar a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        article {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px 120px;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            color: #111;
+            letter-spacing: -0.5px;
+        }
+
+        .byline {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e0ddd8;
+        }
+
+        .byline strong {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 56px;
+            margin-bottom: 24px;
+            color: #111;
+            letter-spacing: -0.3px;
+        }
+
+        h3 {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: #222;
+        }
+
+        a {
+            color: #1a6b4a;
+            text-decoration: underline;
+            text-decoration-color: #1a6b4a40;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            text-decoration-color: #1a6b4a;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        blockquote {
+            border-left: 3px solid #1a6b4a;
+            padding: 4px 0 4px 24px;
+            margin: 32px 0;
+            font-style: italic;
+            color: #444;
+        }
+
+        .table-wrapper {
+            margin: 28px 0;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        thead {
+            background: #f0eeea;
+        }
+
+        th {
+            text-align: left;
+            padding: 12px 16px;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #555;
+            border-bottom: 2px solid #d4d0c8;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #e8e5e0;
+            vertical-align: top;
+        }
+
+        td:first-child {
+            font-weight: 600;
+            color: #1a6b4a;
+            white-space: nowrap;
+            width: 160px;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .term-list {
+            margin: 28px 0;
+            padding: 24px 28px;
+            background: #f8f7f4;
+            border-radius: 8px;
+            border-left: 3px solid #1a6b4a;
+        }
+
+        .term-list p {
+            margin-bottom: 16px;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .term-list p:last-child {
+            margin-bottom: 0;
+        }
+
+        .term-list strong {
+            color: #1a6b4a;
+            font-weight: 700;
+        }
+
+        .shelf-label {
+            font-family: 'Inter', sans-serif;
+            display: inline-block;
+            background: #1a6b4a;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .munger-bridge {
+            background: #f5f3ef;
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin: 24px 0;
+            font-size: 17px;
+            border-left: 3px solid #c9a96e;
+        }
+
+        .munger-bridge .label {
+            font-family: 'Inter', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #a08040;
+            margin-bottom: 8px;
+        }
+
+        .pull-quote {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.4;
+            color: #1a6b4a;
+            margin: 40px 0;
+            padding: 0 8px;
+            text-align: center;
+        }
+
+        ol {
+            margin: 24px 0;
+            padding-left: 24px;
+        }
+
+        ol li {
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+
+        .section-divider {
+            text-align: center;
+            margin: 48px 0;
+            color: #ccc;
+            font-size: 24px;
+            letter-spacing: 12px;
+        }
+
+        .closing {
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid #e0ddd8;
+            color: #111;
+        }
+
+        .cta-box {
+            background: #f0eeea;
+            border-radius: 8px;
+            padding: 28px 32px;
+            margin: 40px 0;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .cta-box a {
+            display: inline-block;
+            margin-top: 12px;
+            background: #1a6b4a;
+            color: white;
+            padding: 10px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .cta-box a:hover {
+            background: #155a3e;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 28px; }
+            h2 { font-size: 24px; }
+            body { font-size: 17px; }
+            article { padding: 40px 20px 80px; }
+            td:first-child { white-space: normal; width: auto; }
+            .pull-quote { font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-bar">
+    <a href="https://ayushjj.github.io/knowledge-graph/">Ayush's Knowledge Graph</a>
+</div>
+
+<article>
+
+    <h1>The More I Read About AI, the Less I Could See the Big Picture</h1>
+
+    <div class="byline">
+        <strong>Ayush</strong> &middot; March 2026 &middot; 8 min read
+    </div>
+
+    <p>AI is changing how software gets built. It's changing who buys that software. It's changing what businesses can sell, how teams coordinate, what skills matter, and which moats hold. All of this is happening at the same time.</p>
+
+    <p>If you've been trying to keep up, you know the feeling. You read an article about AI agents and it makes sense. You read about context engineering and that clicks too. Then someone explains how business models are inverting, and you follow the logic. Individually, every piece is clear.</p>
+
+    <p>But when you try to step back and see how it all fits together &mdash; how agents connect to business model shifts, how context relates to verification, how all of these forces combine into one coherent picture of where things are going &mdash; the synthesis just doesn't come. The more you read, the more fragments you collect, and somehow the big picture gets <em>fuzzier</em>, not clearer.</p>
+
+    <p>That's where I was. I even went so far as to build a <a href="https://ayushjj.github.io/knowledge-graph/">knowledge graph</a> &mdash; extracting insights from articles, podcasts, and books, cross-linking them into a web spanning agents, architecture, business models, and more. I had over a hundred interconnected insights. It was organized. It had a website.</p>
+
+    <p>And I still couldn't sit in a conversation and explain how any of it connected into a story that mattered.</p>
+
+    <p>It wasn't ignorance &mdash; I could define the terms. It was something more frustrating: I understood the pieces but couldn't see the picture they formed. I had fragments of a paradigm shift without the structure to hold them together.</p>
+
+    <p>Dan Koe recently wrote about this exact feeling. He calls it the third "Narrower of the Mind": infinite input with zero processing. Your mental metabolism can only go so fast. Eat too much food and you get slow. Consume too much information and the same thing happens to your thinking. You get cognitively fat.</p>
+
+    <p>I was cognitively fat. And more reading wasn't going to fix it.</p>
+
+    <div class="section-divider">&middot;&middot;&middot;</div>
+
+    <h2>The Fix Was From 1955</h2>
+
+    <p>Charlie Munger &mdash; Warren Buffett's partner, a man who spent his life studying how to think clearly &mdash; said something in a talk decades ago that hit me like a truck when I actually sat with it:</p>
+
+    <blockquote>"You can't really know anything if you just remember isolated facts and try and bang 'em back. If the facts don't hang together on a latticework of theory, you don't have them in a usable form."</blockquote>
+
+    <p>That was my problem. I had hundreds of fragments &mdash; agents, context, verification, business models, search, compounding &mdash; but no latticework to hang them on.</p>
+
+    <p>So instead of reading one more article, I stopped. I took everything I'd already collected and asked a different question: <strong>what are the 5 big ideas that all of these fragments are really about?</strong></p>
+
+    <p>Not hundreds of scattered concepts. Five shelves. If I could build 5 shelves, every future AI concept would have a place to land the moment I heard it. I wouldn't need to memorize &mdash; I'd just need to place it.</p>
+
+    <p>Here's what I found. And if you've been feeling overwhelmed by AI, I think this will help you too.</p>
+
+    <div class="section-divider">&middot;&middot;&middot;</div>
+
+    <h2>The 5 Shelves</h2>
+
+    <!-- SHELF 1 -->
+    <h3><span class="shelf-label">Shelf 1</span><br>The Kitchen, Not the Stove &mdash; Context Is the Product</h3>
+
+    <p>The AI model &mdash; ChatGPT, Claude, Gemini &mdash; is a stove. Every restaurant in the world buys the same commercial stove. Nobody picks a restaurant because of the stove brand.</p>
+
+    <p>You pick a restaurant for the recipes (domain knowledge), the ingredients (data), the menu design (UX), and the chef's training (skills). That's what "context is the product, not the model" means. Anyone can call the same AI API. Your differentiation is everything around it.</p>
+
+    <p>Once I understood this, a bunch of jargon suddenly made sense:</p>
+
+    <div class="table-wrapper">
+    <table>
+        <thead><tr><th>What you hear</th><th>What it actually is</th></tr></thead>
+        <tbody>
+            <tr><td>Context window</td><td>The countertop &mdash; how much the chef can see at once. Finite, so what you put on it matters enormously</td></tr>
+            <tr><td>Token</td><td>One ingredient card on the counter. Each takes up space</td></tr>
+            <tr><td>RAG</td><td>A prep cook who runs to the pantry and grabs ingredients before the chef starts. The chef only sees what the prep cook brings</td></tr>
+            <tr><td>Fine-tuning</td><td>Sending the chef back to culinary school. Expensive, slow &mdash; and often a detailed recipe card on the counter works just as well</td></tr>
+            <tr><td>Context engineering</td><td>Deciding what goes on the countertop. This is the actual skill</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <div class="munger-bridge">
+        <div class="label">Munger Connection</div>
+        <strong>Circle of Competence.</strong> Play where you have aptitude. In AI, your domain knowledge and your data are your circle of competence. Two companies using the same model will get completely different results because one actually understands the problem domain.
+    </div>
+
+    <!-- SHELF 2 -->
+    <h3><span class="shelf-label">Shelf 2</span><br>The Race Track, Not the Race Car &mdash; The Harness Matters More</h3>
+
+    <p>Everyone argues about which AI model is smarter. GPT-5 vs Claude vs Gemini. It's a horsepower war.</p>
+
+    <p>But studying how the best AI systems actually work revealed something counterintuitive: <strong>a mediocre AI inside a strong "harness" outperforms a smarter AI inside a messy one.</strong></p>
+
+    <p>The harness is the race track. Guardrails prevent crashes. Pit stops allow corrections. Timing gates measure progress. A practice track with foam barriers lets you test without consequences. All of that infrastructure around the car is what determines whether it finishes the race.</p>
+
+    <div class="table-wrapper">
+    <table>
+        <thead><tr><th>What you hear</th><th>What it actually is</th></tr></thead>
+        <tbody>
+            <tr><td>Harness</td><td>The track &mdash; everything around the AI that controls how it operates</td></tr>
+            <tr><td>Eval</td><td>Timing gates. Measures whether the AI's output is actually good, not just confident-sounding</td></tr>
+            <tr><td>Sandbox</td><td>Practice track with foam barriers. AI can crash without real consequences</td></tr>
+            <tr><td>Rollback</td><td>Rewind to last checkpoint. Makes mistakes cheap, which enables autonomy</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <p>Here's the "why" that made this click for me: evals degrade over time, like a teacher who gives the same final exam every semester. Students stop learning the material and start memorizing the test. Scores go up, understanding goes down. In AI, this is called the "Red Queen Race" &mdash; you have to keep evolving your tests faster than the AI learns to game them.</p>
+
+    <div class="munger-bridge">
+        <div class="label">Munger Connection</div>
+        <strong>The Lollapalooza effect.</strong> When multiple failures compound simultaneously, the result is explosive, not additive. An AI system with no rollback AND no eval AND no sandbox isn't three problems. It's an explosion. Design the cash register. Don't preach honesty.
+    </div>
+
+    <!-- SHELF 3 -->
+    <h3><span class="shelf-label">Shelf 3</span><br>A Team, Not an Employee &mdash; Agents Work Declaratively</h3>
+
+    <p>When most people picture AI, they picture one assistant answering questions. That's like having a single employee at a desk.</p>
+
+    <p>An "agent" is different. It doesn't just answer &mdash; it <em>acts</em>. It searches files, runs code, calls other services, checks its own work. The difference between asking someone a question and hiring someone to do a job.</p>
+
+    <p>But the real insight is how you manage them. There are two ways:</p>
+
+    <p><strong>Imperative:</strong> "Sweep the floor. Then wipe the counters. Then mop. Then take out the trash."</p>
+
+    <p><strong>Declarative:</strong> "The kitchen should be clean by 6pm."</p>
+
+    <p>The second one consistently gets better results from AI. Why? Because when you give step-by-step instructions, you constrain the agent to your path &mdash; which might not be the best one. When you give an outcome, it can find routes you never considered.</p>
+
+    <div class="table-wrapper">
+    <table>
+        <thead><tr><th>What you hear</th><th>What it actually is</th></tr></thead>
+        <tbody>
+            <tr><td>Agent</td><td>An employee who acts, not just answers questions</td></tr>
+            <tr><td>MCP</td><td>A standardized onboarding packet &mdash; tells any agent what tools exist and how to use them</td></tr>
+            <tr><td>Declarative vs. imperative</td><td>"Kitchen clean by 6pm" vs. a step-by-step manual</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <div class="munger-bridge">
+        <div class="label">Munger Connection</div>
+        <strong>Incentive-caused bias.</strong> Technical experts often resist declarative approaches because their identity is tied to knowing the "how." Being non-technical is sometimes an advantage &mdash; you naturally describe outcomes. Good people rationally doing the wrong thing because the incentive structure rewards it.
+    </div>
+
+    <!-- SHELF 4 -->
+    <h3><span class="shelf-label">Shelf 4</span><br>Agents Are the New Customers &mdash; Business Changes Everything</h3>
+
+    <p>Imagine every bakery in your city redesigning their storefront because customers are no longer humans walking through the door &mdash; they're personal assistants sent by humans.</p>
+
+    <p>The assistant doesn't care about the window display. Can't smell the bread. Doesn't read the chalkboard menu. The assistant cares: can I read your menu programmatically? Can I compare your prices with three other bakeries simultaneously? Can I place an order without waiting in line?</p>
+
+    <div class="table-wrapper">
+    <table>
+        <thead><tr><th>What you hear</th><th>What it actually is</th></tr></thead>
+        <tbody>
+            <tr><td>API</td><td>The back door for agents. Humans use the front door (the app/website). Agents use the structured back entrance</td></tr>
+            <tr><td>Embeddings</td><td>A map of meaning &mdash; text converted to coordinates. Similar things are neighbors on the map</td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <p>When agents become the buyers of software, companies whose main advantage is a beautiful interface suddenly have no moat. The competitive surface shifts to API quality, documentation, and machine-readability.</p>
+
+    <p>And the business model itself changes. Instead of "here's a bookkeeping tool, figure it out," you can now say "I'll get your bookkeeping done." Sell the work, not the tool. The AI provides the operator that the tool always needed.</p>
+
+    <div class="munger-bridge">
+        <div class="label">Counterintuitive Finding</div>
+        Technology transitions create MORE of the "dying" thing, not less. The internet didn't kill retail &mdash; it created more stores. AI won't kill software &mdash; it will create categories of software that never existed because they were too expensive to build.
+    </div>
+
+    <!-- SHELF 5 -->
+    <h3><span class="shelf-label">Shelf 5</span><br>The Snowball &mdash; Knowledge Compounds, But Only If You Process It</h3>
+
+    <p>A snowball rolling downhill picks up more snow with each rotation because its surface area keeps growing. Each rotation adds more than the last.</p>
+
+    <p>That's compounding. And it's the principle behind everything we've been doing.</p>
+
+    <p>This knowledge graph I built? It IS the snowball &mdash; 124 insights, cross-linked, organized by topic. Each new insight is easier to place than the last because the structure already exists.</p>
+
+    <p>But here's what Dan Koe nailed: <strong>consuming without processing is carrying snowballs uphill and dropping them.</strong> You read, extract, save &mdash; but if you never sit with it, never connect it to what you already know, never test whether you can explain it... it's just another card in the pile.</p>
+
+    <p>One last distinction that changed how I think:</p>
+
+    <p class="pull-quote">Similar is not the same as relevant.</p>
+
+    <p>AI search works by finding things that are "nearby" on the meaning map. Search for "how to improve my restaurant" and it returns other restaurant articles &mdash; <em>similar</em> content. But what you might actually need is a pricing psychology study or a hospitality lesson from the hotel industry &mdash; not similar at all, but deeply <em>relevant</em>.</p>
+
+    <p>Bridging that gap requires reasoning, not just proximity. It's the same reason cross-domain thinking (Munger psychology explaining AI business models) produces breakthroughs that reading ten more AI articles never would.</p>
+
+    <div class="section-divider">&middot;&middot;&middot;</div>
+
+    <h2>The Meta-Lesson</h2>
+
+    <p>After going through all of this, I realized something that felt almost too simple:</p>
+
+    <p><strong>I didn't learn anything new.</strong></p>
+
+    <p>Every single concept was already in my graph. All 124 insights were already collected, linked, and organized. What I was missing wasn't information &mdash; it was <em>structure</em>. Five shelves that turned a pile of facts into a framework.</p>
+
+    <p>The test that proved it worked: someone mentioned "prompt caching" &mdash; a term I'd never studied. Without knowing the definition, I knew exactly which shelf it belonged to. It's clearly a Kitchen concept &mdash; something about optimizing what goes on the countertop. (I was right. It's a technique that saves the countertop setup between requests so you don't have to reload everything each time.)</p>
+
+    <p>When you can classify a concept you've never seen into the right category based on intuition alone, the latticework is working.</p>
+
+    <p>This approach &mdash; what I'm calling Lattice Learning &mdash; isn't specific to AI. It works for any domain where you've been consuming more than you've been processing:</p>
+
+    <ol>
+        <li><strong>Inventory</strong> what you've been reading but not understanding</li>
+        <li><strong>Cluster</strong> it into 4-7 Big Ideas (meta-themes, not details)</li>
+        <li><strong>Find analogies</strong> from everyday life for each Big Idea</li>
+        <li><strong>Bridge</strong> to something you already understand deeply</li>
+        <li><strong>Test</strong> by explaining it in your own words &mdash; if you can't, reframe, don't add more</li>
+    </ol>
+
+    <p>The reading treadmill isn't a reading problem. It's a processing problem. And the fix isn't consuming less &mdash; it's building the shelves that turn consumption into understanding.</p>
+
+    <div class="cta-box">
+        Explore the full knowledge graph &mdash; 124 insights, fully cross-linked, spanning AI agents, architecture, business models, and the mental models that explain why any of it works the way it does.
+        <br>
+        <a href="https://ayushjj.github.io/knowledge-graph/">Explore the Knowledge Graph</a>
+    </div>
+
+    <p class="closing">Stop reading. Start placing.</p>
+
+</article>
+
+</body>
+</html>
