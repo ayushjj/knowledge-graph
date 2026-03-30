@@ -35,3 +35,4 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[revealed-preferences-trump-stated-preferences]] — Track what users do, not what they say, for product decisions
 - [[software-bimodal-fork-growth-or-margins-no-middle]] — Comfortable middle is over; accelerate AI growth or rebuild for 40%+ margins
 - [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes
+- [[latent-demand-is-the-strongest-product-signal]] — Make what people already do easier; don't invent new behaviors

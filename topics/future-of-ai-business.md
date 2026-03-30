@@ -49,3 +49,5 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[the-80-99-gap-is-where-ai-products-die]] — Demo accuracy and production reliability are infinitely far apart
 - [[software-bimodal-fork-growth-or-margins-no-middle]] — Comfortable middle is over; accelerate AI growth or rebuild for 40%+ margins
 - [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes
+- [[build-for-the-model-six-months-from-now]] — Today's PMF gets leapfrogged; build for where the model is heading
+- [[every-role-codes-when-implementation-cost-drops-to-zero]] — PMs, designers, finance all code when AI handles implementation

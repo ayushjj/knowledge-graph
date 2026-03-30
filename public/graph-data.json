@@ -36,7 +36,7 @@
       ],
       "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
       "color": "#06b6d4",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -628,7 +628,7 @@
       ],
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
-      "degree": 13,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -745,7 +745,7 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 19,
+      "degree": 20,
       "domain": "ai"
     },
     {
@@ -771,7 +771,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 25,
+      "degree": 26,
       "domain": "ai"
     },
     {
@@ -785,6 +785,19 @@
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
       "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "build-for-the-model-six-months-from-now",
+      "label": "Build for the model six months from now, not the model of today",
+      "description": "AI product builders should target the capability frontier the model hasn't reached yet, because today's PMF gets leapfrogged when the next model ships",
+      "topics": [
+        "ai-coding-tools",
+        "future-of-ai-business"
+      ],
+      "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
+      "color": "#06b6d4",
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -853,6 +866,19 @@
       "domain": "ai"
     },
     {
+      "id": "every-role-codes-when-implementation-cost-drops-to-zero",
+      "label": "Every role codes when implementation cost drops to zero — the generalist builder replaces the specialist engineer",
+      "description": "When AI handles implementation, the title 'software engineer' gives way to generalist builders who code, write specs, design, and talk to users",
+      "topics": [
+        "future-of-ai-business",
+        "ai-coding-tools"
+      ],
+      "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
+      "color": "#f59e0b",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "evaluate-tools-with-real-multi-step-tasks",
       "label": "Evaluate agent tools with real multi-step tasks, not toy single-call examples",
       "description": "Weak evaluation tasks hide tool design flaws — strong tasks require chained calls, ambiguity resolution, and verifiable outcomes",
@@ -901,7 +927,7 @@
       ],
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -966,6 +992,19 @@
       ],
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "latent-demand-is-the-strongest-product-signal",
+      "label": "Latent demand is the strongest product signal — make the thing people already do easier",
+      "description": "People will only do things they already do; you can't get them to do a new thing, but you can make their existing behavior frictionless",
+      "topics": [
+        "business-models",
+        "ai-native-product-architecture"
+      ],
+      "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
+      "color": "#10b981",
       "degree": 3,
       "domain": "ai"
     },
@@ -1069,7 +1108,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1229,6 +1268,19 @@
       "domain": "mental-models"
     },
     {
+      "id": "scaffolding-is-tech-debt-against-the-next-model",
+      "label": "Scaffolding is tech debt against the next model — the bitter lesson applied to product building",
+      "description": "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off",
+      "topics": [
+        "ai-coding-tools",
+        "ai-native-product-architecture"
+      ],
+      "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
+      "color": "#06b6d4",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
       "id": "scale-advantages-cascade-until-bureaucracy-kills-them",
       "label": "Scale advantages cascade toward dominance until bureaucracy kills them",
       "description": "Advantages of scale — cost curves, social proof, informational edge, advertising reach — compound toward winner-take-all, but large organizations breed bureaucracy and territoriality that can undo every advantage",
@@ -1368,7 +1420,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1381,7 +1433,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1498,7 +1550,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1538,6 +1590,19 @@
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
       "color": "#6366f1",
       "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "uncorrelated-context-windows-are-test-time-compute",
+      "label": "Uncorrelated context windows are a form of test time compute — fresh perspectives multiply capability",
+      "description": "Multiple agents with independent context windows avoid polluting each other's reasoning, and throwing more context at a problem from different angles increases capability",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
+      "color": "#6366f1",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -1602,7 +1667,7 @@
       ],
       "source": "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1614,7 +1679,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 7,
+      "degree": 8,
       "domain": "mental-models"
     },
     {
@@ -2462,6 +2527,18 @@
       "target": "llms-selectively-destroy-vertical-software-moats"
     },
     {
+      "source": "build-for-the-model-six-months-from-now",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
+      "source": "build-for-the-model-six-months-from-now",
+      "target": "model-market-fit-before-product-market-fit"
+    },
+    {
+      "source": "build-for-the-model-six-months-from-now",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
       "source": "building-beats-following-for-ai-mastery",
       "target": "compound-engineering-makes-future-work-easier"
     },
@@ -2532,6 +2609,14 @@
     {
       "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
       "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
+      "source": "every-role-codes-when-implementation-cost-drops-to-zero",
+      "target": "technical-knowledge-becomes-liability"
+    },
+    {
+      "source": "every-role-codes-when-implementation-cost-drops-to-zero",
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
@@ -2644,6 +2729,14 @@
     {
       "source": "kv-cache-hit-rate-determines-agent-economics",
       "target": "context-inefficiency-compounds-three-penalties"
+    },
+    {
+      "source": "latent-demand-is-the-strongest-product-signal",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "latent-demand-is-the-strongest-product-signal",
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "lakebases-decouple-compute-from-storage",
@@ -2900,6 +2993,18 @@
     {
       "source": "latticework-of-models-beats-isolated-facts",
       "target": "confluence-of-tendencies-produces-extreme-outcomes"
+    },
+    {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
     {
       "source": "scale-advantages-cascade-until-bureaucracy-kills-them",
@@ -3170,6 +3275,14 @@
       "target": "detect-everything-notify-selectively"
     },
     {
+      "source": "uncorrelated-context-windows-are-test-time-compute",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "uncorrelated-context-windows-are-test-time-compute",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
       "source": "unfocused-agents-develop-path-dependency",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
@@ -3244,6 +3357,10 @@
     {
       "source": "token-spend-replaces-headcount-as-scaling-unit",
       "target": "software-bimodal-fork-growth-or-margins-no-middle"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "uncorrelated-context-windows-are-test-time-compute"
     },
     {
       "source": "ai-compresses-execution-not-judgment",

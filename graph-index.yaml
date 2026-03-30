@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-30
-node_count: 128
+node_count: 133
 domains: [ai, mental-models]
 
 nodes:
@@ -36,8 +36,8 @@ nodes:
     description: "Experts get stuck on implementation details while novices describe outcomes and ship faster"
     topics: [ai-coding-tools, future-of-ai-business]
     source: "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing"
-    outgoing: [declarative-beats-imperative-for-agents]
-    incoming: [declarative-beats-imperative-for-agents, inference-capability-lowers-input-fidelity-requirements]
+    outgoing: [declarative-beats-imperative-for-agents, every-role-codes-when-implementation-cost-drops-to-zero]
+    incoming: [declarative-beats-imperative-for-agents, inference-capability-lowers-input-fidelity-requirements, every-role-codes-when-implementation-cost-drops-to-zero]
 
   context-is-the-product-not-the-model:
     title: "Context is the product, not the model"
@@ -419,7 +419,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Boris Cherny — Creator of Claude Code"
     outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, intelligence-judgement-ratio-determines-automation-order]
-    incoming: [parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, multi-model-orchestration-beats-any-single-family]
+    incoming: [parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, multi-model-orchestration-beats-any-single-family, uncorrelated-context-windows-are-test-time-compute]
 
   evolving-summaries-beat-append-only-memory:
     title: "Evolving summaries beat append-only memory — rewrite profiles, don't accumulate facts"
@@ -495,7 +495,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Anthropic Official Best Practices + Jarrod Watts"
     outgoing: [context-is-the-product-not-the-model, declarative-beats-imperative-for-agents, one-session-per-contract-beats-long-running-agents, prompt-caching-makes-long-context-economically-viable, treat-agent-as-operating-system-not-function]
-    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base, time-bounded-evaluation-optimizes-for-usefulness, reasoning-evaporation-destroys-agent-decision-chains]
+    incoming: [specs-are-external-memory-surviving-context-resets, agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, prompt-caching-makes-long-context-economically-viable, autonomous-loops-need-small-stories-and-fast-feedback, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, tools-are-contracts-between-deterministic-and-nondeterministic-systems, tool-design-is-continuous-observation-see-like-an-agent, tiered-retrieval-prevents-context-overload, context-inefficiency-compounds-three-penalties, claude-md-should-be-routing-table-not-knowledge-base, time-bounded-evaluation-optimizes-for-usefulness, reasoning-evaporation-destroys-agent-decision-chains, uncorrelated-context-windows-are-test-time-compute]
 
   three-layer-ai-stack-memory-search-reasoning:
     title: "The three-layer AI stack: Memory, Search, Reasoning"
@@ -512,7 +512,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, negative-maintenance-reduces-future-work-for-everyone]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models, negative-maintenance-reduces-future-work-for-everyone]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models, negative-maintenance-reduces-future-work-for-everyone, latent-demand-is-the-strongest-product-signal]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -522,6 +522,15 @@ nodes:
     domain: ai
     outgoing: [technology-transitions-create-more-not-less, llms-selectively-destroy-vertical-software-moats]
     incoming: [technology-transitions-create-more-not-less, amplification-widens-the-judgment-gap]
+
+  build-for-the-model-six-months-from-now:
+    title: "Build for the model six months from now, not the model of today"
+    description: "AI product builders should target the capability frontier the model hasn't reached yet, because today's PMF gets leapfrogged when the next model ships"
+    topics: [ai-coding-tools, future-of-ai-business]
+    source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
+    domain: ai
+    outgoing: [scaffolding-is-tech-debt-against-the-next-model, model-market-fit-before-product-market-fit, frontier-companies-absorb-every-useful-agentic-pattern]
+    incoming: [scaffolding-is-tech-debt-against-the-next-model, frontier-companies-absorb-every-useful-agentic-pattern]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -563,6 +572,15 @@ nodes:
     outgoing: [context-window-is-the-fundamental-constraint, declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, tool-design-is-continuous-observation-see-like-an-agent]
     incoming: [webmcp-turns-websites-into-agent-native-interfaces, tool-design-is-continuous-observation-see-like-an-agent, safety-enforcement-belongs-in-tool-design-not-prompts]
 
+  every-role-codes-when-implementation-cost-drops-to-zero:
+    title: "Every role codes when implementation cost drops to zero — the generalist builder replaces the specialist engineer"
+    description: "When AI handles implementation, the title 'software engineer' gives way to generalist builders who code, write specs, design, and talk to users"
+    topics: [future-of-ai-business, ai-coding-tools]
+    source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
+    domain: ai
+    outgoing: [technical-knowledge-becomes-liability, ai-compresses-execution-not-judgment]
+    incoming: [technical-knowledge-becomes-liability]
+
   evaluate-tools-with-real-multi-step-tasks:
     title: "Evaluate agent tools with real multi-step tasks, not toy single-call examples"
     description: "Weak evaluation tasks hide tool design flaws — strong tasks require chained calls, ambiguity resolution, and verifiable outcomes"
@@ -593,8 +611,8 @@ nodes:
     description: "Designing effective agent tools requires iterating by watching actual model behavior, not specifying upfront; tools that helped weaker models may constrain stronger ones"
     topics: [ai-agents, ai-coding-tools]
     source: "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code"
-    outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint]
-    incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems]
+    outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, scaffolding-is-tech-debt-against-the-next-model]
+    incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, scaffolding-is-tech-debt-against-the-next-model]
 
   domain-skill-libraries-are-the-real-agent-moat:
     title: "Domain-specific skill libraries are the real agent moat, not core infrastructure"
@@ -640,6 +658,15 @@ nodes:
     domain: ai
     outgoing: [context-inefficiency-compounds-three-penalties]
     incoming: [prompt-caching-makes-long-context-economically-viable, observability-is-the-missing-agent-discipline]
+
+  latent-demand-is-the-strongest-product-signal:
+    title: "Latent demand is the strongest product signal — make the thing people already do easier"
+    description: "People will only do things they already do; you can't get them to do a new thing, but you can make their existing behavior frictionless"
+    topics: [business-models, ai-native-product-architecture]
+    source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
+    domain: ai
+    outgoing: [revealed-preferences-trump-stated-preferences, compound-engineering-makes-future-work-easier]
+    incoming: [revealed-preferences-trump-stated-preferences]
 
   lakebases-decouple-compute-from-storage:
     title: "Lakebases decouple compute from storage — databases become elastic infrastructure"
@@ -708,7 +735,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
     outgoing: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die]
-    incoming: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die]
+    incoming: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die, build-for-the-model-six-months-from-now]
 
   harness-engineers-need-docs-as-first-class-output:
     title: "Harness engineering — humans steer, agents execute, documentation is the system of record"
@@ -816,6 +843,15 @@ nodes:
     outgoing: [bet-seldom-but-heavily-when-odds-are-extreme, first-conclusions-become-nearly-permanent, confluence-of-tendencies-produces-extreme-outcomes]
     incoming: [circle-of-competence-determines-where-you-can-win, invert-always-invert-to-solve-hard-problems, pilot-training-model-builds-reliable-knowledge, ideology-is-among-the-most-extreme-distorters-of-cognition]
 
+  scaffolding-is-tech-debt-against-the-next-model:
+    title: "Scaffolding is tech debt against the next model — the bitter lesson applied to product building"
+    description: "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off"
+    topics: [ai-coding-tools, ai-native-product-architecture]
+    source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
+    domain: ai
+    outgoing: [tool-design-is-continuous-observation-see-like-an-agent, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base]
+    incoming: [build-for-the-model-six-months-from-now, tool-design-is-continuous-observation-see-like-an-agent]
+
   scale-advantages-cascade-until-bureaucracy-kills-them:
     title: "Scale advantages cascade toward dominance until bureaucracy kills them"
     description: "Advantages of scale — cost curves, social proof, informational edge, advertising reach — compound toward winner-take-all, but large organizations breed bureaucracy and territoriality that can undo every advantage"
@@ -913,7 +949,7 @@ nodes:
     source: "@systematicls — How To Be A World-Class Agentic Engineer"
     domain: ai
     outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, skill-graphs-enable-progressive-disclosure]
-    incoming: [harness-engineers-need-docs-as-first-class-output, skill-folder-structure-is-context-engineering, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
+    incoming: [harness-engineers-need-docs-as-first-class-output, skill-folder-structure-is-context-engineering, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, scaffolding-is-tech-debt-against-the-next-model]
 
   frontier-companies-absorb-every-useful-agentic-pattern:
     title: "Frontier companies absorb every useful agentic pattern into their products"
@@ -921,8 +957,8 @@ nodes:
     topics: [future-of-ai-business, ai-agents]
     source: "@systematicls — How To Be A World-Class Agentic Engineer"
     domain: ai
-    outgoing: [boring-tech-wins-for-ai-native-startups, technology-transitions-create-more-not-less]
-    incoming: [domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool]
+    outgoing: [boring-tech-wins-for-ai-native-startups, technology-transitions-create-more-not-less, build-for-the-model-six-months-from-now]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool, build-for-the-model-six-months-from-now]
 
   one-session-per-contract-beats-long-running-agents:
     title: "One session per contract beats long-running agent sessions"
@@ -1002,8 +1038,8 @@ nodes:
     topics: [business-models, ai-native-product-architecture]
     source: "Nikunj Kothari — Revealed Preferences"
     domain: ai
-    outgoing: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
-    incoming: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier]
+    outgoing: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier, latent-demand-is-the-strongest-product-signal]
+    incoming: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier, latent-demand-is-the-strongest-product-signal]
 
   adversarial-branch-walking-beats-review-for-planning:
     title: "Adversarial branch-walking beats review for planning — walk every design branch until resolved"
@@ -1031,6 +1067,15 @@ nodes:
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, every-optimization-has-a-shadow-regression, property-based-testing-explores-agent-input-spaces, detect-everything-notify-selectively]
     incoming: [unfocused-agents-develop-path-dependency]
+
+  uncorrelated-context-windows-are-test-time-compute:
+    title: "Uncorrelated context windows are a form of test time compute — fresh perspectives multiply capability"
+    description: "Multiple agents with independent context windows avoid polluting each other's reasoning, and throwing more context at a problem from different angles increases capability"
+    topics: [ai-agents, ai-coding-tools]
+    source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
+    domain: ai
+    outgoing: [treat-ai-like-distributed-team-not-assistant, context-window-is-the-fundamental-constraint]
+    incoming: [token-spend-replaces-headcount-as-scaling-unit]
 
   unfocused-agents-develop-path-dependency:
     title: "Unfocused agents develop path dependency — without a specific mission, they explore the same paths repeatedly"
@@ -1074,7 +1119,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
     domain: ai
-    outgoing: [autopilots-capture-work-budget-not-tool-budget, orchestrator-agent-replaces-human-coordination, automation-amplifies-expert-demand, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle]
+    outgoing: [autopilots-capture-work-budget-not-tool-budget, orchestrator-agent-replaces-human-coordination, automation-amplifies-expert-demand, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle, uncorrelated-context-windows-are-test-time-compute]
     incoming: [software-bimodal-fork-growth-or-margins-no-middle]
 
   ai-compresses-execution-not-judgment:
@@ -1084,7 +1129,7 @@ nodes:
     source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
     domain: mental-models
     outgoing: [intelligence-judgement-ratio-determines-automation-order, automation-amplifies-expert-demand, dissolved-constraints-shift-bottleneck-to-judgment, amplification-widens-the-judgment-gap]
-    incoming: [amplification-widens-the-judgment-gap, dissolved-constraints-shift-bottleneck-to-judgment, intelligence-judgement-ratio-determines-automation-order]
+    incoming: [amplification-widens-the-judgment-gap, dissolved-constraints-shift-bottleneck-to-judgment, intelligence-judgement-ratio-determines-automation-order, every-role-codes-when-implementation-cost-drops-to-zero]
 
   amplification-widens-the-judgment-gap:
     title: "Amplification widens the judgment gap — AI magnifies clear thinking into compounding advantage and confused thinking into accelerating waste"

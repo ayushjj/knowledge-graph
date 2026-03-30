@@ -10,4 +10,4 @@ The expert approaches every problem thinking "how would I build this?" — gets 
 
 This is the counterintuitive implication of the implementation gap collapsing. It doesn't mean technical knowledge is useless — it means the reflex to think in implementation terms actively slows you down. The shift Karpathy describes in [[declarative-beats-imperative-for-agents]] is the same insight from the engineering side: stop telling, start specifying.
 
-Karpathy himself noted his manual coding ability is already atrophying, and predicted a split in engineers: builders will thrive, pure coders may struggle.
+Karpathy himself noted his manual coding ability is already atrophying, and predicted a split in engineers: builders will thrive, pure coders may struggle. Boris Cherny confirms the endpoint: [[every-role-codes-when-implementation-cost-drops-to-zero]] — at Anthropic, PMs, designers, and the finance team all code because AI handles implementation, making the "software engineer" title vestigial.

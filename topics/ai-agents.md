@@ -73,3 +73,4 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[unfocused-agents-develop-path-dependency]] — Broad mandates cause agents to explore the same paths repeatedly
 - [[reasoning-evaporation-destroys-agent-decision-chains]] — Multi-step reasoning exists only in the context window; session close destroys it permanently
 - [[agent-trace-accumulation-produces-emergent-world-models]] — Accumulated agent traces form discovered world models nobody explicitly designed
+- [[uncorrelated-context-windows-are-test-time-compute]] — Fresh independent context windows are a form of test time compute
