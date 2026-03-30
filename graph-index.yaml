@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-25
-node_count: 124
+last_updated: 2026-03-30
+node_count: 128
 domains: [ai, mental-models]
 
 nodes:
@@ -126,7 +126,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     outgoing: [declarative-beats-imperative-for-agents, compound-engineering-makes-future-work-easier, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, verification-is-a-red-queen-race]
-    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race, adversarial-branch-walking-beats-review-for-planning, auto-generated-monitors-beat-handwritten-broad-checks]
+    incoming: [autonomous-loops-need-small-stories-and-fast-feedback, production-agents-route-decisions-not-every-call-to-llm, evaluate-tools-with-real-multi-step-tasks, multi-model-ensemble-catches-single-model-blindspots, harness-engineers-need-docs-as-first-class-output, excessive-self-regard-makes-fixable-failures-persist, weaponize-sycophancy-with-adversarial-agent-ensembles, property-based-testing-explores-agent-input-spaces, the-80-99-gap-is-where-ai-products-die, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, verification-is-a-red-queen-race, adversarial-branch-walking-beats-review-for-planning, auto-generated-monitors-beat-handwritten-broad-checks, speed-without-feedback-amplifies-errors]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -342,7 +342,7 @@ nodes:
     source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
     domain: ai
     outgoing: [intelligence-judgement-ratio-determines-automation-order, tribal-knowledge-is-the-last-mile-for-agent-automation]
-    incoming: [intelligence-judgement-ratio-determines-automation-order, token-spend-replaces-headcount-as-scaling-unit]
+    incoming: [intelligence-judgement-ratio-determines-automation-order, token-spend-replaces-headcount-as-scaling-unit, ai-compresses-execution-not-judgment]
 
   technology-transitions-create-more-not-less:
     title: "Technology transitions create more of the 'dying' thing, not less"
@@ -350,7 +350,7 @@ nodes:
     topics: [future-of-ai-business]
     source: "@stevesi (Steven Sinofsky) — Death of Software?"
     outgoing: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, llm-competition-fragments-markets-not-consolidates, commodity-terminal-value-zero-expert-judgment-compounds]
-    incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses, frontier-companies-absorb-every-useful-agentic-pattern, outsourcing-is-the-autopilot-wedge, commodity-terminal-value-zero-expert-judgment-compounds]
+    incoming: [software-abundance-unlocks-categories-that-never-existed, saas-grows-but-consolidates-around-platforms, technology-helps-moats-kills-commodity-businesses, frontier-companies-absorb-every-useful-agentic-pattern, outsourcing-is-the-autopilot-wedge, commodity-terminal-value-zero-expert-judgment-compounds, dissolved-constraints-shift-bottleneck-to-judgment]
 
 
   hybrid-search-is-the-default-not-the-exception:
@@ -435,8 +435,8 @@ nodes:
     topics: [ai-agents, decision-making]
     source: "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)"
     domain: ai
-    outgoing: [invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
-    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race, auto-generated-monitors-beat-handwritten-broad-checks]
+    outgoing: [invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence, amplification-widens-the-judgment-gap]
+    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race, auto-generated-monitors-beat-handwritten-broad-checks, amplification-widens-the-judgment-gap, speed-without-feedback-amplifies-errors]
 
   treat-agent-as-operating-system-not-function:
     title: "Treat an agent as an operating system, not a stateless function"
@@ -521,7 +521,7 @@ nodes:
     source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
     domain: ai
     outgoing: [technology-transitions-create-more-not-less, llms-selectively-destroy-vertical-software-moats]
-    incoming: [technology-transitions-create-more-not-less]
+    incoming: [technology-transitions-create-more-not-less, amplification-widens-the-judgment-gap]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -552,8 +552,8 @@ nodes:
     description: "Dash's 'GPU-poor continuous learning' separates validated knowledge from error-driven learnings — five lines of code replaces expensive retraining"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
-    outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems]
-    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models]
+    outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems, speed-without-feedback-amplifies-errors]
+    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models, speed-without-feedback-amplifies-errors]
 
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
@@ -750,8 +750,8 @@ nodes:
     topics: [future-of-ai-business, ai-agents]
     source: "@julienbek — Services: The New Software"
     domain: ai
-    outgoing: [production-agents-route-decisions-not-every-call-to-llm, automation-amplifies-expert-demand]
-    incoming: [treat-ai-like-distributed-team-not-assistant, automation-amplifies-expert-demand]
+    outgoing: [production-agents-route-decisions-not-every-call-to-llm, automation-amplifies-expert-demand, ai-compresses-execution-not-judgment, dissolved-constraints-shift-bottleneck-to-judgment]
+    incoming: [treat-ai-like-distributed-team-not-assistant, automation-amplifies-expert-demand, ai-compresses-execution-not-judgment, dissolved-constraints-shift-bottleneck-to-judgment]
 
   systems-that-prevent-bad-behavior-beat-moral-appeals:
     title: "Systems that prevent bad behavior beat moral appeals — design the cash register, not the sermon"
@@ -1076,3 +1076,39 @@ nodes:
     domain: ai
     outgoing: [autopilots-capture-work-budget-not-tool-budget, orchestrator-agent-replaces-human-coordination, automation-amplifies-expert-demand, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle]
     incoming: [software-bimodal-fork-growth-or-margins-no-middle]
+
+  ai-compresses-execution-not-judgment:
+    title: "AI compresses the distance between idea and execution but not between good and bad judgment"
+    description: "When everyone can build anything, the differentiator stops being speed and starts being judgment — what to build, what to say no to, when to change course"
+    topics: [decision-making]
+    source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
+    domain: mental-models
+    outgoing: [intelligence-judgement-ratio-determines-automation-order, automation-amplifies-expert-demand, dissolved-constraints-shift-bottleneck-to-judgment, amplification-widens-the-judgment-gap]
+    incoming: [amplification-widens-the-judgment-gap, dissolved-constraints-shift-bottleneck-to-judgment, intelligence-judgement-ratio-determines-automation-order]
+
+  amplification-widens-the-judgment-gap:
+    title: "Amplification widens the judgment gap — AI magnifies clear thinking into compounding advantage and confused thinking into accelerating waste"
+    description: "Same tools, divergent outcomes — strong teams with clear strategies get faster and more focused, weak teams with vague strategies get noisier and more distracted"
+    topics: [decision-making]
+    source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
+    domain: mental-models
+    outgoing: [every-optimization-has-a-shadow-regression, commodity-terminal-value-zero-expert-judgment-compounds, ai-compresses-execution-not-judgment]
+    incoming: [ai-compresses-execution-not-judgment, speed-without-feedback-amplifies-errors, every-optimization-has-a-shadow-regression]
+
+  dissolved-constraints-shift-bottleneck-to-judgment:
+    title: "When production constraints dissolve, the bottleneck shifts from execution to judgment"
+    description: "Hiring was hard, code was slow, shipping took months — AI dissolves all three, revealing judgment as the binding constraint that was always there"
+    topics: [decision-making, economics]
+    source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
+    domain: mental-models
+    outgoing: [technology-transitions-create-more-not-less, intelligence-judgement-ratio-determines-automation-order, ai-compresses-execution-not-judgment]
+    incoming: [ai-compresses-execution-not-judgment, intelligence-judgement-ratio-determines-automation-order]
+
+  speed-without-feedback-amplifies-errors:
+    title: "Speed without feedback amplifies errors — agents lack the self-correction mechanism that constrains human mistakes"
+    description: "Humans serve as natural bottlenecks who self-correct after repeated mistakes; agents perpetuate identical errors indefinitely at unsustainable rates"
+    topics: [engineering, decision-making]
+    source: "Mario Zechner — Thoughts on Slowing the Fuck Down"
+    domain: mental-models
+    outgoing: [error-memory-enables-learning-without-retraining, verification-multiplies-agent-output-quality, every-optimization-has-a-shadow-regression, amplification-widens-the-judgment-gap]
+    incoming: [error-memory-enables-learning-without-retraining]

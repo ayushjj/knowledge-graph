@@ -29,3 +29,7 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[non-attached-action-enables-clearer-course-correction]] — Detach from outcomes to see reality and change course without ego friction
 - [[ask-for-no-not-yes-to-accelerate-decisions]] — Default-proceed framing maintains momentum while preserving oversight
 - [[resolve-ambiguity-before-passing-it-downstream]] — Don't forward confusion — resolve it at the point of origin
+- [[ai-compresses-execution-not-judgment]] — AI speeds up building but not the judgment of what to build
+- [[amplification-widens-the-judgment-gap]] — Same tools, divergent outcomes — AI magnifies thinking quality in both directions
+- [[dissolved-constraints-shift-bottleneck-to-judgment]] — When execution becomes free, judgment becomes the only game
+- [[speed-without-feedback-amplifies-errors]] — Speed multipliers without error-correction create proportional error multipliers

@@ -13,3 +13,4 @@ The most reliable predictor of behavior is the incentive structure, not the char
 - [[technology-helps-moats-kills-commodity-businesses]] — Productivity gains flow to customers in commodities, to the bottom line in moat businesses
 - [[bet-seldom-but-heavily-when-odds-are-extreme]] — The pari-mutuel model: concentrated bets when mispriced opportunities arise
 - [[pavlovian-association-builds-durable-brand-moats]] — Brands are conditioned reflexes that compound via Pavlovian association
+- [[dissolved-constraints-shift-bottleneck-to-judgment]] — Removing production constraints reveals judgment as the binding constraint

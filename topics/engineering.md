@@ -14,3 +14,4 @@ Effective systems assume people will behave predictably (incentive-following, lo
 - [[negative-maintenance-reduces-future-work-for-everyone]] — Rarest team archetype: people who actively reduce future work for others
 - [[ask-for-no-not-yes-to-accelerate-decisions]] — Default-proceed framing removes approval bottlenecks
 - [[resolve-ambiguity-before-passing-it-downstream]] — Catch and resolve ambiguity at the point of origin
+- [[speed-without-feedback-amplifies-errors]] — Systems that outrun their error-correction loops compound mistakes at scale

@@ -178,7 +178,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 23,
+      "degree": 24,
       "domain": "ai"
     },
     {
@@ -335,6 +335,19 @@
       "color": "#8b5cf6",
       "degree": 4,
       "domain": "ai"
+    },
+    {
+      "id": "resolve-ambiguity-before-passing-it-downstream",
+      "label": "Resolve ambiguity before passing it downstream — don't forward confusion",
+      "description": "Ambiguity compounds as it flows through an organization; resolve it at the point of origin rather than propagating it",
+      "topics": [
+        "engineering",
+        "decision-making"
+      ],
+      "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
+      "color": "#a855f7",
+      "degree": 2,
+      "domain": "mental-models"
     },
     {
       "id": "response-ux-should-match-retrieval-intelligence",
@@ -500,7 +513,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -512,7 +525,7 @@
       ],
       "source": "@stevesi (Steven Sinofsky) — Death of Software?",
       "color": "#f59e0b",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -526,6 +539,32 @@
       "color": "#8b5cf6",
       "degree": 5,
       "domain": "ai"
+    },
+    {
+      "id": "negative-maintenance-reduces-future-work-for-everyone",
+      "label": "Negative maintenance teammates reduce future work for everyone around them",
+      "description": "The rarest team archetype: people who actively make life easier for others by solving problems upstream before they propagate",
+      "topics": [
+        "engineering",
+        "decision-making"
+      ],
+      "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
+      "color": "#a855f7",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "non-attached-action-enables-clearer-course-correction",
+      "label": "Non-attached action enables clearer course correction — detach from outcomes to see reality",
+      "description": "Acting without attachment to being right or to a specific outcome lets you see when something isn't working and change course without ego friction",
+      "topics": [
+        "decision-making",
+        "psychology"
+      ],
+      "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
+      "color": "#eab308",
+      "degree": 3,
+      "domain": "mental-models"
     },
     {
       "id": "multi-model-ensemble-catches-single-model-blindspots",
@@ -552,6 +591,19 @@
       "color": "#6366f1",
       "degree": 4,
       "domain": "ai"
+    },
+    {
+      "id": "ask-for-no-not-yes-to-accelerate-decisions",
+      "label": "Ask for 'no' not 'yes' — default-proceed framing accelerates organizational decisions",
+      "description": "Framing proposals as 'I will do X unless you object' rather than 'Can I do X?' shifts the decision burden, maintains momentum, and shows ownership",
+      "topics": [
+        "decision-making",
+        "engineering"
+      ],
+      "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
+      "color": "#eab308",
+      "degree": 2,
+      "domain": "mental-models"
     },
     {
       "id": "agents-become-the-buyer",
@@ -602,7 +654,7 @@
       ],
       "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -719,7 +771,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 23,
+      "degree": 25,
       "domain": "ai"
     },
     {
@@ -732,7 +784,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -784,7 +836,7 @@
       ],
       "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1082,7 +1134,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -1095,7 +1147,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)",
       "color": "#ec4899",
-      "degree": 8,
+      "degree": 11,
       "domain": "mental-models"
     },
     {
@@ -1108,7 +1160,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)",
       "color": "#ec4899",
-      "degree": 9,
+      "degree": 11,
       "domain": "mental-models"
     },
     {
@@ -1160,7 +1212,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)",
       "color": "#ec4899",
-      "degree": 5,
+      "degree": 6,
       "domain": "mental-models"
     },
     {
@@ -1251,7 +1303,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)",
       "color": "#eab308",
-      "degree": 6,
+      "degree": 8,
       "domain": "mental-models"
     },
     {
@@ -1552,6 +1604,56 @@
       "color": "#f59e0b",
       "degree": 6,
       "domain": "ai"
+    },
+    {
+      "id": "ai-compresses-execution-not-judgment",
+      "label": "AI compresses the distance between idea and execution but not between good and bad judgment",
+      "description": "When everyone can build anything, the differentiator stops being speed and starts being judgment — what to build, what to say no to, when to change course",
+      "topics": [
+        "decision-making"
+      ],
+      "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
+      "color": "#eab308",
+      "degree": 7,
+      "domain": "mental-models"
+    },
+    {
+      "id": "amplification-widens-the-judgment-gap",
+      "label": "Amplification widens the judgment gap — AI magnifies clear thinking into compounding advantage and confused thinking into accelerating waste",
+      "description": "Same tools, divergent outcomes — strong teams with clear strategies get faster and more focused, weak teams with vague strategies get noisier and more distracted",
+      "topics": [
+        "decision-making"
+      ],
+      "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
+      "color": "#eab308",
+      "degree": 6,
+      "domain": "mental-models"
+    },
+    {
+      "id": "dissolved-constraints-shift-bottleneck-to-judgment",
+      "label": "When production constraints dissolve, the bottleneck shifts from execution to judgment",
+      "description": "Hiring was hard, code was slow, shipping took months — AI dissolves all three, revealing judgment as the binding constraint that was always there",
+      "topics": [
+        "decision-making",
+        "economics"
+      ],
+      "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
+      "color": "#eab308",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "speed-without-feedback-amplifies-errors",
+      "label": "Speed without feedback amplifies errors — agents lack the self-correction mechanism that constrains human mistakes",
+      "description": "Humans serve as natural bottlenecks who self-correct after repeated mistakes; agents perpetuate identical errors indefinitely at unsustainable rates",
+      "topics": [
+        "engineering",
+        "decision-making"
+      ],
+      "source": "Mario Zechner — Thoughts on Slowing the Fuck Down",
+      "color": "#a855f7",
+      "degree": 5,
+      "domain": "mental-models"
     }
   ],
   "links": [
@@ -1868,6 +1970,10 @@
       "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
+      "source": "resolve-ambiguity-before-passing-it-downstream",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
       "source": "response-ux-should-match-retrieval-intelligence",
       "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
@@ -2076,6 +2182,22 @@
       "target": "response-ux-should-match-retrieval-intelligence"
     },
     {
+      "source": "negative-maintenance-reduces-future-work-for-everyone",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "negative-maintenance-reduces-future-work-for-everyone",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "non-attached-action-enables-clearer-course-correction",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "non-attached-action-enables-clearer-course-correction",
+      "target": "excessive-self-regard-makes-fixable-failures-persist"
+    },
+    {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
       "target": "evaluate-tools-with-real-multi-step-tasks"
     },
@@ -2102,6 +2224,10 @@
     {
       "source": "agent-trust-transfers-from-human-credibility",
       "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "ask-for-no-not-yes-to-accelerate-decisions",
+      "target": "invert-always-invert-to-solve-hard-problems"
     },
     {
       "source": "agents-become-the-buyer",
@@ -2174,6 +2300,10 @@
     {
       "source": "every-optimization-has-a-shadow-regression",
       "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "every-optimization-has-a-shadow-regression",
+      "target": "amplification-widens-the-judgment-gap"
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
@@ -2320,6 +2450,10 @@
       "target": "revealed-preferences-trump-stated-preferences"
     },
     {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "negative-maintenance-reduces-future-work-for-everyone"
+    },
+    {
       "source": "commodity-terminal-value-zero-expert-judgment-compounds",
       "target": "technology-transitions-create-more-not-less"
     },
@@ -2378,6 +2512,10 @@
     {
       "source": "error-memory-enables-learning-without-retraining",
       "target": "context-layers-must-be-living-systems"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
+      "target": "speed-without-feedback-amplifies-errors"
     },
     {
       "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
@@ -2676,6 +2814,14 @@
       "target": "automation-amplifies-expert-demand"
     },
     {
+      "source": "intelligence-judgement-ratio-determines-automation-order",
+      "target": "ai-compresses-execution-not-judgment"
+    },
+    {
+      "source": "intelligence-judgement-ratio-determines-automation-order",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
       "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
       "target": "incentive-caused-bias-makes-good-people-rationalize"
     },
@@ -2688,12 +2834,20 @@
       "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
+      "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
+      "target": "resolve-ambiguity-before-passing-it-downstream"
+    },
+    {
       "source": "first-conclusions-become-nearly-permanent",
       "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "first-conclusions-become-nearly-permanent",
       "target": "small-concessions-trigger-disproportionate-reciprocation"
+    },
+    {
+      "source": "first-conclusions-become-nearly-permanent",
+      "target": "non-attached-action-enables-clearer-course-correction"
     },
     {
       "source": "small-concessions-trigger-disproportionate-reciprocation",
@@ -2798,6 +2952,10 @@
     {
       "source": "invert-always-invert-to-solve-hard-problems",
       "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "invert-always-invert-to-solve-hard-problems",
+      "target": "ask-for-no-not-yes-to-accelerate-decisions"
     },
     {
       "source": "pavlovian-association-builds-durable-brand-moats",
@@ -3086,6 +3244,62 @@
     {
       "source": "token-spend-replaces-headcount-as-scaling-unit",
       "target": "software-bimodal-fork-growth-or-margins-no-middle"
+    },
+    {
+      "source": "ai-compresses-execution-not-judgment",
+      "target": "intelligence-judgement-ratio-determines-automation-order"
+    },
+    {
+      "source": "ai-compresses-execution-not-judgment",
+      "target": "automation-amplifies-expert-demand"
+    },
+    {
+      "source": "ai-compresses-execution-not-judgment",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "ai-compresses-execution-not-judgment",
+      "target": "amplification-widens-the-judgment-gap"
+    },
+    {
+      "source": "amplification-widens-the-judgment-gap",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "amplification-widens-the-judgment-gap",
+      "target": "commodity-terminal-value-zero-expert-judgment-compounds"
+    },
+    {
+      "source": "amplification-widens-the-judgment-gap",
+      "target": "ai-compresses-execution-not-judgment"
+    },
+    {
+      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
+      "target": "intelligence-judgement-ratio-determines-automation-order"
+    },
+    {
+      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
+      "target": "ai-compresses-execution-not-judgment"
+    },
+    {
+      "source": "speed-without-feedback-amplifies-errors",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "speed-without-feedback-amplifies-errors",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "speed-without-feedback-amplifies-errors",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "speed-without-feedback-amplifies-errors",
+      "target": "amplification-widens-the-judgment-gap"
     }
   ]
 }
