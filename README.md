@@ -6,7 +6,7 @@
 
 > Munger says you can't really know anything useful by remembering isolated facts — they must hang on a latticework of theory. I was doing exactly that with AI articles: isolated facts scattered across dozens of chat threads, rediscovered months later with no connection between them.
 
-![Interactive graph visualization](public/screenshots/graph-view.png)
+![Interactive graph visualization](public/screenshots/graph-view.png?raw=true)
 
 ## Why this exists
 
@@ -30,7 +30,7 @@ The agent use case works particularly well. The human browsing UX is catching up
 
 ### 1. Browse the web app
 
-![Card feed with topic filters and search](public/screenshots/card-feed.png)
+![Card feed with topic filters and search](public/screenshots/card-feed.png?raw=true)
 
 - Card feed sorted by most-connected insights, with topic filtering and full-text search
 - Interactive force-directed graph visualization — see how insights cluster and connect
