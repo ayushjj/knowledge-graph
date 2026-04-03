@@ -36,7 +36,7 @@
       ],
       "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -927,7 +927,7 @@
       ],
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1433,7 +1433,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1550,7 +1550,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1745,6 +1745,10 @@
     {
       "source": "technical-knowledge-becomes-liability",
       "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "technical-knowledge-becomes-liability",
+      "target": "every-role-codes-when-implementation-cost-drops-to-zero"
     },
     {
       "source": "context-is-the-product-not-the-model",
@@ -2675,6 +2679,10 @@
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
       "source": "domain-skill-libraries-are-the-real-agent-moat",
       "target": "context-is-the-product-not-the-model"
     },
@@ -3123,6 +3131,10 @@
       "target": "technology-transitions-create-more-not-less"
     },
     {
+      "source": "frontier-companies-absorb-every-useful-agentic-pattern",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
       "source": "one-session-per-contract-beats-long-running-agents",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
@@ -3229,6 +3241,10 @@
     {
       "source": "revealed-preferences-trump-stated-preferences",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "revealed-preferences-trump-stated-preferences",
+      "target": "latent-demand-is-the-strongest-product-signal"
     },
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",

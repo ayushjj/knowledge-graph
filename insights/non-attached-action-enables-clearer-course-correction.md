@@ -4,6 +4,7 @@ description: "Acting without attachment to being right, to a specific outcome, o
 topics: [decision-making, psychology]
 source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles (value coined by George Dilthey)"
 domain: mental-models
+date: 2026-03-25
 ---
 
 Drawing from the Bhagavad Gita's principle — "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions" — Clay codified **non-attached action**: acting without being attached to a specific outcome, to being right, or to whose idea it was.

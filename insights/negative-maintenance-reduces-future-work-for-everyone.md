@@ -4,6 +4,7 @@ description: "The rarest team archetype isn't high-performers or low-maintenance
 topics: [engineering, decision-making]
 source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
 domain: mental-models
+date: 2026-03-25
 ---
 
 Most people are either high maintenance or no maintenance. Clay looks for something rarer: **negative maintenance** — teammates who make life easier for everyone around them.

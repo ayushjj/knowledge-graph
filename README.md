@@ -1,6 +1,8 @@
 # Knowledge Graph
 
-[![Live Site](https://img.shields.io/badge/Live_Site-ayushjj.github.io-blue)](https://ayushjj.github.io/knowledge-graph/) [![Last Commit](https://img.shields.io/github/last-commit/ayushjj/knowledge-graph)](https://github.com/ayushjj/knowledge-graph/commits/master)
+[![Live Site](https://img.shields.io/badge/Live_Site-ayushjj.github.io-blue)](https://ayushjj.github.io/knowledge-graph/) [![Last Commit](https://img.shields.io/github/last-commit/ayushjj/knowledge-graph)](https://github.com/ayushjj/knowledge-graph/commits/master) [![CI](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml/badge.svg)](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml)
+
+**133 insights · 14 topics · 25+ sources · updated weekly**
 
 > Munger says you can't really know anything useful by remembering isolated facts — they must hang on a latticework of theory. I was doing exactly that with AI articles: isolated facts scattered across dozens of chat threads, rediscovered months later with no connection between them.
 
@@ -12,7 +14,7 @@ I had dozens of Claude conversations, each exploring a different AI article. But
 
 So I built a knowledge graph. Each article gets broken into 2-5 atomic insights, and those insights get linked to related ones from other sources. The connections are where the real value lives — not any single insight.
 
-It's still an experiment. The agent use case works well. The human browsing UX needs your help.
+The agent use case works particularly well. The human browsing UX is catching up.
 
 ## What's in it
 
@@ -38,7 +40,7 @@ It's still an experiment. The agent use case works well. The human browsing UX n
 
 ### 2. Feed it to an AI agent
 
-This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 109+ nodes, descriptions, and connections.
+This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 133+ nodes, descriptions, and connections.
 
 ```yaml
 # Add this one line to your CLAUDE.md:
@@ -46,7 +48,7 @@ When making architectural decisions or reviewing plans, read `graph-index.yaml`
 and check if any insights are relevant to the current decision.
 ```
 
-Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 94 connected insights produces genuinely different thinking than starting from scratch.
+Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 133 connected insights produces genuinely different thinking than starting from scratch.
 
 ## How it grows
 
@@ -64,21 +66,24 @@ If you've found value in the graph, add an insight from an article that changed 
 
 All PRs reviewed by maintainer before merging.
 
-## Structure
+<details>
+<summary><strong>Repository structure</strong></summary>
 
 ```
 knowledge-graph/
 ├── index.md              # Entry point — topic map + cross-domain highlights
 ├── graph-index.yaml      # Machine-readable graph (all nodes + links)
-├── topics/               # 12 topic MOCs (Maps of Content)
+├── topics/               # 14 topic MOCs (Maps of Content)
 │   ├── ai-agents.md
 │   ├── business-models.md
 │   └── ...
-└── insights/             # 109+ individual insight files
+└── insights/             # 133+ individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...
 ```
+
+</details>
 
 ## Sources
 
@@ -126,4 +131,4 @@ OpenAI Codex Team ·
 
 ---
 
-Built by [Ayush](https://github.com/ayushjj) with Claude Code. Still an experiment — feedback welcome.
+Built by [Ayush](https://github.com/ayushjj) with Claude Code. New insights added weekly — feedback welcome.
