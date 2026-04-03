@@ -101,7 +101,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 14,
+      "degree": 18,
       "domain": "ai"
     },
     {
@@ -140,7 +140,7 @@
       ],
       "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
       "color": "#10b981",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -234,6 +234,19 @@
       "domain": "ai"
     },
     {
+      "id": "agent-edits-are-automatic-decision-instrumentation",
+      "label": "Agent edits are automatic decision instrumentation — every human correction is a structured signal",
+      "description": "When agents propose and humans edit, the delta between proposal and correction captures tacit judgment as first-class data without requiring manual logging",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "agent-memory-preserves-institutional-knowledge",
       "label": "Persistent agent memory preserves institutional knowledge that walks out the door with employees",
       "description": "When agents maintain daily changelogs, decision logs, and work preferences, organizational knowledge survives personnel changes",
@@ -296,6 +309,19 @@
       "source": "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik",
       "color": "#8b5cf6",
       "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "permissioned-inference-is-harder-than-permissioned-retrieval",
+      "label": "Permissioned inference is harder than permissioned retrieval — enterprise context graphs need reasoning-level access control",
+      "description": "Controlling who sees data is solved; controlling whose history shapes reasoning for others is the unsolved trust layer enterprise context graphs require",
+      "topics": [
+        "ai-native-product-architecture",
+        "future-of-ai-business"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
+      "color": "#8b5cf6",
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -693,7 +719,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -1511,7 +1537,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1550,7 +1576,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1827,6 +1853,14 @@
       "target": "revealed-preferences-trump-stated-preferences"
     },
     {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "agent-edits-are-automatic-decision-instrumentation"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "permissioned-inference-is-harder-than-permissioned-retrieval"
+    },
+    {
       "source": "declarative-beats-imperative-for-agents",
       "target": "features-are-prompts-not-code"
     },
@@ -1947,6 +1981,18 @@
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
+      "source": "agent-edits-are-automatic-decision-instrumentation",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "agent-edits-are-automatic-decision-instrumentation",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "agent-edits-are-automatic-decision-instrumentation",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
       "source": "agent-memory-preserves-institutional-knowledge",
       "target": "decision-traces-are-the-missing-data-layer"
     },
@@ -2005,6 +2051,18 @@
     {
       "source": "agentic-search-beats-rag-for-live-codebases",
       "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
+      "target": "trust-boundaries-must-be-mapped-and-externalized"
+    },
+    {
+      "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
+      "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
       "source": "personal-software-grows-through-relationship-not-configuration",

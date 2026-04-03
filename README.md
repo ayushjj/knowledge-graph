@@ -2,7 +2,7 @@
 
 [![Live Site](https://img.shields.io/badge/Live_Site-ayushjj.github.io-blue)](https://ayushjj.github.io/knowledge-graph/) [![Last Commit](https://img.shields.io/github/last-commit/ayushjj/knowledge-graph)](https://github.com/ayushjj/knowledge-graph/commits/master) [![CI](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml/badge.svg)](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml)
 
-**133 insights · 14 topics · 25+ sources · updated weekly**
+**135 insights · 14 topics · 25+ sources · updated weekly**
 
 > Munger says you can't really know anything useful by remembering isolated facts — they must hang on a latticework of theory. I was doing exactly that with AI articles: isolated facts scattered across dozens of chat threads, rediscovered months later with no connection between them.
 
@@ -18,7 +18,7 @@ The agent use case works particularly well. The human browsing UX is catching up
 
 ## What's in it
 
-133+ insights across 2 domains, updated weekly as I encounter new ideas:
+135+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 
@@ -40,7 +40,7 @@ The agent use case works particularly well. The human browsing UX is catching up
 
 ### 2. Feed it to an AI agent
 
-This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 133+ nodes, descriptions, and connections.
+This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 135+ nodes, descriptions, and connections.
 
 ```yaml
 # Add this one line to your CLAUDE.md:
@@ -48,7 +48,7 @@ When making architectural decisions or reviewing plans, read `graph-index.yaml`
 and check if any insights are relevant to the current decision.
 ```
 
-Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 133 connected insights produces genuinely different thinking than starting from scratch.
+Use cases: architecture brainstorming, plan review, understanding what practitioners are saying about a topic. An agent reading 135 connected insights produces genuinely different thinking than starting from scratch.
 
 ## How it grows
 
@@ -77,7 +77,7 @@ knowledge-graph/
 │   ├── ai-agents.md
 │   ├── business-models.md
 │   └── ...
-└── insights/             # 133+ individual insight files
+└── insights/             # 135+ individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...

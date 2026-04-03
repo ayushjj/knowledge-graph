@@ -51,3 +51,4 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes
 - [[build-for-the-model-six-months-from-now]] — Today's PMF gets leapfrogged; build for where the model is heading
 - [[every-role-codes-when-implementation-cost-drops-to-zero]] — PMs, designers, finance all code when AI handles implementation
+- [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Controlling whose history shapes reasoning is the unsolved enterprise trust layer

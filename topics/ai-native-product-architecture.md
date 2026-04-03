@@ -63,3 +63,5 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[reasoning-evaporation-destroys-agent-decision-chains]] — Multi-step reasoning exists only in the context window; session close destroys it permanently
 - [[latent-demand-is-the-strongest-product-signal]] — Make what people already do easier; CLAUDE.md, plan mode, and co-work all emerged from observed behavior
 - [[scaffolding-is-tech-debt-against-the-next-model]] — Non-model code is ephemeral; the bitter lesson applied to product building
+- [[agent-edits-are-automatic-decision-instrumentation]] — Agent proposals + human corrections = automatic decision trace capture
+- [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Enterprise context graphs need reasoning-level access control, not just data access

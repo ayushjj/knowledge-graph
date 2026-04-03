@@ -7,7 +7,7 @@
     "build": "node build-graph.js && astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "build:graph": "node build-graph.js",
-    "check": "astro check && node build-graph.js && bash validate-graph.sh && vitest run",
+    "check": "astro check && node build-graph.js && node validate-graph.js && vitest run",
     "test": "vitest run"
   },
   "repository": {

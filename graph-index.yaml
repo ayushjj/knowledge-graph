@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-03-30
-node_count: 133
+node_count: 135
 domains: [ai, mental-models]
 
 nodes:
@@ -77,8 +77,8 @@ nodes:
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
-    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models]
+    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -102,7 +102,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"
     outgoing: [agents-become-the-buyer, context-is-the-product-not-the-model, open-source-captures-value-through-services-not-software, production-agents-route-decisions-not-every-call-to-llm, saas-grows-but-consolidates-around-platforms]
-    incoming: [open-source-captures-value-through-services-not-software, agent-trust-transfers-from-human-credibility, deputies-and-sheriffs-distribute-agent-authority, saas-grows-but-consolidates-around-platforms, llms-selectively-destroy-vertical-software-moats]
+    incoming: [open-source-captures-value-through-services-not-software, agent-trust-transfers-from-human-credibility, deputies-and-sheriffs-distribute-agent-authority, saas-grows-but-consolidates-around-platforms, llms-selectively-destroy-vertical-software-moats, permissioned-inference-is-harder-than-permissioned-retrieval]
 
   software-abundance-unlocks-categories-that-never-existed:
     title: "Software abundance unlocks entire categories of applications that never existed"
@@ -161,6 +161,16 @@ nodes:
     outgoing: [files-are-the-universal-agent-interface, autonomous-loops-need-small-stories-and-fast-feedback, context-window-is-the-fundamental-constraint]
     incoming: [parallel-agents-create-management-problem-not-coding-problem, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, harness-engineers-need-docs-as-first-class-output, one-session-per-contract-beats-long-running-agents, separate-research-from-implementation-to-preserve-context]
 
+  agent-edits-are-automatic-decision-instrumentation:
+    title: "Agent edits are automatic decision instrumentation — every human correction is a structured signal"
+    description: "When agents propose and humans edit, the delta between proposal and correction captures tacit judgment as first-class data without requiring manual logging"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had"
+    source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, revealed-preferences-trump-stated-preferences, proprietary-feedback-loops-widen-the-moat]
+    incoming: [decision-traces-are-the-missing-data-layer]
+
   agent-memory-preserves-institutional-knowledge:
     title: "Persistent agent memory preserves institutional knowledge that walks out the door with employees"
     description: "When agents maintain daily changelogs, decision logs, and work preferences, organizational knowledge survives personnel changes"
@@ -201,6 +211,16 @@ nodes:
     source: "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik"
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, context-window-is-the-fundamental-constraint, boring-tech-wins-for-ai-native-startups]
     incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning]
+
+  permissioned-inference-is-harder-than-permissioned-retrieval:
+    title: "Permissioned inference is harder than permissioned retrieval — enterprise context graphs need reasoning-level access control"
+    description: "Controlling who sees data is solved; controlling whose history shapes reasoning for others is the unsolved trust layer enterprise context graphs require"
+    topics: [ai-native-product-architecture, future-of-ai-business]
+    source: "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had"
+    source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
+    domain: ai
+    outgoing: [trust-boundaries-must-be-mapped-and-externalized, decision-traces-are-the-missing-data-layer, saas-survives-as-governance-and-coordination-layer]
+    incoming: [decision-traces-are-the-missing-data-layer]
 
   personal-software-grows-through-relationship-not-configuration:
     title: "Personal software grows through relationship, not configuration"
@@ -461,7 +481,7 @@ nodes:
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     domain: ai
     outgoing: [observability-is-the-missing-agent-discipline, decision-traces-are-the-missing-data-layer]
-    incoming: [observability-is-the-missing-agent-discipline]
+    incoming: [observability-is-the-missing-agent-discipline, permissioned-inference-is-harder-than-permissioned-retrieval]
 
   tribal-knowledge-is-the-last-mile-for-agent-automation:
     title: "Tribal knowledge is the irreducible human input that enables agent automation"
@@ -1012,7 +1032,7 @@ nodes:
     source: "Nikunj Kothari — Revealed Preferences"
     domain: ai
     outgoing: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1039,7 +1059,7 @@ nodes:
     source: "Nikunj Kothari — Revealed Preferences"
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier, latent-demand-is-the-strongest-product-signal]
-    incoming: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier, latent-demand-is-the-strongest-product-signal]
+    incoming: [decision-traces-are-the-missing-data-layer, compound-engineering-makes-future-work-easier, latent-demand-is-the-strongest-product-signal, agent-edits-are-automatic-decision-instrumentation]
 
   adversarial-branch-walking-beats-review-for-planning:
     title: "Adversarial branch-walking beats review for planning — walk every design branch until resolved"

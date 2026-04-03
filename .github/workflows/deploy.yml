@@ -27,7 +27,7 @@ jobs:
 
       - run: npm ci
       - run: npx astro check
-      - run: bash validate-graph.sh
+      - run: node validate-graph.js
       - run: npx vitest run
       - run: npm run build
 
