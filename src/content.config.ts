@@ -9,6 +9,7 @@ const insights = defineCollection({
     description: z.string(),
     topics: z.array(z.string()),
     source: z.string(),
+    source_file: z.string().optional(),
     date: z.coerce.date(),
     domain: z.string().default('ai'),
   }),
