@@ -67,3 +67,7 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Enterprise context graphs need reasoning-level access control, not just data access
 - [[traces-not-scores-enable-agent-improvement]] — Without reasoning trajectories, improvement rate drops hard
 - [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — Intercept Unix commands → DB queries for 460x faster agent navigation
+- [[trace-data-retention-must-match-ai-knowledge-lifespan]] — AI trace data has indefinite value; 30-day SaaS retention destroys institutional knowledge
+- [[evals-must-augment-traces-in-place-not-diverge]] — Evaluations should live on trace data, not alongside it; divergent copies drift by design
+- [[teacher-student-trace-distillation-beats-single-oracle]] — Multi-student + teacher consensus beats relying on a single high-reasoning trace
+- [[shadow-execution-enables-safe-trace-learning]] — Shadow-path write replays enable learning from realistic flows without touching production

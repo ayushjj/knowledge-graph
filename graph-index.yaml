@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-04-04
-node_count: 142
+node_count: 148
 domains: [ai, mental-models]
 
 nodes:
@@ -78,7 +78,7 @@ nodes:
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
     outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval, traces-not-scores-enable-agent-improvement]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval, traces-not-scores-enable-agent-improvement]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval, traces-not-scores-enable-agent-improvement, trace-data-retention-must-match-ai-knowledge-lifespan, evals-must-augment-traces-in-place-not-diverge]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -143,7 +143,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "Ashpreet Bedi — Agents That Learn (Agno Framework)"
     outgoing: [agent-memory-preserves-institutional-knowledge, skills-as-markdown-replace-fine-tuning]
-    incoming: [agent-memory-preserves-institutional-knowledge, proprietary-feedback-loops-widen-the-moat]
+    incoming: [agent-memory-preserves-institutional-knowledge, proprietary-feedback-loops-widen-the-moat, two-tier-agent-memory-separates-org-from-user]
 
   boring-tech-wins-for-ai-native-startups:
     title: "Boring tech wins for AI-native startups — simpler stack means faster AI-assisted shipping"
@@ -169,7 +169,7 @@ nodes:
     source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, revealed-preferences-trump-stated-preferences, proprietary-feedback-loops-widen-the-moat]
-    incoming: [decision-traces-are-the-missing-data-layer]
+    incoming: [decision-traces-are-the-missing-data-layer, evals-must-augment-traces-in-place-not-diverge]
 
   agent-memory-preserves-institutional-knowledge:
     title: "Persistent agent memory preserves institutional knowledge that walks out the door with employees"
@@ -177,7 +177,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture"
     outgoing: [decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility, tribal-knowledge-is-the-last-mile-for-agent-automation, two-tier-agent-memory-separates-org-from-user]
 
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
@@ -270,7 +270,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat]
-    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers, skill-folder-structure-is-context-engineering]
+    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers, skill-folder-structure-is-context-engineering, workflow-strategies-beat-individual-tool-instructions]
 
   skill-folder-structure-is-context-engineering:
     title: "A skill's folder structure is its context architecture — the file system is a form of context engineering"
@@ -446,7 +446,7 @@ nodes:
     description: "An evolve_summary() function that rewrites category profiles with new information handles contradictions naturally, unlike append-only logs"
     topics: [knowledge-systems, ai-agents]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
-    outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets]
+    outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets, two-tier-agent-memory-separates-org-from-user]
     incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining, first-conclusions-become-nearly-permanent]
 
   every-optimization-has-a-shadow-regression:
@@ -480,7 +480,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     domain: ai
-    outgoing: [observability-is-the-missing-agent-discipline, decision-traces-are-the-missing-data-layer]
+    outgoing: [observability-is-the-missing-agent-discipline, decision-traces-are-the-missing-data-layer, shadow-execution-enables-safe-trace-learning]
     incoming: [observability-is-the-missing-agent-discipline, permissioned-inference-is-harder-than-permissioned-retrieval]
 
   tribal-knowledge-is-the-last-mile-for-agent-automation:
@@ -489,7 +489,7 @@ nodes:
     topics: [ai-agents, knowledge-systems]
     source: "@jasonscui — Your Data Agents Need Context, a16z"
     domain: ai
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model]
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, workflow-strategies-beat-individual-tool-instructions]
     incoming: [decision-traces-are-the-missing-data-layer, automation-amplifies-expert-demand]
 
   session-capture-compounds-development-knowledge:
@@ -582,7 +582,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
     outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems, speed-without-feedback-amplifies-errors]
-    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models, speed-without-feedback-amplifies-errors, traces-not-scores-enable-agent-improvement]
+    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models, speed-without-feedback-amplifies-errors, traces-not-scores-enable-agent-improvement, teacher-student-trace-distillation-beats-single-oracle, shadow-execution-enables-safe-trace-learning]
 
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
@@ -624,7 +624,7 @@ nodes:
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works; Andrej Karpathy — autoresearch program.md"
     domain: ai
     outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, shadow-execution-enables-safe-trace-learning]
 
   tool-design-is-continuous-observation-see-like-an-agent:
     title: "Tool design is continuous observation — see like an agent"
@@ -641,7 +641,7 @@ nodes:
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
     outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers, proprietary-feedback-loops-widen-the-moat]
-    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat, vertical-models-beat-frontier-models-in-their-domain]
+    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat, vertical-models-beat-frontier-models-in-their-domain, workflow-strategies-beat-individual-tool-instructions]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -1013,8 +1013,8 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     domain: ai
-    outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining, trust-boundaries-must-be-mapped-and-externalized]
-    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized, detect-everything-notify-selectively, traces-not-scores-enable-agent-improvement]
+    outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining, trust-boundaries-must-be-mapped-and-externalized, evals-must-augment-traces-in-place-not-diverge]
+    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized, detect-everything-notify-selectively, traces-not-scores-enable-agent-improvement, trace-data-retention-must-match-ai-knowledge-lifespan]
 
   property-based-testing-explores-agent-input-spaces:
     title: "Property-based testing explores agent input spaces that example-based tests miss"
@@ -1121,7 +1121,7 @@ nodes:
     topics: [ai-agents, knowledge-systems]
     source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
     domain: ai
-    outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier]
+    outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier, trace-data-retention-must-match-ai-knowledge-lifespan]
     incoming: []
 
   software-bimodal-fork-growth-or-margins-no-middle:
@@ -1215,7 +1215,7 @@ nodes:
     source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
     source_file: sources/kevingu-autoagent-self-optimizing-agents.md
     domain: ai
-    outgoing: [verification-is-a-red-queen-race, every-optimization-has-a-shadow-regression, harness-quality-beats-model-intelligence]
+    outgoing: [verification-is-a-red-queen-race, every-optimization-has-a-shadow-regression, harness-quality-beats-model-intelligence, teacher-student-trace-distillation-beats-single-oracle]
     incoming: [verification-is-a-red-queen-race]
 
   traces-not-scores-enable-agent-improvement:
@@ -1226,7 +1226,7 @@ nodes:
     source_file: sources/kevingu-autoagent-self-optimizing-agents.md
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, observability-is-the-missing-agent-discipline, error-memory-enables-learning-without-retraining]
-    incoming: [decision-traces-are-the-missing-data-layer]
+    incoming: [decision-traces-are-the-missing-data-layer, teacher-student-trace-distillation-beats-single-oracle, shadow-execution-enables-safe-trace-learning]
 
   vertical-models-beat-frontier-models-in-their-domain:
     title: "Vertical models beat frontier models in their domain — specialization wins on every metric"
@@ -1247,3 +1247,63 @@ nodes:
     domain: ai
     outgoing: [agentic-search-beats-rag-for-live-codebases, files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity]
     incoming: [agentic-search-beats-rag-for-live-codebases]
+
+  trace-data-retention-must-match-ai-knowledge-lifespan:
+    title: "AI trace data has an indefinite useful lifespan — SaaS observability's 30-day retention model destroys institutional knowledge"
+    description: "Infrastructure metrics expire quickly but AI conversations and reasoning traces gain value over time; 30-day retention windows erase the very data that reveals failure patterns and training signals"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Harnesses & Agents"
+    source_file: sources/aparnadhinak-data-architectures-tracing.md
+    domain: ai
+    outgoing: [observability-is-the-missing-agent-discipline, decision-traces-are-the-missing-data-layer]
+    incoming: [agent-trace-accumulation-produces-emergent-world-models]
+
+  evals-must-augment-traces-in-place-not-diverge:
+    title: "Evaluations must augment trace data in place — divergent copies drift by design"
+    description: "The moment you export traces to a separate eval system, the copy diverges from where annotations run; evals, annotations, and traces should share a single source of truth"
+    topics: [ai-native-product-architecture]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Harnesses & Agents"
+    source_file: sources/aparnadhinak-data-architectures-tracing.md
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, agent-edits-are-automatic-decision-instrumentation]
+    incoming: [observability-is-the-missing-agent-discipline]
+
+  teacher-student-trace-distillation-beats-single-oracle:
+    title: "Teacher-student trace distillation with consensus validation beats single-oracle learning"
+    description: "A single high-reasoning teacher trace isn't reliable enough for enterprise learning; comparing multiple student traces under production constraints with consensus validation produces trustworthy strategies"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
+    source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
+    domain: ai
+    outgoing: [traces-not-scores-enable-agent-improvement, error-memory-enables-learning-without-retraining]
+    incoming: [self-improving-agents-overfit-to-eval-metrics]
+
+  workflow-strategies-beat-individual-tool-instructions:
+    title: "Agents need workflow-level tool strategies, not individual tool instructions — the hard part is how tools combine"
+    description: "In enterprise environments, the challenge isn't finding the right tool but understanding how tools work together; intentionally narrow strategies that capture workflow patterns generalize better than broad abstractions"
+    topics: [ai-agents, knowledge-systems]
+    source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
+    source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
+    domain: ai
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, skill-graphs-enable-progressive-disclosure]
+    incoming: [tribal-knowledge-is-the-last-mile-for-agent-automation]
+
+  shadow-execution-enables-safe-trace-learning:
+    title: "Shadow execution enables safe trace learning — replay write operations without touching production data"
+    description: "By replaying actions that would write to external apps in a shadow path, agents can learn from realistic end-to-end flows without impacting customer data"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
+    source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
+    domain: ai
+    outgoing: [error-memory-enables-learning-without-retraining, rollback-safety-nets-enable-autonomy-not-intelligence, traces-not-scores-enable-agent-improvement]
+    incoming: [trust-boundaries-must-be-mapped-and-externalized]
+
+  two-tier-agent-memory-separates-org-from-user:
+    title: "Two-tier agent memory separates organizational workflow knowledge from individual user preferences"
+    description: "Deployment-level memory captures shared tool strategies and sequencing patterns; user-level memory captures personal templates and communication styles — initially skipping user-level had a significant performance impact"
+    topics: [ai-agents, knowledge-systems]
+    source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
+    source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
+    domain: ai
+    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, agent-memory-preserves-institutional-knowledge]
+    incoming: [evolving-summaries-beat-append-only-memory]

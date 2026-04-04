@@ -81,3 +81,8 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[traces-not-scores-enable-agent-improvement]] — Without trajectories, agent improvement rate drops hard
 - [[self-improving-agents-overfit-to-eval-metrics]] — Meta-agents game rubrics unless structurally constrained
 - [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — Intercept commands → DB queries; 460x faster, near-zero cost
+- [[trace-data-retention-must-match-ai-knowledge-lifespan]] — AI trace data has indefinite value; 30-day retention destroys institutional knowledge
+- [[teacher-student-trace-distillation-beats-single-oracle]] — Consensus across multiple traces beats single-oracle learning
+- [[workflow-strategies-beat-individual-tool-instructions]] — How tools combine matters more than which tool to call
+- [[shadow-execution-enables-safe-trace-learning]] — Replay writes in shadow path to learn from realistic flows safely
+- [[two-tier-agent-memory-separates-org-from-user]] — Shared workflow strategies + private user preferences as separate memory layers

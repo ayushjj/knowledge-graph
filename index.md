@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[trace-data-retention-must-match-ai-knowledge-lifespan]] — 30-day SaaS retention destroys AI institutional knowledge (2026-04-04)
+- [[evals-must-augment-traces-in-place-not-diverge]] — evaluations live on trace data; divergent copies drift by design (2026-04-04)
+- [[teacher-student-trace-distillation-beats-single-oracle]] — multi-trace consensus beats single high-reasoning oracle (2026-04-04)
+- [[workflow-strategies-beat-individual-tool-instructions]] — how tools combine matters more than which tool to call (2026-04-04)
+- [[shadow-execution-enables-safe-trace-learning]] — shadow-path write replays enable safe learning from production flows (2026-04-04)
+- [[two-tier-agent-memory-separates-org-from-user]] — shared workflows + private preferences as separate memory layers (2026-04-04)
 - [[vertical-models-beat-frontier-models-in-their-domain]] — specialized CS model beats all frontier models on every metric (2026-04-04)
 - [[self-disruption-follows-the-value-chain-downward]] — software → agents → AI: proactive cannibalization as strategy (2026-04-04)
 - [[meta-agents-beat-manual-harness-engineering]] — autonomous 24hr harness optimization beats hand-engineering (2026-04-04)
 - [[same-model-pairings-win-through-model-empathy]] — same-model meta/task pairs outperform cross-model (2026-04-04)
-- [[traces-not-scores-enable-agent-improvement]] — without trajectories, improvement rate drops hard (2026-04-04)
-- [[self-improving-agents-overfit-to-eval-metrics]] — meta-agents game rubrics unless structurally constrained (2026-04-04)
-- [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — intercept commands → DB queries for 460x faster navigation (2026-04-04)
-- [[agent-edits-are-automatic-decision-instrumentation]] — every human correction of an agent proposal is a structured decision signal (2026-04-03)
-- [[permissioned-inference-is-harder-than-permissioned-retrieval]] — enterprise context graphs need reasoning-level access control (2026-04-03)
-- [[build-for-the-model-six-months-from-now]] — target the capability frontier the model hasn't reached yet (2026-03-30)

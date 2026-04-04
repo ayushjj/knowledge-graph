@@ -36,3 +36,5 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[skill-folder-structure-is-context-engineering]] — A skill's folder structure is its context architecture — file system as progressive disclosure
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries
 - [[agent-trace-accumulation-produces-emergent-world-models]] — Accumulated agent traces form discovered world models nobody explicitly designed
+- [[workflow-strategies-beat-individual-tool-instructions]] — How tools combine matters more than which tool to call; intentionally narrow strategies generalize best
+- [[two-tier-agent-memory-separates-org-from-user]] — Deployment-level shared workflows + user-level private preferences as separate memory tiers
