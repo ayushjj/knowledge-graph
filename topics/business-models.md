@@ -36,3 +36,5 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[software-bimodal-fork-growth-or-margins-no-middle]] — Comfortable middle is over; accelerate AI growth or rebuild for 40%+ margins
 - [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes
 - [[latent-demand-is-the-strongest-product-signal]] — Make what people already do easier; don't invent new behaviors
+- [[vertical-models-beat-frontier-models-in-their-domain]] — Intercom's Apex beats every frontier model in customer service on all metrics
+- [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: proactive cannibalization as strategy

@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-03-30
-node_count: 135
+last_updated: 2026-04-04
+node_count: 142
 domains: [ai, mental-models]
 
 nodes:
@@ -29,7 +29,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
     outgoing: [context-is-the-product-not-the-model, skills-as-markdown-replace-fine-tuning, rigid-schemas-exist-because-rigid-apps-demand-them]
-    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties, skill-folder-structure-is-context-engineering]
+    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties, skill-folder-structure-is-context-engineering, virtual-filesystems-replace-sandboxes-for-agent-navigation]
 
   technical-knowledge-becomes-liability:
     title: "Technical knowledge can become a liability when working with AI"
@@ -45,7 +45,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning, data-agents-fail-from-missing-context-not-sql-gaps]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, vertical-models-beat-frontier-models-in-their-domain]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -77,8 +77,8 @@ nodes:
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
-    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval]
-    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval]
+    outgoing: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tribal-knowledge-is-the-last-mile-for-agent-automation, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval, traces-not-scores-enable-agent-improvement]
+    incoming: [context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, trust-boundaries-must-be-mapped-and-externalized, reasoning-evaporation-destroys-agent-decision-chains, agent-trace-accumulation-produces-emergent-world-models, agent-edits-are-automatic-decision-instrumentation, permissioned-inference-is-harder-than-permissioned-retrieval, traces-not-scores-enable-agent-improvement]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -134,8 +134,8 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     domain: ai
-    outgoing: [verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, every-optimization-has-a-shadow-regression, stronger-models-expand-the-verification-gap]
-    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die]
+    outgoing: [verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, every-optimization-has-a-shadow-regression, stronger-models-expand-the-verification-gap, self-improving-agents-overfit-to-eval-metrics]
+    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, self-improving-agents-overfit-to-eval-metrics]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -202,15 +202,15 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems, ai-agents]
     source: "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs"
     outgoing: [agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, files-are-the-universal-agent-interface, context-is-the-product-not-the-model]
-    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure, context-layers-supersede-semantic-layers]
+    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure, context-layers-supersede-semantic-layers, virtual-filesystems-replace-sandboxes-for-agent-navigation]
 
   agentic-search-beats-rag-for-live-codebases:
     title: "Agentic search beats RAG for live codebases"
     description: "Claude Code abandoned RAG and vector DB in favor of letting the agent grep/glob/read — reasoning about where to look outperforms pre-indexed similarity search"
     topics: [ai-native-product-architecture, ai-coding-tools]
     source: "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik"
-    outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, context-window-is-the-fundamental-constraint, boring-tech-wins-for-ai-native-startups]
-    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning]
+    outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, context-window-is-the-fundamental-constraint, boring-tech-wins-for-ai-native-startups, virtual-filesystems-replace-sandboxes-for-agent-navigation]
+    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning, virtual-filesystems-replace-sandboxes-for-agent-navigation]
 
   permissioned-inference-is-harder-than-permissioned-retrieval:
     title: "Permissioned inference is harder than permissioned retrieval — enterprise context graphs need reasoning-level access control"
@@ -287,7 +287,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
     outgoing: [parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, social-proof-makes-groups-passive-before-visible-harm, treat-ai-like-distributed-team-not-assistant]
-    incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant, one-session-per-contract-beats-long-running-agents, token-spend-replaces-headcount-as-scaling-unit]
+    incoming: [multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant, one-session-per-contract-beats-long-running-agents, token-spend-replaces-headcount-as-scaling-unit, same-model-pairings-win-through-model-empathy]
 
   outsourcing-is-the-autopilot-wedge:
     title: "Already-outsourced tasks are the autopilot wedge — vendor swap beats reorg"
@@ -344,7 +344,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Ryan Carson — Ralph / Autonomous Coding Loop"
     outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, separate-research-from-implementation-to-preserve-context, verification-multiplies-agent-output-quality, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness]
-    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness, adversarial-branch-walking-beats-review-for-planning, unfocused-agents-develop-path-dependency]
+    incoming: [one-session-per-contract-beats-long-running-agents, parallel-agents-create-management-problem-not-coding-problem, specs-are-external-memory-surviving-context-resets, property-based-testing-explores-agent-input-spaces, harness-quality-beats-model-intelligence, rollback-safety-nets-enable-autonomy-not-intelligence, time-bounded-evaluation-optimizes-for-usefulness, adversarial-branch-walking-beats-review-for-planning, unfocused-agents-develop-path-dependency, meta-agents-beat-manual-harness-engineering]
 
   autopilots-capture-work-budget-not-tool-budget:
     title: "Autopilots capture the work budget — six dollars in services for every one in software"
@@ -439,7 +439,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Boris Cherny — Creator of Claude Code"
     outgoing: [context-window-is-the-fundamental-constraint, compound-engineering-makes-future-work-easier, multi-model-orchestration-beats-any-single-family, parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, intelligence-judgement-ratio-determines-automation-order]
-    incoming: [parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, multi-model-orchestration-beats-any-single-family, uncorrelated-context-windows-are-test-time-compute]
+    incoming: [parallel-agents-create-management-problem-not-coding-problem, deputies-and-sheriffs-distribute-agent-authority, orchestrator-agent-replaces-human-coordination, multi-model-ensemble-catches-single-model-blindspots, multi-model-orchestration-beats-any-single-family, uncorrelated-context-windows-are-test-time-compute, same-model-pairings-win-through-model-empathy]
 
   evolving-summaries-beat-append-only-memory:
     title: "Evolving summaries beat append-only memory — rewrite profiles, don't accumulate facts"
@@ -456,7 +456,7 @@ nodes:
     source: "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)"
     domain: ai
     outgoing: [invert-always-invert-to-solve-hard-problems, verification-multiplies-agent-output-quality, harness-quality-beats-model-intelligence, amplification-widens-the-judgment-gap]
-    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race, auto-generated-monitors-beat-handwritten-broad-checks, amplification-widens-the-judgment-gap, speed-without-feedback-amplifies-errors]
+    incoming: [invert-always-invert-to-solve-hard-problems, verification-is-a-red-queen-race, auto-generated-monitors-beat-handwritten-broad-checks, amplification-widens-the-judgment-gap, speed-without-feedback-amplifies-errors, self-improving-agents-overfit-to-eval-metrics]
 
   treat-agent-as-operating-system-not-function:
     title: "Treat an agent as an operating system, not a stateless function"
@@ -582,7 +582,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
     outgoing: [agent-memory-preserves-institutional-knowledge, evolving-summaries-beat-append-only-memory, three-layer-ai-stack-memory-search-reasoning, context-layers-must-be-living-systems, speed-without-feedback-amplifies-errors]
-    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models, speed-without-feedback-amplifies-errors]
+    incoming: [treat-agent-as-operating-system-not-function, context-layers-must-be-living-systems, observability-is-the-missing-agent-discipline, agent-trace-accumulation-produces-emergent-world-models, speed-without-feedback-amplifies-errors, traces-not-scores-enable-agent-improvement]
 
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
@@ -631,8 +631,8 @@ nodes:
     description: "Designing effective agent tools requires iterating by watching actual model behavior, not specifying upfront; tools that helped weaker models may constrain stronger ones"
     topics: [ai-agents, ai-coding-tools]
     source: "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code"
-    outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, scaffolding-is-tech-debt-against-the-next-model]
-    incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, scaffolding-is-tech-debt-against-the-next-model]
+    outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, scaffolding-is-tech-debt-against-the-next-model, same-model-pairings-win-through-model-empathy]
+    incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, scaffolding-is-tech-debt-against-the-next-model, meta-agents-beat-manual-harness-engineering, same-model-pairings-win-through-model-empathy]
 
   domain-skill-libraries-are-the-real-agent-moat:
     title: "Domain-specific skill libraries are the real agent moat, not core infrastructure"
@@ -641,7 +641,7 @@ nodes:
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
     outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers, proprietary-feedback-loops-widen-the-moat]
-    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat]
+    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat, vertical-models-beat-frontier-models-in-their-domain]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -712,7 +712,7 @@ nodes:
     source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
     domain: ai
     outgoing: [skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool]
-    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer, sell-the-work-not-the-tool, commodity-terminal-value-zero-expert-judgment-compounds, software-bimodal-fork-growth-or-margins-no-middle]
+    incoming: [llm-competition-fragments-markets-not-consolidates, llms-complete-aggregation-theory-by-collapsing-interface-layer, sell-the-work-not-the-tool, commodity-terminal-value-zero-expert-judgment-compounds, software-bimodal-fork-growth-or-margins-no-middle, self-disruption-follows-the-value-chain-downward]
 
   llm-competition-fragments-markets-not-consolidates:
     title: "LLM competition fragments markets from 3 incumbents to 300"
@@ -754,8 +754,8 @@ nodes:
     description: "AI startups need a prerequisite layer beneath PMF: the capability threshold where models can actually satisfy market demands. Legal AI crossed it at 87% accuracy; finance AI at 56% hasn't — same demand, opposite outcomes."
     topics: [business-models, future-of-ai-business]
     source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
-    outgoing: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die]
-    incoming: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die, build-for-the-model-six-months-from-now]
+    outgoing: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die, vertical-models-beat-frontier-models-in-their-domain]
+    incoming: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die, build-for-the-model-six-months-from-now, vertical-models-beat-frontier-models-in-their-domain]
 
   harness-engineers-need-docs-as-first-class-output:
     title: "Harness engineering — humans steer, agents execute, documentation is the system of record"
@@ -771,8 +771,8 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
     domain: ai
-    outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback]
-    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively]
+    outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback, meta-agents-beat-manual-harness-engineering]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -978,7 +978,7 @@ nodes:
     source: "@systematicls — How To Be A World-Class Agentic Engineer"
     domain: ai
     outgoing: [boring-tech-wins-for-ai-native-startups, technology-transitions-create-more-not-less, build-for-the-model-six-months-from-now]
-    incoming: [domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool, build-for-the-model-six-months-from-now]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool, build-for-the-model-six-months-from-now, self-disruption-follows-the-value-chain-downward]
 
   one-session-per-contract-beats-long-running-agents:
     title: "One session per contract beats long-running agent sessions"
@@ -1004,8 +1004,8 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@julienbek — Services: The New Software"
     domain: ai
-    outgoing: [llms-selectively-destroy-vertical-software-moats, frontier-companies-absorb-every-useful-agentic-pattern, domain-skill-libraries-are-the-real-agent-moat, platform-economics-beat-labor-arbitrage]
-    incoming: [llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle]
+    outgoing: [llms-selectively-destroy-vertical-software-moats, frontier-companies-absorb-every-useful-agentic-pattern, domain-skill-libraries-are-the-real-agent-moat, platform-economics-beat-labor-arbitrage, self-disruption-follows-the-value-chain-downward]
+    incoming: [llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle, self-disruption-follows-the-value-chain-downward]
 
   observability-is-the-missing-agent-discipline:
     title: "Observability is the missing discipline for agent systems — you can't improve what you can't measure"
@@ -1014,7 +1014,7 @@ nodes:
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, kv-cache-hit-rate-determines-agent-economics, error-memory-enables-learning-without-retraining, trust-boundaries-must-be-mapped-and-externalized]
-    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized, detect-everything-notify-selectively]
+    incoming: [decision-traces-are-the-missing-data-layer, trust-boundaries-must-be-mapped-and-externalized, detect-everything-notify-selectively, traces-not-scores-enable-agent-improvement]
 
   property-based-testing-explores-agent-input-spaces:
     title: "Property-based testing explores agent input spaces that example-based tests miss"
@@ -1177,3 +1177,73 @@ nodes:
     domain: mental-models
     outgoing: [error-memory-enables-learning-without-retraining, verification-multiplies-agent-output-quality, every-optimization-has-a-shadow-regression, amplification-widens-the-judgment-gap]
     incoming: [error-memory-enables-learning-without-retraining]
+
+  meta-agents-beat-manual-harness-engineering:
+    title: "Meta-agents that autonomously optimize task agents beat hand-engineered harnesses on production benchmarks"
+    description: "AutoAgent's meta-agent hit #1 on SpreadsheetBench (96.5%) and TerminalBench (55.1%) by autonomously iterating on a task agent's harness for 24+ hours"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
+    source_file: sources/kevingu-autoagent-self-optimizing-agents.md
+    domain: ai
+    outgoing: [harness-quality-beats-model-intelligence, tool-design-is-continuous-observation-see-like-an-agent, autonomous-loops-need-small-stories-and-fast-feedback]
+    incoming: [harness-quality-beats-model-intelligence]
+
+  same-model-pairings-win-through-model-empathy:
+    title: "Same-model meta-task pairings outperform cross-model — agents understand their own architecture better than humans or other models do"
+    description: "Claude meta-agent + Claude task agent outperformed Claude meta-agent + GPT task agent because the meta-agent shares weights and implicitly understands how the inner model reasons"
+    topics: [ai-agents]
+    source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
+    source_file: sources/kevingu-autoagent-self-optimizing-agents.md
+    domain: ai
+    outgoing: [treat-ai-like-distributed-team-not-assistant, orchestrator-agent-replaces-human-coordination, tool-design-is-continuous-observation-see-like-an-agent]
+    incoming: [tool-design-is-continuous-observation-see-like-an-agent]
+
+  self-disruption-follows-the-value-chain-downward:
+    title: "Self-disruption follows the value chain downward — software companies must eat their own agent layer before someone else does"
+    description: "Intercom deliberately disrupted their software business with agents, and now disrupts their agent business with AI models, because value accrues to the model layer"
+    topics: [future-of-ai-business, business-models]
+    source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform"
+    source_file: sources/eoghan-fin-api-platform.md
+    domain: ai
+    outgoing: [sell-the-work-not-the-tool, frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats]
+    incoming: [sell-the-work-not-the-tool]
+
+  self-improving-agents-overfit-to-eval-metrics:
+    title: "Self-improving agents overfit to eval metrics — the meta-agent games rubrics unless structurally constrained"
+    description: "AutoAgent's meta-agent gets lazy, inserting rubric-specific prompting so the task agent can game metrics; defense requires forcing self-reflection on generalizability"
+    topics: [ai-agents]
+    source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
+    source_file: sources/kevingu-autoagent-self-optimizing-agents.md
+    domain: ai
+    outgoing: [verification-is-a-red-queen-race, every-optimization-has-a-shadow-regression, harness-quality-beats-model-intelligence]
+    incoming: [verification-is-a-red-queen-race]
+
+  traces-not-scores-enable-agent-improvement:
+    title: "Traces not scores enable agent improvement — without trajectories, improvement rate drops hard"
+    description: "When AutoAgent's meta-agent received only pass/fail scores without reasoning traces, the improvement rate dropped significantly"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
+    source_file: sources/kevingu-autoagent-self-optimizing-agents.md
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, observability-is-the-missing-agent-discipline, error-memory-enables-learning-without-retraining]
+    incoming: [decision-traces-are-the-missing-data-layer]
+
+  vertical-models-beat-frontier-models-in-their-domain:
+    title: "Vertical models beat frontier models in their domain — specialization wins on every metric"
+    description: "Intercom's Apex, a specialized customer service LLM, beat every frontier model on resolution rate, latency, hallucination rate, and cost"
+    topics: [business-models, ai-agents]
+    source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform"
+    source_file: sources/eoghan-fin-api-platform.md
+    domain: ai
+    outgoing: [model-market-fit-before-product-market-fit, domain-skill-libraries-are-the-real-agent-moat, context-is-the-product-not-the-model]
+    incoming: [model-market-fit-before-product-market-fit]
+
+  virtual-filesystems-replace-sandboxes-for-agent-navigation:
+    title: "Virtual filesystems replace sandboxes for agent navigation — intercept commands instead of provisioning infrastructure"
+    description: "Mintlify's ChromaFs intercepts Unix commands and translates them into database queries, cutting boot time from 46 seconds to 100ms and cost from $70k/year to near-zero"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "Mintlify — How We Built a Virtual Filesystem for Our Assistant"
+    source_file: sources/mintlify-virtual-filesystem.md
+    domain: ai
+    outgoing: [agentic-search-beats-rag-for-live-codebases, files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity]
+    incoming: [agentic-search-beats-rag-for-live-codebases]

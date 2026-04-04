@@ -52,3 +52,4 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[scaffolding-is-tech-debt-against-the-next-model]] — Non-model code gives 10-20% gain but gets wiped with the next model
 - [[uncorrelated-context-windows-are-test-time-compute]] — Fresh independent context windows multiply capability
 - [[every-role-codes-when-implementation-cost-drops-to-zero]] — The generalist builder replaces the specialist software engineer
+- [[meta-agents-beat-manual-harness-engineering]] — Autonomous 24hr harness optimization beats hand-engineering on production benchmarks

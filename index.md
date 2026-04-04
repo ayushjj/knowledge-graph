@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[vertical-models-beat-frontier-models-in-their-domain]] — specialized CS model beats all frontier models on every metric (2026-04-04)
+- [[self-disruption-follows-the-value-chain-downward]] — software → agents → AI: proactive cannibalization as strategy (2026-04-04)
+- [[meta-agents-beat-manual-harness-engineering]] — autonomous 24hr harness optimization beats hand-engineering (2026-04-04)
+- [[same-model-pairings-win-through-model-empathy]] — same-model meta/task pairs outperform cross-model (2026-04-04)
+- [[traces-not-scores-enable-agent-improvement]] — without trajectories, improvement rate drops hard (2026-04-04)
+- [[self-improving-agents-overfit-to-eval-metrics]] — meta-agents game rubrics unless structurally constrained (2026-04-04)
+- [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — intercept commands → DB queries for 460x faster navigation (2026-04-04)
 - [[agent-edits-are-automatic-decision-instrumentation]] — every human correction of an agent proposal is a structured decision signal (2026-04-03)
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — enterprise context graphs need reasoning-level access control (2026-04-03)
 - [[build-for-the-model-six-months-from-now]] — target the capability frontier the model hasn't reached yet (2026-03-30)
-- [[latent-demand-is-the-strongest-product-signal]] — make what people already do easier; don't invent new behaviors (2026-03-30)
-- [[scaffolding-is-tech-debt-against-the-next-model]] — non-model code gives 10-20% gain but gets wiped with the next model (2026-03-30)
-- [[uncorrelated-context-windows-are-test-time-compute]] — fresh independent context windows multiply agent capability (2026-03-30)
-- [[every-role-codes-when-implementation-cost-drops-to-zero]] — the generalist builder replaces the specialist software engineer (2026-03-30)
-- [[ai-compresses-execution-not-judgment]] — AI speeds up building but not the judgment of what to build (2026-03-30)
-- [[amplification-widens-the-judgment-gap]] — same tools, divergent outcomes — AI magnifies thinking quality in both directions (2026-03-30)
-- [[dissolved-constraints-shift-bottleneck-to-judgment]] — when execution becomes free, judgment becomes the only game (2026-03-30)

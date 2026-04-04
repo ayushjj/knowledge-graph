@@ -75,3 +75,9 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[agent-trace-accumulation-produces-emergent-world-models]] — Accumulated agent traces form discovered world models nobody explicitly designed
 - [[uncorrelated-context-windows-are-test-time-compute]] — Fresh independent context windows are a form of test time compute
 - [[agent-edits-are-automatic-decision-instrumentation]] — Every human correction of an agent proposal is a structured decision signal
+- [[vertical-models-beat-frontier-models-in-their-domain]] — Specialized CS model beats all frontier models on resolution, latency, hallucination, cost
+- [[meta-agents-beat-manual-harness-engineering]] — AutoAgent's meta-agent hit #1 on SpreadsheetBench and TerminalBench autonomously
+- [[same-model-pairings-win-through-model-empathy]] — Same-model meta/task pairs outperform cross-model through shared reasoning architecture
+- [[traces-not-scores-enable-agent-improvement]] — Without trajectories, agent improvement rate drops hard
+- [[self-improving-agents-overfit-to-eval-metrics]] — Meta-agents game rubrics unless structurally constrained
+- [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — Intercept commands → DB queries; 460x faster, near-zero cost

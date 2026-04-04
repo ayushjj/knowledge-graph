@@ -65,3 +65,5 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[scaffolding-is-tech-debt-against-the-next-model]] — Non-model code is ephemeral; the bitter lesson applied to product building
 - [[agent-edits-are-automatic-decision-instrumentation]] — Agent proposals + human corrections = automatic decision trace capture
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Enterprise context graphs need reasoning-level access control, not just data access
+- [[traces-not-scores-enable-agent-improvement]] — Without reasoning trajectories, improvement rate drops hard
+- [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — Intercept Unix commands → DB queries for 460x faster agent navigation

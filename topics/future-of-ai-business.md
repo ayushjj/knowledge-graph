@@ -52,3 +52,4 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[build-for-the-model-six-months-from-now]] — Today's PMF gets leapfrogged; build for where the model is heading
 - [[every-role-codes-when-implementation-cost-drops-to-zero]] — PMs, designers, finance all code when AI handles implementation
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Controlling whose history shapes reasoning is the unsolved enterprise trust layer
+- [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: value accrues to the model layer
