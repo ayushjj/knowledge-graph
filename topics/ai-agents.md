@@ -86,3 +86,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[workflow-strategies-beat-individual-tool-instructions]] — How tools combine matters more than which tool to call
 - [[shadow-execution-enables-safe-trace-learning]] — Replay writes in shadow path to learn from realistic flows safely
 - [[two-tier-agent-memory-separates-org-from-user]] — Shared workflow strategies + private user preferences as separate memory layers
+- [[compilation-scales-curation-compounds]] — LLM-compiled systems scale fast; human-curated systems compound through connections
+- [[intelligence-location-determines-system-fragility]] — Code vs prompts: rigid-but-reliable vs flexible-but-fragile; best systems need both

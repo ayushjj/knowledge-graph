@@ -38,3 +38,8 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[agent-trace-accumulation-produces-emergent-world-models]] — Accumulated agent traces form discovered world models nobody explicitly designed
 - [[workflow-strategies-beat-individual-tool-instructions]] — How tools combine matters more than which tool to call; intentionally narrow strategies generalize best
 - [[two-tier-agent-memory-separates-org-from-user]] — Deployment-level shared workflows + user-level private preferences as separate memory tiers
+- [[knowledge-systems-need-dual-layer-storage]] — Narrative depth and structured queries need different storage with a routing layer
+- [[navigation-beats-search-for-knowledge-retrieval]] — Let each data source keep its native query interface instead of flattening into embeddings
+- [[compilation-scales-curation-compounds]] — LLM-compiled systems grow fast; human-curated systems compound through validated connections
+- [[knowledge-evolution-is-the-biggest-unsolved-problem]] — Nobody has solved how graphs grow without rotting — the biggest gap across all systems
+- [[intelligence-location-determines-system-fragility]] — Code vs prompts: rigid-but-reliable vs flexible-but-fragile; best systems need both

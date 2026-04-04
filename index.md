@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[knowledge-systems-need-dual-layer-storage]] — narrative depth and structured queries need different storage with routing (2026-04-04)
+- [[navigation-beats-search-for-knowledge-retrieval]] — native query interfaces beat flattening into vector embeddings (2026-04-04)
+- [[compilation-scales-curation-compounds]] — LLM-compiled grows fast, human-curated compounds through connections (2026-04-04)
+- [[knowledge-evolution-is-the-biggest-unsolved-problem]] — nobody has solved graph evolution — biggest gap across all systems (2026-04-04)
+- [[intelligence-location-determines-system-fragility]] — code vs prompts determines fragility; best systems need both (2026-04-04)
 - [[trace-data-retention-must-match-ai-knowledge-lifespan]] — 30-day SaaS retention destroys AI institutional knowledge (2026-04-04)
 - [[evals-must-augment-traces-in-place-not-diverge]] — evaluations live on trace data; divergent copies drift by design (2026-04-04)
 - [[teacher-student-trace-distillation-beats-single-oracle]] — multi-trace consensus beats single high-reasoning oracle (2026-04-04)
 - [[workflow-strategies-beat-individual-tool-instructions]] — how tools combine matters more than which tool to call (2026-04-04)
 - [[shadow-execution-enables-safe-trace-learning]] — shadow-path write replays enable safe learning from production flows (2026-04-04)
-- [[two-tier-agent-memory-separates-org-from-user]] — shared workflows + private preferences as separate memory layers (2026-04-04)
-- [[vertical-models-beat-frontier-models-in-their-domain]] — specialized CS model beats all frontier models on every metric (2026-04-04)
-- [[self-disruption-follows-the-value-chain-downward]] — software → agents → AI: proactive cannibalization as strategy (2026-04-04)
-- [[meta-agents-beat-manual-harness-engineering]] — autonomous 24hr harness optimization beats hand-engineering (2026-04-04)
-- [[same-model-pairings-win-through-model-empathy]] — same-model meta/task pairs outperform cross-model (2026-04-04)

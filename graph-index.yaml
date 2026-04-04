@@ -11,7 +11,7 @@
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
 last_updated: 2026-04-04
-node_count: 148
+node_count: 153
 domains: [ai, mental-models]
 
 nodes:
@@ -21,7 +21,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@danshipper — Agent-Native Architectures (co-authored with Claude)"
     outgoing: [declarative-beats-imperative-for-agents, malleable-software-writes-its-own-extensions]
-    incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions, personal-software-grows-through-relationship-not-configuration, metadata-for-llm-consumers-needs-trigger-specs-not-summaries]
+    incoming: [skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, software-abundance-unlocks-categories-that-never-existed, response-ux-should-match-retrieval-intelligence, webmcp-turns-websites-into-agent-native-interfaces, malleable-software-writes-its-own-extensions, personal-software-grows-through-relationship-not-configuration, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, intelligence-location-determines-system-fragility]
 
   files-are-the-universal-agent-interface:
     title: "Files are the universal interface between humans and agents"
@@ -29,7 +29,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
     outgoing: [context-is-the-product-not-the-model, skills-as-markdown-replace-fine-tuning, rigid-schemas-exist-because-rigid-apps-demand-them]
-    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties, skill-folder-structure-is-context-engineering, virtual-filesystems-replace-sandboxes-for-agent-navigation]
+    incoming: [context-is-the-product-not-the-model, specs-are-external-memory-surviving-context-resets, agent-memory-preserves-institutional-knowledge, structure-plus-reasoning-beats-flat-similarity, skill-graphs-enable-progressive-disclosure, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning, harness-engineers-need-docs-as-first-class-output, context-inefficiency-compounds-three-penalties, skill-folder-structure-is-context-engineering, virtual-filesystems-replace-sandboxes-for-agent-navigation, knowledge-systems-need-dual-layer-storage]
 
   technical-knowledge-becomes-liability:
     title: "Technical knowledge can become a liability when working with AI"
@@ -135,7 +135,7 @@ nodes:
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, every-optimization-has-a-shadow-regression, stronger-models-expand-the-verification-gap, self-improving-agents-overfit-to-eval-metrics]
-    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, self-improving-agents-overfit-to-eval-metrics]
+    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, self-improving-agents-overfit-to-eval-metrics, knowledge-evolution-is-the-biggest-unsolved-problem]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -185,7 +185,7 @@ nodes:
     topics: [ai-native-product-architecture]
     source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
     outgoing: [structure-plus-reasoning-beats-flat-similarity, agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model]
-    incoming: [agentic-search-beats-rag-for-live-codebases, hybrid-search-is-the-default-not-the-exception, embeddings-measure-similarity-not-truth, evaluate-tools-with-real-multi-step-tasks, data-agents-fail-from-missing-context-not-sql-gaps]
+    incoming: [agentic-search-beats-rag-for-live-codebases, hybrid-search-is-the-default-not-the-exception, embeddings-measure-similarity-not-truth, evaluate-tools-with-real-multi-step-tasks, data-agents-fail-from-missing-context-not-sql-gaps, navigation-beats-search-for-knowledge-retrieval]
 
   stronger-models-expand-the-verification-gap:
     title: "Stronger models expand the verification gap, not close it"
@@ -201,8 +201,8 @@ nodes:
     description: "Across documents, code, and skills, the same pattern holds: structured knowledge navigated by reasoning outperforms flat indexes searched by similarity"
     topics: [ai-native-product-architecture, knowledge-systems, ai-agents]
     source: "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs"
-    outgoing: [agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, files-are-the-universal-agent-interface, context-is-the-product-not-the-model]
-    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure, context-layers-supersede-semantic-layers, virtual-filesystems-replace-sandboxes-for-agent-navigation]
+    outgoing: [agentic-search-beats-rag-for-live-codebases, skill-graphs-enable-progressive-disclosure, files-are-the-universal-agent-interface, context-is-the-product-not-the-model, knowledge-systems-need-dual-layer-storage, navigation-beats-search-for-knowledge-retrieval]
+    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, skill-graphs-enable-progressive-disclosure, context-layers-supersede-semantic-layers, virtual-filesystems-replace-sandboxes-for-agent-navigation, knowledge-systems-need-dual-layer-storage, navigation-beats-search-for-knowledge-retrieval]
 
   agentic-search-beats-rag-for-live-codebases:
     title: "Agentic search beats RAG for live codebases"
@@ -210,7 +210,7 @@ nodes:
     topics: [ai-native-product-architecture, ai-coding-tools]
     source: "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik"
     outgoing: [similarity-is-not-relevance-relevance-requires-reasoning, context-window-is-the-fundamental-constraint, boring-tech-wins-for-ai-native-startups, virtual-filesystems-replace-sandboxes-for-agent-navigation]
-    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning, virtual-filesystems-replace-sandboxes-for-agent-navigation]
+    incoming: [similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning, virtual-filesystems-replace-sandboxes-for-agent-navigation, navigation-beats-search-for-knowledge-retrieval]
 
   permissioned-inference-is-harder-than-permissioned-retrieval:
     title: "Permissioned inference is harder than permissioned retrieval — enterprise context graphs need reasoning-level access control"
@@ -270,7 +270,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, skills-as-markdown-replace-fine-tuning, context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat]
-    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers, skill-folder-structure-is-context-engineering, workflow-strategies-beat-individual-tool-instructions]
+    incoming: [structure-plus-reasoning-beats-flat-similarity, tiered-retrieval-prevents-context-overload, tool-design-is-continuous-observation-see-like-an-agent, claude-md-should-be-routing-table-not-knowledge-base, context-layers-supersede-semantic-layers, skill-folder-structure-is-context-engineering, workflow-strategies-beat-individual-tool-instructions, compilation-scales-curation-compounds]
 
   skill-folder-structure-is-context-engineering:
     title: "A skill's folder structure is its context architecture — the file system is a form of context engineering"
@@ -446,8 +446,8 @@ nodes:
     description: "An evolve_summary() function that rewrites category profiles with new information handles contradictions naturally, unlike append-only logs"
     topics: [knowledge-systems, ai-agents]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
-    outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets, two-tier-agent-memory-separates-org-from-user]
-    incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining, first-conclusions-become-nearly-permanent]
+    outgoing: [agent-memory-preserves-institutional-knowledge, specs-are-external-memory-surviving-context-resets, two-tier-agent-memory-separates-org-from-user, knowledge-evolution-is-the-biggest-unsolved-problem]
+    incoming: [embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining, first-conclusions-become-nearly-permanent, compilation-scales-curation-compounds, knowledge-evolution-is-the-biggest-unsolved-problem]
 
   every-optimization-has-a-shadow-regression:
     title: "Every optimization has a shadow regression — guard commands make the shadow visible"
@@ -523,7 +523,7 @@ nodes:
     topics: [ai-native-product-architecture, ai-agents]
     source: "Synthesis from Supermemory, QMD, and PageIndex architectures"
     outgoing: [hybrid-search-is-the-default-not-the-exception, agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, context-is-the-product-not-the-model, agent-memory-preserves-institutional-knowledge, tiered-retrieval-prevents-context-overload]
-    incoming: [postgresql-scales-further-than-you-think, response-ux-should-match-retrieval-intelligence, prompt-caching-makes-long-context-economically-viable, hybrid-search-is-the-default-not-the-exception, treat-agent-as-operating-system-not-function, embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining]
+    incoming: [postgresql-scales-further-than-you-think, response-ux-should-match-retrieval-intelligence, prompt-caching-makes-long-context-economically-viable, hybrid-search-is-the-default-not-the-exception, treat-agent-as-operating-system-not-function, embeddings-measure-similarity-not-truth, error-memory-enables-learning-without-retraining, knowledge-systems-need-dual-layer-storage]
 
 
   compound-engineering-makes-future-work-easier:
@@ -531,8 +531,8 @@ nodes:
     description: "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learning compounds across iterations, not just code"
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
-    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, negative-maintenance-reduces-future-work-for-everyone]
-    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models, negative-maintenance-reduces-future-work-for-everyone, latent-demand-is-the-strongest-product-signal]
+    outgoing: [harness-engineers-need-docs-as-first-class-output, skills-as-markdown-replace-fine-tuning, declarative-beats-imperative-for-agents, agent-memory-preserves-institutional-knowledge, session-capture-compounds-development-knowledge, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, negative-maintenance-reduces-future-work-for-everyone, compilation-scales-curation-compounds]
+    incoming: [verification-multiplies-agent-output-quality, autonomous-loops-need-small-stories-and-fast-feedback, dont-be-the-discriminator-be-the-patron, treat-ai-like-distributed-team-not-assistant, treat-agent-as-operating-system-not-function, session-capture-compounds-development-knowledge, building-beats-following-for-ai-mastery, tools-are-contracts-between-deterministic-and-nondeterministic-systems, evaluate-tools-with-real-multi-step-tasks, harness-engineers-need-docs-as-first-class-output, claude-md-should-be-routing-table-not-knowledge-base, context-layers-must-be-living-systems, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, harness-quality-beats-model-intelligence, agent-trace-accumulation-produces-emergent-world-models, negative-maintenance-reduces-future-work-for-everyone, latent-demand-is-the-strongest-product-signal, compilation-scales-curation-compounds]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -566,7 +566,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@vasuman — AI Agents 101"
     outgoing: [declarative-beats-imperative-for-agents, verification-multiplies-agent-output-quality, context-is-the-product-not-the-model]
-    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals, safety-enforcement-belongs-in-tool-design-not-prompts, intelligence-judgement-ratio-determines-automation-order, detect-everything-notify-selectively]
+    incoming: [saas-survives-as-governance-and-coordination-layer, orchestrator-agent-replaces-human-coordination, multi-model-orchestration-beats-any-single-family, systems-that-prevent-bad-behavior-beat-moral-appeals, safety-enforcement-belongs-in-tool-design-not-prompts, intelligence-judgement-ratio-determines-automation-order, detect-everything-notify-selectively, intelligence-location-determines-system-fragility]
 
   malleable-software-writes-its-own-extensions:
     title: "Malleable software — a tiny core that writes its own plugins — replaces fixed-feature applications"
@@ -658,8 +658,8 @@ nodes:
     topics: [ai-native-product-architecture, ai-agents]
     source: "@jasonscui — Your Data Agents Need Context, a16z"
     domain: ai
-    outgoing: [error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier]
-    incoming: [error-memory-enables-learning-without-retraining]
+    outgoing: [error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier, knowledge-evolution-is-the-biggest-unsolved-problem]
+    incoming: [error-memory-enables-learning-without-retraining, knowledge-evolution-is-the-biggest-unsolved-problem]
 
   context-layers-supersede-semantic-layers:
     title: "Context layers supersede semantic layers for agent autonomy"
@@ -730,7 +730,7 @@ nodes:
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
     outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, production-agents-route-decisions-not-every-call-to-llm]
-    incoming: [evaluate-tools-with-real-multi-step-tasks]
+    incoming: [evaluate-tools-with-real-multi-step-tasks, intelligence-location-determines-system-fragility]
 
   saas-grows-but-consolidates-around-platforms:
     title: "AI won't destroy SaaS moats — it'll make the biggest ones even bigger"
@@ -771,8 +771,8 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
     domain: ai
-    outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback, meta-agents-beat-manual-harness-engineering]
-    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics]
+    outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback, meta-agents-beat-manual-harness-engineering, intelligence-location-determines-system-fragility]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics, intelligence-location-determines-system-fragility]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -1306,4 +1306,54 @@ nodes:
     source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
     domain: ai
     outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, agent-memory-preserves-institutional-knowledge]
-    incoming: [evolving-summaries-beat-append-only-memory]
+    incoming: [evolving-summaries-beat-append-only-memory, knowledge-systems-need-dual-layer-storage]
+
+  compilation-scales-curation-compounds:
+    title: "Compilation scales but curation compounds — two camps for knowledge graph construction"
+    description: "LLM-compiled systems grow fast by feeding raw content through model judgment; human-curated systems grow slowly but every node is validated — compilation scales linearly, curation compounds through connections"
+    topics: [knowledge-systems, ai-agents]
+    source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
+    source_file: specs/knowledge-graph-architectures/research.md
+    domain: ai
+    outgoing: [compound-engineering-makes-future-work-easier, skill-graphs-enable-progressive-disclosure, evolving-summaries-beat-append-only-memory]
+    incoming: [compound-engineering-makes-future-work-easier]
+
+  intelligence-location-determines-system-fragility:
+    title: "Intelligence location — code vs prompts — determines system fragility and flexibility"
+    description: "Prompt-driven systems are flexible but break when models change; code-driven systems are rigid but reliable — best systems need both"
+    topics: [knowledge-systems, ai-native-product-architecture, ai-agents]
+    source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
+    source_file: specs/knowledge-graph-architectures/research.md
+    domain: ai
+    outgoing: [features-are-prompts-not-code, safety-enforcement-belongs-in-tool-design-not-prompts, harness-quality-beats-model-intelligence, production-agents-route-decisions-not-every-call-to-llm]
+    incoming: [harness-quality-beats-model-intelligence]
+
+  knowledge-evolution-is-the-biggest-unsolved-problem:
+    title: "Knowledge evolution is the biggest unsolved problem across all graph architectures"
+    description: "Almost nobody has solved how knowledge graphs grow without rotting — most are append-only, auto-decay is too aggressive, and even the best systems only add links without pruning, merging, or detecting contradictions"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
+    source_file: specs/knowledge-graph-architectures/research.md
+    domain: ai
+    outgoing: [evolving-summaries-beat-append-only-memory, context-layers-must-be-living-systems, verification-is-a-red-queen-race]
+    incoming: [evolving-summaries-beat-append-only-memory, context-layers-must-be-living-systems]
+
+  knowledge-systems-need-dual-layer-storage:
+    title: "Knowledge systems need dual-layer storage — narrative depth and structured queries can't share a format"
+    description: "Every system beyond 'markdown files in a folder' discovers that narrative depth and structured querying need different storage layers with a routing mechanism between them"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
+    source_file: specs/knowledge-graph-architectures/research.md
+    domain: ai
+    outgoing: [structure-plus-reasoning-beats-flat-similarity, files-are-the-universal-agent-interface, three-layer-ai-stack-memory-search-reasoning, two-tier-agent-memory-separates-org-from-user]
+    incoming: [structure-plus-reasoning-beats-flat-similarity]
+
+  navigation-beats-search-for-knowledge-retrieval:
+    title: "Navigation beats search for knowledge retrieval — let each data source keep its native query interface"
+    description: "Vector similarity search flattens everything into one embedding space, losing native query affordances; better to let SQL be SQL, files be files, and build a routing layer"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
+    source_file: specs/knowledge-graph-architectures/research.md
+    domain: ai
+    outgoing: [structure-plus-reasoning-beats-flat-similarity, similarity-is-not-relevance-relevance-requires-reasoning, agentic-search-beats-rag-for-live-codebases]
+    incoming: [structure-plus-reasoning-beats-flat-similarity]

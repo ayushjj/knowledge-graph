@@ -71,3 +71,7 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[evals-must-augment-traces-in-place-not-diverge]] — Evaluations should live on trace data, not alongside it; divergent copies drift by design
 - [[teacher-student-trace-distillation-beats-single-oracle]] — Multi-student + teacher consensus beats relying on a single high-reasoning trace
 - [[shadow-execution-enables-safe-trace-learning]] — Shadow-path write replays enable learning from realistic flows without touching production
+- [[knowledge-systems-need-dual-layer-storage]] — Every mature system discovers narrative depth and structured queries need separate storage
+- [[navigation-beats-search-for-knowledge-retrieval]] — Native query interfaces beat flattening everything into vector embeddings
+- [[knowledge-evolution-is-the-biggest-unsolved-problem]] — Append-only graphs rot; nobody has solved pruning, merging, or contradiction detection
+- [[intelligence-location-determines-system-fragility]] — Where you put intelligence (code vs prompts) determines fragility and flexibility
