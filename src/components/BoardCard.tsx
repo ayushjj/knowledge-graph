@@ -19,31 +19,29 @@ function BoardCardInner({ data }: NodeProps<BoardCardNode>) {
   return (
     <div
       style={{
-        width: 220,
-        height: 100,
+        width: 200,
+        height: 90,
         opacity: dimmed ? 0.15 : 1,
-        boxShadow: selected ? `0 0 12px 2px ${topicColor}` : 'none',
+        boxShadow: selected
+          ? `0 0 16px 3px ${topicColor}, 0 0 0 1px ${topicColor}`
+          : `0 2px 8px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.04)`,
+        borderTop: `3px solid ${topicColor}`,
+        background: `linear-gradient(135deg, ${topicColor}18 0%, ${topicColor}08 100%)`,
         transition: 'opacity 0.2s, box-shadow 0.2s',
       }}
-      className="relative rounded-lg border border-border bg-bg-card overflow-hidden"
+      className="relative rounded-md border border-border-hover overflow-hidden"
     >
-      {/* Topic color bar */}
-      <div
-        style={{ backgroundColor: topicColor, height: 3 }}
-        className="w-full"
-      />
-
       {/* Content */}
-      <div className="px-2.5 pt-1.5 pb-2">
+      <div className="px-2.5 pt-2 pb-2">
         <div
           className="text-text-primary font-semibold leading-tight"
-          style={{ fontSize: 14, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}
+          style={{ fontSize: 13, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}
         >
           {label}
         </div>
         <div
-          className="text-text-muted mt-0.5"
-          style={{ fontSize: 11, display: '-webkit-box', WebkitLineClamp: 1, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}
+          className="mt-1"
+          style={{ fontSize: 10, color: `${topicColor}aa`, display: '-webkit-box', WebkitLineClamp: 1, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}
         >
           {description}
         </div>
@@ -51,8 +49,8 @@ function BoardCardInner({ data }: NodeProps<BoardCardNode>) {
 
       {/* Degree badge */}
       <div
-        className="absolute bottom-1.5 right-2 text-text-dim font-mono"
-        style={{ fontSize: 10 }}
+        className="absolute bottom-1 right-2 font-mono"
+        style={{ fontSize: 9, color: `${topicColor}66` }}
       >
         {degree}
       </div>

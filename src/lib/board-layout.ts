@@ -27,11 +27,11 @@ export interface LayoutResult {
 }
 
 // Layout constants
-const CARD_W = 240;
-const CARD_H = 130;
-const COLS = 4;
-const ZONE_PAD = 60;
-const ZONE_GAP = 160;
+const CARD_W = 220;
+const CARD_H = 110;
+const COLS = 6;
+const ZONE_PAD = 40;
+const ZONE_GAP = 120;
 
 /**
  * Compute fixed positions for all nodes in a topic-zone grid layout.

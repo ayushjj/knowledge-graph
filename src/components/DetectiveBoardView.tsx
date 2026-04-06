@@ -50,9 +50,11 @@ interface ZoneLabelData {
 }
 
 const zoneLabelStyle: React.CSSProperties = {
-  fontSize: 20,
-  fontWeight: 700,
-  color: 'rgba(255, 255, 255, 0.12)',
+  fontSize: 28,
+  fontWeight: 800,
+  color: 'rgba(255, 255, 255, 0.08)',
+  letterSpacing: '0.08em',
+  textTransform: 'uppercase' as const,
   pointerEvents: 'none',
   userSelect: 'none',
   whiteSpace: 'nowrap',
@@ -192,7 +194,7 @@ function DetectiveBoard({ basePath }: DetectiveBoardViewProps) {
       nodes.push({
         id: gNode.id,
         type: 'boardCard',
-        position: { x: pos.x - 110, y: pos.y - 50 }, // center the 220x100 card
+        position: { x: pos.x - 100, y: pos.y - 45 }, // center the 200x90 card
         data,
       });
     }
@@ -335,9 +337,8 @@ function DetectiveBoard({ basePath }: DetectiveBoardViewProps) {
           onNodeClick={onNodeClick}
           onNodeDoubleClick={onNodeDoubleClick}
           onPaneClick={onPaneClick}
-          fitView
-          fitViewOptions={{ padding: 0.08 }}
-          minZoom={0.1}
+          defaultViewport={{ x: 50, y: 50, zoom: 0.45 }}
+          minZoom={0.15}
           maxZoom={1.5}
           nodesDraggable={false}
           nodesConnectable={false}
