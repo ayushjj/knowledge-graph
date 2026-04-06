@@ -43,3 +43,6 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[compilation-scales-curation-compounds]] — LLM-compiled systems grow fast; human-curated systems compound through validated connections
 - [[knowledge-evolution-is-the-biggest-unsolved-problem]] — Nobody has solved how graphs grow without rotting — the biggest gap across all systems
 - [[intelligence-location-determines-system-fragility]] — Code vs prompts: rigid-but-reliable vs flexible-but-fragile; best systems need both
+- [[agents-learn-at-three-layers-model-harness-context]] — Model weights, harness code, and context configuration as three distinct learning surfaces
+- [[context-learning-spans-agent-tenant-and-org-levels]] — Agent-level, tenant-level, and org-level context updates can mix and match
+- [[hot-path-vs-offline-learning-are-two-temporal-modes]] — Real-time learning during tasks vs batch processing traces after the fact

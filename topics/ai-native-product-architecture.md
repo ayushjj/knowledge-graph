@@ -75,3 +75,7 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[navigation-beats-search-for-knowledge-retrieval]] — Native query interfaces beat flattening everything into vector embeddings
 - [[knowledge-evolution-is-the-biggest-unsolved-problem]] — Append-only graphs rot; nobody has solved pruning, merging, or contradiction detection
 - [[intelligence-location-determines-system-fragility]] — Where you put intelligence (code vs prompts) determines fragility and flexibility
+- [[traces-are-the-universal-substrate-for-agent-learning]] — All learning loops consume the same raw material: execution traces
+- [[evolved-harnesses-transfer-across-models]] — A single optimized harness improves five different LLMs
+- [[causal-triage-must-gate-automated-fixes]] — Statistical regression detection can't distinguish your bugs from external failures
+- [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]] — Evals shape agent behavior like selection pressure; quality over quantity

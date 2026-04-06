@@ -88,3 +88,11 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[two-tier-agent-memory-separates-org-from-user]] — Shared workflow strategies + private user preferences as separate memory layers
 - [[compilation-scales-curation-compounds]] — LLM-compiled systems scale fast; human-curated systems compound through connections
 - [[intelligence-location-determines-system-fragility]] — Code vs prompts: rigid-but-reliable vs flexible-but-fragile; best systems need both
+- [[agents-learn-at-three-layers-model-harness-context]] — Model weights, harness code, and context configuration as three distinct learning surfaces
+- [[traces-are-the-universal-substrate-for-agent-learning]] — All learning loops consume the same raw material: execution traces
+- [[context-learning-spans-agent-tenant-and-org-levels]] — Agent-level, tenant-level, and org-level context updates can mix and match
+- [[hot-path-vs-offline-learning-are-two-temporal-modes]] — Real-time learning during tasks vs batch processing traces after the fact
+- [[full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]] — 10M tokens of full traces outperforms 26K compressed summaries
+- [[evolved-harnesses-transfer-across-models]] — A single optimized harness improves five different LLMs
+- [[causal-triage-must-gate-automated-fixes]] — Statistical regression detection can't distinguish your bugs from external failures
+- [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]] — Each eval shapes agent behavior; poorly chosen evals distort development
