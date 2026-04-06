@@ -10,7 +10,7 @@
       ],
       "source": "@danshipper — Agent-Native Architectures (co-authored with Claude)",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -23,7 +23,7 @@
       ],
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
-      "degree": 13,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -40,6 +40,19 @@
       "domain": "ai"
     },
     {
+      "id": "context-learning-spans-agent-tenant-and-org-levels",
+      "label": "Context learning spans agent, tenant, and org levels — and you can mix all three",
+      "description": "Agent-level context updates the agent's own configuration over time; tenant-level (user/org/team) gives each tenant their own evolving context; production systems mix multiple levels simultaneously",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "context-is-the-product-not-the-model",
       "label": "Context is the product, not the model",
       "description": "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode",
@@ -49,7 +62,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 26,
+      "degree": 27,
       "domain": "ai"
     },
     {
@@ -101,7 +114,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 18,
+      "degree": 23,
       "domain": "ai"
     },
     {
@@ -191,7 +204,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -204,7 +217,7 @@
       ],
       "source": "Ashpreet Bedi — Agents That Learn (Agno Framework)",
       "color": "#f43f5e",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -234,6 +247,19 @@
       "domain": "ai"
     },
     {
+      "id": "agents-learn-at-three-layers-model-harness-context",
+      "label": "Agents learn at three distinct layers — model weights, harness code, and context configuration",
+      "description": "Most people jump to model fine-tuning when discussing agent learning, but learning also happens at the harness layer (code, tools, instructions baked into all instances) and the context layer (per-user or per-tenant configuration like CLAUDE.md and skills)",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
       "id": "agent-edits-are-automatic-decision-instrumentation",
       "label": "Agent edits are automatic decision instrumentation — every human correction is a structured signal",
       "description": "When agents propose and humans edit, the delta between proposal and correction captures tacit judgment as first-class data without requiring manual logging",
@@ -243,7 +269,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -256,7 +282,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 13,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -268,7 +294,7 @@
       ],
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -295,7 +321,7 @@
       ],
       "source": "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs",
       "color": "#8b5cf6",
-      "degree": 7,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -308,7 +334,7 @@
       ],
       "source": "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik",
       "color": "#8b5cf6",
-      "degree": 6,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -397,7 +423,7 @@
       ],
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
-      "degree": 11,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -423,7 +449,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -514,7 +540,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 17,
+      "degree": 18,
       "domain": "ai"
     },
     {
@@ -654,7 +680,7 @@
       ],
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
-      "degree": 14,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -667,6 +693,19 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
+      "degree": 10,
+      "domain": "ai"
+    },
+    {
+      "id": "evolved-harnesses-transfer-across-models",
+      "label": "Evolved harnesses transfer across models — a single optimized harness improves five different LLMs",
+      "description": "Meta-Harness discovered a retrieval harness that improved math reasoning by 4.7 percentage points average across five held-out models it was never optimized for, suggesting harness quality is model-agnostic",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
+      "color": "#6366f1",
       "degree": 5,
       "domain": "ai"
     },
@@ -680,7 +719,7 @@
       ],
       "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -719,7 +758,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -732,7 +771,7 @@
       ],
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -745,7 +784,7 @@
       ],
       "source": "shadcn (via X/Twitter) — /done skill pattern",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -784,7 +823,7 @@
       ],
       "source": "Synthesis from Supermemory, QMD, and PageIndex architectures",
       "color": "#8b5cf6",
-      "degree": 13,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -797,7 +836,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 26,
+      "degree": 29,
       "domain": "ai"
     },
     {
@@ -823,7 +862,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -849,7 +888,7 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -875,7 +914,7 @@
       ],
       "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -902,6 +941,19 @@
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#f59e0b",
       "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "label": "Evals are behavioral pressure vectors, not neutral measurements — poorly chosen evals distort agent development",
+      "description": "Each eval shapes agent behavior like a selection pressure; accumulating tests without strategic purpose creates 'an illusion of improving your agent' while distorting development in unproductive directions",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "LangChain — How We Build Evals for Deep Agents",
+      "color": "#6366f1",
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -940,7 +992,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works; Andrej Karpathy — autoresearch program.md",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -953,7 +1005,7 @@
       ],
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -966,7 +1018,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -992,7 +1044,7 @@
       ],
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#8b5cf6",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1069,7 +1121,7 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1095,7 +1147,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -1134,7 +1186,20 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 5,
+      "degree": 7,
+      "domain": "ai"
+    },
+    {
+      "id": "hot-path-vs-offline-learning-are-two-temporal-modes",
+      "label": "Hot-path and offline learning are two temporal modes for agent context updates — each with different tradeoffs",
+      "description": "Agents can update their context in the hot path (during task execution, like saving to memory while working) or offline (batch processing recent traces after the fact, like OpenClaw's 'dreaming'), with an additional dimension of explicit vs implicit memory updates",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
+      "color": "#6366f1",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -1160,7 +1225,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 11,
+      "degree": 19,
       "domain": "ai"
     },
     {
@@ -1303,7 +1368,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1331,6 +1396,19 @@
       "color": "#f97316",
       "degree": 5,
       "domain": "mental-models"
+    },
+    {
+      "id": "causal-triage-must-gate-automated-fixes",
+      "label": "Causal triage must gate automated fixes — statistical regression detection alone can't distinguish your bugs from external failures",
+      "description": "Raw error-rate spikes after deployment can't tell you whether YOUR code broke or a third-party API went down; a triage agent that establishes causal links between code changes and observed errors must gate any automated fixing agent",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "Vishnu Suresh (LangChain) — How My Agents Self-Heal in Production",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
     },
     {
       "id": "circle-of-competence-determines-where-you-can-win",
@@ -1450,6 +1528,19 @@
       "domain": "ai"
     },
     {
+      "id": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
+      "label": "Full trace filesystems beat compressed summaries for harness optimization — 10M tokens of context outperforms 26K",
+      "description": "Meta-Harness gives its proposer agent a filesystem containing full source code, scores, and execution traces of every prior candidate, enabling up to 10M tokens of diagnostic context per iteration",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "frontier-companies-absorb-every-useful-agentic-pattern",
       "label": "Frontier companies absorb every useful agentic pattern into their products",
       "description": "If a workaround truly works, OpenAI/Anthropic will build it in — skills, memory, planning all get absorbed, making the wrapper layer fragile",
@@ -1459,7 +1550,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1498,7 +1589,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 7,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1511,7 +1602,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -1563,7 +1654,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1602,7 +1693,7 @@
       ],
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1667,7 +1758,7 @@
       ],
       "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -1745,6 +1836,251 @@
       "color": "#a855f7",
       "degree": 5,
       "domain": "mental-models"
+    },
+    {
+      "id": "meta-agents-beat-manual-harness-engineering",
+      "label": "Meta-agents that autonomously optimize task agents beat hand-engineered harnesses on production benchmarks",
+      "description": "AutoAgent's meta-agent hit #1 on SpreadsheetBench (96.5%) and TerminalBench (55.1%) by autonomously iterating on a task agent's harness for 24+ hours",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
+      "color": "#6366f1",
+      "degree": 8,
+      "domain": "ai"
+    },
+    {
+      "id": "same-model-pairings-win-through-model-empathy",
+      "label": "Same-model meta-task pairings outperform cross-model — agents understand their own architecture better than humans or other models do",
+      "description": "Claude meta-agent + Claude task agent outperformed Claude meta-agent + GPT task agent because the meta-agent shares weights and implicitly understands how the inner model reasons",
+      "topics": [
+        "ai-agents"
+      ],
+      "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "self-disruption-follows-the-value-chain-downward",
+      "label": "Self-disruption follows the value chain downward — software companies must eat their own agent layer before someone else does",
+      "description": "Intercom deliberately disrupted their software business with agents, and now disrupts their agent business with AI models, because value accrues to the model layer",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "self-improving-agents-overfit-to-eval-metrics",
+      "label": "Self-improving agents overfit to eval metrics — the meta-agent games rubrics unless structurally constrained",
+      "description": "AutoAgent's meta-agent gets lazy, inserting rubric-specific prompting so the task agent can game metrics; defense requires forcing self-reflection on generalizability",
+      "topics": [
+        "ai-agents"
+      ],
+      "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
+      "color": "#6366f1",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "traces-not-scores-enable-agent-improvement",
+      "label": "Traces not scores enable agent improvement — without trajectories, improvement rate drops hard",
+      "description": "When AutoAgent's meta-agent received only pass/fail scores without reasoning traces, the improvement rate dropped significantly",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
+      "color": "#6366f1",
+      "degree": 7,
+      "domain": "ai"
+    },
+    {
+      "id": "vertical-models-beat-frontier-models-in-their-domain",
+      "label": "Vertical models beat frontier models in their domain — specialization wins on every metric",
+      "description": "Intercom's Apex, a specialized customer service LLM, beat every frontier model on resolution rate, latency, hallucination rate, and cost",
+      "topics": [
+        "business-models",
+        "ai-agents"
+      ],
+      "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
+      "color": "#10b981",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
+      "label": "Virtual filesystems replace sandboxes for agent navigation — intercept commands instead of provisioning infrastructure",
+      "description": "Mintlify's ChromaFs intercepts Unix commands and translates them into database queries, cutting boot time from 46 seconds to 100ms and cost from $70k/year to near-zero",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "Mintlify — How We Built a Virtual Filesystem for Our Assistant",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "traces-are-the-universal-substrate-for-agent-learning",
+      "label": "Traces are the universal substrate for agent learning — all three layers consume the same execution logs",
+      "description": "Whether updating model weights, improving harness code, or refining context/memory, agent learning flows start from the same raw material: traces capturing the full execution path of what an agent did",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "trace-data-retention-must-match-ai-knowledge-lifespan",
+      "label": "AI trace data has an indefinite useful lifespan — SaaS observability's 30-day retention model destroys institutional knowledge",
+      "description": "Infrastructure metrics expire quickly but AI conversations and reasoning traces gain value over time; 30-day retention windows erase the very data that reveals failure patterns and training signals",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Harnesses & Agents",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "evals-must-augment-traces-in-place-not-diverge",
+      "label": "Evaluations must augment trace data in place — divergent copies drift by design",
+      "description": "The moment you export traces to a separate eval system, the copy diverges from where annotations run; evals, annotations, and traces should share a single source of truth",
+      "topics": [
+        "ai-native-product-architecture"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Harnesses & Agents",
+      "color": "#8b5cf6",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "teacher-student-trace-distillation-beats-single-oracle",
+      "label": "Teacher-student trace distillation with consensus validation beats single-oracle learning",
+      "description": "A single high-reasoning teacher trace isn't reliable enough for enterprise learning; comparing multiple student traces under production constraints with consensus validation produces trustworthy strategies",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "workflow-strategies-beat-individual-tool-instructions",
+      "label": "Agents need workflow-level tool strategies, not individual tool instructions — the hard part is how tools combine",
+      "description": "In enterprise environments, the challenge isn't finding the right tool but understanding how tools work together; intentionally narrow strategies that capture workflow patterns generalize better than broad abstractions",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "shadow-execution-enables-safe-trace-learning",
+      "label": "Shadow execution enables safe trace learning — replay write operations without touching production data",
+      "description": "By replaying actions that would write to external apps in a shadow path, agents can learn from realistic end-to-end flows without impacting customer data",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "two-tier-agent-memory-separates-org-from-user",
+      "label": "Two-tier agent memory separates organizational workflow knowledge from individual user preferences",
+      "description": "Deployment-level memory captures shared tool strategies and sequencing patterns; user-level memory captures personal templates and communication styles — initially skipping user-level had a significant performance impact",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
+      "color": "#6366f1",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "compilation-scales-curation-compounds",
+      "label": "Compilation scales but curation compounds — two camps for knowledge graph construction",
+      "description": "LLM-compiled systems grow fast by feeding raw content through model judgment; human-curated systems grow slowly but every node is validated — compilation scales linearly, curation compounds through connections",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
+      "color": "#f43f5e",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "intelligence-location-determines-system-fragility",
+      "label": "Intelligence location — code vs prompts — determines system fragility and flexibility",
+      "description": "Prompt-driven systems are flexible but break when models change; code-driven systems are rigid but reliable — best systems need both",
+      "topics": [
+        "knowledge-systems",
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
+      "color": "#f43f5e",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "knowledge-evolution-is-the-biggest-unsolved-problem",
+      "label": "Knowledge evolution is the biggest unsolved problem across all graph architectures",
+      "description": "Almost nobody has solved how knowledge graphs grow without rotting — most are append-only, auto-decay is too aggressive, and even the best systems only add links without pruning, merging, or detecting contradictions",
+      "topics": [
+        "knowledge-systems",
+        "ai-native-product-architecture"
+      ],
+      "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
+      "color": "#f43f5e",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "knowledge-systems-need-dual-layer-storage",
+      "label": "Knowledge systems need dual-layer storage — narrative depth and structured queries can't share a format",
+      "description": "Every system beyond 'markdown files in a folder' discovers that narrative depth and structured querying need different storage layers with a routing mechanism between them",
+      "topics": [
+        "knowledge-systems",
+        "ai-native-product-architecture"
+      ],
+      "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
+      "color": "#f43f5e",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "navigation-beats-search-for-knowledge-retrieval",
+      "label": "Navigation beats search for knowledge retrieval — let each data source keep its native query interface",
+      "description": "Vector similarity search flattens everything into one embedding space, losing native query affordances; better to let SQL be SQL, files be files, and build a routing layer",
+      "topics": [
+        "knowledge-systems",
+        "ai-native-product-architecture"
+      ],
+      "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
+      "color": "#f43f5e",
+      "degree": 4,
+      "domain": "ai"
     }
   ],
   "links": [
@@ -1775,6 +2111,14 @@
     {
       "source": "technical-knowledge-becomes-liability",
       "target": "every-role-codes-when-implementation-cost-drops-to-zero"
+    },
+    {
+      "source": "context-learning-spans-agent-tenant-and-org-levels",
+      "target": "two-tier-agent-memory-separates-org-from-user"
+    },
+    {
+      "source": "context-learning-spans-agent-tenant-and-org-levels",
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "context-is-the-product-not-the-model",
@@ -1859,6 +2203,10 @@
     {
       "source": "decision-traces-are-the-missing-data-layer",
       "target": "permissioned-inference-is-harder-than-permissioned-retrieval"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "traces-not-scores-enable-agent-improvement"
     },
     {
       "source": "declarative-beats-imperative-for-agents",
@@ -1953,6 +2301,14 @@
       "target": "stronger-models-expand-the-verification-gap"
     },
     {
+      "source": "verification-is-a-red-queen-race",
+      "target": "self-improving-agents-overfit-to-eval-metrics"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+    },
+    {
       "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
@@ -1979,6 +2335,18 @@
     {
       "source": "specs-are-external-memory-surviving-context-resets",
       "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "agents-learn-at-three-layers-model-harness-context",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "agents-learn-at-three-layers-model-harness-context",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "agents-learn-at-three-layers-model-harness-context",
+      "target": "meta-agents-beat-manual-harness-engineering"
     },
     {
       "source": "agent-edits-are-automatic-decision-instrumentation",
@@ -2041,6 +2409,14 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "knowledge-systems-need-dual-layer-storage"
+    },
+    {
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "navigation-beats-search-for-knowledge-retrieval"
+    },
+    {
       "source": "agentic-search-beats-rag-for-live-codebases",
       "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
@@ -2051,6 +2427,10 @@
     {
       "source": "agentic-search-beats-rag-for-live-codebases",
       "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "agentic-search-beats-rag-for-live-codebases",
+      "target": "virtual-filesystems-replace-sandboxes-for-agent-navigation"
     },
     {
       "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
@@ -2417,6 +2797,30 @@
       "target": "specs-are-external-memory-surviving-context-resets"
     },
     {
+      "source": "evolving-summaries-beat-append-only-memory",
+      "target": "two-tier-agent-memory-separates-org-from-user"
+    },
+    {
+      "source": "evolving-summaries-beat-append-only-memory",
+      "target": "knowledge-evolution-is-the-biggest-unsolved-problem"
+    },
+    {
+      "source": "evolved-harnesses-transfer-across-models",
+      "target": "agents-learn-at-three-layers-model-harness-context"
+    },
+    {
+      "source": "evolved-harnesses-transfer-across-models",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "evolved-harnesses-transfer-across-models",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "evolved-harnesses-transfer-across-models",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
       "source": "every-optimization-has-a-shadow-regression",
       "target": "invert-always-invert-to-solve-hard-problems"
     },
@@ -2469,12 +2873,20 @@
       "target": "decision-traces-are-the-missing-data-layer"
     },
     {
+      "source": "trust-boundaries-must-be-mapped-and-externalized",
+      "target": "shadow-execution-enables-safe-trace-learning"
+    },
+    {
       "source": "tribal-knowledge-is-the-last-mile-for-agent-automation",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
     {
       "source": "tribal-knowledge-is-the-last-mile-for-agent-automation",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "tribal-knowledge-is-the-last-mile-for-agent-automation",
+      "target": "workflow-strategies-beat-individual-tool-instructions"
     },
     {
       "source": "session-capture-compounds-development-knowledge",
@@ -2491,6 +2903,10 @@
     {
       "source": "session-capture-compounds-development-knowledge",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "session-capture-compounds-development-knowledge",
+      "target": "hot-path-vs-offline-learning-are-two-temporal-modes"
     },
     {
       "source": "embeddings-measure-similarity-not-truth",
@@ -2579,6 +2995,10 @@
     {
       "source": "compound-engineering-makes-future-work-easier",
       "target": "negative-maintenance-reduces-future-work-for-everyone"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "compilation-scales-curation-compounds"
     },
     {
       "source": "commodity-terminal-value-zero-expert-judgment-compounds",
@@ -2681,6 +3101,18 @@
       "target": "ai-compresses-execution-not-judgment"
     },
     {
+      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
+      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "target": "time-bounded-evaluation-optimizes-for-usefulness"
+    },
+    {
+      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "target": "self-improving-agents-overfit-to-eval-metrics"
+    },
+    {
       "source": "evaluate-tools-with-real-multi-step-tasks",
       "target": "confluence-of-tendencies-produces-extreme-outcomes"
     },
@@ -2741,6 +3173,10 @@
       "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "same-model-pairings-win-through-model-empathy"
+    },
+    {
       "source": "domain-skill-libraries-are-the-real-agent-moat",
       "target": "context-is-the-product-not-the-model"
     },
@@ -2779,6 +3215,10 @@
     {
       "source": "context-layers-must-be-living-systems",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "context-layers-must-be-living-systems",
+      "target": "knowledge-evolution-is-the-biggest-unsolved-problem"
     },
     {
       "source": "context-layers-supersede-semantic-layers",
@@ -2889,6 +3329,18 @@
       "target": "the-80-99-gap-is-where-ai-products-die"
     },
     {
+      "source": "model-market-fit-before-product-market-fit",
+      "target": "vertical-models-beat-frontier-models-in-their-domain"
+    },
+    {
+      "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
+      "target": "session-capture-compounds-development-knowledge"
+    },
+    {
+      "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
       "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
@@ -2939,6 +3391,18 @@
     {
       "source": "harness-quality-beats-model-intelligence",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "meta-agents-beat-manual-harness-engineering"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "intelligence-location-determines-system-fragility"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "agents-learn-at-three-layers-model-harness-context"
     },
     {
       "source": "multi-model-orchestration-beats-any-single-family",
@@ -3089,6 +3553,18 @@
       "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
     },
     {
+      "source": "causal-triage-must-gate-automated-fixes",
+      "target": "detect-everything-notify-selectively"
+    },
+    {
+      "source": "causal-triage-must-gate-automated-fixes",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "causal-triage-must-gate-automated-fixes",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
       "source": "circle-of-competence-determines-where-you-can-win",
       "target": "excessive-self-regard-makes-fixable-failures-persist"
     },
@@ -3181,6 +3657,18 @@
       "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
+      "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
+      "target": "agentic-search-beats-rag-for-live-codebases"
+    },
+    {
+      "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
+      "target": "traces-are-the-universal-substrate-for-agent-learning"
+    },
+    {
+      "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
+      "target": "meta-agents-beat-manual-harness-engineering"
+    },
+    {
       "source": "frontier-companies-absorb-every-useful-agentic-pattern",
       "target": "boring-tech-wins-for-ai-native-startups"
     },
@@ -3229,6 +3717,10 @@
       "target": "platform-economics-beat-labor-arbitrage"
     },
     {
+      "source": "sell-the-work-not-the-tool",
+      "target": "self-disruption-follows-the-value-chain-downward"
+    },
+    {
       "source": "observability-is-the-missing-agent-discipline",
       "target": "decision-traces-are-the-missing-data-layer"
     },
@@ -3243,6 +3735,10 @@
     {
       "source": "observability-is-the-missing-agent-discipline",
       "target": "trust-boundaries-must-be-mapped-and-externalized"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "evals-must-augment-traces-in-place-not-diverge"
     },
     {
       "source": "property-based-testing-explores-agent-input-spaces",
@@ -3333,6 +3829,10 @@
       "target": "harness-quality-beats-model-intelligence"
     },
     {
+      "source": "detect-everything-notify-selectively",
+      "target": "causal-triage-must-gate-automated-fixes"
+    },
+    {
       "source": "auto-generated-monitors-beat-handwritten-broad-checks",
       "target": "verification-multiplies-agent-output-quality"
     },
@@ -3391,6 +3891,10 @@
     {
       "source": "agent-trace-accumulation-produces-emergent-world-models",
       "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "trace-data-retention-must-match-ai-knowledge-lifespan"
     },
     {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
@@ -3491,6 +3995,238 @@
     {
       "source": "speed-without-feedback-amplifies-errors",
       "target": "amplification-widens-the-judgment-gap"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "evolved-harnesses-transfer-across-models"
+    },
+    {
+      "source": "same-model-pairings-win-through-model-empathy",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "same-model-pairings-win-through-model-empathy",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "same-model-pairings-win-through-model-empathy",
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
+      "source": "self-disruption-follows-the-value-chain-downward",
+      "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "self-disruption-follows-the-value-chain-downward",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "self-disruption-follows-the-value-chain-downward",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "self-improving-agents-overfit-to-eval-metrics",
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
+      "source": "self-improving-agents-overfit-to-eval-metrics",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "self-improving-agents-overfit-to-eval-metrics",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "self-improving-agents-overfit-to-eval-metrics",
+      "target": "teacher-student-trace-distillation-beats-single-oracle"
+    },
+    {
+      "source": "traces-not-scores-enable-agent-improvement",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "traces-not-scores-enable-agent-improvement",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "traces-not-scores-enable-agent-improvement",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "vertical-models-beat-frontier-models-in-their-domain",
+      "target": "model-market-fit-before-product-market-fit"
+    },
+    {
+      "source": "vertical-models-beat-frontier-models-in-their-domain",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "vertical-models-beat-frontier-models-in-their-domain",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
+      "target": "agentic-search-beats-rag-for-live-codebases"
+    },
+    {
+      "source": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
+      "source": "traces-are-the-universal-substrate-for-agent-learning",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "traces-are-the-universal-substrate-for-agent-learning",
+      "target": "trace-data-retention-must-match-ai-knowledge-lifespan"
+    },
+    {
+      "source": "traces-are-the-universal-substrate-for-agent-learning",
+      "target": "traces-not-scores-enable-agent-improvement"
+    },
+    {
+      "source": "trace-data-retention-must-match-ai-knowledge-lifespan",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "trace-data-retention-must-match-ai-knowledge-lifespan",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "evals-must-augment-traces-in-place-not-diverge",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "evals-must-augment-traces-in-place-not-diverge",
+      "target": "agent-edits-are-automatic-decision-instrumentation"
+    },
+    {
+      "source": "teacher-student-trace-distillation-beats-single-oracle",
+      "target": "traces-not-scores-enable-agent-improvement"
+    },
+    {
+      "source": "teacher-student-trace-distillation-beats-single-oracle",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "workflow-strategies-beat-individual-tool-instructions",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "workflow-strategies-beat-individual-tool-instructions",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "shadow-execution-enables-safe-trace-learning",
+      "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "shadow-execution-enables-safe-trace-learning",
+      "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
+    },
+    {
+      "source": "shadow-execution-enables-safe-trace-learning",
+      "target": "traces-not-scores-enable-agent-improvement"
+    },
+    {
+      "source": "two-tier-agent-memory-separates-org-from-user",
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
+    },
+    {
+      "source": "two-tier-agent-memory-separates-org-from-user",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "two-tier-agent-memory-separates-org-from-user",
+      "target": "context-learning-spans-agent-tenant-and-org-levels"
+    },
+    {
+      "source": "compilation-scales-curation-compounds",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "compilation-scales-curation-compounds",
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "compilation-scales-curation-compounds",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+    },
+    {
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
+      "target": "context-layers-must-be-living-systems"
+    },
+    {
+      "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
+      "source": "knowledge-systems-need-dual-layer-storage",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
+      "source": "knowledge-systems-need-dual-layer-storage",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "knowledge-systems-need-dual-layer-storage",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "knowledge-systems-need-dual-layer-storage",
+      "target": "two-tier-agent-memory-separates-org-from-user"
+    },
+    {
+      "source": "navigation-beats-search-for-knowledge-retrieval",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
+      "source": "navigation-beats-search-for-knowledge-retrieval",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "navigation-beats-search-for-knowledge-retrieval",
+      "target": "agentic-search-beats-rag-for-live-codebases"
     }
   ]
 }
