@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-04-06
-node_count: 161
+last_updated: 2026-04-09
+node_count: 165
 domains: [ai, mental-models]
 
 nodes:
@@ -145,7 +145,7 @@ nodes:
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, every-optimization-has-a-shadow-regression, stronger-models-expand-the-verification-gap, self-improving-agents-overfit-to-eval-metrics, evals-are-behavioral-pressure-vectors-not-neutral-measurements]
-    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, self-improving-agents-overfit-to-eval-metrics, knowledge-evolution-is-the-biggest-unsolved-problem, evals-are-behavioral-pressure-vectors-not-neutral-measurements]
+    incoming: [stronger-models-expand-the-verification-gap, verification-multiplies-agent-output-quality, the-80-99-gap-is-where-ai-products-die, self-improving-agents-overfit-to-eval-metrics, knowledge-evolution-is-the-biggest-unsolved-problem, evals-are-behavioral-pressure-vectors-not-neutral-measurements, holdout-sets-gate-autonomous-harness-optimization]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
@@ -179,7 +179,7 @@ nodes:
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     domain: ai
     outgoing: [harness-quality-beats-model-intelligence, compound-engineering-makes-future-work-easier, meta-agents-beat-manual-harness-engineering]
-    incoming: [harness-quality-beats-model-intelligence, evolved-harnesses-transfer-across-models]
+    incoming: [harness-quality-beats-model-intelligence, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering]
 
   agent-edits-are-automatic-decision-instrumentation:
     title: "Agent edits are automatic decision instrumentation — every human correction is a structured signal"
@@ -188,7 +188,7 @@ nodes:
     source: "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had"
     source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
     domain: ai
-    outgoing: [decision-traces-are-the-missing-data-layer, revealed-preferences-trump-stated-preferences, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [decision-traces-are-the-missing-data-layer, revealed-preferences-trump-stated-preferences, proprietary-feedback-loops-widen-the-moat, trace-to-eval-flywheel-compounds-agent-quality]
     incoming: [decision-traces-are-the-missing-data-layer, evals-must-augment-traces-in-place-not-diverge]
 
   agent-memory-preserves-institutional-knowledge:
@@ -580,7 +580,7 @@ nodes:
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
     domain: ai
     outgoing: [scaffolding-is-tech-debt-against-the-next-model, model-market-fit-before-product-market-fit, frontier-companies-absorb-every-useful-agentic-pattern]
-    incoming: [scaffolding-is-tech-debt-against-the-next-model, frontier-companies-absorb-every-useful-agentic-pattern, evolved-harnesses-transfer-across-models]
+    incoming: [scaffolding-is-tech-debt-against-the-next-model, frontier-companies-absorb-every-useful-agentic-pattern, evolved-harnesses-transfer-across-models, eval-suites-must-shrink-not-just-grow]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -631,6 +631,16 @@ nodes:
     outgoing: [technical-knowledge-becomes-liability, ai-compresses-execution-not-judgment]
     incoming: [technical-knowledge-becomes-liability]
 
+  eval-suites-must-shrink-not-just-grow:
+    title: "Eval suites must shrink, not just grow — spring cleaning prevents stale behavioral pressure"
+    description: "Saturated evals waste compute without providing signal; more intelligent models or changed desired behaviors make old evals irrelevant, requiring regular pruning alongside addition"
+    topics: [ai-agents]
+    source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
+    source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
+    domain: ai
+    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, evals-are-gradient-signal-for-harness-engineering, build-for-the-model-six-months-from-now]
+    incoming: [evals-are-behavioral-pressure-vectors-not-neutral-measurements]
+
   evals-are-behavioral-pressure-vectors-not-neutral-measurements:
     title: "Evals are behavioral pressure vectors, not neutral measurements — poorly chosen evals distort agent development"
     description: "Each eval shapes agent behavior like a selection pressure; accumulating tests without strategic purpose creates 'an illusion of improving your agent' while distorting development in unproductive directions"
@@ -638,8 +648,18 @@ nodes:
     source: "LangChain — How We Build Evals for Deep Agents"
     source_file: sources/langchain-evals-for-deep-agents.md
     domain: ai
-    outgoing: [verification-is-a-red-queen-race, time-bounded-evaluation-optimizes-for-usefulness, self-improving-agents-overfit-to-eval-metrics]
-    incoming: [verification-is-a-red-queen-race]
+    outgoing: [verification-is-a-red-queen-race, time-bounded-evaluation-optimizes-for-usefulness, self-improving-agents-overfit-to-eval-metrics, eval-suites-must-shrink-not-just-grow, holdout-sets-gate-autonomous-harness-optimization]
+    incoming: [verification-is-a-red-queen-race, eval-suites-must-shrink-not-just-grow, evals-are-gradient-signal-for-harness-engineering]
+
+  evals-are-gradient-signal-for-harness-engineering:
+    title: "Evals are the gradient signal for harness engineering — the same data quality rigor from ML training applies"
+    description: "The analogy between ML training and agent development is structural: evals encode desired behavior like training data encodes ground truth, and the same principles (data quality, curation, train/test splits) determine outcomes"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
+    source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
+    domain: ai
+    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, harness-quality-beats-model-intelligence, agents-learn-at-three-layers-model-harness-context]
+    incoming: [holdout-sets-gate-autonomous-harness-optimization, trace-to-eval-flywheel-compounds-agent-quality, eval-suites-must-shrink-not-just-grow, meta-agents-beat-manual-harness-engineering]
 
   evaluate-tools-with-real-multi-step-tasks:
     title: "Evaluate agent tools with real multi-step tasks, not toy single-call examples"
@@ -797,6 +817,16 @@ nodes:
     outgoing: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die, vertical-models-beat-frontier-models-in-their-domain]
     incoming: [context-is-the-product-not-the-model, the-80-99-gap-is-where-ai-products-die, build-for-the-model-six-months-from-now, vertical-models-beat-frontier-models-in-their-domain]
 
+  holdout-sets-gate-autonomous-harness-optimization:
+    title: "Holdout eval sets are the generalization gate for autonomous harness optimization — without them, the loop overfits"
+    description: "Autonomous harness hill-climbing tends to overfit to the optimization set; splitting evals into optimization and holdout categories — mirroring ML train/test splits — is the structural defense"
+    topics: [ai-agents]
+    source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
+    source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
+    domain: ai
+    outgoing: [self-improving-agents-overfit-to-eval-metrics, verification-is-a-red-queen-race, evals-are-gradient-signal-for-harness-engineering]
+    incoming: [evals-are-behavioral-pressure-vectors-not-neutral-measurements]
+
   hot-path-vs-offline-learning-are-two-temporal-modes:
     title: "Hot-path and offline learning are two temporal modes for agent context updates — each with different tradeoffs"
     description: "Agents can update their context in the hot path (during task execution, like saving to memory while working) or offline (batch processing recent traces after the fact, like OpenClaw's 'dreaming'), with an additional dimension of explicit vs implicit memory updates"
@@ -822,7 +852,7 @@ nodes:
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback, meta-agents-beat-manual-harness-engineering, intelligence-location-determines-system-fragility, agents-learn-at-three-layers-model-harness-context]
-    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics, intelligence-location-determines-system-fragility, agents-learn-at-three-layers-model-harness-context, evolved-harnesses-transfer-across-models]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics, intelligence-location-determines-system-fragility, agents-learn-at-three-layers-model-harness-context, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -1102,7 +1132,7 @@ nodes:
     source: "Nikunj Kothari — Revealed Preferences"
     domain: ai
     outgoing: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation, trace-to-eval-flywheel-compounds-agent-quality]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1255,7 +1285,7 @@ nodes:
     source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
     source_file: sources/kevingu-autoagent-self-optimizing-agents.md
     domain: ai
-    outgoing: [harness-quality-beats-model-intelligence, tool-design-is-continuous-observation-see-like-an-agent, autonomous-loops-need-small-stories-and-fast-feedback, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization, evolved-harnesses-transfer-across-models]
+    outgoing: [harness-quality-beats-model-intelligence, tool-design-is-continuous-observation-see-like-an-agent, autonomous-loops-need-small-stories-and-fast-feedback, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering]
     incoming: [harness-quality-beats-model-intelligence, agents-learn-at-three-layers-model-harness-context, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
 
   same-model-pairings-win-through-model-empathy:
@@ -1286,7 +1316,7 @@ nodes:
     source_file: sources/kevingu-autoagent-self-optimizing-agents.md
     domain: ai
     outgoing: [verification-is-a-red-queen-race, every-optimization-has-a-shadow-regression, harness-quality-beats-model-intelligence, teacher-student-trace-distillation-beats-single-oracle]
-    incoming: [verification-is-a-red-queen-race, evals-are-behavioral-pressure-vectors-not-neutral-measurements]
+    incoming: [verification-is-a-red-queen-race, evals-are-behavioral-pressure-vectors-not-neutral-measurements, holdout-sets-gate-autonomous-harness-optimization]
 
   traces-not-scores-enable-agent-improvement:
     title: "Traces not scores enable agent improvement — without trajectories, improvement rate drops hard"
@@ -1318,6 +1348,16 @@ nodes:
     outgoing: [agentic-search-beats-rag-for-live-codebases, files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity]
     incoming: [agentic-search-beats-rag-for-live-codebases]
 
+  trace-to-eval-flywheel-compounds-agent-quality:
+    title: "The trace→eval→harness flywheel compounds agent quality — every production interaction generates its own training data"
+    description: "Production traces where agents fail become eval cases; better evals improve the harness; better harnesses produce better traces — creating a self-reinforcing improvement loop"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
+    source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
+    domain: ai
+    outgoing: [traces-are-the-universal-substrate-for-agent-learning, proprietary-feedback-loops-widen-the-moat, evals-are-gradient-signal-for-harness-engineering]
+    incoming: [agent-edits-are-automatic-decision-instrumentation]
+
   traces-are-the-universal-substrate-for-agent-learning:
     title: "Traces are the universal substrate for agent learning — all three layers consume the same execution logs"
     description: "Whether updating model weights, improving harness code, or refining context/memory, agent learning flows start from the same raw material: traces capturing the full execution path of what an agent did"
@@ -1326,7 +1366,7 @@ nodes:
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, trace-data-retention-must-match-ai-knowledge-lifespan, traces-not-scores-enable-agent-improvement]
-    incoming: [full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
+    incoming: [full-trace-filesystem-beats-compressed-summaries-for-harness-optimization, trace-to-eval-flywheel-compounds-agent-quality]
 
   trace-data-retention-must-match-ai-knowledge-lifespan:
     title: "AI trace data has an indefinite useful lifespan — SaaS observability's 30-day retention model destroys institutional knowledge"

@@ -96,3 +96,7 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[evolved-harnesses-transfer-across-models]] — A single optimized harness improves five different LLMs
 - [[causal-triage-must-gate-automated-fixes]] — Statistical regression detection can't distinguish your bugs from external failures
 - [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]] — Each eval shapes agent behavior; poorly chosen evals distort development
+- [[evals-are-gradient-signal-for-harness-engineering]] — Same data quality rigor from ML training applies to eval curation for harness engineering
+- [[holdout-sets-gate-autonomous-harness-optimization]] — Train/test splits for evals prevent autonomous harness loops from overfitting
+- [[trace-to-eval-flywheel-compounds-agent-quality]] — Production traces → eval cases → better harness → better traces
+- [[eval-suites-must-shrink-not-just-grow]] — Spring cleaning stale evals prevents wasted compute and misaligned pressure

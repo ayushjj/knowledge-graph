@@ -79,3 +79,5 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[evolved-harnesses-transfer-across-models]] — A single optimized harness improves five different LLMs
 - [[causal-triage-must-gate-automated-fixes]] — Statistical regression detection can't distinguish your bugs from external failures
 - [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]] — Evals shape agent behavior like selection pressure; quality over quantity
+- [[evals-are-gradient-signal-for-harness-engineering]] — ML training rigor (data quality, curation, train/test splits) applies to eval design
+- [[trace-to-eval-flywheel-compounds-agent-quality]] — Usage → traces → evals → better harness: the self-reinforcing improvement loop
