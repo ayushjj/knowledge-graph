@@ -10,7 +10,7 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-04-09
+last_updated: 2026-04-10
 node_count: 165
 domains: [ai, mental-models]
 
@@ -55,7 +55,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning, data-agents-fail-from-missing-context-not-sql-gaps]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, vertical-models-beat-frontier-models-in-their-domain]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, vertical-models-beat-frontier-models-in-their-domain, sand-vs-stone-separates-durable-from-disposable-product-value, context-flywheel-is-day-90-not-day-0]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -580,7 +580,7 @@ nodes:
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
     domain: ai
     outgoing: [scaffolding-is-tech-debt-against-the-next-model, model-market-fit-before-product-market-fit, frontier-companies-absorb-every-useful-agentic-pattern]
-    incoming: [scaffolding-is-tech-debt-against-the-next-model, frontier-companies-absorb-every-useful-agentic-pattern, evolved-harnesses-transfer-across-models, eval-suites-must-shrink-not-just-grow]
+    incoming: [scaffolding-is-tech-debt-against-the-next-model, frontier-companies-absorb-every-useful-agentic-pattern, evolved-harnesses-transfer-across-models, eval-suites-must-shrink-not-just-grow, model-compensations-become-liabilities-as-capabilities-advance]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -649,7 +649,7 @@ nodes:
     source_file: sources/langchain-evals-for-deep-agents.md
     domain: ai
     outgoing: [verification-is-a-red-queen-race, time-bounded-evaluation-optimizes-for-usefulness, self-improving-agents-overfit-to-eval-metrics, eval-suites-must-shrink-not-just-grow, holdout-sets-gate-autonomous-harness-optimization]
-    incoming: [verification-is-a-red-queen-race, eval-suites-must-shrink-not-just-grow, evals-are-gradient-signal-for-harness-engineering]
+    incoming: [verification-is-a-red-queen-race, eval-suites-must-shrink-not-just-grow, evals-are-gradient-signal-for-harness-engineering, context-flywheel-is-day-90-not-day-0]
 
   evals-are-gradient-signal-for-harness-engineering:
     title: "Evals are the gradient signal for harness engineering — the same data quality rigor from ML training applies"
@@ -659,7 +659,7 @@ nodes:
     source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
     domain: ai
     outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, harness-quality-beats-model-intelligence, agents-learn-at-three-layers-model-harness-context]
-    incoming: [holdout-sets-gate-autonomous-harness-optimization, trace-to-eval-flywheel-compounds-agent-quality, eval-suites-must-shrink-not-just-grow, meta-agents-beat-manual-harness-engineering]
+    incoming: [holdout-sets-gate-autonomous-harness-optimization, trace-to-eval-flywheel-compounds-agent-quality, eval-suites-must-shrink-not-just-grow, meta-agents-beat-manual-harness-engineering, long-horizon-evals-test-compounding-not-point-accuracy]
 
   evaluate-tools-with-real-multi-step-tasks:
     title: "Evaluate agent tools with real multi-step tasks, not toy single-call examples"
@@ -692,7 +692,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code"
     outgoing: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, skill-graphs-enable-progressive-disclosure, context-window-is-the-fundamental-constraint, scaffolding-is-tech-debt-against-the-next-model, same-model-pairings-win-through-model-empathy]
-    incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, scaffolding-is-tech-debt-against-the-next-model, meta-agents-beat-manual-harness-engineering, same-model-pairings-win-through-model-empathy]
+    incoming: [tools-are-contracts-between-deterministic-and-nondeterministic-systems, scaffolding-is-tech-debt-against-the-next-model, meta-agents-beat-manual-harness-engineering, same-model-pairings-win-through-model-empathy, model-compensations-become-liabilities-as-capabilities-advance]
 
   domain-skill-libraries-are-the-real-agent-moat:
     title: "Domain-specific skill libraries are the real agent moat, not core infrastructure"
@@ -701,7 +701,7 @@ nodes:
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
     domain: ai
     outgoing: [context-is-the-product-not-the-model, frontier-companies-absorb-every-useful-agentic-pattern, skills-as-markdown-replace-fine-tuning, context-layers-supersede-semantic-layers, proprietary-feedback-loops-widen-the-moat]
-    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat, vertical-models-beat-frontier-models-in-their-domain, workflow-strategies-beat-individual-tool-instructions]
+    incoming: [skill-graphs-enable-progressive-disclosure, sell-the-work-not-the-tool, context-layers-supersede-semantic-layers, platform-economics-beat-labor-arbitrage, proprietary-feedback-loops-widen-the-moat, vertical-models-beat-frontier-models-in-their-domain, workflow-strategies-beat-individual-tool-instructions, sand-vs-stone-separates-durable-from-disposable-product-value]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -825,7 +825,7 @@ nodes:
     source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
     domain: ai
     outgoing: [self-improving-agents-overfit-to-eval-metrics, verification-is-a-red-queen-race, evals-are-gradient-signal-for-harness-engineering]
-    incoming: [evals-are-behavioral-pressure-vectors-not-neutral-measurements]
+    incoming: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, long-horizon-evals-test-compounding-not-point-accuracy]
 
   hot-path-vs-offline-learning-are-two-temporal-modes:
     title: "Hot-path and offline learning are two temporal modes for agent context updates — each with different tradeoffs"
@@ -950,7 +950,7 @@ nodes:
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
     domain: ai
     outgoing: [tool-design-is-continuous-observation-see-like-an-agent, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base]
-    incoming: [build-for-the-model-six-months-from-now, tool-design-is-continuous-observation-see-like-an-agent, evolved-harnesses-transfer-across-models]
+    incoming: [build-for-the-model-six-months-from-now, tool-design-is-continuous-observation-see-like-an-agent, evolved-harnesses-transfer-across-models, sand-vs-stone-separates-durable-from-disposable-product-value, model-compensations-become-liabilities-as-capabilities-advance]
 
   scale-advantages-cascade-until-bureaucracy-kills-them:
     title: "Scale advantages cascade toward dominance until bureaucracy kills them"
@@ -1132,7 +1132,7 @@ nodes:
     source: "Nikunj Kothari — Revealed Preferences"
     domain: ai
     outgoing: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation, trace-to-eval-flywheel-compounds-agent-quality]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation, trace-to-eval-flywheel-compounds-agent-quality, context-flywheel-is-day-90-not-day-0]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1222,7 +1222,7 @@ nodes:
     source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
     domain: ai
     outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, compound-engineering-makes-future-work-easier, trace-data-retention-must-match-ai-knowledge-lifespan]
-    incoming: []
+    incoming: [context-flywheel-is-day-90-not-day-0]
 
   software-bimodal-fork-growth-or-margins-no-middle:
     title: "The comfortable middle is over — software companies must either accelerate AI growth or rebuild for 40%+ margins"
@@ -1356,7 +1356,7 @@ nodes:
     source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
     domain: ai
     outgoing: [traces-are-the-universal-substrate-for-agent-learning, proprietary-feedback-loops-widen-the-moat, evals-are-gradient-signal-for-harness-engineering]
-    incoming: [agent-edits-are-automatic-decision-instrumentation]
+    incoming: [agent-edits-are-automatic-decision-instrumentation, long-horizon-evals-test-compounding-not-point-accuracy]
 
   traces-are-the-universal-substrate-for-agent-learning:
     title: "Traces are the universal substrate for agent learning — all three layers consume the same execution logs"
@@ -1426,7 +1426,7 @@ nodes:
     source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
     domain: ai
     outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, agent-memory-preserves-institutional-knowledge, context-learning-spans-agent-tenant-and-org-levels]
-    incoming: [evolving-summaries-beat-append-only-memory, knowledge-systems-need-dual-layer-storage, context-learning-spans-agent-tenant-and-org-levels]
+    incoming: [evolving-summaries-beat-append-only-memory, knowledge-systems-need-dual-layer-storage, context-learning-spans-agent-tenant-and-org-levels, conflicting-context-causes-agent-collapse-not-graceful-degradation]
 
   compilation-scales-curation-compounds:
     title: "Compilation scales but curation compounds — two camps for knowledge graph construction"
@@ -1477,3 +1477,53 @@ nodes:
     domain: ai
     outgoing: [structure-plus-reasoning-beats-flat-similarity, similarity-is-not-relevance-relevance-requires-reasoning, agentic-search-beats-rag-for-live-codebases]
     incoming: [structure-plus-reasoning-beats-flat-similarity]
+
+  sand-vs-stone-separates-durable-from-disposable-product-value:
+    title: "Sand vs Stone — if models double in capability tomorrow, what washes away and what remains?"
+    description: "Framework for evaluating AI product durability: context flywheels and domain expertise are stone; model workarounds and clever engineering are sand"
+    topics: [ai-native-product-architecture, future-of-ai-business]
+    source: "@izzymiller (Izzy Miller, Hex) relaying Barry McCardel (Hex CEO) — Building AI Agents for Data Analytics"
+    source_file: sources/izzymiller-hex-building-ai-agents-data.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, scaffolding-is-tech-debt-against-the-next-model, domain-skill-libraries-are-the-real-agent-moat]
+    incoming: [scaffolding-is-tech-debt-against-the-next-model]
+
+  model-compensations-become-liabilities-as-capabilities-advance:
+    title: "Model compensations become liabilities as capabilities advance — yesterday's fixes hobble today's agent"
+    description: "Engineering workarounds for earlier model limitations accumulate as technical debt that actively degrades agent performance when models improve"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
+    source_file: sources/izzymiller-hex-building-ai-agents-data.md
+    domain: ai
+    outgoing: [scaffolding-is-tech-debt-against-the-next-model, build-for-the-model-six-months-from-now, tool-design-is-continuous-observation-see-like-an-agent]
+    incoming: [scaffolding-is-tech-debt-against-the-next-model]
+
+  conflicting-context-causes-agent-collapse-not-graceful-degradation:
+    title: "Conflicting context causes agent collapse, not graceful degradation"
+    description: "When an LLM encounters contradictory information in its context, it enters extended deliberation loops rather than choosing one interpretation — production finding from Hex"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
+    source_file: sources/izzymiller-hex-building-ai-agents-data.md
+    domain: ai
+    outgoing: [two-tier-agent-memory-separates-org-from-user]
+    incoming: []
+
+  context-flywheel-is-day-90-not-day-0:
+    title: "The context flywheel is a Day 90 moat — Day 0 comparisons are misleading"
+    description: "Point-in-time capability benchmarks miss the compounding advantage: on Day 0 a raw model matches your product, but by Day 90 accumulated context creates an unbridgeable gap"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
+    source_file: sources/izzymiller-hex-building-ai-agents-data.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, agent-trace-accumulation-produces-emergent-world-models, evals-are-behavioral-pressure-vectors-not-neutral-measurements, proprietary-feedback-loops-widen-the-moat]
+    incoming: [agent-trace-accumulation-produces-emergent-world-models]
+
+  long-horizon-evals-test-compounding-not-point-accuracy:
+    title: "Long-horizon evals test compounding behavior, not point-in-time accuracy"
+    description: "Hex's Metric City benchmark simulates 90 days of agent use with evolving data to measure whether the agent gets smarter over time — Day 0: 4%, Day 90: 24%"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
+    source_file: sources/izzymiller-hex-building-ai-agents-data.md
+    domain: ai
+    outgoing: [evals-are-gradient-signal-for-harness-engineering, holdout-sets-gate-autonomous-harness-optimization, trace-to-eval-flywheel-compounds-agent-quality]
+    incoming: []

@@ -154,7 +154,7 @@ Critical architectural fork: is the intelligence in **the code** or in **the pro
 
 ### From prior art (not yet acted on):
 - Asymmetric trust scoring on memories (Hermes)
-- Contradiction detection across insights (Hermes)
+- Contradiction detection across insights (Hermes) — **DESIGN DECISION (2026-04-04)**: Contradictions are features, not bugs. Surface tensions, link them explicitly with a new relationship type ("in tension with"), preserve both. Contradictions map boundary conditions where context changes the answer. Only remove when actively disproven from all angles. "The opposite of a good idea is also a good idea" — both map different regions of the same territory.
 - Writing usage/consultation data back to graph (Hermes)
 - LLM-generated per-domain ontology (MiroFish)
 

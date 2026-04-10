@@ -53,3 +53,4 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[every-role-codes-when-implementation-cost-drops-to-zero]] — PMs, designers, finance all code when AI handles implementation
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Controlling whose history shapes reasoning is the unsolved enterprise trust layer
 - [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: value accrues to the model layer
+- [[sand-vs-stone-separates-durable-from-disposable-product-value]] — Prioritization framework: context flywheels are stone, model workarounds are sand

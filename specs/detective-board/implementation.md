@@ -1,6 +1,6 @@
 # Detective Board Visualization
 
-**Status:** PLANNED (not started)
+**Status:** IMPLEMENTED — cards not rendering (CSS/runtime bug, investigation in progress)
 **Created:** 2026-04-06
 **Premise check:** PASSED — portfolio differentiation + transforms unused graph page into signature feature
 

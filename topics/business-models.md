@@ -38,3 +38,4 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[latent-demand-is-the-strongest-product-signal]] — Make what people already do easier; don't invent new behaviors
 - [[vertical-models-beat-frontier-models-in-their-domain]] — Intercom's Apex beats every frontier model in customer service on all metrics
 - [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: proactive cannibalization as strategy
+- [[context-flywheel-is-day-90-not-day-0]] — Time-compounded context is the moat, not point-in-time capability

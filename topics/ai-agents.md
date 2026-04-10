@@ -58,6 +58,9 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence-heavy professions automate first; judgement remains human
 - [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
 - [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — The most critical context is implicit and historically contingent — only humans provide it
+- [[model-compensations-become-liabilities-as-capabilities-advance]] — Yesterday's fixes hobble today's agent at 5+ examples per week (Hex)
+- [[conflicting-context-causes-agent-collapse-not-graceful-degradation]] — LLMs enter collapse mode with contradictory context, not graceful degradation
+- [[long-horizon-evals-test-compounding-not-point-accuracy]] — Metric City: 90-day simulated eval benchmarks test compounding behavior
 - [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static YAML definitions
 - [[observability-is-the-missing-agent-discipline]] — Agent systems need telemetry as a first-class engineering concern
 - [[property-based-testing-explores-agent-input-spaces]] — Generative tests explore agent behavior across input spaces

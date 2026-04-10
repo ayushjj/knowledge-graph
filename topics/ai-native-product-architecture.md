@@ -58,6 +58,11 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force practical optimization over idealized performance
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries
 - [[inference-capability-lowers-input-fidelity-requirements]] — Smart listeners make imprecise input work — input quality bars drop when the consumer infers
+- [[sand-vs-stone-separates-durable-from-disposable-product-value]] — Framework: if models double, what washes away vs remains?
+- [[model-compensations-become-liabilities-as-capabilities-advance]] — Yesterday's model workarounds actively degrade today's agent
+- [[conflicting-context-causes-agent-collapse-not-graceful-degradation]] — Contradictory context triggers deliberation loops, not graceful fallback
+- [[context-flywheel-is-day-90-not-day-0]] — Day 0 comparisons miss the compounding context advantage
+- [[long-horizon-evals-test-compounding-not-point-accuracy]] — 90-day simulation evals measure learning trajectory, not point accuracy
 - [[detect-everything-notify-selectively]] — Watch every signal, but filter aggressively before alerting humans
 - [[auto-generated-monitors-beat-handwritten-broad-checks]] — 1,000+ code-shaped monitors catch more than 10 hand-written broad checks
 - [[reasoning-evaporation-destroys-agent-decision-chains]] — Multi-step reasoning exists only in the context window; session close destroys it permanently
