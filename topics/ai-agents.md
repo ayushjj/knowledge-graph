@@ -103,3 +103,6 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[holdout-sets-gate-autonomous-harness-optimization]] — Train/test splits for evals prevent autonomous harness loops from overfitting
 - [[trace-to-eval-flywheel-compounds-agent-quality]] — Production traces → eval cases → better harness → better traces
 - [[eval-suites-must-shrink-not-just-grow]] — Spring cleaning stale evals prevents wasted compute and misaligned pressure
+- [[agent-harnesses-are-persistent-infrastructure]] — Harnesses aren't scaffolding models will absorb; Claude Code is 512k LOC
+- [[closed-harnesses-behind-apis-create-memory-lock-in]] — Provider-managed harnesses hide memory shape and schema by design
+- [[memory-is-where-agent-lock-in-lives]] — Stateless models are swappable; stateful memory is not

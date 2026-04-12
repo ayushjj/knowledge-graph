@@ -46,3 +46,4 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[agents-learn-at-three-layers-model-harness-context]] — Model weights, harness code, and context configuration as three distinct learning surfaces
 - [[context-learning-spans-agent-tenant-and-org-levels]] — Agent-level, tenant-level, and org-level context updates can mix and match
 - [[hot-path-vs-offline-learning-are-two-temporal-modes]] — Real-time learning during tasks vs batch processing traces after the fact
+- [[memory-is-harness-responsibility-not-plugin]] — Managing context is a core harness capability — you can't plug memory into an agent

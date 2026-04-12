@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[agent-harnesses-are-persistent-infrastructure]] — harnesses aren't going away; 512k LOC in Claude Code is the evidence (2026-04-12)
+- [[memory-is-harness-responsibility-not-plugin]] — memory is a core harness capability, not a standalone service (2026-04-12)
+- [[closed-harnesses-behind-apis-create-memory-lock-in]] — provider-managed agents put memory behind an API, creating lock-in (2026-04-12)
+- [[memory-is-where-agent-lock-in-lives]] — stateless models are swappable; stateful memory is not (2026-04-12)
+- [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — open harness + customer-owned DB keeps model and memory portable (2026-04-12)
 - [[sand-vs-stone-separates-durable-from-disposable-product-value]] — if models double, what washes away vs remains? (2026-04-10)
 - [[model-compensations-become-liabilities-as-capabilities-advance]] — yesterday's model fixes hobble today's agent at 5+ per week (2026-04-10)
 - [[conflicting-context-causes-agent-collapse-not-graceful-degradation]] — contradictory context triggers collapse mode, not graceful fallback (2026-04-10)
 - [[context-flywheel-is-day-90-not-day-0]] — Day 0 comparisons miss compounding context advantage (2026-04-10)
 - [[long-horizon-evals-test-compounding-not-point-accuracy]] — Metric City: 90-day simulation tests learning trajectory (2026-04-10)
-- [[evals-are-gradient-signal-for-harness-engineering]] — ML training rigor applies to eval curation for harness engineering (2026-04-09)
-- [[holdout-sets-gate-autonomous-harness-optimization]] — train/test splits for evals prevent autonomous harness loops from overfitting (2026-04-09)
-- [[trace-to-eval-flywheel-compounds-agent-quality]] — production traces → eval cases → better harness → better traces (2026-04-09)
-- [[eval-suites-must-shrink-not-just-grow]] — spring cleaning stale evals prevents wasted compute and misaligned pressure (2026-04-09)
-- [[agents-learn-at-three-layers-model-harness-context]] — model, harness, context as three distinct agent learning surfaces (2026-04-06)

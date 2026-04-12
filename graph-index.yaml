@@ -10,8 +10,8 @@
 #
 # outgoing/incoming: insight-to-insight links only (topic MOC links excluded)
 
-last_updated: 2026-04-10
-node_count: 165
+last_updated: 2026-04-12
+node_count: 170
 domains: [ai, mental-models]
 
 nodes:
@@ -55,7 +55,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
     outgoing: [files-are-the-universal-agent-interface, decision-traces-are-the-missing-data-layer, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning, data-agents-fail-from-missing-context-not-sql-gaps]
-    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, vertical-models-beat-frontier-models-in-their-domain, sand-vs-stone-separates-durable-from-disposable-product-value, context-flywheel-is-day-90-not-day-0]
+    incoming: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity, boring-tech-wins-for-ai-native-startups, saas-survives-as-governance-and-coordination-layer, open-source-captures-value-through-services-not-software, prompt-caching-makes-long-context-economically-viable, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, production-agents-route-decisions-not-every-call-to-llm, personal-software-grows-through-relationship-not-configuration, rigid-schemas-exist-because-rigid-apps-demand-them, model-market-fit-before-product-market-fit, harness-engineers-need-docs-as-first-class-output, decision-traces-are-the-missing-data-layer, skills-as-markdown-replace-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, data-agents-fail-from-missing-context-not-sql-gaps, tribal-knowledge-is-the-last-mile-for-agent-automation, metadata-for-llm-consumers-needs-trigger-specs-not-summaries, vertical-models-beat-frontier-models-in-their-domain, sand-vs-stone-separates-durable-from-disposable-product-value, context-flywheel-is-day-90-not-day-0, memory-is-harness-responsibility-not-plugin, closed-harnesses-behind-apis-create-memory-lock-in, memory-is-where-agent-lock-in-lives]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -161,7 +161,7 @@ nodes:
     topics: [ai-native-product-architecture, ai-coding-tools]
     source: "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)"
     outgoing: [context-is-the-product-not-the-model, lakebases-decouple-compute-from-storage]
-    incoming: [agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, lakebases-decouple-compute-from-storage, frontier-companies-absorb-every-useful-agentic-pattern]
+    incoming: [agentic-search-beats-rag-for-live-codebases, postgresql-scales-further-than-you-think, lakebases-decouple-compute-from-storage, frontier-companies-absorb-every-useful-agentic-pattern, open-harnesses-with-owned-databases-prevent-model-provider-lock-in]
 
   specs-are-external-memory-surviving-context-resets:
     title: "Spec files are external memory that survives context resets"
@@ -179,7 +179,7 @@ nodes:
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     domain: ai
     outgoing: [harness-quality-beats-model-intelligence, compound-engineering-makes-future-work-easier, meta-agents-beat-manual-harness-engineering]
-    incoming: [harness-quality-beats-model-intelligence, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering]
+    incoming: [harness-quality-beats-model-intelligence, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering, agent-harnesses-are-persistent-infrastructure]
 
   agent-edits-are-automatic-decision-instrumentation:
     title: "Agent edits are automatic decision instrumentation — every human correction is a structured signal"
@@ -197,7 +197,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture"
     outgoing: [decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility, tribal-knowledge-is-the-last-mile-for-agent-automation, two-tier-agent-memory-separates-org-from-user]
+    incoming: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, autonomous-loops-need-small-stories-and-fast-feedback, evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge, three-layer-ai-stack-memory-search-reasoning, compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, agent-trust-transfers-from-human-credibility, tribal-knowledge-is-the-last-mile-for-agent-automation, two-tier-agent-memory-separates-org-from-user, memory-is-harness-responsibility-not-plugin]
 
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
@@ -477,7 +477,7 @@ nodes:
     source_file: sources/yoonholee-meta-harness.md
     domain: ai
     outgoing: [agents-learn-at-three-layers-model-harness-context, harness-quality-beats-model-intelligence, build-for-the-model-six-months-from-now, scaffolding-is-tech-debt-against-the-next-model]
-    incoming: [meta-agents-beat-manual-harness-engineering]
+    incoming: [meta-agents-beat-manual-harness-engineering, open-harnesses-with-owned-databases-prevent-model-provider-lock-in]
 
   every-optimization-has-a-shadow-regression:
     title: "Every optimization has a shadow regression — guard commands make the shadow visible"
@@ -852,7 +852,7 @@ nodes:
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
     domain: ai
     outgoing: [verification-multiplies-agent-output-quality, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, autonomous-loops-need-small-stories-and-fast-feedback, meta-agents-beat-manual-harness-engineering, intelligence-location-determines-system-fragility, agents-learn-at-three-layers-model-harness-context]
-    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics, intelligence-location-determines-system-fragility, agents-learn-at-three-layers-model-harness-context, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering]
+    incoming: [rollback-safety-nets-enable-autonomy-not-intelligence, every-optimization-has-a-shadow-regression, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality, harness-engineers-need-docs-as-first-class-output, stronger-models-expand-the-verification-gap, detect-everything-notify-selectively, meta-agents-beat-manual-harness-engineering, self-improving-agents-overfit-to-eval-metrics, intelligence-location-determines-system-fragility, agents-learn-at-three-layers-model-harness-context, evolved-harnesses-transfer-across-models, evals-are-gradient-signal-for-harness-engineering, agent-harnesses-are-persistent-infrastructure, open-harnesses-with-owned-databases-prevent-model-provider-lock-in]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -1132,7 +1132,7 @@ nodes:
     source: "Nikunj Kothari — Revealed Preferences"
     domain: ai
     outgoing: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning]
-    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation, trace-to-eval-flywheel-compounds-agent-quality, context-flywheel-is-day-90-not-day-0]
+    incoming: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, agent-edits-are-automatic-decision-instrumentation, trace-to-eval-flywheel-compounds-agent-quality, context-flywheel-is-day-90-not-day-0, closed-harnesses-behind-apis-create-memory-lock-in, memory-is-where-agent-lock-in-lives]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1426,7 +1426,7 @@ nodes:
     source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
     domain: ai
     outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, agent-memory-preserves-institutional-knowledge, context-learning-spans-agent-tenant-and-org-levels]
-    incoming: [evolving-summaries-beat-append-only-memory, knowledge-systems-need-dual-layer-storage, context-learning-spans-agent-tenant-and-org-levels, conflicting-context-causes-agent-collapse-not-graceful-degradation]
+    incoming: [evolving-summaries-beat-append-only-memory, knowledge-systems-need-dual-layer-storage, context-learning-spans-agent-tenant-and-org-levels, conflicting-context-causes-agent-collapse-not-graceful-degradation, memory-is-harness-responsibility-not-plugin]
 
   compilation-scales-curation-compounds:
     title: "Compilation scales but curation compounds — two camps for knowledge graph construction"
@@ -1527,3 +1527,53 @@ nodes:
     domain: ai
     outgoing: [evals-are-gradient-signal-for-harness-engineering, holdout-sets-gate-autonomous-harness-optimization, trace-to-eval-flywheel-compounds-agent-quality]
     incoming: []
+
+  agent-harnesses-are-persistent-infrastructure:
+    title: "Agent harnesses are persistent infrastructure, not scaffolding models will absorb"
+    description: "As models improve, old scaffolding disappears but new scaffolding replaces it — harnesses aren't going away, they're evolving"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
+    source_file: sources/hwchase17-your-harness-your-memory.md
+    domain: ai
+    outgoing: [agents-learn-at-three-layers-model-harness-context, harness-quality-beats-model-intelligence]
+    incoming: [agents-learn-at-three-layers-model-harness-context]
+
+  memory-is-harness-responsibility-not-plugin:
+    title: "Memory is a harness responsibility, not a pluggable component"
+    description: "Managing context — what enters, what survives compaction, what's queryable — is a core capability of the harness itself, not an add-on service"
+    topics: [ai-native-product-architecture, knowledge-systems]
+    source: "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)"
+    source_file: sources/hwchase17-your-harness-your-memory.md
+    domain: ai
+    outgoing: [two-tier-agent-memory-separates-org-from-user, agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model]
+    incoming: [two-tier-agent-memory-separates-org-from-user]
+
+  closed-harnesses-behind-apis-create-memory-lock-in:
+    title: "Closed harnesses behind APIs create memory lock-in by design"
+    description: "When the harness lives behind a proprietary API, memory state and schema become invisible and non-portable — model providers are incentivized to push more of the harness behind their APIs"
+    topics: [ai-agents, business-models]
+    source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
+    source_file: sources/hwchase17-your-harness-your-memory.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, proprietary-feedback-loops-widen-the-moat, memory-is-where-agent-lock-in-lives]
+    incoming: [context-is-the-product-not-the-model, memory-is-where-agent-lock-in-lives]
+
+  memory-is-where-agent-lock-in-lives:
+    title: "Memory is where agent lock-in lives — without it, agents are commoditized"
+    description: "Stateless model APIs are easily swapped; stateful memory creates a proprietary dataset of user interactions and preferences that makes the agent sticky and differentiated"
+    topics: [business-models, ai-agents]
+    source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
+    source_file: sources/hwchase17-your-harness-your-memory.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, proprietary-feedback-loops-widen-the-moat, closed-harnesses-behind-apis-create-memory-lock-in]
+    incoming: [proprietary-feedback-loops-widen-the-moat, closed-harnesses-behind-apis-create-memory-lock-in, open-harnesses-with-owned-databases-prevent-model-provider-lock-in]
+
+  open-harnesses-with-owned-databases-prevent-model-provider-lock-in:
+    title: "Open harnesses with customer-owned databases are the antidote to model-provider lock-in"
+    description: "An open, model-agnostic harness that stores memory in a database you control (Postgres, Mongo, Redis) keeps both model choice and memory portable"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
+    source_file: sources/hwchase17-your-harness-your-memory.md
+    domain: ai
+    outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, memory-is-where-agent-lock-in-lives]
+    incoming: [harness-quality-beats-model-intelligence]

@@ -39,3 +39,6 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[vertical-models-beat-frontier-models-in-their-domain]] — Intercom's Apex beats every frontier model in customer service on all metrics
 - [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: proactive cannibalization as strategy
 - [[context-flywheel-is-day-90-not-day-0]] — Time-compounded context is the moat, not point-in-time capability
+- [[closed-harnesses-behind-apis-create-memory-lock-in]] — Provider-managed agents put memory behind an API, which is lock-in by design
+- [[memory-is-where-agent-lock-in-lives]] — Models are stateless and swappable; memory state is the real switching cost
+- [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — Open harness + customer-owned DB preserves model portability and memory ownership

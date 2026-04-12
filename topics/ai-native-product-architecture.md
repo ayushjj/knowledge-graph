@@ -86,3 +86,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]] — Evals shape agent behavior like selection pressure; quality over quantity
 - [[evals-are-gradient-signal-for-harness-engineering]] — ML training rigor (data quality, curation, train/test splits) applies to eval design
 - [[trace-to-eval-flywheel-compounds-agent-quality]] — Usage → traces → evals → better harness: the self-reinforcing improvement loop
+- [[agent-harnesses-are-persistent-infrastructure]] — Harnesses are durable infrastructure, not scaffolding that models will absorb
+- [[memory-is-harness-responsibility-not-plugin]] — Memory is a core harness capability — not a pluggable service bolted on after
+- [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — Open harness + your Postgres/Mongo = model and memory portability
