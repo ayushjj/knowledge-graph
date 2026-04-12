@@ -62,7 +62,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 27,
+      "degree": 33,
       "domain": "ai"
     },
     {
@@ -204,7 +204,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -230,7 +230,7 @@
       ],
       "source": "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)",
       "color": "#8b5cf6",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -256,7 +256,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -269,7 +269,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -282,7 +282,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 14,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -706,7 +706,7 @@
       ],
       "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -862,7 +862,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -944,6 +944,18 @@
       "domain": "ai"
     },
     {
+      "id": "eval-suites-must-shrink-not-just-grow",
+      "label": "Eval suites must shrink, not just grow — spring cleaning prevents stale behavioral pressure",
+      "description": "Saturated evals waste compute without providing signal; more intelligent models or changed desired behaviors make old evals irrelevant, requiring regular pruning alongside addition",
+      "topics": [
+        "ai-agents"
+      ],
+      "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
       "label": "Evals are behavioral pressure vectors, not neutral measurements — poorly chosen evals distort agent development",
       "description": "Each eval shapes agent behavior like a selection pressure; accumulating tests without strategic purpose creates 'an illusion of improving your agent' while distorting development in unproductive directions",
@@ -953,7 +965,20 @@
       ],
       "source": "LangChain — How We Build Evals for Deep Agents",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 9,
+      "domain": "ai"
+    },
+    {
+      "id": "evals-are-gradient-signal-for-harness-engineering",
+      "label": "Evals are the gradient signal for harness engineering — the same data quality rigor from ML training applies",
+      "description": "The analogy between ML training and agent development is structural: evals encode desired behavior like training data encodes ground truth, and the same principles (data quality, curation, train/test splits) determine outcomes",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+      "color": "#6366f1",
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -1005,7 +1030,7 @@
       ],
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1018,7 +1043,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -1190,6 +1215,18 @@
       "domain": "ai"
     },
     {
+      "id": "holdout-sets-gate-autonomous-harness-optimization",
+      "label": "Holdout eval sets are the generalization gate for autonomous harness optimization — without them, the loop overfits",
+      "description": "Autonomous harness hill-climbing tends to overfit to the optimization set; splitting evals into optimization and holdout categories — mirroring ML train/test splits — is the structural defense",
+      "topics": [
+        "ai-agents"
+      ],
+      "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
       "id": "hot-path-vs-offline-learning-are-two-temporal-modes",
       "label": "Hot-path and offline learning are two temporal modes for agent context updates — each with different tradeoffs",
       "description": "Agents can update their context in the hot path (during task execution, like saving to memory while working) or offline (batch processing recent traces after the fact, like OpenClaw's 'dreaming'), with an additional dimension of explicit vs implicit memory updates",
@@ -1225,7 +1262,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 19,
+      "degree": 23,
       "domain": "ai"
     },
     {
@@ -1368,7 +1405,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1628,7 +1665,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 6,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -1758,7 +1795,7 @@
       ],
       "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1847,7 +1884,7 @@
       ],
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1884,7 +1921,7 @@
       ],
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1927,6 +1964,19 @@
       "domain": "ai"
     },
     {
+      "id": "trace-to-eval-flywheel-compounds-agent-quality",
+      "label": "The trace→eval→harness flywheel compounds agent quality — every production interaction generates its own training data",
+      "description": "Production traces where agents fail become eval cases; better evals improve the harness; better harnesses produce better traces — creating a self-reinforcing improvement loop",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
       "id": "traces-are-the-universal-substrate-for-agent-learning",
       "label": "Traces are the universal substrate for agent learning — all three layers consume the same execution logs",
       "description": "Whether updating model weights, improving harness code, or refining context/memory, agent learning flows start from the same raw material: traces capturing the full execution path of what an agent did",
@@ -1936,7 +1986,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -2013,7 +2063,7 @@
       ],
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -2081,6 +2131,136 @@
       "color": "#f43f5e",
       "degree": 4,
       "domain": "ai"
+    },
+    {
+      "id": "sand-vs-stone-separates-durable-from-disposable-product-value",
+      "label": "Sand vs Stone — if models double in capability tomorrow, what washes away and what remains?",
+      "description": "Framework for evaluating AI product durability: context flywheels and domain expertise are stone; model workarounds and clever engineering are sand",
+      "topics": [
+        "ai-native-product-architecture",
+        "future-of-ai-business"
+      ],
+      "source": "@izzymiller (Izzy Miller, Hex) relaying Barry McCardel (Hex CEO) — Building AI Agents for Data Analytics",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "model-compensations-become-liabilities-as-capabilities-advance",
+      "label": "Model compensations become liabilities as capabilities advance — yesterday's fixes hobble today's agent",
+      "description": "Engineering workarounds for earlier model limitations accumulate as technical debt that actively degrades agent performance when models improve",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "conflicting-context-causes-agent-collapse-not-graceful-degradation",
+      "label": "Conflicting context causes agent collapse, not graceful degradation",
+      "description": "When an LLM encounters contradictory information in its context, it enters extended deliberation loops rather than choosing one interpretation — production finding from Hex",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
+      "color": "#6366f1",
+      "degree": 1,
+      "domain": "ai"
+    },
+    {
+      "id": "context-flywheel-is-day-90-not-day-0",
+      "label": "The context flywheel is a Day 90 moat — Day 0 comparisons are misleading",
+      "description": "Point-in-time capability benchmarks miss the compounding advantage: on Day 0 a raw model matches your product, but by Day 90 accumulated context creates an unbridgeable gap",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
+      "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "long-horizon-evals-test-compounding-not-point-accuracy",
+      "label": "Long-horizon evals test compounding behavior, not point-in-time accuracy",
+      "description": "Hex's Metric City benchmark simulates 90 days of agent use with evolving data to measure whether the agent gets smarter over time — Day 0: 4%, Day 90: 24%",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "agent-harnesses-are-persistent-infrastructure",
+      "label": "Agent harnesses are persistent infrastructure, not scaffolding models will absorb",
+      "description": "As models improve, old scaffolding disappears but new scaffolding replaces it — harnesses aren't going away, they're evolving",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "memory-is-harness-responsibility-not-plugin",
+      "label": "Memory is a harness responsibility, not a pluggable component",
+      "description": "Managing context — what enters, what survives compaction, what's queryable — is a core capability of the harness itself, not an add-on service",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "closed-harnesses-behind-apis-create-memory-lock-in",
+      "label": "Closed harnesses behind APIs create memory lock-in by design",
+      "description": "When the harness lives behind a proprietary API, memory state and schema become invisible and non-portable — model providers are incentivized to push more of the harness behind their APIs",
+      "topics": [
+        "ai-agents",
+        "business-models"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "memory-is-where-agent-lock-in-lives",
+      "label": "Memory is where agent lock-in lives — without it, agents are commoditized",
+      "description": "Stateless model APIs are easily swapped; stateful memory creates a proprietary dataset of user interactions and preferences that makes the agent sticky and differentiated",
+      "topics": [
+        "business-models",
+        "ai-agents"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
+      "color": "#10b981",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
+      "label": "Open harnesses with customer-owned databases are the antidote to model-provider lock-in",
+      "description": "An open, model-agnostic harness that stores memory in a database you control (Postgres, Mongo, Redis) keeps both model choice and memory portable",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
+      "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
     }
   ],
   "links": [
@@ -2139,6 +2319,10 @@
     {
       "source": "context-is-the-product-not-the-model",
       "target": "data-agents-fail-from-missing-context-not-sql-gaps"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "skills-as-markdown-replace-fine-tuning",
@@ -2349,6 +2533,10 @@
       "target": "meta-agents-beat-manual-harness-engineering"
     },
     {
+      "source": "agents-learn-at-three-layers-model-harness-context",
+      "target": "agent-harnesses-are-persistent-infrastructure"
+    },
+    {
       "source": "agent-edits-are-automatic-decision-instrumentation",
       "target": "decision-traces-are-the-missing-data-layer"
     },
@@ -2359,6 +2547,10 @@
     {
       "source": "agent-edits-are-automatic-decision-instrumentation",
       "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "agent-edits-are-automatic-decision-instrumentation",
+      "target": "trace-to-eval-flywheel-compounds-agent-quality"
     },
     {
       "source": "agent-memory-preserves-institutional-knowledge",
@@ -3101,6 +3293,18 @@
       "target": "ai-compresses-execution-not-judgment"
     },
     {
+      "source": "eval-suites-must-shrink-not-just-grow",
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+    },
+    {
+      "source": "eval-suites-must-shrink-not-just-grow",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
+      "source": "eval-suites-must-shrink-not-just-grow",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
       "target": "verification-is-a-red-queen-race"
     },
@@ -3111,6 +3315,26 @@
     {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
       "target": "self-improving-agents-overfit-to-eval-metrics"
+    },
+    {
+      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "target": "eval-suites-must-shrink-not-just-grow"
+    },
+    {
+      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "target": "holdout-sets-gate-autonomous-harness-optimization"
+    },
+    {
+      "source": "evals-are-gradient-signal-for-harness-engineering",
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+    },
+    {
+      "source": "evals-are-gradient-signal-for-harness-engineering",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "evals-are-gradient-signal-for-harness-engineering",
+      "target": "agents-learn-at-three-layers-model-harness-context"
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
@@ -3333,6 +3557,18 @@
       "target": "vertical-models-beat-frontier-models-in-their-domain"
     },
     {
+      "source": "holdout-sets-gate-autonomous-harness-optimization",
+      "target": "self-improving-agents-overfit-to-eval-metrics"
+    },
+    {
+      "source": "holdout-sets-gate-autonomous-harness-optimization",
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
+      "source": "holdout-sets-gate-autonomous-harness-optimization",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
       "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
       "target": "session-capture-compounds-development-knowledge"
     },
@@ -3403,6 +3639,10 @@
     {
       "source": "harness-quality-beats-model-intelligence",
       "target": "agents-learn-at-three-layers-model-harness-context"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in"
     },
     {
       "source": "multi-model-orchestration-beats-any-single-family",
@@ -3535,6 +3775,14 @@
     {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
       "target": "claude-md-should-be-routing-table-not-knowledge-base"
+    },
+    {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "model-compensations-become-liabilities-as-capabilities-advance"
+    },
+    {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "sand-vs-stone-separates-durable-from-disposable-product-value"
     },
     {
       "source": "scale-advantages-cascade-until-bureaucracy-kills-them",
@@ -3765,6 +4013,10 @@
       "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
+      "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
       "source": "the-80-99-gap-is-where-ai-products-die",
       "target": "model-market-fit-before-product-market-fit"
     },
@@ -3897,6 +4149,10 @@
       "target": "trace-data-retention-must-match-ai-knowledge-lifespan"
     },
     {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "context-flywheel-is-day-90-not-day-0"
+    },
+    {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
       "target": "sell-the-work-not-the-tool"
     },
@@ -4017,6 +4273,10 @@
       "target": "evolved-harnesses-transfer-across-models"
     },
     {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
       "source": "same-model-pairings-win-through-model-empathy",
       "target": "treat-ai-like-distributed-team-not-assistant"
     },
@@ -4093,6 +4353,18 @@
       "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
+      "source": "trace-to-eval-flywheel-compounds-agent-quality",
+      "target": "traces-are-the-universal-substrate-for-agent-learning"
+    },
+    {
+      "source": "trace-to-eval-flywheel-compounds-agent-quality",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "trace-to-eval-flywheel-compounds-agent-quality",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
       "source": "traces-are-the-universal-substrate-for-agent-learning",
       "target": "decision-traces-are-the-missing-data-layer"
     },
@@ -4161,6 +4433,10 @@
       "target": "context-learning-spans-agent-tenant-and-org-levels"
     },
     {
+      "source": "two-tier-agent-memory-separates-org-from-user",
+      "target": "memory-is-harness-responsibility-not-plugin"
+    },
+    {
       "source": "compilation-scales-curation-compounds",
       "target": "compound-engineering-makes-future-work-easier"
     },
@@ -4227,6 +4503,122 @@
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
       "target": "agentic-search-beats-rag-for-live-codebases"
+    },
+    {
+      "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
+      "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "model-compensations-become-liabilities-as-capabilities-advance",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
+      "source": "model-compensations-become-liabilities-as-capabilities-advance",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "model-compensations-become-liabilities-as-capabilities-advance",
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
+      "source": "conflicting-context-causes-agent-collapse-not-graceful-degradation",
+      "target": "two-tier-agent-memory-separates-org-from-user"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "agent-trace-accumulation-produces-emergent-world-models"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "long-horizon-evals-test-compounding-not-point-accuracy",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
+      "source": "long-horizon-evals-test-compounding-not-point-accuracy",
+      "target": "holdout-sets-gate-autonomous-harness-optimization"
+    },
+    {
+      "source": "long-horizon-evals-test-compounding-not-point-accuracy",
+      "target": "trace-to-eval-flywheel-compounds-agent-quality"
+    },
+    {
+      "source": "agent-harnesses-are-persistent-infrastructure",
+      "target": "agents-learn-at-three-layers-model-harness-context"
+    },
+    {
+      "source": "agent-harnesses-are-persistent-infrastructure",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "memory-is-harness-responsibility-not-plugin",
+      "target": "two-tier-agent-memory-separates-org-from-user"
+    },
+    {
+      "source": "memory-is-harness-responsibility-not-plugin",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "memory-is-harness-responsibility-not-plugin",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
+      "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
+      "source": "memory-is-where-agent-lock-in-lives",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "memory-is-where-agent-lock-in-lives",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "memory-is-where-agent-lock-in-lives",
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
+    },
+    {
+      "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
+      "target": "boring-tech-wins-for-ai-native-startups"
+    },
+    {
+      "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
+      "target": "evolved-harnesses-transfer-across-models"
+    },
+    {
+      "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
+      "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
+      "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
+      "target": "harness-quality-beats-model-intelligence"
     }
   ]
 }

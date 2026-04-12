@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "build:graph": "node build-graph.js",
     "check": "astro check && node build-graph.js && node validate-graph.js && vitest run",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "repository": {
     "type": "git",

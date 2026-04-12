@@ -1,0 +1,15 @@
+#!/bin/sh
+# Pre-commit hook: validate graph structure before allowing commit.
+# Runs only when graph-relevant files are staged (skips for unrelated commits).
+# Install once per clone: git config core.hooksPath .githooks
+
+staged=$(git diff --cached --name-only)
+if echo "$staged" | grep -qE '^(insights/|topics/|graph-index\.yaml|README\.md)'; then
+  echo "[pre-commit] Graph files staged — running validate-graph.js..."
+  if ! node validate-graph.js; then
+    echo ""
+    echo "[pre-commit] BLOCKED: graph validation failed. Fix above issues, then re-commit."
+    echo "[pre-commit] To bypass (not recommended), use: git commit --no-verify"
+    exit 1
+  fi
+fi
