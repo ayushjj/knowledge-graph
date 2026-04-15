@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-// validate-graph.js — Checks 7 graph invariants for the knowledge graph
+// validate-graph.js — Checks 6 graph invariants for the knowledge graph
 // Replaces validate-graph.sh (bash version took 5+ min on Windows due to subprocess overhead)
 // Run: node validate-graph.js
 // Exits non-zero on any failure
+// Note: reciprocal-link check removed 2026-04-15 — edges are now stored one-way (outgoing:) per Principle 30.
 
 import fs from 'fs';
 import path from 'path';
@@ -53,50 +54,12 @@ if (yamlOnly.length === 0 && fileOnly.length === 0) {
   fail(msg);
 }
 
-// --- Check 3: Reciprocal links ---
-const reciprocalErrors = [];
-
-for (const slug of slugs) {
-  const node = nodes[slug];
-  const outgoing = node.outgoing || [];
-  const incoming = node.incoming || [];
-
-  // If A->B in outgoing, B must have A in incoming
-  for (const target of outgoing) {
-    const targetNode = nodes[target];
-    if (!targetNode) continue; // Check 4 catches missing targets
-    const targetIncoming = targetNode.incoming || [];
-    if (!targetIncoming.includes(slug)) {
-      reciprocalErrors.push(`  ${slug} -> ${target} (outgoing) but ${target} missing ${slug} in incoming`);
-    }
-  }
-
-  // If A lists B in incoming, B must have A in outgoing
-  for (const source of incoming) {
-    const sourceNode = nodes[source];
-    if (!sourceNode) continue;
-    const sourceOutgoing = sourceNode.outgoing || [];
-    if (!sourceOutgoing.includes(slug)) {
-      reciprocalErrors.push(`  ${source} -> ${slug} (${slug} lists ${source} in incoming) but ${source} missing ${slug} in outgoing`);
-    }
-  }
-}
-
-if (reciprocalErrors.length === 0) {
-  pass('Reciprocal links: all outgoing/incoming pairs match');
-} else {
-  fail(`Reciprocal links:\n${reciprocalErrors.join('\n')}`);
-}
-
-// --- Check 4: All link targets exist ---
+// --- Check 3: All link targets exist ---
 const missingTargets = new Set();
 
 for (const slug of slugs) {
   const node = nodes[slug];
   for (const target of (node.outgoing || [])) {
-    if (!nodes[target]) missingTargets.add(target);
-  }
-  for (const target of (node.incoming || [])) {
     if (!nodes[target]) missingTargets.add(target);
   }
 }
@@ -107,7 +70,7 @@ if (missingTargets.size === 0) {
   fail(`Link targets reference non-existent nodes: ${[...missingTargets].join(' ')}`);
 }
 
-// --- Check 5: Topic files exist ---
+// --- Check 4: Topic files exist ---
 const missingTopics = new Set();
 for (const slug of slugs) {
   for (const topic of (nodes[slug].topics || [])) {
@@ -122,7 +85,7 @@ if (missingTopics.size === 0) {
   fail(`Missing topic files: ${[...missingTopics].join(' ')}`);
 }
 
-// --- Check 6: Topic MOC coverage ---
+// --- Check 5: Topic MOC coverage ---
 const mocErrors = [];
 const topicCache = {};
 
@@ -147,7 +110,7 @@ if (mocErrors.length === 0) {
   fail(`Topic MOC coverage:\n${mocErrors.join('\n')}`);
 }
 
-// --- Check 7: No broken wikilinks in prose ---
+// --- Check 6: No broken wikilinks in prose ---
 const topicSlugs = fs.readdirSync(path.join(__dirname, 'topics'))
   .filter(f => f.endsWith('.md'))
   .map(f => f.replace(/\.md$/, ''));

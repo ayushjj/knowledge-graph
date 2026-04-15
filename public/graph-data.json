@@ -2278,11 +2278,11 @@
     },
     {
       "source": "files-are-the-universal-agent-interface",
-      "target": "skills-as-markdown-replace-fine-tuning"
+      "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
     },
     {
       "source": "files-are-the-universal-agent-interface",
-      "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
+      "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
       "source": "technical-knowledge-becomes-liability",
@@ -2294,19 +2294,27 @@
     },
     {
       "source": "context-learning-spans-agent-tenant-and-org-levels",
-      "target": "two-tier-agent-memory-separates-org-from-user"
-    },
-    {
-      "source": "context-learning-spans-agent-tenant-and-org-levels",
       "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
+      "source": "context-learning-spans-agent-tenant-and-org-levels",
+      "target": "two-tier-agent-memory-separates-org-from-user"
+    },
+    {
       "source": "context-is-the-product-not-the-model",
-      "target": "files-are-the-universal-agent-interface"
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "data-agents-fail-from-missing-context-not-sql-gaps"
     },
     {
       "source": "context-is-the-product-not-the-model",
       "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "files-are-the-universal-agent-interface"
     },
     {
       "source": "context-is-the-product-not-the-model",
@@ -2317,12 +2325,8 @@
       "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
-      "source": "context-is-the-product-not-the-model",
-      "target": "data-agents-fail-from-missing-context-not-sql-gaps"
-    },
-    {
-      "source": "context-is-the-product-not-the-model",
-      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
+      "source": "skills-as-markdown-replace-fine-tuning",
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "skills-as-markdown-replace-fine-tuning",
@@ -2330,15 +2334,7 @@
     },
     {
       "source": "skills-as-markdown-replace-fine-tuning",
-      "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "skills-as-markdown-replace-fine-tuning",
       "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "deputies-and-sheriffs-distribute-agent-authority",
-      "target": "treat-ai-like-distributed-team-not-assistant"
     },
     {
       "source": "deputies-and-sheriffs-distribute-agent-authority",
@@ -2349,36 +2345,20 @@
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
-      "source": "data-agents-fail-from-missing-context-not-sql-gaps",
-      "target": "context-is-the-product-not-the-model"
+      "source": "deputies-and-sheriffs-distribute-agent-authority",
+      "target": "treat-ai-like-distributed-team-not-assistant"
     },
     {
       "source": "data-agents-fail-from-missing-context-not-sql-gaps",
-      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "data-agents-fail-from-missing-context-not-sql-gaps",
       "target": "decision-traces-are-the-missing-data-layer"
     },
     {
-      "source": "decision-traces-are-the-missing-data-layer",
-      "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "decision-traces-are-the-missing-data-layer",
-      "target": "agent-memory-preserves-institutional-knowledge"
-    },
-    {
-      "source": "decision-traces-are-the-missing-data-layer",
-      "target": "tribal-knowledge-is-the-last-mile-for-agent-automation"
-    },
-    {
-      "source": "decision-traces-are-the-missing-data-layer",
-      "target": "observability-is-the-missing-agent-discipline"
-    },
-    {
-      "source": "decision-traces-are-the-missing-data-layer",
-      "target": "revealed-preferences-trump-stated-preferences"
+      "source": "data-agents-fail-from-missing-context-not-sql-gaps",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
@@ -2386,11 +2366,31 @@
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
       "target": "permissioned-inference-is-harder-than-permissioned-retrieval"
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
       "target": "traces-not-scores-enable-agent-improvement"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
+      "target": "tribal-knowledge-is-the-last-mile-for-agent-automation"
     },
     {
       "source": "declarative-beats-imperative-for-agents",
@@ -2426,11 +2426,11 @@
     },
     {
       "source": "software-abundance-unlocks-categories-that-never-existed",
-      "target": "technology-transitions-create-more-not-less"
+      "target": "features-are-prompts-not-code"
     },
     {
       "source": "software-abundance-unlocks-categories-that-never-existed",
-      "target": "features-are-prompts-not-code"
+      "target": "technology-transitions-create-more-not-less"
     },
     {
       "source": "ai-self-improvement-loop-accelerates-everything",
@@ -2438,11 +2438,15 @@
     },
     {
       "source": "verification-multiplies-agent-output-quality",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
       "target": "declarative-beats-imperative-for-agents"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -2454,15 +2458,11 @@
     },
     {
       "source": "verification-multiplies-agent-output-quality",
-      "target": "the-80-99-gap-is-where-ai-products-die"
-    },
-    {
-      "source": "verification-multiplies-agent-output-quality",
-      "target": "harness-quality-beats-model-intelligence"
-    },
-    {
-      "source": "verification-multiplies-agent-output-quality",
       "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "the-80-99-gap-is-where-ai-products-die"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -2470,11 +2470,7 @@
     },
     {
       "source": "verification-is-a-red-queen-race",
-      "target": "verification-multiplies-agent-output-quality"
-    },
-    {
-      "source": "verification-is-a-red-queen-race",
-      "target": "the-80-99-gap-is-where-ai-products-die"
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
     },
     {
       "source": "verification-is-a-red-queen-race",
@@ -2482,15 +2478,19 @@
     },
     {
       "source": "verification-is-a-red-queen-race",
-      "target": "stronger-models-expand-the-verification-gap"
-    },
-    {
-      "source": "verification-is-a-red-queen-race",
       "target": "self-improving-agents-overfit-to-eval-metrics"
     },
     {
       "source": "verification-is-a-red-queen-race",
-      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+      "target": "stronger-models-expand-the-verification-gap"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "the-80-99-gap-is-where-ai-products-die"
+    },
+    {
+      "source": "verification-is-a-red-queen-race",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
@@ -2510,10 +2510,6 @@
     },
     {
       "source": "specs-are-external-memory-surviving-context-resets",
-      "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "specs-are-external-memory-surviving-context-resets",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
@@ -2521,8 +2517,12 @@
       "target": "context-window-is-the-fundamental-constraint"
     },
     {
+      "source": "specs-are-external-memory-surviving-context-resets",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
       "source": "agents-learn-at-three-layers-model-harness-context",
-      "target": "harness-quality-beats-model-intelligence"
+      "target": "agent-harnesses-are-persistent-infrastructure"
     },
     {
       "source": "agents-learn-at-three-layers-model-harness-context",
@@ -2530,11 +2530,11 @@
     },
     {
       "source": "agents-learn-at-three-layers-model-harness-context",
-      "target": "meta-agents-beat-manual-harness-engineering"
+      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "agents-learn-at-three-layers-model-harness-context",
-      "target": "agent-harnesses-are-persistent-infrastructure"
+      "target": "meta-agents-beat-manual-harness-engineering"
     },
     {
       "source": "agent-edits-are-automatic-decision-instrumentation",
@@ -2542,15 +2542,19 @@
     },
     {
       "source": "agent-edits-are-automatic-decision-instrumentation",
-      "target": "revealed-preferences-trump-stated-preferences"
-    },
-    {
-      "source": "agent-edits-are-automatic-decision-instrumentation",
       "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
       "source": "agent-edits-are-automatic-decision-instrumentation",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "agent-edits-are-automatic-decision-instrumentation",
       "target": "trace-to-eval-flywheel-compounds-agent-quality"
+    },
+    {
+      "source": "agent-memory-preserves-institutional-knowledge",
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "agent-memory-preserves-institutional-knowledge",
@@ -2559,14 +2563,6 @@
     {
       "source": "agent-memory-preserves-institutional-knowledge",
       "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "agent-memory-preserves-institutional-knowledge",
-      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
-    },
-    {
-      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
       "source": "similarity-is-not-relevance-relevance-requires-reasoning",
@@ -2575,6 +2571,10 @@
     {
       "source": "similarity-is-not-relevance-relevance-requires-reasoning",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
       "source": "stronger-models-expand-the-verification-gap",
@@ -2590,15 +2590,11 @@
     },
     {
       "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "skill-graphs-enable-progressive-disclosure"
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "structure-plus-reasoning-beats-flat-similarity",
       "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "structure-plus-reasoning-beats-flat-similarity",
@@ -2609,12 +2605,8 @@
       "target": "navigation-beats-search-for-knowledge-retrieval"
     },
     {
-      "source": "agentic-search-beats-rag-for-live-codebases",
-      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
-    },
-    {
-      "source": "agentic-search-beats-rag-for-live-codebases",
-      "target": "context-window-is-the-fundamental-constraint"
+      "source": "structure-plus-reasoning-beats-flat-similarity",
+      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "agentic-search-beats-rag-for-live-codebases",
@@ -2622,11 +2614,15 @@
     },
     {
       "source": "agentic-search-beats-rag-for-live-codebases",
-      "target": "virtual-filesystems-replace-sandboxes-for-agent-navigation"
+      "target": "context-window-is-the-fundamental-constraint"
     },
     {
-      "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
-      "target": "trust-boundaries-must-be-mapped-and-externalized"
+      "source": "agentic-search-beats-rag-for-live-codebases",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "agentic-search-beats-rag-for-live-codebases",
+      "target": "virtual-filesystems-replace-sandboxes-for-agent-navigation"
     },
     {
       "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
@@ -2637,8 +2633,12 @@
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
+      "source": "permissioned-inference-is-harder-than-permissioned-retrieval",
+      "target": "trust-boundaries-must-be-mapped-and-externalized"
+    },
+    {
       "source": "personal-software-grows-through-relationship-not-configuration",
-      "target": "malleable-software-writes-its-own-extensions"
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "personal-software-grows-through-relationship-not-configuration",
@@ -2646,11 +2646,7 @@
     },
     {
       "source": "personal-software-grows-through-relationship-not-configuration",
-      "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "platform-economics-beat-labor-arbitrage",
-      "target": "technology-helps-moats-kills-commodity-businesses"
+      "target": "malleable-software-writes-its-own-extensions"
     },
     {
       "source": "platform-economics-beat-labor-arbitrage",
@@ -2659,6 +2655,10 @@
     {
       "source": "platform-economics-beat-labor-arbitrage",
       "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "platform-economics-beat-labor-arbitrage",
+      "target": "technology-helps-moats-kills-commodity-businesses"
     },
     {
       "source": "postgresql-scales-further-than-you-think",
@@ -2674,7 +2674,7 @@
     },
     {
       "source": "response-ux-should-match-retrieval-intelligence",
-      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+      "target": "features-are-prompts-not-code"
     },
     {
       "source": "response-ux-should-match-retrieval-intelligence",
@@ -2682,19 +2682,7 @@
     },
     {
       "source": "response-ux-should-match-retrieval-intelligence",
-      "target": "features-are-prompts-not-code"
-    },
-    {
-      "source": "skill-graphs-enable-progressive-disclosure",
-      "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "skill-graphs-enable-progressive-disclosure",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
-    },
-    {
-      "source": "skill-graphs-enable-progressive-disclosure",
-      "target": "skills-as-markdown-replace-fine-tuning"
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
       "source": "skill-graphs-enable-progressive-disclosure",
@@ -2705,8 +2693,20 @@
       "target": "domain-skill-libraries-are-the-real-agent-moat"
     },
     {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "skill-graphs-enable-progressive-disclosure",
+      "target": "structure-plus-reasoning-beats-flat-similarity"
+    },
+    {
       "source": "skill-folder-structure-is-context-engineering",
-      "target": "skill-graphs-enable-progressive-disclosure"
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
     {
       "source": "skill-folder-structure-is-context-engineering",
@@ -2714,7 +2714,7 @@
     },
     {
       "source": "skill-folder-structure-is-context-engineering",
-      "target": "claude-md-should-be-routing-table-not-knowledge-base"
+      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "orchestrator-agent-replaces-human-coordination",
@@ -2738,15 +2738,11 @@
     },
     {
       "source": "open-source-captures-value-through-services-not-software",
-      "target": "saas-survives-as-governance-and-coordination-layer"
-    },
-    {
-      "source": "open-source-captures-value-through-services-not-software",
       "target": "context-is-the-product-not-the-model"
     },
     {
-      "source": "webmcp-turns-websites-into-agent-native-interfaces",
-      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+      "source": "open-source-captures-value-through-services-not-software",
+      "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
       "source": "webmcp-turns-websites-into-agent-native-interfaces",
@@ -2761,12 +2757,8 @@
       "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
     },
     {
-      "source": "prompt-caching-makes-long-context-economically-viable",
-      "target": "context-window-is-the-fundamental-constraint"
-    },
-    {
-      "source": "prompt-caching-makes-long-context-economically-viable",
-      "target": "three-layer-ai-stack-memory-search-reasoning"
+      "source": "webmcp-turns-websites-into-agent-native-interfaces",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
       "source": "prompt-caching-makes-long-context-economically-viable",
@@ -2774,11 +2766,15 @@
     },
     {
       "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "prompt-caching-makes-long-context-economically-viable",
       "target": "kv-cache-hit-rate-determines-agent-economics"
     },
     {
-      "source": "parallel-agents-create-management-problem-not-coding-problem",
-      "target": "treat-ai-like-distributed-team-not-assistant"
+      "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
@@ -2786,11 +2782,15 @@
     },
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
       "target": "specs-are-external-memory-surviving-context-resets"
     },
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
-      "target": "orchestrator-agent-replaces-human-coordination"
+      "target": "treat-ai-like-distributed-team-not-assistant"
     },
     {
       "source": "dont-be-the-discriminator-be-the-patron",
@@ -2818,27 +2818,27 @@
     },
     {
       "source": "autonomous-loops-need-small-stories-and-fast-feedback",
-      "target": "separate-research-from-implementation-to-preserve-context"
-    },
-    {
-      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
-      "target": "verification-multiplies-agent-output-quality"
-    },
-    {
-      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
       "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
+    },
+    {
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "separate-research-from-implementation-to-preserve-context"
     },
     {
       "source": "autonomous-loops-need-small-stories-and-fast-feedback",
       "target": "time-bounded-evaluation-optimizes-for-usefulness"
     },
     {
-      "source": "autopilots-capture-work-budget-not-tool-budget",
-      "target": "llm-competition-fragments-markets-not-consolidates"
+      "source": "autonomous-loops-need-small-stories-and-fast-feedback",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "autopilots-capture-work-budget-not-tool-budget",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "autopilots-capture-work-budget-not-tool-budget",
+      "target": "llm-competition-fragments-markets-not-consolidates"
     },
     {
       "source": "automation-amplifies-expert-demand",
@@ -2850,11 +2850,7 @@
     },
     {
       "source": "technology-transitions-create-more-not-less",
-      "target": "software-abundance-unlocks-categories-that-never-existed"
-    },
-    {
-      "source": "technology-transitions-create-more-not-less",
-      "target": "saas-grows-but-consolidates-around-platforms"
+      "target": "commodity-terminal-value-zero-expert-judgment-compounds"
     },
     {
       "source": "technology-transitions-create-more-not-less",
@@ -2862,15 +2858,11 @@
     },
     {
       "source": "technology-transitions-create-more-not-less",
-      "target": "commodity-terminal-value-zero-expert-judgment-compounds"
+      "target": "saas-grows-but-consolidates-around-platforms"
     },
     {
-      "source": "hybrid-search-is-the-default-not-the-exception",
-      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
-    },
-    {
-      "source": "hybrid-search-is-the-default-not-the-exception",
-      "target": "three-layer-ai-stack-memory-search-reasoning"
+      "source": "technology-transitions-create-more-not-less",
+      "target": "software-abundance-unlocks-categories-that-never-existed"
     },
     {
       "source": "hybrid-search-is-the-default-not-the-exception",
@@ -2881,20 +2873,28 @@
       "target": "response-ux-should-match-retrieval-intelligence"
     },
     {
-      "source": "negative-maintenance-reduces-future-work-for-everyone",
-      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+      "source": "hybrid-search-is-the-default-not-the-exception",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "hybrid-search-is-the-default-not-the-exception",
+      "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
       "source": "negative-maintenance-reduces-future-work-for-everyone",
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
-      "source": "non-attached-action-enables-clearer-course-correction",
-      "target": "first-conclusions-become-nearly-permanent"
+      "source": "negative-maintenance-reduces-future-work-for-everyone",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
     },
     {
       "source": "non-attached-action-enables-clearer-course-correction",
       "target": "excessive-self-regard-makes-fixable-failures-persist"
+    },
+    {
+      "source": "non-attached-action-enables-clearer-course-correction",
+      "target": "first-conclusions-become-nearly-permanent"
     },
     {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
@@ -2914,6 +2914,10 @@
     },
     {
       "source": "agent-trust-transfers-from-human-credibility",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "agent-trust-transfers-from-human-credibility",
       "target": "agents-become-the-buyer"
     },
     {
@@ -2921,20 +2925,8 @@
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
-      "source": "agent-trust-transfers-from-human-credibility",
-      "target": "agent-memory-preserves-institutional-knowledge"
-    },
-    {
       "source": "ask-for-no-not-yes-to-accelerate-decisions",
       "target": "invert-always-invert-to-solve-hard-problems"
-    },
-    {
-      "source": "agents-become-the-buyer",
-      "target": "webmcp-turns-websites-into-agent-native-interfaces"
-    },
-    {
-      "source": "agents-become-the-buyer",
-      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
       "source": "agents-become-the-buyer",
@@ -2942,15 +2934,19 @@
     },
     {
       "source": "agents-become-the-buyer",
+      "target": "autopilots-capture-work-budget-not-tool-budget"
+    },
+    {
+      "source": "agents-become-the-buyer",
       "target": "llms-complete-aggregation-theory-by-collapsing-interface-layer"
     },
     {
       "source": "agents-become-the-buyer",
-      "target": "autopilots-capture-work-budget-not-tool-budget"
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
-      "source": "treat-ai-like-distributed-team-not-assistant",
-      "target": "context-window-is-the-fundamental-constraint"
+      "source": "agents-become-the-buyer",
+      "target": "webmcp-turns-websites-into-agent-native-interfaces"
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
@@ -2958,11 +2954,7 @@
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
-      "target": "multi-model-orchestration-beats-any-single-family"
-    },
-    {
-      "source": "treat-ai-like-distributed-team-not-assistant",
-      "target": "parallel-agents-create-management-problem-not-coding-problem"
+      "target": "context-window-is-the-fundamental-constraint"
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
@@ -2970,7 +2962,7 @@
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
-      "target": "orchestrator-agent-replaces-human-coordination"
+      "target": "intelligence-judgement-ratio-determines-automation-order"
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
@@ -2978,11 +2970,23 @@
     },
     {
       "source": "treat-ai-like-distributed-team-not-assistant",
-      "target": "intelligence-judgement-ratio-determines-automation-order"
+      "target": "multi-model-orchestration-beats-any-single-family"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "treat-ai-like-distributed-team-not-assistant",
+      "target": "parallel-agents-create-management-problem-not-coding-problem"
     },
     {
       "source": "evolving-summaries-beat-append-only-memory",
       "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "evolving-summaries-beat-append-only-memory",
+      "target": "knowledge-evolution-is-the-biggest-unsolved-problem"
     },
     {
       "source": "evolving-summaries-beat-append-only-memory",
@@ -2993,16 +2997,8 @@
       "target": "two-tier-agent-memory-separates-org-from-user"
     },
     {
-      "source": "evolving-summaries-beat-append-only-memory",
-      "target": "knowledge-evolution-is-the-biggest-unsolved-problem"
-    },
-    {
       "source": "evolved-harnesses-transfer-across-models",
       "target": "agents-learn-at-three-layers-model-harness-context"
-    },
-    {
-      "source": "evolved-harnesses-transfer-across-models",
-      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "evolved-harnesses-transfer-across-models",
@@ -3010,7 +3006,19 @@
     },
     {
       "source": "evolved-harnesses-transfer-across-models",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "evolved-harnesses-transfer-across-models",
       "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
+      "source": "every-optimization-has-a-shadow-regression",
+      "target": "amplification-widens-the-judgment-gap"
+    },
+    {
+      "source": "every-optimization-has-a-shadow-regression",
+      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "every-optimization-has-a-shadow-regression",
@@ -3021,12 +3029,8 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
-      "source": "every-optimization-has-a-shadow-regression",
-      "target": "harness-quality-beats-model-intelligence"
-    },
-    {
-      "source": "every-optimization-has-a-shadow-regression",
-      "target": "amplification-widens-the-judgment-gap"
+      "source": "treat-agent-as-operating-system-not-function",
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
@@ -3034,19 +3038,11 @@
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "error-memory-enables-learning-without-retraining"
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
       "target": "three-layer-ai-stack-memory-search-reasoning"
-    },
-    {
-      "source": "treat-agent-as-operating-system-not-function",
-      "target": "error-memory-enables-learning-without-retraining"
-    },
-    {
-      "source": "tiered-retrieval-prevents-context-overload",
-      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "tiered-retrieval-prevents-context-overload",
@@ -3057,12 +3053,16 @@
       "target": "embeddings-measure-similarity-not-truth"
     },
     {
-      "source": "trust-boundaries-must-be-mapped-and-externalized",
-      "target": "observability-is-the-missing-agent-discipline"
+      "source": "tiered-retrieval-prevents-context-overload",
+      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "trust-boundaries-must-be-mapped-and-externalized",
       "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "trust-boundaries-must-be-mapped-and-externalized",
+      "target": "observability-is-the-missing-agent-discipline"
     },
     {
       "source": "trust-boundaries-must-be-mapped-and-externalized",
@@ -3086,7 +3086,7 @@
     },
     {
       "source": "session-capture-compounds-development-knowledge",
-      "target": "specs-are-external-memory-surviving-context-resets"
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "session-capture-compounds-development-knowledge",
@@ -3094,11 +3094,15 @@
     },
     {
       "source": "session-capture-compounds-development-knowledge",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "hot-path-vs-offline-learning-are-two-temporal-modes"
     },
     {
       "source": "session-capture-compounds-development-knowledge",
-      "target": "hot-path-vs-offline-learning-are-two-temporal-modes"
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "embeddings-measure-similarity-not-truth",
+      "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "embeddings-measure-similarity-not-truth",
@@ -3107,10 +3111,6 @@
     {
       "source": "embeddings-measure-similarity-not-truth",
       "target": "three-layer-ai-stack-memory-search-reasoning"
-    },
-    {
-      "source": "embeddings-measure-similarity-not-truth",
-      "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "context-window-is-the-fundamental-constraint",
@@ -3134,7 +3134,7 @@
     },
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
-      "target": "hybrid-search-is-the-default-not-the-exception"
+      "target": "agent-memory-preserves-institutional-knowledge"
     },
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
@@ -3142,15 +3142,15 @@
     },
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
-      "target": "postgresql-scales-further-than-you-think"
-    },
-    {
-      "source": "three-layer-ai-stack-memory-search-reasoning",
       "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
-      "target": "agent-memory-preserves-institutional-knowledge"
+      "target": "hybrid-search-is-the-default-not-the-exception"
+    },
+    {
+      "source": "three-layer-ai-stack-memory-search-reasoning",
+      "target": "postgresql-scales-further-than-you-think"
     },
     {
       "source": "three-layer-ai-stack-memory-search-reasoning",
@@ -3158,11 +3158,11 @@
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "harness-engineers-need-docs-as-first-class-output"
+      "target": "agent-memory-preserves-institutional-knowledge"
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "skills-as-markdown-replace-fine-tuning"
+      "target": "compilation-scales-curation-compounds"
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
@@ -3170,11 +3170,11 @@
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "agent-memory-preserves-institutional-knowledge"
+      "target": "harness-engineers-need-docs-as-first-class-output"
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "session-capture-compounds-development-knowledge"
+      "target": "negative-maintenance-reduces-future-work-for-everyone"
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
@@ -3186,23 +3186,23 @@
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "negative-maintenance-reduces-future-work-for-everyone"
+      "target": "session-capture-compounds-development-knowledge"
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "compilation-scales-curation-compounds"
-    },
-    {
-      "source": "commodity-terminal-value-zero-expert-judgment-compounds",
-      "target": "technology-transitions-create-more-not-less"
+      "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
       "source": "commodity-terminal-value-zero-expert-judgment-compounds",
       "target": "llms-selectively-destroy-vertical-software-moats"
     },
     {
+      "source": "commodity-terminal-value-zero-expert-judgment-compounds",
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
       "source": "build-for-the-model-six-months-from-now",
-      "target": "scaffolding-is-tech-debt-against-the-next-model"
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
     },
     {
       "source": "build-for-the-model-six-months-from-now",
@@ -3210,7 +3210,7 @@
     },
     {
       "source": "build-for-the-model-six-months-from-now",
-      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
       "source": "building-beats-following-for-ai-mastery",
@@ -3218,11 +3218,15 @@
     },
     {
       "source": "building-beats-following-for-ai-mastery",
-      "target": "specs-are-external-memory-surviving-context-resets"
+      "target": "dont-be-the-discriminator-be-the-patron"
     },
     {
       "source": "building-beats-following-for-ai-mastery",
-      "target": "dont-be-the-discriminator-be-the-patron"
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "production-agents-route-decisions-not-every-call-to-llm",
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "production-agents-route-decisions-not-every-call-to-llm",
@@ -3233,16 +3237,12 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
-      "source": "production-agents-route-decisions-not-every-call-to-llm",
-      "target": "context-is-the-product-not-the-model"
+      "source": "malleable-software-writes-its-own-extensions",
+      "target": "ai-self-improvement-loop-accelerates-everything"
     },
     {
       "source": "malleable-software-writes-its-own-extensions",
       "target": "features-are-prompts-not-code"
-    },
-    {
-      "source": "malleable-software-writes-its-own-extensions",
-      "target": "ai-self-improvement-loop-accelerates-everything"
     },
     {
       "source": "malleable-software-writes-its-own-extensions",
@@ -3254,19 +3254,23 @@
     },
     {
       "source": "error-memory-enables-learning-without-retraining",
+      "target": "context-layers-must-be-living-systems"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
       "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "error-memory-enables-learning-without-retraining",
+      "target": "speed-without-feedback-amplifies-errors"
     },
     {
       "source": "error-memory-enables-learning-without-retraining",
       "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "context-layers-must-be-living-systems"
-    },
-    {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "speed-without-feedback-amplifies-errors"
+      "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
@@ -3278,19 +3282,19 @@
     },
     {
       "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
     },
     {
-      "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
-      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+      "source": "every-role-codes-when-implementation-cost-drops-to-zero",
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "every-role-codes-when-implementation-cost-drops-to-zero",
       "target": "technical-knowledge-becomes-liability"
     },
     {
-      "source": "every-role-codes-when-implementation-cost-drops-to-zero",
-      "target": "ai-compresses-execution-not-judgment"
+      "source": "eval-suites-must-shrink-not-just-grow",
+      "target": "build-for-the-model-six-months-from-now"
     },
     {
       "source": "eval-suites-must-shrink-not-just-grow",
@@ -3301,16 +3305,12 @@
       "target": "evals-are-gradient-signal-for-harness-engineering"
     },
     {
-      "source": "eval-suites-must-shrink-not-just-grow",
-      "target": "build-for-the-model-six-months-from-now"
+      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
+      "target": "eval-suites-must-shrink-not-just-grow"
     },
     {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
-      "target": "verification-is-a-red-queen-race"
-    },
-    {
-      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
-      "target": "time-bounded-evaluation-optimizes-for-usefulness"
+      "target": "holdout-sets-gate-autonomous-harness-optimization"
     },
     {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
@@ -3318,11 +3318,15 @@
     },
     {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
-      "target": "eval-suites-must-shrink-not-just-grow"
+      "target": "time-bounded-evaluation-optimizes-for-usefulness"
     },
     {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
-      "target": "holdout-sets-gate-autonomous-harness-optimization"
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
+      "source": "evals-are-gradient-signal-for-harness-engineering",
+      "target": "agents-learn-at-three-layers-model-harness-context"
     },
     {
       "source": "evals-are-gradient-signal-for-harness-engineering",
@@ -3333,8 +3337,8 @@
       "target": "harness-quality-beats-model-intelligence"
     },
     {
-      "source": "evals-are-gradient-signal-for-harness-engineering",
-      "target": "agents-learn-at-three-layers-model-harness-context"
+      "source": "evaluate-tools-with-real-multi-step-tasks",
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
@@ -3342,7 +3346,7 @@
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
@@ -3350,15 +3354,7 @@
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
-      "target": "compound-engineering-makes-future-work-easier"
-    },
-    {
-      "source": "evaluate-tools-with-real-multi-step-tasks",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
-    },
-    {
-      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
-      "target": "files-are-the-universal-agent-interface"
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
@@ -3369,24 +3365,20 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
-      "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
-      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+      "source": "rigid-schemas-exist-because-rigid-apps-demand-them",
+      "target": "files-are-the-universal-agent-interface"
     },
     {
       "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
       "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
       "target": "harness-quality-beats-model-intelligence"
     },
     {
-      "source": "tool-design-is-continuous-observation-see-like-an-agent",
-      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
-    },
-    {
-      "source": "tool-design-is-continuous-observation-see-like-an-agent",
-      "target": "skill-graphs-enable-progressive-disclosure"
+      "source": "rollback-safety-nets-enable-autonomy-not-intelligence",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "tool-design-is-continuous-observation-see-like-an-agent",
@@ -3394,11 +3386,19 @@
     },
     {
       "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "same-model-pairings-win-through-model-empathy"
+    },
+    {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
       "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
       "source": "tool-design-is-continuous-observation-see-like-an-agent",
-      "target": "same-model-pairings-win-through-model-empathy"
+      "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "tool-design-is-continuous-observation-see-like-an-agent",
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
     },
     {
       "source": "domain-skill-libraries-are-the-real-agent-moat",
@@ -3406,19 +3406,19 @@
     },
     {
       "source": "domain-skill-libraries-are-the-real-agent-moat",
-      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
-    },
-    {
-      "source": "domain-skill-libraries-are-the-real-agent-moat",
-      "target": "skills-as-markdown-replace-fine-tuning"
-    },
-    {
-      "source": "domain-skill-libraries-are-the-real-agent-moat",
       "target": "context-layers-supersede-semantic-layers"
     },
     {
       "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
       "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
       "source": "context-inefficiency-compounds-three-penalties",
@@ -3434,11 +3434,11 @@
     },
     {
       "source": "context-layers-must-be-living-systems",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "context-layers-must-be-living-systems",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "error-memory-enables-learning-without-retraining"
     },
     {
       "source": "context-layers-must-be-living-systems",
@@ -3446,7 +3446,7 @@
     },
     {
       "source": "context-layers-supersede-semantic-layers",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
     },
     {
       "source": "context-layers-supersede-semantic-layers",
@@ -3454,7 +3454,7 @@
     },
     {
       "source": "context-layers-supersede-semantic-layers",
-      "target": "domain-skill-libraries-are-the-real-agent-moat"
+      "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
       "source": "kv-cache-hit-rate-determines-agent-economics",
@@ -3462,34 +3462,26 @@
     },
     {
       "source": "latent-demand-is-the-strongest-product-signal",
-      "target": "revealed-preferences-trump-stated-preferences"
-    },
-    {
-      "source": "latent-demand-is-the-strongest-product-signal",
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
-      "source": "lakebases-decouple-compute-from-storage",
-      "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
+      "source": "latent-demand-is-the-strongest-product-signal",
+      "target": "revealed-preferences-trump-stated-preferences"
     },
     {
       "source": "lakebases-decouple-compute-from-storage",
       "target": "boring-tech-wins-for-ai-native-startups"
     },
     {
-      "source": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
-      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+      "source": "lakebases-decouple-compute-from-storage",
+      "target": "rigid-schemas-exist-because-rigid-apps-demand-them"
     },
     {
       "source": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
       "target": "llms-selectively-destroy-vertical-software-moats"
     },
     {
-      "source": "llms-selectively-destroy-vertical-software-moats",
-      "target": "skills-as-markdown-replace-fine-tuning"
-    },
-    {
-      "source": "llms-selectively-destroy-vertical-software-moats",
+      "source": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
       "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
@@ -3501,6 +3493,14 @@
       "target": "sell-the-work-not-the-tool"
     },
     {
+      "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
+    },
+    {
       "source": "llm-competition-fragments-markets-not-consolidates",
       "target": "llms-selectively-destroy-vertical-software-moats"
     },
@@ -3510,11 +3510,15 @@
     },
     {
       "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
       "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "production-agents-route-decisions-not-every-call-to-llm"
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
+    },
+    {
+      "source": "saas-grows-but-consolidates-around-platforms",
+      "target": "outsourcing-is-the-autopilot-wedge"
     },
     {
       "source": "saas-grows-but-consolidates-around-platforms",
@@ -3525,20 +3529,16 @@
       "target": "technology-transitions-create-more-not-less"
     },
     {
-      "source": "saas-grows-but-consolidates-around-platforms",
-      "target": "outsourcing-is-the-autopilot-wedge"
-    },
-    {
-      "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
-      "target": "features-are-prompts-not-code"
-    },
-    {
       "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
       "target": "claude-md-should-be-routing-table-not-knowledge-base"
     },
     {
       "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
+      "target": "features-are-prompts-not-code"
     },
     {
       "source": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
@@ -3558,6 +3558,10 @@
     },
     {
       "source": "holdout-sets-gate-autonomous-harness-optimization",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
+      "source": "holdout-sets-gate-autonomous-harness-optimization",
       "target": "self-improving-agents-overfit-to-eval-metrics"
     },
     {
@@ -3565,16 +3569,12 @@
       "target": "verification-is-a-red-queen-race"
     },
     {
-      "source": "holdout-sets-gate-autonomous-harness-optimization",
-      "target": "evals-are-gradient-signal-for-harness-engineering"
+      "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
+      "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
       "target": "session-capture-compounds-development-knowledge"
-    },
-    {
-      "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
-      "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
@@ -3598,14 +3598,6 @@
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
-      "target": "specs-are-external-memory-surviving-context-resets"
-    },
-    {
-      "source": "harness-engineers-need-docs-as-first-class-output",
-      "target": "verification-multiplies-agent-output-quality"
-    },
-    {
-      "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "harness-quality-beats-model-intelligence"
     },
     {
@@ -3613,8 +3605,20 @@
       "target": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries"
     },
     {
-      "source": "harness-quality-beats-model-intelligence",
+      "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "agents-learn-at-three-layers-model-harness-context"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
       "source": "harness-quality-beats-model-intelligence",
@@ -3626,7 +3630,7 @@
     },
     {
       "source": "harness-quality-beats-model-intelligence",
-      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+      "target": "intelligence-location-determines-system-fragility"
     },
     {
       "source": "harness-quality-beats-model-intelligence",
@@ -3634,15 +3638,11 @@
     },
     {
       "source": "harness-quality-beats-model-intelligence",
-      "target": "intelligence-location-determines-system-fragility"
-    },
-    {
-      "source": "harness-quality-beats-model-intelligence",
-      "target": "agents-learn-at-three-layers-model-harness-context"
-    },
-    {
-      "source": "harness-quality-beats-model-intelligence",
       "target": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "multi-model-orchestration-beats-any-single-family",
@@ -3670,7 +3670,7 @@
     },
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
-      "target": "production-agents-route-decisions-not-every-call-to-llm"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
@@ -3678,11 +3678,11 @@
     },
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
-      "target": "ai-compresses-execution-not-judgment"
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
     },
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
       "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
@@ -3706,19 +3706,19 @@
     },
     {
       "source": "first-conclusions-become-nearly-permanent",
-      "target": "small-concessions-trigger-disproportionate-reciprocation"
-    },
-    {
-      "source": "first-conclusions-become-nearly-permanent",
       "target": "non-attached-action-enables-clearer-course-correction"
     },
     {
-      "source": "small-concessions-trigger-disproportionate-reciprocation",
-      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+      "source": "first-conclusions-become-nearly-permanent",
+      "target": "small-concessions-trigger-disproportionate-reciprocation"
     },
     {
       "source": "small-concessions-trigger-disproportionate-reciprocation",
       "target": "incentive-caused-bias-makes-good-people-rationalize"
+    },
+    {
+      "source": "small-concessions-trigger-disproportionate-reciprocation",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
     },
     {
       "source": "confluence-of-tendencies-produces-extreme-outcomes",
@@ -3742,6 +3742,10 @@
     },
     {
       "source": "excessive-self-regard-makes-fixable-failures-persist",
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "excessive-self-regard-makes-fixable-failures-persist",
       "target": "ideology-is-among-the-most-extreme-distorters-of-cognition"
     },
     {
@@ -3749,24 +3753,16 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
-      "source": "excessive-self-regard-makes-fixable-failures-persist",
-      "target": "first-conclusions-become-nearly-permanent"
-    },
-    {
       "source": "latticework-of-models-beats-isolated-facts",
       "target": "bet-seldom-but-heavily-when-odds-are-extreme"
-    },
-    {
-      "source": "latticework-of-models-beats-isolated-facts",
-      "target": "first-conclusions-become-nearly-permanent"
     },
     {
       "source": "latticework-of-models-beats-isolated-facts",
       "target": "confluence-of-tendencies-produces-extreme-outcomes"
     },
     {
-      "source": "scaffolding-is-tech-debt-against-the-next-model",
-      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+      "source": "latticework-of-models-beats-isolated-facts",
+      "target": "first-conclusions-become-nearly-permanent"
     },
     {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
@@ -3785,6 +3781,10 @@
       "target": "sand-vs-stone-separates-durable-from-disposable-product-value"
     },
     {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "tool-design-is-continuous-observation-see-like-an-agent"
+    },
+    {
       "source": "scale-advantages-cascade-until-bureaucracy-kills-them",
       "target": "incentive-caused-bias-makes-good-people-rationalize"
     },
@@ -3794,11 +3794,11 @@
     },
     {
       "source": "technology-helps-moats-kills-commodity-businesses",
-      "target": "technology-transitions-create-more-not-less"
+      "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
     },
     {
       "source": "technology-helps-moats-kills-commodity-businesses",
-      "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
+      "target": "technology-transitions-create-more-not-less"
     },
     {
       "source": "causal-triage-must-gate-automated-fixes",
@@ -3838,11 +3838,7 @@
     },
     {
       "source": "invert-always-invert-to-solve-hard-problems",
-      "target": "first-conclusions-become-nearly-permanent"
-    },
-    {
-      "source": "invert-always-invert-to-solve-hard-problems",
-      "target": "latticework-of-models-beats-isolated-facts"
+      "target": "ask-for-no-not-yes-to-accelerate-decisions"
     },
     {
       "source": "invert-always-invert-to-solve-hard-problems",
@@ -3850,7 +3846,11 @@
     },
     {
       "source": "invert-always-invert-to-solve-hard-problems",
-      "target": "ask-for-no-not-yes-to-accelerate-decisions"
+      "target": "first-conclusions-become-nearly-permanent"
+    },
+    {
+      "source": "invert-always-invert-to-solve-hard-problems",
+      "target": "latticework-of-models-beats-isolated-facts"
     },
     {
       "source": "pavlovian-association-builds-durable-brand-moats",
@@ -3866,7 +3866,7 @@
     },
     {
       "source": "pilot-training-model-builds-reliable-knowledge",
-      "target": "latticework-of-models-beats-isolated-facts"
+      "target": "first-conclusions-become-nearly-permanent"
     },
     {
       "source": "pilot-training-model-builds-reliable-knowledge",
@@ -3874,7 +3874,7 @@
     },
     {
       "source": "pilot-training-model-builds-reliable-knowledge",
-      "target": "first-conclusions-become-nearly-permanent"
+      "target": "latticework-of-models-beats-isolated-facts"
     },
     {
       "source": "ideology-is-among-the-most-extreme-distorters-of-cognition",
@@ -3910,11 +3910,11 @@
     },
     {
       "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
-      "target": "traces-are-the-universal-substrate-for-agent-learning"
+      "target": "meta-agents-beat-manual-harness-engineering"
     },
     {
       "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
-      "target": "meta-agents-beat-manual-harness-engineering"
+      "target": "traces-are-the-universal-substrate-for-agent-learning"
     },
     {
       "source": "frontier-companies-absorb-every-useful-agentic-pattern",
@@ -3922,11 +3922,11 @@
     },
     {
       "source": "frontier-companies-absorb-every-useful-agentic-pattern",
-      "target": "technology-transitions-create-more-not-less"
+      "target": "build-for-the-model-six-months-from-now"
     },
     {
       "source": "frontier-companies-absorb-every-useful-agentic-pattern",
-      "target": "build-for-the-model-six-months-from-now"
+      "target": "technology-transitions-create-more-not-less"
     },
     {
       "source": "one-session-per-contract-beats-long-running-agents",
@@ -3950,7 +3950,7 @@
     },
     {
       "source": "sell-the-work-not-the-tool",
-      "target": "llms-selectively-destroy-vertical-software-moats"
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
     },
     {
       "source": "sell-the-work-not-the-tool",
@@ -3958,7 +3958,7 @@
     },
     {
       "source": "sell-the-work-not-the-tool",
-      "target": "domain-skill-libraries-are-the-real-agent-moat"
+      "target": "llms-selectively-destroy-vertical-software-moats"
     },
     {
       "source": "sell-the-work-not-the-tool",
@@ -3974,23 +3974,23 @@
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
-      "target": "kv-cache-hit-rate-determines-agent-economics"
-    },
-    {
-      "source": "observability-is-the-missing-agent-discipline",
       "target": "error-memory-enables-learning-without-retraining"
-    },
-    {
-      "source": "observability-is-the-missing-agent-discipline",
-      "target": "trust-boundaries-must-be-mapped-and-externalized"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
       "target": "evals-must-augment-traces-in-place-not-diverge"
     },
     {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "kv-cache-hit-rate-determines-agent-economics"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "trust-boundaries-must-be-mapped-and-externalized"
+    },
+    {
       "source": "property-based-testing-explores-agent-input-spaces",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
       "source": "property-based-testing-explores-agent-input-spaces",
@@ -3998,11 +3998,7 @@
     },
     {
       "source": "property-based-testing-explores-agent-input-spaces",
-      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
-    },
-    {
-      "source": "proprietary-feedback-loops-widen-the-moat",
-      "target": "domain-skill-libraries-are-the-real-agent-moat"
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
@@ -4014,6 +4010,10 @@
     },
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "proprietary-feedback-loops-widen-the-moat",
       "target": "memory-is-where-agent-lock-in-lives"
     },
     {
@@ -4022,11 +4022,15 @@
     },
     {
       "source": "the-80-99-gap-is-where-ai-products-die",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "verification-is-a-red-queen-race"
     },
     {
       "source": "the-80-99-gap-is-where-ai-products-die",
-      "target": "verification-is-a-red-queen-race"
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "time-bounded-evaluation-optimizes-for-usefulness",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
       "source": "time-bounded-evaluation-optimizes-for-usefulness",
@@ -4037,8 +4041,8 @@
       "target": "harness-quality-beats-model-intelligence"
     },
     {
-      "source": "time-bounded-evaluation-optimizes-for-usefulness",
-      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+      "source": "revealed-preferences-trump-stated-preferences",
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "revealed-preferences-trump-stated-preferences",
@@ -4046,11 +4050,11 @@
     },
     {
       "source": "revealed-preferences-trump-stated-preferences",
-      "target": "compound-engineering-makes-future-work-easier"
+      "target": "latent-demand-is-the-strongest-product-signal"
     },
     {
-      "source": "revealed-preferences-trump-stated-preferences",
-      "target": "latent-demand-is-the-strongest-product-signal"
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
@@ -4065,8 +4069,12 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
-      "source": "adversarial-branch-walking-beats-review-for-planning",
-      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+      "source": "detect-everything-notify-selectively",
+      "target": "causal-triage-must-gate-automated-fixes"
+    },
+    {
+      "source": "detect-everything-notify-selectively",
+      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "detect-everything-notify-selectively",
@@ -4077,16 +4085,8 @@
       "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
-      "source": "detect-everything-notify-selectively",
-      "target": "harness-quality-beats-model-intelligence"
-    },
-    {
-      "source": "detect-everything-notify-selectively",
-      "target": "causal-triage-must-gate-automated-fixes"
-    },
-    {
       "source": "auto-generated-monitors-beat-handwritten-broad-checks",
-      "target": "verification-multiplies-agent-output-quality"
+      "target": "detect-everything-notify-selectively"
     },
     {
       "source": "auto-generated-monitors-beat-handwritten-broad-checks",
@@ -4098,15 +4098,19 @@
     },
     {
       "source": "auto-generated-monitors-beat-handwritten-broad-checks",
-      "target": "detect-everything-notify-selectively"
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "uncorrelated-context-windows-are-test-time-compute",
+      "target": "context-window-is-the-fundamental-constraint"
     },
     {
       "source": "uncorrelated-context-windows-are-test-time-compute",
       "target": "treat-ai-like-distributed-team-not-assistant"
     },
     {
-      "source": "uncorrelated-context-windows-are-test-time-compute",
-      "target": "context-window-is-the-fundamental-constraint"
+      "source": "unfocused-agents-develop-path-dependency",
+      "target": "auto-generated-monitors-beat-handwritten-broad-checks"
     },
     {
       "source": "unfocused-agents-develop-path-dependency",
@@ -4115,10 +4119,6 @@
     {
       "source": "unfocused-agents-develop-path-dependency",
       "target": "declarative-beats-imperative-for-agents"
-    },
-    {
-      "source": "unfocused-agents-develop-path-dependency",
-      "target": "auto-generated-monitors-beat-handwritten-broad-checks"
     },
     {
       "source": "reasoning-evaporation-destroys-agent-decision-chains",
@@ -4134,6 +4134,14 @@
     },
     {
       "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
+      "target": "context-flywheel-is-day-90-not-day-0"
+    },
+    {
+      "source": "agent-trace-accumulation-produces-emergent-world-models",
       "target": "decision-traces-are-the-missing-data-layer"
     },
     {
@@ -4142,27 +4150,7 @@
     },
     {
       "source": "agent-trace-accumulation-produces-emergent-world-models",
-      "target": "compound-engineering-makes-future-work-easier"
-    },
-    {
-      "source": "agent-trace-accumulation-produces-emergent-world-models",
       "target": "trace-data-retention-must-match-ai-knowledge-lifespan"
-    },
-    {
-      "source": "agent-trace-accumulation-produces-emergent-world-models",
-      "target": "context-flywheel-is-day-90-not-day-0"
-    },
-    {
-      "source": "software-bimodal-fork-growth-or-margins-no-middle",
-      "target": "sell-the-work-not-the-tool"
-    },
-    {
-      "source": "software-bimodal-fork-growth-or-margins-no-middle",
-      "target": "llms-selectively-destroy-vertical-software-moats"
-    },
-    {
-      "source": "software-bimodal-fork-growth-or-margins-no-middle",
-      "target": "technology-helps-moats-kills-commodity-businesses"
     },
     {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
@@ -4170,7 +4158,23 @@
     },
     {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
+      "target": "technology-helps-moats-kills-commodity-businesses"
+    },
+    {
+      "source": "software-bimodal-fork-growth-or-margins-no-middle",
       "target": "token-spend-replaces-headcount-as-scaling-unit"
+    },
+    {
+      "source": "token-spend-replaces-headcount-as-scaling-unit",
+      "target": "automation-amplifies-expert-demand"
     },
     {
       "source": "token-spend-replaces-headcount-as-scaling-unit",
@@ -4179,10 +4183,6 @@
     {
       "source": "token-spend-replaces-headcount-as-scaling-unit",
       "target": "orchestrator-agent-replaces-human-coordination"
-    },
-    {
-      "source": "token-spend-replaces-headcount-as-scaling-unit",
-      "target": "automation-amplifies-expert-demand"
     },
     {
       "source": "token-spend-replaces-headcount-as-scaling-unit",
@@ -4198,7 +4198,7 @@
     },
     {
       "source": "ai-compresses-execution-not-judgment",
-      "target": "intelligence-judgement-ratio-determines-automation-order"
+      "target": "amplification-widens-the-judgment-gap"
     },
     {
       "source": "ai-compresses-execution-not-judgment",
@@ -4210,11 +4210,11 @@
     },
     {
       "source": "ai-compresses-execution-not-judgment",
-      "target": "amplification-widens-the-judgment-gap"
+      "target": "intelligence-judgement-ratio-determines-automation-order"
     },
     {
       "source": "amplification-widens-the-judgment-gap",
-      "target": "every-optimization-has-a-shadow-regression"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "amplification-widens-the-judgment-gap",
@@ -4222,11 +4222,11 @@
     },
     {
       "source": "amplification-widens-the-judgment-gap",
-      "target": "ai-compresses-execution-not-judgment"
+      "target": "every-optimization-has-a-shadow-regression"
     },
     {
       "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "technology-transitions-create-more-not-less"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "dissolved-constraints-shift-bottleneck-to-judgment",
@@ -4234,7 +4234,11 @@
     },
     {
       "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "ai-compresses-execution-not-judgment"
+      "target": "technology-transitions-create-more-not-less"
+    },
+    {
+      "source": "speed-without-feedback-amplifies-errors",
+      "target": "amplification-widens-the-judgment-gap"
     },
     {
       "source": "speed-without-feedback-amplifies-errors",
@@ -4242,15 +4246,27 @@
     },
     {
       "source": "speed-without-feedback-amplifies-errors",
-      "target": "verification-multiplies-agent-output-quality"
-    },
-    {
-      "source": "speed-without-feedback-amplifies-errors",
       "target": "every-optimization-has-a-shadow-regression"
     },
     {
       "source": "speed-without-feedback-amplifies-errors",
-      "target": "amplification-widens-the-judgment-gap"
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "evolved-harnesses-transfer-across-models"
+    },
+    {
+      "source": "meta-agents-beat-manual-harness-engineering",
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "meta-agents-beat-manual-harness-engineering",
@@ -4261,26 +4277,6 @@
       "target": "tool-design-is-continuous-observation-see-like-an-agent"
     },
     {
-      "source": "meta-agents-beat-manual-harness-engineering",
-      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
-    },
-    {
-      "source": "meta-agents-beat-manual-harness-engineering",
-      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
-    },
-    {
-      "source": "meta-agents-beat-manual-harness-engineering",
-      "target": "evolved-harnesses-transfer-across-models"
-    },
-    {
-      "source": "meta-agents-beat-manual-harness-engineering",
-      "target": "evals-are-gradient-signal-for-harness-engineering"
-    },
-    {
-      "source": "same-model-pairings-win-through-model-empathy",
-      "target": "treat-ai-like-distributed-team-not-assistant"
-    },
-    {
       "source": "same-model-pairings-win-through-model-empathy",
       "target": "orchestrator-agent-replaces-human-coordination"
     },
@@ -4289,8 +4285,8 @@
       "target": "tool-design-is-continuous-observation-see-like-an-agent"
     },
     {
-      "source": "self-disruption-follows-the-value-chain-downward",
-      "target": "sell-the-work-not-the-tool"
+      "source": "same-model-pairings-win-through-model-empathy",
+      "target": "treat-ai-like-distributed-team-not-assistant"
     },
     {
       "source": "self-disruption-follows-the-value-chain-downward",
@@ -4301,8 +4297,8 @@
       "target": "llms-selectively-destroy-vertical-software-moats"
     },
     {
-      "source": "self-improving-agents-overfit-to-eval-metrics",
-      "target": "verification-is-a-red-queen-race"
+      "source": "self-disruption-follows-the-value-chain-downward",
+      "target": "sell-the-work-not-the-tool"
     },
     {
       "source": "self-improving-agents-overfit-to-eval-metrics",
@@ -4317,20 +4313,24 @@
       "target": "teacher-student-trace-distillation-beats-single-oracle"
     },
     {
-      "source": "traces-not-scores-enable-agent-improvement",
-      "target": "decision-traces-are-the-missing-data-layer"
+      "source": "self-improving-agents-overfit-to-eval-metrics",
+      "target": "verification-is-a-red-queen-race"
     },
     {
       "source": "traces-not-scores-enable-agent-improvement",
-      "target": "observability-is-the-missing-agent-discipline"
+      "target": "decision-traces-are-the-missing-data-layer"
     },
     {
       "source": "traces-not-scores-enable-agent-improvement",
       "target": "error-memory-enables-learning-without-retraining"
     },
     {
+      "source": "traces-not-scores-enable-agent-improvement",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
       "source": "vertical-models-beat-frontier-models-in-their-domain",
-      "target": "model-market-fit-before-product-market-fit"
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "vertical-models-beat-frontier-models-in-their-domain",
@@ -4338,7 +4338,7 @@
     },
     {
       "source": "vertical-models-beat-frontier-models-in-their-domain",
-      "target": "context-is-the-product-not-the-model"
+      "target": "model-market-fit-before-product-market-fit"
     },
     {
       "source": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
@@ -4354,7 +4354,7 @@
     },
     {
       "source": "trace-to-eval-flywheel-compounds-agent-quality",
-      "target": "traces-are-the-universal-substrate-for-agent-learning"
+      "target": "evals-are-gradient-signal-for-harness-engineering"
     },
     {
       "source": "trace-to-eval-flywheel-compounds-agent-quality",
@@ -4362,7 +4362,7 @@
     },
     {
       "source": "trace-to-eval-flywheel-compounds-agent-quality",
-      "target": "evals-are-gradient-signal-for-harness-engineering"
+      "target": "traces-are-the-universal-substrate-for-agent-learning"
     },
     {
       "source": "traces-are-the-universal-substrate-for-agent-learning",
@@ -4378,27 +4378,27 @@
     },
     {
       "source": "trace-data-retention-must-match-ai-knowledge-lifespan",
-      "target": "observability-is-the-missing-agent-discipline"
+      "target": "decision-traces-are-the-missing-data-layer"
     },
     {
       "source": "trace-data-retention-must-match-ai-knowledge-lifespan",
-      "target": "decision-traces-are-the-missing-data-layer"
-    },
-    {
-      "source": "evals-must-augment-traces-in-place-not-diverge",
-      "target": "decision-traces-are-the-missing-data-layer"
+      "target": "observability-is-the-missing-agent-discipline"
     },
     {
       "source": "evals-must-augment-traces-in-place-not-diverge",
       "target": "agent-edits-are-automatic-decision-instrumentation"
     },
     {
-      "source": "teacher-student-trace-distillation-beats-single-oracle",
-      "target": "traces-not-scores-enable-agent-improvement"
+      "source": "evals-must-augment-traces-in-place-not-diverge",
+      "target": "decision-traces-are-the-missing-data-layer"
     },
     {
       "source": "teacher-student-trace-distillation-beats-single-oracle",
       "target": "error-memory-enables-learning-without-retraining"
+    },
+    {
+      "source": "teacher-student-trace-distillation-beats-single-oracle",
+      "target": "traces-not-scores-enable-agent-improvement"
     },
     {
       "source": "workflow-strategies-beat-individual-tool-instructions",
@@ -4422,15 +4422,15 @@
     },
     {
       "source": "two-tier-agent-memory-separates-org-from-user",
-      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
-    },
-    {
-      "source": "two-tier-agent-memory-separates-org-from-user",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
     {
       "source": "two-tier-agent-memory-separates-org-from-user",
       "target": "context-learning-spans-agent-tenant-and-org-levels"
+    },
+    {
+      "source": "two-tier-agent-memory-separates-org-from-user",
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "two-tier-agent-memory-separates-org-from-user",
@@ -4442,19 +4442,15 @@
     },
     {
       "source": "compilation-scales-curation-compounds",
-      "target": "skill-graphs-enable-progressive-disclosure"
+      "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "compilation-scales-curation-compounds",
-      "target": "evolving-summaries-beat-append-only-memory"
+      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "intelligence-location-determines-system-fragility",
       "target": "features-are-prompts-not-code"
-    },
-    {
-      "source": "intelligence-location-determines-system-fragility",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
     },
     {
       "source": "intelligence-location-determines-system-fragility",
@@ -4465,8 +4461,8 @@
       "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
-      "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
-      "target": "evolving-summaries-beat-append-only-memory"
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
     },
     {
       "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
@@ -4474,15 +4470,19 @@
     },
     {
       "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
       "target": "verification-is-a-red-queen-race"
     },
     {
       "source": "knowledge-systems-need-dual-layer-storage",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "files-are-the-universal-agent-interface"
     },
     {
       "source": "knowledge-systems-need-dual-layer-storage",
-      "target": "files-are-the-universal-agent-interface"
+      "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
       "source": "knowledge-systems-need-dual-layer-storage",
@@ -4494,7 +4494,7 @@
     },
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "agentic-search-beats-rag-for-live-codebases"
     },
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
@@ -4502,7 +4502,7 @@
     },
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
-      "target": "agentic-search-beats-rag-for-live-codebases"
+      "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
       "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
@@ -4510,19 +4510,19 @@
     },
     {
       "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
-      "target": "scaffolding-is-tech-debt-against-the-next-model"
-    },
-    {
-      "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
       "target": "domain-skill-libraries-are-the-real-agent-moat"
     },
     {
-      "source": "model-compensations-become-liabilities-as-capabilities-advance",
+      "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
       "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
       "source": "model-compensations-become-liabilities-as-capabilities-advance",
       "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "model-compensations-become-liabilities-as-capabilities-advance",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
       "source": "model-compensations-become-liabilities-as-capabilities-advance",
@@ -4534,11 +4534,11 @@
     },
     {
       "source": "context-flywheel-is-day-90-not-day-0",
-      "target": "context-is-the-product-not-the-model"
+      "target": "agent-trace-accumulation-produces-emergent-world-models"
     },
     {
       "source": "context-flywheel-is-day-90-not-day-0",
-      "target": "agent-trace-accumulation-produces-emergent-world-models"
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "context-flywheel-is-day-90-not-day-0",
@@ -4570,10 +4570,6 @@
     },
     {
       "source": "memory-is-harness-responsibility-not-plugin",
-      "target": "two-tier-agent-memory-separates-org-from-user"
-    },
-    {
-      "source": "memory-is-harness-responsibility-not-plugin",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
     {
@@ -4581,28 +4577,32 @@
       "target": "context-is-the-product-not-the-model"
     },
     {
-      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
-      "target": "context-is-the-product-not-the-model"
+      "source": "memory-is-harness-responsibility-not-plugin",
+      "target": "two-tier-agent-memory-separates-org-from-user"
     },
     {
       "source": "closed-harnesses-behind-apis-create-memory-lock-in",
-      "target": "proprietary-feedback-loops-widen-the-moat"
+      "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "closed-harnesses-behind-apis-create-memory-lock-in",
       "target": "memory-is-where-agent-lock-in-lives"
     },
     {
+      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "memory-is-where-agent-lock-in-lives",
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
+    },
+    {
       "source": "memory-is-where-agent-lock-in-lives",
       "target": "context-is-the-product-not-the-model"
     },
     {
       "source": "memory-is-where-agent-lock-in-lives",
       "target": "proprietary-feedback-loops-widen-the-moat"
-    },
-    {
-      "source": "memory-is-where-agent-lock-in-lives",
-      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
@@ -4614,11 +4614,11 @@
     },
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
-      "target": "memory-is-where-agent-lock-in-lives"
+      "target": "harness-quality-beats-model-intelligence"
     },
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
-      "target": "harness-quality-beats-model-intelligence"
+      "target": "memory-is-where-agent-lock-in-lives"
     }
   ]
 }

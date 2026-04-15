@@ -24,9 +24,18 @@ const nodes = graphIndex.nodes;
 const graphNodes = [];
 const graphLinks = [];
 
+// Derive reverse index: for each target, which sources list it in their outgoing?
+// Eliminates the need for `incoming:` on yaml nodes (Principle 30).
+const incomingIndex = {};
+for (const [slug, node] of Object.entries(nodes)) {
+  for (const target of (node.outgoing || [])) {
+    (incomingIndex[target] ||= []).push(slug);
+  }
+}
+
 for (const [slug, node] of Object.entries(nodes)) {
   const outgoing = node.outgoing || [];
-  const incoming = node.incoming || [];
+  const incoming = incomingIndex[slug] || [];
   const degree = outgoing.length + incoming.length;
   const color = TOPIC_COLORS[node.topics[0]] || '#888888';
   const domain = TOPIC_DOMAINS[node.topics[0]] || 'ai';

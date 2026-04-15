@@ -8,7 +8,6 @@ interface GraphNode {
   topics: string[];
   source: string;
   outgoing?: string[];
-  incoming?: string[];
 }
 
 interface GraphIndex {
@@ -18,6 +17,7 @@ interface GraphIndex {
 }
 
 let _graphIndex: GraphIndex | null = null;
+let _reverseIndex: Record<string, string[]> | null = null;
 
 export function getGraphIndex(): GraphIndex {
   if (!_graphIndex) {
@@ -25,6 +25,18 @@ export function getGraphIndex(): GraphIndex {
     _graphIndex = yaml.load(fs.readFileSync(yamlPath, 'utf8')) as GraphIndex;
   }
   return _graphIndex;
+}
+
+function getReverseIndex(): Record<string, string[]> {
+  if (_reverseIndex) return _reverseIndex;
+  _reverseIndex = {};
+  const index = getGraphIndex();
+  for (const [slug, node] of Object.entries(index.nodes)) {
+    for (const target of (node.outgoing || [])) {
+      (_reverseIndex[target] ||= []).push(slug);
+    }
+  }
+  return _reverseIndex;
 }
 
 export function getConnections(slug: string): { outgoing: { slug: string; title: string }[]; incoming: { slug: string; title: string }[] } {
@@ -37,7 +49,7 @@ export function getConnections(slug: string): { outgoing: { slug: string; title:
     title: index.nodes[s]?.title || s,
   }));
 
-  const incoming = (node.incoming || []).map(s => ({
+  const incoming = (getReverseIndex()[slug] || []).map(s => ({
     slug: s,
     title: index.nodes[s]?.title || s,
   }));
@@ -49,5 +61,5 @@ export function getDegree(slug: string): number {
   const index = getGraphIndex();
   const node = index.nodes[slug];
   if (!node) return 0;
-  return (node.outgoing?.length || 0) + (node.incoming?.length || 0);
+  return (node.outgoing?.length || 0) + (getReverseIndex()[slug]?.length || 0);
 }
