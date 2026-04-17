@@ -89,3 +89,7 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[agent-harnesses-are-persistent-infrastructure]] — Harnesses are durable infrastructure, not scaffolding that models will absorb
 - [[memory-is-harness-responsibility-not-plugin]] — Memory is a core harness capability — not a pluggable service bolted on after
 - [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — Open harness + your Postgres/Mongo = model and memory portability
+- [[traces-replace-code-as-agent-source-of-truth]] — Traces are the primary debugging/collaboration artifact for agent systems
+- [[llm-judge-must-calibrate-against-human-judgment]] — Calibrate LLM judges against human-labeled traces or your evals lie
+- [[context-centralization-is-why-coding-ai-works]] — Git = solved context repo; knowledge work has no equivalent
+- [[agentic-ux-is-distinct-design-problem-from-human-ux]] — AUX design: neither human UX nor raw APIs, a third thing

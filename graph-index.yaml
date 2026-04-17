@@ -10,8 +10,8 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-04-15
-node_count: 175
+last_updated: 2026-04-17
+node_count: 185
 domains: [ai, mental-models]
 
 nodes:
@@ -44,12 +44,21 @@ nodes:
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, two-tier-agent-memory-separates-org-from-user]
 
+  context-centralization-is-why-coding-ai-works:
+    title: "Context centralization is why coding AI works — git is a solved context repository, knowledge work has no equivalent"
+    description: "Engineering leads AI adoption because git centralizes all context; knowledge work fails on 3 axes: distributed, unstructured, unverifiable"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)"
+    source_file: sources/businessbarista-enterprise-brain.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
+
   context-is-the-product-not-the-model:
     title: "Context is the product, not the model"
     description: "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode"
     topics: [ai-native-product-architecture, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
-    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, data-agents-fail-from-missing-context-not-sql-gaps, decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning]
+    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, context-centralization-is-why-coding-ai-works, data-agents-fail-from-missing-context-not-sql-gaps, decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface, model-market-fit-before-product-market-fit, skills-as-markdown-replace-fine-tuning]
 
   skills-as-markdown-replace-fine-tuning:
     title: "Markdown skill files may replace expensive fine-tuning"
@@ -77,7 +86,7 @@ nodes:
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
-    outgoing: [agent-edits-are-automatic-decision-instrumentation, agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, observability-is-the-missing-agent-discipline, permissioned-inference-is-harder-than-permissioned-retrieval, revealed-preferences-trump-stated-preferences, traces-not-scores-enable-agent-improvement, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    outgoing: [agent-edits-are-automatic-decision-instrumentation, agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, observability-is-the-missing-agent-discipline, permissioned-inference-is-harder-than-permissioned-retrieval, revealed-preferences-trump-stated-preferences, traces-not-scores-enable-agent-improvement, traces-replace-code-as-agent-source-of-truth, tribal-knowledge-is-the-last-mile-for-agent-automation]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -119,7 +128,7 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
+    outgoing: [compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -376,12 +385,30 @@ nodes:
     source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
     outgoing: [invert-always-invert-to-solve-hard-problems]
 
+  agents-running-platform-not-just-on-platform:
+    title: "Agents running the platform vs. agents on the platform — the operator shift changes what software must be"
+    description: "ON→RUNNING distinction: agents as platform operators need full CRUD, decision delegation, and trust infrastructure — not just API access"
+    topics: [future-of-ai-business, ai-agents]
+    source: "@dharmesh (Dharmesh Shah, HubSpot CTO)"
+    source_file: sources/dharmesh-headless-not-brainless.md
+    domain: ai
+    outgoing: [autopilots-capture-work-budget-not-tool-budget, self-disruption-follows-the-value-chain-downward]
+
+  agentic-ux-is-distinct-design-problem-from-human-ux:
+    title: "Agentic UX (AUX) is a distinct design problem — agents don't want to use software the way humans do"
+    description: "AUX is neither human UX adapted for agents (computer use) nor raw APIs (MCP wrapper) — it's a third design discipline for agent-native interfaces"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@dharmesh (Dharmesh Shah, HubSpot CTO)"
+    source_file: sources/dharmesh-headless-not-brainless.md
+    domain: ai
+    outgoing: [agents-become-the-buyer, ui-moat-collapses-api-becomes-purchasing-criterion]
+
   agents-become-the-buyer:
     title: "B2B becomes B2A — agents become the buyer"
     description: "Software is increasingly consumed by agents, not humans; the agent recommends, the human approves"
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API"
-    outgoing: [agent-trust-transfers-from-human-credibility, autopilots-capture-work-budget-not-tool-budget, llms-complete-aggregation-theory-by-collapsing-interface-layer, ui-moat-collapses-api-becomes-purchasing-criterion, webmcp-turns-websites-into-agent-native-interfaces]
+    outgoing: [agent-trust-transfers-from-human-credibility, agentic-ux-is-distinct-design-problem-from-human-ux, agents-running-platform-not-just-on-platform, autopilots-capture-work-budget-not-tool-budget, llms-complete-aggregation-theory-by-collapsing-interface-layer, ui-moat-collapses-api-becomes-purchasing-criterion, webmcp-turns-websites-into-agent-native-interfaces]
 
   treat-ai-like-distributed-team-not-assistant:
     title: "Treat AI like a distributed team, not a single assistant"
@@ -425,6 +452,15 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     outgoing: [context-window-is-the-fundamental-constraint, embeddings-measure-similarity-not-truth, skill-graphs-enable-progressive-disclosure]
+
+  traces-replace-code-as-agent-source-of-truth:
+    title: "Traces replace code as the source of truth for agent systems — debugging shifts from 'show me the code' to 'send me the trace'"
+    description: "In agents, you can't read code to understand behavior — traces are the primary debugging, collaboration, and testing artifact from day one"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents"
+    source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, traces-are-the-universal-substrate-for-agent-learning]
 
   trust-boundaries-must-be-mapped-and-externalized:
     title: "Trust boundaries must be externalized — not held in engineers' heads"
@@ -496,6 +532,15 @@ nodes:
     source: "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap"
     outgoing: [compound-engineering-makes-future-work-easier, dont-be-the-discriminator-be-the-patron, specs-are-external-memory-surviving-context-resets]
 
+  procedural-memory-is-highest-impact-agent-memory:
+    title: "Procedural memory is the highest-impact type of agent memory — it determines what the agent actually does"
+    description: "Three memory types (semantic/episodic/procedural); procedural = instructions+skills+tools; 'if I correct it once, I don't want to correct it a second time'"
+    topics: [ai-agents, knowledge-systems]
+    source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
+    source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
+    domain: ai
+    outgoing: [agents-learn-at-three-layers-model-harness-context, compound-engineering-makes-future-work-easier]
+
   production-agents-route-decisions-not-every-call-to-llm:
     title: "Production agents route routine cases through decision trees, reserving humans for complexity"
     description: "Handle exact matches and known patterns without AI; invoke the model for ambiguity, and route genuinely complex cases to human judgment"
@@ -509,6 +554,15 @@ nodes:
     topics: [ai-agents, future-of-ai-business]
     source: "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot"
     outgoing: [ai-self-improvement-loop-accelerates-everything, features-are-prompts-not-code, personal-software-grows-through-relationship-not-configuration]
+
+  enterprise-agents-need-deterministic-structure-startups-need-loops:
+    title: "Enterprise agents need deterministic structure while startups need autonomous loops — same models, different harnesses"
+    description: "LangGraph (deterministic mixing) dominates enterprise; Deep Agents (loop-based) dominates startups — same models, different harness architectures"
+    topics: [ai-agents, future-of-ai-business]
+    source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
+    source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
+    domain: ai
+    outgoing: [production-agents-route-decisions-not-every-call-to-llm, saas-survives-as-governance-and-coordination-layer]
 
   error-memory-enables-learning-without-retraining:
     title: "Agents that store error patterns learn continuously without fine-tuning or retraining"
@@ -645,6 +699,15 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
     outgoing: [saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool, skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion]
+
+  llm-judge-must-calibrate-against-human-judgment:
+    title: "LLM-as-judge must be calibrated against human judgment — uncalibrated judges are worse than no judges"
+    description: "LangSmith's 'aligned evals' pattern: humans label traces, calibrated judge is built from those labels, continuously validated against human preferences"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents"
+    source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
+    domain: ai
+    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, verification-is-a-red-queen-race]
 
   llm-competition-fragments-markets-not-consolidates:
     title: "LLM competition fragments markets from 3 incumbents to 300"
@@ -880,6 +943,15 @@ nodes:
     source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)"
     source_file: sources/yoonholee-meta-harness.md
     outgoing: [agentic-search-beats-rag-for-live-codebases, meta-agents-beat-manual-harness-engineering, traces-are-the-universal-substrate-for-agent-learning]
+
+  first-draft-pattern-is-killer-app-for-long-horizon-agents:
+    title: "The first-draft pattern is the killer app for long-horizon agents — agents produce, humans review"
+    description: "Coding PRs, research reports, incident analyses — agents do massive preparatory work producing a first draft that humans review"
+    topics: [ai-agents, future-of-ai-business]
+    source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents"
+    source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
+    domain: ai
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, autopilots-capture-work-budget-not-tool-budget, verification-multiplies-agent-output-quality]
 
   frontier-companies-absorb-every-useful-agentic-pattern:
     title: "Frontier companies absorb every useful agentic pattern into their products"
@@ -1186,6 +1258,15 @@ nodes:
     source_file: specs/knowledge-graph-architectures/research.md
     outgoing: [context-layers-must-be-living-systems, evolving-summaries-beat-append-only-memory, verification-is-a-red-queen-race]
 
+  knowledge-is-not-memory-ingestion-vs-learning:
+    title: "Knowledge is not memory — ingesting documents is solved, learning from interactions is not"
+    description: "Knowledge = write-once read-many (ingest→index→query, solved). Memory = continuous learning (observe→learn→update, unsolved). Different infrastructure needed."
+    topics: [knowledge-systems, ai-agents]
+    source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
+    source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
+    domain: ai
+    outgoing: [knowledge-evolution-is-the-biggest-unsolved-problem, context-layers-must-be-living-systems]
+
   knowledge-systems-need-dual-layer-storage:
     title: "Knowledge systems need dual-layer storage — narrative depth and structured queries can't share a format"
     description: "Every system beyond 'markdown files in a folder' discovers that narrative depth and structured querying need different storage layers with a routing mechanism between them"
@@ -1250,6 +1331,15 @@ nodes:
     source_file: sources/hwchase17-your-harness-your-memory.md
     outgoing: [agents-learn-at-three-layers-model-harness-context, harness-quality-beats-model-intelligence]
 
+  memory-defines-the-agent-portable-memory-is-frontier:
+    title: "Memory defines the agent — a zip of markdown files IS the agent, and portable memory between harnesses is the frontier"
+    description: "System prompt + skills + tools = procedural memory = agent identity. Portable memory = portable agents. Harness becomes runtime, memory becomes program."
+    topics: [ai-agents, knowledge-systems]
+    source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
+    source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
+    domain: ai
+    outgoing: [files-are-the-universal-agent-interface, memory-is-where-agent-lock-in-lives, skills-as-markdown-replace-fine-tuning]
+
   memory-is-harness-responsibility-not-plugin:
     title: "Memory is a harness responsibility, not a pluggable component"
     description: "Managing context — what enters, what survives compaction, what's queryable — is a core capability of the harness itself, not an add-on service"
@@ -1272,7 +1362,7 @@ nodes:
     topics: [business-models, ai-agents]
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
-    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, context-is-the-product-not-the-model, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, context-is-the-product-not-the-model, memory-defines-the-agent-portable-memory-is-frontier, procedural-memory-is-highest-impact-agent-memory, proprietary-feedback-loops-widen-the-moat]
 
   open-harnesses-with-owned-databases-prevent-model-provider-lock-in:
     title: "Open harnesses with customer-owned databases are the antidote to model-provider lock-in"

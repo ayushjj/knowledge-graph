@@ -106,3 +106,12 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[agent-harnesses-are-persistent-infrastructure]] — Harnesses aren't scaffolding models will absorb; Claude Code is 512k LOC
 - [[closed-harnesses-behind-apis-create-memory-lock-in]] — Provider-managed harnesses hide memory shape and schema by design
 - [[memory-is-where-agent-lock-in-lives]] — Stateless models are swappable; stateful memory is not
+- [[traces-replace-code-as-agent-source-of-truth]] — Debugging shifts from "show me the code" to "send me the trace"
+- [[first-draft-pattern-is-killer-app-for-long-horizon-agents]] — Agents produce first drafts, humans review — the killer long-horizon app
+- [[llm-judge-must-calibrate-against-human-judgment]] — Uncalibrated LLM judges create false confidence in agent eval
+- [[enterprise-agents-need-deterministic-structure-startups-need-loops]] — Same models, different harnesses for enterprise vs startup
+- [[memory-defines-the-agent-portable-memory-is-frontier]] — A zip of markdown files IS the agent; portable memory is the frontier
+- [[procedural-memory-is-highest-impact-agent-memory]] — System prompt + skills + tools = procedural memory; highest impact type
+- [[knowledge-is-not-memory-ingestion-vs-learning]] — Ingesting documents is solved; learning from interactions is not
+- [[agentic-ux-is-distinct-design-problem-from-human-ux]] — AUX: agents don't want to use software the way humans do
+- [[agents-running-platform-not-just-on-platform]] — Agents as platform operators, not just platform users

@@ -54,3 +54,6 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Controlling whose history shapes reasoning is the unsolved enterprise trust layer
 - [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: value accrues to the model layer
 - [[sand-vs-stone-separates-durable-from-disposable-product-value]] — Prioritization framework: context flywheels are stone, model workarounds are sand
+- [[first-draft-pattern-is-killer-app-for-long-horizon-agents]] — First-draft-with-review is the proven pattern for agent value delivery
+- [[enterprise-agents-need-deterministic-structure-startups-need-loops]] — Enterprise = deterministic harnesses; startups = autonomous loops
+- [[agents-running-platform-not-just-on-platform]] — ON→RUNNING shift: agents as operators changes what software must be

@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
-- [[agent-harnesses-are-persistent-infrastructure]] — harnesses aren't going away; 512k LOC in Claude Code is the evidence (2026-04-12)
-- [[memory-is-harness-responsibility-not-plugin]] — memory is a core harness capability, not a standalone service (2026-04-12)
-- [[closed-harnesses-behind-apis-create-memory-lock-in]] — provider-managed agents put memory behind an API, creating lock-in (2026-04-12)
-- [[memory-is-where-agent-lock-in-lives]] — stateless models are swappable; stateful memory is not (2026-04-12)
-- [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — open harness + customer-owned DB keeps model and memory portable (2026-04-12)
-- [[sand-vs-stone-separates-durable-from-disposable-product-value]] — if models double, what washes away vs remains? (2026-04-10)
-- [[model-compensations-become-liabilities-as-capabilities-advance]] — yesterday's model fixes hobble today's agent at 5+ per week (2026-04-10)
-- [[conflicting-context-causes-agent-collapse-not-graceful-degradation]] — contradictory context triggers collapse mode, not graceful fallback (2026-04-10)
-- [[context-flywheel-is-day-90-not-day-0]] — Day 0 comparisons miss compounding context advantage (2026-04-10)
-- [[long-horizon-evals-test-compounding-not-point-accuracy]] — Metric City: 90-day simulation tests learning trajectory (2026-04-10)
+- [[traces-replace-code-as-agent-source-of-truth]] — debugging shifts from "show me the code" to "send me the trace" (2026-04-17)
+- [[first-draft-pattern-is-killer-app-for-long-horizon-agents]] — agents produce first drafts, humans review (2026-04-17)
+- [[llm-judge-must-calibrate-against-human-judgment]] — uncalibrated LLM judges create false confidence (2026-04-17)
+- [[enterprise-agents-need-deterministic-structure-startups-need-loops]] — same models, different harnesses (2026-04-17)
+- [[memory-defines-the-agent-portable-memory-is-frontier]] — a zip of markdown files IS the agent (2026-04-17)
+- [[procedural-memory-is-highest-impact-agent-memory]] — system prompt + skills + tools = highest-impact memory type (2026-04-17)
+- [[knowledge-is-not-memory-ingestion-vs-learning]] — ingesting documents is solved; learning from interactions is not (2026-04-17)
+- [[context-centralization-is-why-coding-ai-works]] — git = solved context repo; knowledge work has no equivalent (2026-04-17)
+- [[agentic-ux-is-distinct-design-problem-from-human-ux]] — AUX: agents don't use software like humans do (2026-04-17)
+- [[agents-running-platform-not-just-on-platform]] — ON→RUNNING shift changes what software must be (2026-04-17)

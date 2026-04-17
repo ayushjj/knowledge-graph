@@ -47,3 +47,7 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[context-learning-spans-agent-tenant-and-org-levels]] — Agent-level, tenant-level, and org-level context updates can mix and match
 - [[hot-path-vs-offline-learning-are-two-temporal-modes]] — Real-time learning during tasks vs batch processing traces after the fact
 - [[memory-is-harness-responsibility-not-plugin]] — Managing context is a core harness capability — you can't plug memory into an agent
+- [[memory-defines-the-agent-portable-memory-is-frontier]] — Agent identity = its memory files; portable memory between harnesses
+- [[procedural-memory-is-highest-impact-agent-memory]] — Procedural memory (instructions/skills/tools) has highest impact of 3 memory types
+- [[knowledge-is-not-memory-ingestion-vs-learning]] — Knowledge = ingest+query (solved); Memory = observe+learn+adapt (unsolved)
+- [[context-centralization-is-why-coding-ai-works]] — Engineering's context centralization (git) explains why coding AI leads
