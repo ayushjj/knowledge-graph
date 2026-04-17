@@ -1,6 +1,6 @@
 ---
 title: "Agents running the platform vs. agents on the platform — the operator shift changes what software must be"
-slug: agents-running-platform-not-just-on-platform
+description: "The shift from agents as features inside your product to agents as operators running your product — passengers become pilots"
 topics: [future-of-ai-business, ai-agents]
 source: "@dharmesh (Dharmesh Shah, HubSpot CTO)"
 source_file: sources/dharmesh-headless-not-brainless.md

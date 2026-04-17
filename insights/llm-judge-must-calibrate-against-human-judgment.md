@@ -1,6 +1,6 @@
 ---
 title: "LLM-as-judge must be calibrated against human judgment — uncalibrated judges are worse than no judges"
-slug: llm-judge-must-calibrate-against-human-judgment
+description: "An LLM judge without human-labeled calibration data produces false confidence; the bridge is humans labeling traces, then training the judge to replicate those labels"
 topics: [ai-agents, ai-native-product-architecture]
 source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents"
 source_file: sources/hwchase17-context-engineering-long-horizon-agents.md

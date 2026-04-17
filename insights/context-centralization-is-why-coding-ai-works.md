@@ -1,6 +1,6 @@
 ---
 title: "Context centralization is why coding AI works — git is a solved context repository, knowledge work has no equivalent"
-slug: context-centralization-is-why-coding-ai-works
+description: "Engineering AI leads because git centralizes all context in one versioned repository; knowledge work fails on three axes: distributed, unstructured, unverifiable"
 topics: [knowledge-systems, ai-native-product-architecture]
 source: "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)"
 source_file: sources/businessbarista-enterprise-brain.md

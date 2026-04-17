@@ -1,6 +1,6 @@
 ---
 title: "Procedural memory is the highest-impact type of agent memory — it determines what the agent actually does"
-slug: procedural-memory-is-highest-impact-agent-memory
+description: "Of three memory types (semantic/episodic/procedural), procedural — instructions, skills, and tools — has the highest impact because it changes what the agent actually does"
 topics: [ai-agents, knowledge-systems]
 source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
 source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md

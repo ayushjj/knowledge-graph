@@ -1,6 +1,6 @@
 ---
 title: "Traces replace code as the source of truth for agent systems — debugging shifts from 'show me the code' to 'send me the trace'"
-slug: traces-replace-code-as-agent-source-of-truth
+description: "In agent systems, execution traces replace source code as the primary debugging and collaboration artifact — you can't predict step 14's context from reading the code"
 topics: [ai-agents, ai-native-product-architecture]
 source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents"
 source_file: sources/hwchase17-context-engineering-long-horizon-agents.md

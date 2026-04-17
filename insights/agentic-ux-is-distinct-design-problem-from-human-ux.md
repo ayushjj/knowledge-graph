@@ -1,6 +1,6 @@
 ---
 title: "Agentic UX (AUX) is a distinct design problem — agents don't want to use software the way humans do"
-slug: agentic-ux-is-distinct-design-problem-from-human-ux
+description: "AUX (Agentic User Experience) is neither human UX adapted for agents nor raw APIs — it's a third design discipline for how agents want to consume software"
 topics: [ai-agents, ai-native-product-architecture]
 source: "@dharmesh (Dharmesh Shah, HubSpot CTO)"
 source_file: sources/dharmesh-headless-not-brainless.md

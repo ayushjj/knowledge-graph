@@ -1,6 +1,6 @@
 ---
 title: "The first-draft pattern is the killer app for long-horizon agents — agents produce, humans review"
-slug: first-draft-pattern-is-killer-app-for-long-horizon-agents
+description: "Long-horizon agents produce comprehensive first drafts (PRs, analyses, reports) that humans verify — this is where the 10x productivity gain actually lives"
 topics: [ai-agents, future-of-ai-business]
 source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents"
 source_file: sources/hwchase17-context-engineering-long-horizon-agents.md

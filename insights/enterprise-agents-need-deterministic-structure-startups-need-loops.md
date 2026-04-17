@@ -1,6 +1,6 @@
 ---
 title: "Enterprise agents need deterministic structure while startups need autonomous loops — same models, different harnesses"
-slug: enterprise-agents-need-deterministic-structure-startups-need-loops
+description: "Enterprises need deterministic graph-based harnesses for predictability; startups benefit from autonomous loop agents — the harness choice, not the model, determines reliability"
 topics: [ai-agents, future-of-ai-business]
 source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
 source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
