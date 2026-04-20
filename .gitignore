@@ -1,9 +1,3 @@
-# Raw source material (chat exports, potentially copyrighted)
-content/
-
-# Internal audit notes
-AUDIT.md
-
 # Local maintenance skills (live in ~/.claude/skills/)
 skills/
 
@@ -14,11 +8,11 @@ node_modules/
 dist/
 .astro/
 
-# Session learnings (internal process notes)
-learnings/
-
 # Skill telemetry (personal session data)
 telemetry/skill-log.jsonl
 
 # Claude Code local config
 .claude/
+
+# NOTE: content/, learnings/, AUDIT.md are tracked for cross-machine sync.
+# Keep them private by never making this repo public without a re-audit.
