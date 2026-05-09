@@ -25,3 +25,9 @@ People overrate their own possessions, decisions, and performance. This isn't oc
 - [[pavlovian-association-builds-durable-brand-moats]] — Classical conditioning creates durable brand associations at subconscious level
 - [[ideology-is-among-the-most-extreme-distorters-of-cognition]] — Heavy ideology warps cognition even in geniuses like Chomsky
 - [[non-attached-action-enables-clearer-course-correction]] — Non-attachment as structural defense against Inconsistency-Avoidance and Excessive Self-Regard
+- [[mission-strength-is-measured-by-who-it-repels]] — The strongest missions filter the talent pool by ranking some people out
+- [[being-chosen-vs-being-seen-is-the-talent-trap]] — Specialness instead of title is how people feel deeply valued and materially stuck
+- [[time-denominated-promises-decay-invisibly]] — Time doesn't announce itself as it leaves; future-tense promises rot silently
+- [[templates-encode-someone-elses-constraints]] — Why we keep copying playbooks even when they don't fit our situation
+- [[first-principles-thinking-is-responsibility-taking]] — Resistance to first-principles is about accountability, not cognitive difficulty
+- [[users-describe-solutions-within-the-constraint-set-they-know]] — Categorical limit of stated preferences, distinct from honesty/noise failures

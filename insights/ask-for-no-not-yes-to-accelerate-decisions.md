@@ -15,4 +15,4 @@ This is a systems-level insight about [[invert-always-invert-to-solve-hard-probl
 
 The principle works because it aligns incentives: the person closest to the decision takes ownership, stakeholders retain veto power, and momentum is the default. It also reduces the cognitive load on managers — they only need to engage when they disagree, not for every routine decision.
 
-Clay pairs this with an "FYI Culture" — keeping people in the loop as decisions happen rather than seeking permission before acting. The goal is balancing transparency with momentum.
+Clay pairs this with an "FYI Culture" — keeping people in the loop as decisions happen rather than seeking permission before acting. The goal is balancing transparency with momentum. This is a worked example of [[emotional-promises-must-be-structural-promises]] — the cultural claim "we trust you to own decisions" is backed by an actual mechanism (default-proceed framing + objection window) rather than just slogan, which is what makes the promise real.

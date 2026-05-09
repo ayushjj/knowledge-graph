@@ -15,3 +15,5 @@ Effective systems assume people will behave predictably (incentive-following, lo
 - [[ask-for-no-not-yes-to-accelerate-decisions]] — Default-proceed framing removes approval bottlenecks
 - [[resolve-ambiguity-before-passing-it-downstream]] — Catch and resolve ambiguity at the point of origin
 - [[speed-without-feedback-amplifies-errors]] — Systems that outrun their error-correction loops compound mistakes at scale
+- [[emotional-promises-must-be-structural-promises]] — Each cultural claim creates a falsifiable structural prediction
+- [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Bezos's reversibility split: process selection is itself a decision

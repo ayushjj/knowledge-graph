@@ -33,3 +33,12 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[amplification-widens-the-judgment-gap]] — Same tools, divergent outcomes — AI magnifies thinking quality in both directions
 - [[dissolved-constraints-shift-bottleneck-to-judgment]] — When execution becomes free, judgment becomes the only game
 - [[speed-without-feedback-amplifies-errors]] — Speed multipliers without error-correction create proportional error multipliers
+- [[emotional-promises-must-be-structural-promises]] — Cultural claims are auditable as structural commitments; misalignment reads as fake
+- [[mission-strength-is-measured-by-who-it-repels]] — A mission that selects against no one filters no one
+- [[time-denominated-promises-decay-invisibly]] — "Over time" promises rot silently because they lack a forcing function
+- [[reasoning-by-analogy-has-a-ceiling]] — Copying what exists can never produce what doesn't exist yet
+- [[templates-encode-someone-elses-constraints]] — Playbooks silently import assumptions about audience, resources, and strengths
+- [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Irreversibility decides when first-principles is worth its cost
+- [[first-principles-thinking-is-responsibility-taking]] — Analogy outsources blame; first-principles forces ownership of the outcome
+- [[users-describe-solutions-within-the-constraint-set-they-know]] — Stated preferences return analogies (faster horses), not problems
+- [[peter-thiel-test-detects-actual-first-principles-thinking]] — Conclusions matching the crowd are evidence of analogy, not reasoning

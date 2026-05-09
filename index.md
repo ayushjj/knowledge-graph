@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
-- [[traces-replace-code-as-agent-source-of-truth]] — debugging shifts from "show me the code" to "send me the trace" (2026-04-17)
-- [[first-draft-pattern-is-killer-app-for-long-horizon-agents]] — agents produce first drafts, humans review (2026-04-17)
-- [[llm-judge-must-calibrate-against-human-judgment]] — uncalibrated LLM judges create false confidence (2026-04-17)
-- [[enterprise-agents-need-deterministic-structure-startups-need-loops]] — same models, different harnesses (2026-04-17)
-- [[memory-defines-the-agent-portable-memory-is-frontier]] — a zip of markdown files IS the agent (2026-04-17)
-- [[procedural-memory-is-highest-impact-agent-memory]] — system prompt + skills + tools = highest-impact memory type (2026-04-17)
-- [[knowledge-is-not-memory-ingestion-vs-learning]] — ingesting documents is solved; learning from interactions is not (2026-04-17)
-- [[context-centralization-is-why-coding-ai-works]] — git = solved context repo; knowledge work has no equivalent (2026-04-17)
-- [[agentic-ux-is-distinct-design-problem-from-human-ux]] — AUX: agents don't use software like humans do (2026-04-17)
-- [[agents-running-platform-not-just-on-platform]] — ON→RUNNING shift changes what software must be (2026-04-17)
+- [[reasoning-by-analogy-has-a-ceiling]] — copying can never produce what doesn't exist yet (2026-05-09)
+- [[templates-encode-someone-elses-constraints]] — playbooks silently import assumptions you can't see (2026-05-09)
+- [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Bezos's reversibility split decides when first-principles pays off (2026-05-09)
+- [[first-principles-thinking-is-responsibility-taking]] — analogy outsources blame; first-principles forces ownership (2026-05-09)
+- [[users-describe-solutions-within-the-constraint-set-they-know]] — "faster horses" is the categorical limit of stated preferences (2026-05-09)
+- [[peter-thiel-test-detects-actual-first-principles-thinking]] — uncommon conclusions are evidence of independent reasoning (2026-05-09)
+- [[organizational-shape-is-the-emerging-moat-in-ai]] — when products converge, the institution underneath becomes the moat (2026-05-09)
+- [[great-companies-are-wrappers-around-a-kind-of-person]] — institutions make a new kind of person possible (2026-05-09)
+- [[emotional-promises-must-be-structural-promises]] — cultural claims are auditable as structural commitments (2026-05-09)
+- [[being-chosen-vs-being-seen-is-the-talent-trap]] — emotional validation vs structural participation (2026-05-09)

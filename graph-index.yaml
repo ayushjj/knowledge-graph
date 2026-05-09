@@ -10,8 +10,8 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-04-17
-node_count: 185
+last_updated: 2026-05-09
+node_count: 197
 domains: [ai, mental-models]
 
 nodes:
@@ -383,7 +383,7 @@ nodes:
     description: "Framing proposals as 'I will do X unless you object' rather than 'Can I do X?' shifts the decision burden, maintains momentum, and shows ownership"
     topics: [decision-making, engineering]
     source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
-    outgoing: [invert-always-invert-to-solve-hard-problems]
+    outgoing: [emotional-promises-must-be-structural-promises, invert-always-invert-to-solve-hard-problems]
 
   agents-running-platform-not-just-on-platform:
     title: "Agents running the platform vs. agents on the platform — the operator shift changes what software must be"
@@ -698,7 +698,7 @@ nodes:
     description: "Learned interfaces, custom workflows, public data access, talent scarcity, and bundling collapse under LLMs, while proprietary data, regulatory lock-in, network effects, transaction embedding, and system-of-record status remain defensible"
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
-    outgoing: [saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool, skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion]
+    outgoing: [organizational-shape-is-the-emerging-moat-in-ai, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool, skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion]
 
   llm-judge-must-calibrate-against-human-judgment:
     title: "LLM-as-judge must be calibrated against human judgment — uncalibrated judges are worse than no judges"
@@ -842,7 +842,7 @@ nodes:
     description: "You can't know anything useful by remembering isolated facts — they must hang on a latticework of theory from multiple disciplines, with 80-90 key models carrying 90% of the freight"
     topics: [decision-making, philosophy]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)"
-    outgoing: [bet-seldom-but-heavily-when-odds-are-extreme, confluence-of-tendencies-produces-extreme-outcomes, first-conclusions-become-nearly-permanent]
+    outgoing: [bet-seldom-but-heavily-when-odds-are-extreme, confluence-of-tendencies-produces-extreme-outcomes, first-conclusions-become-nearly-permanent, first-principles-thinking-is-responsibility-taking]
 
   scaffolding-is-tech-debt-against-the-next-model:
     title: "Scaffolding is tech debt against the next model — the bitter lesson applied to product building"
@@ -878,7 +878,7 @@ nodes:
     description: "Every person has a circle of competence — playing inside it with discipline compounds advantage, playing outside it guarantees loss, and it's very hard to enlarge"
     topics: [decision-making, psychology]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 196-200)"
-    outgoing: [excessive-self-regard-makes-fixable-failures-persist, latticework-of-models-beats-isolated-facts]
+    outgoing: [excessive-self-regard-makes-fixable-failures-persist, latticework-of-models-beats-isolated-facts, type-1-vs-type-2-decisions-allocate-thinking-modes]
 
   bet-seldom-but-heavily-when-odds-are-extreme:
     title: "Bet seldom but heavily when the odds are extreme"
@@ -899,7 +899,7 @@ nodes:
     description: "Thinking in reverse is one of the most powerful problem-solving techniques: instead of asking what you want, ask what you want to avoid, then don't do that"
     topics: [decision-making, mathematics]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)"
-    outgoing: [ask-for-no-not-yes-to-accelerate-decisions, every-optimization-has-a-shadow-regression, first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts]
+    outgoing: [ask-for-no-not-yes-to-accelerate-decisions, every-optimization-has-a-shadow-regression, first-conclusions-become-nearly-permanent, latticework-of-models-beats-isolated-facts, reasoning-by-analogy-has-a-ceiling]
 
   pavlovian-association-builds-durable-brand-moats:
     title: "Pavlovian association builds durable brand moats that compound for over a century"
@@ -1021,7 +1021,7 @@ nodes:
     description: "Users' actual behavior (what they click, skip, edit, redo) is the ground truth for product decisions; stated preferences systematically mislead"
     topics: [business-models, ai-native-product-architecture]
     source: "Nikunj Kothari — Revealed Preferences"
-    outgoing: [compound-engineering-makes-future-work-easier, decision-traces-are-the-missing-data-layer, latent-demand-is-the-strongest-product-signal]
+    outgoing: [being-chosen-vs-being-seen-is-the-talent-trap, compound-engineering-makes-future-work-easier, decision-traces-are-the-missing-data-layer, latent-demand-is-the-strongest-product-signal, users-describe-solutions-within-the-constraint-set-they-know]
 
   adversarial-branch-walking-beats-review-for-planning:
     title: "Adversarial branch-walking beats review for planning — walk every design branch until resolved"
@@ -1105,7 +1105,7 @@ nodes:
     description: "Hiring was hard, code was slow, shipping took months — AI dissolves all three, revealing judgment as the binding constraint that was always there"
     topics: [decision-making, economics]
     source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
-    outgoing: [ai-compresses-execution-not-judgment, intelligence-judgement-ratio-determines-automation-order, technology-transitions-create-more-not-less]
+    outgoing: [ai-compresses-execution-not-judgment, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, technology-transitions-create-more-not-less]
 
   speed-without-feedback-amplifies-errors:
     title: "Speed without feedback amplifies errors — agents lack the self-correction mechanism that constrains human mistakes"
@@ -1371,3 +1371,111 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
     outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, harness-quality-beats-model-intelligence, memory-is-where-agent-lock-in-lives]
+
+  organizational-shape-is-the-emerging-moat-in-ai:
+    title: "Organizational shape is the emerging moat in AI — what AI cannot copy is the institution underneath"
+    description: "When models improve fast, interfaces converge, and product velocity becomes cheap, the durable advantage moves to how a company attracts exceptional people, distributes authority, and compounds judgment over time"
+    topics: [future-of-ai-business, economics]
+    source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
+    source_file: sources/jayagup10-organizational-shape-is-the-moat.md
+    domain: ai
+    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, proprietary-feedback-loops-widen-the-moat]
+
+  great-companies-are-wrappers-around-a-kind-of-person:
+    title: "Great companies are wrappers around a kind of person — institutions that make a new kind of person possible"
+    description: "The most important companies are organizational inventions: they create a new kind of institution around a new kind of work, and in doing so, they let a certain kind of talent finally express themselves"
+    topics: [economics, philosophy]
+    source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
+    source_file: sources/jayagup10-organizational-shape-is-the-moat.md
+    domain: mental-models
+    outgoing: [organizational-shape-is-the-emerging-moat-in-ai, scale-advantages-cascade-until-bureaucracy-kills-them]
+
+  emotional-promises-must-be-structural-promises:
+    title: "Emotional promises must be structural promises — if the structure doesn't back the pitch, the promise is fake"
+    description: "Each cultural claim — ownership, customer proximity, speed, talent density — is a structural commitment about decision rights, status hierarchy, and authority allocation; misalignment between the two reads as fake even when candidates can't articulate it"
+    topics: [decision-making, engineering]
+    source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
+    source_file: sources/jayagup10-organizational-shape-is-the-moat.md
+    domain: mental-models
+    outgoing: [ask-for-no-not-yes-to-accelerate-decisions, being-chosen-vs-being-seen-is-the-talent-trap, organizational-shape-is-the-emerging-moat-in-ai]
+
+  mission-strength-is-measured-by-who-it-repels:
+    title: "Mission strength is measured by who it repels — the strongest missions make some people refuse to work there"
+    description: "A mission that offends no one, selects for no one, and costs nothing is functionally fake; the strongest missions take a side, and the people they repel are the same signal as the people they attract"
+    topics: [psychology, decision-making]
+    source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
+    source_file: sources/jayagup10-organizational-shape-is-the-moat.md
+    domain: mental-models
+    outgoing: [emotional-promises-must-be-structural-promises, great-companies-are-wrappers-around-a-kind-of-person]
+
+  being-chosen-vs-being-seen-is-the-talent-trap:
+    title: "Being chosen vs being seen — emotional validation captures founder-level intensity at employee-level structure"
+    description: "Being chosen is emotional: you are special, we believe in you, you belong here. Being seen is structural: scope, authority, economic participation, decision rights — the trap is paying in identity what you don't want to pay in structure"
+    topics: [psychology, economics]
+    source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
+    source_file: sources/jayagup10-organizational-shape-is-the-moat.md
+    domain: mental-models
+    outgoing: [emotional-promises-must-be-structural-promises, time-denominated-promises-decay-invisibly]
+
+  time-denominated-promises-decay-invisibly:
+    title: "Time-denominated promises decay invisibly — 'over time' is the most dangerous denomination because time doesn't announce itself as it leaves"
+    description: "Promises in the 'over time it'll be bigger / you'll own more / the structure will catch up' shape rot silently because they lack a written mechanism that forces them to mature"
+    topics: [decision-making, psychology]
+    source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
+    source_file: sources/jayagup10-organizational-shape-is-the-moat.md
+    domain: mental-models
+    outgoing: [being-chosen-vs-being-seen-is-the-talent-trap]
+
+  reasoning-by-analogy-has-a-ceiling:
+    title: "Reasoning by analogy has a ceiling — you can never get beyond what already exists by copying what already exists"
+    description: "Analogy is faster, easier, and less mentally taxing — fine for most decisions — but it forecloses any solution outside the existing solution set; first-principles is the only path that produces non-incremental answers"
+    topics: [decision-making, philosophy]
+    source: "@jaynitx — first principles thinking: how to see what everyone else misses"
+    source_file: sources/jaynitx-first-principles-thinking.md
+    domain: mental-models
+    outgoing: [invert-always-invert-to-solve-hard-problems, templates-encode-someone-elses-constraints]
+
+  templates-encode-someone-elses-constraints:
+    title: "Templates encode someone else's constraints — copying a playbook silently imports its assumptions about audience, resources, and strengths"
+    description: "Templates work because they were tuned for a specific situation; copying them imports invisible assumptions about who you are and what you have, and the misfit only shows up after you've spent the time"
+    topics: [decision-making, psychology]
+    source: "@jaynitx — first principles thinking: how to see what everyone else misses"
+    source_file: sources/jaynitx-first-principles-thinking.md
+    domain: mental-models
+    outgoing: [first-principles-thinking-is-responsibility-taking, reasoning-by-analogy-has-a-ceiling]
+
+  type-1-vs-type-2-decisions-allocate-thinking-modes:
+    title: "Type 1 vs Type 2 decisions — irreversibility decides whether to spend first-principles thinking or analogy"
+    description: "Bezos's split: irreversible decisions deserve slow methodical first-principles thinking; reversible ones should use fast analogy. The mistake is misallocating the modes"
+    topics: [decision-making, engineering]
+    source: "@jaynitx — first principles thinking: how to see what everyone else misses"
+    source_file: sources/jaynitx-first-principles-thinking.md
+    domain: mental-models
+    outgoing: [circle-of-competence-determines-where-you-can-win, reasoning-by-analogy-has-a-ceiling]
+
+  first-principles-thinking-is-responsibility-taking:
+    title: "First-principles thinking is uncomfortable because it transfers responsibility — analogy outsources blame to 'best practices'"
+    description: "When you reason by analogy you have a defense ('I did what everyone said'); when you reason from first principles you own the outcome. The discomfort is responsibility, not difficulty"
+    topics: [psychology, decision-making]
+    source: "@jaynitx — first principles thinking: how to see what everyone else misses"
+    source_file: sources/jaynitx-first-principles-thinking.md
+    domain: mental-models
+    outgoing: [latticework-of-models-beats-isolated-facts, reasoning-by-analogy-has-a-ceiling]
+
+  users-describe-solutions-within-the-constraint-set-they-know:
+    title: "Users describe solutions within the constraint set they know — 'faster horses' is what stated preferences look like outside the existing tool set"
+    description: "When asked what they want, users reason by analogy from existing tools and return better versions of those tools; first-principles asks what underlying problem is being solved, which is invisible to the user but where the actual opportunity lives"
+    topics: [psychology, decision-making]
+    source: "@jaynitx — first principles thinking: how to see what everyone else misses"
+    source_file: sources/jaynitx-first-principles-thinking.md
+    domain: mental-models
+    outgoing: [reasoning-by-analogy-has-a-ceiling, revealed-preferences-trump-stated-preferences]
+
+  peter-thiel-test-detects-actual-first-principles-thinking:
+    title: "Peter Thiel's question is a detector for actual first-principles thinking — if your conclusions match the crowd, you're analogizing"
+    description: "'What important truth do very few people agree with you on?' is the diagnostic — most people can't answer because most people reason by analogy and end up with the same conclusions as everyone else"
+    topics: [decision-making, philosophy]
+    source: "@jaynitx — first principles thinking: how to see what everyone else misses"
+    source_file: sources/jaynitx-first-principles-thinking.md
+    domain: mental-models
+    outgoing: [first-principles-thinking-is-responsibility-taking, reasoning-by-analogy-has-a-ceiling]

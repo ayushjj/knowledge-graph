@@ -57,3 +57,4 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[first-draft-pattern-is-killer-app-for-long-horizon-agents]] — First-draft-with-review is the proven pattern for agent value delivery
 - [[enterprise-agents-need-deterministic-structure-startups-need-loops]] — Enterprise = deterministic harnesses; startups = autonomous loops
 - [[agents-running-platform-not-just-on-platform]] — ON→RUNNING shift: agents as operators changes what software must be
+- [[organizational-shape-is-the-emerging-moat-in-ai]] — When products converge, the institution underneath becomes the only uncopiable advantage
