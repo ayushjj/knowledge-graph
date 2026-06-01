@@ -42,3 +42,10 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[closed-harnesses-behind-apis-create-memory-lock-in]] — Provider-managed agents put memory behind an API, which is lock-in by design
 - [[memory-is-where-agent-lock-in-lives]] — Models are stateless and swappable; memory state is the real switching cost
 - [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — Open harness + customer-owned DB preserves model portability and memory ownership
+- [[system-of-work-is-the-moat-not-the-model]] — Own data capture + workflow + governance; the model is fungible underneath
+- [[capability-curve-decides-which-work-the-labs-take]] — The Yellow Brick Road test: capability-curve work belongs to the labs
+- [[vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]] — The data flywheel is a UX problem only vertical surfaces can solve
+- [[operate-across-the-whole-model-market-not-just-one-lab]] — Route across all vendors + absorb every migration — a defense labs can't copy
+- [[guardrails-are-the-product-customers-pay-for]] — In a regulated vertical, per-customer governance IS the product
+- [[agentic-workflows-encode-intelligence-the-model-cant-read]] — Intelligence lives in the workflow; it becomes the carrier's operating memory
+- [[system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]] — Would the customer still need you if a lab shipped a competitor? System vs tool

@@ -42,3 +42,5 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[first-principles-thinking-is-responsibility-taking]] — Analogy outsources blame; first-principles forces ownership of the outcome
 - [[users-describe-solutions-within-the-constraint-set-they-know]] — Stated preferences return analogies (faster horses), not problems
 - [[peter-thiel-test-detects-actual-first-principles-thinking]] — Conclusions matching the crowd are evidence of analogy, not reasoning
+- [[system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]] — Three tests for durable positioning; would they need you if a lab shipped a competitor?
+- [[new-tech-first-imitates-the-medium-it-replaces]] — McLuhan's rearview mirror: don't mistake the imitation phase for the final form

@@ -16,6 +16,9 @@ AI's self-improvement loop compresses everything — each generation builds the 
 ### Services as the New Software
 Selling outcomes (the work) beats selling tools — model improvements compound for services providers. The intelligence-to-judgement ratio determines automation order; already-outsourced tasks are the wedge.
 
+### Yellow Brick Road vs Rest of Oz
+Work that improves directly with raw model capability (code, writing, images) belongs to the labs — they own the model, margins, and distribution. The defensible "rest of Oz" is complex, vertical, multi-step work where value comes from the scaffolding (data flywheels, cross-vendor model routing, governance, the agentic workflow) the labs structurally can't focus on. The moat relocated from the model to the system of work.
+
 ## Insights
 - [[technical-knowledge-becomes-liability]] — Experts debug while novices deliver
 - [[technology-transitions-create-more-not-less]] — Historical pattern: predicted deaths result in growth of both old and new
@@ -58,3 +61,8 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 - [[enterprise-agents-need-deterministic-structure-startups-need-loops]] — Enterprise = deterministic harnesses; startups = autonomous loops
 - [[agents-running-platform-not-just-on-platform]] — ON→RUNNING shift: agents as operators changes what software must be
 - [[organizational-shape-is-the-emerging-moat-in-ai]] — When products converge, the institution underneath becomes the only uncopiable advantage
+- [[system-of-work-is-the-moat-not-the-model]] — Own the surface work executes on; the model is fungible underneath
+- [[capability-curve-decides-which-work-the-labs-take]] — If a problem improves with every pre/post-training dollar, the labs own it
+- [[reorganize-around-agents-dont-bolt-them-onto-old-workflows]] — Waterwheel→steam: redesign the work around AI, don't bolt a chatbot on
+- [[new-tech-first-imitates-the-medium-it-replaces]] — The chatbot mimicking a search box is the rearview-mirror transition form, not the destination
+- [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — When software carries context, communication stops being the load-bearing wall

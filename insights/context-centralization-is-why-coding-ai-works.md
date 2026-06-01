@@ -19,4 +19,6 @@ Lieberman identifies three axes where knowledge work fails compared to code:
 
 His claim that "building an ingestion engine... is the first, and frankly, easiest step" is notable — the hard middle is self-organizing schema ("whether it's a thoughtful filesystem à la Obsidian or an OpenClaw-esque memory structure"). At scale, "compaction and cleaning become wildly important to avoid the needle in the haystack problem."
 
+Ivan Zhao names the same gap from the org side: in knowledge work "humans are the glue, stitching all that together with copy-paste and switching between browser tabs," and code's edge is that "you can verify it with tests and errors" while a strategy memo has no such check. His prescription is the structural flip — [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]]: once software carries the context, human communication stops being the load-bearing wall that caps org scale.
+
 Connects to [[context-is-the-product-not-the-model]] — whoever centralizes domain context wins. Also connects to [[files-are-the-universal-agent-interface]] — the file system IS the context centralization mechanism for engineering AI tools.

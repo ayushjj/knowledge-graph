@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
-- [[compression-is-a-forking-lifecycle-event-not-a-rewrite]] — compression should fork a child session, not destructively rewrite (2026-06-01)
-- [[separate-tool-registration-from-tool-exposure]] — install tools broadly, reveal narrowly per run (2026-06-01)
-- [[sessions-are-runtime-infrastructure-not-just-transcripts]] — one session plane attachable by CLI, chat, and cron (2026-06-01)
-- [[order-system-prompt-by-volatility-for-cache-reuse]] — tier the prompt stable→context→volatile for cache hits (2026-06-01)
-- [[delegation-is-not-orchestration]] — durable, externally-steerable child runs are the real leap (2026-06-01)
-- [[unattended-jobs-need-the-same-permission-machinery-as-interactive]] — cron as first-class, not a safety-bypassing script (2026-06-01)
-- [[enforcement-must-run-independently-of-model-cooperation]] — policy lives in hooks, not prompt instructions (2026-06-01)
-- [[reasoning-by-analogy-has-a-ceiling]] — copying can never produce what doesn't exist yet (2026-05-09)
-- [[templates-encode-someone-elses-constraints]] — playbooks silently import assumptions you can't see (2026-05-09)
-- [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Bezos's reversibility split decides when first-principles pays off (2026-05-09)
+- [[reorganize-around-agents-dont-bolt-them-onto-old-workflows]] — waterwheel→steam: redesign work around AI, don't bolt a chatbot on (2026-06-01)
+- [[new-tech-first-imitates-the-medium-it-replaces]] — the chatbot mimicking a search box is the rearview-mirror form, not the final one (2026-06-01)
+- [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — software-carried context removes communication as the org's load-bearing wall (2026-06-01)
+- [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — human-in-the-loop isn't always good; the Red Flag Act is the anti-pattern (2026-06-01)
+- [[system-of-work-is-the-moat-not-the-model]] — own the surface work executes on; the model is fungible underneath (2026-06-01)
+- [[capability-curve-decides-which-work-the-labs-take]] — if a problem improves with raw model capability, the labs own it (2026-06-01)
+- [[vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]] — the data flywheel is a UX problem only vertical surfaces solve (2026-06-01)
+- [[operate-across-the-whole-model-market-not-just-one-lab]] — route across all vendors + absorb every migration (2026-06-01)
+- [[guardrails-are-the-product-customers-pay-for]] — per-customer governance is the product in a regulated vertical (2026-06-01)
+- [[agentic-workflows-encode-intelligence-the-model-cant-read]] — intelligence lives in the workflow; it becomes operating memory (2026-06-01)

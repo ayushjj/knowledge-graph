@@ -99,3 +99,8 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[order-system-prompt-by-volatility-for-cache-reuse]] — Tier the system prompt stable→context→volatile for cache hits
 - [[unattended-jobs-need-the-same-permission-machinery-as-interactive]] — Cron as first-class, not bypassing the safety machinery
 - [[enforcement-must-run-independently-of-model-cooperation]] — Policy lives in hooks, not prompt instructions
+- [[vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]] — The data flywheel depends on workflow-shaped capture surfaces
+- [[operate-across-the-whole-model-market-not-just-one-lab]] — Per-sub-task routing across all vendors + migration absorption
+- [[guardrails-are-the-product-customers-pay-for]] — Per-use-case governance control plane as the product
+- [[reorganize-around-agents-dont-bolt-them-onto-old-workflows]] — Redesign work around agents; chatbot-on-old-workflow is a waterwheel swap
+- [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — Software-carried context removes communication as the org's load-bearing wall

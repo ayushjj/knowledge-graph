@@ -122,3 +122,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[delegation-is-not-orchestration]] — Durable, externally-steerable child runs are the real leap
 - [[unattended-jobs-need-the-same-permission-machinery-as-interactive]] — Cron as first-class, not bypassing the safety machinery
 - [[enforcement-must-run-independently-of-model-cooperation]] — Policy lives in hooks, not prompt instructions
+- [[agentic-workflows-encode-intelligence-the-model-cant-read]] — Workflow = repeatability, agent = variability, human = accountability; the loop becomes operating memory
+- [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — Human-in-the-loop isn't always good; the Red Flag Act is the anti-pattern

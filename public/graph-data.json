@@ -1,6 +1,149 @@
 {
   "nodes": [
     {
+      "id": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "label": "The gains come from redesigning work around AI, not bolting AI onto human workflows",
+      "description": "Like factory owners who first swapped waterwheels for steam engines and changed nothing else (modest gains), today's orgs bolt chatbots onto human-designed workflows — the explosion comes only when the work is redesigned around agents",
+      "topics": [
+        "future-of-ai-business",
+        "ai-native-product-architecture"
+      ],
+      "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
+      "color": "#f59e0b",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "new-tech-first-imitates-the-medium-it-replaces",
+      "label": "New technology first imitates the medium it replaces — the transition form hides the final form",
+      "description": "Early phone calls were telegram-terse, early movies were filmed stage plays, and today's AI is a chatbot mimicking a search box; McLuhan's 'driving into the future via the rearview window' is why we mistake the imitation phase for the destination",
+      "topics": [
+        "future-of-ai-business",
+        "decision-making"
+      ],
+      "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
+      "color": "#f59e0b",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "label": "AI is steel for organizations — when software carries the context, human communication stops being the load-bearing wall",
+      "description": "Before steel, buildings capped at six or seven floors because iron buckled under its own weight; AI that maintains context across workflows removes human communication (meetings, messages) as the structure that caps how far an org can scale before it degrades",
+      "topics": [
+        "future-of-ai-business",
+        "ai-native-product-architecture"
+      ],
+      "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
+      "color": "#f59e0b",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "supervise-loops-from-a-leveraged-point-not-from-inside-them",
+      "label": "Humans should supervise agent loops from a leveraged point, not sit inside every one",
+      "description": "Human-in-the-loop isn't always desirable — putting a person inside every iteration is the Red Flag Act (a man legally required to walk ahead of every car waving a flag); the goal is leveraged oversight of many loops, not manual inspection of each",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "system-of-work-is-the-moat-not-the-model",
+      "label": "The system of work is the moat, not the model — the model is fungible underneath",
+      "description": "A vertical app company wins by owning the surface where a company's work actually executes — data capture, workflow system of action, and governance — while each new model generation flows through underneath",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#f59e0b",
+      "degree": 9,
+      "domain": "ai"
+    },
+    {
+      "id": "capability-curve-decides-which-work-the-labs-take",
+      "label": "If a problem improves directly with raw model capability, the labs will take it",
+      "description": "The Yellow Brick Road test — work that gets better with every pre/post-training dollar (code, writing, images) belongs to the labs; work whose value comes from scaffolding is defensible",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#f59e0b",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant",
+      "label": "The data flywheel is a UX problem — only vertical workflow surfaces can capture the knowledge",
+      "description": "Two stacked flywheels (across-customer pattern recognition + within-customer tacit rules) accrue only through workflow-specific capture surfaces that horizontal tools structurally cannot shape",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "operate-across-the-whole-model-market-not-just-one-lab",
+      "label": "Routing across the whole model market — and absorbing every migration — is a defense the labs can't copy",
+      "description": "A vertical company picks the best model per sub-task across all vendors, absorbs eval/migration work on every upgrade, and sells the lowest cost for the exact intelligence each step needs",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "guardrails-are-the-product-customers-pay-for",
+      "label": "Guardrails aren't just safety — they're what the customer is paying for",
+      "description": "Per-use-case, per-customer, continuously-audited governance is the product in a regulated vertical; becoming the compliance control plane is a moat a horizontal player can't credibly hold",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "agentic-workflows-encode-intelligence-the-model-cant-read",
+      "label": "The intelligence lives in the workflow, not the model — and a model can't simply read it",
+      "description": "In a real vertical, the decisive logic (what to escalate, which rule wins, when a human signs off) lives in SOPs and operational experience; the agentic workflow encodes it and becomes the carrier's operating memory",
+      "topics": [
+        "ai-agents",
+        "business-models"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
+      "label": "System or tool? Ask whether the customer would still need you if a lab shipped a direct competitor",
+      "description": "Three tests for being safely off the Yellow Brick Road — tools-and-steps, system-vs-tool, and customer-P&L — with the system test (would they still need you?) as the sharpest discriminator",
+      "topics": [
+        "business-models",
+        "decision-making"
+      ],
+      "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
+      "color": "#10b981",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "features-are-prompts-not-code",
       "label": "In agent-native architecture, features are prompts — not code",
       "description": "The shift from coding specific functions to describing outcomes that agents achieve by composing atomic tools",
@@ -140,7 +283,7 @@
       ],
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -153,7 +296,7 @@
       ],
       "source": "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)",
       "color": "#f43f5e",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -166,7 +309,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 35,
+      "degree": 37,
       "domain": "ai"
     },
     {
@@ -257,7 +400,7 @@
       ],
       "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
       "color": "#10b981",
-      "degree": 12,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -386,7 +529,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 15,
+      "degree": 17,
       "domain": "ai"
     },
     {
@@ -451,7 +594,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -553,7 +696,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -618,7 +761,7 @@
       ],
       "source": "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -810,7 +953,7 @@
       ],
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
-      "degree": 16,
+      "degree": 17,
       "domain": "ai"
     },
     {
@@ -914,7 +1057,7 @@
       ],
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1005,7 +1148,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1044,7 +1187,7 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 13,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -1070,7 +1213,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -1315,7 +1458,7 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 12,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -1457,7 +1600,7 @@
       ],
       "source": "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1587,7 +1730,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -1782,7 +1925,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#f59e0b",
-      "degree": 7,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1821,7 +1964,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 9,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -1860,7 +2003,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 12,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -2053,7 +2196,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 7,
+      "degree": 10,
       "domain": "mental-models"
     },
     {
@@ -2104,7 +2247,7 @@
       ],
       "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -2142,7 +2285,7 @@
       ],
       "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
       "color": "#10b981",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -2350,7 +2493,7 @@
       ],
       "source": "@izzymiller (Izzy Miller, Hex) relaying Barry McCardel (Hex CEO) — Building AI Agents for Data Analytics",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -2389,7 +2532,7 @@
       ],
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -2480,7 +2623,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -2493,7 +2636,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#f59e0b",
-      "degree": 8,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -2571,7 +2714,7 @@
       ],
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
-      "degree": 8,
+      "degree": 10,
       "domain": "mental-models"
     },
     {
@@ -2641,6 +2784,174 @@
     }
   ],
   "links": [
+    {
+      "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "target": "new-tech-first-imitates-the-medium-it-replaces"
+    },
+    {
+      "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
+      "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "target": "self-disruption-follows-the-value-chain-downward"
+    },
+    {
+      "source": "new-tech-first-imitates-the-medium-it-replaces",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "new-tech-first-imitates-the-medium-it-replaces",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "new-tech-first-imitates-the-medium-it-replaces",
+      "target": "reorganize-around-agents-dont-bolt-them-onto-old-workflows"
+    },
+    {
+      "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "target": "context-centralization-is-why-coding-ai-works"
+    },
+    {
+      "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "supervise-loops-from-a-leveraged-point-not-from-inside-them",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "supervise-loops-from-a-leveraged-point-not-from-inside-them",
+      "target": "parallel-agents-create-management-problem-not-coding-problem"
+    },
+    {
+      "source": "supervise-loops-from-a-leveraged-point-not-from-inside-them",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "supervise-loops-from-a-leveraged-point-not-from-inside-them",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "system-of-work-is-the-moat-not-the-model",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "system-of-work-is-the-moat-not-the-model",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "system-of-work-is-the-moat-not-the-model",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "system-of-work-is-the-moat-not-the-model",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "system-of-work-is-the-moat-not-the-model",
+      "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "capability-curve-decides-which-work-the-labs-take",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "capability-curve-decides-which-work-the-labs-take",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "capability-curve-decides-which-work-the-labs-take",
+      "target": "sand-vs-stone-separates-durable-from-disposable-product-value"
+    },
+    {
+      "source": "capability-curve-decides-which-work-the-labs-take",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant",
+      "target": "context-flywheel-is-day-90-not-day-0"
+    },
+    {
+      "source": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant",
+      "target": "tribal-knowledge-is-the-last-mile-for-agent-automation"
+    },
+    {
+      "source": "operate-across-the-whole-model-market-not-just-one-lab",
+      "target": "multi-model-orchestration-beats-any-single-family"
+    },
+    {
+      "source": "operate-across-the-whole-model-market-not-just-one-lab",
+      "target": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in"
+    },
+    {
+      "source": "operate-across-the-whole-model-market-not-just-one-lab",
+      "target": "vertical-models-beat-frontier-models-in-their-domain"
+    },
+    {
+      "source": "guardrails-are-the-product-customers-pay-for",
+      "target": "enforcement-must-run-independently-of-model-cooperation"
+    },
+    {
+      "source": "guardrails-are-the-product-customers-pay-for",
+      "target": "permissioned-inference-is-harder-than-permissioned-retrieval"
+    },
+    {
+      "source": "guardrails-are-the-product-customers-pay-for",
+      "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "guardrails-are-the-product-customers-pay-for",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "agentic-workflows-encode-intelligence-the-model-cant-read",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "agentic-workflows-encode-intelligence-the-model-cant-read",
+      "target": "context-flywheel-is-day-90-not-day-0"
+    },
+    {
+      "source": "agentic-workflows-encode-intelligence-the-model-cant-read",
+      "target": "enterprise-agents-need-deterministic-structure-startups-need-loops"
+    },
+    {
+      "source": "agentic-workflows-encode-intelligence-the-model-cant-read",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
+      "target": "sell-the-work-not-the-tool"
+    },
+    {
+      "source": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
     {
       "source": "features-are-prompts-not-code",
       "target": "declarative-beats-imperative-for-agents"
@@ -2783,6 +3094,10 @@
     },
     {
       "source": "context-centralization-is-why-coding-ai-works",
+      "target": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit"
+    },
+    {
+      "source": "context-centralization-is-why-coding-ai-works",
       "target": "context-is-the-product-not-the-model"
     },
     {
@@ -2908,6 +3223,10 @@
     {
       "source": "saas-survives-as-governance-and-coordination-layer",
       "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "saas-survives-as-governance-and-coordination-layer",
+      "target": "guardrails-are-the-product-customers-pay-for"
     },
     {
       "source": "saas-survives-as-governance-and-coordination-layer",
@@ -3292,6 +3611,10 @@
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
       "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "parallel-agents-create-management-problem-not-coding-problem",
+      "target": "supervise-loops-from-a-leveraged-point-not-from-inside-them"
     },
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
@@ -4239,6 +4562,10 @@
     },
     {
       "source": "multi-model-orchestration-beats-any-single-family",
+      "target": "operate-across-the-whole-model-market-not-just-one-lab"
+    },
+    {
+      "source": "multi-model-orchestration-beats-any-single-family",
       "target": "orchestrator-agent-replaces-human-coordination"
     },
     {
@@ -4539,6 +4866,10 @@
     },
     {
       "source": "frontier-companies-absorb-every-useful-agentic-pattern",
+      "target": "capability-curve-decides-which-work-the-labs-take"
+    },
+    {
+      "source": "frontier-companies-absorb-every-useful-agentic-pattern",
       "target": "technology-transitions-create-more-not-less"
     },
     {
@@ -4580,6 +4911,10 @@
     {
       "source": "sell-the-work-not-the-tool",
       "target": "self-disruption-follows-the-value-chain-downward"
+    },
+    {
+      "source": "sell-the-work-not-the-tool",
+      "target": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
@@ -4628,6 +4963,10 @@
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
       "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
+      "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant"
     },
     {
       "source": "the-80-99-gap-is-where-ai-products-die",
@@ -4855,6 +5194,10 @@
     },
     {
       "source": "dissolved-constraints-shift-bottleneck-to-judgment",
+      "target": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit"
+    },
+    {
+      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
       "target": "intelligence-judgement-ratio-determines-automation-order"
     },
     {
@@ -4924,6 +5267,10 @@
     {
       "source": "self-disruption-follows-the-value-chain-downward",
       "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "self-disruption-follows-the-value-chain-downward",
+      "target": "reorganize-around-agents-dont-bolt-them-onto-old-workflows"
     },
     {
       "source": "self-disruption-follows-the-value-chain-downward",
@@ -5175,6 +5522,10 @@
     },
     {
       "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "agentic-workflows-encode-intelligence-the-model-cant-read"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
       "target": "context-is-the-product-not-the-model"
     },
     {
@@ -5294,6 +5645,10 @@
       "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
+      "source": "organizational-shape-is-the-emerging-moat-in-ai",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
       "source": "great-companies-are-wrappers-around-a-kind-of-person",
       "target": "organizational-shape-is-the-emerging-moat-in-ai"
     },
@@ -5336,6 +5691,10 @@
     {
       "source": "reasoning-by-analogy-has-a-ceiling",
       "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "reasoning-by-analogy-has-a-ceiling",
+      "target": "new-tech-first-imitates-the-medium-it-replaces"
     },
     {
       "source": "reasoning-by-analogy-has-a-ceiling",

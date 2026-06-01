@@ -11,10 +11,107 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-06-01
-node_count: 204
+node_count: 215
 domains: [ai, mental-models]
 
 nodes:
+  reorganize-around-agents-dont-bolt-them-onto-old-workflows:
+    title: "The gains come from redesigning work around AI, not bolting AI onto human workflows"
+    description: "Like factory owners who first swapped waterwheels for steam engines and changed nothing else (modest gains), today's orgs bolt chatbots onto human-designed workflows — the explosion comes only when the work is redesigned around agents"
+    topics: [future-of-ai-business, ai-native-product-architecture]
+    source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
+    source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
+    domain: ai
+    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
+
+  new-tech-first-imitates-the-medium-it-replaces:
+    title: "New technology first imitates the medium it replaces — the transition form hides the final form"
+    description: "Early phone calls were telegram-terse, early movies were filmed stage plays, and today's AI is a chatbot mimicking a search box; McLuhan's 'driving into the future via the rearview window' is why we mistake the imitation phase for the destination"
+    topics: [future-of-ai-business, decision-making]
+    source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
+    source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
+    domain: ai
+    outgoing: [build-for-the-model-six-months-from-now, reasoning-by-analogy-has-a-ceiling, reorganize-around-agents-dont-bolt-them-onto-old-workflows]
+
+  ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit:
+    title: "AI is steel for organizations — when software carries the context, human communication stops being the load-bearing wall"
+    description: "Before steel, buildings capped at six or seven floors because iron buckled under its own weight; AI that maintains context across workflows removes human communication (meetings, messages) as the structure that caps how far an org can scale before it degrades"
+    topics: [future-of-ai-business, ai-native-product-architecture]
+    source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
+    source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
+    domain: ai
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, dissolved-constraints-shift-bottleneck-to-judgment, organizational-shape-is-the-emerging-moat-in-ai]
+
+  supervise-loops-from-a-leveraged-point-not-from-inside-them:
+    title: "Humans should supervise agent loops from a leveraged point, not sit inside every one"
+    description: "Human-in-the-loop isn't always desirable — putting a person inside every iteration is the Red Flag Act (a man legally required to walk ahead of every car waving a flag); the goal is leveraged oversight of many loops, not manual inspection of each"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
+    source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
+    domain: ai
+    outgoing: [orchestrator-agent-replaces-human-coordination, parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, treat-ai-like-distributed-team-not-assistant]
+  system-of-work-is-the-moat-not-the-model:
+    title: "The system of work is the moat, not the model — the model is fungible underneath"
+    description: "A vertical app company wins by owning the surface where a company's work actually executes — data capture, workflow system of action, and governance — while each new model generation flows through underneath"
+    topics: [future-of-ai-business, business-models]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, llms-selectively-destroy-vertical-software-moats, organizational-shape-is-the-emerging-moat-in-ai, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool]
+
+  capability-curve-decides-which-work-the-labs-take:
+    title: "If a problem improves directly with raw model capability, the labs will take it"
+    description: "The Yellow Brick Road test — work that gets better with every pre/post-training dollar (code, writing, images) belongs to the labs; work whose value comes from scaffolding is defensible"
+    topics: [future-of-ai-business, business-models]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, sand-vs-stone-separates-durable-from-disposable-product-value, system-of-work-is-the-moat-not-the-model]
+
+  vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant:
+    title: "The data flywheel is a UX problem — only vertical workflow surfaces can capture the knowledge"
+    description: "Two stacked flywheels (across-customer pattern recognition + within-customer tacit rules) accrue only through workflow-specific capture surfaces that horizontal tools structurally cannot shape"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [context-flywheel-is-day-90-not-day-0, context-is-the-product-not-the-model, proprietary-feedback-loops-widen-the-moat, tribal-knowledge-is-the-last-mile-for-agent-automation]
+
+  operate-across-the-whole-model-market-not-just-one-lab:
+    title: "Routing across the whole model market — and absorbing every migration — is a defense the labs can't copy"
+    description: "A vertical company picks the best model per sub-task across all vendors, absorbs eval/migration work on every upgrade, and sells the lowest cost for the exact intelligence each step needs"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [multi-model-orchestration-beats-any-single-family, open-harnesses-with-owned-databases-prevent-model-provider-lock-in, vertical-models-beat-frontier-models-in-their-domain]
+
+  guardrails-are-the-product-customers-pay-for:
+    title: "Guardrails aren't just safety — they're what the customer is paying for"
+    description: "Per-use-case, per-customer, continuously-audited governance is the product in a regulated vertical; becoming the compliance control plane is a moat a horizontal player can't credibly hold"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [enforcement-must-run-independently-of-model-cooperation, permissioned-inference-is-harder-than-permissioned-retrieval, saas-survives-as-governance-and-coordination-layer, system-of-work-is-the-moat-not-the-model]
+
+  agentic-workflows-encode-intelligence-the-model-cant-read:
+    title: "The intelligence lives in the workflow, not the model — and a model can't simply read it"
+    description: "In a real vertical, the decisive logic (what to escalate, which rule wins, when a human signs off) lives in SOPs and operational experience; the agentic workflow encodes it and becomes the carrier's operating memory"
+    topics: [ai-agents, business-models]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-flywheel-is-day-90-not-day-0, enterprise-agents-need-deterministic-structure-startups-need-loops, production-agents-route-decisions-not-every-call-to-llm]
+
+  system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it:
+    title: "System or tool? Ask whether the customer would still need you if a lab shipped a direct competitor"
+    description: "Three tests for being safely off the Yellow Brick Road — tools-and-steps, system-vs-tool, and customer-P&L — with the system test (would they still need you?) as the sharpest discriminator"
+    topics: [business-models, decision-making]
+    source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road"
+    source_file: sources/joeschmidtiv-yellow-brick-road.md
+    domain: ai
+    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, sell-the-work-not-the-tool, system-of-work-is-the-moat-not-the-model]
   features-are-prompts-not-code:
     title: "In agent-native architecture, features are prompts — not code"
     description: "The shift from coding specific functions to describing outcomes that agents achieve by composing atomic tools"
@@ -114,7 +211,7 @@ nodes:
     source: "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)"
     source_file: sources/businessbarista-enterprise-brain.md
     domain: ai
-    outgoing: [context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
+    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
 
   context-is-the-product-not-the-model:
     title: "Context is the product, not the model"
@@ -170,7 +267,7 @@ nodes:
     description: "When non-deterministic AI feeds into deterministic systems (databases, approvals, audit trails), the deterministic system governs; SaaS is that system"
     topics: [business-models, future-of-ai-business]
     source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"
-    outgoing: [agents-become-the-buyer, context-is-the-product-not-the-model, open-source-captures-value-through-services-not-software, production-agents-route-decisions-not-every-call-to-llm, saas-grows-but-consolidates-around-platforms]
+    outgoing: [agents-become-the-buyer, context-is-the-product-not-the-model, guardrails-are-the-product-customers-pay-for, open-source-captures-value-through-services-not-software, production-agents-route-decisions-not-every-call-to-llm, saas-grows-but-consolidates-around-platforms]
 
   software-abundance-unlocks-categories-that-never-existed:
     title: "Software abundance unlocks entire categories of applications that never existed"
@@ -369,7 +466,7 @@ nodes:
     description: "When AI agents can work on multiple projects simultaneously, the bottleneck shifts from writing code to coordinating parallel workstreams"
     topics: [ai-coding-tools, ai-agents]
     source: "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents"
-    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, orchestrator-agent-replaces-human-coordination, specs-are-external-memory-surviving-context-resets, treat-ai-like-distributed-team-not-assistant]
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, orchestrator-agent-replaces-human-coordination, specs-are-external-memory-surviving-context-resets, supervise-loops-from-a-leveraged-point-not-from-inside-them, treat-ai-like-distributed-team-not-assistant]
 
   dont-be-the-discriminator-be-the-patron:
     title: "Don't be the discriminator — be the patron, not the judge"
@@ -842,7 +939,7 @@ nodes:
     description: "Perplexity launched a unified agent system orchestrating 19 backend models that delegate tasks, manage files, execute code, and browse the web. The differentiation isn't the models — it's the orchestration. 'The computer is the orchestration system.'"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer"
-    outgoing: [multi-model-ensemble-catches-single-model-blindspots, orchestrator-agent-replaces-human-coordination, production-agents-route-decisions-not-every-call-to-llm, treat-ai-like-distributed-team-not-assistant]
+    outgoing: [multi-model-ensemble-catches-single-model-blindspots, operate-across-the-whole-model-market-not-just-one-lab, orchestrator-agent-replaces-human-coordination, production-agents-route-decisions-not-every-call-to-llm, treat-ai-like-distributed-team-not-assistant]
 
   incentive-caused-bias-makes-good-people-rationalize:
     title: "Incentive-caused bias makes good people rationalize harmful behavior"
@@ -1021,7 +1118,7 @@ nodes:
     description: "If a workaround truly works, OpenAI/Anthropic will build it in — skills, memory, planning all get absorbed, making the wrapper layer fragile"
     topics: [future-of-ai-business, ai-agents]
     source: "@systematicls — How To Be A World-Class Agentic Engineer"
-    outgoing: [boring-tech-wins-for-ai-native-startups, build-for-the-model-six-months-from-now, technology-transitions-create-more-not-less]
+    outgoing: [boring-tech-wins-for-ai-native-startups, build-for-the-model-six-months-from-now, capability-curve-decides-which-work-the-labs-take, technology-transitions-create-more-not-less]
 
   one-session-per-contract-beats-long-running-agents:
     title: "One session per contract beats long-running agent sessions"
@@ -1042,7 +1139,7 @@ nodes:
     description: "If you sell the tool, you race the model; if you sell the outcome, every model improvement makes your service faster, cheaper, and harder to compete with"
     topics: [future-of-ai-business, business-models]
     source: "@julienbek — Services: The New Software"
-    outgoing: [domain-skill-libraries-are-the-real-agent-moat, frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage, self-disruption-follows-the-value-chain-downward]
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage, self-disruption-follows-the-value-chain-downward, system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]
 
   observability-is-the-missing-agent-discipline:
     title: "Observability is the missing discipline for agent systems — you can't improve what you can't measure"
@@ -1063,7 +1160,7 @@ nodes:
     description: "When usage generates data that competitors cannot replicate — correction patterns, preference signals, domain-specific edge cases — the product improves faster than any new entrant can catch up"
     topics: [business-models, future-of-ai-business]
     source: "Nikunj Kothari — Revealed Preferences"
-    outgoing: [compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, memory-is-where-agent-lock-in-lives]
+    outgoing: [compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, memory-is-where-agent-lock-in-lives, vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1168,7 +1265,7 @@ nodes:
     description: "Hiring was hard, code was slow, shipping took months — AI dissolves all three, revealing judgment as the binding constraint that was always there"
     topics: [decision-making, economics]
     source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
-    outgoing: [ai-compresses-execution-not-judgment, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, technology-transitions-create-more-not-less]
+    outgoing: [ai-compresses-execution-not-judgment, ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, technology-transitions-create-more-not-less]
 
   speed-without-feedback-amplifies-errors:
     title: "Speed without feedback amplifies errors — agents lack the self-correction mechanism that constrains human mistakes"
@@ -1199,7 +1296,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform"
     source_file: sources/eoghan-fin-api-platform.md
-    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, sell-the-work-not-the-tool]
+    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, reorganize-around-agents-dont-bolt-them-onto-old-workflows, sell-the-work-not-the-tool]
 
   self-improving-agents-overfit-to-eval-metrics:
     title: "Self-improving agents overfit to eval metrics — the meta-agent games rubrics unless structurally constrained"
@@ -1376,7 +1473,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
     source_file: sources/izzymiller-hex-building-ai-agents-data.md
-    outgoing: [agent-trace-accumulation-produces-emergent-world-models, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, proprietary-feedback-loops-widen-the-moat]
 
   long-horizon-evals-test-compounding-not-point-accuracy:
     title: "Long-horizon evals test compounding behavior, not point-in-time accuracy"
@@ -1442,7 +1539,7 @@ nodes:
     source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
     source_file: sources/jayagup10-organizational-shape-is-the-moat.md
     domain: ai
-    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
 
   great-companies-are-wrappers-around-a-kind-of-person:
     title: "Great companies are wrappers around a kind of person — institutions that make a new kind of person possible"
@@ -1496,7 +1593,7 @@ nodes:
     source: "@jaynitx — first principles thinking: how to see what everyone else misses"
     source_file: sources/jaynitx-first-principles-thinking.md
     domain: mental-models
-    outgoing: [invert-always-invert-to-solve-hard-problems, templates-encode-someone-elses-constraints]
+    outgoing: [invert-always-invert-to-solve-hard-problems, new-tech-first-imitates-the-medium-it-replaces, templates-encode-someone-elses-constraints]
 
   templates-encode-someone-elses-constraints:
     title: "Templates encode someone else's constraints — copying a playbook silently imports its assumptions about audience, resources, and strengths"
