@@ -10,8 +10,8 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-05-09
-node_count: 197
+last_updated: 2026-06-01
+node_count: 204
 domains: [ai, mental-models]
 
 nodes:
@@ -43,6 +43,69 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, two-tier-agent-memory-separates-org-from-user]
+
+  compression-is-a-forking-lifecycle-event-not-a-rewrite:
+    title: "Compression should be a forking lifecycle event, not a destructive rewrite"
+    description: "Instead of repeatedly overwriting one transcript, Hermes seeds a child session from each summary and records parent-child lineage — producing an auditable chain of compressions"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [context-window-is-the-fundamental-constraint, evolving-summaries-beat-append-only-memory, reasoning-evaporation-destroys-agent-decision-chains, sessions-are-runtime-infrastructure-not-just-transcripts]
+
+  separate-tool-registration-from-tool-exposure:
+    title: "Separate tool registration from tool exposure — install broadly, reveal narrowly"
+    description: "Hermes registers all tools into a central registry at import time but a separate layer decides what each run actually shows the model, scoped by platform and scenario"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [context-inefficiency-compounds-three-penalties, context-window-is-the-fundamental-constraint, safety-enforcement-belongs-in-tool-design-not-prompts, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
+
+  sessions-are-runtime-infrastructure-not-just-transcripts:
+    title: "Sessions are runtime infrastructure, not just resumable transcripts"
+    description: "Hermes stores sessions in SQLite with search and lineage so CLI, messaging platforms, and scheduled jobs all attach to one session plane — routing can resolve before the model even runs"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [memory-is-harness-responsibility-not-plugin, reasoning-evaporation-destroys-agent-decision-chains, session-capture-compounds-development-knowledge, treat-agent-as-operating-system-not-function]
+
+  order-system-prompt-by-volatility-for-cache-reuse:
+    title: "Order the system prompt by volatility to keep prompt prefixes cache-friendly"
+    description: "Hermes composes the system prompt in three tiers — stable, context, volatile — so the unchanging prefix stays cacheable while turn-by-turn data lives at the end"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, kv-cache-hit-rate-determines-agent-economics, prompt-caching-makes-long-context-economically-viable]
+
+  delegation-is-not-orchestration:
+    title: "Delegation is not orchestration — durable, externally-steerable child runs are the architectural leap"
+    description: "Hermes can spawn child runs with their own task IDs that return structured summaries, but they die with the parent; true orchestration needs run IDs, lifecycle control, and steering that survive parent completion"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [one-session-per-contract-beats-long-running-agents, orchestrator-agent-replaces-human-coordination, parallel-agents-create-management-problem-not-coding-problem, treat-ai-like-distributed-team-not-assistant]
+
+  unattended-jobs-need-the-same-permission-machinery-as-interactive:
+    title: "Unattended agent jobs must run through the same permission machinery as interactive sessions"
+    description: "Hermes makes cron a first-class subsystem — scheduled jobs are gated by the same permissions, delivered through the same paths, and isolated per profile, instead of living as peripheral scripts"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [detect-everything-notify-selectively, enforcement-must-run-independently-of-model-cooperation, safety-enforcement-belongs-in-tool-design-not-prompts, sessions-are-runtime-infrastructure-not-just-transcripts]
+
+  enforcement-must-run-independently-of-model-cooperation:
+    title: "Policy enforcement must run independently of model cooperation — hooks, not prompt instructions"
+    description: "Hermes runs lifecycle hooks that block, rewrite, or audit operations at fixed events, so policy and side-effects never depend on the model choosing to comply"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture"
+    source_file: sources/aparnadhinak-hermes-harness-architecture.md
+    domain: ai
+    outgoing: [intelligence-location-determines-system-fragility, production-agents-route-decisions-not-every-call-to-llm, safety-enforcement-belongs-in-tool-design-not-prompts]
 
   context-centralization-is-why-coding-ai-works:
     title: "Context centralization is why coding AI works — git is a solved context repository, knowledge work has no equivalent"
@@ -271,7 +334,7 @@ nodes:
     description: "Instead of humans managing AI agents, a meta-agent spawns specialized agents, routes tasks by model strength, and monitors progress"
     topics: [ai-agents, ai-coding-tools]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
-    outgoing: [parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, social-proof-makes-groups-passive-before-visible-harm, treat-ai-like-distributed-team-not-assistant]
+    outgoing: [delegation-is-not-orchestration, parallel-agents-create-management-problem-not-coding-problem, production-agents-route-decisions-not-every-call-to-llm, social-proof-makes-groups-passive-before-visible-harm, treat-ai-like-distributed-team-not-assistant]
 
   outsourcing-is-the-autopilot-wedge:
     title: "Already-outsourced tasks are the autopilot wedge — vendor swap beats reorg"
@@ -422,7 +485,7 @@ nodes:
     description: "An evolve_summary() function that rewrites category profiles with new information handles contradictions naturally, unlike append-only logs"
     topics: [knowledge-systems, ai-agents]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
-    outgoing: [agent-memory-preserves-institutional-knowledge, knowledge-evolution-is-the-biggest-unsolved-problem, specs-are-external-memory-surviving-context-resets, two-tier-agent-memory-separates-org-from-user]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compression-is-a-forking-lifecycle-event-not-a-rewrite, knowledge-evolution-is-the-biggest-unsolved-problem, specs-are-external-memory-surviving-context-resets, two-tier-agent-memory-separates-org-from-user]
 
   evolved-harnesses-transfer-across-models:
     title: "Evolved harnesses transfer across models — a single optimized harness improves five different LLMs"
@@ -444,7 +507,7 @@ nodes:
     description: "Agents need RAM (conversation context), a hard drive (persistent memory), garbage collection (decay/pruning), and I/O management (tools)"
     topics: [ai-agents, knowledge-systems]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
-    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, error-memory-enables-learning-without-retraining, three-layer-ai-stack-memory-search-reasoning]
+    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, error-memory-enables-learning-without-retraining, sessions-are-runtime-infrastructure-not-just-transcripts, three-layer-ai-stack-memory-search-reasoning]
 
   tiered-retrieval-prevents-context-overload:
     title: "Tiered retrieval prevents context overload — summaries first, details on demand"
@@ -670,7 +733,7 @@ nodes:
     description: "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows"
     topics: [ai-native-product-architecture, ai-agents]
     source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
-    outgoing: [context-inefficiency-compounds-three-penalties]
+    outgoing: [context-inefficiency-compounds-three-penalties, order-system-prompt-by-volatility-for-cache-reuse]
 
   latent-demand-is-the-strongest-product-signal:
     title: "Latent demand is the strongest product signal — make the thing people already do easier"
@@ -721,7 +784,7 @@ nodes:
     description: "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
-    outgoing: [production-agents-route-decisions-not-every-call-to-llm, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
+    outgoing: [enforcement-must-run-independently-of-model-cooperation, production-agents-route-decisions-not-every-call-to-llm, separate-tool-registration-from-tool-exposure, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
   saas-grows-but-consolidates-around-platforms:
     title: "AI won't destroy SaaS moats — it'll make the biggest ones even bigger"
@@ -1035,7 +1098,7 @@ nodes:
     description: "Watch every signal but ensure alerts reaching humans always mean something; teams ignore noisy monitors AND noisy agents equally fast"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
-    outgoing: [causal-triage-must-gate-automated-fixes, harness-quality-beats-model-intelligence, observability-is-the-missing-agent-discipline, production-agents-route-decisions-not-every-call-to-llm]
+    outgoing: [causal-triage-must-gate-automated-fixes, harness-quality-beats-model-intelligence, observability-is-the-missing-agent-discipline, production-agents-route-decisions-not-every-call-to-llm, unattended-jobs-need-the-same-permission-machinery-as-interactive]
 
   auto-generated-monitors-beat-handwritten-broad-checks:
     title: "Auto-generated narrow monitors beat handwritten broad checks — a tight mesh over the exact shape of the code"

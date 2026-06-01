@@ -23,7 +23,7 @@
       ],
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
-      "degree": 15,
+      "degree": 17,
       "domain": "ai"
     },
     {
@@ -53,6 +53,110 @@
       "domain": "ai"
     },
     {
+      "id": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
+      "label": "Compression should be a forking lifecycle event, not a destructive rewrite",
+      "description": "Instead of repeatedly overwriting one transcript, Hermes seeds a child session from each summary and records parent-child lineage — producing an auditable chain of compressions",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "separate-tool-registration-from-tool-exposure",
+      "label": "Separate tool registration from tool exposure — install broadly, reveal narrowly",
+      "description": "Hermes registers all tools into a central registry at import time but a separate layer decides what each run actually shows the model, scoped by platform and scenario",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "sessions-are-runtime-infrastructure-not-just-transcripts",
+      "label": "Sessions are runtime infrastructure, not just resumable transcripts",
+      "description": "Hermes stores sessions in SQLite with search and lineage so CLI, messaging platforms, and scheduled jobs all attach to one session plane — routing can resolve before the model even runs",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#6366f1",
+      "degree": 7,
+      "domain": "ai"
+    },
+    {
+      "id": "order-system-prompt-by-volatility-for-cache-reuse",
+      "label": "Order the system prompt by volatility to keep prompt prefixes cache-friendly",
+      "description": "Hermes composes the system prompt in three tiers — stable, context, volatile — so the unchanging prefix stays cacheable while turn-by-turn data lives at the end",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#8b5cf6",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "delegation-is-not-orchestration",
+      "label": "Delegation is not orchestration — durable, externally-steerable child runs are the architectural leap",
+      "description": "Hermes can spawn child runs with their own task IDs that return structured summaries, but they die with the parent; true orchestration needs run IDs, lifecycle control, and steering that survive parent completion",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
+      "label": "Unattended agent jobs must run through the same permission machinery as interactive sessions",
+      "description": "Hermes makes cron a first-class subsystem — scheduled jobs are gated by the same permissions, delivered through the same paths, and isolated per profile, instead of living as peripheral scripts",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "enforcement-must-run-independently-of-model-cooperation",
+      "label": "Policy enforcement must run independently of model cooperation — hooks, not prompt instructions",
+      "description": "Hermes runs lifecycle hooks that block, rewrite, or audit operations at fixed events, so policy and side-effects never depend on the model choosing to comply",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "context-centralization-is-why-coding-ai-works",
+      "label": "Context centralization is why coding AI works — git is a solved context repository, knowledge work has no equivalent",
+      "description": "Engineering leads AI adoption because git centralizes all context; knowledge work fails on 3 axes: distributed, unstructured, unverifiable",
+      "topics": [
+        "knowledge-systems",
+        "ai-native-product-architecture"
+      ],
+      "source": "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)",
+      "color": "#f43f5e",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "context-is-the-product-not-the-model",
       "label": "Context is the product, not the model",
       "description": "Anyone can call the API — differentiation comes from the data you access, skills you build, UX you design, and domain knowledge you encode",
@@ -62,7 +166,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 33,
+      "degree": 35,
       "domain": "ai"
     },
     {
@@ -75,7 +179,7 @@
       ],
       "source": "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services",
       "color": "#6366f1",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -114,7 +218,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 23,
+      "degree": 25,
       "domain": "ai"
     },
     {
@@ -140,7 +244,7 @@
       ],
       "source": "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API",
       "color": "#10b981",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -153,7 +257,7 @@
       ],
       "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
       "color": "#10b981",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -191,7 +295,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 24,
+      "degree": 26,
       "domain": "ai"
     },
     {
@@ -204,7 +308,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
-      "degree": 13,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -256,7 +360,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -449,7 +553,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -501,7 +605,7 @@
       ],
       "source": "Learning Technical Concepts chat — Thariq's prompt caching article",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -514,7 +618,7 @@
       ],
       "source": "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents",
       "color": "#06b6d4",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -540,7 +644,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 18,
+      "degree": 19,
       "domain": "ai"
     },
     {
@@ -553,7 +657,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -654,8 +758,34 @@
       ],
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#eab308",
-      "degree": 2,
+      "degree": 4,
       "domain": "mental-models"
+    },
+    {
+      "id": "agents-running-platform-not-just-on-platform",
+      "label": "Agents running the platform vs. agents on the platform — the operator shift changes what software must be",
+      "description": "ON→RUNNING distinction: agents as platform operators need full CRUD, decision delegation, and trust infrastructure — not just API access",
+      "topics": [
+        "future-of-ai-business",
+        "ai-agents"
+      ],
+      "source": "@dharmesh (Dharmesh Shah, HubSpot CTO)",
+      "color": "#f59e0b",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "agentic-ux-is-distinct-design-problem-from-human-ux",
+      "label": "Agentic UX (AUX) is a distinct design problem — agents don't want to use software the way humans do",
+      "description": "AUX is neither human UX adapted for agents (computer use) nor raw APIs (MCP wrapper) — it's a third design discipline for agent-native interfaces",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@dharmesh (Dharmesh Shah, HubSpot CTO)",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
     },
     {
       "id": "agents-become-the-buyer",
@@ -667,7 +797,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API",
       "color": "#f59e0b",
-      "degree": 11,
+      "degree": 14,
       "domain": "ai"
     },
     {
@@ -680,7 +810,7 @@
       ],
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
-      "degree": 15,
+      "degree": 16,
       "domain": "ai"
     },
     {
@@ -693,7 +823,7 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
-      "degree": 10,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -732,7 +862,7 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -746,6 +876,19 @@
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#8b5cf6",
       "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "traces-replace-code-as-agent-source-of-truth",
+      "label": "Traces replace code as the source of truth for agent systems — debugging shifts from 'show me the code' to 'send me the trace'",
+      "description": "In agents, you can't read code to understand behavior — traces are the primary debugging, collaboration, and testing artifact from day one",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
+      "color": "#6366f1",
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -784,7 +927,7 @@
       ],
       "source": "shadcn (via X/Twitter) — /done skill pattern",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -810,7 +953,7 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 20,
+      "degree": 22,
       "domain": "ai"
     },
     {
@@ -836,7 +979,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 29,
+      "degree": 30,
       "domain": "ai"
     },
     {
@@ -879,6 +1022,19 @@
       "domain": "ai"
     },
     {
+      "id": "procedural-memory-is-highest-impact-agent-memory",
+      "label": "Procedural memory is the highest-impact type of agent memory — it determines what the agent actually does",
+      "description": "Three memory types (semantic/episodic/procedural); procedural = instructions+skills+tools; 'if I correct it once, I don't want to correct it a second time'",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
+      "color": "#6366f1",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "production-agents-route-decisions-not-every-call-to-llm",
       "label": "Production agents route routine cases through decision trees, reserving humans for complexity",
       "description": "Handle exact matches and known patterns without AI; invoke the model for ambiguity, and route genuinely complex cases to human judgment",
@@ -888,7 +1044,7 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 11,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -902,6 +1058,19 @@
       "source": "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot",
       "color": "#6366f1",
       "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "enterprise-agents-need-deterministic-structure-startups-need-loops",
+      "label": "Enterprise agents need deterministic structure while startups need autonomous loops — same models, different harnesses",
+      "description": "LangGraph (deterministic mixing) dominates enterprise; Deep Agents (loop-based) dominates startups — same models, different harness architectures",
+      "topics": [
+        "ai-agents",
+        "future-of-ai-business"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
+      "color": "#6366f1",
+      "degree": 2,
       "domain": "ai"
     },
     {
@@ -927,7 +1096,7 @@
       ],
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -965,7 +1134,7 @@
       ],
       "source": "LangChain — How We Build Evals for Deep Agents",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1056,7 +1225,7 @@
       ],
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1069,7 +1238,7 @@
       ],
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1095,7 +1264,7 @@
       ],
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1146,7 +1315,20 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 10,
+      "degree": 12,
+      "domain": "ai"
+    },
+    {
+      "id": "llm-judge-must-calibrate-against-human-judgment",
+      "label": "LLM-as-judge must be calibrated against human judgment — uncalibrated judges are worse than no judges",
+      "description": "LangSmith's 'aligned evals' pattern: humans label traces, calibrated judge is built from those labels, continuously validated against human preferences",
+      "topics": [
+        "ai-agents",
+        "ai-native-product-architecture"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
+      "color": "#6366f1",
+      "degree": 2,
       "domain": "ai"
     },
     {
@@ -1172,7 +1354,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1392,7 +1574,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)",
       "color": "#eab308",
-      "degree": 7,
+      "degree": 9,
       "domain": "mental-models"
     },
     {
@@ -1418,7 +1600,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 174-192)",
       "color": "#f97316",
-      "degree": 4,
+      "degree": 5,
       "domain": "mental-models"
     },
     {
@@ -1457,7 +1639,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 196-200)",
       "color": "#eab308",
-      "degree": 3,
+      "degree": 5,
       "domain": "mental-models"
     },
     {
@@ -1496,7 +1678,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)",
       "color": "#eab308",
-      "degree": 8,
+      "degree": 10,
       "domain": "mental-models"
     },
     {
@@ -1561,7 +1743,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#06b6d4",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -1573,6 +1755,19 @@
         "ai-coding-tools"
       ],
       "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "first-draft-pattern-is-killer-app-for-long-horizon-agents",
+      "label": "The first-draft pattern is the killer app for long-horizon agents — agents produce, humans review",
+      "description": "Coding PRs, research reports, incident analyses — agents do massive preparatory work producing a first draft that humans review",
+      "topics": [
+        "ai-agents",
+        "future-of-ai-business"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
       "degree": 4,
       "domain": "ai"
@@ -1600,7 +1795,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1665,7 +1860,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -1704,7 +1899,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 7,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -1730,7 +1925,7 @@
       ],
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -1782,7 +1977,7 @@
       ],
       "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1858,7 +2053,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 5,
+      "degree": 7,
       "domain": "mental-models"
     },
     {
@@ -1909,7 +2104,7 @@
       ],
       "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -1986,7 +2181,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -2090,7 +2285,7 @@
       ],
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -2103,7 +2298,20 @@
       ],
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
-      "degree": 5,
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "knowledge-is-not-memory-ingestion-vs-learning",
+      "label": "Knowledge is not memory — ingesting documents is solved, learning from interactions is not",
+      "description": "Knowledge = write-once read-many (ingest→index→query, solved). Memory = continuous learning (observe→learn→update, unsolved). Different infrastructure needed.",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
+      "color": "#f43f5e",
+      "degree": 2,
       "domain": "ai"
     },
     {
@@ -2211,6 +2419,19 @@
       "domain": "ai"
     },
     {
+      "id": "memory-defines-the-agent-portable-memory-is-frontier",
+      "label": "Memory defines the agent — a zip of markdown files IS the agent, and portable memory between harnesses is the frontier",
+      "description": "System prompt + skills + tools = procedural memory = agent identity. Portable memory = portable agents. Harness becomes runtime, memory becomes program.",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "memory-is-harness-responsibility-not-plugin",
       "label": "Memory is a harness responsibility, not a pluggable component",
       "description": "Managing context — what enters, what survives compaction, what's queryable — is a core capability of the harness itself, not an add-on service",
@@ -2220,7 +2441,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -2246,7 +2467,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#10b981",
-      "degree": 6,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -2261,6 +2482,162 @@
       "color": "#8b5cf6",
       "degree": 5,
       "domain": "ai"
+    },
+    {
+      "id": "organizational-shape-is-the-emerging-moat-in-ai",
+      "label": "Organizational shape is the emerging moat in AI — what AI cannot copy is the institution underneath",
+      "description": "When models improve fast, interfaces converge, and product velocity becomes cheap, the durable advantage moves to how a company attracts exceptional people, distributes authority, and compounds judgment over time",
+      "topics": [
+        "future-of-ai-business",
+        "economics"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
+      "color": "#f59e0b",
+      "degree": 8,
+      "domain": "ai"
+    },
+    {
+      "id": "great-companies-are-wrappers-around-a-kind-of-person",
+      "label": "Great companies are wrappers around a kind of person — institutions that make a new kind of person possible",
+      "description": "The most important companies are organizational inventions: they create a new kind of institution around a new kind of work, and in doing so, they let a certain kind of talent finally express themselves",
+      "topics": [
+        "economics",
+        "philosophy"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
+      "color": "#f97316",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
+      "id": "emotional-promises-must-be-structural-promises",
+      "label": "Emotional promises must be structural promises — if the structure doesn't back the pitch, the promise is fake",
+      "description": "Each cultural claim — ownership, customer proximity, speed, talent density — is a structural commitment about decision rights, status hierarchy, and authority allocation; misalignment between the two reads as fake even when candidates can't articulate it",
+      "topics": [
+        "decision-making",
+        "engineering"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
+      "color": "#eab308",
+      "degree": 6,
+      "domain": "mental-models"
+    },
+    {
+      "id": "mission-strength-is-measured-by-who-it-repels",
+      "label": "Mission strength is measured by who it repels — the strongest missions make some people refuse to work there",
+      "description": "A mission that offends no one, selects for no one, and costs nothing is functionally fake; the strongest missions take a side, and the people they repel are the same signal as the people they attract",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
+      "color": "#ec4899",
+      "degree": 2,
+      "domain": "mental-models"
+    },
+    {
+      "id": "being-chosen-vs-being-seen-is-the-talent-trap",
+      "label": "Being chosen vs being seen — emotional validation captures founder-level intensity at employee-level structure",
+      "description": "Being chosen is emotional: you are special, we believe in you, you belong here. Being seen is structural: scope, authority, economic participation, decision rights — the trap is paying in identity what you don't want to pay in structure",
+      "topics": [
+        "psychology",
+        "economics"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
+      "color": "#ec4899",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "time-denominated-promises-decay-invisibly",
+      "label": "Time-denominated promises decay invisibly — 'over time' is the most dangerous denomination because time doesn't announce itself as it leaves",
+      "description": "Promises in the 'over time it'll be bigger / you'll own more / the structure will catch up' shape rot silently because they lack a written mechanism that forces them to mature",
+      "topics": [
+        "decision-making",
+        "psychology"
+      ],
+      "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
+      "color": "#eab308",
+      "degree": 2,
+      "domain": "mental-models"
+    },
+    {
+      "id": "reasoning-by-analogy-has-a-ceiling",
+      "label": "Reasoning by analogy has a ceiling — you can never get beyond what already exists by copying what already exists",
+      "description": "Analogy is faster, easier, and less mentally taxing — fine for most decisions — but it forecloses any solution outside the existing solution set; first-principles is the only path that produces non-incremental answers",
+      "topics": [
+        "decision-making",
+        "philosophy"
+      ],
+      "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
+      "color": "#eab308",
+      "degree": 8,
+      "domain": "mental-models"
+    },
+    {
+      "id": "templates-encode-someone-elses-constraints",
+      "label": "Templates encode someone else's constraints — copying a playbook silently imports its assumptions about audience, resources, and strengths",
+      "description": "Templates work because they were tuned for a specific situation; copying them imports invisible assumptions about who you are and what you have, and the misfit only shows up after you've spent the time",
+      "topics": [
+        "decision-making",
+        "psychology"
+      ],
+      "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
+      "color": "#eab308",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "type-1-vs-type-2-decisions-allocate-thinking-modes",
+      "label": "Type 1 vs Type 2 decisions — irreversibility decides whether to spend first-principles thinking or analogy",
+      "description": "Bezos's split: irreversible decisions deserve slow methodical first-principles thinking; reversible ones should use fast analogy. The mistake is misallocating the modes",
+      "topics": [
+        "decision-making",
+        "engineering"
+      ],
+      "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
+      "color": "#eab308",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "first-principles-thinking-is-responsibility-taking",
+      "label": "First-principles thinking is uncomfortable because it transfers responsibility — analogy outsources blame to 'best practices'",
+      "description": "When you reason by analogy you have a defense ('I did what everyone said'); when you reason from first principles you own the outcome. The discomfort is responsibility, not difficulty",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
+      "color": "#ec4899",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "users-describe-solutions-within-the-constraint-set-they-know",
+      "label": "Users describe solutions within the constraint set they know — 'faster horses' is what stated preferences look like outside the existing tool set",
+      "description": "When asked what they want, users reason by analogy from existing tools and return better versions of those tools; first-principles asks what underlying problem is being solved, which is invisible to the user but where the actual opportunity lives",
+      "topics": [
+        "psychology",
+        "decision-making"
+      ],
+      "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
+      "color": "#ec4899",
+      "degree": 3,
+      "domain": "mental-models"
+    },
+    {
+      "id": "peter-thiel-test-detects-actual-first-principles-thinking",
+      "label": "Peter Thiel's question is a detector for actual first-principles thinking — if your conclusions match the crowd, you're analogizing",
+      "description": "'What important truth do very few people agree with you on?' is the diagnostic — most people can't answer because most people reason by analogy and end up with the same conclusions as everyone else",
+      "topics": [
+        "decision-making",
+        "philosophy"
+      ],
+      "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
+      "color": "#eab308",
+      "degree": 2,
+      "domain": "mental-models"
     }
   ],
   "links": [
@@ -2301,8 +2678,124 @@
       "target": "two-tier-agent-memory-separates-org-from-user"
     },
     {
+      "source": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
+      "target": "evolving-summaries-beat-append-only-memory"
+    },
+    {
+      "source": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
+      "target": "reasoning-evaporation-destroys-agent-decision-chains"
+    },
+    {
+      "source": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
+      "target": "sessions-are-runtime-infrastructure-not-just-transcripts"
+    },
+    {
+      "source": "separate-tool-registration-from-tool-exposure",
+      "target": "context-inefficiency-compounds-three-penalties"
+    },
+    {
+      "source": "separate-tool-registration-from-tool-exposure",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "separate-tool-registration-from-tool-exposure",
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+    },
+    {
+      "source": "separate-tool-registration-from-tool-exposure",
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
+    },
+    {
+      "source": "sessions-are-runtime-infrastructure-not-just-transcripts",
+      "target": "memory-is-harness-responsibility-not-plugin"
+    },
+    {
+      "source": "sessions-are-runtime-infrastructure-not-just-transcripts",
+      "target": "reasoning-evaporation-destroys-agent-decision-chains"
+    },
+    {
+      "source": "sessions-are-runtime-infrastructure-not-just-transcripts",
+      "target": "session-capture-compounds-development-knowledge"
+    },
+    {
+      "source": "sessions-are-runtime-infrastructure-not-just-transcripts",
+      "target": "treat-agent-as-operating-system-not-function"
+    },
+    {
+      "source": "order-system-prompt-by-volatility-for-cache-reuse",
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
+    },
+    {
+      "source": "order-system-prompt-by-volatility-for-cache-reuse",
+      "target": "kv-cache-hit-rate-determines-agent-economics"
+    },
+    {
+      "source": "order-system-prompt-by-volatility-for-cache-reuse",
+      "target": "prompt-caching-makes-long-context-economically-viable"
+    },
+    {
+      "source": "delegation-is-not-orchestration",
+      "target": "one-session-per-contract-beats-long-running-agents"
+    },
+    {
+      "source": "delegation-is-not-orchestration",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "delegation-is-not-orchestration",
+      "target": "parallel-agents-create-management-problem-not-coding-problem"
+    },
+    {
+      "source": "delegation-is-not-orchestration",
+      "target": "treat-ai-like-distributed-team-not-assistant"
+    },
+    {
+      "source": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
+      "target": "detect-everything-notify-selectively"
+    },
+    {
+      "source": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
+      "target": "enforcement-must-run-independently-of-model-cooperation"
+    },
+    {
+      "source": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+    },
+    {
+      "source": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
+      "target": "sessions-are-runtime-infrastructure-not-just-transcripts"
+    },
+    {
+      "source": "enforcement-must-run-independently-of-model-cooperation",
+      "target": "intelligence-location-determines-system-fragility"
+    },
+    {
+      "source": "enforcement-must-run-independently-of-model-cooperation",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "enforcement-must-run-independently-of-model-cooperation",
+      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+    },
+    {
+      "source": "context-centralization-is-why-coding-ai-works",
+      "target": "context-is-the-product-not-the-model"
+    },
+    {
+      "source": "context-centralization-is-why-coding-ai-works",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
       "source": "context-is-the-product-not-the-model",
       "target": "closed-harnesses-behind-apis-create-memory-lock-in"
+    },
+    {
+      "source": "context-is-the-product-not-the-model",
+      "target": "context-centralization-is-why-coding-ai-works"
     },
     {
       "source": "context-is-the-product-not-the-model",
@@ -2390,6 +2883,10 @@
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
+      "target": "traces-replace-code-as-agent-source-of-truth"
+    },
+    {
+      "source": "decision-traces-are-the-missing-data-layer",
       "target": "tribal-knowledge-is-the-last-mile-for-agent-automation"
     },
     {
@@ -2443,6 +2940,10 @@
     {
       "source": "verification-multiplies-agent-output-quality",
       "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "first-draft-pattern-is-killer-app-for-long-horizon-agents"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -2718,6 +3219,10 @@
     },
     {
       "source": "orchestrator-agent-replaces-human-coordination",
+      "target": "delegation-is-not-orchestration"
+    },
+    {
+      "source": "orchestrator-agent-replaces-human-coordination",
       "target": "parallel-agents-create-management-problem-not-coding-problem"
     },
     {
@@ -2926,11 +3431,39 @@
     },
     {
       "source": "ask-for-no-not-yes-to-accelerate-decisions",
+      "target": "emotional-promises-must-be-structural-promises"
+    },
+    {
+      "source": "ask-for-no-not-yes-to-accelerate-decisions",
       "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "agents-running-platform-not-just-on-platform",
+      "target": "autopilots-capture-work-budget-not-tool-budget"
+    },
+    {
+      "source": "agents-running-platform-not-just-on-platform",
+      "target": "self-disruption-follows-the-value-chain-downward"
+    },
+    {
+      "source": "agentic-ux-is-distinct-design-problem-from-human-ux",
+      "target": "agents-become-the-buyer"
+    },
+    {
+      "source": "agentic-ux-is-distinct-design-problem-from-human-ux",
+      "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
       "source": "agents-become-the-buyer",
       "target": "agent-trust-transfers-from-human-credibility"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "agentic-ux-is-distinct-design-problem-from-human-ux"
+    },
+    {
+      "source": "agents-become-the-buyer",
+      "target": "agents-running-platform-not-just-on-platform"
     },
     {
       "source": "agents-become-the-buyer",
@@ -2983,6 +3516,10 @@
     {
       "source": "evolving-summaries-beat-append-only-memory",
       "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "evolving-summaries-beat-append-only-memory",
+      "target": "compression-is-a-forking-lifecycle-event-not-a-rewrite"
     },
     {
       "source": "evolving-summaries-beat-append-only-memory",
@@ -3042,6 +3579,10 @@
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
+      "target": "sessions-are-runtime-infrastructure-not-just-transcripts"
+    },
+    {
+      "source": "treat-agent-as-operating-system-not-function",
       "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
@@ -3055,6 +3596,14 @@
     {
       "source": "tiered-retrieval-prevents-context-overload",
       "target": "skill-graphs-enable-progressive-disclosure"
+    },
+    {
+      "source": "traces-replace-code-as-agent-source-of-truth",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "traces-replace-code-as-agent-source-of-truth",
+      "target": "traces-are-the-universal-substrate-for-agent-learning"
     },
     {
       "source": "trust-boundaries-must-be-mapped-and-externalized",
@@ -3225,6 +3774,14 @@
       "target": "specs-are-external-memory-surviving-context-resets"
     },
     {
+      "source": "procedural-memory-is-highest-impact-agent-memory",
+      "target": "agents-learn-at-three-layers-model-harness-context"
+    },
+    {
+      "source": "procedural-memory-is-highest-impact-agent-memory",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
       "source": "production-agents-route-decisions-not-every-call-to-llm",
       "target": "context-is-the-product-not-the-model"
     },
@@ -3247,6 +3804,14 @@
     {
       "source": "malleable-software-writes-its-own-extensions",
       "target": "personal-software-grows-through-relationship-not-configuration"
+    },
+    {
+      "source": "enterprise-agents-need-deterministic-structure-startups-need-loops",
+      "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "enterprise-agents-need-deterministic-structure-startups-need-loops",
+      "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
       "source": "error-memory-enables-learning-without-retraining",
@@ -3461,6 +4026,10 @@
       "target": "context-inefficiency-compounds-three-penalties"
     },
     {
+      "source": "kv-cache-hit-rate-determines-agent-economics",
+      "target": "order-system-prompt-by-volatility-for-cache-reuse"
+    },
+    {
       "source": "latent-demand-is-the-strongest-product-signal",
       "target": "compound-engineering-makes-future-work-easier"
     },
@@ -3486,6 +4055,10 @@
     },
     {
       "source": "llms-selectively-destroy-vertical-software-moats",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "llms-selectively-destroy-vertical-software-moats",
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
@@ -3501,6 +4074,14 @@
       "target": "ui-moat-collapses-api-becomes-purchasing-criterion"
     },
     {
+      "source": "llm-judge-must-calibrate-against-human-judgment",
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+    },
+    {
+      "source": "llm-judge-must-calibrate-against-human-judgment",
+      "target": "verification-is-a-red-queen-race"
+    },
+    {
       "source": "llm-competition-fragments-markets-not-consolidates",
       "target": "llms-selectively-destroy-vertical-software-moats"
     },
@@ -3510,7 +4091,15 @@
     },
     {
       "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
+      "target": "enforcement-must-run-independently-of-model-cooperation"
+    },
+    {
+      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
       "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
+      "target": "separate-tool-registration-from-tool-exposure"
     },
     {
       "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
@@ -3765,6 +4354,10 @@
       "target": "first-conclusions-become-nearly-permanent"
     },
     {
+      "source": "latticework-of-models-beats-isolated-facts",
+      "target": "first-principles-thinking-is-responsibility-taking"
+    },
+    {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
       "target": "build-for-the-model-six-months-from-now"
     },
@@ -3821,6 +4414,10 @@
       "target": "latticework-of-models-beats-isolated-facts"
     },
     {
+      "source": "circle-of-competence-determines-where-you-can-win",
+      "target": "type-1-vs-type-2-decisions-allocate-thinking-modes"
+    },
+    {
       "source": "bet-seldom-but-heavily-when-odds-are-extreme",
       "target": "circle-of-competence-determines-where-you-can-win"
     },
@@ -3851,6 +4448,10 @@
     {
       "source": "invert-always-invert-to-solve-hard-problems",
       "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "invert-always-invert-to-solve-hard-problems",
+      "target": "reasoning-by-analogy-has-a-ceiling"
     },
     {
       "source": "pavlovian-association-builds-durable-brand-moats",
@@ -3915,6 +4516,18 @@
     {
       "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
       "target": "traces-are-the-universal-substrate-for-agent-learning"
+    },
+    {
+      "source": "first-draft-pattern-is-killer-app-for-long-horizon-agents",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "first-draft-pattern-is-killer-app-for-long-horizon-agents",
+      "target": "autopilots-capture-work-budget-not-tool-budget"
+    },
+    {
+      "source": "first-draft-pattern-is-killer-app-for-long-horizon-agents",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "frontier-companies-absorb-every-useful-agentic-pattern",
@@ -4042,6 +4655,10 @@
     },
     {
       "source": "revealed-preferences-trump-stated-preferences",
+      "target": "being-chosen-vs-being-seen-is-the-talent-trap"
+    },
+    {
+      "source": "revealed-preferences-trump-stated-preferences",
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
@@ -4051,6 +4668,10 @@
     {
       "source": "revealed-preferences-trump-stated-preferences",
       "target": "latent-demand-is-the-strongest-product-signal"
+    },
+    {
+      "source": "revealed-preferences-trump-stated-preferences",
+      "target": "users-describe-solutions-within-the-constraint-set-they-know"
     },
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
@@ -4083,6 +4704,10 @@
     {
       "source": "detect-everything-notify-selectively",
       "target": "production-agents-route-decisions-not-every-call-to-llm"
+    },
+    {
+      "source": "detect-everything-notify-selectively",
+      "target": "unattended-jobs-need-the-same-permission-machinery-as-interactive"
     },
     {
       "source": "auto-generated-monitors-beat-handwritten-broad-checks",
@@ -4231,6 +4856,10 @@
     {
       "source": "dissolved-constraints-shift-bottleneck-to-judgment",
       "target": "intelligence-judgement-ratio-determines-automation-order"
+    },
+    {
+      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
     },
     {
       "source": "dissolved-constraints-shift-bottleneck-to-judgment",
@@ -4477,6 +5106,14 @@
       "target": "verification-is-a-red-queen-race"
     },
     {
+      "source": "knowledge-is-not-memory-ingestion-vs-learning",
+      "target": "knowledge-evolution-is-the-biggest-unsolved-problem"
+    },
+    {
+      "source": "knowledge-is-not-memory-ingestion-vs-learning",
+      "target": "context-layers-must-be-living-systems"
+    },
+    {
       "source": "knowledge-systems-need-dual-layer-storage",
       "target": "files-are-the-universal-agent-interface"
     },
@@ -4569,6 +5206,18 @@
       "target": "harness-quality-beats-model-intelligence"
     },
     {
+      "source": "memory-defines-the-agent-portable-memory-is-frontier",
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "memory-defines-the-agent-portable-memory-is-frontier",
+      "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
+      "source": "memory-defines-the-agent-portable-memory-is-frontier",
+      "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
       "source": "memory-is-harness-responsibility-not-plugin",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
@@ -4602,6 +5251,14 @@
     },
     {
       "source": "memory-is-where-agent-lock-in-lives",
+      "target": "memory-defines-the-agent-portable-memory-is-frontier"
+    },
+    {
+      "source": "memory-is-where-agent-lock-in-lives",
+      "target": "procedural-memory-is-highest-impact-agent-memory"
+    },
+    {
+      "source": "memory-is-where-agent-lock-in-lives",
       "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
@@ -4619,6 +5276,110 @@
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
       "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
+      "source": "organizational-shape-is-the-emerging-moat-in-ai",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "organizational-shape-is-the-emerging-moat-in-ai",
+      "target": "great-companies-are-wrappers-around-a-kind-of-person"
+    },
+    {
+      "source": "organizational-shape-is-the-emerging-moat-in-ai",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "organizational-shape-is-the-emerging-moat-in-ai",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "great-companies-are-wrappers-around-a-kind-of-person",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "great-companies-are-wrappers-around-a-kind-of-person",
+      "target": "scale-advantages-cascade-until-bureaucracy-kills-them"
+    },
+    {
+      "source": "emotional-promises-must-be-structural-promises",
+      "target": "ask-for-no-not-yes-to-accelerate-decisions"
+    },
+    {
+      "source": "emotional-promises-must-be-structural-promises",
+      "target": "being-chosen-vs-being-seen-is-the-talent-trap"
+    },
+    {
+      "source": "emotional-promises-must-be-structural-promises",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "mission-strength-is-measured-by-who-it-repels",
+      "target": "emotional-promises-must-be-structural-promises"
+    },
+    {
+      "source": "mission-strength-is-measured-by-who-it-repels",
+      "target": "great-companies-are-wrappers-around-a-kind-of-person"
+    },
+    {
+      "source": "being-chosen-vs-being-seen-is-the-talent-trap",
+      "target": "emotional-promises-must-be-structural-promises"
+    },
+    {
+      "source": "being-chosen-vs-being-seen-is-the-talent-trap",
+      "target": "time-denominated-promises-decay-invisibly"
+    },
+    {
+      "source": "time-denominated-promises-decay-invisibly",
+      "target": "being-chosen-vs-being-seen-is-the-talent-trap"
+    },
+    {
+      "source": "reasoning-by-analogy-has-a-ceiling",
+      "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "reasoning-by-analogy-has-a-ceiling",
+      "target": "templates-encode-someone-elses-constraints"
+    },
+    {
+      "source": "templates-encode-someone-elses-constraints",
+      "target": "first-principles-thinking-is-responsibility-taking"
+    },
+    {
+      "source": "templates-encode-someone-elses-constraints",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "type-1-vs-type-2-decisions-allocate-thinking-modes",
+      "target": "circle-of-competence-determines-where-you-can-win"
+    },
+    {
+      "source": "type-1-vs-type-2-decisions-allocate-thinking-modes",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "first-principles-thinking-is-responsibility-taking",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "first-principles-thinking-is-responsibility-taking",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "users-describe-solutions-within-the-constraint-set-they-know",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "users-describe-solutions-within-the-constraint-set-they-know",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "peter-thiel-test-detects-actual-first-principles-thinking",
+      "target": "first-principles-thinking-is-responsibility-taking"
+    },
+    {
+      "source": "peter-thiel-test-detects-actual-first-principles-thinking",
+      "target": "reasoning-by-analogy-has-a-ceiling"
     }
   ]
 }

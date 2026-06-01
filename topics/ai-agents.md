@@ -115,3 +115,10 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[knowledge-is-not-memory-ingestion-vs-learning]] — Ingesting documents is solved; learning from interactions is not
 - [[agentic-ux-is-distinct-design-problem-from-human-ux]] — AUX: agents don't want to use software the way humans do
 - [[agents-running-platform-not-just-on-platform]] — Agents as platform operators, not just platform users
+- [[compression-is-a-forking-lifecycle-event-not-a-rewrite]] — Compression should fork into a child session, not destructively rewrite
+- [[separate-tool-registration-from-tool-exposure]] — Install tools broadly, reveal narrowly per run
+- [[sessions-are-runtime-infrastructure-not-just-transcripts]] — One session plane attachable by CLI, chat, and cron
+- [[order-system-prompt-by-volatility-for-cache-reuse]] — Tier the system prompt stable→context→volatile for cache hits
+- [[delegation-is-not-orchestration]] — Durable, externally-steerable child runs are the real leap
+- [[unattended-jobs-need-the-same-permission-machinery-as-interactive]] — Cron as first-class, not bypassing the safety machinery
+- [[enforcement-must-run-independently-of-model-cooperation]] — Policy lives in hooks, not prompt instructions

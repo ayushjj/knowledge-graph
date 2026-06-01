@@ -93,3 +93,9 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[llm-judge-must-calibrate-against-human-judgment]] — Calibrate LLM judges against human-labeled traces or your evals lie
 - [[context-centralization-is-why-coding-ai-works]] — Git = solved context repo; knowledge work has no equivalent
 - [[agentic-ux-is-distinct-design-problem-from-human-ux]] — AUX design: neither human UX nor raw APIs, a third thing
+- [[compression-is-a-forking-lifecycle-event-not-a-rewrite]] — Compression should fork into a child session, not destructively rewrite
+- [[separate-tool-registration-from-tool-exposure]] — Install tools broadly, reveal narrowly per run
+- [[sessions-are-runtime-infrastructure-not-just-transcripts]] — One session plane attachable by CLI, chat, and cron
+- [[order-system-prompt-by-volatility-for-cache-reuse]] — Tier the system prompt stable→context→volatile for cache hits
+- [[unattended-jobs-need-the-same-permission-machinery-as-interactive]] — Cron as first-class, not bypassing the safety machinery
+- [[enforcement-must-run-independently-of-model-cooperation]] — Policy lives in hooks, not prompt instructions

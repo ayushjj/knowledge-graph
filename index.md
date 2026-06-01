@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[compression-is-a-forking-lifecycle-event-not-a-rewrite]] — compression should fork a child session, not destructively rewrite (2026-06-01)
+- [[separate-tool-registration-from-tool-exposure]] — install tools broadly, reveal narrowly per run (2026-06-01)
+- [[sessions-are-runtime-infrastructure-not-just-transcripts]] — one session plane attachable by CLI, chat, and cron (2026-06-01)
+- [[order-system-prompt-by-volatility-for-cache-reuse]] — tier the prompt stable→context→volatile for cache hits (2026-06-01)
+- [[delegation-is-not-orchestration]] — durable, externally-steerable child runs are the real leap (2026-06-01)
+- [[unattended-jobs-need-the-same-permission-machinery-as-interactive]] — cron as first-class, not a safety-bypassing script (2026-06-01)
+- [[enforcement-must-run-independently-of-model-cooperation]] — policy lives in hooks, not prompt instructions (2026-06-01)
 - [[reasoning-by-analogy-has-a-ceiling]] — copying can never produce what doesn't exist yet (2026-05-09)
 - [[templates-encode-someone-elses-constraints]] — playbooks silently import assumptions you can't see (2026-05-09)
 - [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Bezos's reversibility split decides when first-principles pays off (2026-05-09)
-- [[first-principles-thinking-is-responsibility-taking]] — analogy outsources blame; first-principles forces ownership (2026-05-09)
-- [[users-describe-solutions-within-the-constraint-set-they-know]] — "faster horses" is the categorical limit of stated preferences (2026-05-09)
-- [[peter-thiel-test-detects-actual-first-principles-thinking]] — uncommon conclusions are evidence of independent reasoning (2026-05-09)
-- [[organizational-shape-is-the-emerging-moat-in-ai]] — when products converge, the institution underneath becomes the moat (2026-05-09)
-- [[great-companies-are-wrappers-around-a-kind-of-person]] — institutions make a new kind of person possible (2026-05-09)
-- [[emotional-promises-must-be-structural-promises]] — cultural claims are auditable as structural commitments (2026-05-09)
-- [[being-chosen-vs-being-seen-is-the-talent-trap]] — emotional validation vs structural participation (2026-05-09)
