@@ -52,3 +52,8 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[knowledge-is-not-memory-ingestion-vs-learning]] — Knowledge = ingest+query (solved); Memory = observe+learn+adapt (unsolved)
 - [[context-centralization-is-why-coding-ai-works]] — Engineering's context centralization (git) explains why coding AI leads
 - [[offload-the-task-but-never-the-learning]] — You can offload a task or a job, but never your learning; the loop is the retained asset
+- [[taste-is-a-muscle-trained-by-forecasting]] — Forecast + correction, repeated a few hundred times, trains the predictor in your head
+- [[differentiated-inputs-beat-the-shared-reading-list]] — Old and cross-disciplinary material is underpriced; shared diets yield shared conclusions
+- [[writing-is-the-cheapest-defense-against-fooling-yourself]] — Writing exposes untested assumptions; Darwin logged disconfirming facts on the spot
+- [[clear-explanation-is-a-contribution-and-a-credential]] — A clear public explanation is real work and an unfakeable sample of how you think
+- [[stare-at-raw-outputs-not-the-loss-curve]] — Pull 100 failures and read every one; a metric you've never traced is unanchored

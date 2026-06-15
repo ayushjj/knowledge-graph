@@ -17,3 +17,4 @@ Effective systems assume people will behave predictably (incentive-following, lo
 - [[speed-without-feedback-amplifies-errors]] — Systems that outrun their error-correction loops compound mistakes at scale
 - [[emotional-promises-must-be-structural-promises]] — Each cultural claim creates a falsifiable structural prediction
 - [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Bezos's reversibility split: process selection is itself a decision
+- [[research-speed-is-the-rate-you-discover-youre-wrong]] — Build the tooling so launching, plotting, and comparing runs is instant; speed is disconfirmation throughput

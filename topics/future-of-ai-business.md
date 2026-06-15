@@ -79,4 +79,8 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[price-of-intelligence-is-the-new-organizing-axis]] — Cost of intelligence is the axis labs, apps, and countries reorganize around
 - [[ai-strategy-is-a-self-rewriting-equation]] — Many coupled variables; solving one constraint changes which matters next
 - [[layer-migration-is-the-real-threat-not-competition]] — Work relocates across layers when any variable moves; platform dependency is now the default
-- [[building-in-ai-is-running-a-trading-book]] — Value is repriced and relocated continuously; manage long/short exposures, not a fixed plan
+- [[building-in-ai-is-running-a-trading-book]] — Value is repriced and relocated continuously; manage long/short exposures
+- [[choose-problems-backward-from-an-outcome-you-want]] — Pick directions by reasoning backward from an outcome, not by absorbing the trending one
+- [[clear-explanation-is-a-contribution-and-a-credential]] — Public writing compounds sideways into collaborations, references, and roles
+- [[engineering-and-research-have-fused-at-the-frontier]] — The researcher who builds the harness/eval/pipeline is the one whose ideas get tested
+- [[wander-across-subfields-before-you-settle]] — Subfields saturate right after they peak; breadth carries you through transitions, not a fixed plan

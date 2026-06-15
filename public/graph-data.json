@@ -1,6 +1,123 @@
 {
   "nodes": [
     {
+      "id": "choose-problems-backward-from-an-outcome-you-want",
+      "label": "Reason backward from an outcome you want to exist — it manufactures originality that absorbed problems can't",
+      "description": "Absorbed problems hand you the conclusion without the reasoning, on a crowded racetrack; choosing an outcome you genuinely want and reasoning backward to the experiments drags you into territory no survey paper covers",
+      "topics": [
+        "decision-making",
+        "future-of-ai-business"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#eab308",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "taste-is-a-muscle-trained-by-forecasting",
+      "label": "Taste is a muscle, not a gift — train it by forecasting every result before you see it",
+      "description": "Predict the outcome of every experiment before running it, guess a paper's numbers from the method alone, call which releases will matter in two years and check your hit rate; a forecast plus a correction, repeated a few hundred times, trains the model in your head the way it trains any other model",
+      "topics": [
+        "decision-making",
+        "knowledge-systems"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#eab308",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "differentiated-inputs-beat-the-shared-reading-list",
+      "label": "Shared inputs produce shared conclusions worth nothing — old and cross-disciplinary material is criminally underpriced",
+      "description": "If your information diet is trending arxiv plus the group chat, you reach the same conclusions as everyone else at the same time, which makes them worthless. Old material (MoE 1991, LSTMs 1997, the bitter lesson) and cross-disciplinary range are underpriced sources of differentiated ideas",
+      "topics": [
+        "decision-making",
+        "knowledge-systems"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#eab308",
+      "degree": 5,
+      "domain": "mental-models"
+    },
+    {
+      "id": "writing-is-the-cheapest-defense-against-fooling-yourself",
+      "label": "Writing is the cheapest defense against fooling yourself — the page finds the gaps your head papers over",
+      "description": "An idea feels fully formed until you try to word it; writing exposes the untested assumption, the step that doesn't follow, the two claims that contradict. Darwin made it procedural — log disconfirming evidence on the spot, because memory deletes inconvenient results faster than convenient ones",
+      "topics": [
+        "knowledge-systems",
+        "decision-making"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#f43f5e",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "clear-explanation-is-a-contribution-and-a-credential",
+      "label": "A clear public explanation is a genuine contribution and an unfakeable credential",
+      "description": "Fields choke on undigested ideas, so distilling something hard into a clear explanation is real work, not a service job — and a body of public writing doubles as the strongest credential you can hold, because it's an unfakeable sample of how you think",
+      "topics": [
+        "knowledge-systems",
+        "future-of-ai-business"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#f43f5e",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "research-speed-is-the-rate-you-discover-youre-wrong",
+      "label": "Research speed is mostly the speed at which you discover you're wrong — which makes tooling a first-class research activity",
+      "description": "The edge isn't a stroke of genius but volume: more runs per day, more wrong ideas discarded per week, a faster-updating model of reality. That makes one-command runs, config-reproducible experiments, and seconds-not-archaeology run comparison core research work, not chores",
+      "topics": [
+        "ai-coding-tools",
+        "engineering"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "engineering-and-research-have-fused-at-the-frontier",
+      "label": "Engineering is no longer the junior partner — at the frontier, research and engineering have fused",
+      "description": "The researcher who can build the harness, the eval, and the data pipeline is the one whose hypotheses actually get tested; everyone else waits in a queue. The split between 'has ideas' and 'can run them' has collapsed into one role",
+      "topics": [
+        "ai-coding-tools",
+        "future-of-ai-business"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "stare-at-raw-outputs-not-the-loss-curve",
+      "label": "A loss curve is reassurance, not analysis — pull a hundred failures and read every one",
+      "description": "Experiments throw off far more information than you consume — transcripts, failure cases, the strange tail — and most of it dies unread. Most ML bugs live in the data and fail silently; Ng's move is to pull 100 failures, sort them into piles, and attack the biggest pile",
+      "topics": [
+        "ai-native-product-architecture",
+        "knowledge-systems"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#8b5cf6",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "wander-across-subfields-before-you-settle",
+      "label": "Your first subfield is an accident of timing — wander across several before you settle, because breadth is insurance",
+      "description": "Pay tuition in interpretability, evals, rl, and systems before deciding where you live; somewhere is a corner where your specific weirdness is an unfair advantage. Subfields all saturate, usually right after they peak on twitter, and breadth is what carries you through the transition",
+      "topics": [
+        "decision-making",
+        "future-of-ai-business"
+      ],
+      "source": "@itsreallyvivek (vivek) — how to be good at research",
+      "color": "#eab308",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
       "id": "price-of-intelligence-is-the-new-organizing-axis",
       "label": "The price of intelligence is the new organizing axis — labs, applications, and countries are all fighting to set it",
       "description": "The cost of intelligence is no longer an input to software but the axis around which companies, markets, and geopolitics reorganize; labs want usage routed through them, applications want to allocate intelligence better than labs, countries want it cheap enough to be national infrastructure",
@@ -607,7 +724,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 26,
+      "degree": 28,
       "domain": "ai"
     },
     {
@@ -659,7 +776,7 @@
       ],
       "source": "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)",
       "color": "#f43f5e",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -710,7 +827,7 @@
       ],
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -943,7 +1060,7 @@
       ],
       "source": "@WillManidis (Will Manidis) — Against Taste",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -956,7 +1073,7 @@
       ],
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
-      "degree": 20,
+      "degree": 21,
       "domain": "ai"
     },
     {
@@ -1031,7 +1148,7 @@
       ],
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#eab308",
-      "degree": 3,
+      "degree": 4,
       "domain": "mental-models"
     },
     {
@@ -1200,7 +1317,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -1291,7 +1408,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 32,
+      "degree": 33,
       "domain": "ai"
     },
     {
@@ -1330,7 +1447,7 @@
       ],
       "source": "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -1421,7 +1538,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai"
     },
     {
@@ -1640,7 +1757,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai"
     },
     {
@@ -1756,7 +1873,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 23,
+      "degree": 25,
       "domain": "ai"
     },
     {
@@ -1873,7 +1990,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)",
       "color": "#ec4899",
-      "degree": 6,
+      "degree": 7,
       "domain": "mental-models"
     },
     {
@@ -1886,7 +2003,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)",
       "color": "#eab308",
-      "degree": 9,
+      "degree": 12,
       "domain": "mental-models"
     },
     {
@@ -1951,7 +2068,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 196-200)",
       "color": "#eab308",
-      "degree": 5,
+      "degree": 6,
       "domain": "mental-models"
     },
     {
@@ -2146,7 +2263,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#6366f1",
-      "degree": 11,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -2211,7 +2328,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -2340,7 +2457,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 8,
+      "degree": 9,
       "domain": "mental-models"
     },
     {
@@ -2352,7 +2469,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 6,
+      "degree": 7,
       "domain": "mental-models"
     },
     {
@@ -2365,7 +2482,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 10,
+      "degree": 11,
       "domain": "mental-models"
     },
     {
@@ -2378,7 +2495,7 @@
       ],
       "source": "Mario Zechner — Thoughts on Slowing the Fuck Down",
       "color": "#a855f7",
-      "degree": 5,
+      "degree": 7,
       "domain": "mental-models"
     },
     {
@@ -2727,7 +2844,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -2883,7 +3000,7 @@
       ],
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
-      "degree": 10,
+      "degree": 12,
       "domain": "mental-models"
     },
     {
@@ -2922,7 +3039,7 @@
       ],
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#ec4899",
-      "degree": 5,
+      "degree": 6,
       "domain": "mental-models"
     },
     {
@@ -2948,11 +3065,151 @@
       ],
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
-      "degree": 2,
+      "degree": 4,
       "domain": "mental-models"
     }
   ],
   "links": [
+    {
+      "source": "choose-problems-backward-from-an-outcome-you-want",
+      "target": "differentiated-inputs-beat-the-shared-reading-list"
+    },
+    {
+      "source": "choose-problems-backward-from-an-outcome-you-want",
+      "target": "first-principles-thinking-is-responsibility-taking"
+    },
+    {
+      "source": "choose-problems-backward-from-an-outcome-you-want",
+      "target": "peter-thiel-test-detects-actual-first-principles-thinking"
+    },
+    {
+      "source": "choose-problems-backward-from-an-outcome-you-want",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "taste-is-a-muscle-trained-by-forecasting",
+      "target": "ai-compresses-execution-not-judgment"
+    },
+    {
+      "source": "taste-is-a-muscle-trained-by-forecasting",
+      "target": "amplification-widens-the-judgment-gap"
+    },
+    {
+      "source": "taste-is-a-muscle-trained-by-forecasting",
+      "target": "choose-problems-backward-from-an-outcome-you-want"
+    },
+    {
+      "source": "taste-is-a-muscle-trained-by-forecasting",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "differentiated-inputs-beat-the-shared-reading-list",
+      "target": "building-beats-following-for-ai-mastery"
+    },
+    {
+      "source": "differentiated-inputs-beat-the-shared-reading-list",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "differentiated-inputs-beat-the-shared-reading-list",
+      "target": "peter-thiel-test-detects-actual-first-principles-thinking"
+    },
+    {
+      "source": "differentiated-inputs-beat-the-shared-reading-list",
+      "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "writing-is-the-cheapest-defense-against-fooling-yourself",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
+    {
+      "source": "writing-is-the-cheapest-defense-against-fooling-yourself",
+      "target": "non-attached-action-enables-clearer-course-correction"
+    },
+    {
+      "source": "writing-is-the-cheapest-defense-against-fooling-yourself",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "clear-explanation-is-a-contribution-and-a-credential",
+      "target": "building-beats-following-for-ai-mastery"
+    },
+    {
+      "source": "clear-explanation-is-a-contribution-and-a-credential",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "clear-explanation-is-a-contribution-and-a-credential",
+      "target": "dont-be-the-discriminator-be-the-patron"
+    },
+    {
+      "source": "research-speed-is-the-rate-you-discover-youre-wrong",
+      "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "research-speed-is-the-rate-you-discover-youre-wrong",
+      "target": "engineering-and-research-have-fused-at-the-frontier"
+    },
+    {
+      "source": "research-speed-is-the-rate-you-discover-youre-wrong",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "research-speed-is-the-rate-you-discover-youre-wrong",
+      "target": "speed-without-feedback-amplifies-errors"
+    },
+    {
+      "source": "research-speed-is-the-rate-you-discover-youre-wrong",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "engineering-and-research-have-fused-at-the-frontier",
+      "target": "agent-harnesses-are-persistent-infrastructure"
+    },
+    {
+      "source": "engineering-and-research-have-fused-at-the-frontier",
+      "target": "every-role-codes-when-implementation-cost-drops-to-zero"
+    },
+    {
+      "source": "engineering-and-research-have-fused-at-the-frontier",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "engineering-and-research-have-fused-at-the-frontier",
+      "target": "research-speed-is-the-rate-you-discover-youre-wrong"
+    },
+    {
+      "source": "stare-at-raw-outputs-not-the-loss-curve",
+      "target": "llm-judge-must-calibrate-against-human-judgment"
+    },
+    {
+      "source": "stare-at-raw-outputs-not-the-loss-curve",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "stare-at-raw-outputs-not-the-loss-curve",
+      "target": "revealed-preferences-trump-stated-preferences"
+    },
+    {
+      "source": "stare-at-raw-outputs-not-the-loss-curve",
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
+    },
+    {
+      "source": "stare-at-raw-outputs-not-the-loss-curve",
+      "target": "traces-replace-code-as-agent-source-of-truth"
+    },
+    {
+      "source": "wander-across-subfields-before-you-settle",
+      "target": "building-beats-following-for-ai-mastery"
+    },
+    {
+      "source": "wander-across-subfields-before-you-settle",
+      "target": "circle-of-competence-determines-where-you-can-win"
+    },
+    {
+      "source": "wander-across-subfields-before-you-settle",
+      "target": "latticework-of-models-beats-isolated-facts"
+    },
     {
       "source": "price-of-intelligence-is-the-new-organizing-axis",
       "target": "ai-strategy-is-a-self-rewriting-equation"
@@ -3676,6 +3933,10 @@
     {
       "source": "verification-multiplies-agent-output-quality",
       "target": "rollback-safety-nets-enable-autonomy-not-intelligence"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "stare-at-raw-outputs-not-the-loss-curve"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -4487,6 +4748,10 @@
     },
     {
       "source": "building-beats-following-for-ai-mastery",
+      "target": "clear-explanation-is-a-contribution-and-a-credential"
+    },
+    {
+      "source": "building-beats-following-for-ai-mastery",
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
@@ -4496,6 +4761,10 @@
     {
       "source": "building-beats-following-for-ai-mastery",
       "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "building-beats-following-for-ai-mastery",
+      "target": "wander-across-subfields-before-you-settle"
     },
     {
       "source": "procedural-memory-is-highest-impact-agent-memory",
@@ -5074,6 +5343,10 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
+      "source": "excessive-self-regard-makes-fixable-failures-persist",
+      "target": "writing-is-the-cheapest-defense-against-fooling-yourself"
+    },
+    {
       "source": "latticework-of-models-beats-isolated-facts",
       "target": "bet-seldom-but-heavily-when-odds-are-extreme"
     },
@@ -5639,6 +5912,10 @@
     },
     {
       "source": "speed-without-feedback-amplifies-errors",
+      "target": "taste-is-a-muscle-trained-by-forecasting"
+    },
+    {
+      "source": "speed-without-feedback-amplifies-errors",
       "target": "verification-multiplies-agent-output-quality"
     },
     {
@@ -5984,6 +6261,10 @@
     {
       "source": "agent-harnesses-are-persistent-infrastructure",
       "target": "agents-learn-at-three-layers-model-harness-context"
+    },
+    {
+      "source": "agent-harnesses-are-persistent-infrastructure",
+      "target": "engineering-and-research-have-fused-at-the-frontier"
     },
     {
       "source": "agent-harnesses-are-persistent-infrastructure",

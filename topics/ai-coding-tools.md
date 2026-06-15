@@ -56,3 +56,5 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[meta-agents-beat-manual-harness-engineering]] — Autonomous 24hr harness optimization beats hand-engineering on production benchmarks
 - [[delegation-is-not-orchestration]] — Spawning a child that dies with its parent is delegation; orchestration needs durable child runs
 - [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — Oversee many agent loops from a leveraged vantage, don't inspect each step
+- [[research-speed-is-the-rate-you-discover-youre-wrong]] — Tooling is a first-class research activity; one-command runs, config-reproducible, seconds to compare
+- [[engineering-and-research-have-fused-at-the-frontier]] — Building the harness/eval/pipeline is what gets your hypotheses tested, not a junior chore

@@ -10,6 +10,9 @@ Using a systematic list of psychological tendencies as a diagnostic checklist ca
 ### Prevention Over Correction
 Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk cost), correction is extremely expensive. Structural prevention at the decision point is far cheaper.
 
+### Research as a Trainable Craft
+Research is not an innate gift but a stack of deliberately trainable sub-skills (vivek): choose your own problems by reasoning backward from an outcome you want (it manufactures originality), train taste as a muscle by forecasting results before you see them, differentiate your inputs so you don't reach the same conclusions as everyone else, write everything down to stop fooling yourself, and wander across subfields before settling. The daily edges look trivial but compound like interest.
+
 ## Insights
 - [[first-conclusions-become-nearly-permanent]] — The brain's anti-change mode resists updating even wrong beliefs
 - [[small-concessions-trigger-disproportionate-reciprocation]] — Small initial commitments escalate into large ones via reciprocation
@@ -46,3 +49,8 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[new-tech-first-imitates-the-medium-it-replaces]] — McLuhan's rearview mirror: don't mistake the imitation phase for the final form
 - [[ai-strategy-is-a-self-rewriting-equation]] — Coupled variables where solving one constraint changes which matters next
 - [[building-in-ai-is-running-a-trading-book]] — Manage long/short exposures to moving curves, not a fixed plan
+- [[choose-problems-backward-from-an-outcome-you-want]] — Reasoning backward from a goal you want manufactures originality absorbed problems can't
+- [[taste-is-a-muscle-trained-by-forecasting]] — Predict every result before you see it; forecast + correction trains the model in your head
+- [[differentiated-inputs-beat-the-shared-reading-list]] — Shared inputs produce shared, worthless conclusions; old and cross-disciplinary material is underpriced
+- [[writing-is-the-cheapest-defense-against-fooling-yourself]] — The page finds the gaps your head papers over; log disconfirming evidence on the spot
+- [[wander-across-subfields-before-you-settle]] — Your first subfield is an accident of timing; breadth is insurance against saturation

@@ -109,3 +109,4 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — The private eval + trace-RL + memory loop is the firm's compounding IP
 - [[inference-time-compute-makes-cost-per-outcome-a-choice]] — Spending where the outcome is worth it; token allocation as the moat
 - [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device is a strategic choice, not a fixed assumption
+- [[stare-at-raw-outputs-not-the-loss-curve]] — A loss curve is reassurance; pull 100 failures, sort into piles, attack the biggest

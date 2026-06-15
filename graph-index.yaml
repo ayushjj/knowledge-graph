@@ -11,10 +11,91 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-06-15
-node_count: 228
+node_count: 237
 domains: [ai, mental-models]
 
 nodes:
+  choose-problems-backward-from-an-outcome-you-want:
+    title: "Reason backward from an outcome you want to exist — it manufactures originality that absorbed problems can't"
+    description: "Absorbed problems hand you the conclusion without the reasoning, on a crowded racetrack; choosing an outcome you genuinely want and reasoning backward to the experiments drags you into territory no survey paper covers"
+    topics: [decision-making, future-of-ai-business]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [differentiated-inputs-beat-the-shared-reading-list, first-principles-thinking-is-responsibility-taking, peter-thiel-test-detects-actual-first-principles-thinking, reasoning-by-analogy-has-a-ceiling]
+
+  taste-is-a-muscle-trained-by-forecasting:
+    title: "Taste is a muscle, not a gift — train it by forecasting every result before you see it"
+    description: "Predict the outcome of every experiment before running it, guess a paper's numbers from the method alone, call which releases will matter in two years and check your hit rate; a forecast plus a correction, repeated a few hundred times, trains the model in your head the way it trains any other model"
+    topics: [decision-making, knowledge-systems]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [ai-compresses-execution-not-judgment, amplification-widens-the-judgment-gap, choose-problems-backward-from-an-outcome-you-want, dissolved-constraints-shift-bottleneck-to-judgment]
+
+  differentiated-inputs-beat-the-shared-reading-list:
+    title: "Shared inputs produce shared conclusions worth nothing — old and cross-disciplinary material is criminally underpriced"
+    description: "If your information diet is trending arxiv plus the group chat, you reach the same conclusions as everyone else at the same time, which makes them worthless. Old material (MoE 1991, LSTMs 1997, the bitter lesson) and cross-disciplinary range are underpriced sources of differentiated ideas"
+    topics: [decision-making, knowledge-systems]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [building-beats-following-for-ai-mastery, latticework-of-models-beats-isolated-facts, peter-thiel-test-detects-actual-first-principles-thinking, reasoning-by-analogy-has-a-ceiling]
+
+  writing-is-the-cheapest-defense-against-fooling-yourself:
+    title: "Writing is the cheapest defense against fooling yourself — the page finds the gaps your head papers over"
+    description: "An idea feels fully formed until you try to word it; writing exposes the untested assumption, the step that doesn't follow, the two claims that contradict. Darwin made it procedural — log disconfirming evidence on the spot, because memory deletes inconvenient results faster than convenient ones"
+    topics: [knowledge-systems, decision-making]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [latticework-of-models-beats-isolated-facts, non-attached-action-enables-clearer-course-correction, specs-are-external-memory-surviving-context-resets]
+
+  clear-explanation-is-a-contribution-and-a-credential:
+    title: "A clear public explanation is a genuine contribution and an unfakeable credential"
+    description: "Fields choke on undigested ideas, so distilling something hard into a clear explanation is real work, not a service job — and a body of public writing doubles as the strongest credential you can hold, because it's an unfakeable sample of how you think"
+    topics: [knowledge-systems, future-of-ai-business]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [building-beats-following-for-ai-mastery, compound-engineering-makes-future-work-easier, dont-be-the-discriminator-be-the-patron]
+
+  research-speed-is-the-rate-you-discover-youre-wrong:
+    title: "Research speed is mostly the speed at which you discover you're wrong — which makes tooling a first-class research activity"
+    description: "The edge isn't a stroke of genius but volume: more runs per day, more wrong ideas discarded per week, a faster-updating model of reality. That makes one-command runs, config-reproducible experiments, and seconds-not-archaeology run comparison core research work, not chores"
+    topics: [ai-coding-tools, engineering]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, engineering-and-research-have-fused-at-the-frontier, harness-quality-beats-model-intelligence, speed-without-feedback-amplifies-errors, verification-multiplies-agent-output-quality]
+
+  engineering-and-research-have-fused-at-the-frontier:
+    title: "Engineering is no longer the junior partner — at the frontier, research and engineering have fused"
+    description: "The researcher who can build the harness, the eval, and the data pipeline is the one whose hypotheses actually get tested; everyone else waits in a queue. The split between 'has ideas' and 'can run them' has collapsed into one role"
+    topics: [ai-coding-tools, future-of-ai-business]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [agent-harnesses-are-persistent-infrastructure, every-role-codes-when-implementation-cost-drops-to-zero, harness-quality-beats-model-intelligence, research-speed-is-the-rate-you-discover-youre-wrong]
+
+  stare-at-raw-outputs-not-the-loss-curve:
+    title: "A loss curve is reassurance, not analysis — pull a hundred failures and read every one"
+    description: "Experiments throw off far more information than you consume — transcripts, failure cases, the strange tail — and most of it dies unread. Most ML bugs live in the data and fail silently; Ng's move is to pull 100 failures, sort them into piles, and attack the biggest pile"
+    topics: [ai-native-product-architecture, knowledge-systems]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [llm-judge-must-calibrate-against-human-judgment, observability-is-the-missing-agent-discipline, revealed-preferences-trump-stated-preferences, similarity-is-not-relevance-relevance-requires-reasoning, traces-replace-code-as-agent-source-of-truth]
+
+  wander-across-subfields-before-you-settle:
+    title: "Your first subfield is an accident of timing — wander across several before you settle, because breadth is insurance"
+    description: "Pay tuition in interpretability, evals, rl, and systems before deciding where you live; somewhere is a corner where your specific weirdness is an unfair advantage. Subfields all saturate, usually right after they peak on twitter, and breadth is what carries you through the transition"
+    topics: [decision-making, future-of-ai-business]
+    source: "@itsreallyvivek (vivek) — how to be good at research"
+    source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
+    domain: ai
+    outgoing: [building-beats-following-for-ai-mastery, circle-of-competence-determines-where-you-can-win, latticework-of-models-beats-isolated-facts]
+
   price-of-intelligence-is-the-new-organizing-axis:
     title: "The price of intelligence is the new organizing axis — labs, applications, and countries are all fighting to set it"
     description: "The cost of intelligence is no longer an input to software but the axis around which companies, markets, and geopolitics reorganize; labs want usage routed through them, applications want to allocate intelligence better than labs, countries want it cheap enough to be national infrastructure"
@@ -405,7 +486,7 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
+    outgoing: [compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -807,7 +888,7 @@ nodes:
     description: "A non-technical user who built a production WhatsApp bot reached 'Operator' level that a 30-day AI mastery roadmap targets — through building, not studying"
     topics: [ai-coding-tools, knowledge-systems]
     source: "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap"
-    outgoing: [compound-engineering-makes-future-work-easier, dont-be-the-discriminator-be-the-patron, specs-are-external-memory-surviving-context-resets]
+    outgoing: [clear-explanation-is-a-contribution-and-a-credential, compound-engineering-makes-future-work-easier, dont-be-the-discriminator-be-the-patron, specs-are-external-memory-surviving-context-resets, wander-across-subfields-before-you-settle]
 
   procedural-memory-is-highest-impact-agent-memory:
     title: "Procedural memory is the highest-impact type of agent memory — it determines what the agent actually does"
@@ -1112,7 +1193,7 @@ nodes:
     description: "The Tolstoy effect causes people to rationalize fixable shortcomings rather than address them, requiring meritocratic culture and objective evaluation as antidotes"
     topics: [psychology, decision-making]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)"
-    outgoing: [first-conclusions-become-nearly-permanent, ideology-is-among-the-most-extreme-distorters-of-cognition, verification-multiplies-agent-output-quality]
+    outgoing: [first-conclusions-become-nearly-permanent, ideology-is-among-the-most-extreme-distorters-of-cognition, verification-multiplies-agent-output-quality, writing-is-the-cheapest-defense-against-fooling-yourself]
 
   latticework-of-models-beats-isolated-facts:
     title: "A latticework of mental models beats isolated facts for real understanding"
@@ -1389,7 +1470,7 @@ nodes:
     description: "Humans serve as natural bottlenecks who self-correct after repeated mistakes; agents perpetuate identical errors indefinitely at unsustainable rates"
     topics: [engineering, decision-making]
     source: "Mario Zechner — Thoughts on Slowing the Fuck Down"
-    outgoing: [amplification-widens-the-judgment-gap, error-memory-enables-learning-without-retraining, every-optimization-has-a-shadow-regression, verification-multiplies-agent-output-quality]
+    outgoing: [amplification-widens-the-judgment-gap, error-memory-enables-learning-without-retraining, every-optimization-has-a-shadow-regression, taste-is-a-muscle-trained-by-forecasting, verification-multiplies-agent-output-quality]
 
   meta-agents-beat-manual-harness-engineering:
     title: "Meta-agents that autonomously optimize task agents beat hand-engineered harnesses on production benchmarks"
@@ -1606,7 +1687,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
-    outgoing: [agents-learn-at-three-layers-model-harness-context, harness-quality-beats-model-intelligence]
+    outgoing: [agents-learn-at-three-layers-model-harness-context, engineering-and-research-have-fused-at-the-frontier, harness-quality-beats-model-intelligence]
 
   memory-defines-the-agent-portable-memory-is-frontier:
     title: "Memory defines the agent — a zip of markdown files IS the agent, and portable memory between harnesses is the frontier"
