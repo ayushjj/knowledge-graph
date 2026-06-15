@@ -104,3 +104,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[guardrails-are-the-product-customers-pay-for]] — Per-use-case governance control plane as the product
 - [[reorganize-around-agents-dont-bolt-them-onto-old-workflows]] — Redesign work around agents; chatbot-on-old-workflow is a waterwheel swap
 - [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — Software-carried context removes communication as the org's load-bearing wall
+- [[model-portability-is-the-sovereignty-test]] — Can you swap the generalist model without losing the company-veteran layer?
+- [[private-evals-measure-business-outcomes-not-benchmarks]] — Private evals + internal-trace RL beat public leaderboards for firm learning
+- [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — The private eval + trace-RL + memory loop is the firm's compounding IP

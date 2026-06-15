@@ -124,3 +124,4 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[enforcement-must-run-independently-of-model-cooperation]] — Policy lives in hooks, not prompt instructions
 - [[agentic-workflows-encode-intelligence-the-model-cant-read]] — Workflow = repeatability, agent = variability, human = accountability; the loop becomes operating memory
 - [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — Human-in-the-loop isn't always good; the Red Flag Act is the anti-pattern
+- [[private-evals-measure-business-outcomes-not-benchmarks]] — Private evals + internal-trace RL grow the model against what the business cares about

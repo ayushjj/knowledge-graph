@@ -51,3 +51,4 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[procedural-memory-is-highest-impact-agent-memory]] — Procedural memory (instructions/skills/tools) has highest impact of 3 memory types
 - [[knowledge-is-not-memory-ingestion-vs-learning]] — Knowledge = ingest+query (solved); Memory = observe+learn+adapt (unsolved)
 - [[context-centralization-is-why-coding-ai-works]] — Engineering's context centralization (git) explains why coding AI leads
+- [[offload-the-task-but-never-the-learning]] — You can offload a task or a job, but never your learning; the loop is the retained asset

@@ -49,3 +49,6 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[guardrails-are-the-product-customers-pay-for]] — In a regulated vertical, per-customer governance IS the product
 - [[agentic-workflows-encode-intelligence-the-model-cant-read]] — Intelligence lives in the workflow; it becomes the carrier's operating memory
 - [[system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]] — Would the customer still need you if a lab shipped a competitor? System vs tool
+- [[human-capital-and-token-capital-compound-together]] — Every firm builds two capitals; they compound, not substitute
+- [[model-portability-is-the-sovereignty-test]] — Swap the generalist model without losing company-veteran expertise = real IP control
+- [[a-frontier-without-an-ecosystem-is-not-stable]] — A frontier that concentrates all value isn't a stable equilibrium

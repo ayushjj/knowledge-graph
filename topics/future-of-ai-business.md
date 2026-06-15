@@ -19,6 +19,9 @@ Selling outcomes (the work) beats selling tools — model improvements compound 
 ### Yellow Brick Road vs Rest of Oz
 Work that improves directly with raw model capability (code, writing, images) belongs to the labs — they own the model, margins, and distribution. The defensible "rest of Oz" is complex, vertical, multi-step work where value comes from the scaffolding (data flywheels, cross-vendor model routing, governance, the agentic workflow) the labs structurally can't focus on. The moat relocated from the model to the system of work.
 
+### Human Capital + Token Capital
+The AI-era firm accumulates two complementary stocks: human capital (its people's judgment) and token capital (the AI capability it owns) — and they compound together, not at each other's expense. The durable asset is the privately-owned learning loop that turns workflows and corrections into an ever-improving system; you can offload a task but never the learning. At the macro level, a frontier that concentrates all value in a few models is not a stable equilibrium — the political economy demands an ecosystem where every firm can own its own loop.
+
 ## Insights
 - [[technical-knowledge-becomes-liability]] — Experts debug while novices deliver
 - [[technology-transitions-create-more-not-less]] — Historical pattern: predicted deaths result in growth of both old and new
@@ -66,3 +69,7 @@ Work that improves directly with raw model capability (code, writing, images) be
 - [[reorganize-around-agents-dont-bolt-them-onto-old-workflows]] — Waterwheel→steam: redesign the work around AI, don't bolt a chatbot on
 - [[new-tech-first-imitates-the-medium-it-replaces]] — The chatbot mimicking a search box is the rearview-mirror transition form, not the destination
 - [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — When software carries context, communication stops being the load-bearing wall
+- [[human-capital-and-token-capital-compound-together]] — Two complementary stocks; human capital becomes MORE valuable as token capital grows
+- [[offload-the-task-but-never-the-learning]] — Build the learning loop, not the model pick; the retained learning is what compounds
+- [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — A hill-climbing machine: every improved workflow generates better training signal
+- [[a-frontier-without-an-ecosystem-is-not-stable]] — Concentrating all value in a few models has no societal permission; ecosystem is the stable equilibrium

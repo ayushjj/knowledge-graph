@@ -10,11 +10,65 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-06-01
-node_count: 215
+last_updated: 2026-06-15
+node_count: 221
 domains: [ai, mental-models]
 
 nodes:
+  human-capital-and-token-capital-compound-together:
+    title: "Every firm must build two capitals — human capital and token capital — and they compound together, not at each other's expense"
+    description: "Human capital is the knowledge, judgment, relationships, and pattern recognition of a firm's people; token capital is the AI capability it builds and owns — and human capital only becomes MORE valuable as token capital grows"
+    topics: [future-of-ai-business, business-models]
+    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
+    source_file: sources/satyanadella-frontier-without-ecosystem.md
+    domain: ai
+    outgoing: [automation-amplifies-expert-demand, dont-be-the-discriminator-be-the-patron, system-of-work-is-the-moat-not-the-model]
+
+  offload-the-task-but-never-the-learning:
+    title: "You can offload a task, or even a job, but you can never offload your learning"
+    description: "The real opportunity isn't picking the best model — it's building a learning loop on top of models where the firm's accumulated learning, the one thing it can't outsource, compounds across people and AI"
+    topics: [future-of-ai-business, knowledge-systems]
+    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
+    source_file: sources/satyanadella-frontier-without-ecosystem.md
+    domain: ai
+    outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, system-of-work-is-the-moat-not-the-model]
+
+  model-portability-is-the-sovereignty-test:
+    title: "The sovereignty test — can you swap out a generalist model without losing your 'company veteran' expertise?"
+    description: "A firm controls its IP only if it can switch the underlying generalist model while keeping the company-veteran expertise built into its learning system; that portability is the test of control and sovereignty in the AI era"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
+    source_file: sources/satyanadella-frontier-without-ecosystem.md
+    domain: ai
+    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, open-harnesses-with-owned-databases-prevent-model-provider-lock-in, operate-across-the-whole-model-market-not-just-one-lab, system-of-work-is-the-moat-not-the-model]
+
+  private-evals-measure-business-outcomes-not-benchmarks:
+    title: "Private evals should measure business outcomes that matter — not external benchmarks"
+    description: "A firm's learning loop runs on private evals tied to real business outcomes and private RL environments trained on internal traces, so the model improves against what the company cares about rather than public leaderboards"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
+    source_file: sources/satyanadella-frontier-without-ecosystem.md
+    domain: ai
+    outgoing: [decision-traces-are-the-missing-data-layer, evals-are-behavioral-pressure-vectors-not-neutral-measurements, trace-to-eval-flywheel-compounds-agent-quality, traces-not-scores-enable-agent-improvement]
+
+  the-learning-loop-is-the-firms-new-ip-and-it-compounds:
+    title: "The learning loop becomes the firm's new IP — a hill-climbing machine that compounds unlike any other asset"
+    description: "Every improved workflow generates better training signal, which accelerates the accumulation of tacit knowledge unique to the firm; companies that build this loop early gain an advantage that's hard to replicate regardless of any new model capability"
+    topics: [future-of-ai-business, ai-native-product-architecture]
+    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
+    source_file: sources/satyanadella-frontier-without-ecosystem.md
+    domain: ai
+    outgoing: [compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model, trace-to-eval-flywheel-compounds-agent-quality]
+
+  a-frontier-without-an-ecosystem-is-not-stable:
+    title: "A frontier without an ecosystem is not stable — if a few models capture all value, the political economy won't tolerate it"
+    description: "The priority must be building a frontier ecosystem, not just a frontier model, so value flows broadly across companies and industries; concentrating all returns in a few models that hollow out industries has no societal permission and is not a stable equilibrium"
+    topics: [future-of-ai-business, business-models]
+    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
+    source_file: sources/satyanadella-frontier-without-ecosystem.md
+    domain: ai
+    outgoing: [llms-selectively-destroy-vertical-software-moats, organizational-shape-is-the-emerging-moat-in-ai, technology-helps-moats-kills-commodity-businesses]
+
   reorganize-around-agents-dont-bolt-them-onto-old-workflows:
     title: "The gains come from redesigning work around AI, not bolting AI onto human workflows"
     description: "Like factory owners who first swapped waterwheels for steam engines and changed nothing else (modest gains), today's orgs bolt chatbots onto human-designed workflows — the explosion comes only when the work is redesigned around agents"
@@ -494,7 +548,7 @@ nodes:
     description: "Pre-labeling cuts costs 100,000x for simple tasks, but projects that needed 500 contributors now need 100 doing far higher-value work at up to $200/hour"
     topics: [future-of-ai-business]
     source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
-    outgoing: [intelligence-judgement-ratio-determines-automation-order, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    outgoing: [human-capital-and-token-capital-compound-together, intelligence-judgement-ratio-determines-automation-order, tribal-knowledge-is-the-last-mile-for-agent-automation]
 
   technology-transitions-create-more-not-less:
     title: "Technology transitions create more of the 'dying' thing, not less"
@@ -1160,7 +1214,7 @@ nodes:
     description: "When usage generates data that competitors cannot replicate — correction patterns, preference signals, domain-specific edge cases — the product improves faster than any new entrant can catch up"
     topics: [business-models, future-of-ai-business]
     source: "Nikunj Kothari — Revealed Preferences"
-    outgoing: [compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, memory-is-where-agent-lock-in-lives, vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]
+    outgoing: [compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, memory-is-where-agent-lock-in-lives, the-learning-loop-is-the-firms-new-ip-and-it-compounds, vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1336,7 +1390,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
     source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
-    outgoing: [evals-are-gradient-signal-for-harness-engineering, proprietary-feedback-loops-widen-the-moat, traces-are-the-universal-substrate-for-agent-learning]
+    outgoing: [evals-are-gradient-signal-for-harness-engineering, private-evals-measure-business-outcomes-not-benchmarks, proprietary-feedback-loops-widen-the-moat, traces-are-the-universal-substrate-for-agent-learning]
 
   traces-are-the-universal-substrate-for-agent-learning:
     title: "Traces are the universal substrate for agent learning — all three layers consume the same execution logs"
@@ -1473,7 +1527,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
     source_file: sources/izzymiller-hex-building-ai-agents-data.md
-    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, offload-the-task-but-never-the-learning, proprietary-feedback-loops-widen-the-moat, the-learning-loop-is-the-firms-new-ip-and-it-compounds]
 
   long-horizon-evals-test-compounding-not-point-accuracy:
     title: "Long-horizon evals test compounding behavior, not point-in-time accuracy"
@@ -1530,7 +1584,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
-    outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, harness-quality-beats-model-intelligence, memory-is-where-agent-lock-in-lives]
+    outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, harness-quality-beats-model-intelligence, memory-is-where-agent-lock-in-lives, model-portability-is-the-sovereignty-test]
 
   organizational-shape-is-the-emerging-moat-in-ai:
     title: "Organizational shape is the emerging moat in AI — what AI cannot copy is the institution underneath"
@@ -1539,7 +1593,7 @@ nodes:
     source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
     source_file: sources/jayagup10-organizational-shape-is-the-moat.md
     domain: ai
-    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
+    outgoing: [a-frontier-without-an-ecosystem-is-not-stable, dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
 
   great-companies-are-wrappers-around-a-kind-of-person:
     title: "Great companies are wrappers around a kind of person — institutions that make a new kind of person possible"

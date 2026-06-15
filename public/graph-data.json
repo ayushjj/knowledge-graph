@@ -1,6 +1,84 @@
 {
   "nodes": [
     {
+      "id": "human-capital-and-token-capital-compound-together",
+      "label": "Every firm must build two capitals — human capital and token capital — and they compound together, not at each other's expense",
+      "description": "Human capital is the knowledge, judgment, relationships, and pattern recognition of a firm's people; token capital is the AI capability it builds and owns — and human capital only becomes MORE valuable as token capital grows",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "offload-the-task-but-never-the-learning",
+      "label": "You can offload a task, or even a job, but you can never offload your learning",
+      "description": "The real opportunity isn't picking the best model — it's building a learning loop on top of models where the firm's accumulated learning, the one thing it can't outsource, compounds across people and AI",
+      "topics": [
+        "future-of-ai-business",
+        "knowledge-systems"
+      ],
+      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
+      "color": "#f59e0b",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "model-portability-is-the-sovereignty-test",
+      "label": "The sovereignty test — can you swap out a generalist model without losing your 'company veteran' expertise?",
+      "description": "A firm controls its IP only if it can switch the underlying generalist model while keeping the company-veteran expertise built into its learning system; that portability is the test of control and sovereignty in the AI era",
+      "topics": [
+        "ai-native-product-architecture",
+        "business-models"
+      ],
+      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
+      "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "private-evals-measure-business-outcomes-not-benchmarks",
+      "label": "Private evals should measure business outcomes that matter — not external benchmarks",
+      "description": "A firm's learning loop runs on private evals tied to real business outcomes and private RL environments trained on internal traces, so the model improves against what the company cares about rather than public leaderboards",
+      "topics": [
+        "ai-native-product-architecture",
+        "ai-agents"
+      ],
+      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
+      "color": "#8b5cf6",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
+      "label": "The learning loop becomes the firm's new IP — a hill-climbing machine that compounds unlike any other asset",
+      "description": "Every improved workflow generates better training signal, which accelerates the accumulation of tacit knowledge unique to the firm; companies that build this loop early gain an advantage that's hard to replicate regardless of any new model capability",
+      "topics": [
+        "future-of-ai-business",
+        "ai-native-product-architecture"
+      ],
+      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
+      "color": "#f59e0b",
+      "degree": 7,
+      "domain": "ai"
+    },
+    {
+      "id": "a-frontier-without-an-ecosystem-is-not-stable",
+      "label": "A frontier without an ecosystem is not stable — if a few models capture all value, the political economy won't tolerate it",
+      "description": "The priority must be building a frontier ecosystem, not just a frontier model, so value flows broadly across companies and industries; concentrating all returns in a few models that hollow out industries has no societal permission and is not a stable equilibrium",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
       "label": "The gains come from redesigning work around AI, not bolting AI onto human workflows",
       "description": "Like factory owners who first swapped waterwheels for steam engines and changed nothing else (modest gains), today's orgs bolt chatbots onto human-designed workflows — the explosion comes only when the work is redesigned around agents",
@@ -62,7 +140,7 @@
       ],
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#f59e0b",
-      "degree": 9,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -101,7 +179,7 @@
       ],
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -361,7 +439,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 25,
+      "degree": 26,
       "domain": "ai"
     },
     {
@@ -529,7 +607,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 17,
+      "degree": 18,
       "domain": "ai"
     },
     {
@@ -774,7 +852,7 @@
       ],
       "source": "@WillManidis (Will Manidis) — Against Taste",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -812,7 +890,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -1122,7 +1200,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 30,
+      "degree": 32,
       "domain": "ai"
     },
     {
@@ -1277,7 +1355,7 @@
       ],
       "source": "LangChain — How We Build Evals for Deep Agents",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -1458,7 +1536,7 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 14,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -1756,7 +1834,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)",
       "color": "#f97316",
-      "degree": 5,
+      "degree": 6,
       "domain": "mental-models"
     },
     {
@@ -2003,7 +2081,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 14,
+      "degree": 16,
       "domain": "ai"
     },
     {
@@ -2272,7 +2350,7 @@
       ],
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -2311,7 +2389,7 @@
       ],
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -2532,7 +2610,7 @@
       ],
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#8b5cf6",
-      "degree": 8,
+      "degree": 12,
       "domain": "ai"
     },
     {
@@ -2597,7 +2675,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -2623,7 +2701,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#8b5cf6",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -2636,7 +2714,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#f59e0b",
-      "degree": 11,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -2784,6 +2862,98 @@
     }
   ],
   "links": [
+    {
+      "source": "human-capital-and-token-capital-compound-together",
+      "target": "automation-amplifies-expert-demand"
+    },
+    {
+      "source": "human-capital-and-token-capital-compound-together",
+      "target": "dont-be-the-discriminator-be-the-patron"
+    },
+    {
+      "source": "human-capital-and-token-capital-compound-together",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "offload-the-task-but-never-the-learning",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "offload-the-task-but-never-the-learning",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "offload-the-task-but-never-the-learning",
+      "target": "context-flywheel-is-day-90-not-day-0"
+    },
+    {
+      "source": "offload-the-task-but-never-the-learning",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "model-portability-is-the-sovereignty-test",
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
+    },
+    {
+      "source": "model-portability-is-the-sovereignty-test",
+      "target": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in"
+    },
+    {
+      "source": "model-portability-is-the-sovereignty-test",
+      "target": "operate-across-the-whole-model-market-not-just-one-lab"
+    },
+    {
+      "source": "model-portability-is-the-sovereignty-test",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "private-evals-measure-business-outcomes-not-benchmarks",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "private-evals-measure-business-outcomes-not-benchmarks",
+      "target": "evals-are-behavioral-pressure-vectors-not-neutral-measurements"
+    },
+    {
+      "source": "private-evals-measure-business-outcomes-not-benchmarks",
+      "target": "trace-to-eval-flywheel-compounds-agent-quality"
+    },
+    {
+      "source": "private-evals-measure-business-outcomes-not-benchmarks",
+      "target": "traces-not-scores-enable-agent-improvement"
+    },
+    {
+      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
+      "target": "compound-engineering-makes-future-work-easier"
+    },
+    {
+      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
+      "target": "context-flywheel-is-day-90-not-day-0"
+    },
+    {
+      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
+      "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
+      "target": "trace-to-eval-flywheel-compounds-agent-quality"
+    },
+    {
+      "source": "a-frontier-without-an-ecosystem-is-not-stable",
+      "target": "llms-selectively-destroy-vertical-software-moats"
+    },
+    {
+      "source": "a-frontier-without-an-ecosystem-is-not-stable",
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "a-frontier-without-an-ecosystem-is-not-stable",
+      "target": "technology-helps-moats-kills-commodity-businesses"
+    },
     {
       "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
       "target": "dissolved-constraints-shift-bottleneck-to-judgment"
@@ -3667,6 +3837,10 @@
     {
       "source": "autopilots-capture-work-budget-not-tool-budget",
       "target": "llm-competition-fragments-markets-not-consolidates"
+    },
+    {
+      "source": "automation-amplifies-expert-demand",
+      "target": "human-capital-and-token-capital-compound-together"
     },
     {
       "source": "automation-amplifies-expert-demand",
@@ -4966,6 +5140,10 @@
     },
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
+      "target": "the-learning-loop-is-the-firms-new-ip-and-it-compounds"
+    },
+    {
+      "source": "proprietary-feedback-loops-widen-the-moat",
       "target": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant"
     },
     {
@@ -5334,6 +5512,10 @@
     },
     {
       "source": "trace-to-eval-flywheel-compounds-agent-quality",
+      "target": "private-evals-measure-business-outcomes-not-benchmarks"
+    },
+    {
+      "source": "trace-to-eval-flywheel-compounds-agent-quality",
       "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
@@ -5534,7 +5716,15 @@
     },
     {
       "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "offload-the-task-but-never-the-learning"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
       "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "context-flywheel-is-day-90-not-day-0",
+      "target": "the-learning-loop-is-the-firms-new-ip-and-it-compounds"
     },
     {
       "source": "long-horizon-evals-test-compounding-not-point-accuracy",
@@ -5627,6 +5817,14 @@
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
       "target": "memory-is-where-agent-lock-in-lives"
+    },
+    {
+      "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
+      "target": "model-portability-is-the-sovereignty-test"
+    },
+    {
+      "source": "organizational-shape-is-the-emerging-moat-in-ai",
+      "target": "a-frontier-without-an-ecosystem-is-not-stable"
     },
     {
       "source": "organizational-shape-is-the-emerging-moat-in-ai",

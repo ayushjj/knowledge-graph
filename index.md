@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[human-capital-and-token-capital-compound-together]] — two complementary stocks; human capital becomes MORE valuable as token capital grows (2026-06-15)
+- [[offload-the-task-but-never-the-learning]] — you can offload a task or a job, but never your learning; the loop is the retained asset (2026-06-15)
+- [[model-portability-is-the-sovereignty-test]] — swap the generalist model without losing the company-veteran expertise = real IP control (2026-06-15)
+- [[private-evals-measure-business-outcomes-not-benchmarks]] — private evals + internal-trace RL beat public leaderboards for firm learning (2026-06-15)
+- [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — a hill-climbing machine that compounds unlike any other asset (2026-06-15)
+- [[a-frontier-without-an-ecosystem-is-not-stable]] — concentrating all value in a few models has no societal permission; ecosystem is the stable equilibrium (2026-06-15)
 - [[reorganize-around-agents-dont-bolt-them-onto-old-workflows]] — waterwheel→steam: redesign work around AI, don't bolt a chatbot on (2026-06-01)
 - [[new-tech-first-imitates-the-medium-it-replaces]] — the chatbot mimicking a search box is the rearview-mirror form, not the final one (2026-06-01)
 - [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — software-carried context removes communication as the org's load-bearing wall (2026-06-01)
 - [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — human-in-the-loop isn't always good; the Red Flag Act is the anti-pattern (2026-06-01)
-- [[system-of-work-is-the-moat-not-the-model]] — own the surface work executes on; the model is fungible underneath (2026-06-01)
-- [[capability-curve-decides-which-work-the-labs-take]] — if a problem improves with raw model capability, the labs own it (2026-06-01)
-- [[vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]] — the data flywheel is a UX problem only vertical surfaces solve (2026-06-01)
-- [[operate-across-the-whole-model-market-not-just-one-lab]] — route across all vendors + absorb every migration (2026-06-01)
-- [[guardrails-are-the-product-customers-pay-for]] — per-customer governance is the product in a regulated vertical (2026-06-01)
-- [[agentic-workflows-encode-intelligence-the-model-cant-read]] — intelligence lives in the workflow; it becomes operating memory (2026-06-01)
