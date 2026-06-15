@@ -44,3 +44,5 @@ Once a bad decision locks in (via Inconsistency-Avoidance, social proof, or sunk
 - [[peter-thiel-test-detects-actual-first-principles-thinking]] — Conclusions matching the crowd are evidence of analogy, not reasoning
 - [[system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]] — Three tests for durable positioning; would they need you if a lab shipped a competitor?
 - [[new-tech-first-imitates-the-medium-it-replaces]] — McLuhan's rearview mirror: don't mistake the imitation phase for the final form
+- [[ai-strategy-is-a-self-rewriting-equation]] — Coupled variables where solving one constraint changes which matters next
+- [[building-in-ai-is-running-a-trading-book]] — Manage long/short exposures to moving curves, not a fixed plan

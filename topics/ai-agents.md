@@ -125,3 +125,4 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[agentic-workflows-encode-intelligence-the-model-cant-read]] — Workflow = repeatability, agent = variability, human = accountability; the loop becomes operating memory
 - [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — Human-in-the-loop isn't always good; the Red Flag Act is the anti-pattern
 - [[private-evals-measure-business-outcomes-not-benchmarks]] — Private evals + internal-trace RL grow the model against what the business cares about
+- [[task-horizon-breaks-seat-based-pricing]] — Agents run for hours and spawn sub-agents; usage scales with workflow length, not seats

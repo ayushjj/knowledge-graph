@@ -22,6 +22,9 @@ Work that improves directly with raw model capability (code, writing, images) be
 ### Human Capital + Token Capital
 The AI-era firm accumulates two complementary stocks: human capital (its people's judgment) and token capital (the AI capability it owns) — and they compound together, not at each other's expense. The durable asset is the privately-owned learning loop that turns workflows and corrections into an ever-improving system; you can offload a task but never the learning. At the macro level, a frontier that concentrates all value in a few models is not a stable equilibrium — the political economy demands an ecosystem where every firm can own its own loop.
 
+### Repricing & Relocation (the Trading-Book View)
+The price of intelligence is the new organizing axis, and value is never captured once — it's continuously repriced and relocated. AI strategy is a self-rewriting equation of coupled variables (capability, cost, latency, deployment, regulation, talent), so the real threat is layer migration, not a competitor: work moves into the model, an open-weight alternative, the data platform, or the device whenever a variable shifts. Building under these conditions looks less like underwriting a software company and more like running a trading book — long some curves, short others.
+
 ## Insights
 - [[technical-knowledge-becomes-liability]] — Experts debug while novices deliver
 - [[technology-transitions-create-more-not-less]] — Historical pattern: predicted deaths result in growth of both old and new
@@ -73,3 +76,7 @@ The AI-era firm accumulates two complementary stocks: human capital (its people'
 - [[offload-the-task-but-never-the-learning]] — Build the learning loop, not the model pick; the retained learning is what compounds
 - [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — A hill-climbing machine: every improved workflow generates better training signal
 - [[a-frontier-without-an-ecosystem-is-not-stable]] — Concentrating all value in a few models has no societal permission; ecosystem is the stable equilibrium
+- [[price-of-intelligence-is-the-new-organizing-axis]] — Cost of intelligence is the axis labs, apps, and countries reorganize around
+- [[ai-strategy-is-a-self-rewriting-equation]] — Many coupled variables; solving one constraint changes which matters next
+- [[layer-migration-is-the-real-threat-not-competition]] — Work relocates across layers when any variable moves; platform dependency is now the default
+- [[building-in-ai-is-running-a-trading-book]] — Value is repriced and relocated continuously; manage long/short exposures, not a fixed plan

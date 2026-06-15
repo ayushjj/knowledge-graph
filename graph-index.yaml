@@ -11,10 +11,73 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-06-15
-node_count: 221
+node_count: 228
 domains: [ai, mental-models]
 
 nodes:
+  price-of-intelligence-is-the-new-organizing-axis:
+    title: "The price of intelligence is the new organizing axis — labs, applications, and countries are all fighting to set it"
+    description: "The cost of intelligence is no longer an input to software but the axis around which companies, markets, and geopolitics reorganize; labs want usage routed through them, applications want to allocate intelligence better than labs, countries want it cheap enough to be national infrastructure"
+    topics: [future-of-ai-business, business-models]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [ai-strategy-is-a-self-rewriting-equation, commodity-terminal-value-zero-expert-judgment-compounds, inference-time-compute-makes-cost-per-outcome-a-choice, llm-competition-fragments-markets-not-consolidates, self-disruption-follows-the-value-chain-downward]
+
+  ai-strategy-is-a-self-rewriting-equation:
+    title: "AI strategy is a self-rewriting equation — solving one constraint changes which constraint matters next"
+    description: "SaaS metrics were downstream of just two forces (distribution cost + switching cost); AI has many coupled variables — capability, cost, latency, deployment, regulation, talent — each decomposing into sub-curves, so the equation rewrites itself faster than any fixed playbook can track"
+    topics: [future-of-ai-business, decision-making]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [build-for-the-model-six-months-from-now, building-in-ai-is-running-a-trading-book, layer-migration-is-the-real-threat-not-competition, price-of-intelligence-is-the-new-organizing-axis, sand-vs-stone-separates-durable-from-disposable-product-value, scaffolding-is-tech-debt-against-the-next-model]
+
+  layer-migration-is-the-real-threat-not-competition:
+    title: "In AI the threat is layer migration, not a competitor — work relocates across layers when any variable moves"
+    description: "In SaaS a rival company killed you; the one exception was platform dependency, where a pricing or terms change could wipe you out. AI makes that exception the default — work migrates into the model, an open-weight alternative, the customer's data platform, an agent runtime, or the device itself"
+    topics: [future-of-ai-business, business-models]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [llms-selectively-destroy-vertical-software-moats, model-compensations-become-liabilities-as-capabilities-advance, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
+
+  inference-time-compute-makes-cost-per-outcome-a-choice:
+    title: "Inference-time compute makes cost-per-outcome a choice — and that's the application layer's counterattack on the labs"
+    description: "No prior software had a dial where 10x more compute buys a better answer; a 10-second and a 10-minute query on the same model are different products at different prices. Margin depends on the system's judgment of where to spend tokens, not on model pricing — the lab wants to expand usage, the application wants to spend only where the outcome is worth it"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [multi-model-orchestration-beats-any-single-family, operate-across-the-whole-model-market-not-just-one-lab, production-agents-route-decisions-not-every-call-to-llm, system-of-work-is-the-moat-not-the-model, task-horizon-breaks-seat-based-pricing]
+
+  task-horizon-breaks-seat-based-pricing:
+    title: "Task horizon breaks seat-based pricing — usage scales with workflow depth × length, not headcount"
+    description: "Task horizon is the length dial: how long an AI works on its own before a human steps in. The unit shifted from the call to the workflow — agents run for hours, spawn sub-agents, and burn millions of tokens per decision path, so usage stops scaling with seats; multiply length by depth to get the token bill"
+    topics: [business-models, ai-agents]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, autopilots-capture-work-budget-not-tool-budget, inference-time-compute-makes-cost-per-outcome-a-choice, sell-the-work-not-the-tool, token-spend-replaces-headcount-as-scaling-unit]
+
+  where-inference-runs-decides-margin-context-and-trust:
+    title: "Where inference runs decides who captures margin, owns the context, and earns trust"
+    description: "Value won't all accrue to the cloud — inference moves to wherever it's cheapest without breaking the product: cloud for frontier reasoning, edge for latency, on-device for privacy. Privacy matters more than in SaaS because the model isn't just storing data, it's reasoning over the user's context, memory, code, and permissions"
+    topics: [ai-native-product-architecture, business-models]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, memory-is-where-agent-lock-in-lives, permissioned-inference-is-harder-than-permissioned-retrieval]
+
+  building-in-ai-is-running-a-trading-book:
+    title: "Building in AI is running a trading book — you're long some curves, short others, and exposed to correlations that break when they matter"
+    description: "Value in AI is never captured once and defended; it's continuously repriced and relocated. Durable companies know which assumptions they're long and which they're short, choose which variables to bet on, know which can kill them, and build to recover faster than a wrong bet can compound"
+    topics: [decision-making, future-of-ai-business]
+    source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
+    source_file: sources/jayagup10-who-sets-price-of-intelligence.md
+    domain: ai
+    outgoing: [ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, organizational-shape-is-the-emerging-moat-in-ai, sand-vs-stone-separates-durable-from-disposable-product-value]
+
   human-capital-and-token-capital-compound-together:
     title: "Every firm must build two capitals — human capital and token capital — and they compound together, not at each other's expense"
     description: "Human capital is the knowledge, judgment, relationships, and pattern recognition of a firm's people; token capital is the AI capability it builds and owns — and human capital only becomes MORE valuable as token capital grows"
@@ -335,7 +398,7 @@ nodes:
     description: "GPT-5.3-Codex was instrumental in creating itself — recursive improvement compresses timelines and explains why building for obsolescence is the only safe strategy"
     topics: [future-of-ai-business, ai-agents]
     source: "@mattshumer_ (Matt Shumer) — Something Big Is Happening"
-    outgoing: [dont-be-the-discriminator-be-the-patron]
+    outgoing: [ai-strategy-is-a-self-rewriting-equation, building-in-ai-is-running-a-trading-book, dont-be-the-discriminator-be-the-patron]
 
   verification-multiplies-agent-output-quality:
     title: "Verification is the single highest-leverage practice for agent-assisted coding"
@@ -884,7 +947,7 @@ nodes:
     description: "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows"
     topics: [ai-native-product-architecture, ai-agents]
     source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
-    outgoing: [context-inefficiency-compounds-three-penalties, order-system-prompt-by-volatility-for-cache-reuse]
+    outgoing: [context-inefficiency-compounds-three-penalties, inference-time-compute-makes-cost-per-outcome-a-choice, order-system-prompt-by-volatility-for-cache-reuse]
 
   latent-demand-is-the-strongest-product-signal:
     title: "Latent demand is the strongest product signal — make the thing people already do easier"
@@ -1063,7 +1126,7 @@ nodes:
     description: "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off"
     topics: [ai-coding-tools, ai-native-product-architecture]
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
-    outgoing: [build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, tool-design-is-continuous-observation-see-like-an-agent]
+    outgoing: [ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, tool-design-is-continuous-observation-see-like-an-agent]
 
   scale-advantages-cascade-until-bureaucracy-kills-them:
     title: "Scale advantages cascade toward dominance until bureaucracy kills them"
@@ -1350,7 +1413,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform"
     source_file: sources/eoghan-fin-api-platform.md
-    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, reorganize-around-agents-dont-bolt-them-onto-old-workflows, sell-the-work-not-the-tool]
+    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, reorganize-around-agents-dont-bolt-them-onto-old-workflows, sell-the-work-not-the-tool, where-inference-runs-decides-margin-context-and-trust]
 
   self-improving-agents-overfit-to-eval-metrics:
     title: "Self-improving agents overfit to eval metrics — the meta-agent games rubrics unless structurally constrained"

@@ -52,3 +52,8 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[human-capital-and-token-capital-compound-together]] — Every firm builds two capitals; they compound, not substitute
 - [[model-portability-is-the-sovereignty-test]] — Swap the generalist model without losing company-veteran expertise = real IP control
 - [[a-frontier-without-an-ecosystem-is-not-stable]] — A frontier that concentrates all value isn't a stable equilibrium
+- [[price-of-intelligence-is-the-new-organizing-axis]] — Cost of intelligence is the axis labs, apps, and countries fight to set
+- [[layer-migration-is-the-real-threat-not-competition]] — Work relocates across layers, not lost to a competitor
+- [[inference-time-compute-makes-cost-per-outcome-a-choice]] — Token allocation is the application layer's counterattack on the labs
+- [[task-horizon-breaks-seat-based-pricing]] — Usage scales with workflow depth × length, not seats
+- [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device placement decides who captures margin and trust
