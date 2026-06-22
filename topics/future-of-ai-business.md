@@ -56,6 +56,7 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[platform-economics-beat-labor-arbitrage]] — Platform margins fund flywheels that BPO body shops cannot
 - [[proprietary-feedback-loops-widen-the-moat]] — Usage creates unreplicable data that widens the competitive moat
 - [[the-80-99-gap-is-where-ai-products-die]] — Demo accuracy and production reliability are infinitely far apart
+- [[the-first-enterprise-ai-sale-is-a-trust-sale]] — Enterprise AI is bought on de-risking and earned trust, not capability
 - [[software-bimodal-fork-growth-or-margins-no-middle]] — Comfortable middle is over; accelerate AI growth or rebuild for 40%+ margins
 - [[token-spend-replaces-headcount-as-scaling-unit]] — Cap headcount not compute; $1K/month token spend per engineer is table stakes
 - [[build-for-the-model-six-months-from-now]] — Today's PMF gets leapfrogged; build for where the model is heading

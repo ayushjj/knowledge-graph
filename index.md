@@ -24,6 +24,7 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[the-first-enterprise-ai-sale-is-a-trust-sale]] — enterprise AI is bought on de-risking and earned trust, not capability (2026-06-22)
 - [[choose-problems-backward-from-an-outcome-you-want]] — reasoning backward from a goal you want manufactures originality (2026-06-15)
 - [[taste-is-a-muscle-trained-by-forecasting]] — predict every result before you see it; forecast + correction trains the predictor in your head (2026-06-15)
 - [[differentiated-inputs-beat-the-shared-reading-list]] — shared inputs yield shared, worthless conclusions; old and cross-disciplinary material is underpriced (2026-06-15)
@@ -33,4 +34,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[engineering-and-research-have-fused-at-the-frontier]] — the researcher who builds the harness/eval/pipeline is the one whose ideas get tested (2026-06-15)
 - [[stare-at-raw-outputs-not-the-loss-curve]] — pull 100 failures and read every one; a metric you've never traced is unanchored (2026-06-15)
 - [[wander-across-subfields-before-you-settle]] — your first subfield is an accident of timing; breadth is insurance against saturation (2026-06-15)
-- [[price-of-intelligence-is-the-new-organizing-axis]] — cost of intelligence is the axis labs, apps, and countries reorganize around (2026-06-15)

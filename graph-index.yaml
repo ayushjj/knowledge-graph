@@ -11,7 +11,7 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-06-15
-node_count: 237
+node_count: 238
 domains: [ai, mental-models]
 
 nodes:
@@ -734,7 +734,7 @@ nodes:
     description: "When a human's agent consistently performs well, other team members inherit that trust and willingly depend on the agent, creating a credibility chain"
     topics: [ai-agents, future-of-ai-business]
     source: "@danshipper — Personal Software and AI Agents"
-    outgoing: [agent-memory-preserves-institutional-knowledge, agents-become-the-buyer, saas-survives-as-governance-and-coordination-layer]
+    outgoing: [agent-memory-preserves-institutional-knowledge, agents-become-the-buyer, saas-survives-as-governance-and-coordination-layer, the-first-enterprise-ai-sale-is-a-trust-sale]
 
   ask-for-no-not-yes-to-accelerate-decisions:
     title: "Ask for 'no' not 'yes' — default-proceed framing accelerates organizational decisions"
@@ -1365,7 +1365,16 @@ nodes:
     description: "Getting an AI system from 80% demo accuracy to 99% production reliability requires fundamentally different engineering than the first 80%"
     topics: [business-models, future-of-ai-business]
     source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
-    outgoing: [model-market-fit-before-product-market-fit, verification-is-a-red-queen-race, verification-multiplies-agent-output-quality]
+    outgoing: [model-market-fit-before-product-market-fit, verification-is-a-red-queen-race, verification-multiplies-agent-output-quality, the-first-enterprise-ai-sale-is-a-trust-sale]
+
+  the-first-enterprise-ai-sale-is-a-trust-sale:
+    title: "The first enterprise-AI sale is a trust sale — buyers judge de-risking, not capability"
+    description: "Early AI deployments are bought on reliability, control, and trust in real workflows; founders over-index on capability and under-index on de-risking the buyer"
+    topics: [business-models, future-of-ai-business]
+    source: "Shekhar Kirani (Accel India) — LinkedIn post on a conversation with Jason Graefe (Microsoft)"
+    source_file: sources/shekhar-kirani-enterprise-ai-trust-sale.md
+    domain: ai
+    outgoing: [the-80-99-gap-is-where-ai-products-die, agent-trust-transfers-from-human-credibility, model-market-fit-before-product-market-fit]
 
   time-bounded-evaluation-optimizes-for-usefulness:
     title: "Time-bounded evaluation forces optimization for real-world usefulness instead of idealized performance"
