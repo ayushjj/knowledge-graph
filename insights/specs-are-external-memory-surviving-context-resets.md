@@ -12,4 +12,6 @@ This is [[files-are-the-universal-agent-interface]] applied to project managemen
 
 The deeper claim: planning isn't overhead, it's the mechanism that makes agent-assisted development work. Upfront planning saves multiples of coding time because the plan itself becomes persistent context. This is why [[context-window-is-the-fundamental-constraint]] — specs files are how you cheat the constraint by offloading state to disk where it persists indefinitely.
 
+A spec surviving as memory is a different claim from a spec replacing the code as the thing you actually inspect, though the two get conflated in practice — [[specs-to-code-degrades-without-reading-the-code]] is the failure mode when a team treats the spec as sufficient on its own and stops looking at the generated code entirely: quality degrades with every rewrite-the-spec-and-regenerate cycle instead of staying flat.
+
 > **Note**: This insight was originally attributed to "Ashpreet Bedi — Spec-First Development" but that specific source could not be verified during a February 2026 audit. The spec-first pattern is widely practiced in the Claude Code community with implementations by AWS Kiro, GitHub's spec-kit, and others. Attribution updated to reflect the community origin. Specific PR metrics were removed as unsourced.

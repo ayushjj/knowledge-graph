@@ -16,6 +16,9 @@ Engineering with AI can compound: each iteration's learnings feed the next throu
 ### Verification Over Prompting
 The single highest-leverage practice isn't better prompts — it's giving the agent a way to check its own work. Tests, screenshots, subagent reviews — all are verification strategies that 2-3x quality.
 
+### Software Fundamentals Still Matter
+Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriting the spec while never reading the code compounds bad architecture instead of investing in it. Deep modules, TDD-forced small steps, and a shared ubiquitous-language file are the old-books answer (Ousterhout, The Pragmatic Programmer, DDD) to why a codebase is or isn't AI-legible — and why a shared design concept has to exist before any plan artifact does.
+
 ## Insights
 - [[declarative-beats-imperative-for-agents]] — Karpathy: success criteria > step-by-step instructions
 - [[technical-knowledge-becomes-liability]] — Implementation reflexes slow you down when agents handle the building
@@ -58,3 +61,8 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 - [[supervise-loops-from-a-leveraged-point-not-from-inside-them]] — Oversee many agent loops from a leveraged vantage, don't inspect each step
 - [[research-speed-is-the-rate-you-discover-youre-wrong]] — Tooling is a first-class research activity; one-command runs, config-reproducible, seconds to compare
 - [[engineering-and-research-have-fused-at-the-frontier]] — Building the harness/eval/pipeline is what gets your hypotheses tested, not a junior chore
+- [[bad-code-is-the-most-expensive-its-ever-been]] — A hard-to-change codebase blocks you from AI's full bounty; specs-to-code inverts "invest in system design daily"
+- [[specs-to-code-degrades-without-reading-the-code]] — Rewrite-the-spec-and-regenerate without reading code compounds worse code each cycle — vibe coding by another name
+- [[ubiquitous-language-file-reduces-ai-verbosity-and-drift]] — A DDD-style glossary file cuts AI verbosity and keeps implementation aligned with the plan
+- [[feedback-loop-speed-is-the-ais-speed-limit]] — LLMs outrun their headlights by default; TDD forces the small steps that keep generation inside what feedback can verify
+- [[deep-modules-make-codebases-ai-legible-and-testable]] — Ousterhout's deep-vs-shallow modules decide whether AI can navigate a codebase and whether you can gray-box delegate to it

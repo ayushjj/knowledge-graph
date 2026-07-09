@@ -724,7 +724,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 28,
+      "degree": 30,
       "domain": "ai"
     },
     {
@@ -776,7 +776,7 @@
       ],
       "source": "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)",
       "color": "#f43f5e",
-      "degree": 11,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -1174,7 +1174,7 @@
       ],
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1822,7 +1822,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -1860,7 +1860,7 @@
       ],
       "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
       "color": "#06b6d4",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai"
     },
     {
@@ -1873,7 +1873,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 25,
+      "degree": 27,
       "domain": "ai"
     },
     {
@@ -2172,7 +2172,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai"
     },
     {
@@ -2302,7 +2302,20 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
-      "degree": 6,
+      "degree": 8,
+      "domain": "ai"
+    },
+    {
+      "id": "the-first-enterprise-ai-sale-is-a-trust-sale",
+      "label": "The first enterprise-AI sale is a trust sale — buyers judge de-risking, not capability",
+      "description": "Early AI deployments are bought on reliability, control, and trust in real workflows; founders over-index on capability and under-index on de-risking the buyer",
+      "topics": [
+        "business-models",
+        "future-of-ai-business"
+      ],
+      "source": "Shekhar Kirani (Accel India) — LinkedIn post on a conversation with Jason Graefe (Microsoft)",
+      "color": "#10b981",
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -2341,7 +2354,7 @@
       ],
       "source": "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai"
     },
     {
@@ -3067,6 +3080,67 @@
       "color": "#eab308",
       "degree": 4,
       "domain": "mental-models"
+    },
+    {
+      "id": "bad-code-is-the-most-expensive-its-ever-been",
+      "label": "Bad code is the most expensive it's ever been",
+      "description": "The specs-to-code movement assumes code is cheap; the opposite is true — a hard-to-change codebase blocks you from the full bounty AI can offer, so architecture quality now matters more, not less",
+      "topics": [
+        "ai-coding-tools"
+      ],
+      "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai"
+    },
+    {
+      "id": "specs-to-code-degrades-without-reading-the-code",
+      "label": "Specs-to-code without reading the code is vibe coding by another name",
+      "description": "Iterating purely by rewriting the spec and re-running the compiler, while deliberately never inspecting the generated code, produces progressively worse code each cycle — an empirically observed failure mode, not a hypothetical one",
+      "topics": [
+        "ai-coding-tools"
+      ],
+      "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
+      "color": "#06b6d4",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "ubiquitous-language-file-reduces-ai-verbosity-and-drift",
+      "label": "A ubiquitous-language file cuts AI verbosity and keeps implementation aligned with the plan",
+      "description": "Borrowed from Domain-Driven Design: a shared markdown glossary of codebase terminology, kept open during planning, measurably reduced verbosity in the AI's thinking traces and improved plan-to-implementation alignment",
+      "topics": [
+        "ai-coding-tools",
+        "knowledge-systems"
+      ],
+      "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
+      "color": "#06b6d4",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "feedback-loop-speed-is-the-ais-speed-limit",
+      "label": "The rate of feedback is the AI's speed limit — TDD forces the small steps it won't take on its own",
+      "description": "LLMs 'outrun their headlights' by default, producing huge amounts of code before checking types or tests; TDD forces the small-step discipline that keeps generation inside what the feedback loop can actually verify",
+      "topics": [
+        "ai-coding-tools"
+      ],
+      "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
+      "color": "#06b6d4",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "deep-modules-make-codebases-ai-legible-and-testable",
+      "label": "Deep modules make a codebase both AI-legible and safe to gray-box",
+      "description": "Ousterhout's deep-vs-shallow-module distinction determines whether an AI can navigate a codebase at all, and whether a human can delegate implementation while reviewing only the interface",
+      "topics": [
+        "ai-coding-tools"
+      ],
+      "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
+      "color": "#06b6d4",
+      "degree": 8,
+      "domain": "ai"
     }
   ],
   "links": [
@@ -3916,6 +3990,10 @@
     },
     {
       "source": "verification-multiplies-agent-output-quality",
+      "target": "feedback-loop-speed-is-the-ais-speed-limit"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
       "target": "first-draft-pattern-is-killer-app-for-long-horizon-agents"
     },
     {
@@ -3997,6 +4075,10 @@
     {
       "source": "specs-are-external-memory-surviving-context-resets",
       "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "specs-are-external-memory-surviving-context-resets",
+      "target": "specs-to-code-degrades-without-reading-the-code"
     },
     {
       "source": "agents-learn-at-three-layers-model-harness-context",
@@ -4413,6 +4495,10 @@
     {
       "source": "agent-trust-transfers-from-human-credibility",
       "target": "saas-survives-as-governance-and-coordination-layer"
+    },
+    {
+      "source": "agent-trust-transfers-from-human-credibility",
+      "target": "the-first-enterprise-ai-sale-is-a-trust-sale"
     },
     {
       "source": "ask-for-no-not-yes-to-accelerate-decisions",
@@ -5180,6 +5266,10 @@
     },
     {
       "source": "harness-engineers-need-docs-as-first-class-output",
+      "target": "deep-modules-make-codebases-ai-legible-and-testable"
+    },
+    {
+      "source": "harness-engineers-need-docs-as-first-class-output",
       "target": "files-are-the-universal-agent-interface"
     },
     {
@@ -5205,6 +5295,10 @@
     {
       "source": "harness-quality-beats-model-intelligence",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
+      "target": "bad-code-is-the-most-expensive-its-ever-been"
     },
     {
       "source": "harness-quality-beats-model-intelligence",
@@ -5519,6 +5613,10 @@
       "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
+      "source": "claude-md-should-be-routing-table-not-knowledge-base",
+      "target": "ubiquitous-language-file-reduces-ai-verbosity-and-drift"
+    },
+    {
       "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
       "target": "agentic-search-beats-rag-for-live-codebases"
     },
@@ -5671,6 +5769,22 @@
       "target": "verification-multiplies-agent-output-quality"
     },
     {
+      "source": "the-80-99-gap-is-where-ai-products-die",
+      "target": "the-first-enterprise-ai-sale-is-a-trust-sale"
+    },
+    {
+      "source": "the-first-enterprise-ai-sale-is-a-trust-sale",
+      "target": "the-80-99-gap-is-where-ai-products-die"
+    },
+    {
+      "source": "the-first-enterprise-ai-sale-is-a-trust-sale",
+      "target": "agent-trust-transfers-from-human-credibility"
+    },
+    {
+      "source": "the-first-enterprise-ai-sale-is-a-trust-sale",
+      "target": "model-market-fit-before-product-market-fit"
+    },
+    {
       "source": "time-bounded-evaluation-optimizes-for-usefulness",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
@@ -5713,6 +5827,10 @@
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
       "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "ubiquitous-language-file-reduces-ai-verbosity-and-drift"
     },
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
@@ -6461,6 +6579,50 @@
     {
       "source": "peter-thiel-test-detects-actual-first-principles-thinking",
       "target": "reasoning-by-analogy-has-a-ceiling"
+    },
+    {
+      "source": "bad-code-is-the-most-expensive-its-ever-been",
+      "target": "deep-modules-make-codebases-ai-legible-and-testable"
+    },
+    {
+      "source": "bad-code-is-the-most-expensive-its-ever-been",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "bad-code-is-the-most-expensive-its-ever-been",
+      "target": "specs-are-external-memory-surviving-context-resets"
+    },
+    {
+      "source": "specs-to-code-degrades-without-reading-the-code",
+      "target": "bad-code-is-the-most-expensive-its-ever-been"
+    },
+    {
+      "source": "specs-to-code-degrades-without-reading-the-code",
+      "target": "deep-modules-make-codebases-ai-legible-and-testable"
+    },
+    {
+      "source": "ubiquitous-language-file-reduces-ai-verbosity-and-drift",
+      "target": "deep-modules-make-codebases-ai-legible-and-testable"
+    },
+    {
+      "source": "feedback-loop-speed-is-the-ais-speed-limit",
+      "target": "deep-modules-make-codebases-ai-legible-and-testable"
+    },
+    {
+      "source": "feedback-loop-speed-is-the-ais-speed-limit",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "deep-modules-make-codebases-ai-legible-and-testable",
+      "target": "bad-code-is-the-most-expensive-its-ever-been"
+    },
+    {
+      "source": "deep-modules-make-codebases-ai-legible-and-testable",
+      "target": "feedback-loop-speed-is-the-ais-speed-limit"
+    },
+    {
+      "source": "deep-modules-make-codebases-ai-legible-and-testable",
+      "target": "ubiquitous-language-file-reduces-ai-verbosity-and-drift"
     }
   ]
 }

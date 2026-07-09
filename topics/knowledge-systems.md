@@ -57,3 +57,4 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[writing-is-the-cheapest-defense-against-fooling-yourself]] — Writing exposes untested assumptions; Darwin logged disconfirming facts on the spot
 - [[clear-explanation-is-a-contribution-and-a-credential]] — A clear public explanation is real work and an unfakeable sample of how you think
 - [[stare-at-raw-outputs-not-the-loss-curve]] — Pull 100 failures and read every one; a metric you've never traced is unanchored
+- [[ubiquitous-language-file-reduces-ai-verbosity-and-drift]] — A DDD-style glossary file cuts AI verbosity and keeps implementation aligned with the plan
