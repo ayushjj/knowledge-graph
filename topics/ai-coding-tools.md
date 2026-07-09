@@ -69,3 +69,5 @@ Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriti
 - [[system-prompt-guardrails-become-constraints-as-models-get-more-imaginative]] — Claude Code cut 80% of its system prompt because examples built for a weaker model started capping a smarter one
 - [[models-are-grown-not-designed-treat-fable-empirically]] — Capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics
 - [[capability-overhang-tools-unlock-latent-model-ability]] — A model can already know the answer and still fail to produce it until a tool lets it act on what it knows
+- [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
+- [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions

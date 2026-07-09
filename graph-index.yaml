@@ -11,7 +11,7 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-07-09
-node_count: 249
+node_count: 251
 domains: [ai, mental-models]
 
 nodes:
@@ -451,7 +451,7 @@ nodes:
     description: "Give agents success criteria and watch them go — don't tell them what to do step by step"
     topics: [ai-agents, ai-coding-tools]
     source: "Andrej Karpathy — Coding Observations"
-    outgoing: [features-are-prompts-not-code, technical-knowledge-becomes-liability]
+    outgoing: [features-are-prompts-not-code, symmetric-failure-of-over-and-under-specified-instructions, technical-knowledge-becomes-liability]
 
   ui-moat-collapses-api-becomes-purchasing-criterion:
     title: "The UI moat collapses — API quality becomes the purchasing criterion"
@@ -1908,7 +1908,7 @@ nodes:
     source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
-    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence]
+    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]
 
   system-prompt-guardrails-become-constraints-as-models-get-more-imaginative:
     title: "System-prompt guardrails built for a weaker model become constraints on a more imaginative one"
@@ -1926,7 +1926,7 @@ nodes:
     source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
-    outgoing: [adversarial-branch-walking-beats-review-for-planning, models-are-grown-not-designed-treat-fable-empirically]
+    outgoing: [adversarial-branch-walking-beats-review-for-planning, models-are-grown-not-designed-treat-fable-empirically, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding, symmetric-failure-of-over-and-under-specified-instructions]
 
   force-reality-to-reveal-the-tradeoff-instead-of-presuming-one:
     title: "Don't presume the tradeoff — do all of it and force reality to show you where the real constraint is"
@@ -1945,3 +1945,21 @@ nodes:
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
     outgoing: [force-reality-to-reveal-the-tradeoff-instead-of-presuming-one, verification-multiplies-agent-output-quality]
+
+  reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding:
+    title: "Reducing your unknowns is the trainable skill of agentic coding — and the agent itself is how you train it"
+    description: "Expert prompts aren't better because they're more detailed; they're better because they leave fewer unknowns open, and you get better at anticipating your own unknowns specifically by working with the agent"
+    topics: [ai-agents, ai-coding-tools]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns"
+    source_file: sources/thariq-a-field-guide-to-claude-fable-finding-your-unknowns.md
+    domain: ai
+    outgoing: [capability-overhang-tools-unlock-latent-model-ability, map-is-not-the-territory-unknowns-are-the-real-bottleneck]
+
+  symmetric-failure-of-over-and-under-specified-instructions:
+    title: "You fail both ways: over-specified instructions block a needed pivot, under-specified ones default to the wrong assumptions"
+    description: "Being too precise stops an agent from deviating even when deviation is correct; being too vague lets it fall back on generic best-practice defaults that may not fit — both failures trace to not having accounted for your own unknowns"
+    topics: [ai-agents, ai-coding-tools]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns"
+    source_file: sources/thariq-a-field-guide-to-claude-fable-finding-your-unknowns.md
+    domain: ai
+    outgoing: [declarative-beats-imperative-for-agents, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]

@@ -24,6 +24,8 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — expert prompts leave fewer unknowns open, and working with the agent is how you train that skill (2026-07-09)
+- [[symmetric-failure-of-over-and-under-specified-instructions]] — over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions (2026-07-09)
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — the plan in your head is the map, the codebase is the territory; a capable-enough agent covers more territory per session, so finding your unknowns becomes the bottleneck (2026-07-09)
 - [[capability-overhang-tools-unlock-latent-model-ability]] — a model can already "know" the answer and still fail to produce it until a tool lets it act on what it knows (2026-07-09)
 - [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — don't pre-rank priorities; attempt everything and let reality show you the real constraint (2026-07-09)
@@ -32,5 +34,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[models-are-grown-not-designed-treat-fable-empirically]] — capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics (2026-07-09)
 - [[bad-code-is-the-most-expensive-its-ever-been]] — a hard-to-change codebase blocks you from AI's full bounty; good architecture is now higher-leverage, not lower (2026-07-09)
 - [[deep-modules-make-codebases-ai-legible-and-testable]] — Ousterhout's deep-vs-shallow modules decide whether AI can navigate a codebase and whether you can gray-box delegate to it (2026-07-09)
-- [[feedback-loop-speed-is-the-ais-speed-limit]] — LLMs outrun their headlights by default; TDD forces the small steps that keep generation inside what feedback can verify (2026-07-09)
-- [[ubiquitous-language-file-reduces-ai-verbosity-and-drift]] — a DDD-style glossary file cuts AI verbosity and keeps implementation aligned with the plan (2026-07-09)

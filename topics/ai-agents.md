@@ -129,3 +129,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[models-are-grown-not-designed-treat-fable-empirically]] — Capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics
 - [[capability-overhang-tools-unlock-latent-model-ability]] — A model can already know the answer and still fail to produce it until a tool lets it act on what it knows
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — The plan is the map, the codebase is the territory; a capable-enough agent covers more territory, so finding your unknowns becomes the bottleneck
+- [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
+- [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions

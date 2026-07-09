@@ -660,7 +660,7 @@
       ],
       "source": "Andrej Karpathy — Coding Observations",
       "color": "#6366f1",
-      "degree": 13,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -3165,7 +3165,7 @@
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -3190,7 +3190,7 @@
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -3216,6 +3216,32 @@
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
+      "label": "Reducing your unknowns is the trainable skill of agentic coding — and the agent itself is how you train it",
+      "description": "Expert prompts aren't better because they're more detailed; they're better because they leave fewer unknowns open, and you get better at anticipating your own unknowns specifically by working with the agent",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "symmetric-failure-of-over-and-under-specified-instructions",
+      "label": "You fail both ways: over-specified instructions block a needed pivot, under-specified ones default to the wrong assumptions",
+      "description": "Being too precise stops an agent from deviating even when deviation is correct; being too vague lets it fall back on generic best-practice defaults that may not fit — both failures trace to not having accounted for your own unknowns",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns",
+      "color": "#6366f1",
       "degree": 4,
       "domain": "ai"
     }
@@ -4008,6 +4034,10 @@
     {
       "source": "declarative-beats-imperative-for-agents",
       "target": "features-are-prompts-not-code"
+    },
+    {
+      "source": "declarative-beats-imperative-for-agents",
+      "target": "symmetric-failure-of-over-and-under-specified-instructions"
     },
     {
       "source": "declarative-beats-imperative-for-agents",
@@ -6746,6 +6776,10 @@
       "target": "harness-quality-beats-model-intelligence"
     },
     {
+      "source": "capability-overhang-tools-unlock-latent-model-ability",
+      "target": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding"
+    },
+    {
       "source": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
       "target": "build-for-the-model-six-months-from-now"
     },
@@ -6762,6 +6796,14 @@
       "target": "models-are-grown-not-designed-treat-fable-empirically"
     },
     {
+      "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
+      "target": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding"
+    },
+    {
+      "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
+      "target": "symmetric-failure-of-over-and-under-specified-instructions"
+    },
+    {
       "source": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
       "target": "building-is-easier-but-generating-value-is-still-hard"
     },
@@ -6776,6 +6818,22 @@
     {
       "source": "building-is-easier-but-generating-value-is-still-hard",
       "target": "verification-multiplies-agent-output-quality"
+    },
+    {
+      "source": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
+      "target": "capability-overhang-tools-unlock-latent-model-ability"
+    },
+    {
+      "source": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
+      "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
+    },
+    {
+      "source": "symmetric-failure-of-over-and-under-specified-instructions",
+      "target": "declarative-beats-imperative-for-agents"
+    },
+    {
+      "source": "symmetric-failure-of-over-and-under-specified-instructions",
+      "target": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding"
     }
   ]
 }
