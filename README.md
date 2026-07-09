@@ -2,7 +2,7 @@
 
 [![Live Site](https://img.shields.io/badge/Live_Site-ayushjj.github.io-blue)](https://ayushjj.github.io/knowledge-graph/) [![Last Commit](https://img.shields.io/github/last-commit/ayushjj/knowledge-graph)](https://github.com/ayushjj/knowledge-graph/commits/master) [![CI](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml/badge.svg)](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml)
 
-**243 insights · 14 topics · 25+ sources · updated weekly**
+**249 insights · 14 topics · 25+ sources · updated weekly**
 
 > Munger says you can't really know anything useful by remembering isolated facts — they must hang on a latticework of theory. I was doing exactly that with AI articles: isolated facts scattered across dozens of chat threads, rediscovered months later with no connection between them.
 
@@ -18,7 +18,7 @@ The agent use case works particularly well. The human browsing UX is catching up
 
 ## What's in it
 
-243+ insights across 2 domains, updated weekly as I encounter new ideas:
+249+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building** (6 topics): Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 
@@ -40,7 +40,7 @@ The agent use case works particularly well. The human browsing UX is catching up
 
 ### 2. Feed it to an AI agent
 
-This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 243+ nodes, descriptions, and connections.
+This is where the real value is today. Point Claude Code (or any AI agent) at `graph-index.yaml` — one YAML file with all 249+ nodes, descriptions, and connections.
 
 ```yaml
 # Add this one line to your CLAUDE.md:
@@ -77,7 +77,7 @@ knowledge-graph/
 │   ├── ai-agents.md
 │   ├── business-models.md
 │   └── ...
-└── insights/             # 243+ individual insight files
+└── insights/             # 249+ individual insight files
     ├── context-is-the-product-not-the-model.md
     ├── features-are-prompts-not-code.md
     └── ...
@@ -102,6 +102,7 @@ These ideas belong to the people below — I'm just the curator who connected th
 - **Gowri Shankar Nag ([@GowriShankarNag](https://twitter.com/GowriShankarNag))** — Antler India, AI labeling market dynamics, platform economics
 - **Aparna Dhinakaran ([@aparnadhinak](https://twitter.com/aparnadhinak))** — Agent harness architecture, tracing data architectures, eval/trace co-location
 - **[Matt Pocock](https://twitter.com/mattpocockuk)** — Software fundamentals in the AI era, planning-before-code, deep modules, TDD
+- **[Thariq Shihipar](https://twitter.com/trq212)** — Claude Code team, capability overhang, finding your unknowns, tradeoffs-not-real
 
 **Single-insight contributors:**
 
@@ -124,7 +125,6 @@ Kushal Byatnal ·
 [Heinrich](https://twitter.com/arscontexta) ·
 [shadcn](https://twitter.com/shadcn) ·
 [Zain Hoda](https://twitter.com/zain_hoda) ·
-[Thariq](https://twitter.com/trq212) ·
 Databricks ·
 [Konstantine Buhler](https://twitter.com/Konstantine) ·
 [VectifyAI](https://github.com/VectifyAI/PageIndex) ·

@@ -1,0 +1,13 @@
+---
+title: "The model already knows the answer — it just can't reach it without the right tool"
+description: "A model can hold all the facts needed to answer a question and still fail to produce the answer — until it's given a tool (code execution, a bash environment) that lets it act on what it already knows"
+topics: [ai-agents, ai-coding-tools]
+source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+source_file: "sources/thariq-field-guide-to-fable.md"
+date: 2026-07-09
+domain: ai
+---
+
+Thariq Shihipar's illustration: a viral question asked "why can't LLMs say which Pokémon end in AW?" — of a thousand Pokémon, two names end in AW (Croconaw and Drednaw). A normal chat model can't answer, "which is kind of confusing because it definitely knows all the names of the Pokémon." But Claude Code can, because "it fetches every Pokémon and writes a script to filter for AW." Anthropic calls this gap capability overhang: "Claude gets smarter in spiky ways" — the knowledge was already there, but reasoning through a thousand names by pure recall-and-filter isn't reliable, while writing a filter script is. Give it the tool, and dormant capability becomes usable capability.
+
+The same pattern shows up in Claude Code's own origin story: chat models "had to be given context" and the naive fix was a bigger context window, but "if you give it arms" — the bash tool, the ability to search its own environment — "it can build and search its own context" instead. And Claude Tag's unlock wasn't more knowledge either, it was the ability "to work proactively in multiplayer." In each case the ceiling wasn't what the model knew, it was what the model could act on. This is the same claim as [[harness-quality-beats-model-intelligence]] approached from the model-capability side rather than the product-engineering side: the harness doesn't just make an agent more reliable, it can be the entire difference between a model that "knows" something and one that can demonstrate it. It's also why [[build-for-the-model-six-months-from-now]] is a coherent strategy rather than a guess — the overhang is already latent in the current model, waiting on the right tool to surface it, not on a future training run.

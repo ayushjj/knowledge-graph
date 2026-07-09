@@ -85,3 +85,5 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[clear-explanation-is-a-contribution-and-a-credential]] — Public writing compounds sideways into collaborations, references, and roles
 - [[engineering-and-research-have-fused-at-the-frontier]] — The researcher who builds the harness/eval/pipeline is the one whose ideas get tested
 - [[wander-across-subfields-before-you-settle]] — Subfields saturate right after they peak; breadth carries you through transitions, not a fixed plan
+- [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint
+- [[building-is-easier-but-generating-value-is-still-hard]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed

@@ -10,7 +10,7 @@
       ],
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
-      "degree": 5,
+      "degree": 7,
       "domain": "mental-models"
     },
     {
@@ -724,7 +724,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 30,
+      "degree": 32,
       "domain": "ai"
     },
     {
@@ -1434,7 +1434,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 11,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -1873,7 +1873,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 27,
+      "degree": 29,
       "domain": "ai"
     },
     {
@@ -2016,7 +2016,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 15,
+      "degree": 17,
       "domain": "ai"
     },
     {
@@ -2354,7 +2354,7 @@
       ],
       "source": "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)",
       "color": "#06b6d4",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -3141,6 +3141,83 @@
       "color": "#06b6d4",
       "degree": 8,
       "domain": "ai"
+    },
+    {
+      "id": "models-are-grown-not-designed-treat-fable-empirically",
+      "label": "Models are grown, not designed — treat a new model class as biology, not physics",
+      "description": "You don't design a 99%-on-SWE-bench target and build to spec; you grow the model with data, feedback, and compute, then discover empirically what it can do — the same empirical stance has to carry over to how you work with it",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "capability-overhang-tools-unlock-latent-model-ability",
+      "label": "The model already knows the answer — it just can't reach it without the right tool",
+      "description": "A model can hold all the facts needed to answer a question and still fail to produce the answer — until it's given a tool (code execution, a bash environment) that lets it act on what it already knows",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai"
+    },
+    {
+      "id": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
+      "label": "System-prompt guardrails built for a weaker model become constraints on a more imaginative one",
+      "description": "Claude Code removed 80% of its system prompt because examples that once taught a weaker model started capping a stronger, more imaginative one — the fix was giving context instead of constraints",
+      "topics": [
+        "ai-coding-tools"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
+      "color": "#06b6d4",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
+      "label": "The map is not the territory — with a capable-enough agent, finding your unknowns becomes the real bottleneck",
+      "description": "The plan/prompt/spec in your head is the map; the actual codebase and real-world constraints are the territory; wherever the agent hits territory your map didn't cover, that's an unknown it now has to resolve on its own",
+      "topics": [
+        "ai-agents",
+        "decision-making"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
+      "label": "Don't presume the tradeoff — do all of it and force reality to show you where the real constraint is",
+      "description": "Anthropic's cultural belief that tradeoffs are not real: instead of reasonably ranking priorities against each other in advance, attempt everything and let reality — not your own assumption — reveal what actually can't be done",
+      "topics": [
+        "future-of-ai-business",
+        "decision-making"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "building-is-easier-but-generating-value-is-still-hard",
+      "label": "Building is easier now, but generating value is still hard",
+      "description": "Agent-era tooling collapses build time, which tempts AI engineers to over-invest in process and setup; the scarce resource was never construction speed, it's finding what's actually valuable, and that still takes many tries",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
+      "color": "#f59e0b",
+      "degree": 4,
+      "domain": "ai"
     }
   ],
   "links": [
@@ -3151,6 +3228,10 @@
     {
       "source": "choose-problems-backward-from-an-outcome-you-want",
       "target": "first-principles-thinking-is-responsibility-taking"
+    },
+    {
+      "source": "choose-problems-backward-from-an-outcome-you-want",
+      "target": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one"
     },
     {
       "source": "choose-problems-backward-from-an-outcome-you-want",
@@ -3979,6 +4060,10 @@
     {
       "source": "ai-self-improvement-loop-accelerates-everything",
       "target": "dont-be-the-discriminator-be-the-patron"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "building-is-easier-but-generating-value-is-still-hard"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -4822,11 +4907,19 @@
     },
     {
       "source": "build-for-the-model-six-months-from-now",
+      "target": "capability-overhang-tools-unlock-latent-model-ability"
+    },
+    {
+      "source": "build-for-the-model-six-months-from-now",
       "target": "frontier-companies-absorb-every-useful-agentic-pattern"
     },
     {
       "source": "build-for-the-model-six-months-from-now",
       "target": "model-market-fit-before-product-market-fit"
+    },
+    {
+      "source": "build-for-the-model-six-months-from-now",
+      "target": "models-are-grown-not-designed-treat-fable-empirically"
     },
     {
       "source": "build-for-the-model-six-months-from-now",
@@ -5302,6 +5395,10 @@
     },
     {
       "source": "harness-quality-beats-model-intelligence",
+      "target": "capability-overhang-tools-unlock-latent-model-ability"
+    },
+    {
+      "source": "harness-quality-beats-model-intelligence",
       "target": "compound-engineering-makes-future-work-easier"
     },
     {
@@ -5479,6 +5576,10 @@
     {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
       "target": "sand-vs-stone-separates-durable-from-disposable-product-value"
+    },
+    {
+      "source": "scaffolding-is-tech-debt-against-the-next-model",
+      "target": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative"
     },
     {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
@@ -5827,6 +5928,10 @@
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
       "target": "invert-always-invert-to-solve-hard-problems"
+    },
+    {
+      "source": "adversarial-branch-walking-beats-review-for-planning",
+      "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
     },
     {
       "source": "adversarial-branch-walking-beats-review-for-planning",
@@ -6623,6 +6728,54 @@
     {
       "source": "deep-modules-make-codebases-ai-legible-and-testable",
       "target": "ubiquitous-language-file-reduces-ai-verbosity-and-drift"
+    },
+    {
+      "source": "models-are-grown-not-designed-treat-fable-empirically",
+      "target": "capability-overhang-tools-unlock-latent-model-ability"
+    },
+    {
+      "source": "models-are-grown-not-designed-treat-fable-empirically",
+      "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
+    },
+    {
+      "source": "capability-overhang-tools-unlock-latent-model-ability",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "capability-overhang-tools-unlock-latent-model-ability",
+      "target": "harness-quality-beats-model-intelligence"
+    },
+    {
+      "source": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
+      "target": "build-for-the-model-six-months-from-now"
+    },
+    {
+      "source": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
+      "target": "scaffolding-is-tech-debt-against-the-next-model"
+    },
+    {
+      "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
+      "target": "adversarial-branch-walking-beats-review-for-planning"
+    },
+    {
+      "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
+      "target": "models-are-grown-not-designed-treat-fable-empirically"
+    },
+    {
+      "source": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
+      "target": "building-is-easier-but-generating-value-is-still-hard"
+    },
+    {
+      "source": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
+      "target": "choose-problems-backward-from-an-outcome-you-want"
+    },
+    {
+      "source": "building-is-easier-but-generating-value-is-still-hard",
+      "target": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one"
+    },
+    {
+      "source": "building-is-easier-but-generating-value-is-still-hard",
+      "target": "verification-multiplies-agent-output-quality"
     }
   ]
 }

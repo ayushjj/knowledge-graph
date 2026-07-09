@@ -54,3 +54,5 @@ Research is not an innate gift but a stack of deliberately trainable sub-skills 
 - [[differentiated-inputs-beat-the-shared-reading-list]] — Shared inputs produce shared, worthless conclusions; old and cross-disciplinary material is underpriced
 - [[writing-is-the-cheapest-defense-against-fooling-yourself]] — The page finds the gaps your head papers over; log disconfirming evidence on the spot
 - [[wander-across-subfields-before-you-settle]] — Your first subfield is an accident of timing; breadth is insurance against saturation
+- [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — The plan is the map, the codebase is the territory; a capable-enough agent covers more territory, so finding your unknowns becomes the bottleneck
+- [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint

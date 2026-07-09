@@ -66,3 +66,6 @@ Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriti
 - [[ubiquitous-language-file-reduces-ai-verbosity-and-drift]] — A DDD-style glossary file cuts AI verbosity and keeps implementation aligned with the plan
 - [[feedback-loop-speed-is-the-ais-speed-limit]] — LLMs outrun their headlights by default; TDD forces the small steps that keep generation inside what feedback can verify
 - [[deep-modules-make-codebases-ai-legible-and-testable]] — Ousterhout's deep-vs-shallow modules decide whether AI can navigate a codebase and whether you can gray-box delegate to it
+- [[system-prompt-guardrails-become-constraints-as-models-get-more-imaginative]] — Claude Code cut 80% of its system prompt because examples built for a weaker model started capping a smarter one
+- [[models-are-grown-not-designed-treat-fable-empirically]] — Capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics
+- [[capability-overhang-tools-unlock-latent-model-ability]] — A model can already know the answer and still fail to produce it until a tool lets it act on what it knows

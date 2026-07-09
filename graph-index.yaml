@@ -11,7 +11,7 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-07-09
-node_count: 243
+node_count: 249
 domains: [ai, mental-models]
 
 nodes:
@@ -22,7 +22,7 @@ nodes:
     source: "@itsreallyvivek (vivek) — how to be good at research"
     source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
     domain: ai
-    outgoing: [differentiated-inputs-beat-the-shared-reading-list, first-principles-thinking-is-responsibility-taking, peter-thiel-test-detects-actual-first-principles-thinking, reasoning-by-analogy-has-a-ceiling]
+    outgoing: [differentiated-inputs-beat-the-shared-reading-list, first-principles-thinking-is-responsibility-taking, force-reality-to-reveal-the-tradeoff-instead-of-presuming-one, peter-thiel-test-detects-actual-first-principles-thinking, reasoning-by-analogy-has-a-ceiling]
 
   taste-is-a-muscle-trained-by-forecasting:
     title: "Taste is a muscle, not a gift — train it by forecasting every result before you see it"
@@ -486,7 +486,7 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
+    outgoing: [building-is-easier-but-generating-value-is-still-hard, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -881,7 +881,7 @@ nodes:
     description: "AI product builders should target the capability frontier the model hasn't reached yet, because today's PMF gets leapfrogged when the next model ships"
     topics: [ai-coding-tools, future-of-ai-business]
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
-    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, model-market-fit-before-product-market-fit, scaffolding-is-tech-debt-against-the-next-model]
+    outgoing: [capability-overhang-tools-unlock-latent-model-ability, frontier-companies-absorb-every-useful-agentic-pattern, model-market-fit-before-product-market-fit, models-are-grown-not-designed-treat-fable-empirically, scaffolding-is-tech-debt-against-the-next-model]
 
   building-beats-following-for-ai-mastery:
     title: "Building real projects teaches AI skills faster than following structured curricula"
@@ -1130,7 +1130,7 @@ nodes:
     description: "The surrounding machinery — metrics, rollback, scoping, observability — determines autonomous system performance more than model capability"
     topics: [ai-agents, ai-native-product-architecture]
     source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
-    outgoing: [agents-learn-at-three-layers-model-harness-context, autonomous-loops-need-small-stories-and-fast-feedback, bad-code-is-the-most-expensive-its-ever-been, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, intelligence-location-determines-system-fragility, meta-agents-beat-manual-harness-engineering, open-harnesses-with-owned-databases-prevent-model-provider-lock-in, verification-multiplies-agent-output-quality]
+    outgoing: [agents-learn-at-three-layers-model-harness-context, autonomous-loops-need-small-stories-and-fast-feedback, bad-code-is-the-most-expensive-its-ever-been, capability-overhang-tools-unlock-latent-model-ability, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, intelligence-location-determines-system-fragility, meta-agents-beat-manual-harness-engineering, open-harnesses-with-owned-databases-prevent-model-provider-lock-in, verification-multiplies-agent-output-quality]
 
   multi-model-orchestration-beats-any-single-family:
     title: "AI is the computer — orchestration across 19 models is the product, not any single model"
@@ -1207,7 +1207,7 @@ nodes:
     description: "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off"
     topics: [ai-coding-tools, ai-native-product-architecture]
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
-    outgoing: [ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, tool-design-is-continuous-observation-see-like-an-agent]
+    outgoing: [ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, system-prompt-guardrails-become-constraints-as-models-get-more-imaginative, tool-design-is-continuous-observation-see-like-an-agent]
 
   scale-advantages-cascade-until-bureaucracy-kills-them:
     title: "Scale advantages cascade toward dominance until bureaucracy kills them"
@@ -1395,7 +1395,7 @@ nodes:
     description: "The most effective planning intervention is not post-hoc review or divergent brainstorming but convergent, exhaustive questioning that traverses each branch of the decision tree with recommended answers"
     topics: [ai-coding-tools, decision-making]
     source: "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)"
-    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, first-conclusions-become-nearly-permanent, invert-always-invert-to-solve-hard-problems, ubiquitous-language-file-reduces-ai-verbosity-and-drift, verification-multiplies-agent-output-quality]
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, first-conclusions-become-nearly-permanent, invert-always-invert-to-solve-hard-problems, map-is-not-the-territory-unknowns-are-the-real-bottleneck, ubiquitous-language-file-reduces-ai-verbosity-and-drift, verification-multiplies-agent-output-quality]
 
   detect-everything-notify-selectively:
     title: "Detect everything, notify selectively — the observability-to-notification ratio determines system trust"
@@ -1891,3 +1891,57 @@ nodes:
     source_file: sources/mattpocock-software-fundamentals-matter-more-than-ever.md
     domain: ai
     outgoing: [bad-code-is-the-most-expensive-its-ever-been, feedback-loop-speed-is-the-ais-speed-limit, ubiquitous-language-file-reduces-ai-verbosity-and-drift]
+
+  models-are-grown-not-designed-treat-fable-empirically:
+    title: "Models are grown, not designed — treat a new model class as biology, not physics"
+    description: "You don't design a 99%-on-SWE-bench target and build to spec; you grow the model with data, feedback, and compute, then discover empirically what it can do — the same empirical stance has to carry over to how you work with it"
+    topics: [ai-agents, ai-coding-tools]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+    source_file: sources/thariq-field-guide-to-fable.md
+    domain: ai
+    outgoing: [capability-overhang-tools-unlock-latent-model-ability, map-is-not-the-territory-unknowns-are-the-real-bottleneck]
+
+  capability-overhang-tools-unlock-latent-model-ability:
+    title: "The model already knows the answer — it just can't reach it without the right tool"
+    description: "A model can hold all the facts needed to answer a question and still fail to produce the answer — until it's given a tool (code execution, a bash environment) that lets it act on what it already knows"
+    topics: [ai-agents, ai-coding-tools]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+    source_file: sources/thariq-field-guide-to-fable.md
+    domain: ai
+    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence]
+
+  system-prompt-guardrails-become-constraints-as-models-get-more-imaginative:
+    title: "System-prompt guardrails built for a weaker model become constraints on a more imaginative one"
+    description: "Claude Code removed 80% of its system prompt because examples that once taught a weaker model started capping a stronger, more imaginative one — the fix was giving context instead of constraints"
+    topics: [ai-coding-tools]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+    source_file: sources/thariq-field-guide-to-fable.md
+    domain: ai
+    outgoing: [build-for-the-model-six-months-from-now, scaffolding-is-tech-debt-against-the-next-model]
+
+  map-is-not-the-territory-unknowns-are-the-real-bottleneck:
+    title: "The map is not the territory — with a capable-enough agent, finding your unknowns becomes the real bottleneck"
+    description: "The plan/prompt/spec in your head is the map; the actual codebase and real-world constraints are the territory; wherever the agent hits territory your map didn't cover, that's an unknown it now has to resolve on its own"
+    topics: [ai-agents, decision-making]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+    source_file: sources/thariq-field-guide-to-fable.md
+    domain: ai
+    outgoing: [adversarial-branch-walking-beats-review-for-planning, models-are-grown-not-designed-treat-fable-empirically]
+
+  force-reality-to-reveal-the-tradeoff-instead-of-presuming-one:
+    title: "Don't presume the tradeoff — do all of it and force reality to show you where the real constraint is"
+    description: "Anthropic's cultural belief that tradeoffs are not real: instead of reasonably ranking priorities against each other in advance, attempt everything and let reality — not your own assumption — reveal what actually can't be done"
+    topics: [future-of-ai-business, decision-making]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+    source_file: sources/thariq-field-guide-to-fable.md
+    domain: ai
+    outgoing: [building-is-easier-but-generating-value-is-still-hard, choose-problems-backward-from-an-outcome-you-want]
+
+  building-is-easier-but-generating-value-is-still-hard:
+    title: "Building is easier now, but generating value is still hard"
+    description: "Agent-era tooling collapses build time, which tempts AI engineers to over-invest in process and setup; the scarce resource was never construction speed, it's finding what's actually valuable, and that still takes many tries"
+    topics: [future-of-ai-business, business-models]
+    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
+    source_file: sources/thariq-field-guide-to-fable.md
+    domain: ai
+    outgoing: [force-reality-to-reveal-the-tradeoff-instead-of-presuming-one, verification-multiplies-agent-output-quality]

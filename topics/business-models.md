@@ -58,3 +58,4 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[inference-time-compute-makes-cost-per-outcome-a-choice]] — Token allocation is the application layer's counterattack on the labs
 - [[task-horizon-breaks-seat-based-pricing]] — Usage scales with workflow depth × length, not seats
 - [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device placement decides who captures margin and trust
+- [[building-is-easier-but-generating-value-is-still-hard]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
