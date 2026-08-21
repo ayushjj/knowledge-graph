@@ -6,7 +6,7 @@ The `/audit-project` run against this repo scored 73% (45.5/62) — strong in ar
 
 ## Current Behavior
 
-- **Testing**: `validate-graph.sh` runs 7 structural checks. `astro check` does type checking. Both run in CI. But there are zero project-specific tests — no unit tests for `build-graph.js`, `remark-wikilinks.ts`, or `graph.ts`. Regressions in these files can only be caught by the downstream effects (broken build or broken links).
+- **Testing**: <!-- SUPERSEDED 2026-08-21: validate-graph.sh was replaced by validate-graph.js on 2026-04-03 and deleted 2026-08-21; the "zero project-specific tests" claim below was closed by the 18 vitest tests in tests/. --> `validate-graph.sh` runs 7 structural checks. `astro check` does type checking. Both run in CI. But there are zero project-specific tests — no unit tests for `build-graph.js`, `remark-wikilinks.ts`, or `graph.ts`. Regressions in these files can only be caught by the downstream effects (broken build or broken links).
 - **Telemetry**: No tracking of token usage, skill duration, error rates, or cost per invocation. Optimization decisions are based on feel ("this session felt long") rather than data.
 - **Feedback loops**: The web site has no analytics. The compound engineering loop (`/wrap`, mistake patterns, principles) is manually maintained. No automated capture of skill success/failure rates.
 
@@ -42,7 +42,7 @@ Add `vitest` and write targeted tests for the three critical modules:
 1. `build-graph.js` — verify output shape (nodes array, links array, all required fields)
 2. `src/lib/remark-wikilinks.ts` — verify `[[slug]]` → `<a href="/knowledge-graph/insight/slug">` transformation
 3. `src/lib/graph.ts` — verify degree calculations, connection lookups
-4. `validate-graph.sh` — verify it catches known-bad YAML (optional, harder to test)
+4. ~~`validate-graph.sh` — verify it catches known-bad YAML (optional, harder to test)~~ — **DONE differently, 2026-08-21**: the file is gone; `tests/readme-counts.test.ts` now table-tests the count-scanning logic of `validate-graph.js`, including mutation-verified positive controls.
 
 Add `vitest run` to `npm run check` and CI pipeline.
 
