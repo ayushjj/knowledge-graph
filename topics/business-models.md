@@ -59,3 +59,6 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[task-horizon-breaks-seat-based-pricing]] — Usage scales with workflow depth × length, not seats
 - [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device placement decides who captures margin and trust
 - [[building-is-easier-but-generating-value-is-still-hard]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
+- [[token-maxing-buys-lead-time-not-efficiency]] — Deliberate inference overspend as a founder-level strategy, not a product-margin decision
+- [[institutional-slowness-is-the-runway-not-the-threat]] — Bureaucracy and 7±2 give builders a ~20-year window; incumbents have real structural moats
+- [[experience-times-agent-multiplier-favors-veteran-founders]] — The multiplier applies to whatever judgment it is given, so knowing what to build is the scarce half

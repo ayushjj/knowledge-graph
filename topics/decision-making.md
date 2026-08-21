@@ -56,3 +56,4 @@ Research is not an innate gift but a stack of deliberately trainable sub-skills 
 - [[wander-across-subfields-before-you-settle]] — Your first subfield is an accident of timing; breadth is insurance against saturation
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — The plan is the map, the codebase is the territory; a capable-enough agent covers more territory, so finding your unknowns becomes the bottleneck
 - [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint
+- [[if-you-can-find-the-edge-it-isnt-interesting-enough]] — A test for whether a field is worth entering, credited to Chris Dixon

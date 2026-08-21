@@ -10,7 +10,7 @@
       ],
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
-      "degree": 7,
+      "degree": 9,
       "domain": "mental-models"
     },
     {
@@ -23,7 +23,7 @@
       ],
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
-      "degree": 5,
+      "degree": 6,
       "domain": "mental-models"
     },
     {
@@ -114,7 +114,7 @@
       ],
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
-      "degree": 4,
+      "degree": 5,
       "domain": "mental-models"
     },
     {
@@ -127,7 +127,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -153,7 +153,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -166,7 +166,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#8b5cf6",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -179,7 +179,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#10b981",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai"
     },
     {
@@ -296,7 +296,7 @@
       ],
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 10,
       "domain": "ai"
     },
     {
@@ -313,6 +313,19 @@
       "domain": "ai"
     },
     {
+      "id": "ai-erases-the-api-line",
+      "label": "AI erases the API line — the side that takes orders can now negotiate",
+      "description": "Venkatesh Rao's rule was to fight your way above the API line, because below it you do what the API tells you; Tan argues agents dissolve the line, citing a YC company that shipped a bug-report endpoint built for agents rather than humans, which replies in real time with a triage decision and a workaround",
+      "topics": [
+        "ai-native-product-architecture",
+        "future-of-ai-business"
+      ],
+      "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
+      "color": "#8b5cf6",
+      "degree": 3,
+      "domain": "ai"
+    },
+    {
       "id": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
       "label": "AI is steel for organizations — when software carries the context, human communication stops being the load-bearing wall",
       "description": "Before steel, buildings capped at six or seven floors because iron buckled under its own weight; AI that maintains context across workflows removes human communication (meetings, messages) as the structure that caps how far an org can scale before it degrades",
@@ -322,7 +335,7 @@
       ],
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai"
     },
     {
@@ -335,7 +348,7 @@
       ],
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -348,7 +361,7 @@
       ],
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#f59e0b",
-      "degree": 14,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -426,6 +439,19 @@
       ],
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#10b981",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
+      "id": "experience-times-agent-multiplier-favors-veteran-founders",
+      "label": "Knowing what to build is the scarce half, so agent leverage favors veteran founders",
+      "description": "Tan reports a mega trend of founders in their late thirties and forties who have been around the block; the multiplier applies to whatever judgment it is given, so multiplying someone who already knows what to build can outperform a department at a large tech company",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
+      "color": "#f59e0b",
       "degree": 4,
       "domain": "ai"
     },
@@ -815,7 +841,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 18,
+      "degree": 19,
       "domain": "ai"
     },
     {
@@ -1252,7 +1278,7 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
-      "degree": 12,
+      "degree": 13,
       "domain": "ai"
     },
     {
@@ -1421,7 +1447,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai"
     },
     {
@@ -1641,7 +1667,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 13,
+      "degree": 15,
       "domain": "ai"
     },
     {
@@ -1890,6 +1916,19 @@
       "domain": "ai"
     },
     {
+      "id": "if-you-can-find-the-edge-it-isnt-interesting-enough",
+      "label": "If you can find the edge of a field, it isn't interesting enough",
+      "description": "A test for problem selection offered in conversation and credited to Chris Dixon: ask whether you can locate the boundary of a subject, because for the genuinely interesting ones you cannot find the intellectual edge even after exhausting the conversational one",
+      "topics": [
+        "decision-making",
+        "knowledge-systems"
+      ],
+      "source": "Credited in conversation to Chris Dixon — The a16z Show, Garry Tan with Anish Acharya, \"New Rules for Founders\"",
+      "color": "#eab308",
+      "degree": 4,
+      "domain": "mental-models"
+    },
+    {
       "id": "incentive-caused-bias-makes-good-people-rationalize",
       "label": "Incentive-caused bias makes good people rationalize harmful behavior",
       "description": "People don't consciously choose to be unethical — incentive structures cause them to drift into immoral behavior and then rationalize it as virtuous",
@@ -1901,6 +1940,19 @@
       "color": "#ec4899",
       "degree": 6,
       "domain": "mental-models"
+    },
+    {
+      "id": "institutional-slowness-is-the-runway-not-the-threat",
+      "label": "Institutional slowness is the runway, not the threat",
+      "description": "Tan inverts the standard AI-doom framing: the bureaucracy and cognitive limits of every company, institution and government are what give builders a two-decade window, and he says this openly against the Silicon Valley consensus that startups will replace incumbents",
+      "topics": [
+        "future-of-ai-business",
+        "business-models"
+      ],
+      "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
+      "color": "#f59e0b",
+      "degree": 5,
+      "domain": "ai"
     },
     {
       "id": "intelligence-judgement-ratio-determines-automation-order",
@@ -2449,6 +2501,19 @@
       "domain": "ai"
     },
     {
+      "id": "token-maxing-buys-lead-time-not-efficiency",
+      "label": "Deliberately overspending on inference buys lead time, not efficiency",
+      "description": "Tan runs agents at full strength — 800,000 to a million tokens loaded into a single request — and describes the result as getting to live in 2028 today; the spend is uneconomic per task and that is the point",
+      "topics": [
+        "ai-agents",
+        "business-models"
+      ],
+      "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "token-spend-replaces-headcount-as-scaling-unit",
       "label": "Cap headcount, not compute — token spend per engineer replaces headcount as the scaling unit",
       "description": "At $1,000/month per engineer as table stakes, top engineers manage 20-30 agents simultaneously; R&D scales through compute investment, not hiring",
@@ -2495,7 +2560,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 11,
+      "degree": 13,
       "domain": "mental-models"
     },
     {
@@ -3004,6 +3069,19 @@
       "domain": "mental-models"
     },
     {
+      "id": "provenance-becomes-the-constraint-when-skill-files-scale",
+      "label": "Once skill files accumulate, provenance becomes the binding constraint",
+      "description": "The agentic-company loop works until the markdown files pile up; at that point Tan locates the failure in provenance and conflict management — two facts disagree, and provenance decides which one wins, enforced by a job that continuously sweeps for accuracy",
+      "topics": [
+        "knowledge-systems",
+        "ai-agents"
+      ],
+      "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
+      "color": "#f43f5e",
+      "degree": 4,
+      "domain": "ai"
+    },
+    {
       "id": "reasoning-by-analogy-has-a-ceiling",
       "label": "Reasoning by analogy has a ceiling — you can never get beyond what already exists by copying what already exists",
       "description": "Analogy is faster, easier, and less mentally taxing — fine for most decisions — but it forecloses any solution outside the existing solution set; first-principles is the only path that produces non-incremental answers",
@@ -3261,6 +3339,10 @@
     },
     {
       "source": "choose-problems-backward-from-an-outcome-you-want",
+      "target": "if-you-can-find-the-edge-it-isnt-interesting-enough"
+    },
+    {
+      "source": "choose-problems-backward-from-an-outcome-you-want",
       "target": "peter-thiel-test-detects-actual-first-principles-thinking"
     },
     {
@@ -3472,6 +3554,10 @@
       "target": "task-horizon-breaks-seat-based-pricing"
     },
     {
+      "source": "inference-time-compute-makes-cost-per-outcome-a-choice",
+      "target": "token-maxing-buys-lead-time-not-efficiency"
+    },
+    {
       "source": "task-horizon-breaks-seat-based-pricing",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
@@ -3482,6 +3568,10 @@
     {
       "source": "task-horizon-breaks-seat-based-pricing",
       "target": "inference-time-compute-makes-cost-per-outcome-a-choice"
+    },
+    {
+      "source": "task-horizon-breaks-seat-based-pricing",
+      "target": "institutional-slowness-is-the-runway-not-the-threat"
     },
     {
       "source": "task-horizon-breaks-seat-based-pricing",
@@ -3613,7 +3703,15 @@
     },
     {
       "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "target": "ai-erases-the-api-line"
+    },
+    {
+      "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
       "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
+      "target": "institutional-slowness-is-the-runway-not-the-threat"
     },
     {
       "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
@@ -3640,6 +3738,14 @@
       "target": "reorganize-around-agents-dont-bolt-them-onto-old-workflows"
     },
     {
+      "source": "ai-erases-the-api-line",
+      "target": "reorganize-around-agents-dont-bolt-them-onto-old-workflows"
+    },
+    {
+      "source": "ai-erases-the-api-line",
+      "target": "supervise-loops-from-a-leveraged-point-not-from-inside-them"
+    },
+    {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
       "target": "agent-memory-preserves-institutional-knowledge"
     },
@@ -3650,6 +3756,10 @@
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
       "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "target": "experience-times-agent-multiplier-favors-veteran-founders"
     },
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
@@ -3778,6 +3888,18 @@
     {
       "source": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
       "target": "system-of-work-is-the-moat-not-the-model"
+    },
+    {
+      "source": "experience-times-agent-multiplier-favors-veteran-founders",
+      "target": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit"
+    },
+    {
+      "source": "experience-times-agent-multiplier-favors-veteran-founders",
+      "target": "commodity-terminal-value-zero-expert-judgment-compounds"
+    },
+    {
+      "source": "experience-times-agent-multiplier-favors-veteran-founders",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
     },
     {
       "source": "features-are-prompts-not-code",
@@ -5185,6 +5307,10 @@
     },
     {
       "source": "domain-skill-libraries-are-the-real-agent-moat",
+      "target": "provenance-becomes-the-constraint-when-skill-files-scale"
+    },
+    {
+      "source": "domain-skill-libraries-are-the-real-agent-moat",
       "target": "skills-as-markdown-replace-fine-tuning"
     },
     {
@@ -5472,12 +5598,36 @@
       "target": "treat-ai-like-distributed-team-not-assistant"
     },
     {
+      "source": "if-you-can-find-the-edge-it-isnt-interesting-enough",
+      "target": "choose-problems-backward-from-an-outcome-you-want"
+    },
+    {
+      "source": "if-you-can-find-the-edge-it-isnt-interesting-enough",
+      "target": "taste-is-a-muscle-trained-by-forecasting"
+    },
+    {
+      "source": "if-you-can-find-the-edge-it-isnt-interesting-enough",
+      "target": "wander-across-subfields-before-you-settle"
+    },
+    {
       "source": "incentive-caused-bias-makes-good-people-rationalize",
       "target": "excessive-self-regard-makes-fixable-failures-persist"
     },
     {
       "source": "incentive-caused-bias-makes-good-people-rationalize",
       "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "institutional-slowness-is-the-runway-not-the-threat",
+      "target": "layer-migration-is-the-real-threat-not-competition"
+    },
+    {
+      "source": "institutional-slowness-is-the-runway-not-the-threat",
+      "target": "reorganize-around-agents-dont-bolt-them-onto-old-workflows"
+    },
+    {
+      "source": "institutional-slowness-is-the-runway-not-the-threat",
+      "target": "system-of-work-is-the-moat-not-the-model"
     },
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
@@ -6080,6 +6230,18 @@
       "target": "token-spend-replaces-headcount-as-scaling-unit"
     },
     {
+      "source": "token-maxing-buys-lead-time-not-efficiency",
+      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+    },
+    {
+      "source": "token-maxing-buys-lead-time-not-efficiency",
+      "target": "inference-time-compute-makes-cost-per-outcome-a-choice"
+    },
+    {
+      "source": "token-maxing-buys-lead-time-not-efficiency",
+      "target": "price-of-intelligence-is-the-new-organizing-axis"
+    },
+    {
       "source": "token-spend-replaces-headcount-as-scaling-unit",
       "target": "automation-amplifies-expert-demand"
     },
@@ -6662,6 +6824,18 @@
     {
       "source": "time-denominated-promises-decay-invisibly",
       "target": "being-chosen-vs-being-seen-is-the-talent-trap"
+    },
+    {
+      "source": "provenance-becomes-the-constraint-when-skill-files-scale",
+      "target": "agent-memory-preserves-institutional-knowledge"
+    },
+    {
+      "source": "provenance-becomes-the-constraint-when-skill-files-scale",
+      "target": "domain-skill-libraries-are-the-real-agent-moat"
+    },
+    {
+      "source": "provenance-becomes-the-constraint-when-skill-files-scale",
+      "target": "evolving-summaries-beat-append-only-memory"
     },
     {
       "source": "reasoning-by-analogy-has-a-ceiling",

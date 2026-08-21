@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[institutional-slowness-is-the-runway-not-the-threat]] — the AI white pill: bureaucracy and 7±2 give builders a ~20-year window, and incumbents have real structural moats (2026-08-21)
+- [[token-maxing-buys-lead-time-not-efficiency]] — deliberately uneconomic inference spend buys an earlier position on the capability curve, not a better answer (2026-08-21)
+- [[ai-erases-the-api-line]] — an agent-facing bug endpoint that triages and offers a workaround turns below-the-line from taking orders into negotiating (2026-08-21)
+- [[provenance-becomes-the-constraint-when-skill-files-scale]] — the agentic loop falls over when two facts disagree; recency breaks the tie only if you recorded where each came from (2026-08-21)
+- [[experience-times-agent-multiplier-favors-veteran-founders]] — the multiplier is roughly constant across people, so the scarce input is knowing what to build (2026-08-21)
+- [[if-you-can-find-the-edge-it-isnt-interesting-enough]] — you can exhaust what people have said about a field and still not reach its intellectual edge; that is the good sign (2026-08-21)
 - [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — expert prompts leave fewer unknowns open, and working with the agent is how you train that skill (2026-07-09)
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions (2026-07-09)
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — the plan in your head is the map, the codebase is the territory; a capable-enough agent covers more territory per session, so finding your unknowns becomes the bottleneck (2026-07-09)
 - [[capability-overhang-tools-unlock-latent-model-ability]] — a model can already "know" the answer and still fail to produce it until a tool lets it act on what it knows (2026-07-09)
-- [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — don't pre-rank priorities; attempt everything and let reality show you the real constraint (2026-07-09)
-- [[building-is-easier-but-generating-value-is-still-hard]] — agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed (2026-07-09)
-- [[system-prompt-guardrails-become-constraints-as-models-get-more-imaginative]] — Claude Code cut 80% of its system prompt because examples built for a weaker model started capping a smarter one (2026-07-09)
-- [[models-are-grown-not-designed-treat-fable-empirically]] — capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics (2026-07-09)
-- [[bad-code-is-the-most-expensive-its-ever-been]] — a hard-to-change codebase blocks you from AI's full bounty; good architecture is now higher-leverage, not lower (2026-07-09)
-- [[deep-modules-make-codebases-ai-legible-and-testable]] — Ousterhout's deep-vs-shallow modules decide whether AI can navigate a codebase and whether you can gray-box delegate to it (2026-07-09)

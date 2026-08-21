@@ -131,3 +131,5 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — The plan is the map, the codebase is the territory; a capable-enough agent covers more territory, so finding your unknowns becomes the bottleneck
 - [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
+- [[token-maxing-buys-lead-time-not-efficiency]] — Running agents at full strength is uneconomic per task and buys lead time instead of margin
+- [[provenance-becomes-the-constraint-when-skill-files-scale]] — Once the markdown files pile up, only provenance decides which of two disagreeing facts wins

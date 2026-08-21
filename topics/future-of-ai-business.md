@@ -87,3 +87,6 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[wander-across-subfields-before-you-settle]] — Subfields saturate right after they peak; breadth carries you through transitions, not a fixed plan
 - [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint
 - [[building-is-easier-but-generating-value-is-still-hard]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
+- [[institutional-slowness-is-the-runway-not-the-threat]] — The AI white pill is that society, government and every company are slower than you think
+- [[ai-erases-the-api-line]] — Above/below the API line dissolves when the side taking orders can negotiate
+- [[experience-times-agent-multiplier-favors-veteran-founders]] — 35-45 year-old founders who know what to build, multiplied, outperform a Mag-7 department

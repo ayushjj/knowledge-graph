@@ -10,8 +10,8 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-07-09
-node_count: 251
+last_updated: 2026-08-21
+node_count: 257
 domains: [ai, mental-models]
 
 nodes:
@@ -22,7 +22,7 @@ nodes:
     source: "@itsreallyvivek (vivek) — how to be good at research"
     source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
     domain: ai
-    outgoing: [differentiated-inputs-beat-the-shared-reading-list, first-principles-thinking-is-responsibility-taking, force-reality-to-reveal-the-tradeoff-instead-of-presuming-one, peter-thiel-test-detects-actual-first-principles-thinking, reasoning-by-analogy-has-a-ceiling]
+    outgoing: [differentiated-inputs-beat-the-shared-reading-list, first-principles-thinking-is-responsibility-taking, force-reality-to-reveal-the-tradeoff-instead-of-presuming-one, if-you-can-find-the-edge-it-isnt-interesting-enough, peter-thiel-test-detects-actual-first-principles-thinking, reasoning-by-analogy-has-a-ceiling]
 
   taste-is-a-muscle-trained-by-forecasting:
     title: "Taste is a muscle, not a gift — train it by forecasting every result before you see it"
@@ -130,7 +130,7 @@ nodes:
     source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
     source_file: sources/jayagup10-who-sets-price-of-intelligence.md
     domain: ai
-    outgoing: [multi-model-orchestration-beats-any-single-family, operate-across-the-whole-model-market-not-just-one-lab, production-agents-route-decisions-not-every-call-to-llm, system-of-work-is-the-moat-not-the-model, task-horizon-breaks-seat-based-pricing]
+    outgoing: [multi-model-orchestration-beats-any-single-family, operate-across-the-whole-model-market-not-just-one-lab, production-agents-route-decisions-not-every-call-to-llm, system-of-work-is-the-moat-not-the-model, task-horizon-breaks-seat-based-pricing, token-maxing-buys-lead-time-not-efficiency]
 
   task-horizon-breaks-seat-based-pricing:
     title: "Task horizon breaks seat-based pricing — usage scales with workflow depth × length, not headcount"
@@ -139,7 +139,7 @@ nodes:
     source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
     source_file: sources/jayagup10-who-sets-price-of-intelligence.md
     domain: ai
-    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, autopilots-capture-work-budget-not-tool-budget, inference-time-compute-makes-cost-per-outcome-a-choice, sell-the-work-not-the-tool, token-spend-replaces-headcount-as-scaling-unit]
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, autopilots-capture-work-budget-not-tool-budget, inference-time-compute-makes-cost-per-outcome-a-choice, institutional-slowness-is-the-runway-not-the-threat, sell-the-work-not-the-tool, token-spend-replaces-headcount-as-scaling-unit]
 
   where-inference-runs-decides-margin-context-and-trust:
     title: "Where inference runs decides who captures margin, owns the context, and earns trust"
@@ -220,7 +220,7 @@ nodes:
     source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
-    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
+    outgoing: [ai-erases-the-api-line, dissolved-constraints-shift-bottleneck-to-judgment, institutional-slowness-is-the-runway-not-the-threat, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
 
   new-tech-first-imitates-the-medium-it-replaces:
     title: "New technology first imitates the medium it replaces — the transition form hides the final form"
@@ -231,6 +231,14 @@ nodes:
     domain: ai
     outgoing: [build-for-the-model-six-months-from-now, reasoning-by-analogy-has-a-ceiling, reorganize-around-agents-dont-bolt-them-onto-old-workflows]
 
+  ai-erases-the-api-line:
+    title: "AI erases the API line — the side that takes orders can now negotiate"
+    description: "Venkatesh Rao's rule was to fight your way above the API line, because below it you do what the API tells you; Tan argues agents dissolve the line, citing a YC company that shipped a bug-report endpoint built for agents rather than humans, which replies in real time with a triage decision and a workaround"
+    topics: [ai-native-product-architecture, future-of-ai-business]
+    source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\""
+    source_file: sources/garry-tan-a16z-new-rules-for-founders.md
+    domain: ai
+    outgoing: [reorganize-around-agents-dont-bolt-them-onto-old-workflows, supervise-loops-from-a-leveraged-point-not-from-inside-them]
   ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit:
     title: "AI is steel for organizations — when software carries the context, human communication stops being the load-bearing wall"
     description: "Before steel, buildings capped at six or seven floors because iron buckled under its own weight; AI that maintains context across workflows removes human communication (meetings, messages) as the structure that caps how far an org can scale before it degrades"
@@ -238,7 +246,7 @@ nodes:
     source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, dissolved-constraints-shift-bottleneck-to-judgment, organizational-shape-is-the-emerging-moat-in-ai]
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, dissolved-constraints-shift-bottleneck-to-judgment, experience-times-agent-multiplier-favors-veteran-founders, organizational-shape-is-the-emerging-moat-in-ai]
 
   supervise-loops-from-a-leveraged-point-not-from-inside-them:
     title: "Humans should supervise agent loops from a leveraged point, not sit inside every one"
@@ -310,6 +318,14 @@ nodes:
     source_file: sources/joeschmidtiv-yellow-brick-road.md
     domain: ai
     outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, sell-the-work-not-the-tool, system-of-work-is-the-moat-not-the-model]
+  experience-times-agent-multiplier-favors-veteran-founders:
+    title: "Knowing what to build is the scarce half, so agent leverage favors veteran founders"
+    description: "Tan reports a mega trend of founders in their late thirties and forties who have been around the block; the multiplier applies to whatever judgment it is given, so multiplying someone who already knows what to build can outperform a department at a large tech company"
+    topics: [future-of-ai-business, business-models]
+    source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\""
+    source_file: sources/garry-tan-a16z-new-rules-for-founders.md
+    domain: ai
+    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, commodity-terminal-value-zero-expert-judgment-compounds, dissolved-constraints-shift-bottleneck-to-judgment]
   features-are-prompts-not-code:
     title: "In agent-native architecture, features are prompts — not code"
     description: "The shift from coding specific functions to describing outcomes that agents achieve by composing atomic tools"
@@ -1000,7 +1016,7 @@ nodes:
     description: "An elite team can replicate any agent's tool architecture in months, but accumulated domain workflows (LBO modeling, compliance, bankruptcy) represent years of domain expertise"
     topics: [ai-agents, business-models]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
-    outgoing: [context-is-the-product-not-the-model, context-layers-supersede-semantic-layers, frontier-companies-absorb-every-useful-agentic-pattern, proprietary-feedback-loops-widen-the-moat, skills-as-markdown-replace-fine-tuning]
+    outgoing: [context-is-the-product-not-the-model, context-layers-supersede-semantic-layers, frontier-companies-absorb-every-useful-agentic-pattern, proprietary-feedback-loops-widen-the-moat, provenance-becomes-the-constraint-when-skill-files-scale, skills-as-markdown-replace-fine-tuning]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -1139,6 +1155,14 @@ nodes:
     source: "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer"
     outgoing: [multi-model-ensemble-catches-single-model-blindspots, operate-across-the-whole-model-market-not-just-one-lab, orchestrator-agent-replaces-human-coordination, production-agents-route-decisions-not-every-call-to-llm, treat-ai-like-distributed-team-not-assistant]
 
+  if-you-can-find-the-edge-it-isnt-interesting-enough:
+    title: "If you can find the edge of a field, it isn't interesting enough"
+    description: "A test for problem selection offered in conversation and credited to Chris Dixon: ask whether you can locate the boundary of a subject, because for the genuinely interesting ones you cannot find the intellectual edge even after exhausting the conversational one"
+    topics: [decision-making, knowledge-systems]
+    source: "Credited in conversation to Chris Dixon — The a16z Show, Garry Tan with Anish Acharya, \"New Rules for Founders\""
+    source_file: sources/garry-tan-a16z-new-rules-for-founders.md
+    domain: mental-models
+    outgoing: [choose-problems-backward-from-an-outcome-you-want, taste-is-a-muscle-trained-by-forecasting, wander-across-subfields-before-you-settle]
   incentive-caused-bias-makes-good-people-rationalize:
     title: "Incentive-caused bias makes good people rationalize harmful behavior"
     description: "People don't consciously choose to be unethical — incentive structures cause them to drift into immoral behavior and then rationalize it as virtuous"
@@ -1146,6 +1170,14 @@ nodes:
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 505-514)"
     outgoing: [excessive-self-regard-makes-fixable-failures-persist, systems-that-prevent-bad-behavior-beat-moral-appeals]
 
+  institutional-slowness-is-the-runway-not-the-threat:
+    title: "Institutional slowness is the runway, not the threat"
+    description: "Tan inverts the standard AI-doom framing: the bureaucracy and cognitive limits of every company, institution and government are what give builders a two-decade window, and he says this openly against the Silicon Valley consensus that startups will replace incumbents"
+    topics: [future-of-ai-business, business-models]
+    source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\""
+    source_file: sources/garry-tan-a16z-new-rules-for-founders.md
+    domain: ai
+    outgoing: [layer-migration-is-the-real-threat-not-competition, reorganize-around-agents-dont-bolt-them-onto-old-workflows, system-of-work-is-the-moat-not-the-model]
   intelligence-judgement-ratio-determines-automation-order:
     title: "The intelligence-to-judgement ratio determines which professions AI automates first"
     description: "Intelligence work (complex but rule-based) is already automatable; judgement (experience, taste, intuition) remains human — software engineering crossed the threshold first"
@@ -1446,6 +1478,14 @@ nodes:
     source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
     outgoing: [agents-become-the-buyer, llms-selectively-destroy-vertical-software-moats, sell-the-work-not-the-tool, technology-helps-moats-kills-commodity-businesses, token-spend-replaces-headcount-as-scaling-unit]
 
+  token-maxing-buys-lead-time-not-efficiency:
+    title: "Deliberately overspending on inference buys lead time, not efficiency"
+    description: "Tan runs agents at full strength — 800,000 to a million tokens loaded into a single request — and describes the result as getting to live in 2028 today; the spend is uneconomic per task and that is the point"
+    topics: [ai-agents, business-models]
+    source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\""
+    source_file: sources/garry-tan-a16z-new-rules-for-founders.md
+    domain: ai
+    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, inference-time-compute-makes-cost-per-outcome-a-choice, price-of-intelligence-is-the-new-organizing-axis]
   token-spend-replaces-headcount-as-scaling-unit:
     title: "Cap headcount, not compute — token spend per engineer replaces headcount as the scaling unit"
     description: "At $1,000/month per engineer as table stakes, top engineers manage 20-30 agents simultaneously; R&D scales through compute investment, not hiring"
@@ -1793,6 +1833,14 @@ nodes:
     domain: mental-models
     outgoing: [being-chosen-vs-being-seen-is-the-talent-trap]
 
+  provenance-becomes-the-constraint-when-skill-files-scale:
+    title: "Once skill files accumulate, provenance becomes the binding constraint"
+    description: "The agentic-company loop works until the markdown files pile up; at that point Tan locates the failure in provenance and conflict management — two facts disagree, and provenance decides which one wins, enforced by a job that continuously sweeps for accuracy"
+    topics: [knowledge-systems, ai-agents]
+    source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\""
+    source_file: sources/garry-tan-a16z-new-rules-for-founders.md
+    domain: ai
+    outgoing: [agent-memory-preserves-institutional-knowledge, domain-skill-libraries-are-the-real-agent-moat, evolving-summaries-beat-append-only-memory]
   reasoning-by-analogy-has-a-ceiling:
     title: "Reasoning by analogy has a ceiling — you can never get beyond what already exists by copying what already exists"
     description: "Analogy is faster, easier, and less mentally taxing — fine for most decisions — but it forecloses any solution outside the existing solution set; first-principles is the only path that produces non-incremental answers"
