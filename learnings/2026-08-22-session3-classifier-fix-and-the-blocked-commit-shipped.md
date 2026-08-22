@@ -22,9 +22,11 @@ mutation-verified canaries, and shipped the batch to the live site.
   skip would have published nothing. · Evidence: `gh repo view` → `PUBLIC`; last 5 runs
   all success · Acted on: yes — pushed normally, run `32554654333` green in 57s.
 - **Keep the `pipeline.yaml` positive control despite it being the weaker of the two** —
-  ADOPTED: it can't distinguish path-anchoring from the blanket YAML rule, but it still
-  catches a future refactor that made that rule content-shaped. Noted as weak in-file.
-  · Acted on: yes.
+  ADOPTED, then **REVERSED the same session**. I judged it weak-but-worth-keeping; review
+  proved it worse than weak — it varies FILENAME while the regression varies DIRECTORY, so
+  two independently-built basename-anywhere mutants passed 135/135 while
+  `deep/graph-index.yaml` shipped `run: curl | sh`. Replaced with basename-fixed /
+  path-varied controls. · Acted on: yes — see the follow-up section.
 
 ## What Worked
 
@@ -78,7 +80,54 @@ mutation-verified canaries, and shipped the batch to the live site.
 ## Metrics
 
 - Over-fire: `contentOnly:false` on both repro diffs → `contentOnly:true` on both.
-- Canary: 126 passed / 0 failed → **135 passed / 0 failed**.
-- `npm run check`: astro 0 errors · 7/7 structural · 41/41 tests · 273 nodes.
+- Canary: 126 → 135 → **137 passed / 0 failed** after the review fixes.
+- `npm run check`: astro 0 errors · 7/7 → **8/8** structural · 41 → **63** tests · 273 nodes.
 - Shipped: `099bf4b` (44 files, +1639/−63) → CI `32554654333` success 57s → site `200`,
   renders 273 insights. S2's blocker closed after 1 session blocked.
+
+---
+
+## Follow-up (same session): the two SHOULD-FIX items, and a third miss
+
+Shipped `validate-graph.js` Check 8 + `lib/schema-keys.js` (kg `f4bb7ac`) and the
+`governance.md` data-allowlist contract row (`~/.claude` `d3cedeb`).
+
+**The same mistake, a third time, one layer down.** Check 8 v1 enumerated key NAMES at
+top level and per node — because that is where the exploit had been demonstrated. Review
+(T1.5, 2 agents) mutated the real file and found `source: {run: "curl | sh"}` and
+`domains: [ai, {run: "..."}]` both passing **8/8 clean**: allowed key names at both
+levels, unconstrained values below. Fix: constrain value SHAPES. Once no value below a
+node may be a mapping, no key can hide there. **A demonstrated exploit is one sample
+from the vulnerable set, never its boundary** — that is the session's whole lesson,
+and it fired at the controls (morning), the classifier ordering (midday), and the
+schema check (afternoon).
+
+**Type-constraining beats key-hunting.** A recursive key walk would also work but has to
+special-case that `topics`/`outgoing` are arrays. Six lines of shape constraints close
+depth completely.
+
+**The signature was lying.** `unknownKeys(graphIndex)` was typed `Record<string, unknown>`
+— asserting the very thing the function exists to verify — which forced three `as` casts
+in the tests, against a standing no-typecast rule. Retyping the param to `unknown` plus one
+`isRecord` guard removed all three and closed a real `Object.keys(null)` crash.
+
+**Data-first caught two would-be breakages before they shipped.** `last_updated` parses to
+a **Date** under js-yaml 4 (unquoted YAML date), so a string constraint would have failed
+the build immediately. And `source_file` is on 140/273 nodes, `domain` on 98/273 — a
+required-field reading would have failed 133 and 175 nodes. Both found by measuring the
+real file rather than assuming the schema.
+
+**A gap the review surfaced incidentally:** `.githooks/pre-commit` runs ONLY
+`validate-graph.js`, while `build-graph.js` runs in `npm run check` and CI. So a node
+replaced by a scalar passed the local commit gate — the two gates disagree about what
+"valid" means. Check 8 now reports it.
+
+**Process note:** the `~/.claude` CLAUDE.md size ratchet was broken TWICE in one session by
+sibling sessions adding lines without paying it. Both paid by compressing the grown line and
+relocating its rationale to `governance.md`. Ratchet 10_170 → 10_166 → 10_154.
+
+**One self-correction worth recording:** `git commit --pathspec-from-file` commits
+WORKING-TREE content for every listed path and ignores `git restore --staged`, so a file
+I had deliberately excluded was silently re-included. Caught by reading the commit's own
+file list afterwards; amended before pushing. Verify exclusions by inspecting the commit,
+not by trusting the unstage.
