@@ -62,3 +62,5 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[token-maxing-buys-lead-time-not-efficiency]] — Deliberate inference overspend as a founder-level strategy, not a product-margin decision
 - [[institutional-slowness-is-the-runway-not-the-threat]] — Bureaucracy and 7±2 give builders a ~20-year window; incumbents have real structural moats
 - [[experience-times-agent-multiplier-favors-veteran-founders]] — The multiplier applies to whatever judgment it is given, so knowing what to build is the scarce half
+- [[ic-and-dri-are-the-only-roles-left-without-middle-management]] — No directors or VPs; working prototypes instead of decks, and one person whose head is on the block
+- [[own-your-skill-files-or-your-job-becomes-one]] — Same 40 files are a compounding career or an extraction; the only variable is whose repo holds them

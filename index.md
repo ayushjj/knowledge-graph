@@ -24,13 +24,13 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
-- [[institutional-slowness-is-the-runway-not-the-threat]] — the AI white pill: bureaucracy and 7±2 give builders a ~20-year window, and incumbents have real structural moats (2026-08-21)
-- [[token-maxing-buys-lead-time-not-efficiency]] — deliberately uneconomic inference spend buys an earlier position on the capability curve, not a better answer (2026-08-21)
-- [[ai-erases-the-api-line]] — an agent-facing bug endpoint that triages and offers a workaround turns below-the-line from taking orders into negotiating (2026-08-21)
-- [[provenance-becomes-the-constraint-when-skill-files-scale]] — the agentic loop falls over when two facts disagree; recency breaks the tie only if you recorded where each came from (2026-08-21)
-- [[experience-times-agent-multiplier-favors-veteran-founders]] — the multiplier is roughly constant across people, so the scarce input is knowing what to build (2026-08-21)
-- [[if-you-can-find-the-edge-it-isnt-interesting-enough]] — you can exhaust what people have said about a field and still not reach its intellectual edge; that is the good sign (2026-08-21)
-- [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — expert prompts leave fewer unknowns open, and working with the agent is how you train that skill (2026-07-09)
-- [[symmetric-failure-of-over-and-under-specified-instructions]] — over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions (2026-07-09)
-- [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — the plan in your head is the map, the codebase is the territory; a capable-enough agent covers more territory per session, so finding your unknowns becomes the bottleneck (2026-07-09)
-- [[capability-overhang-tools-unlock-latent-model-ability]] — a model can already "know" the answer and still fail to produce it until a tool lets it act on what it knows (2026-07-09)
+- [[put-a-second-agent-on-the-first-agents-failure-log]] — YC's text-to-SQL agent kept hitting edge cases; a second agent reading each day's failures now ships the fixes overnight (2026-08-21)
+- [[a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline]] — telemetry, policy, tools and gates give you a pipeline; only the feedback edge makes it a loop (2026-08-21)
+- [[a-human-in-the-loop-caps-the-loop-at-waking-hours]] — a person waiting on input at 3am is not a reviewer, they are the rate limiter (2026-08-21)
+- [[if-it-left-no-artifact-it-didnt-happen]] — record everything and ban the DMs you cannot read; legibility is upstream of every loop (2026-08-21)
+- [[humans-move-to-the-edge-where-the-model-touches-reality]] — a company brain that cannot touch the real world is just a database (2026-08-21)
+- [[own-your-skill-files-or-your-job-becomes-one]] — the same 40 files are a compounding career or an extraction; the only variable is whose repo holds them (2026-08-21)
+- [[personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]] — a rented assistant resets when you close the tab; an owned one improves every day you use it (2026-08-21)
+- [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — taste in the model, arithmetic in a database the markdown calls; confusing them causes every agent failure (2026-08-21)
+- [[a-better-model-makes-your-library-worth-more]] — the bitter-lesson objection answered: a smarter reader extracts more from the same books (2026-08-21)
+- [[never-do-one-off-work-skillify-every-task]] — if you have to ask for something twice, you failed (2026-08-21)

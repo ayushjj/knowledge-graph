@@ -90,3 +90,7 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[institutional-slowness-is-the-runway-not-the-threat]] — The AI white pill is that society, government and every company are slower than you think
 - [[ai-erases-the-api-line]] — Above/below the API line dissolves when the side taking orders can negotiate
 - [[experience-times-agent-multiplier-favors-veteran-founders]] — 35-45 year-old founders who know what to build, multiplied, outperform a Mag-7 department
+- [[humans-move-to-the-edge-where-the-model-touches-reality]] — Intelligence moves into the system; people keep intuition, trust, and the existential calls
+- [[ic-and-dri-are-the-only-roles-left-without-middle-management]] — When the system routes information, the layer whose job was routing has no function
+- [[personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]] — AGI arriving diffused as your agent on your context, owned rather than rented
+- [[a-better-model-makes-your-library-worth-more]] — Tan's answer to the bitter lesson: the differentiator moves to context as weights commoditize

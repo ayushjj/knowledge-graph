@@ -111,3 +111,13 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device is a strategic choice, not a fixed assumption
 - [[stare-at-raw-outputs-not-the-loss-curve]] — A loss curve is reassurance; pull 100 failures, sort into piles, attack the biggest
 - [[ai-erases-the-api-line]] — Build agent-facing surfaces that argue back, not error paths assuming a human will read them
+- [[a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline]] — Blomfield's five-layer anatomy of an AI loop, and why only the fifth layer closes the circuit
+- [[put-a-second-agent-on-the-first-agents-failure-log]] — The failure log is already a spec for the next version of the system
+- [[make-the-quality-gate-a-second-adversarial-model-not-a-human]] — Put the reviewing step in the machine or the loop reinherits human working hours
+- [[a-human-in-the-loop-caps-the-loop-at-waking-hours]] — Ask where in your system a person is holding the baton overnight
+- [[derive-the-manual-from-observed-practice-not-written-procedure]] — Mine the recordings instead of authoring the SOP; the edge cases live in practice, not the doc
+- [[if-it-left-no-artifact-it-didnt-happen]] — Legibility is upstream of every loop: uncaptured signal cannot be learned from
+- [[humans-move-to-the-edge-where-the-model-touches-reality]] — A world model that cannot touch the real world is just a database
+- [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — Markdown files calling databases; confusing the two causes every agent failure Tan has seen
+- [[being-worth-retrieving-from-is-the-product]] — What gets written down, enriched, promoted and arbitrated is the product; retrieval is easy
+- [[custody-is-the-security-model]] — Your own infra, your own repo, your own keys — measured against the actual default, not a hypothetical one

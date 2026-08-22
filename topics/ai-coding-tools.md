@@ -71,3 +71,5 @@ Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriti
 - [[capability-overhang-tools-unlock-latent-model-ability]] — A model can already know the answer and still fail to produce it until a tool lets it act on what it knows
 - [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
+- [[never-do-one-off-work-skillify-every-task]] — The discipline separating compounders from dabblers: skillify at the end of every task
+- [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — Markdown is code and the compiler is a language model, which is why non-engineers ship automation

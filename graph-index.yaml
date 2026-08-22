@@ -11,7 +11,7 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-08-21
-node_count: 257
+node_count: 273
 domains: [ai, mental-models]
 
 nodes:
@@ -220,7 +220,7 @@ nodes:
     source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
-    outgoing: [ai-erases-the-api-line, dissolved-constraints-shift-bottleneck-to-judgment, institutional-slowness-is-the-runway-not-the-threat, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, ai-erases-the-api-line, dissolved-constraints-shift-bottleneck-to-judgment, institutional-slowness-is-the-runway-not-the-threat, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
 
   new-tech-first-imitates-the-medium-it-replaces:
     title: "New technology first imitates the medium it replaces — the transition form hides the final form"
@@ -246,7 +246,7 @@ nodes:
     source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds"
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, dissolved-constraints-shift-bottleneck-to-judgment, experience-times-agent-multiplier-favors-veteran-founders, organizational-shape-is-the-emerging-moat-in-ai]
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, dissolved-constraints-shift-bottleneck-to-judgment, experience-times-agent-multiplier-favors-veteran-founders, humans-move-to-the-edge-where-the-model-touches-reality, organizational-shape-is-the-emerging-moat-in-ai]
 
   supervise-loops-from-a-leveraged-point-not-from-inside-them:
     title: "Humans should supervise agent loops from a leveraged point, not sit inside every one"
@@ -425,7 +425,7 @@ nodes:
     source: "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)"
     source_file: sources/businessbarista-enterprise-brain.md
     domain: ai
-    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, context-is-the-product-not-the-model, files-are-the-universal-agent-interface]
+    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, context-is-the-product-not-the-model, files-are-the-universal-agent-interface, if-it-left-no-artifact-it-didnt-happen]
 
   context-is-the-product-not-the-model:
     title: "Context is the product, not the model"
@@ -439,7 +439,7 @@ nodes:
     description: "A SKILL.md file that teaches an agent how to do something specific can match domain-specific fine-tuned models — at zero training cost"
     topics: [ai-agents, ai-native-product-architecture]
     source: "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services"
-    outgoing: [context-is-the-product-not-the-model, features-are-prompts-not-code, files-are-the-universal-agent-interface]
+    outgoing: [context-is-the-product-not-the-model, features-are-prompts-not-code, files-are-the-universal-agent-interface, if-a-smart-intern-could-follow-it-an-agent-can-run-it]
 
   deputies-and-sheriffs-distribute-agent-authority:
     title: "Deputies and Sheriffs — distributed agent teams with hierarchical authority replace centralized software"
@@ -502,7 +502,7 @@ nodes:
     description: "Giving an agent a way to verify its own work 2-3x the quality of output — without verification, you're shipping blind"
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
-    outgoing: [building-is-easier-but-generating-value-is-still-hard, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
+    outgoing: [building-is-easier-but-generating-value-is-still-hard, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, make-the-quality-gate-a-second-adversarial-model-not-a-human, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -553,7 +553,7 @@ nodes:
     description: "When agents maintain daily changelogs, decision logs, and work preferences, organizational knowledge survives personnel changes"
     topics: [knowledge-systems, ai-agents]
     source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture"
-    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, decision-traces-are-the-missing-data-layer, files-are-the-universal-agent-interface]
+    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, decision-traces-are-the-missing-data-layer, derive-the-manual-from-observed-practice-not-written-procedure, files-are-the-universal-agent-interface]
 
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
@@ -589,7 +589,7 @@ nodes:
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had"
     source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
-    outgoing: [decision-traces-are-the-missing-data-layer, saas-survives-as-governance-and-coordination-layer, trust-boundaries-must-be-mapped-and-externalized]
+    outgoing: [custody-is-the-security-model, decision-traces-are-the-missing-data-layer, saas-survives-as-governance-and-coordination-layer, trust-boundaries-must-be-mapped-and-externalized]
 
   personal-software-grows-through-relationship-not-configuration:
     title: "Personal software grows through relationship, not configuration"
@@ -883,7 +883,7 @@ nodes:
     description: "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learning compounds across iterations, not just code"
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
-    outgoing: [agent-memory-preserves-institutional-knowledge, compilation-scales-curation-compounds, declarative-beats-imperative-for-agents, harness-engineers-need-docs-as-first-class-output, negative-maintenance-reduces-future-work-for-everyone, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, session-capture-compounds-development-knowledge, skills-as-markdown-replace-fine-tuning]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compilation-scales-curation-compounds, declarative-beats-imperative-for-agents, harness-engineers-need-docs-as-first-class-output, negative-maintenance-reduces-future-work-for-everyone, never-do-one-off-work-skillify-every-task, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, session-capture-compounds-development-knowledge, skills-as-markdown-replace-fine-tuning]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -1016,7 +1016,7 @@ nodes:
     description: "An elite team can replicate any agent's tool architecture in months, but accumulated domain workflows (LBO modeling, compliance, bankruptcy) represent years of domain expertise"
     topics: [ai-agents, business-models]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
-    outgoing: [context-is-the-product-not-the-model, context-layers-supersede-semantic-layers, frontier-companies-absorb-every-useful-agentic-pattern, proprietary-feedback-loops-widen-the-moat, provenance-becomes-the-constraint-when-skill-files-scale, skills-as-markdown-replace-fine-tuning]
+    outgoing: [context-is-the-product-not-the-model, context-layers-supersede-semantic-layers, frontier-companies-absorb-every-useful-agentic-pattern, own-your-skill-files-or-your-job-becomes-one, proprietary-feedback-loops-widen-the-moat, provenance-becomes-the-constraint-when-skill-files-scale, skills-as-markdown-replace-fine-tuning]
 
   context-inefficiency-compounds-three-penalties:
     title: "Context inefficiency compounds three penalties: cost, latency, and quality degradation"
@@ -1239,7 +1239,7 @@ nodes:
     description: "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off"
     topics: [ai-coding-tools, ai-native-product-architecture]
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
-    outgoing: [ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, system-prompt-guardrails-become-constraints-as-models-get-more-imaginative, tool-design-is-continuous-observation-see-like-an-agent]
+    outgoing: [a-better-model-makes-your-library-worth-more, ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, system-prompt-guardrails-become-constraints-as-models-get-more-imaginative, tool-design-is-continuous-observation-see-like-an-agent]
 
   scale-advantages-cascade-until-bureaucracy-kills-them:
     title: "Scale advantages cascade toward dominance until bureaucracy kills them"
@@ -1491,7 +1491,7 @@ nodes:
     description: "At $1,000/month per engineer as table stakes, top engineers manage 20-30 agents simultaneously; R&D scales through compute investment, not hiring"
     topics: [future-of-ai-business, business-models]
     source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
-    outgoing: [automation-amplifies-expert-demand, autopilots-capture-work-budget-not-tool-budget, orchestrator-agent-replaces-human-coordination, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle, uncorrelated-context-windows-are-test-time-compute]
+    outgoing: [automation-amplifies-expert-demand, autopilots-capture-work-budget-not-tool-budget, ic-and-dri-are-the-only-roles-left-without-middle-management, orchestrator-agent-replaces-human-coordination, platform-economics-beat-labor-arbitrage, software-bimodal-fork-growth-or-margins-no-middle, token-maxing-buys-lead-time-not-efficiency, uncorrelated-context-windows-are-test-time-compute]
 
   ai-compresses-execution-not-judgment:
     title: "AI compresses the distance between idea and execution but not between good and bad judgment"
@@ -1583,7 +1583,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
     source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
-    outgoing: [evals-are-gradient-signal-for-harness-engineering, private-evals-measure-business-outcomes-not-benchmarks, proprietary-feedback-loops-widen-the-moat, traces-are-the-universal-substrate-for-agent-learning]
+    outgoing: [evals-are-gradient-signal-for-harness-engineering, private-evals-measure-business-outcomes-not-benchmarks, proprietary-feedback-loops-widen-the-moat, put-a-second-agent-on-the-first-agents-failure-log, traces-are-the-universal-substrate-for-agent-learning]
 
   traces-are-the-universal-substrate-for-agent-learning:
     title: "Traces are the universal substrate for agent learning — all three layers consume the same execution logs"
@@ -1688,7 +1688,7 @@ nodes:
     topics: [knowledge-systems, ai-native-product-architecture]
     source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
     source_file: specs/knowledge-graph-architectures/research.md
-    outgoing: [agentic-search-beats-rag-for-live-codebases, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity]
+    outgoing: [agentic-search-beats-rag-for-live-codebases, know-which-computation-belongs-in-latent-vs-deterministic-space, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity]
 
   sand-vs-stone-separates-durable-from-disposable-product-value:
     title: "Sand vs Stone — if models double in capability tomorrow, what washes away and what remains?"
@@ -1769,7 +1769,7 @@ nodes:
     topics: [business-models, ai-agents]
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
-    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, context-is-the-product-not-the-model, memory-defines-the-agent-portable-memory-is-frontier, procedural-memory-is-highest-impact-agent-memory, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, context-is-the-product-not-the-model, memory-defines-the-agent-portable-memory-is-frontier, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent, procedural-memory-is-highest-impact-agent-memory, proprietary-feedback-loops-widen-the-moat]
 
   open-harnesses-with-owned-databases-prevent-model-provider-lock-in:
     title: "Open harnesses with customer-owned databases are the antidote to model-provider lock-in"
@@ -1840,7 +1840,7 @@ nodes:
     source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\""
     source_file: sources/garry-tan-a16z-new-rules-for-founders.md
     domain: ai
-    outgoing: [agent-memory-preserves-institutional-knowledge, domain-skill-libraries-are-the-real-agent-moat, evolving-summaries-beat-append-only-memory]
+    outgoing: [agent-memory-preserves-institutional-knowledge, being-worth-retrieving-from-is-the-product, domain-skill-libraries-are-the-real-agent-moat, evolving-summaries-beat-append-only-memory, never-do-one-off-work-skillify-every-task]
   reasoning-by-analogy-has-a-ceiling:
     title: "Reasoning by analogy has a ceiling — you can never get beyond what already exists by copying what already exists"
     description: "Analogy is faster, easier, and less mentally taxing — fine for most decisions — but it forecloses any solution outside the existing solution set; first-principles is the only path that produces non-incremental answers"
@@ -2011,3 +2011,147 @@ nodes:
     source_file: sources/thariq-a-field-guide-to-claude-fable-finding-your-unknowns.md
     domain: ai
     outgoing: [declarative-beats-imperative-for-agents, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]
+
+  a-human-in-the-loop-caps-the-loop-at-waking-hours:
+    title: "A human in the loop is a gating mechanism — it caps the loop at human waking hours"
+    description: "In most agentic systems the human is not a reviewer but the rate limiter; if the agent stalls at 3am waiting on input, nothing moves until someone wakes up"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, make-the-quality-gate-a-second-adversarial-model-not-a-human, reorganize-around-agents-dont-bolt-them-onto-old-workflows, supervise-loops-from-a-leveraged-point-not-from-inside-them]
+
+  a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline:
+    title: "Without a learning mechanism you have an AI pipeline, not an AI loop"
+    description: "Blomfield's five-part anatomy — real-world signal, policy layer, tool layer, quality gates, learning mechanism — where only the last part closes the circuit back onto the system that produced the output"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, self-improving-agents-overfit-to-eval-metrics, the-learning-loop-is-the-firms-new-ip-and-it-compounds, trace-to-eval-flywheel-compounds-agent-quality]
+
+  make-the-quality-gate-a-second-adversarial-model-not-a-human:
+    title: "The quality gate should be a second adversarial model, not a human"
+    description: "Blomfield argues the reviewing step in an AI loop should be a human only in the most extreme cases — an adversarial LLM checking for prompt injection, policy breach, or code defects keeps the loop running unattended"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, private-evals-measure-business-outcomes-not-benchmarks, verification-multiplies-agent-output-quality]
+
+  put-a-second-agent-on-the-first-agents-failure-log:
+    title: "Point a second agent at the first agent's failure log and the system repairs itself overnight"
+    description: "YC's text-to-SQL agent kept hitting edge cases; a second agent that reads each day's successes and failures and opens pull requests overnight turned a static tool into a self-improving one"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, ai-self-improvement-loop-accelerates-everything, decision-traces-are-the-missing-data-layer, proprietary-feedback-loops-widen-the-moat]
+
+  derive-the-manual-from-observed-practice-not-written-procedure:
+    title: "Derive the manual from observed practice — written SOPs miss the edge cases people actually handle"
+    description: "YC mined thousands of hours of recorded office hours to rewrite a 15-year-old, 500-page user manual, turning a document that decays into one that updates itself when the advice changes"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [agent-memory-preserves-institutional-knowledge, domain-skill-libraries-are-the-real-agent-moat, if-it-left-no-artifact-it-didnt-happen]
+
+  if-it-left-no-artifact-it-didnt-happen:
+    title: "If an action left no artifact, it didn't happen — legibility is the precondition, not a nice-to-have"
+    description: "Blomfield's practical prescription: record and transcribe everything, ban Slack DMs if you cannot read them, and treat any action that produced no written or recorded trace as invisible to the company brain"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, context-centralization-is-why-coding-ai-works, derive-the-manual-from-observed-practice-not-written-procedure]
+
+  humans-move-to-the-edge-where-the-model-touches-reality:
+    title: "Humans move to the edge where the model touches reality — a company brain that can't touch the world is just a database"
+    description: "Quoting Jack Dorsey, Blomfield puts people at the perimeter doing what models cannot — intuition, trust, ethical and existential calls — while the routing of information moves into the system"
+    topics: [future-of-ai-business, ai-native-product-architecture]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris, quoting Jack Dorsey"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, ai-compresses-execution-not-judgment, dissolved-constraints-shift-bottleneck-to-judgment, reorganize-around-agents-dont-bolt-them-onto-old-workflows]
+
+  ic-and-dri-are-the-only-roles-left-without-middle-management:
+    title: "When the system routes information, IC and DRI are the only roles left"
+    description: "Blomfield's org prescription for AI-native companies: no directors or VPs, everyone an individual contributor who brings working prototypes rather than decks, and a single directly responsible individual instead of a committee"
+    topics: [future-of-ai-business, business-models]
+    source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris"
+    source_file: sources/tom-blomfield-yc-building-ai-native-company.md
+    domain: ai
+    outgoing: [ai-compresses-execution-not-judgment, humans-move-to-the-edge-where-the-model-touches-reality, if-it-left-no-artifact-it-didnt-happen, institutional-slowness-is-the-runway-not-the-threat, organizational-shape-is-the-emerging-moat-in-ai, token-spend-replaces-headcount-as-scaling-unit]
+
+  own-your-skill-files-or-your-job-becomes-one:
+    title: "Own your skill files, because if you don't, your job becomes a skill file"
+    description: "A skill file is cognition extracted and made executable, and the same 40 files are either a career that compounds or an extraction that outlives you — the only variable is whose repo they sit in"
+    topics: [business-models, knowledge-systems]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, never-do-one-off-work-skillify-every-task, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
+
+  personal-agi-is-an-asset-you-build-not-a-subscription-you-rent:
+    title: "Personal AGI is an asset you build, not a subscription you rent"
+    description: "A rented assistant resets when you close the tab and improves only when its vendor ships, while an agent on your own infrastructure reading memory you own gets better every day you use it"
+    topics: [knowledge-systems, future-of-ai-business]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [context-is-the-product-not-the-model, memory-is-where-agent-lock-in-lives, own-your-skill-files-or-your-job-becomes-one]
+
+  know-which-computation-belongs-in-latent-vs-deterministic-space:
+    title: "Know which computation belongs in latent space and which belongs in deterministic space"
+    description: "Tan attributes every agent failure he has seen to confusing the two: taste and judgment live in the model steered by markdown, while arithmetic and state must live in code and a database the markdown calls"
+    topics: [ai-native-product-architecture, ai-agents]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [if-a-smart-intern-could-follow-it-an-agent-can-run-it, navigation-beats-search-for-knowledge-retrieval, the-80-99-gap-is-where-ai-products-die]
+
+  a-better-model-makes-your-library-worth-more:
+    title: "A better model makes your library worth more, not obsolete — a smarter reader extracts more from the same books"
+    description: "Tan's answer to the bitter-lesson objection: each model release is a free upgrade to a workforce you already own, because the differentiator moves toward context precisely as the weights commoditize"
+    topics: [future-of-ai-business, knowledge-systems]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [being-worth-retrieving-from-is-the-product, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent, scaffolding-is-tech-debt-against-the-next-model, token-maxing-buys-lead-time-not-efficiency]
+
+  being-worth-retrieving-from-is-the-product:
+    title: "Retrieval is the primitive, not the product — being worth retrieving from is the product"
+    description: "Tan's answer to 'isn't this just RAG': the hard part is what gets written down at all, how it is enriched and linked, what gets promoted to hot memory, and who arbitrates when two facts disagree"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [a-better-model-makes-your-library-worth-more, knowledge-is-not-memory-ingestion-vs-learning, provenance-becomes-the-constraint-when-skill-files-scale]
+
+  custody-is-the-security-model:
+    title: "Consolidating your context doesn't create the risk — it takes custody of a risk you already had"
+    description: "Tan's answer to the leak objection: the default is not privacy but a life already scattered across ten clouds whose incentives are not yours, searchable by everyone except you"
+    topics: [knowledge-systems, ai-native-product-architecture]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [permissioned-inference-is-harder-than-permissioned-retrieval, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
+
+  never-do-one-off-work-skillify-every-task:
+    title: "Never do one-off work — at the end of every task, turn what the agent did into a reusable skill"
+    description: "Tan names this the discipline separating compounders from dabblers: most people run one operation, close the window and throw the context away, which is waking up every morning with amnesia"
+    topics: [knowledge-systems, ai-coding-tools]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [being-worth-retrieving-from-is-the-product, compound-engineering-makes-future-work-easier, own-your-skill-files-or-your-job-becomes-one, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
+
+  if-a-smart-intern-could-follow-it-an-agent-can-run-it:
+    title: "If a smart intern could follow it, an agent can run it — which makes clear English a programming language"
+    description: "Tan's test for whether a skill file is ready, and the claim behind it: markdown is code and the compiler is a language model, which is why non-engineers at YC are shipping automation"
+    topics: [ai-coding-tools, knowledge-systems]
+    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
+    source_file: sources/garry-tan-yc-own-your-intelligence.md
+    domain: ai
+    outgoing: [if-it-left-no-artifact-it-didnt-happen, know-which-computation-belongs-in-latent-vs-deterministic-space, skills-as-markdown-replace-fine-tuning]

@@ -133,3 +133,8 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
 - [[token-maxing-buys-lead-time-not-efficiency]] — Running agents at full strength is uneconomic per task and buys lead time instead of margin
 - [[provenance-becomes-the-constraint-when-skill-files-scale]] — Once the markdown files pile up, only provenance decides which of two disagreeing facts wins
+- [[a-human-in-the-loop-caps-the-loop-at-waking-hours]] — A person waiting on input at 3am is not a reviewer, they are the rate limiter
+- [[a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline]] — Telemetry, policy, tools and gates give you a pipeline; only the feedback edge makes it a loop
+- [[make-the-quality-gate-a-second-adversarial-model-not-a-human]] — An adversarial LLM checking for injection or policy breach is what lets the loop run unattended
+- [[put-a-second-agent-on-the-first-agents-failure-log]] — YC's overnight agent reads yesterday's failures and ships PRs that fix them
+- [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — Taste and judgment in latent space, arithmetic and state in code the markdown calls

@@ -60,3 +60,12 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[ubiquitous-language-file-reduces-ai-verbosity-and-drift]] — A DDD-style glossary file cuts AI verbosity and keeps implementation aligned with the plan
 - [[provenance-becomes-the-constraint-when-skill-files-scale]] — Recency breaks ties, accuracy decays, and the constraint only appears at scale
 - [[if-you-can-find-the-edge-it-isnt-interesting-enough]] — Running out of what people have said is common; running out of what can be thought is the real signal
+- [[derive-the-manual-from-observed-practice-not-written-procedure]] — YC mined thousands of hours of office hours to replace a 500-page manual that had decayed
+- [[if-it-left-no-artifact-it-didnt-happen]] — Record everything, ban the DMs you cannot read; an untraced action is invisible to the company brain
+- [[own-your-skill-files-or-your-job-becomes-one]] — Cognition can now be extracted, versioned and owned; the open question is by whom
+- [[personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]] — A rented assistant resets when you close the tab; an owned one improves every day you use it
+- [[a-better-model-makes-your-library-worth-more]] — A smarter reader extracts more from the same books, so releases upgrade an asset you already own
+- [[being-worth-retrieving-from-is-the-product]] — Postgres is just B-trees; retrieval is the primitive and curation is the hard part
+- [[custody-is-the-security-model]] — Consolidation doesn't create the risk, it takes custody of one already spread across ten clouds
+- [[never-do-one-off-work-skillify-every-task]] — If you have to ask for something twice, you failed
+- [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — The readiness test for a skill file, and the claim that clear English is a programming language
