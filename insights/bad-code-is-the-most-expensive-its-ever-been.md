@@ -1,5 +1,5 @@
 ---
-title: "Bad code is the most expensive it's ever been"
+title: "AI amplifies the architecture it works in — a hard-to-change codebase caps what any model can do for you"
 description: "The specs-to-code movement assumes code is cheap; the opposite is true — a hard-to-change codebase blocks you from the full bounty AI can offer, so architecture quality now matters more, not less"
 topics: [ai-coding-tools]
 source: "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)"

@@ -1,5 +1,5 @@
 ---
-title: "Organizational shape is the emerging moat in AI — what AI cannot copy is the institution underneath"
+title: "When products and models converge, the moat is the institution — how a company attracts people, distributes authority and compounds judgment"
 description: "When models improve fast, interfaces converge, and product velocity becomes cheap, the durable advantage moves to how a company attracts exceptional people, distributes authority, and compounds judgment over time"
 topics: [future-of-ai-business, economics]
 source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"

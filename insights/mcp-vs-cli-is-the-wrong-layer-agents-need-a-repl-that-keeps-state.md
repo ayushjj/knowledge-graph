@@ -1,5 +1,5 @@
 ---
-title: "MCP vs CLI is the wrong debate — either works once it runs inside a REPL that keeps state"
+title: "Agents need a REPL that keeps state between steps — the harness decides whether a tool protocol works, not the protocol"
 description: "CLI tools beat MCP today only because they are reached through bash, which is a REPL whose state persists in the file system; that is a harness property, not something intrinsic to MCP"
 topics: [ai-agents, ai-native-product-architecture]
 source: "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion"

@@ -1,5 +1,5 @@
 ---
-title: "Decision traces are the missing data layer — a trillion-dollar gap"
+title: "Systems of record keep what was decided, not why — capture the reasoning at the moment a decision becomes binding"
 description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
 topics: [ai-native-product-architecture, future-of-ai-business]
 source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"

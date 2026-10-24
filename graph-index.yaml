@@ -17,7 +17,7 @@ domains: [ai, mental-models]
 
 nodes:
   mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state:
-    title: "MCP vs CLI is the wrong debate — either works once it runs inside a REPL that keeps state"
+    title: "Agents need a REPL that keeps state between steps — the harness decides whether a tool protocol works, not the protocol"
     description: "CLI tools beat MCP today only because they are reached through bash, which is a REPL whose state persists in the file system; that is a harness property, not something intrinsic to MCP"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion"
@@ -536,7 +536,7 @@ nodes:
     outgoing: [context-is-the-product-not-the-model, decision-traces-are-the-missing-data-layer, similarity-is-not-relevance-relevance-requires-reasoning]
 
   decision-traces-are-the-missing-data-layer:
-    title: "Decision traces are the missing data layer — a trillion-dollar gap"
+    title: "Systems of record keep what was decided, not why — capture the reasoning at the moment a decision becomes binding"
     description: "Systems store what happened but not why; capturing the reasoning behind decisions creates searchable precedent and a new system of record"
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
@@ -561,7 +561,7 @@ nodes:
     outgoing: [agents-become-the-buyer]
 
   saas-survives-as-governance-and-coordination-layer:
-    title: "SaaS survives as the governance and coordination layer — determinism still rules"
+    title: "When non-deterministic AI feeds a deterministic system, the deterministic layer governs — software that owns coordination and accountability keeps its place"
     description: "When non-deterministic AI feeds into deterministic systems (databases, approvals, audit trails), the deterministic system governs; SaaS is that system"
     topics: [business-models, future-of-ai-business]
     source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"
@@ -797,7 +797,7 @@ nodes:
     outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, evaluate-tools-with-real-multi-step-tasks, rollback-safety-nets-enable-autonomy-not-intelligence, separate-research-from-implementation-to-preserve-context, time-bounded-evaluation-optimizes-for-usefulness, verification-multiplies-agent-output-quality]
 
   autopilots-capture-work-budget-not-tool-budget:
-    title: "Autopilots capture the work budget — six dollars in services for every one in software"
+    title: "Sell the work, not the tool — the services budget dwarfs the software budget, and every model improvement helps whoever sells the outcome"
     description: "Copilots sell tools to professionals; autopilots sell outcomes to end customers and access the vastly larger services TAM from day one"
     topics: [future-of-ai-business, business-models]
     source: "@julienbek — Services: The New Software"
@@ -915,7 +915,7 @@ nodes:
     outgoing: [agent-memory-preserves-institutional-knowledge, compression-is-a-forking-lifecycle-event-not-a-rewrite, knowledge-evolution-is-the-biggest-unsolved-problem, specs-are-external-memory-surviving-context-resets, context-learning-spans-agent-tenant-and-org-levels]
 
   evolved-harnesses-transfer-across-models:
-    title: "Evolved harnesses transfer across models — a single optimized harness improves five different LLMs"
+    title: "Harness improvements that encode domain patterns transfer across models — invest once and keep the gain through model swaps"
     description: "Meta-Harness discovered a retrieval harness that improved math reasoning by 4.7 percentage points average across five held-out models it was never optimized for, suggesting harness quality is model-agnostic"
     topics: [ai-agents, ai-native-product-architecture]
     source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)"
@@ -1278,7 +1278,7 @@ nodes:
     outgoing: [evolving-summaries-beat-append-only-memory, session-capture-compounds-development-knowledge]
 
   harness-engineers-need-docs-as-first-class-output:
-    title: "Harness engineering — humans steer, agents execute, documentation is the system of record"
+    title: "When agents write the code, engineering moves into the harness — and documentation becomes the system of record"
     description: "OpenAI built a million-line production codebase with zero manually-written code in 5 months. The discipline shifted from writing code to designing the harness: architecture constraints, documentation, tooling, and feedback loops that make agents reliable at scale."
     topics: [ai-coding-tools, knowledge-systems]
     source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
@@ -1499,7 +1499,7 @@ nodes:
     outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, skill-graphs-enable-progressive-disclosure, ubiquitous-language-file-reduces-ai-verbosity-and-drift]
 
   full-trace-filesystem-beats-compressed-summaries-for-harness-optimization:
-    title: "Full trace filesystems beat compressed summaries for harness optimization — 10M tokens of context outperforms 26K"
+    title: "Give an optimizing agent full traces, not compressed summaries — it has to see why past attempts failed"
     description: "Meta-Harness gives its proposer agent a filesystem containing full source code, scores, and execution traces of every prior candidate, enabling up to 10M tokens of diagnostic context per iteration"
     topics: [ai-agents, ai-coding-tools, ai-native-product-architecture]
     source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)"
@@ -1842,7 +1842,7 @@ nodes:
     outgoing: [context-layers-must-be-living-systems, evolving-summaries-beat-append-only-memory, verification-is-a-red-queen-race]
 
   knowledge-is-not-memory-ingestion-vs-learning:
-    title: "Knowledge is not memory — ingesting documents is solved, learning from interactions is not"
+    title: "Don't mistake document ingestion for memory — learning from interactions is a different and harder system"
     description: "Knowledge = write-once read-many (ingest→index→query, solved). Memory = continuous learning (observe→learn→update, unsolved). Different infrastructure needed."
     topics: [knowledge-systems, ai-agents]
     source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
@@ -1915,7 +1915,7 @@ nodes:
     outgoing: [agents-learn-at-three-layers-model-harness-context, engineering-and-research-have-fused-at-the-frontier, harness-quality-beats-model-intelligence]
 
   memory-defines-the-agent-portable-memory-is-frontier:
-    title: "Memory defines the agent — a zip of markdown files IS the agent, and portable memory between harnesses is the frontier"
+    title: "An agent is its memory — keep its prompts, skills and tools portable and the agent can move between harnesses"
     description: "System prompt + skills + tools = procedural memory = agent identity. Portable memory = portable agents. Harness becomes runtime, memory becomes program."
     topics: [ai-agents, knowledge-systems]
     source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"
@@ -1952,7 +1952,7 @@ nodes:
     outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, harness-quality-beats-model-intelligence, closed-harnesses-behind-apis-create-memory-lock-in, model-portability-is-the-sovereignty-test]
 
   organizational-shape-is-the-emerging-moat-in-ai:
-    title: "Organizational shape is the emerging moat in AI — what AI cannot copy is the institution underneath"
+    title: "When products and models converge, the moat is the institution — how a company attracts people, distributes authority and compounds judgment"
     description: "When models improve fast, interfaces converge, and product velocity becomes cheap, the durable advantage moves to how a company attracts exceptional people, distributes authority, and compounds judgment over time"
     topics: [future-of-ai-business, economics]
     source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
@@ -2081,7 +2081,7 @@ nodes:
     outgoing: [first-principles-thinking-is-responsibility-taking, reasoning-by-analogy-has-a-ceiling]
 
   bad-code-is-the-most-expensive-its-ever-been:
-    title: "Bad code is the most expensive it's ever been"
+    title: "AI amplifies the architecture it works in — a hard-to-change codebase caps what any model can do for you"
     description: "The specs-to-code movement assumes code is cheap; the opposite is true — a hard-to-change codebase blocks you from the full bounty AI can offer, so architecture quality now matters more, not less"
     topics: [ai-coding-tools]
     source: "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)"

@@ -1,5 +1,5 @@
 ---
-title: "Knowledge is not memory — ingesting documents is solved, learning from interactions is not"
+title: "Don't mistake document ingestion for memory — learning from interactions is a different and harder system"
 description: "Knowledge (ingesting documents into RAG) is largely solved; memory (learning from task execution to improve future behavior) remains unsolved after 2+ years of industry effort"
 topics: [knowledge-systems, ai-agents]
 source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"

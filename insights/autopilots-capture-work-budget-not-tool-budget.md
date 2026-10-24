@@ -1,5 +1,5 @@
 ---
-title: "Autopilots capture the work budget — six dollars in services for every one in software"
+title: "Sell the work, not the tool — the services budget dwarfs the software budget, and every model improvement helps whoever sells the outcome"
 description: "Copilots sell tools to professionals; autopilots sell outcomes to end customers and access the vastly larger services TAM from day one"
 topics: [future-of-ai-business, business-models]
 source: "@julienbek — Services: The New Software"

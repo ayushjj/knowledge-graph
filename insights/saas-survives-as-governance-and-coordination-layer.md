@@ -1,5 +1,5 @@
 ---
-title: "SaaS survives as the governance and coordination layer — determinism still rules"
+title: "When non-deterministic AI feeds a deterministic system, the deterministic layer governs — software that owns coordination and accountability keeps its place"
 description: "When non-deterministic AI feeds into deterministic systems (databases, approvals, audit trails), the deterministic system governs; SaaS is that system"
 topics: [business-models, future-of-ai-business]
 source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"

@@ -1,5 +1,5 @@
 ---
-title: "Evolved harnesses transfer across models — a single optimized harness improves five different LLMs"
+title: "Harness improvements that encode domain patterns transfer across models — invest once and keep the gain through model swaps"
 description: "Meta-Harness discovered a retrieval harness that improved math reasoning by 4.7 percentage points average across five held-out models it was never optimized for, suggesting harness quality is model-agnostic"
 topics: [ai-agents, ai-native-product-architecture]
 source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)"

@@ -1,5 +1,5 @@
 ---
-title: "Full trace filesystems beat compressed summaries for harness optimization — 10M tokens of context outperforms 26K"
+title: "Give an optimizing agent full traces, not compressed summaries — it has to see why past attempts failed"
 description: "Meta-Harness gives its proposer agent a filesystem containing full source code, scores, and execution traces of every prior candidate, enabling up to 10M tokens of diagnostic context per iteration — dramatically outperforming prior methods limited to 26K compressed tokens"
 topics: [ai-agents, ai-coding-tools, ai-native-product-architecture]
 source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)"

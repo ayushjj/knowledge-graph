@@ -1,5 +1,5 @@
 ---
-title: "Memory defines the agent — a zip of markdown files IS the agent, and portable memory between harnesses is the frontier"
+title: "An agent is its memory — keep its prompts, skills and tools portable and the agent can move between harnesses"
 description: "An agent IS its memory — a zip of markdown (system prompt + skills + tools) defines its identity; making that portable between harnesses is the current frontier"
 topics: [ai-agents, knowledge-systems]
 source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer"

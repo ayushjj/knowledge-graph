@@ -1,5 +1,5 @@
 ---
-title: "Harness engineering — humans steer, agents execute, documentation is the system of record"
+title: "When agents write the code, engineering moves into the harness — and documentation becomes the system of record"
 description: "OpenAI built a million-line production codebase with zero manually-written code in 5 months. The discipline shifted from writing code to designing the harness: architecture constraints, documentation, tooling, and feedback loops that make agents reliable at scale."
 topics: [ai-coding-tools, knowledge-systems]
 source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
