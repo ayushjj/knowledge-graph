@@ -28,6 +28,7 @@ jobs:
       - run: npm ci
       - run: npx astro check
       - run: node validate-graph.js
+      - run: sh check-public-content.sh   # no raw HTML / unsafe links reach the site
       - run: npx vitest run
       - run: npm run build
 

@@ -1,0 +1,23 @@
+#!/bin/sh
+# Pre-push: nothing unsafe or private reaches the public site (review 2026-10-24).
+# 1) raw HTML / unsafe links in changed content (same check CI runs); 2) private terms from a list kept OUTSIDE the
+# repo (~/.claude/level-up/kg-private-terms.txt — the list itself is private), scanned in every changed file.
+TERMS="$HOME/.claude/level-up/kg-private-terms.txt"
+zero=0000000000000000000000000000000000000000
+status=0
+while read -r lref lsha rref rsha; do
+  [ "$lsha" = "$zero" ] && continue
+  if [ "$rsha" = "$zero" ]; then base=$(git merge-base "$lsha" origin/master 2>/dev/null); else base=$rsha; fi
+  files=$(git diff --name-only --diff-filter=AM "$base" "$lsha")
+  [ -z "$files" ] && continue
+  content=$(echo "$files" | grep -E '^(insights|topics)/.*\.md$|^index\.md$')
+  if [ -n "$content" ]; then sh check-public-content.sh $content || status=1; fi
+  if [ -f "$TERMS" ]; then
+    pat=$(grep -vE '^[[:space:]]*(#|$)' "$TERMS" | paste -sd'|' -)
+    hits=$(echo "$files" | while read -r f; do [ -f "$f" ] && git show "$lsha:$f" 2>/dev/null | grep -nEi "$pat" | sed "s#^#$f:#"; done)
+    if [ -n "$hits" ]; then echo "BLOCKED: private terms in files being pushed:"; echo "$hits" | head -10; status=1; fi
+  else
+    echo "BLOCKED: private-terms list missing ($TERMS)"; status=1
+  fi
+done
+exit $status

@@ -1,7 +1,8 @@
 # Ayush's Knowledge Graph Index
 # Tier 0+1: Complete graph structure + node metadata
 # Read this INSTEAD of scanning all insight files
-# Updated by /learn (add nodes) and /connect (add links)
+# Updated by /learn — Steps 3-6 add nodes, Step 8 back-links them, Step 9 sweeps the whole
+# graph for leaves/bridges/MOC drift (that sweep was /connect, folded into /learn 2026-08-27)
 #
 # Architecture (from skill-graphs-enable-progressive-disclosure):
 #   Tier 0: This file — graph structure, titles, descriptions
