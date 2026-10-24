@@ -10,16 +10,25 @@ block() { echo "BLOCKED (pre-push): $*" >&2; exit 1; }
 
 [ -r "$TERMS" ] || block "private-terms list missing ($TERMS)"
 pat=$(mktemp) || block "mktemp failed"
-trap 'rm -f "$pat" "$pat.files" "$pat.blob"' EXIT
-tr -d '\r' < "$TERMS" | grep -vE '^[[:space:]]*(#|$)' > "$pat"
+trap 'rm -f "$pat" "$pat.files" "$pat.blob" "$pat.in"' EXIT
+# trim each term; a space or hyphen in a term matches any run of spaces, hyphens, underscores or a
+# line break, so "Foo Bar" also catches "foo-bar" (a slug, i.e. a public URL) and a wrapped line
+tr -d '\r' < "$TERMS" | grep -vE '^[[:space:]]*(#|$)' | sed -E 's/^[[:space:]]+|[[:space:]]+$//g; s/[ -]+/[[:space:]_-]+/g' > "$pat"
 [ -s "$pat" ] || block "private-terms list is empty"
 echo probe | grep -qiE -f "$pat"; [ $? -le 1 ] || block "private-terms list has an invalid pattern"
 
 # scan <label>: reads stdin; prints hits, returns 1 if any, blocks on grep error
 scan() {
-  local out rc
-  out=$(grep -niE -f "$pat" 2>/dev/null); rc=$?
+  local out rc r2
+  cat > "$pat.in" || block "cannot buffer $1"
+  out=$(grep -niE -f "$pat" "$pat.in" 2>/dev/null); rc=$?
   [ $rc -le 1 ] || block "scan failed on $1"
+  if [ $rc -eq 1 ]; then
+    # again with line breaks joined, so a term wrapped across two lines is still found
+    tr '\n' ' ' < "$pat.in" | grep -qiE -f "$pat" 2>/dev/null; r2=$?
+    [ $r2 -le 1 ] || block "scan failed on $1"
+    [ $r2 -eq 0 ] && { out="(a term split across lines)"; rc=0; }
+  fi
   [ $rc -eq 0 ] && { echo "$out" | head -5 | sed "s#^#$1:#"; return 1; }
   return 0
 }
@@ -27,15 +36,23 @@ scan() {
 status=0
 while read -r lref lsha rref rsha; do
   [ "$lsha" = "$zero" ] && continue            # deleting a remote branch pushes no content
-  commits=$(git rev-list "$lsha" --not --remotes=origin) || block "cannot list commits for $lref"
+  # an annotated tag carries its own message and tagger; anything else that is not a commit is refused
+  case "$(git cat-file -t "$lsha" 2>/dev/null)" in
+    commit) ;;
+    tag) git cat-file -p "$lsha" | scan "tag $lref" || status=1 ;;
+    *) block "pushing a $(git cat-file -t "$lsha" 2>/dev/null || echo missing) object ($lref)" ;;
+  esac
+  # trust only what the remote being pushed to already has
+  commits=$(git rev-list "$lsha" --not --remotes="$1") || block "cannot list commits for $lref"
   for c in $commits; do
     git show -s --format='%B%n%an %ae%n%cn %ce' "$c" | scan "commit $c message/author" || status=1
     # list to a file first: an error inside a process substitution would be lost and pass silently
-    git diff-tree --root --no-commit-id -r --no-renames --diff-filter=d --name-only -z "$c" > "$pat.files" \
+    # -m: a merge commit lists every file that differs from either parent (content added while resolving)
+    git diff-tree -m --root --no-commit-id -r --no-renames --diff-filter=d --name-only -z "$c" > "$pat.files" \
       || block "cannot list files of $c"
     while IFS= read -r -d '' f; do
-      case "$f" in   # machine-written lockfiles are random hashes: short terms match by chance
-        package-lock.json|*/package-lock.json|*.lock) ;;
+      case "$f" in   # the root lockfile is random hashes: short terms match by chance
+        package-lock.json) ;;
         *) git cat-file -p "$c:$f" > "$pat.blob" || block "cannot read $c:$f"
            scan "$c:$f" < "$pat.blob" || status=1 ;;
       esac

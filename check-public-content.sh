@@ -1,7 +1,7 @@
 #!/bin/sh
-# Blocks raw HTML, event-handler attributes and non-http(s) links in published content — the site renders markdown
-# with raw HTML passed through, so one planted <img onerror=...> would run on every visitor (review 2026-10-24).
-# Used by CI (deploy.yml) and by .githooks/pre-push. Usage: sh check-public-content.sh [files...]  (default: all)
+# Blocks raw HTML, event-handler attributes and non-http(s) links in published content (review 2026-10-24).
+# A second layer: the site build itself removes raw HTML (src/lib/sanitize-schema.ts).
+# Used by CI (deploy.yml). Usage: sh check-public-content.sh [files...]  (default: all)
 set -u
 # Second layer only: the real guard is the build-time allow-list (src/lib/sanitize-schema.ts), which also
 # catches what a line-by-line scan cannot (tags split across lines, encoded links).

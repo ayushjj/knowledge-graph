@@ -30,6 +30,7 @@ jobs:
       - run: node validate-graph.js
       - run: sh check-public-content.sh   # no raw HTML / unsafe links reach the site
       - run: npx vitest run
+      - run: bash tests/pre-push.test.sh   # the private-terms upload check still blocks every known bypass
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

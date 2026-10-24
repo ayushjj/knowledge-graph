@@ -7,7 +7,7 @@
     "build": "node build-graph.js && astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "build:graph": "node build-graph.js",
-    "check": "astro check && node build-graph.js && node validate-graph.js && vitest run",
+    "check": "astro check && node build-graph.js && node validate-graph.js && vitest run && bash tests/pre-push.test.sh",
     "test": "vitest run",
     "prepare": "git config core.hooksPath .githooks"
   },
