@@ -49,6 +49,8 @@ for (const [slug, node] of Object.entries(nodes)) {
     color,
     degree,
     domain,
+    kind: node.kind,
+    bet_date: node.bet_date,
   });
 
   for (const target of outgoing) {

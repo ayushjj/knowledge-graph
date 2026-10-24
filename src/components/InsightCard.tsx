@@ -1,4 +1,5 @@
 import { getTopicColor, getTopicLabel, DOMAINS } from '../lib/topics';
+import { kindLabel } from '../lib/kind';
 
 interface InsightCardProps {
   slug: string;
@@ -10,10 +11,13 @@ interface InsightCardProps {
   domain: string;
   basePath: string;
   showDomain?: boolean;
+  kind?: string;
+  betDate?: string;
 }
 
-export default function InsightCard({ slug, title, description, topics, source, degree, domain, basePath, showDomain }: InsightCardProps) {
+export default function InsightCard({ slug, title, description, topics, source, degree, domain, basePath, showDomain, kind, betDate }: InsightCardProps) {
   const primaryColor = getTopicColor(topics[0]);
+  const kindText = kindLabel(kind, betDate);
 
   return (
     <a
@@ -30,6 +34,11 @@ export default function InsightCard({ slug, title, description, topics, source, 
       }}
     >
       <div className="mb-3 flex flex-wrap gap-1.5">
+        {kindText && (
+          <span className="inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium bg-white/5 text-text-dim border border-border">
+            {kindText}
+          </span>
+        )}
         {showDomain && (
           <span className="inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium bg-white/5 text-text-dim border border-border">
             {DOMAINS[domain]?.label || domain}

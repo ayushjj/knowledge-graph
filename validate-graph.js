@@ -13,6 +13,7 @@ import yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
 import { readmeScanner } from './lib/readme-counts.js';
 import { unknownKeys, ALLOWED_TOP_KEYS, ALLOWED_NODE_KEYS } from './lib/schema-keys.js';
+import { kindErrors, kindMirrorErrors } from './lib/kind.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -202,6 +203,33 @@ if (unknown.length === 0) {
     `from DATA_YAML_PATHS in ~/.claude/skills/review/scripts/classify-diff.js first:\n` +
     unknown.map(u => `  ${u}`).join('\n')
   );
+}
+
+// --- Check 9: Insight kind (thinking-tool | principle | practice | bet) ---
+// Values are closed (lib/kind.js): an unknown kind fails, a bet without bet_date fails, a
+// bet_date on a non-bet fails. The frontmatter (what the site shows) must match the yaml
+// mirror (what agents read), so the two cannot disagree about what an insight is.
+const REQUIRE_KIND = false;
+const frontmatterRe = /^---\r?\n([\s\S]*?)\r?\n---/;
+const kindProblems = [];
+
+for (const slug of slugs) {
+  kindProblems.push(...kindErrors(slug, nodes[slug], { requireKind: REQUIRE_KIND }));
+  const file = path.join(__dirname, 'insights', `${slug}.md`);
+  if (!fs.existsSync(file)) continue;                  // Check 3 reports the missing file
+  const fm = frontmatterRe.exec(fs.readFileSync(file, 'utf8'));
+  const parsed = fm ? yaml.load(fm[1]) : null;
+  if (parsed === null || typeof parsed !== 'object' || Array.isArray(parsed)) {
+    kindProblems.push(`${slug}: insights/${slug}.md has no parseable frontmatter`);
+    continue;
+  }
+  kindProblems.push(...kindMirrorErrors(slug, nodes[slug] || {}, parsed));
+}
+
+if (kindProblems.length === 0) {
+  pass(`Insight kind: values valid, bets dated, frontmatter matches yaml${REQUIRE_KIND ? ', present on every node' : ''}`);
+} else {
+  fail(`Insight kind:\n${kindProblems.map(p => `  ${p}`).join('\n')}`);
 }
 
 // --- Summary ---

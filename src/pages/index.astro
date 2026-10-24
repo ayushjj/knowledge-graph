@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { getDegree } from '../lib/graph';
 import { getTopicColor, getTopicLabel, getInsightDomain } from '../lib/topics';
 import InsightFeed from '../components/InsightFeed';
+import { isoDay } from '../lib/kind';
 import '../styles/global.css';
 
 const allInsights = await getCollection('insights');
@@ -18,6 +19,8 @@ const insights = allInsights
     source: insight.data.source,
     degree: getDegree(insight.id),
     domain: insight.data.domain || getInsightDomain(insight.data.topics),
+    kind: insight.data.kind,
+    betDate: isoDay(insight.data.bet_date),
   }))
   .sort((a, b) => b.degree - a.degree);
 

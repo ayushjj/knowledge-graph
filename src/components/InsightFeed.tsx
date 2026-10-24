@@ -10,6 +10,8 @@ interface Insight {
   source: string;
   degree: number;
   domain: string;
+  kind?: string;
+  betDate?: string;
 }
 
 interface InsightFeedProps {

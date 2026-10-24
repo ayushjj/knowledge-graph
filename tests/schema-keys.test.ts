@@ -126,7 +126,7 @@ describe('the allowlists themselves', () => {
   it('holds exactly the measured schema — widening requires pulling the classifier exemption', () => {
     expect([...ALLOWED_TOP_KEYS].sort()).toEqual(['domains', 'last_updated', 'node_count', 'nodes']);
     expect([...ALLOWED_NODE_KEYS].sort()).toEqual(
-      ['description', 'domain', 'outgoing', 'source', 'source_file', 'title', 'topics'],
+      ['bet_date', 'description', 'domain', 'kind', 'outgoing', 'source', 'source_file', 'title', 'topics'],
     );
   });
 });
