@@ -73,3 +73,4 @@ Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriti
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
 - [[never-do-one-off-work-skillify-every-task]] — The discipline separating compounders from dabblers: skillify at the end of every task
 - [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — Markdown is code and the compiler is a language model, which is why non-engineers ship automation
+- [[durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives]] — dquickts pauses a program mid-loop, saves its whole heap, resumes it in another process

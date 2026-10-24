@@ -19,6 +19,9 @@ Agents search by reasoning about where to look, not by pre-indexing and similari
 ### Personal Software & Agent Trust
 Agents develop through relationship with individual users, not configuration. Trust transfers socially — colleagues trust agents operated by people they already trust. Organizational structures (Deputies/Sheriffs) emerge naturally from human authority hierarchies.
 
+### Stateful Execution Environments
+Whether an agent can work depends on an environment that keeps its state between steps (bash plus files, a Jupyter kernel, a durable code-mode REPL), not on whether its tools speak MCP or CLI. The next layer may be one checkable execution plan that every input format compiles to.
+
 ## Insights
 - [[features-are-prompts-not-code]] — Agent-native means outcomes via prompts, not coded functions
 - [[skills-as-markdown-replace-fine-tuning]] — Skill files may match fine-tuned models at zero training cost
@@ -138,3 +141,6 @@ Agents develop through relationship with individual users, not configuration. Tr
 - [[make-the-quality-gate-a-second-adversarial-model-not-a-human]] — An adversarial LLM checking for injection or policy breach is what lets the loop run unattended
 - [[put-a-second-agent-on-the-first-agents-failure-log]] — YC's overnight agent reads yesterday's failures and ships PRs that fix them
 - [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — Taste and judgment in latent space, arithmetic and state in code the markdown calls
+- [[mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]] — CLI wins today only because bash keeps state in the file system; the harness decides, not the protocol
+- [[agent-inputs-could-compile-to-one-checkable-execution-plan]] — Tobi's bet: bash, code and tool calls become one plan, checked before it runs
+- [[durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives]] — dquickts pauses a program mid-loop, saves its whole heap, resumes it in another process

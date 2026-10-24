@@ -121,3 +121,5 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — Markdown files calling databases; confusing the two causes every agent failure Tan has seen
 - [[being-worth-retrieving-from-is-the-product]] — What gets written down, enriched, promoted and arbitrated is the product; retrieval is easy
 - [[custody-is-the-security-model]] — Your own infra, your own repo, your own keys — measured against the actual default, not a hypothetical one
+- [[mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]] — CLI wins today only because bash keeps state in the file system; the harness decides, not the protocol
+- [[agent-inputs-could-compile-to-one-checkable-execution-plan]] — Tobi's bet: bash, code and tool calls become one plan, checked before it runs

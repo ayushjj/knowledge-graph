@@ -11,11 +11,38 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-08-21
-node_count: 273
+last_updated: 2026-10-24
+node_count: 276
 domains: [ai, mental-models]
 
 nodes:
+  mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state:
+    title: "MCP vs CLI is the wrong debate — either works once it runs inside a REPL that keeps state"
+    description: "CLI tools beat MCP today only because they are reached through bash, which is a REPL whose state persists in the file system; that is a harness property, not something intrinsic to MCP"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion"
+    source_file: sources/tobi-mcp-vs-cli-wrong-layer-dquickts.md
+    domain: ai
+    outgoing: [agent-inputs-could-compile-to-one-checkable-execution-plan, capability-overhang-tools-unlock-latent-model-ability, durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, files-are-the-universal-agent-interface, harness-quality-beats-model-intelligence]
+
+  agent-inputs-could-compile-to-one-checkable-execution-plan:
+    title: "Bash, code and tool calls could compile to one execution plan that is security-checked before it runs"
+    description: "Tobi Lutke's bet: an embeddable, sqlite-style mini execution environment that turns bash, TypeScript or tool calls into a common intermediate plan, checks it before executing, and is built for durable execution, so CLI, MCP and WebMCP become interchangeable inputs"
+    topics: [ai-agents, ai-native-product-architecture]
+    source: "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion"
+    source_file: sources/tobi-mcp-vs-cli-wrong-layer-dquickts.md
+    domain: ai
+    outgoing: [durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, safety-enforcement-belongs-in-tool-design-not-prompts, webmcp-turns-websites-into-agent-native-interfaces]
+
+  durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives:
+    title: "Durable execution snapshots the whole interpreter, so a code-mode session survives restarts and hours-long waits"
+    description: "dquickts, a QuickJS fork Tobi Lutke called an excellent code mode env, can pause a running program even mid-loop, write its entire heap to bytes and resume it in another process; a REPL built on it keeps functions, variables and closures across restarts"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@tobi (tobi lutke) — Excellent code mode env (stencil-hq/dquickts README)"
+    source_file: sources/tobi-mcp-vs-cli-wrong-layer-dquickts.md
+    domain: ai
+    outgoing: [agent-inputs-could-compile-to-one-checkable-execution-plan, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, treat-agent-as-operating-system-not-function, virtual-filesystems-replace-sandboxes-for-agent-navigation]
+
   choose-problems-backward-from-an-outcome-you-want:
     title: "Reason backward from an outcome you want to exist — it manufactures originality that absorbed problems can't"
     description: "Absorbed problems hand you the conclusion without the reasoning, on a crowded racetrack; choosing an outcome you genuinely want and reasoning backward to the experiments drags you into territory no survey paper covers"
@@ -339,7 +366,7 @@ nodes:
     description: "Markdown and YAML files on disk beat databases because agents already know file operations and humans can inspect everything"
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
-    outgoing: [context-is-the-product-not-the-model, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning]
+    outgoing: [context-is-the-product-not-the-model, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, rigid-schemas-exist-because-rigid-apps-demand-them, skills-as-markdown-replace-fine-tuning]
 
   technical-knowledge-becomes-liability:
     title: "Technical knowledge can become a liability when working with AI"
@@ -819,7 +846,7 @@ nodes:
     description: "Agents need RAM (conversation context), a hard drive (persistent memory), garbage collection (decay/pruning), and I/O management (tools)"
     topics: [ai-agents, knowledge-systems]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
-    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, error-memory-enables-learning-without-retraining, sessions-are-runtime-infrastructure-not-just-transcripts, three-layer-ai-stack-memory-search-reasoning]
+    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, error-memory-enables-learning-without-retraining, sessions-are-runtime-infrastructure-not-just-transcripts, three-layer-ai-stack-memory-search-reasoning]
 
   tiered-retrieval-prevents-context-overload:
     title: "Tiered retrieval prevents context overload — summaries first, details on demand"
@@ -1031,7 +1058,7 @@ nodes:
     description: "Unlike semantic layers that rot when maintainers leave, context layers need self-updating feedback loops where agent errors refine the context corpus"
     topics: [ai-native-product-architecture, ai-agents]
     source: "@jasonscui — Your Data Agents Need Context, a16z"
-    outgoing: [compound-engineering-makes-future-work-easier, error-memory-enables-learning-without-retraining, knowledge-evolution-is-the-biggest-unsolved-problem]
+    outgoing: [compound-engineering-makes-future-work-easier, conflicting-context-causes-agent-collapse-not-graceful-degradation, error-memory-enables-learning-without-retraining, knowledge-evolution-is-the-biggest-unsolved-problem]
 
   context-layers-supersede-semantic-layers:
     title: "Context layers supersede semantic layers for agent autonomy"
@@ -1096,7 +1123,7 @@ nodes:
     description: "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions"
     topics: [ai-agents, ai-native-product-architecture]
     source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
-    outgoing: [enforcement-must-run-independently-of-model-cooperation, production-agents-route-decisions-not-every-call-to-llm, separate-tool-registration-from-tool-exposure, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
+    outgoing: [agent-inputs-could-compile-to-one-checkable-execution-plan, enforcement-must-run-independently-of-model-cooperation, production-agents-route-decisions-not-every-call-to-llm, separate-tool-registration-from-tool-exposure, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
   saas-grows-but-consolidates-around-platforms:
     title: "AI won't destroy SaaS moats — it'll make the biggest ones even bigger"
@@ -1384,7 +1411,7 @@ nodes:
     description: "Generative tests that produce random or adversarial inputs discover edge cases in agent behavior that hand-written examples never cover"
     topics: [ai-coding-tools, ai-agents]
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
-    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, evaluate-tools-with-real-multi-step-tasks, verification-multiplies-agent-output-quality]
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, evaluate-tools-with-real-multi-step-tasks, unfocused-agents-develop-path-dependency, verification-multiplies-agent-output-quality]
 
   proprietary-feedback-loops-widen-the-moat:
     title: "Proprietary feedback loops create moats that widen with every interaction"
@@ -1721,7 +1748,7 @@ nodes:
     topics: [ai-native-product-architecture, business-models]
     source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
     source_file: sources/izzymiller-hex-building-ai-agents-data.md
-    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, offload-the-task-but-never-the-learning, proprietary-feedback-loops-widen-the-moat, the-learning-loop-is-the-firms-new-ip-and-it-compounds]
+    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, long-horizon-evals-test-compounding-not-point-accuracy, offload-the-task-but-never-the-learning, proprietary-feedback-loops-widen-the-moat, the-learning-loop-is-the-firms-new-ip-and-it-compounds]
 
   long-horizon-evals-test-compounding-not-point-accuracy:
     title: "Long-horizon evals test compounding behavior, not point-in-time accuracy"
@@ -1787,7 +1814,7 @@ nodes:
     source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
     source_file: sources/jayagup10-organizational-shape-is-the-moat.md
     domain: ai
-    outgoing: [a-frontier-without-an-ecosystem-is-not-stable, dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
+    outgoing: [a-frontier-without-an-ecosystem-is-not-stable, dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, mission-strength-is-measured-by-who-it-repels, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
 
   great-companies-are-wrappers-around-a-kind-of-person:
     title: "Great companies are wrappers around a kind of person — institutions that make a new kind of person possible"
@@ -1957,7 +1984,7 @@ nodes:
     source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
-    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]
+    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]
 
   system-prompt-guardrails-become-constraints-as-models-get-more-imaginative:
     title: "System-prompt guardrails built for a weaker model become constraints on a more imaginative one"
