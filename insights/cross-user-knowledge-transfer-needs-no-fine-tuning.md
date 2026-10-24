@@ -1,6 +1,6 @@
 ---
 title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
-description: "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval"
+description: "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval; the same store of past errors and fixes lets an agent stop repeating its mistakes without retraining"
 topics: [knowledge-systems, ai-agents, ai-native-product-architecture]
 source: "Ashpreet Bedi — Memory: How Agents Learn (Agno Framework)"
 date: 2025-01-28

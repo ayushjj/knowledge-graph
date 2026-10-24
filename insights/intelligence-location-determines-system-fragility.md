@@ -1,6 +1,6 @@
 ---
 title: "Intelligence location — code vs prompts — determines system fragility and flexibility"
-description: "Critical architectural fork: prompt-driven systems (Pal's 400-line routing prompt) are flexible but break when models change; code-driven systems (our validate-graph.js) are rigid but reliable — best systems need both"
+description: "Critical architectural fork: prompt-driven systems (Pal's 400-line routing prompt) are flexible but break when models change; code-driven systems (our validate-graph.js) are rigid but reliable — best systems need both, so decide for each step whether its computation belongs in the model (latent space) or in code (deterministic space)"
 topics: [knowledge-systems, ai-native-product-architecture, ai-agents]
 source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
 source_file: specs/knowledge-graph-architectures/research.md

@@ -1,6 +1,6 @@
 ---
 title: "Similarity is not relevance — relevance requires reasoning"
-description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning, not just pattern matching"
+description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning, not just pattern matching — across documents, code and skills, structure navigated by reasoning beats flat similarity search"
 topics: [ai-native-product-architecture, ai-agents, knowledge-systems]
 source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
 date: 2026-02-24

@@ -603,7 +603,7 @@ nodes:
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
-    description: "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval"
+    description: "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval; the same store of past errors and fixes lets an agent stop repeating its mistakes without retraining"
     topics: [knowledge-systems, ai-agents, ai-native-product-architecture]
     source: "Ashpreet Bedi — Agents That Learn (Agno Framework)"
     kind: principle
@@ -653,7 +653,7 @@ nodes:
 
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
-    description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning"
+    description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning, not just pattern matching — across documents, code and skills, structure navigated by reasoning beats flat similarity search"
     topics: [ai-native-product-architecture, ai-agents, knowledge-systems]
     source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
     kind: principle
@@ -1825,7 +1825,7 @@ nodes:
 
   intelligence-location-determines-system-fragility:
     title: "Intelligence location — code vs prompts — determines system fragility and flexibility"
-    description: "Prompt-driven systems are flexible but break when models change; code-driven systems are rigid but reliable — best systems need both"
+    description: "Critical architectural fork: prompt-driven systems (Pal's 400-line routing prompt) are flexible but break when models change; code-driven systems (our validate-graph.js) are rigid but reliable — best systems need both, so decide for each step whether its computation belongs in the model (latent space) or in code (deterministic space)"
     topics: [knowledge-systems, ai-native-product-architecture, ai-agents]
     source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
     source_file: specs/knowledge-graph-architectures/research.md

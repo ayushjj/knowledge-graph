@@ -13,7 +13,7 @@ import yaml from 'js-yaml';
 import { fileURLToPath } from 'url';
 import { readmeScanner } from './lib/readme-counts.js';
 import { unknownKeys, ALLOWED_TOP_KEYS, ALLOWED_NODE_KEYS } from './lib/schema-keys.js';
-import { kindErrors, kindMirrorErrors } from './lib/kind.js';
+import { kindErrors, kindMirrorErrors, isIsoDate } from './lib/kind.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -218,10 +218,16 @@ for (const slug of slugs) {
   const file = path.join(__dirname, 'insights', `${slug}.md`);
   if (!fs.existsSync(file)) continue;                  // Check 3 reports the missing file
   const fm = frontmatterRe.exec(fs.readFileSync(file, 'utf8'));
-  const parsed = fm ? yaml.load(fm[1]) : null;
+  // CORE_SCHEMA keeps dates as strings, so an impossible date (2026-02-30) is checked as
+  // written instead of silently rolling over to 2026-03-02 the way the default schema does.
+  let parsed = null;
+  try { parsed = fm ? yaml.load(fm[1], { schema: yaml.CORE_SCHEMA }) : null; } catch { parsed = null; }
   if (parsed === null || typeof parsed !== 'object' || Array.isArray(parsed)) {
     kindProblems.push(`${slug}: insights/${slug}.md has no parseable frontmatter`);
     continue;
+  }
+  if (parsed.bet_date !== undefined && !isIsoDate(parsed.bet_date)) {
+    kindProblems.push(`${slug}: insights/${slug}.md bet_date "${String(parsed.bet_date)}" is not a real YYYY-MM-DD date`);
   }
   kindProblems.push(...kindMirrorErrors(slug, nodes[slug] || {}, parsed));
 }

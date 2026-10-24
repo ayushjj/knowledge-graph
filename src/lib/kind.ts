@@ -1,14 +1,19 @@
 // Display labels for an insight's `kind`. The allowed values are defined once in
-// lib/kind.js (the validator); tests/kind.test.ts pins these labels to that list.
+// lib/kind.js; `satisfies Record<Kind, string>` makes a missing or extra label a type error.
+import { KINDS } from '../../lib/kind.js';
+
+export type Kind = (typeof KINDS)[number];
+
 export const KIND_LABELS = {
   'thinking-tool': 'Thinking tool',
   principle: 'Principle',
   practice: 'Practice',
   bet: 'Bet',
-} satisfies Record<string, string>;
+} satisfies Record<Kind, string>;
 
-function isKind(kind: string): kind is keyof typeof KIND_LABELS {
-  return kind in KIND_LABELS;
+// Object.hasOwn, not `in`: `in` also matches inherited names such as "constructor".
+function isKind(kind: string): kind is Kind {
+  return Object.hasOwn(KIND_LABELS, kind);
 }
 
 /** "Principle", or "Bet · 2026-08-22" for a dated bet; null when the insight has no kind. */

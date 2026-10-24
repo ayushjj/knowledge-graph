@@ -123,7 +123,7 @@ describe('unknownKeys — what must stay allowed', () => {
 });
 
 describe('the allowlists themselves', () => {
-  it('holds exactly the measured schema — widening requires pulling the classifier exemption', () => {
+  it('holds exactly the measured schema — a nested or directive key requires pulling the classifier exemption; a scalar key requires updating its comment', () => {
     expect([...ALLOWED_TOP_KEYS].sort()).toEqual(['domains', 'last_updated', 'node_count', 'nodes']);
     expect([...ALLOWED_NODE_KEYS].sort()).toEqual(
       ['bet_date', 'description', 'domain', 'kind', 'outgoing', 'source', 'source_file', 'title', 'topics'],

@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { execFileSync } from 'child_process';
+import { cpSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'fs';
+import { tmpdir } from 'os';
 import { join } from 'path';
 import { KINDS, kindErrors, kindMirrorErrors, isIsoDate } from '../lib/kind.js';
 import { unknownKeys } from '../lib/schema-keys.js';
@@ -95,6 +97,44 @@ describe('Check 9 is wired into validate-graph.js', () => {
     const out = execFileSync('node', ['validate-graph.js'], { cwd: ROOT, encoding: 'utf8' });
     expect(out).toMatch(/\[PASS\] Insight kind:/);
   });
+
+  // Run the real validator on a copy with one bet broken: the PASS line above cannot tell a
+  // working Check 9 from a deleted one (correctness review 2026-10-24).
+  const SKIP = /\/(node_modules|dist|\.git|\.astro|public|sources|learnings|specs)(\/|$)/;
+  const broken = (edit: (fm: string) => string): { code: number; out: string } => {
+    const dir = mkdtempSync(join(tmpdir(), 'kg-check9-'));
+    cpSync(ROOT, dir, { recursive: true, filter: (src) => !SKIP.test(src.slice(ROOT.length)) });
+    symlinkSync(join(ROOT, 'node_modules'), join(dir, 'node_modules'));
+    const file = join(dir, 'insights', 'agents-become-the-buyer.md');
+    writeFileSync(file, edit(readFileSync(file, 'utf8')));
+    try {
+      return { code: 0, out: execFileSync('node', ['validate-graph.js'], { cwd: dir, encoding: 'utf8' }) };
+    } catch (e: unknown) {
+      const status = typeof e === 'object' && e !== null && 'status' in e && typeof e.status === 'number' ? e.status : -1;
+      const stdout = typeof e === 'object' && e !== null && 'stdout' in e && typeof e.stdout === 'string' ? e.stdout : '';
+      return { code: status, out: stdout };
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
+  };
+
+  it('fails when a bet loses its date', () => {
+    const r = broken((fm) => fm.replace(/^bet_date:.*\n/m, ''));
+    expect(r.code).toBe(1);
+    expect(r.out).toMatch(/\[FAIL\] Insight kind:[\s\S]*agents-become-the-buyer: bet_date differs/);
+  });
+
+  it('fails on an impossible date instead of rolling 02-30 over to 03-02', () => {
+    const r = broken((fm) => fm.replace(/^bet_date:.*$/m, 'bet_date: 2026-02-30'));
+    expect(r.code).toBe(1);
+    expect(r.out).toMatch(/bet_date "2026-02-30" is not a real YYYY-MM-DD date/);
+  });
+
+  it('reports unparseable frontmatter as a failure, not a crash', () => {
+    const r = broken((fm) => fm.replace(/^kind:.*$/m, 'kind: "bet'));
+    expect(r.code).toBe(1);
+    expect(r.out).toMatch(/agents-become-the-buyer: insights\/agents-become-the-buyer\.md has no parseable frontmatter/);
+  });
 });
 
 describe('site labels', () => {
@@ -108,5 +148,11 @@ describe('site labels', () => {
     expect(kindLabel('bet', '2026-08-22')).toBe('Bet · 2026-08-22');
     expect(kindLabel('thinking-tool', undefined)).toBe('Thinking tool');
     expect(kindLabel(undefined, undefined)).toBeNull();
+  });
+
+  it('never treats an inherited name such as "constructor" as a kind', async () => {
+    const { kindLabel } = await import('../src/lib/kind');
+    expect(kindLabel('constructor', undefined)).toBe('constructor');
+    expect(kindLabel('toString', undefined)).toBe('toString');
   });
 });
