@@ -1,23 +1,47 @@
-#!/bin/sh
-# Pre-push: nothing unsafe or private reaches the public site (review 2026-10-24).
-# 1) raw HTML / unsafe links in changed content (same check CI runs); 2) private terms from a list kept OUTSIDE the
-# repo (~/.claude/level-up/kg-private-terms.txt — the list itself is private), scanned in every changed file.
+#!/bin/bash
+# Pre-push: nothing private reaches the public repo (reviews 2026-10-24, round 4).
+# Scans what is actually pushed — every new commit's files, message and author — never the working tree.
+# Private terms come from a list kept OUTSIDE the repo (the list itself is private). Any error blocks the push:
+# a check that cannot run must not pass. Raw HTML is handled at build time (src/lib/sanitize-schema.ts) and by CI.
+set -u
 TERMS="$HOME/.claude/level-up/kg-private-terms.txt"
 zero=0000000000000000000000000000000000000000
+block() { echo "BLOCKED (pre-push): $*" >&2; exit 1; }
+
+[ -r "$TERMS" ] || block "private-terms list missing ($TERMS)"
+pat=$(mktemp) || block "mktemp failed"
+trap 'rm -f "$pat" "$pat.files" "$pat.blob"' EXIT
+tr -d '\r' < "$TERMS" | grep -vE '^[[:space:]]*(#|$)' > "$pat"
+[ -s "$pat" ] || block "private-terms list is empty"
+echo probe | grep -qiE -f "$pat"; [ $? -le 1 ] || block "private-terms list has an invalid pattern"
+
+# scan <label>: reads stdin; prints hits, returns 1 if any, blocks on grep error
+scan() {
+  local out rc
+  out=$(grep -niE -f "$pat" 2>/dev/null); rc=$?
+  [ $rc -le 1 ] || block "scan failed on $1"
+  [ $rc -eq 0 ] && { echo "$out" | head -5 | sed "s#^#$1:#"; return 1; }
+  return 0
+}
+
 status=0
 while read -r lref lsha rref rsha; do
-  [ "$lsha" = "$zero" ] && continue
-  if [ "$rsha" = "$zero" ]; then base=$(git merge-base "$lsha" origin/master 2>/dev/null); else base=$rsha; fi
-  files=$(git diff --name-only --diff-filter=AM "$base" "$lsha")
-  [ -z "$files" ] && continue
-  content=$(echo "$files" | grep -E '^(insights|topics)/.*\.md$|^index\.md$')
-  if [ -n "$content" ]; then sh check-public-content.sh $content || status=1; fi
-  if [ -f "$TERMS" ]; then
-    pat=$(grep -vE '^[[:space:]]*(#|$)' "$TERMS" | paste -sd'|' -)
-    hits=$(echo "$files" | while read -r f; do [ -f "$f" ] && git show "$lsha:$f" 2>/dev/null | grep -nEi "$pat" | sed "s#^#$f:#"; done)
-    if [ -n "$hits" ]; then echo "BLOCKED: private terms in files being pushed:"; echo "$hits" | head -10; status=1; fi
-  else
-    echo "BLOCKED: private-terms list missing ($TERMS)"; status=1
-  fi
+  [ "$lsha" = "$zero" ] && continue            # deleting a remote branch pushes no content
+  commits=$(git rev-list "$lsha" --not --remotes=origin) || block "cannot list commits for $lref"
+  for c in $commits; do
+    git show -s --format='%B%n%an %ae%n%cn %ce' "$c" | scan "commit $c message/author" || status=1
+    # list to a file first: an error inside a process substitution would be lost and pass silently
+    git diff-tree --root --no-commit-id -r --no-renames --diff-filter=d --name-only -z "$c" > "$pat.files" \
+      || block "cannot list files of $c"
+    while IFS= read -r -d '' f; do
+      case "$f" in   # machine-written lockfiles are random hashes: short terms match by chance
+        package-lock.json|*/package-lock.json|*.lock) ;;
+        *) git cat-file -p "$c:$f" > "$pat.blob" || block "cannot read $c:$f"
+           scan "$c:$f" < "$pat.blob" || status=1 ;;
+      esac
+      printf '%s\n' "$f" | scan "file name $f" || status=1
+    done < "$pat.files"
+  done
 done
-exit $status
+[ $status -eq 0 ] || block "private terms found in what is being pushed (see above)"
+exit 0
