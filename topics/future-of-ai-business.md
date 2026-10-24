@@ -47,7 +47,6 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[llm-competition-fragments-markets-not-consolidates]] — Competition explodes from 3 incumbents to 300 when engineering barriers collapse
 - [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — The web becomes a backend database; suppliers compete on data quality alone
 - [[frontier-companies-absorb-every-useful-agentic-pattern]] — Useful agentic patterns get absorbed into foundation company products
-- [[sell-the-work-not-the-tool]] — Model improvements compound for services, against software
 - [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence work automates first; judgement remains human (software engineering crossed first)
 - [[autopilots-capture-work-budget-not-tool-budget]] — Six dollars in services for every one in software; autopilots access the larger TAM
 - [[outsourcing-is-the-autopilot-wedge]] — Already-outsourced intelligence-heavy tasks are frictionless vendor swaps
@@ -75,7 +74,6 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — When software carries context, communication stops being the load-bearing wall
 - [[human-capital-and-token-capital-compound-together]] — Two complementary stocks; human capital becomes MORE valuable as token capital grows
 - [[offload-the-task-but-never-the-learning]] — Build the learning loop, not the model pick; the retained learning is what compounds
-- [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — A hill-climbing machine: every improved workflow generates better training signal
 - [[a-frontier-without-an-ecosystem-is-not-stable]] — Concentrating all value in a few models has no societal permission; ecosystem is the stable equilibrium
 - [[price-of-intelligence-is-the-new-organizing-axis]] — Cost of intelligence is the axis labs, apps, and countries reorganize around
 - [[ai-strategy-is-a-self-rewriting-equation]] — Many coupled variables; solving one constraint changes which matters next
@@ -86,7 +84,7 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[engineering-and-research-have-fused-at-the-frontier]] — The researcher who builds the harness/eval/pipeline is the one whose ideas get tested
 - [[wander-across-subfields-before-you-settle]] — Subfields saturate right after they peak; breadth carries you through transitions, not a fixed plan
 - [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint
-- [[building-is-easier-but-generating-value-is-still-hard]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
+- [[ai-compresses-execution-not-judgment]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
 - [[institutional-slowness-is-the-runway-not-the-threat]] — The AI white pill is that society, government and every company are slower than you think
 - [[ai-erases-the-api-line]] — Above/below the API line dissolves when the side taking orders can negotiate
 - [[experience-times-agent-multiplier-favors-veteran-founders]] — 35-45 year-old founders who know what to build, multiplied, outperform a Mag-7 department

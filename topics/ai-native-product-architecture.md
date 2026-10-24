@@ -32,7 +32,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[verification-is-a-red-queen-race]] — Eval suites degrade the moment you optimize against them — structural property of verification
 - [[stronger-models-expand-the-verification-gap]] — More capability means more deployment surface, harder verification
 - [[trust-boundaries-must-be-mapped-and-externalized]] — Trust characterization must be auditable and connected to deployment gates
-- [[structure-plus-reasoning-beats-flat-similarity]] — Across documents, code, and skills, structured knowledge navigated by reasoning wins
 - [[agentic-search-beats-rag-for-live-codebases]] — Claude Code abandoned RAG for grep/glob; agent reasons about where to look
 - [[postgresql-scales-further-than-you-think]] — OpenAI: 1 primary + ~50 replicas, millions QPS, no sharding
 - [[three-layer-ai-stack-memory-search-reasoning]] — Memory + Search + Reasoning layers, all on PostgreSQL
@@ -42,13 +41,11 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[embeddings-measure-similarity-not-truth]] — Vector databases have a temporal blind spot; cosine similarity can't resolve contradictions
 - [[tiered-retrieval-prevents-context-overload]] — Summaries → items → raw resources; LLM decides at each tier if it has enough
 - [[production-agents-route-decisions-not-every-call-to-llm]] — Decision trees for routine cases, LLMs only for ambiguity in production
-- [[error-memory-enables-learning-without-retraining]] — Dash's six context layers enable GPU-poor continuous learning
+- [[cross-user-knowledge-transfer-needs-no-fine-tuning]] — Dash's six context layers enable GPU-poor continuous learning
 - [[rigid-schemas-exist-because-rigid-apps-demand-them]] — Agents clone entire CRMs in seconds; the rigid app was the constraint, data moats evaporate
 - [[lakebases-decouple-compute-from-storage]] — Third-gen databases: serverless Postgres on cloud object stores, instant branching, scale to zero
 - [[multi-model-orchestration-beats-any-single-family]] — The computer is the orchestration system: 19 models as unified intelligence
 - [[context-inefficiency-compounds-three-penalties]] — Wasted tokens create a triple tax: higher cost, slower responses, degraded output quality
-- [[kv-cache-hit-rate-determines-agent-economics]] — Stable prefixes + append-only context maximize cache reuse, slashing cost and latency
-- [[safety-enforcement-belongs-in-tool-design-not-prompts]] — Embed safety invariants in the tool API, not in system prompt instructions
 - [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
 - [[context-layers-supersede-semantic-layers]] — Context layers are a superset of semantic layers: entities, identity resolution, tribal knowledge, governance
 - [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static artifacts
@@ -59,7 +56,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries
 - [[inference-capability-lowers-input-fidelity-requirements]] — Smart listeners make imprecise input work — input quality bars drop when the consumer infers
 - [[sand-vs-stone-separates-durable-from-disposable-product-value]] — Framework: if models double, what washes away vs remains?
-- [[model-compensations-become-liabilities-as-capabilities-advance]] — Yesterday's model workarounds actively degrade today's agent
 - [[conflicting-context-causes-agent-collapse-not-graceful-degradation]] — Contradictory context triggers deliberation loops, not graceful fallback
 - [[context-flywheel-is-day-90-not-day-0]] — Day 0 comparisons miss the compounding context advantage
 - [[long-horizon-evals-test-compounding-not-point-accuracy]] — 90-day simulation evals measure learning trajectory, not point accuracy
@@ -70,7 +66,7 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[scaffolding-is-tech-debt-against-the-next-model]] — Non-model code is ephemeral; the bitter lesson applied to product building
 - [[agent-edits-are-automatic-decision-instrumentation]] — Agent proposals + human corrections = automatic decision trace capture
 - [[permissioned-inference-is-harder-than-permissioned-retrieval]] — Enterprise context graphs need reasoning-level access control, not just data access
-- [[traces-not-scores-enable-agent-improvement]] — Without reasoning trajectories, improvement rate drops hard
+- [[full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]] — Without reasoning trajectories, improvement rate drops hard
 - [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — Intercept Unix commands → DB queries for 460x faster agent navigation
 - [[trace-data-retention-must-match-ai-knowledge-lifespan]] — AI trace data has indefinite value; 30-day SaaS retention destroys institutional knowledge
 - [[evals-must-augment-traces-in-place-not-diverge]] — Evaluations should live on trace data, not alongside it; divergent copies drift by design
@@ -106,7 +102,7 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit]] — Software-carried context removes communication as the org's load-bearing wall
 - [[model-portability-is-the-sovereignty-test]] — Can you swap the generalist model without losing the company-veteran layer?
 - [[private-evals-measure-business-outcomes-not-benchmarks]] — Private evals + internal-trace RL beat public leaderboards for firm learning
-- [[the-learning-loop-is-the-firms-new-ip-and-it-compounds]] — The private eval + trace-RL + memory loop is the firm's compounding IP
+- [[offload-the-task-but-never-the-learning]] — The private eval + trace-RL + memory loop is the firm's compounding IP
 - [[inference-time-compute-makes-cost-per-outcome-a-choice]] — Spending where the outcome is worth it; token allocation as the moat
 - [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device is a strategic choice, not a fixed assumption
 - [[stare-at-raw-outputs-not-the-loss-curve]] — A loss curve is reassurance; pull 100 failures, sort into piles, attack the biggest
@@ -118,7 +114,6 @@ WebMCP and structured tool exposure shift websites from visual interfaces to age
 - [[derive-the-manual-from-observed-practice-not-written-procedure]] — Mine the recordings instead of authoring the SOP; the edge cases live in practice, not the doc
 - [[if-it-left-no-artifact-it-didnt-happen]] — Legibility is upstream of every loop: uncaptured signal cannot be learned from
 - [[humans-move-to-the-edge-where-the-model-touches-reality]] — A world model that cannot touch the real world is just a database
-- [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — Markdown files calling databases; confusing the two causes every agent failure Tan has seen
 - [[being-worth-retrieving-from-is-the-product]] — What gets written down, enriched, promoted and arbitrated is the product; retrieval is easy
 - [[custody-is-the-security-model]] — Your own infra, your own repo, your own keys — measured against the actual default, not a hypothetical one
 - [[mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]] — CLI wins today only because bash keeps state in the file system; the harness decides, not the protocol

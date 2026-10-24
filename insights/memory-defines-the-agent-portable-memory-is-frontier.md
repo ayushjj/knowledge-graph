@@ -15,6 +15,6 @@ The reasoning: if the harness stays general (loop + tools + file system), what d
 
 This has a provocative implication for portability: "Could you take that zip of agent.md and skills from Codex and bring it into Cursor or Claude Code?" If memory = identity, then portable memory = portable agents. The harness becomes the runtime, the memory becomes the program.
 
-This extends beyond [[memory-is-where-agent-lock-in-lives]] (which focuses on lock-in dynamics). Here the insight is constructive: if we get memory portability right, agents become platform-independent. The competitive surface shifts from "best runtime" to "best accumulated memory."
+This extends beyond [[closed-harnesses-behind-apis-create-memory-lock-in]] (which focuses on lock-in dynamics). Here the insight is constructive: if we get memory portability right, agents become platform-independent. The competitive surface shifts from "best runtime" to "best accumulated memory."
 
 Connects to [[files-are-the-universal-agent-interface]] — markdown files as the interchange format for agent identity. Also connects to [[skills-as-markdown-replace-fine-tuning]] — skills are just one form of the procedural memory that defines the agent.

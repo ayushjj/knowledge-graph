@@ -12,7 +12,7 @@
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
 last_updated: 2026-10-24
-node_count: 276
+node_count: 258
 domains: [ai, mental-models]
 
 nodes:
@@ -35,7 +35,7 @@ nodes:
     domain: ai
     kind: bet
     bet_date: "2026-10-24"
-    outgoing: [durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, safety-enforcement-belongs-in-tool-design-not-prompts, webmcp-turns-websites-into-agent-native-interfaces]
+    outgoing: [durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, enforcement-must-run-independently-of-model-cooperation, webmcp-turns-websites-into-agent-native-interfaces]
 
   durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives:
     title: "Durable execution snapshots the whole interpreter, so a code-mode session survives restarts and hours-long waits"
@@ -65,7 +65,7 @@ nodes:
     source_file: sources/itsreallyvivek-how-to-be-good-at-research.md
     domain: ai
     kind: thinking-tool
-    outgoing: [ai-compresses-execution-not-judgment, amplification-widens-the-judgment-gap, choose-problems-backward-from-an-outcome-you-want, dissolved-constraints-shift-bottleneck-to-judgment]
+    outgoing: [ai-compresses-execution-not-judgment, amplification-widens-the-judgment-gap, choose-problems-backward-from-an-outcome-you-want]
 
   differentiated-inputs-beat-the-shared-reading-list:
     title: "Shared inputs produce shared conclusions worth nothing — old and cross-disciplinary material is criminally underpriced"
@@ -167,7 +167,7 @@ nodes:
     source_file: sources/jayagup10-who-sets-price-of-intelligence.md
     domain: ai
     kind: principle
-    outgoing: [llms-selectively-destroy-vertical-software-moats, model-compensations-become-liabilities-as-capabilities-advance, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
+    outgoing: [llms-selectively-destroy-vertical-software-moats, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
 
   inference-time-compute-makes-cost-per-outcome-a-choice:
     title: "Inference-time compute makes cost-per-outcome a choice — and that's the application layer's counterattack on the labs"
@@ -187,7 +187,7 @@ nodes:
     source_file: sources/jayagup10-who-sets-price-of-intelligence.md
     domain: ai
     kind: principle
-    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, autopilots-capture-work-budget-not-tool-budget, inference-time-compute-makes-cost-per-outcome-a-choice, institutional-slowness-is-the-runway-not-the-threat, sell-the-work-not-the-tool, token-spend-replaces-headcount-as-scaling-unit]
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, autopilots-capture-work-budget-not-tool-budget, inference-time-compute-makes-cost-per-outcome-a-choice, institutional-slowness-is-the-runway-not-the-threat, token-spend-replaces-headcount-as-scaling-unit]
 
   where-inference-runs-decides-margin-context-and-trust:
     title: "Where inference runs decides who captures margin, owns the context, and earns trust"
@@ -197,7 +197,7 @@ nodes:
     source_file: sources/jayagup10-who-sets-price-of-intelligence.md
     domain: ai
     kind: principle
-    outgoing: [context-is-the-product-not-the-model, memory-is-where-agent-lock-in-lives, permissioned-inference-is-harder-than-permissioned-retrieval]
+    outgoing: [context-is-the-product-not-the-model, closed-harnesses-behind-apis-create-memory-lock-in, permissioned-inference-is-harder-than-permissioned-retrieval]
 
   building-in-ai-is-running-a-trading-book:
     title: "Building in AI is running a trading book — you're long some curves, short others, and exposed to correlations that break when they matter"
@@ -222,12 +222,12 @@ nodes:
   offload-the-task-but-never-the-learning:
     title: "You can offload a task, or even a job, but you can never offload your learning"
     description: "The real opportunity isn't picking the best model — it's building a learning loop on top of models where the firm's accumulated learning, the one thing it can't outsource, compounds across people and AI"
-    topics: [future-of-ai-business, knowledge-systems]
+    topics: [future-of-ai-business, knowledge-systems, ai-native-product-architecture]
     source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
     source_file: sources/satyanadella-frontier-without-ecosystem.md
     domain: ai
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, system-of-work-is-the-moat-not-the-model]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, system-of-work-is-the-moat-not-the-model, proprietary-feedback-loops-widen-the-moat, trace-to-eval-flywheel-compounds-agent-quality]
 
   model-portability-is-the-sovereignty-test:
     title: "The sovereignty test — can you swap out a generalist model without losing your 'company veteran' expertise?"
@@ -247,17 +247,7 @@ nodes:
     source_file: sources/satyanadella-frontier-without-ecosystem.md
     domain: ai
     kind: principle
-    outgoing: [decision-traces-are-the-missing-data-layer, evals-are-behavioral-pressure-vectors-not-neutral-measurements, trace-to-eval-flywheel-compounds-agent-quality, traces-not-scores-enable-agent-improvement]
-
-  the-learning-loop-is-the-firms-new-ip-and-it-compounds:
-    title: "The learning loop becomes the firm's new IP — a hill-climbing machine that compounds unlike any other asset"
-    description: "Every improved workflow generates better training signal, which accelerates the accumulation of tacit knowledge unique to the firm; companies that build this loop early gain an advantage that's hard to replicate regardless of any new model capability"
-    topics: [future-of-ai-business, ai-native-product-architecture]
-    source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable"
-    source_file: sources/satyanadella-frontier-without-ecosystem.md
-    domain: ai
-    kind: principle
-    outgoing: [compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model, trace-to-eval-flywheel-compounds-agent-quality]
+    outgoing: [decision-traces-are-the-missing-data-layer, evals-are-behavioral-pressure-vectors-not-neutral-measurements, trace-to-eval-flywheel-compounds-agent-quality, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
 
   a-frontier-without-an-ecosystem-is-not-stable:
     title: "A frontier without an ecosystem is not stable — if a few models capture all value, the political economy won't tolerate it"
@@ -278,7 +268,7 @@ nodes:
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
     kind: principle
-    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, ai-erases-the-api-line, dissolved-constraints-shift-bottleneck-to-judgment, institutional-slowness-is-the-runway-not-the-threat, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, ai-erases-the-api-line, ai-compresses-execution-not-judgment, institutional-slowness-is-the-runway-not-the-threat, new-tech-first-imitates-the-medium-it-replaces, scaffolding-is-tech-debt-against-the-next-model, self-disruption-follows-the-value-chain-downward]
 
   new-tech-first-imitates-the-medium-it-replaces:
     title: "New technology first imitates the medium it replaces — the transition form hides the final form"
@@ -308,7 +298,7 @@ nodes:
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, dissolved-constraints-shift-bottleneck-to-judgment, experience-times-agent-multiplier-favors-veteran-founders, humans-move-to-the-edge-where-the-model-touches-reality, organizational-shape-is-the-emerging-moat-in-ai]
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, ai-compresses-execution-not-judgment, experience-times-agent-multiplier-favors-veteran-founders, humans-move-to-the-edge-where-the-model-touches-reality, organizational-shape-is-the-emerging-moat-in-ai]
 
   supervise-loops-from-a-leveraged-point-not-from-inside-them:
     title: "Humans should supervise agent loops from a leveraged point, not sit inside every one"
@@ -327,7 +317,7 @@ nodes:
     source_file: sources/joeschmidtiv-yellow-brick-road.md
     domain: ai
     kind: principle
-    outgoing: [context-is-the-product-not-the-model, llms-selectively-destroy-vertical-software-moats, organizational-shape-is-the-emerging-moat-in-ai, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool]
+    outgoing: [context-is-the-product-not-the-model, llms-selectively-destroy-vertical-software-moats, organizational-shape-is-the-emerging-moat-in-ai, saas-survives-as-governance-and-coordination-layer, autopilots-capture-work-budget-not-tool-budget]
 
   capability-curve-decides-which-work-the-labs-take:
     title: "If a problem improves directly with raw model capability, the labs will take it"
@@ -387,7 +377,7 @@ nodes:
     source_file: sources/joeschmidtiv-yellow-brick-road.md
     domain: ai
     kind: principle
-    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, sell-the-work-not-the-tool, system-of-work-is-the-moat-not-the-model]
+    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, autopilots-capture-work-budget-not-tool-budget, system-of-work-is-the-moat-not-the-model]
   experience-times-agent-multiplier-favors-veteran-founders:
     title: "Knowing what to build is the scarce half, so agent leverage favors veteran founders"
     description: "Tan reports a mega trend of founders in their late thirties and forties who have been around the block; the multiplier applies to whatever judgment it is given, so multiplying someone who already knows what to build can outperform a department at a large tech company"
@@ -397,7 +387,7 @@ nodes:
     domain: ai
     kind: bet
     bet_date: "2026-08-21"
-    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, commodity-terminal-value-zero-expert-judgment-compounds, dissolved-constraints-shift-bottleneck-to-judgment]
+    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, commodity-terminal-value-zero-expert-judgment-compounds, ai-compresses-execution-not-judgment]
   features-are-prompts-not-code:
     title: "In agent-native architecture, features are prompts — not code"
     description: "The shift from coding specific functions to describing outcomes that agents achieve by composing atomic tools"
@@ -429,7 +419,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     kind: principle
-    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, two-tier-agent-memory-separates-org-from-user]
+    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, memory-is-harness-responsibility-not-plugin]
 
   compression-is-a-forking-lifecycle-event-not-a-rewrite:
     title: "Compression should be a forking lifecycle event, not a destructive rewrite"
@@ -449,7 +439,7 @@ nodes:
     source_file: sources/aparnadhinak-hermes-harness-architecture.md
     domain: ai
     kind: principle
-    outgoing: [context-inefficiency-compounds-three-penalties, context-window-is-the-fundamental-constraint, safety-enforcement-belongs-in-tool-design-not-prompts, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
+    outgoing: [context-inefficiency-compounds-three-penalties, context-window-is-the-fundamental-constraint, enforcement-must-run-independently-of-model-cooperation, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
   sessions-are-runtime-infrastructure-not-just-transcripts:
     title: "Sessions are runtime infrastructure, not just resumable transcripts"
@@ -469,7 +459,7 @@ nodes:
     source_file: sources/aparnadhinak-hermes-harness-architecture.md
     domain: ai
     kind: practice
-    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, kv-cache-hit-rate-determines-agent-economics, prompt-caching-makes-long-context-economically-viable]
+    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, prompt-caching-makes-long-context-economically-viable]
 
   delegation-is-not-orchestration:
     title: "Delegation is not orchestration — durable, externally-steerable child runs are the architectural leap"
@@ -489,7 +479,7 @@ nodes:
     source_file: sources/aparnadhinak-hermes-harness-architecture.md
     domain: ai
     kind: principle
-    outgoing: [detect-everything-notify-selectively, enforcement-must-run-independently-of-model-cooperation, safety-enforcement-belongs-in-tool-design-not-prompts, sessions-are-runtime-infrastructure-not-just-transcripts]
+    outgoing: [detect-everything-notify-selectively, enforcement-must-run-independently-of-model-cooperation, sessions-are-runtime-infrastructure-not-just-transcripts]
 
   enforcement-must-run-independently-of-model-cooperation:
     title: "Policy enforcement must run independently of model cooperation — hooks, not prompt instructions"
@@ -499,7 +489,7 @@ nodes:
     source_file: sources/aparnadhinak-hermes-harness-architecture.md
     domain: ai
     kind: principle
-    outgoing: [intelligence-location-determines-system-fragility, production-agents-route-decisions-not-every-call-to-llm, safety-enforcement-belongs-in-tool-design-not-prompts]
+    outgoing: [intelligence-location-determines-system-fragility, production-agents-route-decisions-not-every-call-to-llm, separate-tool-registration-from-tool-exposure, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
   context-centralization-is-why-coding-ai-works:
     title: "Context centralization is why coding AI works — git is a solved context repository, knowledge work has no equivalent"
@@ -551,7 +541,7 @@ nodes:
     topics: [ai-native-product-architecture, future-of-ai-business]
     source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
     kind: principle
-    outgoing: [agent-edits-are-automatic-decision-instrumentation, agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, observability-is-the-missing-agent-discipline, permissioned-inference-is-harder-than-permissioned-retrieval, revealed-preferences-trump-stated-preferences, traces-not-scores-enable-agent-improvement, traces-replace-code-as-agent-source-of-truth, tribal-knowledge-is-the-last-mile-for-agent-automation]
+    outgoing: [agent-edits-are-automatic-decision-instrumentation, agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, observability-is-the-missing-agent-discipline, permissioned-inference-is-harder-than-permissioned-retrieval, revealed-preferences-trump-stated-preferences, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization, traces-replace-code-as-agent-source-of-truth, tribal-knowledge-is-the-last-mile-for-agent-automation]
 
   declarative-beats-imperative-for-agents:
     title: "Declarative beats imperative when working with agents"
@@ -601,7 +591,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     kind: practice
-    outgoing: [building-is-easier-but-generating-value-is-still-hard, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, make-the-quality-gate-a-second-adversarial-model-not-a-human, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
+    outgoing: [ai-compresses-execution-not-judgment, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, make-the-quality-gate-a-second-adversarial-model-not-a-human, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -609,15 +599,15 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     kind: principle
-    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, every-optimization-has-a-shadow-regression, self-improving-agents-overfit-to-eval-metrics, stronger-models-expand-the-verification-gap, the-80-99-gap-is-where-ai-products-die, verification-multiplies-agent-output-quality]
+    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, every-optimization-has-a-shadow-regression, holdout-sets-gate-autonomous-harness-optimization, stronger-models-expand-the-verification-gap, the-80-99-gap-is-where-ai-products-die, verification-multiplies-agent-output-quality]
 
   cross-user-knowledge-transfer-needs-no-fine-tuning:
     title: "Cross-user knowledge transfer works without fine-tuning — just a database and prompt engineering"
     description: "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval"
-    topics: [knowledge-systems, ai-agents]
+    topics: [knowledge-systems, ai-agents, ai-native-product-architecture]
     source: "Ashpreet Bedi — Agents That Learn (Agno Framework)"
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, skills-as-markdown-replace-fine-tuning]
+    outgoing: [agent-memory-preserves-institutional-knowledge, skills-as-markdown-replace-fine-tuning, context-layers-must-be-living-systems, speed-without-feedback-amplifies-errors]
 
   boring-tech-wins-for-ai-native-startups:
     title: "Boring tech wins for AI-native startups — simpler stack means faster AI-assisted shipping"
@@ -664,10 +654,10 @@ nodes:
   similarity-is-not-relevance-relevance-requires-reasoning:
     title: "Similarity is not relevance — relevance requires reasoning"
     description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning"
-    topics: [ai-native-product-architecture]
+    topics: [ai-native-product-architecture, ai-agents, knowledge-systems]
     source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
     kind: principle
-    outgoing: [agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model, structure-plus-reasoning-beats-flat-similarity]
+    outgoing: [agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model, files-are-the-universal-agent-interface, knowledge-systems-need-dual-layer-storage, navigation-beats-search-for-knowledge-retrieval, skill-graphs-enable-progressive-disclosure]
 
   stronger-models-expand-the-verification-gap:
     title: "Stronger models expand the verification gap, not close it"
@@ -676,14 +666,6 @@ nodes:
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     kind: principle
     outgoing: [harness-quality-beats-model-intelligence, verification-is-a-red-queen-race]
-
-  structure-plus-reasoning-beats-flat-similarity:
-    title: "Structure plus reasoning beats flat similarity for complex domains"
-    description: "Across documents, code, and skills, the same pattern holds: structured knowledge navigated by reasoning outperforms flat indexes searched by similarity"
-    topics: [ai-native-product-architecture, knowledge-systems, ai-agents]
-    source: "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs"
-    kind: principle
-    outgoing: [agentic-search-beats-rag-for-live-codebases, context-is-the-product-not-the-model, files-are-the-universal-agent-interface, knowledge-systems-need-dual-layer-storage, navigation-beats-search-for-knowledge-retrieval, skill-graphs-enable-progressive-disclosure]
 
   agentic-search-beats-rag-for-live-codebases:
     title: "Agentic search beats RAG for live codebases"
@@ -716,7 +698,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
     kind: principle
-    outgoing: [domain-skill-libraries-are-the-real-agent-moat, sell-the-work-not-the-tool, technology-helps-moats-kills-commodity-businesses]
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, autopilots-capture-work-budget-not-tool-budget, technology-helps-moats-kills-commodity-businesses]
 
   postgresql-scales-further-than-you-think:
     title: "PostgreSQL scales further than you think"
@@ -748,15 +730,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
     kind: principle
-    outgoing: [context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat, files-are-the-universal-agent-interface, skills-as-markdown-replace-fine-tuning, structure-plus-reasoning-beats-flat-similarity]
-
-  skill-folder-structure-is-context-engineering:
-    title: "A skill's folder structure is its context architecture — the file system is a form of context engineering"
-    description: "Skills are not just markdown files but folders where scripts, references, and assets enable progressive disclosure — the agent reads deeper files only when it reaches the relevant step"
-    topics: [knowledge-systems, ai-agents]
-    source: "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills"
-    kind: principle
-    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, files-are-the-universal-agent-interface, skill-graphs-enable-progressive-disclosure]
+    outgoing: [context-window-is-the-fundamental-constraint, domain-skill-libraries-are-the-real-agent-moat, files-are-the-universal-agent-interface, skills-as-markdown-replace-fine-tuning, similarity-is-not-relevance-relevance-requires-reasoning, claude-md-should-be-routing-table-not-knowledge-base]
 
   orchestrator-agent-replaces-human-coordination:
     title: "An orchestrator agent that manages other agents solves the parallel coordination problem without human bottleneck"
@@ -793,10 +767,10 @@ nodes:
   prompt-caching-makes-long-context-economically-viable:
     title: "Prompt caching makes long context economically viable"
     description: "Prefix-matching cache enables 80%+ cost reduction for multi-turn conversations, making rich context systems affordable at scale"
-    topics: [ai-native-product-architecture, ai-coding-tools]
+    topics: [ai-native-product-architecture, ai-coding-tools, ai-agents]
     source: "Learning Technical Concepts chat — Thariq's prompt caching article"
     kind: principle
-    outgoing: [context-is-the-product-not-the-model, context-window-is-the-fundamental-constraint, kv-cache-hit-rate-determines-agent-economics, three-layer-ai-stack-memory-search-reasoning]
+    outgoing: [context-is-the-product-not-the-model, context-window-is-the-fundamental-constraint, three-layer-ai-stack-memory-search-reasoning, context-inefficiency-compounds-three-penalties, order-system-prompt-by-volatility-for-cache-reuse]
 
   parallel-agents-create-management-problem-not-coding-problem:
     title: "Parallel agents create a management problem, not a coding problem"
@@ -828,7 +802,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@julienbek — Services: The New Software"
     kind: principle
-    outgoing: [context-is-the-product-not-the-model, llm-competition-fragments-markets-not-consolidates]
+    outgoing: [context-is-the-product-not-the-model, llm-competition-fragments-markets-not-consolidates, frontier-companies-absorb-every-useful-agentic-pattern, system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]
 
   automation-amplifies-expert-demand:
     title: "AI automation amplifies demand for expert human judgment rather than replacing it"
@@ -938,7 +912,7 @@ nodes:
     topics: [knowledge-systems, ai-agents]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, compression-is-a-forking-lifecycle-event-not-a-rewrite, knowledge-evolution-is-the-biggest-unsolved-problem, specs-are-external-memory-surviving-context-resets, two-tier-agent-memory-separates-org-from-user]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compression-is-a-forking-lifecycle-event-not-a-rewrite, knowledge-evolution-is-the-biggest-unsolved-problem, specs-are-external-memory-surviving-context-resets, context-learning-spans-agent-tenant-and-org-levels]
 
   evolved-harnesses-transfer-across-models:
     title: "Evolved harnesses transfer across models — a single optimized harness improves five different LLMs"
@@ -963,7 +937,7 @@ nodes:
     topics: [ai-agents, knowledge-systems]
     source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
     kind: thinking-tool
-    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, error-memory-enables-learning-without-retraining, sessions-are-runtime-infrastructure-not-just-transcripts, three-layer-ai-stack-memory-search-reasoning]
+    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives, cross-user-knowledge-transfer-needs-no-fine-tuning, sessions-are-runtime-infrastructure-not-just-transcripts, three-layer-ai-stack-memory-search-reasoning]
 
   tiered-retrieval-prevents-context-overload:
     title: "Tiered retrieval prevents context overload — summaries first, details on demand"
@@ -1037,7 +1011,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
     kind: practice
-    outgoing: [agent-memory-preserves-institutional-knowledge, compilation-scales-curation-compounds, declarative-beats-imperative-for-agents, harness-engineers-need-docs-as-first-class-output, negative-maintenance-reduces-future-work-for-everyone, never-do-one-off-work-skillify-every-task, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, session-capture-compounds-development-knowledge, skills-as-markdown-replace-fine-tuning]
+    outgoing: [agent-memory-preserves-institutional-knowledge, compilation-scales-curation-compounds, declarative-beats-imperative-for-agents, harness-engineers-need-docs-as-first-class-output, negative-maintenance-reduces-future-work-for-everyone, proprietary-feedback-loops-widen-the-moat, revealed-preferences-trump-stated-preferences, session-capture-compounds-development-knowledge, skills-as-markdown-replace-fine-tuning, being-worth-retrieving-from-is-the-product, own-your-skill-files-or-your-job-becomes-one, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
 
   commodity-terminal-value-zero-expert-judgment-compounds:
     title: "Commodity work's terminal value is zero but structured expert judgment compounds indefinitely"
@@ -1099,14 +1073,6 @@ nodes:
     kind: principle
     outgoing: [production-agents-route-decisions-not-every-call-to-llm, saas-survives-as-governance-and-coordination-layer]
 
-  error-memory-enables-learning-without-retraining:
-    title: "Agents that store error patterns learn continuously without fine-tuning or retraining"
-    description: "Dash's 'GPU-poor continuous learning' separates validated knowledge from error-driven learnings — five lines of code replaces expensive retraining"
-    topics: [ai-agents, ai-native-product-architecture]
-    source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
-    kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-layers-must-be-living-systems, evolving-summaries-beat-append-only-memory, speed-without-feedback-amplifies-errors, three-layer-ai-stack-memory-search-reasoning]
-
   tools-are-contracts-between-deterministic-and-nondeterministic-systems:
     title: "Tools are a new kind of software — contracts between deterministic systems and non-deterministic agents"
     description: "Agent tools must be designed for how agents think (context-limited, non-deterministic, description-dependent), not how programmers think"
@@ -1140,7 +1106,7 @@ nodes:
     source: "LangChain — How We Build Evals for Deep Agents"
     source_file: sources/langchain-evals-for-deep-agents.md
     kind: principle
-    outgoing: [eval-suites-must-shrink-not-just-grow, holdout-sets-gate-autonomous-harness-optimization, self-improving-agents-overfit-to-eval-metrics, time-bounded-evaluation-optimizes-for-usefulness, verification-is-a-red-queen-race]
+    outgoing: [eval-suites-must-shrink-not-just-grow, holdout-sets-gate-autonomous-harness-optimization, time-bounded-evaluation-optimizes-for-usefulness, verification-is-a-red-queen-race]
 
   evals-are-gradient-signal-for-harness-engineering:
     title: "Evals are the gradient signal for harness engineering — the same data quality rigor from ML training applies"
@@ -1157,7 +1123,7 @@ nodes:
     topics: [ai-agents, ai-coding-tools]
     source: "Anthropic Engineering — Writing Effective Tools for Agents"
     kind: practice
-    outgoing: [compound-engineering-makes-future-work-easier, confluence-of-tendencies-produces-extreme-outcomes, safety-enforcement-belongs-in-tool-design-not-prompts, similarity-is-not-relevance-relevance-requires-reasoning, verification-multiplies-agent-output-quality]
+    outgoing: [compound-engineering-makes-future-work-easier, confluence-of-tendencies-produces-extreme-outcomes, enforcement-must-run-independently-of-model-cooperation, similarity-is-not-relevance-relevance-requires-reasoning, verification-multiplies-agent-output-quality]
 
   rigid-schemas-exist-because-rigid-apps-demand-them:
     title: "Agents eat your system of record — the rigid app was the constraint, not the schema"
@@ -1198,7 +1164,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
     kind: principle
-    outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface, skill-folder-structure-is-context-engineering]
+    outgoing: [context-window-is-the-fundamental-constraint, files-are-the-universal-agent-interface, skill-graphs-enable-progressive-disclosure]
 
   context-layers-must-be-living-systems:
     title: "Context layers must be living systems, not static artifacts"
@@ -1206,7 +1172,7 @@ nodes:
     topics: [ai-native-product-architecture, ai-agents]
     source: "@jasonscui — Your Data Agents Need Context, a16z"
     kind: principle
-    outgoing: [compound-engineering-makes-future-work-easier, conflicting-context-causes-agent-collapse-not-graceful-degradation, error-memory-enables-learning-without-retraining, knowledge-evolution-is-the-biggest-unsolved-problem]
+    outgoing: [compound-engineering-makes-future-work-easier, conflicting-context-causes-agent-collapse-not-graceful-degradation, cross-user-knowledge-transfer-needs-no-fine-tuning, knowledge-evolution-is-the-biggest-unsolved-problem]
 
   context-layers-supersede-semantic-layers:
     title: "Context layers supersede semantic layers for agent autonomy"
@@ -1214,15 +1180,7 @@ nodes:
     topics: [ai-native-product-architecture, knowledge-systems]
     source: "@jasonscui — Your Data Agents Need Context, a16z"
     kind: principle
-    outgoing: [domain-skill-libraries-are-the-real-agent-moat, skill-graphs-enable-progressive-disclosure, structure-plus-reasoning-beats-flat-similarity]
-
-  kv-cache-hit-rate-determines-agent-economics:
-    title: "KV cache hit rate is the most critical metric for production agents"
-    description: "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows"
-    topics: [ai-native-product-architecture, ai-agents]
-    source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
-    kind: principle
-    outgoing: [context-inefficiency-compounds-three-penalties, inference-time-compute-makes-cost-per-outcome-a-choice, order-system-prompt-by-volatility-for-cache-reuse]
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, skill-graphs-enable-progressive-disclosure, similarity-is-not-relevance-relevance-requires-reasoning]
 
   latent-demand-is-the-strongest-product-signal:
     title: "Latent demand is the strongest product signal — make the thing people already do easier"
@@ -1255,7 +1213,7 @@ nodes:
     topics: [future-of-ai-business, business-models]
     source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
     kind: principle
-    outgoing: [organizational-shape-is-the-emerging-moat-in-ai, saas-survives-as-governance-and-coordination-layer, sell-the-work-not-the-tool, skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion]
+    outgoing: [organizational-shape-is-the-emerging-moat-in-ai, saas-survives-as-governance-and-coordination-layer, autopilots-capture-work-budget-not-tool-budget, skills-as-markdown-replace-fine-tuning, ui-moat-collapses-api-becomes-purchasing-criterion]
 
   llm-judge-must-calibrate-against-human-judgment:
     title: "LLM-as-judge must be calibrated against human judgment — uncalibrated judges are worse than no judges"
@@ -1275,14 +1233,6 @@ nodes:
     kind: bet
     bet_date: "2026-03-05"
     outgoing: [llms-selectively-destroy-vertical-software-moats, skills-as-markdown-replace-fine-tuning]
-
-  safety-enforcement-belongs-in-tool-design-not-prompts:
-    title: "Safety enforcement belongs in tool design, not system prompts"
-    description: "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions"
-    topics: [ai-agents, ai-native-product-architecture]
-    source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
-    kind: principle
-    outgoing: [agent-inputs-could-compile-to-one-checkable-execution-plan, enforcement-must-run-independently-of-model-cooperation, production-agents-route-decisions-not-every-call-to-llm, separate-tool-registration-from-tool-exposure, tools-are-contracts-between-deterministic-and-nondeterministic-systems]
 
   saas-grows-but-consolidates-around-platforms:
     title: "AI won't destroy SaaS moats — it'll make the biggest ones even bigger"
@@ -1316,7 +1266,7 @@ nodes:
     source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals"
     source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
     kind: principle
-    outgoing: [evals-are-gradient-signal-for-harness-engineering, self-improving-agents-overfit-to-eval-metrics, verification-is-a-red-queen-race]
+    outgoing: [evals-are-gradient-signal-for-harness-engineering, verification-is-a-red-queen-race, every-optimization-has-a-shadow-regression]
 
   hot-path-vs-offline-learning-are-two-temporal-modes:
     title: "Hot-path and offline learning are two temporal modes for agent context updates — each with different tradeoffs"
@@ -1385,7 +1335,7 @@ nodes:
     topics: [future-of-ai-business, ai-agents]
     source: "@julienbek — Services: The New Software"
     kind: principle
-    outgoing: [ai-compresses-execution-not-judgment, automation-amplifies-expert-demand, dissolved-constraints-shift-bottleneck-to-judgment, production-agents-route-decisions-not-every-call-to-llm]
+    outgoing: [ai-compresses-execution-not-judgment, automation-amplifies-expert-demand, production-agents-route-decisions-not-every-call-to-llm]
 
   systems-that-prevent-bad-behavior-beat-moral-appeals:
     title: "Systems that prevent bad behavior beat moral appeals — design the cash register, not the sermon"
@@ -1446,10 +1396,10 @@ nodes:
   scaffolding-is-tech-debt-against-the-next-model:
     title: "Scaffolding is tech debt against the next model — the bitter lesson applied to product building"
     description: "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off"
-    topics: [ai-coding-tools, ai-native-product-architecture]
+    topics: [ai-coding-tools, ai-native-product-architecture, ai-agents]
     source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
     kind: principle
-    outgoing: [a-better-model-makes-your-library-worth-more, ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, model-compensations-become-liabilities-as-capabilities-advance, sand-vs-stone-separates-durable-from-disposable-product-value, system-prompt-guardrails-become-constraints-as-models-get-more-imaginative, tool-design-is-continuous-observation-see-like-an-agent]
+    outgoing: [a-better-model-makes-your-library-worth-more, ai-strategy-is-a-self-rewriting-equation, build-for-the-model-six-months-from-now, claude-md-should-be-routing-table-not-knowledge-base, layer-migration-is-the-real-threat-not-competition, sand-vs-stone-separates-durable-from-disposable-product-value, tool-design-is-continuous-observation-see-like-an-agent]
 
   scale-advantages-cascade-until-bureaucracy-kills-them:
     title: "Scale advantages cascade toward dominance until bureaucracy kills them"
@@ -1474,7 +1424,7 @@ nodes:
     source: "Vishnu Suresh (LangChain) — How My Agents Self-Heal in Production"
     source_file: sources/vishnu-suresh-self-healing-production-agents.md
     kind: principle
-    outgoing: [detect-everything-notify-selectively, error-memory-enables-learning-without-retraining, observability-is-the-missing-agent-discipline]
+    outgoing: [detect-everything-notify-selectively, cross-user-knowledge-transfer-needs-no-fine-tuning, observability-is-the-missing-agent-discipline]
 
   circle-of-competence-determines-where-you-can-win:
     title: "Circle of competence determines where you can win"
@@ -1551,11 +1501,11 @@ nodes:
   full-trace-filesystem-beats-compressed-summaries-for-harness-optimization:
     title: "Full trace filesystems beat compressed summaries for harness optimization — 10M tokens of context outperforms 26K"
     description: "Meta-Harness gives its proposer agent a filesystem containing full source code, scores, and execution traces of every prior candidate, enabling up to 10M tokens of diagnostic context per iteration"
-    topics: [ai-agents, ai-coding-tools]
+    topics: [ai-agents, ai-coding-tools, ai-native-product-architecture]
     source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)"
     source_file: sources/yoonholee-meta-harness.md
     kind: principle
-    outgoing: [agentic-search-beats-rag-for-live-codebases, meta-agents-beat-manual-harness-engineering, traces-are-the-universal-substrate-for-agent-learning]
+    outgoing: [agentic-search-beats-rag-for-live-codebases, meta-agents-beat-manual-harness-engineering, traces-are-the-universal-substrate-for-agent-learning, observability-is-the-missing-agent-discipline]
 
   first-draft-pattern-is-killer-app-for-long-horizon-agents:
     title: "The first-draft pattern is the killer app for long-horizon agents — agents produce, humans review"
@@ -1591,21 +1541,13 @@ nodes:
     kind: practice
     outgoing: [context-inefficiency-compounds-three-penalties, specs-are-external-memory-surviving-context-resets]
 
-  sell-the-work-not-the-tool:
-    title: "Sell the work, not the tool — model improvements compound for services, against software"
-    description: "If you sell the tool, you race the model; if you sell the outcome, every model improvement makes your service faster, cheaper, and harder to compete with"
-    topics: [future-of-ai-business, business-models]
-    source: "@julienbek — Services: The New Software"
-    kind: principle
-    outgoing: [domain-skill-libraries-are-the-real-agent-moat, frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, platform-economics-beat-labor-arbitrage, self-disruption-follows-the-value-chain-downward, system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]
-
   observability-is-the-missing-agent-discipline:
     title: "Observability is the missing discipline for agent systems — you can't improve what you can't measure"
     description: "Agent systems need telemetry (token usage, latency, error rates, cost per task) as a first-class engineering concern, not an afterthought bolted on after production failures"
     topics: [ai-agents, ai-native-product-architecture]
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     kind: principle
-    outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, evals-must-augment-traces-in-place-not-diverge, kv-cache-hit-rate-determines-agent-economics, trust-boundaries-must-be-mapped-and-externalized]
+    outgoing: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, evals-must-augment-traces-in-place-not-diverge, prompt-caching-makes-long-context-economically-viable, trust-boundaries-must-be-mapped-and-externalized]
 
   property-based-testing-explores-agent-input-spaces:
     title: "Property-based testing explores agent input spaces that example-based tests miss"
@@ -1621,7 +1563,7 @@ nodes:
     topics: [business-models, future-of-ai-business]
     source: "Nikunj Kothari — Revealed Preferences"
     kind: principle
-    outgoing: [compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, memory-is-where-agent-lock-in-lives, the-learning-loop-is-the-firms-new-ip-and-it-compounds, vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]
+    outgoing: [compound-engineering-makes-future-work-easier, cross-user-knowledge-transfer-needs-no-fine-tuning, domain-skill-libraries-are-the-real-agent-moat, closed-harnesses-behind-apis-create-memory-lock-in, offload-the-task-but-never-the-learning, vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant]
 
   the-80-99-gap-is-where-ai-products-die:
     title: "The 80/99 gap is where AI products die — demo accuracy and production reliability are infinitely far apart"
@@ -1711,7 +1653,7 @@ nodes:
     topics: [ai-agents, knowledge-systems]
     source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
     kind: principle
-    outgoing: [compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, trace-data-retention-must-match-ai-knowledge-lifespan]
+    outgoing: [compound-engineering-makes-future-work-easier, context-flywheel-is-day-90-not-day-0, decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, trace-data-retention-must-match-ai-knowledge-lifespan]
 
   software-bimodal-fork-growth-or-margins-no-middle:
     title: "The comfortable middle is over — software companies must either accelerate AI growth or rebuild for 40%+ margins"
@@ -1720,7 +1662,7 @@ nodes:
     source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
     kind: bet
     bet_date: "2026-03-24"
-    outgoing: [agents-become-the-buyer, llms-selectively-destroy-vertical-software-moats, sell-the-work-not-the-tool, technology-helps-moats-kills-commodity-businesses, token-spend-replaces-headcount-as-scaling-unit]
+    outgoing: [agents-become-the-buyer, llms-selectively-destroy-vertical-software-moats, autopilots-capture-work-budget-not-tool-budget, technology-helps-moats-kills-commodity-businesses, token-spend-replaces-headcount-as-scaling-unit]
 
   token-maxing-buys-lead-time-not-efficiency:
     title: "Deliberately overspending on inference buys lead time, not efficiency"
@@ -1730,7 +1672,7 @@ nodes:
     source_file: sources/garry-tan-a16z-new-rules-for-founders.md
     domain: ai
     kind: principle
-    outgoing: [dissolved-constraints-shift-bottleneck-to-judgment, inference-time-compute-makes-cost-per-outcome-a-choice, price-of-intelligence-is-the-new-organizing-axis]
+    outgoing: [ai-compresses-execution-not-judgment, inference-time-compute-makes-cost-per-outcome-a-choice, price-of-intelligence-is-the-new-organizing-axis]
   token-spend-replaces-headcount-as-scaling-unit:
     title: "Cap headcount, not compute — token spend per engineer replaces headcount as the scaling unit"
     description: "At $1,000/month per engineer as table stakes, top engineers manage 20-30 agents simultaneously; R&D scales through compute investment, not hiring"
@@ -1743,10 +1685,10 @@ nodes:
   ai-compresses-execution-not-judgment:
     title: "AI compresses the distance between idea and execution but not between good and bad judgment"
     description: "When everyone can build anything, the differentiator stops being speed and starts being judgment — what to build, what to say no to, when to change course"
-    topics: [decision-making]
+    topics: [decision-making, business-models, economics, future-of-ai-business]
     source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
     kind: principle
-    outgoing: [amplification-widens-the-judgment-gap, automation-amplifies-expert-demand, dissolved-constraints-shift-bottleneck-to-judgment, intelligence-judgement-ratio-determines-automation-order]
+    outgoing: [amplification-widens-the-judgment-gap, automation-amplifies-expert-demand, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, verification-multiplies-agent-output-quality]
 
   amplification-widens-the-judgment-gap:
     title: "Amplification widens the judgment gap — AI magnifies clear thinking into compounding advantage and confused thinking into accelerating waste"
@@ -1756,21 +1698,13 @@ nodes:
     kind: principle
     outgoing: [ai-compresses-execution-not-judgment, commodity-terminal-value-zero-expert-judgment-compounds, every-optimization-has-a-shadow-regression]
 
-  dissolved-constraints-shift-bottleneck-to-judgment:
-    title: "When production constraints dissolve, the bottleneck shifts from execution to judgment"
-    description: "Hiring was hard, code was slow, shipping took months — AI dissolves all three, revealing judgment as the binding constraint that was always there"
-    topics: [decision-making, economics]
-    source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
-    kind: principle
-    outgoing: [ai-compresses-execution-not-judgment, ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, technology-transitions-create-more-not-less]
-
   speed-without-feedback-amplifies-errors:
     title: "Speed without feedback amplifies errors — agents lack the self-correction mechanism that constrains human mistakes"
     description: "Humans serve as natural bottlenecks who self-correct after repeated mistakes; agents perpetuate identical errors indefinitely at unsustainable rates"
     topics: [engineering, decision-making]
     source: "Mario Zechner — Thoughts on Slowing the Fuck Down"
     kind: principle
-    outgoing: [amplification-widens-the-judgment-gap, error-memory-enables-learning-without-retraining, every-optimization-has-a-shadow-regression, taste-is-a-muscle-trained-by-forecasting, verification-multiplies-agent-output-quality]
+    outgoing: [amplification-widens-the-judgment-gap, cross-user-knowledge-transfer-needs-no-fine-tuning, every-optimization-has-a-shadow-regression, taste-is-a-muscle-trained-by-forecasting, verification-multiplies-agent-output-quality]
 
   meta-agents-beat-manual-harness-engineering:
     title: "Meta-agents that autonomously optimize task agents beat hand-engineered harnesses on production benchmarks"
@@ -1797,25 +1731,7 @@ nodes:
     source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform"
     source_file: sources/eoghan-fin-api-platform.md
     kind: principle
-    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, reorganize-around-agents-dont-bolt-them-onto-old-workflows, sell-the-work-not-the-tool, where-inference-runs-decides-margin-context-and-trust]
-
-  self-improving-agents-overfit-to-eval-metrics:
-    title: "Self-improving agents overfit to eval metrics — the meta-agent games rubrics unless structurally constrained"
-    description: "AutoAgent's meta-agent gets lazy, inserting rubric-specific prompting so the task agent can game metrics; defense requires forcing self-reflection on generalizability"
-    topics: [ai-agents]
-    source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
-    source_file: sources/kevingu-autoagent-self-optimizing-agents.md
-    kind: principle
-    outgoing: [every-optimization-has-a-shadow-regression, harness-quality-beats-model-intelligence, teacher-student-trace-distillation-beats-single-oracle, verification-is-a-red-queen-race]
-
-  traces-not-scores-enable-agent-improvement:
-    title: "Traces not scores enable agent improvement — without trajectories, improvement rate drops hard"
-    description: "When AutoAgent's meta-agent received only pass/fail scores without reasoning traces, the improvement rate dropped significantly"
-    topics: [ai-agents, ai-native-product-architecture]
-    source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents"
-    source_file: sources/kevingu-autoagent-self-optimizing-agents.md
-    kind: principle
-    outgoing: [decision-traces-are-the-missing-data-layer, error-memory-enables-learning-without-retraining, observability-is-the-missing-agent-discipline]
+    outgoing: [frontier-companies-absorb-every-useful-agentic-pattern, llms-selectively-destroy-vertical-software-moats, reorganize-around-agents-dont-bolt-them-onto-old-workflows, autopilots-capture-work-budget-not-tool-budget, where-inference-runs-decides-margin-context-and-trust]
 
   vertical-models-beat-frontier-models-in-their-domain:
     title: "Vertical models beat frontier models in their domain — specialization wins on every metric"
@@ -1833,7 +1749,7 @@ nodes:
     source: "Mintlify — How We Built a Virtual Filesystem for Our Assistant"
     source_file: sources/mintlify-virtual-filesystem.md
     kind: principle
-    outgoing: [agentic-search-beats-rag-for-live-codebases, files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity]
+    outgoing: [agentic-search-beats-rag-for-live-codebases, files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning]
 
   trace-to-eval-flywheel-compounds-agent-quality:
     title: "The trace→eval→harness flywheel compounds agent quality — every production interaction generates its own training data"
@@ -1851,7 +1767,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     kind: principle
-    outgoing: [decision-traces-are-the-missing-data-layer, trace-data-retention-must-match-ai-knowledge-lifespan, traces-not-scores-enable-agent-improvement]
+    outgoing: [decision-traces-are-the-missing-data-layer, trace-data-retention-must-match-ai-knowledge-lifespan, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
 
   trace-data-retention-must-match-ai-knowledge-lifespan:
     title: "AI trace data has an indefinite useful lifespan — SaaS observability's 30-day retention model destroys institutional knowledge"
@@ -1878,7 +1794,7 @@ nodes:
     source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
     source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
     kind: practice
-    outgoing: [error-memory-enables-learning-without-retraining, traces-not-scores-enable-agent-improvement]
+    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
 
   workflow-strategies-beat-individual-tool-instructions:
     title: "Agents need workflow-level tool strategies, not individual tool instructions — the hard part is how tools combine"
@@ -1896,16 +1812,7 @@ nodes:
     source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
     source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
     kind: practice
-    outgoing: [error-memory-enables-learning-without-retraining, rollback-safety-nets-enable-autonomy-not-intelligence, traces-not-scores-enable-agent-improvement]
-
-  two-tier-agent-memory-separates-org-from-user:
-    title: "Two-tier agent memory separates organizational workflow knowledge from individual user preferences"
-    description: "Deployment-level memory captures shared tool strategies and sequencing patterns; user-level memory captures personal templates and communication styles — initially skipping user-level had a significant performance impact"
-    topics: [ai-agents, knowledge-systems]
-    source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents"
-    source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
-    kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-learning-spans-agent-tenant-and-org-levels, cross-user-knowledge-transfer-needs-no-fine-tuning, memory-is-harness-responsibility-not-plugin]
+    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, rollback-safety-nets-enable-autonomy-not-intelligence, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
 
   compilation-scales-curation-compounds:
     title: "Compilation scales but curation compounds — two camps for knowledge graph construction"
@@ -1923,7 +1830,7 @@ nodes:
     source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
     source_file: specs/knowledge-graph-architectures/research.md
     kind: principle
-    outgoing: [features-are-prompts-not-code, harness-quality-beats-model-intelligence, production-agents-route-decisions-not-every-call-to-llm, safety-enforcement-belongs-in-tool-design-not-prompts]
+    outgoing: [features-are-prompts-not-code, harness-quality-beats-model-intelligence, production-agents-route-decisions-not-every-call-to-llm, enforcement-must-run-independently-of-model-cooperation, if-a-smart-intern-could-follow-it-an-agent-can-run-it, the-80-99-gap-is-where-ai-products-die]
 
   knowledge-evolution-is-the-biggest-unsolved-problem:
     title: "Knowledge evolution is the biggest unsolved problem across all graph architectures"
@@ -1951,7 +1858,7 @@ nodes:
     source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
     source_file: specs/knowledge-graph-architectures/research.md
     kind: principle
-    outgoing: [files-are-the-universal-agent-interface, structure-plus-reasoning-beats-flat-similarity, three-layer-ai-stack-memory-search-reasoning, two-tier-agent-memory-separates-org-from-user]
+    outgoing: [files-are-the-universal-agent-interface, similarity-is-not-relevance-relevance-requires-reasoning, three-layer-ai-stack-memory-search-reasoning, context-learning-spans-agent-tenant-and-org-levels]
 
   navigation-beats-search-for-knowledge-retrieval:
     title: "Navigation beats search for knowledge retrieval — let each data source keep its native query interface"
@@ -1960,7 +1867,7 @@ nodes:
     source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)"
     source_file: specs/knowledge-graph-architectures/research.md
     kind: principle
-    outgoing: [agentic-search-beats-rag-for-live-codebases, know-which-computation-belongs-in-latent-vs-deterministic-space, similarity-is-not-relevance-relevance-requires-reasoning, structure-plus-reasoning-beats-flat-similarity]
+    outgoing: [agentic-search-beats-rag-for-live-codebases, intelligence-location-determines-system-fragility, similarity-is-not-relevance-relevance-requires-reasoning]
 
   sand-vs-stone-separates-durable-from-disposable-product-value:
     title: "Sand vs Stone — if models double in capability tomorrow, what washes away and what remains?"
@@ -1971,15 +1878,6 @@ nodes:
     kind: thinking-tool
     outgoing: [context-is-the-product-not-the-model, domain-skill-libraries-are-the-real-agent-moat, scaffolding-is-tech-debt-against-the-next-model]
 
-  model-compensations-become-liabilities-as-capabilities-advance:
-    title: "Model compensations become liabilities as capabilities advance — yesterday's fixes hobble today's agent"
-    description: "Engineering workarounds for earlier model limitations accumulate as technical debt that actively degrades agent performance when models improve"
-    topics: [ai-agents, ai-native-product-architecture]
-    source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
-    source_file: sources/izzymiller-hex-building-ai-agents-data.md
-    kind: principle
-    outgoing: [build-for-the-model-six-months-from-now, scaffolding-is-tech-debt-against-the-next-model, tool-design-is-continuous-observation-see-like-an-agent]
-
   conflicting-context-causes-agent-collapse-not-graceful-degradation:
     title: "Conflicting context causes agent collapse, not graceful degradation"
     description: "When an LLM encounters contradictory information in its context, it enters extended deliberation loops rather than choosing one interpretation — production finding from Hex"
@@ -1987,7 +1885,7 @@ nodes:
     source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
     source_file: sources/izzymiller-hex-building-ai-agents-data.md
     kind: principle
-    outgoing: [two-tier-agent-memory-separates-org-from-user]
+    outgoing: [context-learning-spans-agent-tenant-and-org-levels]
 
   context-flywheel-is-day-90-not-day-0:
     title: "The context flywheel is a Day 90 moat — Day 0 comparisons are misleading"
@@ -1996,7 +1894,7 @@ nodes:
     source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics"
     source_file: sources/izzymiller-hex-building-ai-agents-data.md
     kind: principle
-    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, long-horizon-evals-test-compounding-not-point-accuracy, offload-the-task-but-never-the-learning, proprietary-feedback-loops-widen-the-moat, the-learning-loop-is-the-firms-new-ip-and-it-compounds]
+    outgoing: [agent-trace-accumulation-produces-emergent-world-models, agentic-workflows-encode-intelligence-the-model-cant-read, context-is-the-product-not-the-model, evals-are-behavioral-pressure-vectors-not-neutral-measurements, long-horizon-evals-test-compounding-not-point-accuracy, offload-the-task-but-never-the-learning, proprietary-feedback-loops-widen-the-moat]
 
   long-horizon-evals-test-compounding-not-point-accuracy:
     title: "Long-horizon evals test compounding behavior, not point-in-time accuracy"
@@ -2024,7 +1922,7 @@ nodes:
     source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
     domain: ai
     kind: principle
-    outgoing: [files-are-the-universal-agent-interface, memory-is-where-agent-lock-in-lives, skills-as-markdown-replace-fine-tuning]
+    outgoing: [files-are-the-universal-agent-interface, closed-harnesses-behind-apis-create-memory-lock-in, skills-as-markdown-replace-fine-tuning]
 
   memory-is-harness-responsibility-not-plugin:
     title: "Memory is a harness responsibility, not a pluggable component"
@@ -2033,7 +1931,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)"
     source_file: sources/hwchase17-your-harness-your-memory.md
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, two-tier-agent-memory-separates-org-from-user]
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, context-learning-spans-agent-tenant-and-org-levels]
 
   closed-harnesses-behind-apis-create-memory-lock-in:
     title: "Closed harnesses behind APIs create memory lock-in by design"
@@ -2042,16 +1940,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
     kind: principle
-    outgoing: [context-is-the-product-not-the-model, memory-is-where-agent-lock-in-lives, proprietary-feedback-loops-widen-the-moat]
-
-  memory-is-where-agent-lock-in-lives:
-    title: "Memory is where agent lock-in lives — without it, agents are commoditized"
-    description: "Stateless model APIs are easily swapped; stateful memory creates a proprietary dataset of user interactions and preferences that makes the agent sticky and differentiated"
-    topics: [business-models, ai-agents]
-    source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
-    source_file: sources/hwchase17-your-harness-your-memory.md
-    kind: principle
-    outgoing: [closed-harnesses-behind-apis-create-memory-lock-in, context-is-the-product-not-the-model, memory-defines-the-agent-portable-memory-is-frontier, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent, procedural-memory-is-highest-impact-agent-memory, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [context-is-the-product-not-the-model, proprietary-feedback-loops-widen-the-moat, memory-defines-the-agent-portable-memory-is-frontier, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
 
   open-harnesses-with-owned-databases-prevent-model-provider-lock-in:
     title: "Open harnesses with customer-owned databases are the antidote to model-provider lock-in"
@@ -2060,7 +1949,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
     source_file: sources/hwchase17-your-harness-your-memory.md
     kind: principle
-    outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, harness-quality-beats-model-intelligence, memory-is-where-agent-lock-in-lives, model-portability-is-the-sovereignty-test]
+    outgoing: [boring-tech-wins-for-ai-native-startups, evolved-harnesses-transfer-across-models, harness-quality-beats-model-intelligence, closed-harnesses-behind-apis-create-memory-lock-in, model-portability-is-the-sovereignty-test]
 
   organizational-shape-is-the-emerging-moat-in-ai:
     title: "Organizational shape is the emerging moat in AI — what AI cannot copy is the institution underneath"
@@ -2070,7 +1959,7 @@ nodes:
     source_file: sources/jayagup10-organizational-shape-is-the-moat.md
     domain: ai
     kind: principle
-    outgoing: [a-frontier-without-an-ecosystem-is-not-stable, dissolved-constraints-shift-bottleneck-to-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, mission-strength-is-measured-by-who-it-repels, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
+    outgoing: [a-frontier-without-an-ecosystem-is-not-stable, ai-compresses-execution-not-judgment, great-companies-are-wrappers-around-a-kind-of-person, llms-selectively-destroy-vertical-software-moats, mission-strength-is-measured-by-who-it-repels, proprietary-feedback-loops-widen-the-moat, system-of-work-is-the-moat-not-the-model]
 
   great-companies-are-wrappers-around-a-kind-of-person:
     title: "Great companies are wrappers around a kind of person — institutions that make a new kind of person possible"
@@ -2130,7 +2019,7 @@ nodes:
     source_file: sources/garry-tan-a16z-new-rules-for-founders.md
     domain: ai
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, being-worth-retrieving-from-is-the-product, domain-skill-libraries-are-the-real-agent-moat, evolving-summaries-beat-append-only-memory, never-do-one-off-work-skillify-every-task]
+    outgoing: [agent-memory-preserves-institutional-knowledge, being-worth-retrieving-from-is-the-product, domain-skill-libraries-are-the-real-agent-moat, evolving-summaries-beat-append-only-memory, compound-engineering-makes-future-work-easier]
   reasoning-by-analogy-has-a-ceiling:
     title: "Reasoning by analogy has a ceiling — you can never get beyond what already exists by copying what already exists"
     description: "Analogy is faster, easier, and less mentally taxing — fine for most decisions — but it forecloses any solution outside the existing solution set; first-principles is the only path that produces non-incremental answers"
@@ -2259,27 +2148,17 @@ nodes:
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
     kind: principle
-    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]
-
-  system-prompt-guardrails-become-constraints-as-models-get-more-imaginative:
-    title: "System-prompt guardrails built for a weaker model become constraints on a more imaginative one"
-    description: "Claude Code removed 80% of its system prompt because examples that once taught a weaker model started capping a stronger, more imaginative one — the fix was giving context instead of constraints"
-    topics: [ai-coding-tools]
-    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
-    source_file: sources/thariq-field-guide-to-fable.md
-    domain: ai
-    kind: principle
-    outgoing: [build-for-the-model-six-months-from-now, scaffolding-is-tech-debt-against-the-next-model]
+    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, map-is-not-the-territory-unknowns-are-the-real-bottleneck]
 
   map-is-not-the-territory-unknowns-are-the-real-bottleneck:
     title: "The map is not the territory — with a capable-enough agent, finding your unknowns becomes the real bottleneck"
     description: "The plan/prompt/spec in your head is the map; the actual codebase and real-world constraints are the territory; wherever the agent hits territory your map didn't cover, that's an unknown it now has to resolve on its own"
-    topics: [ai-agents, decision-making]
+    topics: [ai-agents, decision-making, ai-coding-tools]
     source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
     kind: thinking-tool
-    outgoing: [adversarial-branch-walking-beats-review-for-planning, models-are-grown-not-designed-treat-fable-empirically, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding, symmetric-failure-of-over-and-under-specified-instructions]
+    outgoing: [adversarial-branch-walking-beats-review-for-planning, models-are-grown-not-designed-treat-fable-empirically, symmetric-failure-of-over-and-under-specified-instructions]
 
   force-reality-to-reveal-the-tradeoff-instead-of-presuming-one:
     title: "Don't presume the tradeoff — do all of it and force reality to show you where the real constraint is"
@@ -2289,27 +2168,7 @@ nodes:
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
     kind: thinking-tool
-    outgoing: [building-is-easier-but-generating-value-is-still-hard, choose-problems-backward-from-an-outcome-you-want]
-
-  building-is-easier-but-generating-value-is-still-hard:
-    title: "Building is easier now, but generating value is still hard"
-    description: "Agent-era tooling collapses build time, which tempts AI engineers to over-invest in process and setup; the scarce resource was never construction speed, it's finding what's actually valuable, and that still takes many tries"
-    topics: [future-of-ai-business, business-models]
-    source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
-    source_file: sources/thariq-field-guide-to-fable.md
-    domain: ai
-    kind: principle
-    outgoing: [force-reality-to-reveal-the-tradeoff-instead-of-presuming-one, verification-multiplies-agent-output-quality]
-
-  reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding:
-    title: "Reducing your unknowns is the trainable skill of agentic coding — and the agent itself is how you train it"
-    description: "Expert prompts aren't better because they're more detailed; they're better because they leave fewer unknowns open, and you get better at anticipating your own unknowns specifically by working with the agent"
-    topics: [ai-agents, ai-coding-tools]
-    source: "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns"
-    source_file: sources/thariq-a-field-guide-to-claude-fable-finding-your-unknowns.md
-    domain: ai
-    kind: practice
-    outgoing: [capability-overhang-tools-unlock-latent-model-ability, map-is-not-the-territory-unknowns-are-the-real-bottleneck]
+    outgoing: [ai-compresses-execution-not-judgment, choose-problems-backward-from-an-outcome-you-want]
 
   symmetric-failure-of-over-and-under-specified-instructions:
     title: "You fail both ways: over-specified instructions block a needed pivot, under-specified ones default to the wrong assumptions"
@@ -2319,7 +2178,7 @@ nodes:
     source_file: sources/thariq-a-field-guide-to-claude-fable-finding-your-unknowns.md
     domain: ai
     kind: principle
-    outgoing: [declarative-beats-imperative-for-agents, reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]
+    outgoing: [declarative-beats-imperative-for-agents, map-is-not-the-territory-unknowns-are-the-real-bottleneck]
 
   a-human-in-the-loop-caps-the-loop-at-waking-hours:
     title: "A human in the loop is a gating mechanism — it caps the loop at human waking hours"
@@ -2339,7 +2198,7 @@ nodes:
     source_file: sources/tom-blomfield-yc-building-ai-native-company.md
     domain: ai
     kind: principle
-    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, self-improving-agents-overfit-to-eval-metrics, the-learning-loop-is-the-firms-new-ip-and-it-compounds, trace-to-eval-flywheel-compounds-agent-quality]
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, holdout-sets-gate-autonomous-harness-optimization, offload-the-task-but-never-the-learning, trace-to-eval-flywheel-compounds-agent-quality]
 
   make-the-quality-gate-a-second-adversarial-model-not-a-human:
     title: "The quality gate should be a second adversarial model, not a human"
@@ -2389,7 +2248,7 @@ nodes:
     source_file: sources/tom-blomfield-yc-building-ai-native-company.md
     domain: ai
     kind: principle
-    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, ai-compresses-execution-not-judgment, dissolved-constraints-shift-bottleneck-to-judgment, reorganize-around-agents-dont-bolt-them-onto-old-workflows]
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, ai-compresses-execution-not-judgment, reorganize-around-agents-dont-bolt-them-onto-old-workflows]
 
   ic-and-dri-are-the-only-roles-left-without-middle-management:
     title: "When the system routes information, IC and DRI are the only roles left"
@@ -2410,7 +2269,7 @@ nodes:
     source_file: sources/garry-tan-yc-own-your-intelligence.md
     domain: ai
     kind: principle
-    outgoing: [domain-skill-libraries-are-the-real-agent-moat, never-do-one-off-work-skillify-every-task, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
+    outgoing: [domain-skill-libraries-are-the-real-agent-moat, compound-engineering-makes-future-work-easier, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
 
   personal-agi-is-an-asset-you-build-not-a-subscription-you-rent:
     title: "Personal AGI is an asset you build, not a subscription you rent"
@@ -2420,17 +2279,7 @@ nodes:
     source_file: sources/garry-tan-yc-own-your-intelligence.md
     domain: ai
     kind: principle
-    outgoing: [context-is-the-product-not-the-model, memory-is-where-agent-lock-in-lives, own-your-skill-files-or-your-job-becomes-one]
-
-  know-which-computation-belongs-in-latent-vs-deterministic-space:
-    title: "Know which computation belongs in latent space and which belongs in deterministic space"
-    description: "Tan attributes every agent failure he has seen to confusing the two: taste and judgment live in the model steered by markdown, while arithmetic and state must live in code and a database the markdown calls"
-    topics: [ai-native-product-architecture, ai-agents]
-    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
-    source_file: sources/garry-tan-yc-own-your-intelligence.md
-    domain: ai
-    kind: principle
-    outgoing: [if-a-smart-intern-could-follow-it-an-agent-can-run-it, navigation-beats-search-for-knowledge-retrieval, the-80-99-gap-is-where-ai-products-die]
+    outgoing: [context-is-the-product-not-the-model, closed-harnesses-behind-apis-create-memory-lock-in, own-your-skill-files-or-your-job-becomes-one]
 
   a-better-model-makes-your-library-worth-more:
     title: "A better model makes your library worth more, not obsolete — a smarter reader extracts more from the same books"
@@ -2462,16 +2311,6 @@ nodes:
     kind: principle
     outgoing: [permissioned-inference-is-harder-than-permissioned-retrieval, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
 
-  never-do-one-off-work-skillify-every-task:
-    title: "Never do one-off work — at the end of every task, turn what the agent did into a reusable skill"
-    description: "Tan names this the discipline separating compounders from dabblers: most people run one operation, close the window and throw the context away, which is waking up every morning with amnesia"
-    topics: [knowledge-systems, ai-coding-tools]
-    source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026"
-    source_file: sources/garry-tan-yc-own-your-intelligence.md
-    domain: ai
-    kind: practice
-    outgoing: [being-worth-retrieving-from-is-the-product, compound-engineering-makes-future-work-easier, own-your-skill-files-or-your-job-becomes-one, personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]
-
   if-a-smart-intern-could-follow-it-an-agent-can-run-it:
     title: "If a smart intern could follow it, an agent can run it — which makes clear English a programming language"
     description: "Tan's test for whether a skill file is ready, and the claim behind it: markdown is code and the compiler is a language model, which is why non-engineers at YC are shipping automation"
@@ -2480,4 +2319,4 @@ nodes:
     source_file: sources/garry-tan-yc-own-your-intelligence.md
     domain: ai
     kind: principle
-    outgoing: [if-it-left-no-artifact-it-didnt-happen, know-which-computation-belongs-in-latent-vs-deterministic-space, skills-as-markdown-replace-fine-tuning]
+    outgoing: [if-it-left-no-artifact-it-didnt-happen, intelligence-location-determines-system-fragility, skills-as-markdown-replace-fine-tuning]

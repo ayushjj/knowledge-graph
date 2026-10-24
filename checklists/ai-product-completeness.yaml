@@ -46,7 +46,7 @@ dimensions:
 
       - term: "Sandbox / isolation"
         definition: "Containment that prevents agents from causing irreversible damage — file system boundaries, API rate limits, approval gates"
-        insight: safety-enforcement-belongs-in-tool-design-not-prompts
+        insight: enforcement-must-run-independently-of-model-cooperation
         coverage: partial
         check: "Are agent actions sandboxed with appropriate containment and approval gates?"
 
@@ -122,7 +122,7 @@ dimensions:
 
       - term: "KV cache optimization"
         definition: "Structuring prompts so repeated prefixes hit the KV cache, reducing cost and latency"
-        insight: kv-cache-hit-rate-determines-agent-economics
+        insight: prompt-caching-makes-long-context-economically-viable
         coverage: full
         check: "Are prompts structured to maximize KV cache hit rates?"
 
@@ -190,7 +190,7 @@ dimensions:
 
       - term: "Guardrails"
         definition: "Constraints on agent behavior enforced at the tool/system level, not just in prompts"
-        insight: safety-enforcement-belongs-in-tool-design-not-prompts
+        insight: enforcement-must-run-independently-of-model-cooperation
         coverage: full
         check: "Are safety constraints enforced in tool design (not just system prompts)?"
 
@@ -242,13 +242,13 @@ dimensions:
 
       - term: "Cost tracking"
         definition: "Per-task and per-session cost visibility — knowing what each agent run costs in tokens and compute"
-        insight: kv-cache-hit-rate-determines-agent-economics
+        insight: prompt-caching-makes-long-context-economically-viable
         coverage: partial
         check: "Can you see the cost of each agent run (tokens, API calls, compute)?"
 
       - term: "Error pattern detection"
         definition: "Identifying recurring failure modes across agent runs to fix systemic issues"
-        insight: error-memory-enables-learning-without-retraining
+        insight: cross-user-knowledge-transfer-needs-no-fine-tuning
         coverage: full
         check: "Are recurring error patterns detected and surfaced for systemic fixes?"
 
@@ -264,7 +264,7 @@ dimensions:
 
       - term: "Continuous improvement"
         definition: "Systematic process for the system to get better over time — not just shipping features but learning from usage"
-        insight: error-memory-enables-learning-without-retraining
+        insight: cross-user-knowledge-transfer-needs-no-fine-tuning
         coverage: partial
         check: "Is there a systematic process for the system to improve from its own usage?"
 
@@ -328,7 +328,7 @@ dimensions:
 
       - term: "Sell the work"
         definition: "Selling outcomes and completed work rather than access to tools — the services model for AI"
-        insight: sell-the-work-not-the-tool
+        insight: autopilots-capture-work-budget-not-tool-budget
         coverage: full
         check: "Does the product sell completed work/outcomes rather than tool access?"
 

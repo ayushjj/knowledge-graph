@@ -20,7 +20,7 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[compound-engineering-makes-future-work-easier]] — Review-phase learning extraction is the compounding mechanism
 - [[specs-are-external-memory-surviving-context-resets]] — Spec files bridge intent across sessions
 - [[cross-user-knowledge-transfer-needs-no-fine-tuning]] — One user's learning benefits others automatically
-- [[structure-plus-reasoning-beats-flat-similarity]] — Structured knowledge navigated by reasoning outperforms flat indexes searched by similarity
+- [[similarity-is-not-relevance-relevance-requires-reasoning]] — Structured knowledge navigated by reasoning outperforms flat indexes searched by similarity
 - [[skill-graphs-enable-progressive-disclosure]] — Single skill files hit a ceiling; complex domains need interconnected navigable knowledge
 - [[embeddings-measure-similarity-not-truth]] — Vector search can't resolve contradictions or understand time; similarity ≠ truth
 - [[evolving-summaries-beat-append-only-memory]] — Rewriting profiles instead of appending handles contradictions naturally
@@ -33,11 +33,9 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[claude-md-should-be-routing-table-not-knowledge-base]] — CLAUDE.md as nested conditional directory, not knowledge monolith
 - [[context-layers-supersede-semantic-layers]] — Context layers are a superset of semantic layers for agent autonomy
 - [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — The most critical context is implicit, conditional, and historically contingent
-- [[skill-folder-structure-is-context-engineering]] — A skill's folder structure is its context architecture — file system as progressive disclosure
 - [[metadata-for-llm-consumers-needs-trigger-specs-not-summaries]] — Metadata consumed by LLMs needs trigger specifications, not human summaries
 - [[agent-trace-accumulation-produces-emergent-world-models]] — Accumulated agent traces form discovered world models nobody explicitly designed
 - [[workflow-strategies-beat-individual-tool-instructions]] — How tools combine matters more than which tool to call; intentionally narrow strategies generalize best
-- [[two-tier-agent-memory-separates-org-from-user]] — Deployment-level shared workflows + user-level private preferences as separate memory tiers
 - [[knowledge-systems-need-dual-layer-storage]] — Narrative depth and structured queries need different storage with a routing layer
 - [[navigation-beats-search-for-knowledge-retrieval]] — Let each data source keep its native query interface instead of flattening into embeddings
 - [[compilation-scales-curation-compounds]] — LLM-compiled systems grow fast; human-curated systems compound through validated connections
@@ -67,5 +65,4 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[a-better-model-makes-your-library-worth-more]] — A smarter reader extracts more from the same books, so releases upgrade an asset you already own
 - [[being-worth-retrieving-from-is-the-product]] — Postgres is just B-trees; retrieval is the primitive and curation is the hard part
 - [[custody-is-the-security-model]] — Consolidation doesn't create the risk, it takes custody of one already spread across ten clouds
-- [[never-do-one-off-work-skillify-every-task]] — If you have to ask for something twice, you failed
 - [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — The readiness test for a skill file, and the claim that clear English is a programming language

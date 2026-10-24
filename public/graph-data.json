@@ -24,7 +24,7 @@
       ],
       "source": "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion",
       "color": "#6366f1",
-      "degree": 7,
+      "degree": 6,
       "domain": "ai",
       "kind": "bet",
       "bet_date": "2026-10-24"
@@ -67,7 +67,7 @@
       ],
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
-      "degree": 6,
+      "degree": 5,
       "domain": "mental-models",
       "kind": "thinking-tool"
     },
@@ -209,7 +209,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#f59e0b",
-      "degree": 7,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -223,7 +223,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#8b5cf6",
-      "degree": 10,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -237,7 +237,7 @@
       ],
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#10b981",
-      "degree": 7,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -289,11 +289,12 @@
       "description": "The real opportunity isn't picking the best model — it's building a learning loop on top of models where the firm's accumulated learning, the one thing it can't outsource, compounds across people and AI",
       "topics": [
         "future-of-ai-business",
-        "knowledge-systems"
+        "knowledge-systems",
+        "ai-native-product-architecture"
       ],
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#f59e0b",
-      "degree": 5,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -322,20 +323,6 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
-      "label": "The learning loop becomes the firm's new IP — a hill-climbing machine that compounds unlike any other asset",
-      "description": "Every improved workflow generates better training signal, which accelerates the accumulation of tacit knowledge unique to the firm; companies that build this loop early gain an advantage that's hard to replicate regardless of any new model capability",
-      "topics": [
-        "future-of-ai-business",
-        "ai-native-product-architecture"
-      ],
-      "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
-      "color": "#f59e0b",
-      "degree": 8,
       "domain": "ai",
       "kind": "principle"
     },
@@ -407,7 +394,7 @@
       ],
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
-      "degree": 10,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -435,7 +422,7 @@
       ],
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#f59e0b",
-      "degree": 15,
+      "degree": 14,
       "domain": "ai",
       "kind": "principle"
     },
@@ -562,7 +549,7 @@
       ],
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
-      "degree": 19,
+      "degree": 18,
       "domain": "ai",
       "kind": "principle"
     },
@@ -590,7 +577,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -646,7 +633,7 @@
       ],
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#8b5cf6",
-      "degree": 4,
+      "degree": 3,
       "domain": "ai",
       "kind": "practice"
     },
@@ -674,7 +661,7 @@
       ],
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 4,
       "domain": "ai",
       "kind": "principle"
     },
@@ -688,7 +675,7 @@
       ],
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 10,
       "domain": "ai",
       "kind": "principle"
     },
@@ -716,7 +703,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
-      "degree": 39,
+      "degree": 37,
       "domain": "ai",
       "kind": "principle"
     },
@@ -774,7 +761,7 @@
       ],
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
-      "degree": 27,
+      "degree": 26,
       "domain": "ai",
       "kind": "principle"
     },
@@ -873,7 +860,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
-      "degree": 14,
+      "degree": 13,
       "domain": "ai",
       "kind": "principle"
     },
@@ -883,11 +870,12 @@
       "description": "When one person teaches an agent something, another person benefits automatically — no RLHF, no training infrastructure, just structured storage and retrieval",
       "topics": [
         "knowledge-systems",
-        "ai-agents"
+        "ai-agents",
+        "ai-native-product-architecture"
       ],
       "source": "Ashpreet Bedi — Agents That Learn (Agno Framework)",
       "color": "#f43f5e",
-      "degree": 6,
+      "degree": 15,
       "domain": "ai",
       "kind": "principle"
     },
@@ -957,7 +945,7 @@
       ],
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
-      "degree": 21,
+      "degree": 19,
       "domain": "ai",
       "kind": "principle"
     },
@@ -966,11 +954,13 @@
       "label": "Similarity is not relevance — relevance requires reasoning",
       "description": "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning",
       "topics": [
-        "ai-native-product-architecture"
+        "ai-native-product-architecture",
+        "ai-agents",
+        "knowledge-systems"
       ],
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
-      "degree": 10,
+      "degree": 17,
       "domain": "ai",
       "kind": "principle"
     },
@@ -989,21 +979,6 @@
       "kind": "principle"
     },
     {
-      "id": "structure-plus-reasoning-beats-flat-similarity",
-      "label": "Structure plus reasoning beats flat similarity for complex domains",
-      "description": "Across documents, code, and skills, the same pattern holds: structured knowledge navigated by reasoning outperforms flat indexes searched by similarity",
-      "topics": [
-        "ai-native-product-architecture",
-        "knowledge-systems",
-        "ai-agents"
-      ],
-      "source": "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs",
-      "color": "#8b5cf6",
-      "degree": 12,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
       "id": "agentic-search-beats-rag-for-live-codebases",
       "label": "Agentic search beats RAG for live codebases",
       "description": "Claude Code abandoned RAG and vector DB in favor of letting the agent grep/glob/read — reasoning about where to look outperforms pre-indexed similarity search",
@@ -1013,7 +988,7 @@
       ],
       "source": "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik",
       "color": "#8b5cf6",
-      "degree": 10,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1055,7 +1030,7 @@
       ],
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#10b981",
-      "degree": 5,
+      "degree": 4,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1109,21 +1084,7 @@
       ],
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
-      "degree": 13,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "skill-folder-structure-is-context-engineering",
-      "label": "A skill's folder structure is its context architecture — the file system is a form of context engineering",
-      "description": "Skills are not just markdown files but folders where scripts, references, and assets enable progressive disclosure — the agent reads deeper files only when it reaches the relevant step",
-      "topics": [
-        "knowledge-systems",
-        "ai-agents"
-      ],
-      "source": "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills",
-      "color": "#f43f5e",
-      "degree": 4,
+      "degree": 14,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1189,11 +1150,12 @@
       "description": "Prefix-matching cache enables 80%+ cost reduction for multi-turn conversations, making rich context systems affordable at scale",
       "topics": [
         "ai-native-product-architecture",
-        "ai-coding-tools"
+        "ai-coding-tools",
+        "ai-agents"
       ],
       "source": "Learning Technical Concepts chat — Thariq's prompt caching article",
       "color": "#8b5cf6",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1249,7 +1211,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 7,
+      "degree": 15,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1276,7 +1238,7 @@
       ],
       "source": "@stevesi (Steven Sinofsky) — Death of Software?",
       "color": "#f59e0b",
-      "degree": 11,
+      "degree": 10,
       "domain": "ai",
       "kind": "thinking-tool"
     },
@@ -1430,7 +1392,7 @@
       ],
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
-      "degree": 13,
+      "degree": 12,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1584,7 +1546,7 @@
       ],
       "source": "Synthesis from Supermemory, QMD, and PageIndex architectures",
       "color": "#8b5cf6",
-      "degree": 14,
+      "degree": 13,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1598,7 +1560,7 @@
       ],
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
-      "degree": 35,
+      "degree": 37,
       "domain": "ai",
       "kind": "practice"
     },
@@ -1626,7 +1588,7 @@
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 15,
+      "degree": 13,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1654,7 +1616,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 2,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1668,7 +1630,7 @@
       ],
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
-      "degree": 16,
+      "degree": 15,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1697,20 +1659,6 @@
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "error-memory-enables-learning-without-retraining",
-      "label": "Agents that store error patterns learn continuously without fine-tuning or retraining",
-      "description": "Dash's 'GPU-poor continuous learning' separates validated knowledge from error-driven learnings — five lines of code replaces expensive retraining",
-      "topics": [
-        "ai-agents",
-        "ai-native-product-architecture"
-      ],
-      "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
-      "color": "#6366f1",
-      "degree": 14,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1766,7 +1714,7 @@
       ],
       "source": "LangChain — How We Build Evals for Deep Agents",
       "color": "#6366f1",
-      "degree": 11,
+      "degree": 10,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1837,7 +1785,7 @@
       ],
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 9,
       "domain": "ai",
       "kind": "practice"
     },
@@ -1851,7 +1799,7 @@
       ],
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
-      "degree": 18,
+      "degree": 17,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1894,20 +1842,6 @@
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "kv-cache-hit-rate-determines-agent-economics",
-      "label": "KV cache hit rate is the most critical metric for production agents",
-      "description": "Maintaining stable prompt prefixes and append-only context architecture maximizes cache reuse, dramatically reducing both cost and latency for agentic workflows",
-      "topics": [
-        "ai-native-product-architecture",
-        "ai-agents"
-      ],
-      "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
-      "color": "#8b5cf6",
-      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1963,7 +1897,7 @@
       ],
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
-      "degree": 16,
+      "degree": 15,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1995,20 +1929,6 @@
       "domain": "ai",
       "kind": "bet",
       "bet_date": "2026-03-05"
-    },
-    {
-      "id": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "label": "Safety enforcement belongs in tool design, not system prompts",
-      "description": "At scale, embedding safety constraints in the tool's API (blocking destructive operations by default) beats relying on behavioral compliance with system prompt instructions",
-      "topics": [
-        "ai-agents",
-        "ai-native-product-architecture"
-      ],
-      "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
-      "color": "#6366f1",
-      "degree": 11,
-      "domain": "ai",
-      "kind": "principle"
     },
     {
       "id": "saas-grows-but-consolidates-around-platforms",
@@ -2062,7 +1982,7 @@
       ],
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2104,7 +2024,7 @@
       ],
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
-      "degree": 30,
+      "degree": 29,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2176,7 +2096,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 8,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2284,11 +2204,12 @@
       "description": "Code built to extend model capability 10-20% becomes worthless when the next model ships, making most product scaffolding an ephemeral trade-off",
       "topics": [
         "ai-coding-tools",
-        "ai-native-product-architecture"
+        "ai-native-product-architecture",
+        "ai-agents"
       ],
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
-      "degree": 19,
+      "degree": 15,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2466,11 +2387,12 @@
       "description": "Meta-Harness gives its proposer agent a filesystem containing full source code, scores, and execution traces of every prior candidate, enabling up to 10M tokens of diagnostic context per iteration",
       "topics": [
         "ai-agents",
-        "ai-coding-tools"
+        "ai-coding-tools",
+        "ai-native-product-architecture"
       ],
       "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 10,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2531,20 +2453,6 @@
       "kind": "practice"
     },
     {
-      "id": "sell-the-work-not-the-tool",
-      "label": "Sell the work, not the tool — model improvements compound for services, against software",
-      "description": "If you sell the tool, you race the model; if you sell the outcome, every model improvement makes your service faster, cheaper, and harder to compete with",
-      "topics": [
-        "future-of-ai-business",
-        "business-models"
-      ],
-      "source": "@julienbek — Services: The New Software",
-      "color": "#f59e0b",
-      "degree": 13,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
       "id": "observability-is-the-missing-agent-discipline",
       "label": "Observability is the missing discipline for agent systems — you can't improve what you can't measure",
       "description": "Agent systems need telemetry (token usage, latency, error rates, cost per task) as a first-class engineering concern, not an afterthought bolted on after production failures",
@@ -2582,7 +2490,7 @@
       ],
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
-      "degree": 17,
+      "degree": 16,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2789,11 +2697,14 @@
       "label": "AI compresses the distance between idea and execution but not between good and bad judgment",
       "description": "When everyone can build anything, the differentiator stops being speed and starts being judgment — what to build, what to say no to, when to change course",
       "topics": [
-        "decision-making"
+        "decision-making",
+        "business-models",
+        "economics",
+        "future-of-ai-business"
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 11,
+      "degree": 18,
       "domain": "mental-models",
       "kind": "principle"
     },
@@ -2807,20 +2718,6 @@
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
       "degree": 7,
-      "domain": "mental-models",
-      "kind": "principle"
-    },
-    {
-      "id": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "label": "When production constraints dissolve, the bottleneck shifts from execution to judgment",
-      "description": "Hiring was hard, code was slow, shipping took months — AI dissolves all three, revealing judgment as the binding constraint that was always there",
-      "topics": [
-        "decision-making",
-        "economics"
-      ],
-      "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
-      "color": "#eab308",
-      "degree": 14,
       "domain": "mental-models",
       "kind": "principle"
     },
@@ -2875,34 +2772,7 @@
       ],
       "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
       "color": "#f59e0b",
-      "degree": 10,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "self-improving-agents-overfit-to-eval-metrics",
-      "label": "Self-improving agents overfit to eval metrics — the meta-agent games rubrics unless structurally constrained",
-      "description": "AutoAgent's meta-agent gets lazy, inserting rubric-specific prompting so the task agent can game metrics; defense requires forcing self-reflection on generalizability",
-      "topics": [
-        "ai-agents"
-      ],
-      "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
-      "color": "#6366f1",
-      "degree": 8,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "traces-not-scores-enable-agent-improvement",
-      "label": "Traces not scores enable agent improvement — without trajectories, improvement rate drops hard",
-      "description": "When AutoAgent's meta-agent received only pass/fail scores without reasoning traces, the improvement rate dropped significantly",
-      "topics": [
-        "ai-agents",
-        "ai-native-product-architecture"
-      ],
-      "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
-      "color": "#6366f1",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2999,7 +2869,7 @@
       ],
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 2,
       "domain": "ai",
       "kind": "practice"
     },
@@ -3032,20 +2902,6 @@
       "kind": "practice"
     },
     {
-      "id": "two-tier-agent-memory-separates-org-from-user",
-      "label": "Two-tier agent memory separates organizational workflow knowledge from individual user preferences",
-      "description": "Deployment-level memory captures shared tool strategies and sequencing patterns; user-level memory captures personal templates and communication styles — initially skipping user-level had a significant performance impact",
-      "topics": [
-        "ai-agents",
-        "knowledge-systems"
-      ],
-      "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
-      "color": "#6366f1",
-      "degree": 9,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
       "id": "compilation-scales-curation-compounds",
       "label": "Compilation scales but curation compounds — two camps for knowledge graph construction",
       "description": "LLM-compiled systems grow fast by feeding raw content through model judgment; human-curated systems grow slowly but every node is validated — compilation scales linearly, curation compounds through connections",
@@ -3070,7 +2926,7 @@
       ],
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
-      "degree": 6,
+      "degree": 10,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3126,7 +2982,7 @@
       ],
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
-      "degree": 6,
+      "degree": 4,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3143,20 +2999,6 @@
       "degree": 7,
       "domain": "ai",
       "kind": "thinking-tool"
-    },
-    {
-      "id": "model-compensations-become-liabilities-as-capabilities-advance",
-      "label": "Model compensations become liabilities as capabilities advance — yesterday's fixes hobble today's agent",
-      "description": "Engineering workarounds for earlier model limitations accumulate as technical debt that actively degrades agent performance when models improve",
-      "topics": [
-        "ai-agents",
-        "ai-native-product-architecture"
-      ],
-      "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
-      "color": "#6366f1",
-      "degree": 5,
-      "domain": "ai",
-      "kind": "principle"
     },
     {
       "id": "conflicting-context-causes-agent-collapse-not-graceful-degradation",
@@ -3182,7 +3024,7 @@
       ],
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#8b5cf6",
-      "degree": 13,
+      "degree": 11,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3252,21 +3094,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#6366f1",
-      "degree": 6,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "memory-is-where-agent-lock-in-lives",
-      "label": "Memory is where agent lock-in lives — without it, agents are commoditized",
-      "description": "Stateless model APIs are easily swapped; stateful memory creates a proprietary dataset of user interactions and preferences that makes the agent sticky and differentiated",
-      "topics": [
-        "business-models",
-        "ai-agents"
-      ],
-      "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
-      "color": "#10b981",
-      "degree": 12,
+      "degree": 11,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3556,20 +3384,7 @@
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
-      "degree": 9,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
-      "label": "System-prompt guardrails built for a weaker model become constraints on a more imaginative one",
-      "description": "Claude Code removed 80% of its system prompt because examples that once taught a weaker model started capping a stronger, more imaginative one — the fix was giving context instead of constraints",
-      "topics": [
-        "ai-coding-tools"
-      ],
-      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
-      "color": "#06b6d4",
-      "degree": 3,
+      "degree": 8,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3579,7 +3394,8 @@
       "description": "The plan/prompt/spec in your head is the map; the actual codebase and real-world constraints are the territory; wherever the agent hits territory your map didn't cover, that's an unknown it now has to resolve on its own",
       "topics": [
         "ai-agents",
-        "decision-making"
+        "decision-making",
+        "ai-coding-tools"
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
@@ -3597,37 +3413,9 @@
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#f59e0b",
-      "degree": 4,
+      "degree": 3,
       "domain": "ai",
       "kind": "thinking-tool"
-    },
-    {
-      "id": "building-is-easier-but-generating-value-is-still-hard",
-      "label": "Building is easier now, but generating value is still hard",
-      "description": "Agent-era tooling collapses build time, which tempts AI engineers to over-invest in process and setup; the scarce resource was never construction speed, it's finding what's actually valuable, and that still takes many tries",
-      "topics": [
-        "future-of-ai-business",
-        "business-models"
-      ],
-      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
-      "color": "#f59e0b",
-      "degree": 4,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
-      "id": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
-      "label": "Reducing your unknowns is the trainable skill of agentic coding — and the agent itself is how you train it",
-      "description": "Expert prompts aren't better because they're more detailed; they're better because they leave fewer unknowns open, and you get better at anticipating your own unknowns specifically by working with the agent",
-      "topics": [
-        "ai-agents",
-        "ai-coding-tools"
-      ],
-      "source": "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns",
-      "color": "#6366f1",
-      "degree": 5,
-      "domain": "ai",
-      "kind": "practice"
     },
     {
       "id": "symmetric-failure-of-over-and-under-specified-instructions",
@@ -3737,7 +3525,7 @@
       ],
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris, quoting Jack Dorsey",
       "color": "#f59e0b",
-      "degree": 6,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3785,20 +3573,6 @@
       "kind": "principle"
     },
     {
-      "id": "know-which-computation-belongs-in-latent-vs-deterministic-space",
-      "label": "Know which computation belongs in latent space and which belongs in deterministic space",
-      "description": "Tan attributes every agent failure he has seen to confusing the two: taste and judgment live in the model steered by markdown, while arithmetic and state must live in code and a database the markdown calls",
-      "topics": [
-        "ai-native-product-architecture",
-        "ai-agents"
-      ],
-      "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
-      "color": "#8b5cf6",
-      "degree": 5,
-      "domain": "ai",
-      "kind": "principle"
-    },
-    {
       "id": "a-better-model-makes-your-library-worth-more",
       "label": "A better model makes your library worth more, not obsolete — a smarter reader extracts more from the same books",
       "description": "Tan's answer to the bitter-lesson objection: each model release is a free upgrade to a workforce you already own, because the differentiator moves toward context precisely as the weights commoditize",
@@ -3839,20 +3613,6 @@
       "degree": 3,
       "domain": "ai",
       "kind": "principle"
-    },
-    {
-      "id": "never-do-one-off-work-skillify-every-task",
-      "label": "Never do one-off work — at the end of every task, turn what the agent did into a reusable skill",
-      "description": "Tan names this the discipline separating compounders from dabblers: most people run one operation, close the window and throw the context away, which is waking up every morning with amnesia",
-      "topics": [
-        "knowledge-systems",
-        "ai-coding-tools"
-      ],
-      "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
-      "color": "#f43f5e",
-      "degree": 7,
-      "domain": "ai",
-      "kind": "practice"
     },
     {
       "id": "if-a-smart-intern-could-follow-it-an-agent-can-run-it",
@@ -3900,7 +3660,7 @@
     },
     {
       "source": "agent-inputs-could-compile-to-one-checkable-execution-plan",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+      "target": "enforcement-must-run-independently-of-model-cooperation"
     },
     {
       "source": "agent-inputs-could-compile-to-one-checkable-execution-plan",
@@ -3957,10 +3717,6 @@
     {
       "source": "taste-is-a-muscle-trained-by-forecasting",
       "target": "choose-problems-backward-from-an-outcome-you-want"
-    },
-    {
-      "source": "taste-is-a-muscle-trained-by-forecasting",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
     },
     {
       "source": "differentiated-inputs-beat-the-shared-reading-list",
@@ -4120,10 +3876,6 @@
     },
     {
       "source": "layer-migration-is-the-real-threat-not-competition",
-      "target": "model-compensations-become-liabilities-as-capabilities-advance"
-    },
-    {
-      "source": "layer-migration-is-the-real-threat-not-competition",
       "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
@@ -4172,10 +3924,6 @@
     },
     {
       "source": "task-horizon-breaks-seat-based-pricing",
-      "target": "sell-the-work-not-the-tool"
-    },
-    {
-      "source": "task-horizon-breaks-seat-based-pricing",
       "target": "token-spend-replaces-headcount-as-scaling-unit"
     },
     {
@@ -4184,7 +3932,7 @@
     },
     {
       "source": "where-inference-runs-decides-margin-context-and-trust",
-      "target": "memory-is-where-agent-lock-in-lives"
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "where-inference-runs-decides-margin-context-and-trust",
@@ -4235,6 +3983,14 @@
       "target": "system-of-work-is-the-moat-not-the-model"
     },
     {
+      "source": "offload-the-task-but-never-the-learning",
+      "target": "proprietary-feedback-loops-widen-the-moat"
+    },
+    {
+      "source": "offload-the-task-but-never-the-learning",
+      "target": "trace-to-eval-flywheel-compounds-agent-quality"
+    },
+    {
       "source": "model-portability-is-the-sovereignty-test",
       "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
@@ -4264,27 +4020,7 @@
     },
     {
       "source": "private-evals-measure-business-outcomes-not-benchmarks",
-      "target": "traces-not-scores-enable-agent-improvement"
-    },
-    {
-      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
-      "target": "compound-engineering-makes-future-work-easier"
-    },
-    {
-      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
-      "target": "context-flywheel-is-day-90-not-day-0"
-    },
-    {
-      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
-      "target": "proprietary-feedback-loops-widen-the-moat"
-    },
-    {
-      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
-      "target": "system-of-work-is-the-moat-not-the-model"
-    },
-    {
-      "source": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
-      "target": "trace-to-eval-flywheel-compounds-agent-quality"
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "a-frontier-without-an-ecosystem-is-not-stable",
@@ -4312,7 +4048,7 @@
     },
     {
       "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
@@ -4360,7 +4096,7 @@
     },
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
@@ -4408,7 +4144,7 @@
     },
     {
       "source": "system-of-work-is-the-moat-not-the-model",
-      "target": "sell-the-work-not-the-tool"
+      "target": "autopilots-capture-work-budget-not-tool-budget"
     },
     {
       "source": "capability-curve-decides-which-work-the-labs-take",
@@ -4492,7 +4228,7 @@
     },
     {
       "source": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
-      "target": "sell-the-work-not-the-tool"
+      "target": "autopilots-capture-work-budget-not-tool-budget"
     },
     {
       "source": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
@@ -4508,7 +4244,7 @@
     },
     {
       "source": "experience-times-agent-multiplier-favors-veteran-founders",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "features-are-prompts-not-code",
@@ -4548,7 +4284,7 @@
     },
     {
       "source": "context-learning-spans-agent-tenant-and-org-levels",
-      "target": "two-tier-agent-memory-separates-org-from-user"
+      "target": "memory-is-harness-responsibility-not-plugin"
     },
     {
       "source": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
@@ -4576,7 +4312,7 @@
     },
     {
       "source": "separate-tool-registration-from-tool-exposure",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+      "target": "enforcement-must-run-independently-of-model-cooperation"
     },
     {
       "source": "separate-tool-registration-from-tool-exposure",
@@ -4601,10 +4337,6 @@
     {
       "source": "order-system-prompt-by-volatility-for-cache-reuse",
       "target": "claude-md-should-be-routing-table-not-knowledge-base"
-    },
-    {
-      "source": "order-system-prompt-by-volatility-for-cache-reuse",
-      "target": "kv-cache-hit-rate-determines-agent-economics"
     },
     {
       "source": "order-system-prompt-by-volatility-for-cache-reuse",
@@ -4636,10 +4368,6 @@
     },
     {
       "source": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
-    },
-    {
-      "source": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
       "target": "sessions-are-runtime-infrastructure-not-just-transcripts"
     },
     {
@@ -4652,7 +4380,11 @@
     },
     {
       "source": "enforcement-must-run-independently-of-model-cooperation",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+      "target": "separate-tool-registration-from-tool-exposure"
+    },
+    {
+      "source": "enforcement-must-run-independently-of-model-cooperation",
+      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
     },
     {
       "source": "context-centralization-is-why-coding-ai-works",
@@ -4764,7 +4496,7 @@
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
-      "target": "traces-not-scores-enable-agent-improvement"
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "decision-traces-are-the-missing-data-layer",
@@ -4836,7 +4568,7 @@
     },
     {
       "source": "verification-multiplies-agent-output-quality",
-      "target": "building-is-easier-but-generating-value-is-still-hard"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -4896,7 +4628,7 @@
     },
     {
       "source": "verification-is-a-red-queen-race",
-      "target": "self-improving-agents-overfit-to-eval-metrics"
+      "target": "holdout-sets-gate-autonomous-harness-optimization"
     },
     {
       "source": "verification-is-a-red-queen-race",
@@ -4917,6 +4649,14 @@
     {
       "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
       "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
+      "target": "context-layers-must-be-living-systems"
+    },
+    {
+      "source": "cross-user-knowledge-transfer-needs-no-fine-tuning",
+      "target": "speed-without-feedback-amplifies-errors"
     },
     {
       "source": "boring-tech-wins-for-ai-native-startups",
@@ -5000,7 +4740,19 @@
     },
     {
       "source": "similarity-is-not-relevance-relevance-requires-reasoning",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "files-are-the-universal-agent-interface"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "knowledge-systems-need-dual-layer-storage"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "navigation-beats-search-for-knowledge-retrieval"
+    },
+    {
+      "source": "similarity-is-not-relevance-relevance-requires-reasoning",
+      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "stronger-models-expand-the-verification-gap",
@@ -5009,30 +4761,6 @@
     {
       "source": "stronger-models-expand-the-verification-gap",
       "target": "verification-is-a-red-queen-race"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "agentic-search-beats-rag-for-live-codebases"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "knowledge-systems-need-dual-layer-storage"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "navigation-beats-search-for-knowledge-retrieval"
-    },
-    {
-      "source": "structure-plus-reasoning-beats-flat-similarity",
-      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "agentic-search-beats-rag-for-live-codebases",
@@ -5084,7 +4812,7 @@
     },
     {
       "source": "platform-economics-beat-labor-arbitrage",
-      "target": "sell-the-work-not-the-tool"
+      "target": "autopilots-capture-work-budget-not-tool-budget"
     },
     {
       "source": "platform-economics-beat-labor-arbitrage",
@@ -5132,19 +4860,11 @@
     },
     {
       "source": "skill-graphs-enable-progressive-disclosure",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
     {
-      "source": "skill-folder-structure-is-context-engineering",
+      "source": "skill-graphs-enable-progressive-disclosure",
       "target": "claude-md-should-be-routing-table-not-knowledge-base"
-    },
-    {
-      "source": "skill-folder-structure-is-context-engineering",
-      "target": "files-are-the-universal-agent-interface"
-    },
-    {
-      "source": "skill-folder-structure-is-context-engineering",
-      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "orchestrator-agent-replaces-human-coordination",
@@ -5204,11 +4924,15 @@
     },
     {
       "source": "prompt-caching-makes-long-context-economically-viable",
-      "target": "kv-cache-hit-rate-determines-agent-economics"
+      "target": "three-layer-ai-stack-memory-search-reasoning"
     },
     {
       "source": "prompt-caching-makes-long-context-economically-viable",
-      "target": "three-layer-ai-stack-memory-search-reasoning"
+      "target": "context-inefficiency-compounds-three-penalties"
+    },
+    {
+      "source": "prompt-caching-makes-long-context-economically-viable",
+      "target": "order-system-prompt-by-volatility-for-cache-reuse"
     },
     {
       "source": "parallel-agents-create-management-problem-not-coding-problem",
@@ -5277,6 +5001,14 @@
     {
       "source": "autopilots-capture-work-budget-not-tool-budget",
       "target": "llm-competition-fragments-markets-not-consolidates"
+    },
+    {
+      "source": "autopilots-capture-work-budget-not-tool-budget",
+      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
+    },
+    {
+      "source": "autopilots-capture-work-budget-not-tool-budget",
+      "target": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it"
     },
     {
       "source": "automation-amplifies-expert-demand",
@@ -5472,7 +5204,7 @@
     },
     {
       "source": "evolving-summaries-beat-append-only-memory",
-      "target": "two-tier-agent-memory-separates-org-from-user"
+      "target": "context-learning-spans-agent-tenant-and-org-levels"
     },
     {
       "source": "evolved-harnesses-transfer-across-models",
@@ -5520,7 +5252,7 @@
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "treat-agent-as-operating-system-not-function",
@@ -5672,10 +5404,6 @@
     },
     {
       "source": "compound-engineering-makes-future-work-easier",
-      "target": "never-do-one-off-work-skillify-every-task"
-    },
-    {
-      "source": "compound-engineering-makes-future-work-easier",
       "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
@@ -5689,6 +5417,18 @@
     {
       "source": "compound-engineering-makes-future-work-easier",
       "target": "skills-as-markdown-replace-fine-tuning"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "being-worth-retrieving-from-is-the-product"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "own-your-skill-files-or-your-job-becomes-one"
+    },
+    {
+      "source": "compound-engineering-makes-future-work-easier",
+      "target": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent"
     },
     {
       "source": "commodity-terminal-value-zero-expert-judgment-compounds",
@@ -5779,26 +5519,6 @@
       "target": "saas-survives-as-governance-and-coordination-layer"
     },
     {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "agent-memory-preserves-institutional-knowledge"
-    },
-    {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "context-layers-must-be-living-systems"
-    },
-    {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "evolving-summaries-beat-append-only-memory"
-    },
-    {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "speed-without-feedback-amplifies-errors"
-    },
-    {
-      "source": "error-memory-enables-learning-without-retraining",
-      "target": "three-layer-ai-stack-memory-search-reasoning"
-    },
-    {
       "source": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
       "target": "compound-engineering-makes-future-work-easier"
     },
@@ -5844,10 +5564,6 @@
     },
     {
       "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
-      "target": "self-improving-agents-overfit-to-eval-metrics"
-    },
-    {
-      "source": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
       "target": "time-bounded-evaluation-optimizes-for-usefulness"
     },
     {
@@ -5876,7 +5592,7 @@
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+      "target": "enforcement-must-run-independently-of-model-cooperation"
     },
     {
       "source": "evaluate-tools-with-real-multi-step-tasks",
@@ -5968,7 +5684,7 @@
     },
     {
       "source": "context-inefficiency-compounds-three-penalties",
-      "target": "skill-folder-structure-is-context-engineering"
+      "target": "skill-graphs-enable-progressive-disclosure"
     },
     {
       "source": "context-layers-must-be-living-systems",
@@ -5980,7 +5696,7 @@
     },
     {
       "source": "context-layers-must-be-living-systems",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "context-layers-must-be-living-systems",
@@ -5996,19 +5712,7 @@
     },
     {
       "source": "context-layers-supersede-semantic-layers",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
-    },
-    {
-      "source": "kv-cache-hit-rate-determines-agent-economics",
-      "target": "context-inefficiency-compounds-three-penalties"
-    },
-    {
-      "source": "kv-cache-hit-rate-determines-agent-economics",
-      "target": "inference-time-compute-makes-cost-per-outcome-a-choice"
-    },
-    {
-      "source": "kv-cache-hit-rate-determines-agent-economics",
-      "target": "order-system-prompt-by-volatility-for-cache-reuse"
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
     {
       "source": "latent-demand-is-the-strongest-product-signal",
@@ -6044,7 +5748,7 @@
     },
     {
       "source": "llms-selectively-destroy-vertical-software-moats",
-      "target": "sell-the-work-not-the-tool"
+      "target": "autopilots-capture-work-budget-not-tool-budget"
     },
     {
       "source": "llms-selectively-destroy-vertical-software-moats",
@@ -6069,26 +5773,6 @@
     {
       "source": "llm-competition-fragments-markets-not-consolidates",
       "target": "skills-as-markdown-replace-fine-tuning"
-    },
-    {
-      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "agent-inputs-could-compile-to-one-checkable-execution-plan"
-    },
-    {
-      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "enforcement-must-run-independently-of-model-cooperation"
-    },
-    {
-      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "production-agents-route-decisions-not-every-call-to-llm"
-    },
-    {
-      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "separate-tool-registration-from-tool-exposure"
-    },
-    {
-      "source": "safety-enforcement-belongs-in-tool-design-not-prompts",
-      "target": "tools-are-contracts-between-deterministic-and-nondeterministic-systems"
     },
     {
       "source": "saas-grows-but-consolidates-around-platforms",
@@ -6136,11 +5820,11 @@
     },
     {
       "source": "holdout-sets-gate-autonomous-harness-optimization",
-      "target": "self-improving-agents-overfit-to-eval-metrics"
+      "target": "verification-is-a-red-queen-race"
     },
     {
       "source": "holdout-sets-gate-autonomous-harness-optimization",
-      "target": "verification-is-a-red-queen-race"
+      "target": "every-optimization-has-a-shadow-regression"
     },
     {
       "source": "hot-path-vs-offline-learning-are-two-temporal-modes",
@@ -6292,10 +5976,6 @@
     },
     {
       "source": "intelligence-judgement-ratio-determines-automation-order",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
-    },
-    {
-      "source": "intelligence-judgement-ratio-determines-automation-order",
       "target": "production-agents-route-decisions-not-every-call-to-llm"
     },
     {
@@ -6408,15 +6088,7 @@
     },
     {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
-      "target": "model-compensations-become-liabilities-as-capabilities-advance"
-    },
-    {
-      "source": "scaffolding-is-tech-debt-against-the-next-model",
       "target": "sand-vs-stone-separates-durable-from-disposable-product-value"
-    },
-    {
-      "source": "scaffolding-is-tech-debt-against-the-next-model",
-      "target": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative"
     },
     {
       "source": "scaffolding-is-tech-debt-against-the-next-model",
@@ -6444,7 +6116,7 @@
     },
     {
       "source": "causal-triage-must-gate-automated-fixes",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "causal-triage-must-gate-automated-fixes",
@@ -6567,6 +6239,10 @@
       "target": "traces-are-the-universal-substrate-for-agent-learning"
     },
     {
+      "source": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
       "source": "first-draft-pattern-is-killer-app-for-long-horizon-agents",
       "target": "autonomous-loops-need-small-stories-and-fast-feedback"
     },
@@ -6615,36 +6291,12 @@
       "target": "specs-are-external-memory-surviving-context-resets"
     },
     {
-      "source": "sell-the-work-not-the-tool",
-      "target": "domain-skill-libraries-are-the-real-agent-moat"
-    },
-    {
-      "source": "sell-the-work-not-the-tool",
-      "target": "frontier-companies-absorb-every-useful-agentic-pattern"
-    },
-    {
-      "source": "sell-the-work-not-the-tool",
-      "target": "llms-selectively-destroy-vertical-software-moats"
-    },
-    {
-      "source": "sell-the-work-not-the-tool",
-      "target": "platform-economics-beat-labor-arbitrage"
-    },
-    {
-      "source": "sell-the-work-not-the-tool",
-      "target": "self-disruption-follows-the-value-chain-downward"
-    },
-    {
-      "source": "sell-the-work-not-the-tool",
-      "target": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it"
-    },
-    {
       "source": "observability-is-the-missing-agent-discipline",
       "target": "decision-traces-are-the-missing-data-layer"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
@@ -6652,7 +6304,7 @@
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
-      "target": "kv-cache-hit-rate-determines-agent-economics"
+      "target": "prompt-caching-makes-long-context-economically-viable"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
@@ -6688,11 +6340,11 @@
     },
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
-      "target": "memory-is-where-agent-lock-in-lives"
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
-      "target": "the-learning-loop-is-the-firms-new-ip-and-it-compounds"
+      "target": "offload-the-task-but-never-the-learning"
     },
     {
       "source": "proprietary-feedback-loops-widen-the-moat",
@@ -6864,7 +6516,7 @@
     },
     {
       "source": "agent-trace-accumulation-produces-emergent-world-models",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "agent-trace-accumulation-produces-emergent-world-models",
@@ -6880,7 +6532,7 @@
     },
     {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
-      "target": "sell-the-work-not-the-tool"
+      "target": "autopilots-capture-work-budget-not-tool-budget"
     },
     {
       "source": "software-bimodal-fork-growth-or-margins-no-middle",
@@ -6892,7 +6544,7 @@
     },
     {
       "source": "token-maxing-buys-lead-time-not-efficiency",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "token-maxing-buys-lead-time-not-efficiency",
@@ -6944,11 +6596,15 @@
     },
     {
       "source": "ai-compresses-execution-not-judgment",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "intelligence-judgement-ratio-determines-automation-order"
     },
     {
       "source": "ai-compresses-execution-not-judgment",
-      "target": "intelligence-judgement-ratio-determines-automation-order"
+      "target": "organizational-shape-is-the-emerging-moat-in-ai"
+    },
+    {
+      "source": "ai-compresses-execution-not-judgment",
+      "target": "verification-multiplies-agent-output-quality"
     },
     {
       "source": "amplification-widens-the-judgment-gap",
@@ -6963,32 +6619,12 @@
       "target": "every-optimization-has-a-shadow-regression"
     },
     {
-      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "ai-compresses-execution-not-judgment"
-    },
-    {
-      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit"
-    },
-    {
-      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "intelligence-judgement-ratio-determines-automation-order"
-    },
-    {
-      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "organizational-shape-is-the-emerging-moat-in-ai"
-    },
-    {
-      "source": "dissolved-constraints-shift-bottleneck-to-judgment",
-      "target": "technology-transitions-create-more-not-less"
-    },
-    {
       "source": "speed-without-feedback-amplifies-errors",
       "target": "amplification-widens-the-judgment-gap"
     },
     {
       "source": "speed-without-feedback-amplifies-errors",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "speed-without-feedback-amplifies-errors",
@@ -7052,39 +6688,11 @@
     },
     {
       "source": "self-disruption-follows-the-value-chain-downward",
-      "target": "sell-the-work-not-the-tool"
+      "target": "autopilots-capture-work-budget-not-tool-budget"
     },
     {
       "source": "self-disruption-follows-the-value-chain-downward",
       "target": "where-inference-runs-decides-margin-context-and-trust"
-    },
-    {
-      "source": "self-improving-agents-overfit-to-eval-metrics",
-      "target": "every-optimization-has-a-shadow-regression"
-    },
-    {
-      "source": "self-improving-agents-overfit-to-eval-metrics",
-      "target": "harness-quality-beats-model-intelligence"
-    },
-    {
-      "source": "self-improving-agents-overfit-to-eval-metrics",
-      "target": "teacher-student-trace-distillation-beats-single-oracle"
-    },
-    {
-      "source": "self-improving-agents-overfit-to-eval-metrics",
-      "target": "verification-is-a-red-queen-race"
-    },
-    {
-      "source": "traces-not-scores-enable-agent-improvement",
-      "target": "decision-traces-are-the-missing-data-layer"
-    },
-    {
-      "source": "traces-not-scores-enable-agent-improvement",
-      "target": "error-memory-enables-learning-without-retraining"
-    },
-    {
-      "source": "traces-not-scores-enable-agent-improvement",
-      "target": "observability-is-the-missing-agent-discipline"
     },
     {
       "source": "vertical-models-beat-frontier-models-in-their-domain",
@@ -7108,7 +6716,7 @@
     },
     {
       "source": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
     {
       "source": "trace-to-eval-flywheel-compounds-agent-quality",
@@ -7140,7 +6748,7 @@
     },
     {
       "source": "traces-are-the-universal-substrate-for-agent-learning",
-      "target": "traces-not-scores-enable-agent-improvement"
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "trace-data-retention-must-match-ai-knowledge-lifespan",
@@ -7160,11 +6768,11 @@
     },
     {
       "source": "teacher-student-trace-distillation-beats-single-oracle",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "teacher-student-trace-distillation-beats-single-oracle",
-      "target": "traces-not-scores-enable-agent-improvement"
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "workflow-strategies-beat-individual-tool-instructions",
@@ -7176,7 +6784,7 @@
     },
     {
       "source": "shadow-execution-enables-safe-trace-learning",
-      "target": "error-memory-enables-learning-without-retraining"
+      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "shadow-execution-enables-safe-trace-learning",
@@ -7184,23 +6792,7 @@
     },
     {
       "source": "shadow-execution-enables-safe-trace-learning",
-      "target": "traces-not-scores-enable-agent-improvement"
-    },
-    {
-      "source": "two-tier-agent-memory-separates-org-from-user",
-      "target": "agent-memory-preserves-institutional-knowledge"
-    },
-    {
-      "source": "two-tier-agent-memory-separates-org-from-user",
-      "target": "context-learning-spans-agent-tenant-and-org-levels"
-    },
-    {
-      "source": "two-tier-agent-memory-separates-org-from-user",
-      "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
-    },
-    {
-      "source": "two-tier-agent-memory-separates-org-from-user",
-      "target": "memory-is-harness-responsibility-not-plugin"
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "compilation-scales-curation-compounds",
@@ -7228,7 +6820,15 @@
     },
     {
       "source": "intelligence-location-determines-system-fragility",
-      "target": "safety-enforcement-belongs-in-tool-design-not-prompts"
+      "target": "enforcement-must-run-independently-of-model-cooperation"
+    },
+    {
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "if-a-smart-intern-could-follow-it-an-agent-can-run-it"
+    },
+    {
+      "source": "intelligence-location-determines-system-fragility",
+      "target": "the-80-99-gap-is-where-ai-products-die"
     },
     {
       "source": "knowledge-evolution-is-the-biggest-unsolved-problem",
@@ -7256,7 +6856,7 @@
     },
     {
       "source": "knowledge-systems-need-dual-layer-storage",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
+      "target": "similarity-is-not-relevance-relevance-requires-reasoning"
     },
     {
       "source": "knowledge-systems-need-dual-layer-storage",
@@ -7264,7 +6864,7 @@
     },
     {
       "source": "knowledge-systems-need-dual-layer-storage",
-      "target": "two-tier-agent-memory-separates-org-from-user"
+      "target": "context-learning-spans-agent-tenant-and-org-levels"
     },
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
@@ -7272,15 +6872,11 @@
     },
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
-      "target": "know-which-computation-belongs-in-latent-vs-deterministic-space"
+      "target": "intelligence-location-determines-system-fragility"
     },
     {
       "source": "navigation-beats-search-for-knowledge-retrieval",
       "target": "similarity-is-not-relevance-relevance-requires-reasoning"
-    },
-    {
-      "source": "navigation-beats-search-for-knowledge-retrieval",
-      "target": "structure-plus-reasoning-beats-flat-similarity"
     },
     {
       "source": "sand-vs-stone-separates-durable-from-disposable-product-value",
@@ -7295,20 +6891,8 @@
       "target": "scaffolding-is-tech-debt-against-the-next-model"
     },
     {
-      "source": "model-compensations-become-liabilities-as-capabilities-advance",
-      "target": "build-for-the-model-six-months-from-now"
-    },
-    {
-      "source": "model-compensations-become-liabilities-as-capabilities-advance",
-      "target": "scaffolding-is-tech-debt-against-the-next-model"
-    },
-    {
-      "source": "model-compensations-become-liabilities-as-capabilities-advance",
-      "target": "tool-design-is-continuous-observation-see-like-an-agent"
-    },
-    {
       "source": "conflicting-context-causes-agent-collapse-not-graceful-degradation",
-      "target": "two-tier-agent-memory-separates-org-from-user"
+      "target": "context-learning-spans-agent-tenant-and-org-levels"
     },
     {
       "source": "context-flywheel-is-day-90-not-day-0",
@@ -7337,10 +6921,6 @@
     {
       "source": "context-flywheel-is-day-90-not-day-0",
       "target": "proprietary-feedback-loops-widen-the-moat"
-    },
-    {
-      "source": "context-flywheel-is-day-90-not-day-0",
-      "target": "the-learning-loop-is-the-firms-new-ip-and-it-compounds"
     },
     {
       "source": "long-horizon-evals-test-compounding-not-point-accuracy",
@@ -7372,7 +6952,7 @@
     },
     {
       "source": "memory-defines-the-agent-portable-memory-is-frontier",
-      "target": "memory-is-where-agent-lock-in-lives"
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "memory-defines-the-agent-portable-memory-is-frontier",
@@ -7388,43 +6968,23 @@
     },
     {
       "source": "memory-is-harness-responsibility-not-plugin",
-      "target": "two-tier-agent-memory-separates-org-from-user"
+      "target": "context-learning-spans-agent-tenant-and-org-levels"
     },
     {
       "source": "closed-harnesses-behind-apis-create-memory-lock-in",
       "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
-      "target": "memory-is-where-agent-lock-in-lives"
     },
     {
       "source": "closed-harnesses-behind-apis-create-memory-lock-in",
       "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
-      "source": "memory-is-where-agent-lock-in-lives",
-      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
-    },
-    {
-      "source": "memory-is-where-agent-lock-in-lives",
-      "target": "context-is-the-product-not-the-model"
-    },
-    {
-      "source": "memory-is-where-agent-lock-in-lives",
+      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
       "target": "memory-defines-the-agent-portable-memory-is-frontier"
     },
     {
-      "source": "memory-is-where-agent-lock-in-lives",
+      "source": "closed-harnesses-behind-apis-create-memory-lock-in",
       "target": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent"
-    },
-    {
-      "source": "memory-is-where-agent-lock-in-lives",
-      "target": "procedural-memory-is-highest-impact-agent-memory"
-    },
-    {
-      "source": "memory-is-where-agent-lock-in-lives",
-      "target": "proprietary-feedback-loops-widen-the-moat"
     },
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
@@ -7440,7 +7000,7 @@
     },
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
-      "target": "memory-is-where-agent-lock-in-lives"
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
@@ -7452,7 +7012,7 @@
     },
     {
       "source": "organizational-shape-is-the-emerging-moat-in-ai",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "organizational-shape-is-the-emerging-moat-in-ai",
@@ -7532,7 +7092,7 @@
     },
     {
       "source": "provenance-becomes-the-constraint-when-skill-files-scale",
-      "target": "never-do-one-off-work-skillify-every-task"
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "reasoning-by-analogy-has-a-ceiling",
@@ -7652,15 +7212,7 @@
     },
     {
       "source": "capability-overhang-tools-unlock-latent-model-ability",
-      "target": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding"
-    },
-    {
-      "source": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
-      "target": "build-for-the-model-six-months-from-now"
-    },
-    {
-      "source": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
-      "target": "scaffolding-is-tech-debt-against-the-next-model"
+      "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
     },
     {
       "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
@@ -7672,35 +7224,15 @@
     },
     {
       "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
-      "target": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding"
-    },
-    {
-      "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
       "target": "symmetric-failure-of-over-and-under-specified-instructions"
     },
     {
       "source": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
-      "target": "building-is-easier-but-generating-value-is-still-hard"
+      "target": "ai-compresses-execution-not-judgment"
     },
     {
       "source": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
       "target": "choose-problems-backward-from-an-outcome-you-want"
-    },
-    {
-      "source": "building-is-easier-but-generating-value-is-still-hard",
-      "target": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one"
-    },
-    {
-      "source": "building-is-easier-but-generating-value-is-still-hard",
-      "target": "verification-multiplies-agent-output-quality"
-    },
-    {
-      "source": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
-      "target": "capability-overhang-tools-unlock-latent-model-ability"
-    },
-    {
-      "source": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
-      "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
     },
     {
       "source": "symmetric-failure-of-over-and-under-specified-instructions",
@@ -7708,7 +7240,7 @@
     },
     {
       "source": "symmetric-failure-of-over-and-under-specified-instructions",
-      "target": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding"
+      "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
     },
     {
       "source": "a-human-in-the-loop-caps-the-loop-at-waking-hours",
@@ -7732,11 +7264,11 @@
     },
     {
       "source": "a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline",
-      "target": "self-improving-agents-overfit-to-eval-metrics"
+      "target": "holdout-sets-gate-autonomous-harness-optimization"
     },
     {
       "source": "a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline",
-      "target": "the-learning-loop-is-the-firms-new-ip-and-it-compounds"
+      "target": "offload-the-task-but-never-the-learning"
     },
     {
       "source": "a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline",
@@ -7808,10 +7340,6 @@
     },
     {
       "source": "humans-move-to-the-edge-where-the-model-touches-reality",
-      "target": "dissolved-constraints-shift-bottleneck-to-judgment"
-    },
-    {
-      "source": "humans-move-to-the-edge-where-the-model-touches-reality",
       "target": "reorganize-around-agents-dont-bolt-them-onto-old-workflows"
     },
     {
@@ -7844,7 +7372,7 @@
     },
     {
       "source": "own-your-skill-files-or-your-job-becomes-one",
-      "target": "never-do-one-off-work-skillify-every-task"
+      "target": "compound-engineering-makes-future-work-easier"
     },
     {
       "source": "own-your-skill-files-or-your-job-becomes-one",
@@ -7856,23 +7384,11 @@
     },
     {
       "source": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent",
-      "target": "memory-is-where-agent-lock-in-lives"
+      "target": "closed-harnesses-behind-apis-create-memory-lock-in"
     },
     {
       "source": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent",
       "target": "own-your-skill-files-or-your-job-becomes-one"
-    },
-    {
-      "source": "know-which-computation-belongs-in-latent-vs-deterministic-space",
-      "target": "if-a-smart-intern-could-follow-it-an-agent-can-run-it"
-    },
-    {
-      "source": "know-which-computation-belongs-in-latent-vs-deterministic-space",
-      "target": "navigation-beats-search-for-knowledge-retrieval"
-    },
-    {
-      "source": "know-which-computation-belongs-in-latent-vs-deterministic-space",
-      "target": "the-80-99-gap-is-where-ai-products-die"
     },
     {
       "source": "a-better-model-makes-your-library-worth-more",
@@ -7911,28 +7427,12 @@
       "target": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent"
     },
     {
-      "source": "never-do-one-off-work-skillify-every-task",
-      "target": "being-worth-retrieving-from-is-the-product"
-    },
-    {
-      "source": "never-do-one-off-work-skillify-every-task",
-      "target": "compound-engineering-makes-future-work-easier"
-    },
-    {
-      "source": "never-do-one-off-work-skillify-every-task",
-      "target": "own-your-skill-files-or-your-job-becomes-one"
-    },
-    {
-      "source": "never-do-one-off-work-skillify-every-task",
-      "target": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent"
-    },
-    {
       "source": "if-a-smart-intern-could-follow-it-an-agent-can-run-it",
       "target": "if-it-left-no-artifact-it-didnt-happen"
     },
     {
       "source": "if-a-smart-intern-could-follow-it-an-agent-can-run-it",
-      "target": "know-which-computation-belongs-in-latent-vs-deterministic-space"
+      "target": "intelligence-location-determines-system-fragility"
     },
     {
       "source": "if-a-smart-intern-could-follow-it-an-agent-can-run-it",

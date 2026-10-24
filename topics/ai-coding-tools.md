@@ -66,11 +66,9 @@ Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriti
 - [[ubiquitous-language-file-reduces-ai-verbosity-and-drift]] — A DDD-style glossary file cuts AI verbosity and keeps implementation aligned with the plan
 - [[feedback-loop-speed-is-the-ais-speed-limit]] — LLMs outrun their headlights by default; TDD forces the small steps that keep generation inside what feedback can verify
 - [[deep-modules-make-codebases-ai-legible-and-testable]] — Ousterhout's deep-vs-shallow modules decide whether AI can navigate a codebase and whether you can gray-box delegate to it
-- [[system-prompt-guardrails-become-constraints-as-models-get-more-imaginative]] — Claude Code cut 80% of its system prompt because examples built for a weaker model started capping a smarter one
 - [[models-are-grown-not-designed-treat-fable-empirically]] — Capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics
 - [[capability-overhang-tools-unlock-latent-model-ability]] — A model can already know the answer and still fail to produce it until a tool lets it act on what it knows
-- [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
+- [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
-- [[never-do-one-off-work-skillify-every-task]] — The discipline separating compounders from dabblers: skillify at the end of every task
 - [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — Markdown is code and the compiler is a language model, which is why non-engineers ship automation
 - [[durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives]] — dquickts pauses a program mid-loop, saves its whole heap, resumes it in another process

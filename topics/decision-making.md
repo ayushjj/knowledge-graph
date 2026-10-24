@@ -34,7 +34,6 @@ Research is not an innate gift but a stack of deliberately trainable sub-skills 
 - [[resolve-ambiguity-before-passing-it-downstream]] — Don't forward confusion — resolve it at the point of origin
 - [[ai-compresses-execution-not-judgment]] — AI speeds up building but not the judgment of what to build
 - [[amplification-widens-the-judgment-gap]] — Same tools, divergent outcomes — AI magnifies thinking quality in both directions
-- [[dissolved-constraints-shift-bottleneck-to-judgment]] — When execution becomes free, judgment becomes the only game
 - [[speed-without-feedback-amplifies-errors]] — Speed multipliers without error-correction create proportional error multipliers
 - [[emotional-promises-must-be-structural-promises]] — Cultural claims are auditable as structural commitments; misalignment reads as fake
 - [[mission-strength-is-measured-by-who-it-repels]] — A mission that selects against no one filters no one

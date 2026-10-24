@@ -36,12 +36,11 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[skill-graphs-enable-progressive-disclosure]] — Agents navigate interconnected knowledge progressively, not monolithic files
 - [[webmcp-turns-websites-into-agent-native-interfaces]] — Websites expose structured tools to agents instead of relying on screen-scraping
 - [[parallel-agents-create-management-problem-not-coding-problem]] — Multiple simultaneous agents shift bottleneck from coding to coordination
-- [[structure-plus-reasoning-beats-flat-similarity]] — Structured knowledge navigated by reasoning outperforms flat similarity search
+- [[similarity-is-not-relevance-relevance-requires-reasoning]] — Structured knowledge navigated by reasoning outperforms flat similarity search
 - [[evolving-summaries-beat-append-only-memory]] — Agents should rewrite memory profiles, not accumulate append-only facts
 - [[treat-agent-as-operating-system-not-function]] — The OS mental model (RAM, hard drive, GC, I/O) unlocks architectural clarity for agents
 - [[production-agents-route-decisions-not-every-call-to-llm]] — Decision trees for routine cases, LLMs only for ambiguous situations
 - [[malleable-software-writes-its-own-extensions]] — Tiny core + self-extension replaces fixed-feature applications
-- [[error-memory-enables-learning-without-retraining]] — Store error patterns to learn continuously without fine-tuning
 - [[tools-are-contracts-between-deterministic-and-nondeterministic-systems]] — Agent tools are a new category of software requiring different design principles
 - [[evaluate-tools-with-real-multi-step-tasks]] — Strong eval tasks require chained calls, ambiguity, and verifiable outcomes
 - [[personal-software-grows-through-relationship-not-configuration]] — Agents evolve personality through ongoing interaction, not configuration
@@ -51,8 +50,7 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[multi-model-ensemble-catches-single-model-blindspots]] — Triple-model review exploits diverse failure modes for emergent coverage
 - [[tool-design-is-continuous-observation-see-like-an-agent]] — Tool design is iterative observation: watch the model, reshape the tool, repeat
 - [[multi-model-orchestration-beats-any-single-family]] — AI is the computer: Perplexity orchestrates 19 models as a unified agent system
-- [[kv-cache-hit-rate-determines-agent-economics]] — Cache hit rate is the #1 metric for production agents; append-only context is key
-- [[safety-enforcement-belongs-in-tool-design-not-prompts]] — Tool-enforced safety scales; behavioral compliance with system prompts doesn't
+- [[prompt-caching-makes-long-context-economically-viable]] — Cache hit rate is the #1 metric for production agents; append-only context is key
 - [[domain-skill-libraries-are-the-real-agent-moat]] — Core infrastructure is replicable in months; domain skill libraries take years
 - [[weaponize-sycophancy-with-adversarial-agent-ensembles]] — Bug-finder/adversary/referee pattern exploits competing biases for high-fidelity results
 - [[one-session-per-contract-beats-long-running-agents]] — Fresh context per task contract; orchestration layer spawns sessions
@@ -61,7 +59,7 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[intelligence-judgement-ratio-determines-automation-order]] — Intelligence-heavy professions automate first; judgement remains human
 - [[data-agents-fail-from-missing-context-not-sql-gaps]] — Data agents fail from missing business context, not SQL generation gaps
 - [[tribal-knowledge-is-the-last-mile-for-agent-automation]] — The most critical context is implicit and historically contingent — only humans provide it
-- [[model-compensations-become-liabilities-as-capabilities-advance]] — Yesterday's fixes hobble today's agent at 5+ examples per week (Hex)
+- [[scaffolding-is-tech-debt-against-the-next-model]] — Yesterday's fixes hobble today's agent at 5+ examples per week (Hex)
 - [[conflicting-context-causes-agent-collapse-not-graceful-degradation]] — LLMs enter collapse mode with contradictory context, not graceful degradation
 - [[long-horizon-evals-test-compounding-not-point-accuracy]] — Metric City: 90-day simulated eval benchmarks test compounding behavior
 - [[context-layers-must-be-living-systems]] — Context layers need self-updating feedback loops, not static YAML definitions
@@ -73,7 +71,6 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[trust-boundaries-must-be-mapped-and-externalized]] — Where agent behavior is understood vs. unknown must be made auditable
 - [[every-optimization-has-a-shadow-regression]] — Guard commands catch silent regressions in dimensions you're not optimizing
 - [[time-bounded-evaluation-optimizes-for-usefulness]] — Fixed time budgets force optimization for real-world throughput
-- [[skill-folder-structure-is-context-engineering]] — A skill's folder structure is its context architecture — file system as progressive disclosure
 - [[detect-everything-notify-selectively]] — Watch every signal, but filter aggressively before alerting humans
 - [[auto-generated-monitors-beat-handwritten-broad-checks]] — 1,000+ code-shaped monitors catch more than 10 hand-written broad checks
 - [[unfocused-agents-develop-path-dependency]] — Broad mandates cause agents to explore the same paths repeatedly
@@ -84,14 +81,11 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[vertical-models-beat-frontier-models-in-their-domain]] — Specialized CS model beats all frontier models on resolution, latency, hallucination, cost
 - [[meta-agents-beat-manual-harness-engineering]] — AutoAgent's meta-agent hit #1 on SpreadsheetBench and TerminalBench autonomously
 - [[same-model-pairings-win-through-model-empathy]] — Same-model meta/task pairs outperform cross-model through shared reasoning architecture
-- [[traces-not-scores-enable-agent-improvement]] — Without trajectories, agent improvement rate drops hard
-- [[self-improving-agents-overfit-to-eval-metrics]] — Meta-agents game rubrics unless structurally constrained
 - [[virtual-filesystems-replace-sandboxes-for-agent-navigation]] — Intercept commands → DB queries; 460x faster, near-zero cost
 - [[trace-data-retention-must-match-ai-knowledge-lifespan]] — AI trace data has indefinite value; 30-day retention destroys institutional knowledge
 - [[teacher-student-trace-distillation-beats-single-oracle]] — Consensus across multiple traces beats single-oracle learning
 - [[workflow-strategies-beat-individual-tool-instructions]] — How tools combine matters more than which tool to call
 - [[shadow-execution-enables-safe-trace-learning]] — Replay writes in shadow path to learn from realistic flows safely
-- [[two-tier-agent-memory-separates-org-from-user]] — Shared workflow strategies + private user preferences as separate memory layers
 - [[compilation-scales-curation-compounds]] — LLM-compiled systems scale fast; human-curated systems compound through connections
 - [[intelligence-location-determines-system-fragility]] — Code vs prompts: rigid-but-reliable vs flexible-but-fragile; best systems need both
 - [[agents-learn-at-three-layers-model-harness-context]] — Model weights, harness code, and context configuration as three distinct learning surfaces
@@ -108,7 +102,6 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[eval-suites-must-shrink-not-just-grow]] — Spring cleaning stale evals prevents wasted compute and misaligned pressure
 - [[agent-harnesses-are-persistent-infrastructure]] — Harnesses aren't scaffolding models will absorb; Claude Code is 512k LOC
 - [[closed-harnesses-behind-apis-create-memory-lock-in]] — Provider-managed harnesses hide memory shape and schema by design
-- [[memory-is-where-agent-lock-in-lives]] — Stateless models are swappable; stateful memory is not
 - [[traces-replace-code-as-agent-source-of-truth]] — Debugging shifts from "show me the code" to "send me the trace"
 - [[first-draft-pattern-is-killer-app-for-long-horizon-agents]] — Agents produce first drafts, humans review — the killer long-horizon app
 - [[llm-judge-must-calibrate-against-human-judgment]] — Uncalibrated LLM judges create false confidence in agent eval
@@ -132,7 +125,6 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[models-are-grown-not-designed-treat-fable-empirically]] — Capability is grown and discovered empirically, not designed to spec — treat it like biology, not physics
 - [[capability-overhang-tools-unlock-latent-model-ability]] — A model can already know the answer and still fail to produce it until a tool lets it act on what it knows
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — The plan is the map, the codebase is the territory; a capable-enough agent covers more territory, so finding your unknowns becomes the bottleneck
-- [[reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding]] — Expert prompts leave fewer unknowns open, and working with the agent is how you train that skill
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
 - [[token-maxing-buys-lead-time-not-efficiency]] — Running agents at full strength is uneconomic per task and buys lead time instead of margin
 - [[provenance-becomes-the-constraint-when-skill-files-scale]] — Once the markdown files pile up, only provenance decides which of two disagreeing facts wins
@@ -140,7 +132,6 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline]] — Telemetry, policy, tools and gates give you a pipeline; only the feedback edge makes it a loop
 - [[make-the-quality-gate-a-second-adversarial-model-not-a-human]] — An adversarial LLM checking for injection or policy breach is what lets the loop run unattended
 - [[put-a-second-agent-on-the-first-agents-failure-log]] — YC's overnight agent reads yesterday's failures and ships PRs that fix them
-- [[know-which-computation-belongs-in-latent-vs-deterministic-space]] — Taste and judgment in latent space, arithmetic and state in code the markdown calls
 - [[mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]] — CLI wins today only because bash keeps state in the file system; the harness decides, not the protocol
 - [[agent-inputs-could-compile-to-one-checkable-execution-plan]] — Tobi's bet: bash, code and tool calls become one plan, checked before it runs
 - [[durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives]] — dquickts pauses a program mid-loop, saves its whole heap, resumes it in another process

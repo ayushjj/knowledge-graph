@@ -1,12 +1,14 @@
 ---
 title: "Similarity is not relevance — relevance requires reasoning"
 description: "Vector search finds semantically similar content, but what users need is relevant content, and determining relevance requires LLM reasoning, not just pattern matching"
-topics: [ai-native-product-architecture]
+topics: [ai-native-product-architecture, ai-agents, knowledge-systems]
 source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
 date: 2026-02-24
 kind: "principle"
 ---
 
-The foundational insight behind PageIndex: vector embeddings measure semantic distance, but distance and relevance are different things. A document about "interest rates" might be semantically similar to a query about "monetary policy effects on housing," but the actually relevant section lives inside a chapter on domestic policy implications — something only [[structure-plus-reasoning-beats-flat-similarity]] can find.
+The foundational insight behind PageIndex: vector embeddings measure semantic distance, but distance and relevance are different things. A document about "interest rates" might be semantically similar to a query about "monetary policy effects on housing," but the actually relevant section lives inside a chapter on domestic policy implications — something only structure navigated by reasoning can find.
 
 PageIndex proves this by building a tree index (like a table of contents optimized for LLMs) and having the LLM reason through it like a domain expert would — "this question about interest rates is probably under Monetary Policy." The Mafin 2.5 system (powered by PageIndex) achieved 98.7% accuracy on FinanceBench, significantly outperforming traditional vector-based RAG systems. This is the same principle driving [[agentic-search-beats-rag-for-live-codebases]]: the agent reasons about *where* to look rather than relying on similarity to surface the right chunks. It also connects to why [[context-is-the-product-not-the-model]] — the quality of retrieval depends on how you structure context, not which model you use for embeddings.
+
+The same pattern keeps winning well beyond documents, which is what makes this a rule rather than a PageIndex result (the cross-domain synthesis draws on PageIndex, Claude Code's agentic search and @arscontexta's skill graphs). For code search, Claude Code abandoned RAG and vectors for grep/glob — [[agentic-search-beats-rag-for-live-codebases]]. For agent skills, [[skill-graphs-enable-progressive-disclosure]] replaces monolithic SKILL.md files with interconnected knowledge that agents navigate by relevance. The common thread: flat structures searched by similarity hit a ceiling. Complex domains need **hierarchy** (trees, graphs, directories) and **reasoning** (LLMs deciding where to look) rather than **embedding distance** (cosine similarity, nearest neighbors). This is why [[files-are-the-universal-agent-interface]] is so powerful — plain files support hierarchy through directories and linking, giving both humans and agents navigable structure. A comparative analysis of 10+ knowledge graph architectures points the same way: [[knowledge-systems-need-dual-layer-storage]] and [[navigation-beats-search-for-knowledge-retrieval]].

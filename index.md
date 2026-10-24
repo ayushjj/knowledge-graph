@@ -13,7 +13,7 @@ Claude: read this index first, then follow relevant topic links based on the cur
 
 ## Cross-Domain Insights
 - [[context-is-the-product-not-the-model]] — spans architecture, business models, knowledge systems
-- [[structure-plus-reasoning-beats-flat-similarity]] — spans architecture, knowledge systems, agents
+- [[similarity-is-not-relevance-relevance-requires-reasoning]] — spans architecture, knowledge systems, agents
 
 ## Mental Models Domain
 - [[decision-making]] — checklists, inversion, concentrated betting, circle of competence

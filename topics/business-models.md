@@ -25,7 +25,6 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[llm-competition-fragments-markets-not-consolidates]] — Market reprices on anticipated 3-to-300 competition fragmentation, not current revenue loss
 - [[llms-complete-aggregation-theory-by-collapsing-interface-layer]] — Aggregation Theory's final chapter: brand visibility disappears when LLMs become the interface
 - [[domain-skill-libraries-are-the-real-agent-moat]] — Defensibility ladder: model (commodity) → tools (months) → domain skills (years) → user data (irreplaceable)
-- [[sell-the-work-not-the-tool]] — Sell outcomes not tools; model improvements become tailwinds
 - [[autopilots-capture-work-budget-not-tool-budget]] — Copilots sell tools at $10K; autopilots sell work at $120K
 - [[outsourcing-is-the-autopilot-wedge]] — Vendor swap not reorg; three signals of autopilot readiness
 - [[platform-economics-beat-labor-arbitrage]] — Platform margins fund flywheels that BPO body shops cannot
@@ -41,7 +40,6 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[self-disruption-follows-the-value-chain-downward]] — Software → agents → AI models: proactive cannibalization as strategy
 - [[context-flywheel-is-day-90-not-day-0]] — Time-compounded context is the moat, not point-in-time capability
 - [[closed-harnesses-behind-apis-create-memory-lock-in]] — Provider-managed agents put memory behind an API, which is lock-in by design
-- [[memory-is-where-agent-lock-in-lives]] — Models are stateless and swappable; memory state is the real switching cost
 - [[open-harnesses-with-owned-databases-prevent-model-provider-lock-in]] — Open harness + customer-owned DB preserves model portability and memory ownership
 - [[system-of-work-is-the-moat-not-the-model]] — Own data capture + workflow + governance; the model is fungible underneath
 - [[capability-curve-decides-which-work-the-labs-take]] — The Yellow Brick Road test: capability-curve work belongs to the labs
@@ -58,7 +56,7 @@ Not all SaaS dies. Governance, coordination, and accountability layers are struc
 - [[inference-time-compute-makes-cost-per-outcome-a-choice]] — Token allocation is the application layer's counterattack on the labs
 - [[task-horizon-breaks-seat-based-pricing]] — Usage scales with workflow depth × length, not seats
 - [[where-inference-runs-decides-margin-context-and-trust]] — Cloud/edge/on-device placement decides who captures margin and trust
-- [[building-is-easier-but-generating-value-is-still-hard]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
+- [[ai-compresses-execution-not-judgment]] — Agent-era build speed tempts you to mistake motion for progress; the scarce resource was never construction speed
 - [[token-maxing-buys-lead-time-not-efficiency]] — Deliberate inference overspend as a founder-level strategy, not a product-margin decision
 - [[institutional-slowness-is-the-runway-not-the-threat]] — Bureaucracy and 7±2 give builders a ~20-year window; incumbents have real structural moats
 - [[experience-times-agent-multiplier-favors-veteran-founders]] — The multiplier applies to whatever judgment it is given, so knowing what to build is the scarce half
