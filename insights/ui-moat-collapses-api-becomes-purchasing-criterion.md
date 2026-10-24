@@ -4,6 +4,8 @@ description: "When agents are the primary users of software, beautiful dashboard
 topics: [business-models, ai-native-product-architecture]
 source: "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API"
 date: 2026-02-24
+kind: "bet"
+bet_date: 2026-02-24
 ---
 
 Chrys Bader stopped opening half his tools — not because they're bad, but because his agent replaced the need. Value shifted from the interface to the API. The economics are stark: a clean API call is dramatically cheaper than browser automation. The cheapest bit wins, and UI navigation is the most expensive bit.

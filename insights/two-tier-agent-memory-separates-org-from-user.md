@@ -6,6 +6,7 @@ source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Im
 source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Glean structures agent memory across two levels: deployment-level strategies shared within a company, and personalized learnings visible only to the individual user. Deployment-level learning focuses on how tools are used — tool names, sequencing patterns, parameter templates, query types — and explicitly excludes user prompts, document content, and sensitive fields. User-level learning captures preferences like content templates, formatting for documents, and communication styles.

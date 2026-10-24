@@ -6,6 +6,7 @@ source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ system
 source_file: specs/knowledge-graph-architectures/research.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Two distinct camps emerge from comparing knowledge graph construction approaches. **LLM-compiled** systems (Karpathy's wiki, Pal's compiler agent) feed raw content into an LLM that produces structured articles automatically. **Human-curated** systems (our graph, brainctl) have a human deciding what matters and how to connect it, with LLM assistance for extraction but human judgment for inclusion and linking.

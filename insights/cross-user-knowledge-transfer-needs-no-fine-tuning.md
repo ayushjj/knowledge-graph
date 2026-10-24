@@ -4,6 +4,7 @@ description: "When one person teaches an agent something, another person benefit
 topics: [knowledge-systems, ai-agents]
 source: "Ashpreet Bedi — Memory: How Agents Learn (Agno Framework)"
 date: 2025-01-28
+kind: "principle"
 ---
 
 Bedi draws a sharp line: memory stores what you said, learning figures out what it means. Most "memory" implementations (session history, RAG, even fine-tuning) don't actually learn — they retrieve or replay. True agent learning means knowledge from one user's session benefits a completely different user later, with no fine-tuning infrastructure required.

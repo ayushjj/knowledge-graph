@@ -5,6 +5,7 @@ topics: [future-of-ai-business, business-models]
 source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
 date: 2026-03-05
 domain: "ai"
+kind: "principle"
 ---
 
 Not all moats are created equal in the LLM era. Bustamante identifies five vertical software defenses that LLMs dismantle: learned interfaces ("LLMs collapse all proprietary interfaces into one Chat"), custom workflows where "years of engineering versus one week of writing" captures the shift to [[skills-as-markdown-replace-fine-tuning]], public data access that frontier models trivialize, talent scarcity inverted when domain experts encode methodology directly, and bundling broken by agents that orchestrate across providers.

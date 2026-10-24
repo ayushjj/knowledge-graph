@@ -6,6 +6,7 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Most companies experienced ChatGPT as a question-answer bot and then graduated to longer-running agents that go away, get stuck, and come back. Blomfield's observation is that this shape makes the human "the gating mechanism": if the agent stops halfway through at three in the morning waiting on input, it cannot go anywhere. The productivity framing — engineers 20% more productive, copilots for lawyers — hides the structural fact that every one of those gains still runs at human speed, because a person sits in the path of every decision.

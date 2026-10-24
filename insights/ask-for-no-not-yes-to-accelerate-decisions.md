@@ -5,6 +5,7 @@ topics: [decision-making, engineering]
 source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
 domain: mental-models
 date: 2026-03-25
+kind: "practice"
 ---
 
 There's a structural difference between "Can I post this on LinkedIn?" and "I'm going to post this update on LinkedIn on Friday unless I hear differently from you."

@@ -4,6 +4,7 @@ description: "Code built to extend model capability 10-20% becomes worthless whe
 topics: [ai-coding-tools, ai-native-product-architecture]
 source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
 date: 2026-03-30
+kind: "principle"
 ---
 
 The Claude Code team has a framed copy of Rich Sutton's "The Bitter Lesson" on the wall. Boris Cherny calls all non-model code "scaffolding" and describes a constant trade-off: "Engineering work now to extend capability maybe 10-20% in whatever domain, or you just wait for the next model."

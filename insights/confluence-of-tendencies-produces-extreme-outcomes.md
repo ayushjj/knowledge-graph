@@ -5,6 +5,7 @@ topics: [psychology, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 599-604)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger's capstone concept is the "lollapalooza effect" — when multiple psychological tendencies act in concert, the result dwarfs what any single tendency could produce. Cults achieve "extreme success" precisely because they "stumbled through practice evolution into bringing pressure from many psychological tendencies to bear at the same time on conversion targets." Some minds under this compound pressure "simply snap into zombiedom" — one cult's own term for the phenomenon is "snapping."

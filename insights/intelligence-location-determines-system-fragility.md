@@ -6,6 +6,7 @@ source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ system
 source_file: specs/knowledge-graph-architectures/research.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Where you put the intelligence in a knowledge system — **in the code or in the prompts** — is a critical architectural fork with real consequences. Pal puts nearly everything in a 400-line prompt: routing, compilation, schema creation, even learning. Our graph puts structure in YAML/markdown with deterministic validation (validate-graph.js handles 7 structural checks in 0.3s). The trade-off is sharp:

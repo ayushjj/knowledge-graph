@@ -6,6 +6,8 @@ source: "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion"
 source_file: "sources/tobi-mcp-vs-cli-wrong-layer-dquickts.md"
 date: 2026-10-24
 domain: "ai"
+kind: "bet"
+bet_date: 2026-10-24
 ---
 
 Tobi Lutke labels this explicitly as a bet, not a finding: "Sometime soon someone will (or has already?) create a embeddable, sqlite style mini execution environment that parses bash, typescript, or tool calls into a common IL execution plan that's easy to security check before executing. And design this specifically for durable execution environments." After that, "we will just connect cli, mcp, webmcp, whatever to that and it accepts any of the input modalities as they can all be represented as each other."

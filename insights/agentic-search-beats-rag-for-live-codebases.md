@@ -4,6 +4,7 @@ description: "Claude Code abandoned RAG and vector DB in favor of letting the ag
 topics: [ai-native-product-architecture, ai-coding-tools]
 source: "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Claude Code's search evolution tells a clear story: the early version used RAG with a local vector DB, and the current version uses agentic search (glob/grep/read). The agent won. For live codebases, the problems with RAG are compounding: embeddings go stale as code changes, re-indexing needs a continuous background job, code must be sent to an embedding service (privacy concern), and retrieval quality depends on chunking choices that may not match the query's needs.

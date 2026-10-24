@@ -6,6 +6,7 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "practice"
 ---
 
 Blomfield was assigned to rewrite part of YC's internal user manual — roughly 500 pages accumulated over 15 years, much of it excellent five years ago and simply no longer relevant after AI — and procrastinated. The solution came from a colleague: YC had started recording office hours six months earlier and had three or four thousand hours of them, so rather than authoring the manual, transcribe the recordings and mine the advice partners *actually give*. When the advice changes, the system extracts the new insight, rewrites the manual and pushes it — a living guide rather than a decaying document.

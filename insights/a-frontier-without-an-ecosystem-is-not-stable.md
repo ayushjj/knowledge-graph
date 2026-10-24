@@ -6,6 +6,8 @@ source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is no
 source_file: "sources/satyanadella-frontier-without-ecosystem.md"
 date: 2026-06-15
 domain: "ai"
+kind: "bet"
+bet_date: 2026-06-15
 ---
 
 Nadella's title thesis is a political-economy argument, not just a product one: "If all the value is accrued by only a few models, the political economy will simply not tolerate it. There is no societal permission for an AI future that hollows out entire industries." He draws the analogy to the first phase of globalization, where "entire industrial economies were hollowed out by outsourcing" — GDP looked fine while the displacement was real. The corrective is ecosystem over monopoly: "our priority has to be building a frontier ecosystem, not just a frontier model, so value flows broadly," on the platform ethos where "platforms enable more value on top than is captured inside."

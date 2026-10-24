@@ -4,6 +4,7 @@ description: "Taste (selecting from AI output) is the function that gets automat
 topics: [future-of-ai-business, knowledge-systems]
 source: "@WillManidis (Will Manidis) — Against Taste"
 date: 2026-02-24
+kind: "thinking-tool"
 ---
 
 The emerging tech consensus says humans become selectors and curators in an AI world — taste is what remains. Manidis hates this. Using the GAN metaphor: the discriminator's job is to train the generator, and once the generator is good enough, the discriminator is removed. The more refined your taste, the faster machines learn it, the sooner you're redundant.

@@ -4,6 +4,7 @@ description: "Software has always been more expensive than we can afford; when A
 topics: [future-of-ai-business, ai-coding-tools]
 source: "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance"
 date: 2026-02-24
+kind: "principle"
 ---
 
 "Software has always been more expensive than we can afford to build. There are entire categories of applications that don't exist simply because the economics don't work." When migrations become 10x faster, security fixes 20x faster, and test coverage jumps 40 percentage points with minimal effort — suddenly a lot more software becomes economically viable.

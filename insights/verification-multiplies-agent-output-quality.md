@@ -4,6 +4,7 @@ description: "Giving an agent a way to verify its own work 2-3x the quality of o
 topics: [ai-coding-tools]
 source: "Boris Cherny + Anthropic Official Best Practices"
 date: 2025-01-15
+kind: "practice"
 ---
 
 Both the creator of Claude Code (Boris Cherny) and Anthropic's official documentation converge on the same claim: verification is the single highest-leverage thing you can do. Not better prompts, not more context, not smarter models — just giving the agent a way to check its own work. The quality multiplier is 2-3x.

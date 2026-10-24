@@ -4,6 +4,7 @@ description: "Instead of humans managing AI agents, a meta-agent spawns speciali
 topics: [ai-agents, ai-coding-tools]
 source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
 date: 2026-02-24
+kind: "practice"
 ---
 
 Elvis doesn't use Codex or Claude Code directly anymore. His orchestrator Zoe (built on OpenClaw) maintains business context from an Obsidian vault, spawns the right agent for each task — Codex for billing bugs, Claude Code for button fixes and git, Gemini for dashboard designs — monitors progress via tmux sessions, and pings him on Telegram when PRs are ready. 94 commits in a single day, 7 PRs in 30 minutes, all on ~$190/month.

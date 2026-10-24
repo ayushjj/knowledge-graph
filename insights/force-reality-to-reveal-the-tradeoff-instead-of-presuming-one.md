@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
 source_file: "sources/thariq-field-guide-to-fable.md"
 date: 2026-07-09
 domain: ai
+kind: "thinking-tool"
 ---
 
 Thariq Shihipar contrasts his prior startup experience against Anthropic's culture: "in my previous company, I was very used to being reasonable — I'd write down this list of priorities and be like, well, I guess we can prioritize this against this... this will be our priority this quarter. But what if you just did all of it? What if you forced reality to show you the tradeoff?" The claim isn't that tradeoffs don't exist in the end — it's that most "tradeoffs" people plan around are self-imposed assumptions made before the constraint was ever tested, and agent-era capability increases mean many of those assumed constraints have quietly stopped binding: "good, fast, cheap — now it's pick three."

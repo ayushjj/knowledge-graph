@@ -5,6 +5,7 @@ topics: [decision-making, engineering]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 5: The Need for More Multidisciplinary Skills (pp. 327-336)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger argues that the most successful narrow-scale education system — pilot training — reveals the structural requirements for reliable knowledge in any domain. The pilot training model has six elements: (1) education "wide enough to cover practically everything useful," (2) knowledge "raised to practice-based fluency, even in handling two or three intertwined hazards at once," (3) thinking "sometimes in a forward fashion and sometimes in reverse," (4) training time "allocated among subjects so as to minimize damage from later malfunctions," (5) "checklist routines are always mandatory," and (6) "regular use of the aircraft simulator to prevent atrophy through long disuse of skills needed to cope with rare and important problems."

@@ -4,6 +4,7 @@ description: "Experts get stuck on implementation details while novices describe
 topics: [ai-coding-tools, future-of-ai-business]
 source: "Editorial synthesis — informed by @WorkflowWhisper (Alton Syn) automation tweets + Karpathy coding observations"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The expert approaches every problem thinking "how would I build this?" — gets stuck on implementation details, spends hours on things AI handles automatically. The novice describes the outcome they want, lets the agent figure out implementation, and ships in minutes. (Note: this expert-vs-novice framing synthesizes themes from multiple sources rather than quoting any single one directly.)

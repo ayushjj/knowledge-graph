@@ -6,6 +6,7 @@ source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ system
 source_file: specs/knowledge-graph-architectures/research.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 A consistent pattern across knowledge graph architectures: the moment a system grows beyond simple file storage, it discovers that **narrative depth and structured querying pull in opposite directions**. Pal built a wiki for depth alongside PostgreSQL for cross-dimensional queries. Hermes uses curated MEMORY.md alongside SQLite with FTS5 alongside HRR holographic vectors — three layers, each serving a different retrieval shape. Our own graph mirrors this with graph-index.yaml (structured metadata for routing) alongside full insight files (rich prose for understanding).

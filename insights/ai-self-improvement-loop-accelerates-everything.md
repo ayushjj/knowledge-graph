@@ -4,6 +4,8 @@ description: "GPT-5.3-Codex was instrumental in creating itself — recursive im
 topics: [future-of-ai-business, ai-agents]
 source: "@mattshumer_ (Matt Shumer) — Something Big Is Happening"
 date: 2026-02-24
+kind: "bet"
+bet_date: 2026-02-24
 ---
 
 "GPT-5.3-Codex is our first model that was instrumental in creating itself." Each generation helps build the next, smarter, builds the next faster, smarter still. This is the mechanism behind the exponential timeline: 2022 couldn't do arithmetic, 2023 passed the bar, 2024 wrote working software, late 2025 the best engineers handed over most coding work, February 2026 new models made everything before feel like a different era.

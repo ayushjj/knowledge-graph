@@ -6,6 +6,7 @@ source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is no
 source_file: "sources/satyanadella-frontier-without-ecosystem.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Nadella proposes a concrete diagnostic for whether a firm actually owns its AI capability: "A company should be able to switch out a 'generalist' model without losing the 'company veteran' expertise built into their learning system. This is the key 'test' of your control and sovereignty in the era ahead." If swapping the base model wipes out your accumulated expertise, that expertise was never yours — it lived in the vendor's weights.

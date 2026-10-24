@@ -6,6 +6,7 @@ source: "LangChain — How We Build Evals for Deep Agents"
 source_file: sources/langchain-evals-for-deep-agents.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 LangChain's Deep Agents eval methodology starts from a counterintuitive premise: "More evals ≠ better agents." Each eval acts as a behavioral pressure vector — it doesn't just measure the agent, it shapes it. Poorly chosen evals distort development in unproductive directions, creating "an illusion of improving your agent" while the eval suite doesn't reflect production-relevant capabilities.

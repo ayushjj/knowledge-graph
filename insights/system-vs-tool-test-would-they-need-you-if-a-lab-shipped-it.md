@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 Schmidt gives three tests for whether you're safely off the Yellow Brick Road. The **tools-and-steps test**: few steps with a forgiving outcome (a Drive search) is lab territory; dozens of steps that must clear partner review (a legal redline against three years of precedent) is not. The **system test** is the sharpest: are you a system the customer runs their work *through*, or a tool that sits *on top* of a system they already have? Its litmus question — "would the customer still need you if a lab shipped something that supposedly directly competes with you? If yes, you're a system. If no, you're a tool — even if your ACV is high." High ACV signals a system but doesn't guarantee one.

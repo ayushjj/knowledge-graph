@@ -6,6 +6,7 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Vivek reframes taste from innate gift to trainable faculty: "predict the result of every experiment before you run it. cover a paper's results section and guess the numbers from the method alone. mark down which of this month's releases will matter in two years and check your hit rate later." The training signal is explicit: "a forecast plus a correction, repeated a few hundred times, is how every good model gets trained, including the one in your head." Taste is just a well-calibrated predictor, and calibration comes from logged prediction-error, not exposure.

@@ -4,6 +4,7 @@ description: "Agent tools must be designed for how agents think (context-limited
 topics: [ai-agents, ai-coding-tools]
 source: "Anthropic Engineering — Writing Effective Tools for AI Agents — Using AI Agents"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Anthropic's engineering team frames agent tools as a fundamentally new category of software. Traditional APIs are contracts between two deterministic systems — both sides behave predictably. Agent tools are contracts between a deterministic system and a non-deterministic agent that chooses tools based on descriptions, operates within limited context, and may interpret outputs creatively.

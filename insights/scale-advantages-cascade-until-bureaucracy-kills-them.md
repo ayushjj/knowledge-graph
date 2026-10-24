@@ -5,6 +5,7 @@ topics: [economics, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 174-192)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger catalogs advantages of scale as "ungodly important" for understanding which businesses succeed and fail. The list includes: geometry (cubic volume grows faster than surface area), experience curves ("doing something complicated in more and more volume" makes you more efficient), advertising reach (Procter & Gamble could afford network TV; small competitors couldn't buy it in parts), informational advantage (Wrigley beside unknown Glotz's — "am I going to take something I don't know and put it in my mouth for a lousy dime?"), social proof ("if everybody's buying something, we think it's better"), and cascade effects in winner-take-all markets like daily newspapers where "it tends to cascade to a winner-take-all situation."

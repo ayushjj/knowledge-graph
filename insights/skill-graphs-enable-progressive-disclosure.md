@@ -4,6 +4,7 @@ description: "Single skill files hit a ceiling — complex domains need intercon
 topics: [knowledge-systems, ai-agents]
 source: "@arscontexta (Heinrich) — Twitter thread on skill graphs"
 date: 2026-02-24
+kind: "principle"
 ---
 
 A single SKILL.md file is a really good book on one topic. A skill graph is a library where books reference each other. When domains get complex — therapy (CBT + attachment + regulation), trading (risk + psychology + sizing) — a monolithic file becomes unnavigable. Skill graphs solve this with progressive disclosure: the agent navigates progressively from metadata to wikilinks to specific sections to full content, loading only what's relevant at each step.

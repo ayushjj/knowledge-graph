@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
 source_file: sources/jayagup10-organizational-shape-is-the-moat.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Gupta frames the most important companies as "organizational inventions" — they create a new kind of institution around a new kind of work, "and in doing so, they make a new kind of person possible." OpenAI was not academia, not a corporate lab, not a software company; with frontier model training as the organizing activity, it produced a researcher who wanted to operate "at the edge of science, product, geopolitics, and civilizational risk at the same time." Palantir made forward deployment a "status hierarchy, a talent model, and a worldview" — taking customer-sitting and political translation, work that would have been low-status elsewhere, and making it central. The shape created the protagonist, not the other way around.

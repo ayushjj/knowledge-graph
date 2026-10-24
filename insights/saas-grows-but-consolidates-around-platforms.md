@@ -4,6 +4,8 @@ description: "Enterprise SaaS consolidates rather than fragments: we could see 5
 topics: [business-models, future-of-ai-business]
 source: "@Konstantine (Konstantine Buhler, Sequoia Capital) — The Great SaaS Consolidation + AI Ascent 2025"
 date: 2026-02-28
+kind: "bet"
+bet_date: 2026-02-28
 ---
 
 The "SaaSpocalypse" narrative says AI makes software so cheap to build that SaaS incumbents die. Konstantine Buhler's counter: AI is a work revolution, not a communication revolution. Work revolutions (like the PC/Excel shift) give new tools but don't change distribution. Communication revolutions (like the internet) change distribution entirely. Since AI doesn't change who has enterprise relationships, incumbents keep their distribution advantage.

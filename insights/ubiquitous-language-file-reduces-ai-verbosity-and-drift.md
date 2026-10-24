@@ -6,6 +6,7 @@ source: "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Enginee
 source_file: "sources/mattpocock-software-fundamentals-matter-more-than-ever.md"
 date: 2026-07-09
 domain: ai
+kind: "practice"
 ---
 
 Matt Pocock traces AI-generated verbosity to the same root cause as a developer struggling to talk to a domain expert about, say, microchips: a language gap. "You need to establish some kind of shared language, because otherwise they're going to be using terms you don't understand, and you're going to be translating that into code that maybe you don't even understand." Domain-Driven Design's answer is a ubiquitous language, where "conversations among developers, and expressions of the code, and conversations with domain experts are all derived from the same domain model."

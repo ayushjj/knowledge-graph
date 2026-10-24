@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
 source_file: "sources/jayagup10-who-sets-price-of-intelligence.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Gupta explains why AI investing "feels so different from software investing." In SaaS, the metrics that mattered — "CAC payback, NDR, magic number, Rule of 40" — were downstream of two forces: distribution cost and switching cost. AI breaks pattern-matching "for 3 distinct reasons. The system has more variables, the variables are coupled unevenly, and each variable decomposes into sub-variables moving on their own curves." Capability alone splits into reasoning, context, multimodality, tool use, planning, memory, and controllability, each on its own curve. Because "solving one constraint changes which constraint matters next," you are "analyzing a system where the equation rewrites itself every hour."

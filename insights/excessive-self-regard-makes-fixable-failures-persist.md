@@ -5,6 +5,7 @@ topics: [psychology, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger describes Excessive Self-Regard Tendency as universal and quantifiable: "ninety percent of Swedish drivers judge themselves to be above average." The tendency inflates appraisals of one's own possessions (the "endowment effect"), one's own decisions (which are "suddenly regarded by him as better than would have been the case just before he made them"), and one's own conclusions — which is why self-picked lottery numbers generate far more sales than randomly assigned ones, despite nearly identical odds.

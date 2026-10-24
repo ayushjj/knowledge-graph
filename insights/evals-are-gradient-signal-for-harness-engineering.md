@@ -6,6 +6,7 @@ source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbin
 source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
 date: 2026-04-09
 domain: ai
+kind: "principle"
 ---
 
 The mapping is direct: model + training data + gradient descent → better model, and harness + evals + harness engineering → better agent. Each eval case contributes a signal — "did the agent take the right action?" — that guides the next proposed edit to the harness. This means the same rigor around data quality and curation that determines model training outcomes also determines [[harness-quality-beats-model-intelligence]].

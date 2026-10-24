@@ -5,6 +5,7 @@ topics: [future-of-ai-business, ai-coding-tools]
 source: "@systematicls — How To Be A World-Class Agentic Engineer"
 date: 2026-03-05
 domain: "ai"
+kind: "principle"
 ---
 
 The employees of frontier companies are the most enthusiastic, biggest users of agents — with unlimited token budgets and access to the latest models. If a real problem exists and a good external solution emerges, the frontier company will incorporate it rather than let another product create external dependencies. Skills, memory harnesses, subagents, and planning all started as external solutions to real problems and were absorbed into base products once battle-tested.

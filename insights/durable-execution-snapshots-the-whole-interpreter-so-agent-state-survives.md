@@ -6,6 +6,7 @@ source: "@tobi (tobi lutke) — Excellent code mode env (stencil-hq/dquickts REA
 source_file: "sources/tobi-mcp-vs-cli-wrong-layer-dquickts.md"
 date: 2026-10-24
 domain: "ai"
+kind: "principle"
 ---
 
 The dquickts README describes a fork of QuickJS that adds durable execution: "You can pause a running program, even in the middle of a `for` loop, serialize its whole heap to bytes, and resume it later in a different process." A snapshot holds every object, closure, compiled function, pending promise and, if the program was suspended, its call stack. Restored, "objects keep their identity" and "pending work is still pending." The durable REPL (`qjs --drepl FILE`) saves the whole session after every command, so functions and variables come back after a restart. The README's example session takes about 400 bytes. A full snapshot of even an empty runtime is about 13 KB, which is why it writes deltas.

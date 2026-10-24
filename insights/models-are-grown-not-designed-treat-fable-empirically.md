@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
 source_file: "sources/thariq-field-guide-to-fable.md"
 date: 2026-07-09
 domain: ai
+kind: "thinking-tool"
 ---
 
 Thariq Shihipar's framing for why working with each new model class feels disorienting: "the models are grown, not designed... we don't wake up and say we need 99% on SWE-bench... it's a little bit organic, and we sort of figure out and learn with the model as we use it." He deliberately reaches for a biology metaphor over a physics one: "we don't know all the rules, but there is some sort of science behind it — there is an intuition to build as well," pointing to Anthropic's "biology of a large language model" research as the closest analogue to how you should expect to relate to the model's behavior.

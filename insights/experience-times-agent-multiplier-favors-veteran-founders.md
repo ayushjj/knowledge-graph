@@ -6,6 +6,8 @@ source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish 
 source_file: "sources/garry-tan-a16z-new-rules-for-founders.md"
 date: 2026-08-21
 domain: "ai"
+kind: "bet"
+bet_date: 2026-08-21
 ---
 
 Tan is careful not to trade one orthodoxy for another — "I think there are going to be as many Patrick Collisons as ever" — but reports a distinct shift: "one mega trend that we're seeing is like a 35, 40, 45 year old founder who has been around the block, built a lot of companies" — and of one such founder, Peter Steinberger, "he's been around the block, like he knows what to build." The leverage follows: "if you take that person, like suddenly there's 400 of those people, like you can outperform an entire department of any Mag Seven." Earlier in the conversation he makes the multiplier general: with agentic coding, "literally any given person could be 400 of that person."

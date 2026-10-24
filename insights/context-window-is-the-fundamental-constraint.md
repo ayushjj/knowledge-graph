@@ -4,6 +4,7 @@ description: "Every best practice in AI coding (subagents, /clear, focused tasks
 topics: [ai-coding-tools, ai-agents]
 source: "Anthropic Official Best Practices"
 date: 2025-01-15
+kind: "principle"
 ---
 
 Claude's 200k token context window is significantly less than 200k usable before performance degrades. This single constraint explains every effective AI coding practice: subagents isolate research into separate context, `/clear` resets between unrelated tasks, specs files persist knowledge across context resets, and one-objective-per-conversation keeps focus sharp.

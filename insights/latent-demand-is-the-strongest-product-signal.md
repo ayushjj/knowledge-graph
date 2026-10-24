@@ -4,6 +4,7 @@ description: "People will only do things they already do; you can't get them to 
 topics: [business-models, ai-native-product-architecture]
 source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
 date: 2026-03-30
+kind: "principle"
 ---
 
 Boris Cherny names latent demand as "probably the single biggest principle in product" and traces every major Claude Code feature to it. The principle: "People will only do a thing that they already do. You can't get people to do a new thing. If people are trying to do a thing and you make it easier, that's a good idea."

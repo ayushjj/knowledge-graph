@@ -6,6 +6,7 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Vivek stacks three authorities on one point. Paul Graham: "an idea can feel fully formed right up until you try to put it into words," and the page "finds gaps your head papers over: the assumption you never tested, the step that doesn't actually follow, the two claims that quietly contradict each other." Feynman: "the first person you must avoid fooling is yourself, because you're the easiest target." Darwin made the defense procedural — "any fact that cut against his theory got written down on the spot, because he'd caught his own memory deleting inconvenient evidence faster than the convenient kind." The prescription is a structured log — "hypothesis, setup, expectation, result, updated belief" — because "rereading last month's entries is humbling in a way no reviewer can match."

@@ -5,6 +5,7 @@ topics: [ai-coding-tools, ai-agents]
 source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
 date: 2026-03-16
 domain: "ai"
+kind: "practice"
 ---
 
 Example-based tests check known cases; property-based tests explore unknown territory. For agent systems, where inputs are natural language with infinite variation, hand-written test cases cover a vanishingly small fraction of the input space. Property-based testing generates hundreds of inputs with varying structure, length, ambiguity, and edge-case characteristics — then verifies that agent behavior satisfies invariants regardless of specific input.

@@ -6,6 +6,7 @@ source: "@dharmesh (Dharmesh Shah, HubSpot CTO)"
 source_file: sources/dharmesh-headless-not-brainless.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Dharmesh Shah's distinction from his internal HubSpot Slack message: "Being agentic is not just about agents running *on* our platform, it's about agents *running* our platform (being able to operate it). That's how you take AI from being a simple tool to a savvy teammate."

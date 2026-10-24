@@ -4,6 +4,7 @@ description: "The shift from coding specific functions to describing outcomes th
 topics: [ai-agents, ai-native-product-architecture]
 source: "@danshipper — Agent-Native Architectures (co-authored with Claude)"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The old model treats features as functions you coded. The agent-native model gives an agent atomic tools and describes outcomes — features become prompts, and the agent loops until the outcome is achieved. This is the core of [[ai-native-product-architecture]].

@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 In Joe Schmidt IV's Oz framing, the labs own the model and the distribution, but a vertical app company can still win by owning the **system of work** — the surface where a company's actual work executes and the data it generates gets captured. He is explicit: "The model is fungible underneath; the system of work is not." The durable layer owns three things at once — data capture, the workflow system of action, and governance — and becomes the layer that integrates each new model generation and delivers it to the customer.

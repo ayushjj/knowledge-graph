@@ -5,6 +5,7 @@ topics: [decision-making, philosophy]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger opens his most famous talk with a first principle: "you can't really know anything if you just remember isolated facts and try and bang 'em back. If the facts don't hang together on a latticework of theory, you don't have them in a usable form." Students who memorize and regurgitate "fail in school and fail in life." The fix is structural — array all experience, vicarious and direct, on an interconnected framework of models.

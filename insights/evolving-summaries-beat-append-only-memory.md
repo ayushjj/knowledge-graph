@@ -4,6 +4,7 @@ description: "An evolve_summary() function that rewrites category profiles with 
 topics: [knowledge-systems, ai-agents]
 source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
 date: 2026-01-24
+kind: "principle"
 ---
 
 The critical innovation in file-based agent memory is a function that rewrites summaries rather than appending to them. When a user switches jobs, the system updates their profile — it doesn't add a second employer alongside the first. This handles contradictions naturally: the summary always reflects current truth, while the raw resources layer preserves the historical record for audit.

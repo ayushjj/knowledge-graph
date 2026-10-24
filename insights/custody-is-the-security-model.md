@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Tan gives the third objection the most respect: you put your entire life into one system — email, meetings, your kids' schedules — and what happens when it leaks? His answer is that concentration is exactly the argument for ownership rather than against it. His own brain runs on his own infrastructure, in his own repo, under his own keys. The comparison he insists on is not against a hypothetical secure alternative but against the actual default, which "is not privacy": a life already scattered across ten clouds owned by companies whose incentives are not yours, searchable by everyone except you.

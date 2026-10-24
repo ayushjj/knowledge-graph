@@ -4,6 +4,7 @@ description: "OpenAI built a million-line production codebase with zero manually
 topics: [ai-coding-tools, knowledge-systems]
 source: "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World"
 date: 2026-02-28
+kind: "principle"
 ---
 
 "Humans steer. Agents execute." OpenAI's Codex team built a production product — a million lines of code across application logic, infrastructure, tooling, and docs — with zero manually-written code in five months. Three engineers drove ~1,500 merged PRs at 3.5 PRs per engineer per day.

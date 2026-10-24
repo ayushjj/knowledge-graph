@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
 source_file: "sources/jayagup10-who-sets-price-of-intelligence.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Gupta isolates what's genuinely new about inference-time compute: "no prior software had a dial where spending ten times more compute bought a better answer. It makes cost per outcome a choice. A ten-second query and a ten-minute query on the same model are different products at different prices, so margin depends on the system's judgment, not just model pricing." This is "the application-layer counterattack against the labs": as frontier models absorb product logic, every application has to prove "it can allocate the customer's tokens better than the provider can." The incentives diverge cleanly — "The lab is incentivized to expand usage; the application is incentivized to spend only where the outcome is worth it."

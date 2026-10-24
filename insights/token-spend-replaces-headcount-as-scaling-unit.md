@@ -5,6 +5,8 @@ topics: [future-of-ai-business, business-models]
 source: "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software"
 date: 2026-03-24
 domain: ai
+kind: "bet"
+bet_date: 2026-03-24
 ---
 
 David George frames the internal economics shift bluntly: "Token spend per engineer is investment, not cost." The practical numbers: $1,000/month token spend per engineer is table stakes, top engineers see order-of-magnitude productivity gains and manage 20-30 agents simultaneously, and the organizational unit shrinks from 10-person committees to 4-person strike teams (design + product + engineering collapsed). The hiring model inverts — find ~5 people who will deliver 100x value regardless of seniority, then scale through compute, not headcount.

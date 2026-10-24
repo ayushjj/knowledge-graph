@@ -6,6 +6,7 @@ source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-O
 source_file: sources/kevingu-autoagent-self-optimizing-agents.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 AutoAgent demonstrates the first concrete evidence that agents can autonomously beat manual harness tuning on production benchmarks. The meta-agent experiments on a task agent's harness — tweaking prompts, adding tools, refining orchestration — while spinning up thousands of parallel sandboxes to test improvements. The key architectural insight: being good at a domain and being good at improving at that domain are different capabilities, so the meta/task split lets each specialize.

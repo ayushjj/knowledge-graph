@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
 date: 2026-03-24
 domain: "ai"
+kind: "principle"
 ---
 
 An agent takes 50 steps to resolve an incident. During execution, the full reasoning chain exists in the context window — why it chose path A over B, what evidence it weighed, which hypotheses it discarded. The moment the session ends, the output (the resolution) survives but the decision chain evaporates permanently. You know the agent fixed the issue; you cannot reconstruct why it chose that fix over alternatives.

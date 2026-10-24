@@ -6,6 +6,7 @@ source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is no
 source_file: "sources/satyanadella-frontier-without-ecosystem.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Nadella frames the AI-era firm as accumulating two distinct stocks: **human capital** ("the knowledge, judgment, relationships, ingenuity, and pattern recognition of its people") and **token capital** ("the firm's AI capability it builds and owns"). His non-obvious claim is that these are complements, not substitutes — "human capital does not become less valuable as token capital grows. It only becomes more valuable!" Human agency is the *driver* of token-capital growth: humans set ambitious goals, connect dots across domains, and recognize the patterns that matter, because "without human direction, you have compute running in circles."

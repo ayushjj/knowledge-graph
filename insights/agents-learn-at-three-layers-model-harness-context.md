@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
 source_file: sources/hwchase17-continual-learning-ai-agents.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 Harrison Chase proposes a three-layer model for how AI agents improve over time: the **model** (weights updated via SFT, RL, GRPO), the **harness** (the surrounding code, instructions, and tools shared across all instances), and the **context** (configuration that sits outside the harness and customizes it per user or tenant).

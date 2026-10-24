@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Hor
 source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Harrison Chase on the gap between LLM-as-judge and actual evaluation: "A big part of it is making sure that they're aligned with your human judgment and human preferences. And because if they're not, then your grader is just bad."

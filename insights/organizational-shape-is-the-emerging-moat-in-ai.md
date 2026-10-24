@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
 source_file: sources/jayagup10-organizational-shape-is-the-moat.md
 date: 2026-05-09
 domain: "ai"
+kind: "principle"
 ---
 
 Gupta argues that everything visible in AI is converging — the application layer collapses into infrastructure, infrastructure moves into workflows, and category words ("context graph", "system of action", "organizational world model") get absorbed into every pitch within weeks. What stays uncopiable is "the institution underneath: the way a company attracts exceptional people, organizes their ambition, concentrates judgment, distributes authority, and turns work into a compounding system no other company can reproduce." Her one-line claim — "the shape of the company itself is becoming the moat" — extends [[llms-selectively-destroy-vertical-software-moats]] one layer up: when the product/data/workflow moats either fall or hold based on data gravity, the next-layer moat is the org itself.

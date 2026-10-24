@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
 source_file: sources/jayagup10-organizational-shape-is-the-moat.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Gupta names the trap precisely: "Being chosen is emotional: you are special, we believe in you, you belong here. Being seen is structural: here is the scope, here is the authority, here is the economic participation, here is the decision right, here is what changes if you succeed." The asymmetry that makes it dangerous: "High performers can end up working like founders, absorbing ambiguity like executives, and internalizing mission like principals, while still being paid and empowered like employees. The company captures founder-level intensity; the person receives belonging." When the structure eventually catches up, the exchange is beautiful; when it doesn't, it's extraction in identity-language.

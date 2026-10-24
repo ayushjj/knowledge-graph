@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 The objection Tan takes head-on is that models improve so fast that harness and context work will be obsolete — just wait for the next release. His counter is that the observed direction is the opposite: "the better the models get, the more the differentiator moves to context. When everyone's engine is a thousand horsepower, the race is won on the driver and the map." The weights are everyone's; the library is yours. And the compounding runs the right way, because "a better model makes your library worth more because a smarter reader extracts more from the same books" — every lab release is a free upgrade to a workforce you already own.

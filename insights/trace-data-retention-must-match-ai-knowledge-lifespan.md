@@ -6,6 +6,7 @@ source: "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Ha
 source_file: sources/aparnadhinak-data-architectures-tracing.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Most observability platforms were designed for infrastructure metrics — CPU utilization, stack traces — data with a short useful lifespan. AI data is fundamentally different. A conversation from six months ago might reveal a failure pattern you only recognize today. The reasoning traces from your best-performing agent sessions are training signals for the next iteration of agents or employees. Sending this to a 30-day retention window is, as Harvey puts it, "like writing your institutional knowledge on a whiteboard and erasing it every month."

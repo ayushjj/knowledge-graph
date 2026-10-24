@@ -6,6 +6,7 @@ source: "@jaynitx — first principles thinking: how to see what everyone else m
 source_file: sources/jaynitx-first-principles-thinking.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 The author cites Peter Thiel's interview question as a working diagnostic for whether someone has actually done first-principles thinking: "'What important truth do very few people agree with you on?' That's basically asking: where have you done first principles thinking that led you somewhere different from the crowd?" The mechanism is forensic: independent reasoning produces conclusions that diverge from consensus on at least some points; if your full belief set tracks the consensus, you probably haven't done the decomposition work, regardless of how confident or articulate you are about the conclusions.

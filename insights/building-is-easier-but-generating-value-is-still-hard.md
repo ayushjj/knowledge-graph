@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
 source_file: "sources/thariq-field-guide-to-fable.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 Thariq Shihipar's closing caution, aimed squarely at his own audience of AI engineers: "building is easier, but generating value is still hard. I think this is something we run into as AI engineers sometimes, where we think so much about the process of building and our setups... but the point is to generate value... it takes a lot of swings, it takes a lot of tries, to find the valuable stuff." The implicit failure mode: mistaking a shrinking build-time cost for evidence of progress, when velocity in construction was never the actual bottleneck — recall connects why he made an entire conference deck in four hours: fast building is now cheap and repeatable, but that speed only counts for something once you've found which attempt is the valuable one.

@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 Schmidt argues the vertical app's data moat comes from two stacked flywheels: an across-customer one (patterns that compound as you see more variants of the same problem) and a within-customer one (the why behind specific decisions, the unsaid exceptions, a firm's own rules of thumb that surface only through real interaction). None of this is on the public web, so "no amount of training compute substitutes for being inside the workflows where this knowledge actually lives."

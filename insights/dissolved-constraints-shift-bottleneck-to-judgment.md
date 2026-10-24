@@ -5,6 +5,7 @@ topics: [decision-making, economics]
 source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
 date: 2026-03-30
 domain: "mental-models"
+kind: "principle"
 ---
 
 For two decades, capital was allocated around three bottlenecks: hiring engineers was hard, writing code was slow, and shipping products took months. Competitive advantage was a function of who could attract talent and ship fastest. AI is dissolving these constraints in real time. When production constraints disappear, advantages shift. When you can build anything, the question becomes what to build. When there are too many ideas, features, directions, and noise, the bottleneck is no longer execution — it is judgment.

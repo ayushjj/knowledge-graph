@@ -5,6 +5,7 @@ topics: [psychology, economics]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 505-514)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger places Reward and Punishment Superresponse first among his 25 tendencies because "almost everyone thinks he fully recognizes how important incentives are in changing cognition and behavior. But this is not often so." The critical mechanism is not that bad people do bad things — it's that incentive structures cause otherwise decent people to drift into harmful behavior, then rationalize it as justified. A surgeon in Lincoln, Nebraska sent "bushel baskets full of normal gall bladders" to pathology for years, not because he consciously chose fraud, but because he genuinely convinced himself that "the gallbladder was the source of all medical evil." Similarly, Xerox salesmen pushed inferior machines on customers because commission structures made it profitable, and Westinghouse's lending officers made reckless hotel construction loans because accounting rules rewarded them with immediate paper profits.

@@ -4,6 +4,7 @@ description: "When agents maintain daily changelogs, decision logs, and work pre
 topics: [knowledge-systems, ai-agents]
 source: "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — agent memory patterns"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The problem is universal: institutional knowledge lives in people. When key employees leave, that understanding walks out the door. With an agent maintaining memory files — daily changelogs of every action and decision, folders of key decisions with reasoning, and work preferences — that knowledge persists.

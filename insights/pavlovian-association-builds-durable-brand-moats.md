@@ -5,6 +5,7 @@ topics: [psychology, economics]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 305-315)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger reframes Coca-Cola's business in terms an introductory psychology student would recognize: "In essence, we are going into the business of creating and maintaining conditioned reflexes. The 'Coca-Cola' trade name and trade dress will act as the stimuli, and the purchase and ingestion of our beverage will be the desired responses." This framing reveals that brand building is applied psychology, combining two textbook conditioning techniques.

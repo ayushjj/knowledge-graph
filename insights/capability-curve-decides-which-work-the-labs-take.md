@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 Schmidt's test for whether the labs will eat your product: does the problem improve directly with raw model capability? Code generation, writing, and image creation sit on the "Yellow Brick Road" — "every dollar spent on pre-training and post-training improves product quality," so the labs are structurally best-suited and will own them. The "rest of Oz" is where value comes less from the model's raw capability than from the scaffolding that makes output trustworthy, compliant, and operational inside a specific industry.

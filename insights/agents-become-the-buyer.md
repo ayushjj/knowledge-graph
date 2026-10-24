@@ -4,6 +4,8 @@ description: "Software is increasingly consumed by agents, not humans; the agent
 topics: [future-of-ai-business, business-models]
 source: "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API"
 date: 2026-02-24
+kind: "bet"
+bet_date: 2026-02-24
 ---
 
 Bustamante doesn't log into any of his SaaS anymore — his agent does. He runs Fintool with 6 people and says he personally handles more than he did when he had 100+ people and a full leadership team at his previous company. "I'm replacing payroll with tokens."

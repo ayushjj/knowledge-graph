@@ -6,6 +6,7 @@ source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is no
 source_file: "sources/satyanadella-frontier-without-ecosystem.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Nadella specifies the machinery a firm needs to turn workflows and judgment into improving AI: "Private evals should capture whether a model is actually improving against outcomes that matter to the business (not just external benchmarks!). Private reinforcement learning environments should let models grow stronger on real traces from inside the organization." The knowledge base then "makes institutional memory queryable and use of tokens more efficient." Public benchmarks measure generic capability; private evals measure whether the system is getting better at *your* outcomes.

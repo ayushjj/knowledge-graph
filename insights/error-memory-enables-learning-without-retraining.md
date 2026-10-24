@@ -4,6 +4,7 @@ description: "Dash's 'GPU-poor continuous learning' separates validated knowledg
 topics: [ai-agents, ai-native-product-architecture]
 source: "@ashpreetbedi — Dash (OpenAI-inspired data agent)"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Most text-to-SQL agents are stateless — they make mistakes, you fix them, then they make the same mistake again because every session starts fresh. Dash solves this with two complementary stores: a Knowledge layer (validated queries and business context, curated by humans) and a Learnings layer (error patterns and discovered fixes, proposed by the agent and saved with user approval). When the agent hits an error, it diagnoses, fixes, and saves the pattern so it's never repeated.

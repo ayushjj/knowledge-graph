@@ -6,6 +6,7 @@ source: "Mintlify — How We Built a Virtual Filesystem for Our Assistant"
 source_file: sources/mintlify-virtual-filesystem.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Mintlify built ChromaFs — a virtual filesystem that intercepts Unix commands (ls, cd, cat, grep) and translates them into queries against their Chroma vector database. Boot time dropped from approximately 46 seconds to 100 milliseconds, cost went from $0.0137 per conversation to zero marginal cost, and the system now handles 30,000+ conversations daily across 850,000 monthly sessions.

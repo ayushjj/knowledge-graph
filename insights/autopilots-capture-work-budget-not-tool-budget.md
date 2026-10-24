@@ -5,6 +5,7 @@ topics: [future-of-ai-business, business-models]
 source: "@julienbek — Services: The New Software"
 date: 2026-03-06
 domain: "ai"
+kind: "principle"
 ---
 
 "A copilot sells the tool. An autopilot sells the work." Copilots like Harvey (law) and Rogo (investment banking) make professionals more productive — the professional is the customer, takes responsibility for output, and pays tool-budget prices. Autopilots like Crosby (NDAs) and WithCoverage (insurance) sell the outcome directly to the company that needs it. "For every dollar spent on software, six are spent on services," and autopilots capture the work budget from day one.

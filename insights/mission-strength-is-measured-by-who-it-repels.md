@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
 source_file: sources/jayagup10-organizational-shape-is-the-moat.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Gupta's test for whether a mission is doing real work: "The strongest missions are the ones that make some people refuse to work there, because that is the same thing as making the right people desperately keen to be there." She points to the newer value propositions in the neolabs category as sharper than the last cycle "because each one picks a side": open source commits you against closed labs; sovereign AI commits you against the assumption that one country's models will run the world. By contrast, a mission that "offends no one, selects for no one, and costs nothing" is a fake structural promise — it can't filter the talent pool because it doesn't actually rank anyone out.

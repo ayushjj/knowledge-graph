@@ -6,6 +6,7 @@ source: "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion"
 source_file: "sources/tobi-mcp-vs-cli-wrong-layer-dquickts.md"
 date: 2026-10-24
 domain: "ai"
+kind: "principle"
 ---
 
 Tobi Lutke's claim is that people are "debating at the wrong layer": MCP and CLI both "work incredibly well as long as they are run through a repl like environment that can persist state." CLI looks better only because CLI tools are usually reached through bash, which "happens to be a repl with persistent state (the file system)." He says this "isn't even close to being an intrinsic property of MCP. Just means that we need better harnesses." The best such environments today, in his list, are bash plus the file system, Jupyter kernels, and code-mode REPLs (usually QuickJS).

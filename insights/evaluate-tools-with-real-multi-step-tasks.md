@@ -4,6 +4,7 @@ description: "Weak evaluation tasks hide tool design flaws — strong tasks requ
 topics: [ai-agents, ai-coding-tools]
 source: "Anthropic Engineering — Writing Effective Tools for Agents"
 date: 2026-02-24
+kind: "practice"
 ---
 
 Anthropic's tool evaluation methodology distinguishes weak tasks (simple single-call lookups) from strong tasks (e.g., "schedule a meeting with the product team next week" — which requires checking calendars, finding availability, resolving conflicts, and sending invitations). Strong tasks require multiple tool calls, ambiguity resolution, and produce verifiable outcomes. The evaluation tracks not just accuracy but tokens used, tool calls made, errors hit, and reasoning quality via interleaved thinking.

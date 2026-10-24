@@ -4,6 +4,7 @@ description: "Systems store what happened but not why; capturing the reasoning b
 topics: [ai-native-product-architecture, future-of-ai-business]
 source: "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Current systems store what happened but not why. They don't store who approved the deviation, under what policy, what precedent justified the exception, what context from multiple systems led to that decision. That "why" lives in Slack threads, deal desk conversations, and people's heads.

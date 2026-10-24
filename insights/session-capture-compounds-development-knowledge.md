@@ -4,6 +4,7 @@ description: "shadcn's /done pattern — dumping key decisions, questions, and f
 topics: [ai-coding-tools, knowledge-systems]
 source: "shadcn (via X/Twitter) — /done skill pattern"
 date: 2026-01-24
+kind: "practice"
 ---
 
 shadcn's innovation is a `/done` skill that runs after every Claude Code session, capturing key decisions, questions asked, follow-ups needed, and context — dumped to a markdown file tagged with session ID and branch name. "Helpful when I need context later" understates the effect: it creates a searchable development memory that compounds over months.

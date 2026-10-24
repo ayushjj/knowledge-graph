@@ -5,6 +5,7 @@ topics: [ai-coding-tools, ai-agents]
 source: "@systematicls — How To Be A World-Class Agentic Engineer"
 date: 2026-03-05
 domain: "ai"
+kind: "practice"
 ---
 
 When you say "go build an auth system," the agent must research alternatives, evaluate options, and then implement — but by implementation time, its context is polluted with details about approaches it won't use. The fix: create a research task to evaluate implementation possibilities, decide on the approach (yourself or via a decision agent), then hand the chosen approach to a fresh-context agent for implementation. The implementer gets "implement JWT authentication with bcrypt-12 password hashing, refresh token rotation with 7-day expiry" — no research residue.

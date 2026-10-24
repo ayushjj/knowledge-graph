@@ -6,6 +6,7 @@ source: "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Enginee
 source_file: "sources/mattpocock-software-fundamentals-matter-more-than-ever.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 Matt Pocock returns to John Ousterhout's *A Philosophy of Software Design* to define what a testable, AI-navigable codebase looks like: "relatively few large deep modules with simple interfaces," where a deep module hides a lot of functionality behind a simple interface, versus a shallow module which exposes a complex interface for comparatively little functionality. A codebase full of shallow modules looks like "a ton of different tiny little blobs that the AI has to walk through and navigate" — and this is "really hard for the AI to explore," so the agent frequently fails to reach the right module or understand the dependencies between them. AI is, in his words, "really good at creating codebases like this" even though it then struggles to work inside them — a self-inflicted failure mode.

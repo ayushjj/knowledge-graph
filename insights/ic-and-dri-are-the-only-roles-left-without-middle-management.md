@@ -6,6 +6,8 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "bet"
+bet_date: 2026-08-21
 ---
 
 If humans are no longer the conduit for information moving up and down a hierarchy, the layer whose whole job was that conduit has no remaining function. Blomfield says it plainly: no middle management, no layers of directors and VPs. Two roles survive. The individual contributor — everyone actually doing the work, and turning up to meetings with working prototypes rather than decks. And the DRI, a single person whose head is on the block for an outcome, which he calls the biggest thing most companies are missing. His counter-example is from working at a bank: a committee for everything, and it grinds things to a halt.

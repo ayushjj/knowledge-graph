@@ -5,6 +5,7 @@ topics: [economics, engineering]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger calls this "the great lesson in microeconomics": discriminating between when technology helps you and when it kills you. The textile business illustrates the losing side. When someone proposed a new loom that would "do twice as much work," Buffett said: "Gee, I hope this doesn't work — because if it does, I'm going to close the mill." In a commodity business, all productivity gains flow through to customers as lower prices. "You keep buying things that will pay for themselves in three years. And after twenty years of doing it, somehow you've earned a return of only about four percent per annum."

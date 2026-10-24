@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
 source_file: "sources/jayagup10-who-sets-price-of-intelligence.md"
 date: 2026-06-15
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Gupta's closing frame replaces the static-moat mental model: "Value in AI is never captured once and defended. It's continuously repriced and relocated." So "investing in AI, and building in it, starts to look less like underwriting a software company and more like running a trading book. You are long some curves, short others, and exposed to correlations that can break exactly when they matter most." The operating instruction follows: "Choose which variables to bet on, know which ones can kill you, and build the company to recover faster than a wrong bet can compound." Part of the asset is now research taste — in AI "talent is a raw input into production," where a handful of researchers "can change the shape of the market," not just execute against it.

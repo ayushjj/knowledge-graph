@@ -5,6 +5,7 @@ topics: [ai-coding-tools, knowledge-systems]
 source: "@systematicls — How To Be A World-Class Agentic Engineer"
 date: 2026-03-05
 domain: "ai"
+kind: "practice"
 ---
 
 The most effective CLAUDE.md is "a logical, nested directory of where to find context given a scenario and an outcome" — as barebones as possible, containing only the IF-ELSE routing of where to seek context. If coding, read coding-rules.md. If tests are failing, read coding-test-failing-rules.md. Rules encode preferences; skills encode recipes. This nested conditional structure lets agents load precisely the context they need without polluting their window with irrelevant instructions.

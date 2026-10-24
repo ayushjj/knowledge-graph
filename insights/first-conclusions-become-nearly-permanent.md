@@ -5,6 +5,7 @@ topics: [psychology, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger describes Inconsistency-Avoidance Tendency as the brain's anti-change mode: "the human mind works a lot like the human egg — when one sperm gets into a human egg, there's an automatic shut-off device that bars any other sperm from getting in." Once a conclusion is in place, the brain actively resists updating it. This applies to habits (Marley's ghost: "chains of habit that were too light to be felt before they became too strong to be broken"), professional beliefs, political loyalties, and even scientific paradigms. Max Planck observed that "even in physics the radically new ideas are seldom really accepted by the old guard" — progress comes from new generations less brain-blocked by previous conclusions.

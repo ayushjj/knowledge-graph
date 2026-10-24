@@ -4,6 +4,7 @@ description: "Agents need RAM (conversation context), a hard drive (persistent m
 topics: [ai-agents, knowledge-systems]
 source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
 date: 2026-01-24
+kind: "thinking-tool"
 ---
 
 The mental model shift from agents that "forget everything when the conversation ends" to "agent as operating system" reframes every architectural decision. (Note: this OS metaphor is an editorial synthesis of Rohit's memory architecture work — his original content focuses on practical memory patterns rather than using the OS analogy explicitly.) Conversation context is RAM — fast and volatile, lost on reset. Persistent memory is the hard drive — indexed, structured, survives sessions. Memory decay is garbage collection — without it, the system drowns in stale data. Tool integrations are I/O management — how the agent reads from and writes to the external world.

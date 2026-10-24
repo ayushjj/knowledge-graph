@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
 source_file: "sources/hwchase17-your-harness-your-memory.md"
 date: 2026-04-12
 domain: ai
+kind: "principle"
 ---
 
 The article's prescription is explicit: memory must be owned by whoever is developing the agentic experience, and memory — and therefore harnesses — should be separate from model providers. Chase positions LangChain's Deep Agents as the concrete pattern: open source, model-agnostic, using open standards like agents.md and skills, with plugins for Mongo, Postgres, and Redis, deployable either via LangSmith or any standard web hosting framework. The through-line is that the storage backend is pluggable but the harness itself is open and client-controlled, so the proprietary dataset accumulated through user interactions is never held hostage to a model provider's platform decisions.

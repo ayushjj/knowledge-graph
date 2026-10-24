@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Tan calls this the most important question to ask about any agent system — "where is the computation happening?" — and says there are exactly two answers, and that confusing them "causes every agent failure I've ever seen." Some computation belongs in latent space: taste, judgment, reading what a human actually wants from a vague request. That lives in the model and you steer it with a markdown file. Some belongs in deterministic space: the arithmetic, the SQL query, anything that has to hold state and stay consistent.

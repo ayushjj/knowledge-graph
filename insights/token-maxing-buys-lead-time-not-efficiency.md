@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish 
 source_file: "sources/garry-tan-a16z-new-rules-for-founders.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Tan argues the frontier labs behind the consumer products are "pretty constrained on… amount of compute they want to give you," so anyone who wants to run at full strength has to reach for a harness they control and "tune it all the way up" — loading "a million tokens or 800,000 tokens" into any given request. He puts the cost at "50 or 100,000 dollars a year to like use the agents at full strength," calls it "a crazy amount," and says that for a CEO or a founder "it actually makes a lot of sense" because "you get to live in 2028 today." The operative phrase is permission: "you have to give yourself permission to token max in that way."

@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
 source_file: sources/hwchase17-continual-learning-ai-agents.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 Chase's key unifying claim: "All of these flows are powered by traces — the full execution path of what an agent did." The same traces feed three different improvement loops: model training (collect traces, train with Prime Intellect), harness optimization (give a coding agent access to traces via LangSmith to suggest harness changes), and context learning (extract insights from traces to update memory/skills at the agent, user, or org level).

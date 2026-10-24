@@ -6,6 +6,8 @@ source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish 
 source_file: "sources/garry-tan-a16z-new-rules-for-founders.md"
 date: 2026-08-21
 domain: "ai"
+kind: "bet"
+bet_date: 2026-08-21
 ---
 
 Tan invokes Venkatesh Rao's framing — "you need to be above the API line; if Uber came out, like if you're an Uber driver, you're below the API line, you should be fighting to be above the API line" — and then rejects its permanence: "I actually think AI erases the API line." His example is a YC-funded API company that "released a bug report endpoint that is not for humans to use, it's for agents who use their software to use," backed by an LLM that answers in the moment: "that's a good bug, we filed it, we're going to fix it next week, but also like try this workaround." What he cannot stop thinking about is the shape it implies for companies generally: "instead of being below the API line and having to do what the API tells you to do, this can be a back and forth."

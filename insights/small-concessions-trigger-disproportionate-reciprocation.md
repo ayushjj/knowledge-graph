@@ -5,6 +5,7 @@ topics: [psychology, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 537-545)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger places Reciprocation Tendency among the most powerful human drives, noting it "facilitates group cooperation" but is easily weaponized. Cialdini's campus experiment demonstrated the mechanism precisely: when practitioners asked strangers to supervise juvenile delinquents at a zoo, one in six agreed. But when they first made an absurd request (two years of weekly supervision), got rejected, then "conceded" down to the zoo trip, acceptance tripled to one in two. The practitioners' small concession was subconsciously reciprocated by a concession from the other side — people ended up "irrationally agreeing to go to a zoo with juvenile delinquents." Munger believes this same subconscious reciprocation caused the Watergate burglary: an aggressive subordinate proposed an extreme plan involving "whores and a gigantic yacht," and when rejected, backed off "in gracious concession" to merely requesting a burglary — and the attorney general went along.

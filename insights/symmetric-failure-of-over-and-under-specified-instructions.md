@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Findin
 source_file: "sources/thariq-a-field-guide-to-claude-fable-finding-your-unknowns.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 Thariq Shihipar names a symmetric failure in how people instruct agents: over-specify, and "Claude follows instructions even when pivoting would be better" — the precision itself becomes a cage once reality diverges from what you specified. Under-specify, and the agent fills the gap with "assumptions based on industry best practices that may not fit your task" — reasonable defaults for a generic case, wrong for yours. His diagnosis: "when you don't account for your unknowns, you fail both ways. You don't know when the path will be filled with obstacles, and you don't know when the path will be clear, but you still want Claude to veer." Neither more detail nor less detail is the fix — the fix is knowing which of your own unknowns the current instruction is silently assuming away.

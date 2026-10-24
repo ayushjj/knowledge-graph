@@ -5,6 +5,7 @@ topics: [ai-coding-tools, decision-making]
 source: "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)"
 date: 2026-03-24
 domain: ai
+kind: "practice"
 ---
 
 Matt Pocock's 4-sentence "grill-me" skill became the most viral Claude Code skill (151K views) because it fills a gap no other intervention covers: the DURING-planning phase between premise-checking ("should we build this?") and plan-review ("does this plan hold up?"). The skill instructs the agent to "interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one."

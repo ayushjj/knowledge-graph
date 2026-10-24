@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "practice"
 ---
 
 Of the five steps Tan gives the audience, he singles this one out as "the discipline that separates the compounders from the dabblers." Most people run a single operation with an agent and then throw the context away — they close the window, and that is it. The correction is a habit applied at the end of every task: ask the agent to turn what it just did into a markdown file you can reuse forever. His compressed version of the rule is the one he says he uses at YC: "If you have to ask for something twice, you failed."

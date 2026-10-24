@@ -6,6 +6,7 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Vivek invokes Olah and Carter's "research debt" essay: fields "choke on undigested ideas," so "a clear explanation is a genuine contribution rather than a service job." The evidence is sociological — "a lot of people working in interpretability today found the field through readable posts, not conference papers." And the second-order payoff is reputational: "a body of public writing also doubles as the strongest credential you can hold, because it's an unfakeable sample of how you think." Generosity here "compounds... like nothing else," with returns arriving "sideways, months later, as the collaboration or the reference or the role you couldn't have applied for."

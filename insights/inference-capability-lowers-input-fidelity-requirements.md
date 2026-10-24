@@ -5,6 +5,7 @@ topics: [ai-native-product-architecture, ai-coding-tools]
 source: "@mvanhorn (Matt Van Horn) — Every Claude Code Hack I Know (March 2026)"
 date: 2026-03-23
 domain: ai
+kind: "principle"
 ---
 
 Traditional dictation demanded perfect transcription because the consumer was a dumb text field. Voice-to-LLM works because the consumer infers intent from imperfect signal — you can mumble, trail off, restart a sentence, and the system reconstructs what you meant. The bottleneck was never the microphone; it was the listener.

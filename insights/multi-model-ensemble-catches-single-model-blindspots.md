@@ -4,6 +4,7 @@ description: "Using 3 different LLMs to review the same PR exploits the fact tha
 topics: [ai-coding-tools, ai-agents]
 source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
 date: 2026-02-24
+kind: "practice"
 ---
 
 Elvis's agent swarm doesn't just use multiple models for generation — it uses three different models to review every PR before human approval. The effect is adversarial: requiring all three models to pass before merging means each model's blindspots are covered by the others.

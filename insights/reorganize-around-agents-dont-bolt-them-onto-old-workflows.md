@@ -6,6 +6,7 @@ source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds
 source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 Ivan Zhao's sharpest historical lesson is about the steam engine. Early textile factories ran on waterwheels; when the steam engine arrived, "factory owners initially swapped waterwheels for steam engines and kept everything else the same. Productivity gains were modest." The breakthrough came only when they "decouple[d] from water entirely" and "redesigned their factories around steam engines" — then "productivity exploded." His diagnosis of the present: "We're still in the 'swap out the waterwheel' phase. AI chatbots bolted onto existing tools."

@@ -5,6 +5,7 @@ topics: [ai-agents, ai-coding-tools]
 source: "@systematicls — How To Be A World-Class Agentic Engineer"
 date: 2026-03-05
 domain: "ai"
+kind: "practice"
 ---
 
 Agents are hard-programmed to please, which means asking "find me a bug" will produce a bug even if one doesn't exist. Rather than fighting this sycophancy, the technique weaponizes it through competing agents: a bug-finder scores +1/+5/+10 by severity (producing a superset of all possible bugs), an adversarial agent scores points for disproving bugs but faces -2x penalty for wrong dismissals (producing a subset of real bugs), and a referee agent — told the ground truth exists — adjudicates both inputs.

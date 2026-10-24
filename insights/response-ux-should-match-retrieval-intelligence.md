@@ -4,6 +4,7 @@ description: "If your system uses semantic search to find results, the display s
 topics: [ai-native-product-architecture]
 source: "@akshay_pachaar — 'Your RAG System Has a Hidden UX Problem' (Daily Dose of Data Science blog), referencing Zilliz semantic highlighting model"
 date: 2026-02-24
+kind: "principle"
 ---
 
 A subtle UX failure in search systems: semantic retrieval finds a document about "A15 Bionic chip benchmarks" when you search "iPhone performance," but keyword highlighting finds nothing to highlight because the exact words "iPhone" and "performance" don't appear. The user sees a long document with no highlights and asks "Why is this here?" The retrieval was intelligent; the display was not.

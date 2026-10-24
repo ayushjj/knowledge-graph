@@ -5,6 +5,7 @@ topics: [ai-native-product-architecture, ai-agents]
 source: "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance"
 date: 2026-03-05
 domain: "ai"
+kind: "principle"
 ---
 
 Production agent economics hinge on KV cache hits. When a prompt prefix matches a cached computation, the model skips re-processing those tokens entirely — saving both cost and latency. The critical architectural implication: context must be append-only. Modifying earlier content invalidates the cache forward, so the Manus team masks token logits during decoding to constrain available actions rather than dynamically removing tool definitions from the prompt.

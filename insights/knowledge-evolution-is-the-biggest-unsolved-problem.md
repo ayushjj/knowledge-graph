@@ -6,6 +6,7 @@ source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ system
 source_file: specs/knowledge-graph-architectures/research.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Across 10+ knowledge graph systems studied, **almost nobody has solved knowledge evolution well**. This is the biggest unsolved problem in the space. Most systems are append-only — they grow but never prune, merge, or update. The few that attempt evolution either go too far (StixDB's auto-decay with 48-hour half-life actively destroys knowledge) or not far enough (Pal's linter agent is aspirational code that depends on LLM choosing to act).

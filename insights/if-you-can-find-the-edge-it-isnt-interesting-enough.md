@@ -6,6 +6,7 @@ source: "Credited in conversation to Chris Dixon — The a16z Show, Garry Tan wi
 source_file: "sources/garry-tan-a16z-new-rules-for-founders.md"
 date: 2026-08-21
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 The heuristic, offered mid-conversation and attributed to Chris Dixon, is a single question: "a good measure of how interesting the thing is — can you find the edge? And for the most interesting things, you typically can't. Even if you find the edge of the conversation, you can't find the intellectual edge. Which I think is a very good sign." The two edges are distinct and the distinction carries the test. Running out of things people have *said* about a subject is common and means little; running out of things that can be *thought* about it is the real signal, and its absence is what marks a live problem.

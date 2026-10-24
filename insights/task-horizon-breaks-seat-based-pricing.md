@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
 source_file: "sources/jayagup10-who-sets-price-of-intelligence.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Gupta defines task horizon as "the length dial: how long an AI works on its own before a human steps back in. The unit shifted from the call to the workflow." The pricing consequence is structural: "Agents run for hours, spawn sub-agents, and burn millions of tokens per decision path, so usage stops scaling with seats. Multiply length by depth and you get the token bill every Fortune 500 CFO now asks about." Depth (inference-time compute) times length (task horizon) is the new cost surface — and it severs the seat-based logic SaaS was priced on.

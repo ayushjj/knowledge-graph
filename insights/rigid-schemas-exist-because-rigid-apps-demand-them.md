@@ -4,6 +4,8 @@ description: "When agents can clone your entire CRM in seconds and become the re
 topics: [ai-native-product-architecture, future-of-ai-business]
 source: "@zain_hoda (Zain Hoda, Vanna AI) — The Agent Will Eat Your System of Record"
 date: 2026-02-28
+kind: "bet"
+bet_date: 2026-02-28
 ---
 
 Zain Hoda's core argument: your entire Salesforce instance probably fits on a thumb drive. When an agent can clone all that data in seconds and sit on a complete, synchronized copy, you stop talking to Salesforce — you talk to the agent. The SaaS product becomes a "dumb write endpoint" where data gets created before being pulled into the agent's context. Data moats evaporate because "we're where the data lives" stops being a valid competitive answer.

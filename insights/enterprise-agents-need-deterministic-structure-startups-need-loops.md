@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnes
 source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Harrison Chase on the enterprise/startup divergence: "At a startup you're far more likely to build something like Claude Code that is just running in a loop and doing stuff. At an enterprise... you need more precision, you need more control. It's not okay to have 95%, you need certainty that this step's always going to happen after that step."

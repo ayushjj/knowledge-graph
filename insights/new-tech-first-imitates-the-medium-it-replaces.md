@@ -6,6 +6,7 @@ source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds
 source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
 date: 2026-06-01
 domain: ai
+kind: "thinking-tool"
 ---
 
 Zhao invokes Marshall McLuhan — "we are always driving into the future via the rearview window" — to explain a recurring trap: a new medium first disguises itself as the old one. "Early phone calls were concise like telegrams. Early movies looked like filmed plays." And "today, we see this as AI chatbots which mimic Google search boxes." The danger isn't the imitation itself; it's mistaking the transition form for the final form and building as if the rearview image were the destination.

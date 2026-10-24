@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 FurtherAI's Aman Gour says the common assumption — "the model is the intelligence, and the workflow is just scaffolding around it" — is backwards. In insurance, a lot of the intelligence lives inside the workflow itself: which risks get escalated, which loss signals matter, which appetite rule wins when two conflict, when a human must sign off. That logic is spread across SOPs, manager reviews, and underwriting philosophy — "not written down in a form a model can simply read."

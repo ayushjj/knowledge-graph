@@ -6,6 +6,7 @@ source: "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Enginee
 source_file: "sources/mattpocock-software-fundamentals-matter-more-than-ever.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 The specs-to-code movement's workflow is: write a spec, generate code from it, and if something's wrong, edit the spec and regenerate — never look at the code itself. Matt Pocock tried this directly: "I would try not to look at the code, but I would look at the code, and I realized... I would get worse code. And I did it again, I got even worse code." Repeating the cycle compounded the degradation rather than converging on quality. His conclusion: "the idea that we can just ignore the code and just have the code manage itself is just sort of vibe coding by another name" — the practice inherits vibe coding's core failure (no one is actually checking the artifact) even though it wears the more disciplined-looking clothing of "specs."

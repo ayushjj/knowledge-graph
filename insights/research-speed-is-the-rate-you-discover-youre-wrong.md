@@ -6,6 +6,7 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Vivek locates the real game in throughput of disconfirmation: the stories about Alec Radford "involve volume. more runs per day, more wrong ideas discarded per week, a model of reality that updated faster than anyone else's... research speed is mostly the speed at which you discover you're wrong." The consequence is that "tooling is a first-class research activity" — "launching a run should be one command... comparing two runs should take seconds, not an afternoon of archaeology." Karpathy's "overfit a single batch before training at scale" is the canonical cheap-first move: "thirty seconds, half your bugs, gone."

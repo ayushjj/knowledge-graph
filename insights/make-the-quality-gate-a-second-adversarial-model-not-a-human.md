@@ -6,6 +6,7 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 The quality gate is the layer where most teams instinctively put a person. Blomfield argues it "probably should not be a human in all but the most extreme cases," and that the gate is often better served by a second adversarial LLM: one that inspects the output and asks whether prompt injection is happening, or — in a bank — whether the response constitutes financial advice, which the system is not permitted to give. For engineers the easy version is a second model doing code review.

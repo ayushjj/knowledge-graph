@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 A defense the labs structurally can't copy: the vertical company picks the best model for each sub-task across the *entire* model market — including a competitor's model or an open-source fine-tune for the narrow piece where it's actually best — while a lab can only sell you its own model and tell you to migrate.

@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah
 source_file: "sources/hwchase17-your-harness-your-memory.md"
 date: 2026-04-12
 domain: ai
+kind: "principle"
 ---
 
 Sarah Wooders' line, quoted in Harrison Chase's article, captures the architectural claim precisely: "Asking to plug memory into an agent harness is like asking to plug driving into a car." Short-term memory (conversation messages, large tool-call results) is managed by the harness. Long-term memory (cross-session state) must be written and read by the harness. How CLAUDE.md loads, how skill metadata is surfaced, what survives compaction, whether interactions are queryable — every one of these is a harness decision, not a decision a standalone memory service can make after the fact.

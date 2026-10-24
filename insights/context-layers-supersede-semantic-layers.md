@@ -5,6 +5,7 @@ topics: [ai-native-product-architecture, knowledge-systems]
 source: "@jasonscui — Your Data Agents Need Context, a16z"
 date: 2026-03-11
 domain: "ai"
+kind: "principle"
 ---
 
 A traditional semantic layer in BI (like LookML or dbt) handles specific metric definitions — revenue, churn, ARPU — using hand-constructed syntax connected to a single BI tool. A modern context layer must become a superset of this: canonical entities, identity resolution, specific instructions to dissect tribal knowledge, and governance guidance. This is [[structure-plus-reasoning-beats-flat-similarity]] applied to enterprise data — flat metric definitions aren't enough when agents need to reason across disparate sources.

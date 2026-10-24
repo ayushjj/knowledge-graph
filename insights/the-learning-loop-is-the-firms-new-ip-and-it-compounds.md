@@ -6,6 +6,7 @@ source: "@satyanadella (Satya Nadella) — A frontier without an ecosystem is no
 source_file: "sources/satyanadella-frontier-without-ecosystem.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Nadella names the loop itself — private evals, internal-trace RL, queryable institutional memory — as the durable asset: "This loop becomes the new IP of the firm. I think of it as a hill climbing machine. And unlike most assets, it compounds. Every improved workflow generates better training signal, which accelerates the accumulation of tacit knowledge unique to the firm." The payoff is timing-sensitive: "The companies that build this early will have an advantage that is hard to replicate, regardless of any new individual model capability." A better model from a lab does not erase the lead, because the lead lives in accumulated tacit knowledge, not the model.

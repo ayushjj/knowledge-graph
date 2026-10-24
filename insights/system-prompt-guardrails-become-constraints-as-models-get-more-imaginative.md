@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
 source_file: "sources/thariq-field-guide-to-fable.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 Thariq Shihipar traces the arc of Claude Code's system prompt across model generations: "originally... the best practice for a system prompt was a small system prompt, few tools, and lots of examples." As models got smarter, the prompt grew — "you can give it more information and more instructions, and they start following them... a larger system prompt with lots of examples and many tools." But the arc reversed: "most recently, we found this new class of models want a smaller system prompt. The examples tend to constrain it because it's actually more imaginative than the examples we give it." The team "removed 80% of the system prompt for Claude Code" and shifted from "do not do this" instructions to giving context instead of constraints — "which was really necessary for the previous models" but has become actively counterproductive for the new one.

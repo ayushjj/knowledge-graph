@@ -6,6 +6,7 @@ source: "@dharmesh (Dharmesh Shah, HubSpot CTO)"
 source_file: sources/dharmesh-headless-not-brainless.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Dharmesh Shah coins AUX — Agentic User Experience — as a distinct design discipline: "The companies that succeed in the agentic era are those that take a thoughtful approach to *designing* an agentic user experience."

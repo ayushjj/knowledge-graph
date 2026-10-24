@@ -4,6 +4,7 @@ description: "Neither keyword nor semantic search alone is complete — combinin
 topics: [ai-native-product-architecture]
 source: "QMD by Tobi Lütke, pg_textsearch by Timescale, TigerData BM25 article"
 date: 2026-02-24
+kind: "practice"
 ---
 
 Pure keyword search misses meaning ("someone to fix wiring" won't find "electrician"). Pure vector search misses exact matches (error codes, phone numbers, proper nouns). Every production search system converges on the same architecture: BM25 for precision, vectors for recall, Reciprocal Rank Fusion to merge rankings, and an LLM reranker as the final quality layer.

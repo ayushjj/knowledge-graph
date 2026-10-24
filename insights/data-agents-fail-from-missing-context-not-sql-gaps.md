@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@jasonscui — Your Data Agents Need Context, a16z"
 date: 2026-03-11
 domain: "ai"
+kind: "principle"
 ---
 
 When enterprises deployed data agents in 2024-2025, most failed. The initial diagnosis was that models couldn't write good SQL, but the problem extends far beyond text-to-SQL. A deceptively simple question like "what was revenue growth last quarter?" exposes two deeper gaps: the agent doesn't know how the business actually defines revenue (run rate? ARR? which product lines?), and it doesn't know which of several tables is the source of truth (fct_revenue vs mv_revenue_monthly vs mv_customer_mrr).

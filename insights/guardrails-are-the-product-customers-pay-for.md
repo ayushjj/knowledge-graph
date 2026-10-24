@@ -6,6 +6,7 @@ source: "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow B
 source_file: sources/joeschmidtiv-yellow-brick-road.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 11x's Prabhav Jain inverts the usual view: "Guardrails aren't just to prevent bad stuff from happening. That's what your customers are paying you for." Even inside one product, every use case needs its own — a regulated financial-services prospect demands different guarantees than a mid-market SaaS customer, and those guarantees determine how the agent is allowed to write, who it can contact, what data it can touch, what it can say on a call, and how every decision gets logged. So guardrails must be "built per use case, configured per customer, and audited continuously."

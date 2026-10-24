@@ -6,6 +6,7 @@ source: "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)"
 source_file: sources/businessbarista-enterprise-brain.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 David Fant's framing, amplified by Alex Lieberman: "Coding w AI is solved bc all context is in the git repo. Knowledge work is difficult bc context is spread out."

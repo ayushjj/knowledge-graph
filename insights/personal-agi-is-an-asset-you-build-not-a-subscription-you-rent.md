@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Tan's reframe is that AGI is not arriving as a single event in a data centre but diffused — "your agent running on your context, doing your work" — and he is precise about what he is not describing. Not a chatbot at $20 a month, not a better autocomplete, not an assistant that knows your calendar and nothing else. Those are "a corporate AGI you don't own": it resets when you close the tab, it knows what everyone else already knows, and when the company behind it pivots your assistant "gets a lobotomy on someone else's schedule." Personal AGI is an agent running on your infrastructure, reading a memory you own, executing procedures you wrote. The asymmetry he draws is about the derivative: the rented one improves when the vendor ships, the owned one improves every day you use it.

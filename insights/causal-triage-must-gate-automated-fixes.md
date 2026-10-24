@@ -6,6 +6,7 @@ source: "Vishnu Suresh (LangChain) — How My Agents Self-Heal in Production"
 source_file: sources/vishnu-suresh-self-healing-production-agents.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 LangChain's self-healing pipeline reveals a non-obvious failure mode in automated error correction: statistical regression detection (comparing post-deploy error rates to a 7-day baseline using Poisson distribution modeling) is necessary but insufficient. Raw stats "cannot distinguish 'this error spiked because of our code change' from 'this error spiked because a third-party API went down.'" Correlated failures from external sources violate the independence assumptions that statistical tests require.

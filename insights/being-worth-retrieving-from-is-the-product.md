@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Asked whether the whole personal-brain architecture is just RAG, Tan concedes the framing and dismisses its force in one line: "Sure, and Postgres is just B-trees." Retrieval is the primitive, not the product. The hard part is everything around it — what gets written down in the first place, how it gets enriched and linked, what gets promoted to hot memory versus filed as cold reference, and who arbitrates when two facts disagree. His summary is the useful inversion: "Retrieval is easy. Being worth retrieving from is the product."

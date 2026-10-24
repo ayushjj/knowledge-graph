@@ -6,6 +6,7 @@ source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbin
 source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
 date: 2026-04-09
 domain: ai
+kind: "principle"
 ---
 
 Eval suites shouldn't grow monotonically — spring cleaning is good. Regularly assessing whether an eval is still useful given more intelligent models or different desired agent behaviors is essential maintenance. Evals that every model already passes (saturated) waste compute; evals that test for behaviors you no longer want exert the wrong [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]].

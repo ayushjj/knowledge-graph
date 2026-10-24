@@ -6,6 +6,7 @@ source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytic
 source_file: sources/izzymiller-hex-building-ai-agents-data.md
 date: 2026-04-10
 domain: "ai"
+kind: "principle"
 ---
 
 "On day zero, Claude with a Snowflake connector is probably just as good. But by day 90, you're operating in a totally different ballgame." Hex's competitive moat is not point-in-time capability — it's the compounding flywheel: user work → artifacts accumulate → admin observability surfaces patterns → guides and semantic models improve → agent gets better → more user work. This flywheel gets stronger over time and is hard to replicate because it requires both time and active usage.

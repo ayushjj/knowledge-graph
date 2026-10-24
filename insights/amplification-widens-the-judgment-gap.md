@@ -5,6 +5,7 @@ topics: [decision-making]
 source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
 date: 2026-03-30
 domain: "mental-models"
+kind: "principle"
 ---
 
 AI amplifies whatever you point it at. Strong teams with clear strategies get faster and more focused on what matters. Weak teams with vague strategies get noisier and more distracted. The gap does not close. It widens. Clear thinking compounds. Confused thinking unravels.

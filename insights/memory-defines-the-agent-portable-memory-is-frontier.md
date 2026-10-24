@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnes
 source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Harrison Chase reframes what an agent fundamentally is: "The memory of the agent defines the agent... you could zip up the agent files and say hey this zip file of markdown files IS the agent."

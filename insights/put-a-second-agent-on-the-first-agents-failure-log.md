@@ -6,6 +6,7 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "practice"
 ---
 
 YC holds data on 7,000 companies, 20,000 founders and hundreds of thousands of applications, and built an English-to-SQL agent over it a year or two ago. Blomfield describes that first agent as merely useful — it made him perhaps 10-20% more productive and saved hiring a data analyst — and it kept hitting edge cases, permission issues, and missing database indexes. The change he calls a "head explosion moment" was a *second* agent layered on top: it runs overnight, reads every query a human ran that day, sorts them into successes and failures, and opens pull requests fixing the previous day's problems. Run the same query the next morning and it works.

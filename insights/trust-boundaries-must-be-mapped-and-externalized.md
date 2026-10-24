@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
 date: 2026-03-18
 domain: ai
+kind: "principle"
 ---
 
 Right now, the characterization of where an agent's behavior is well-understood and where it is not lives in the heads of the engineers closest to the system. Externalizing this, making it auditable, and connecting it to deployment gates is a product with enterprise value. This parallels how [[observability-is-the-missing-agent-discipline]] calls for telemetry as a first-class concern — trust boundary mapping is the verification equivalent, characterizing not just *what* the system is doing but *where* we can and cannot trust it.

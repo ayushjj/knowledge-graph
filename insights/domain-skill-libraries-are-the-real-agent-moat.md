@@ -5,6 +5,7 @@ topics: [ai-agents, business-models]
 source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
 date: 2026-03-05
 domain: "ai"
+kind: "principle"
 ---
 
 Comparing Claude (14 tools), Microsoft Copilot (2 tools), and Shortcut AI (1 generic `execute_code` tool with a rich TypeScript API) in Excel reveals that core agent infrastructure is replicable: "An elite team can build Claude's 14-tool architecture with auto-verification in a few months." The real competitive advantage lies in domain-specific skill libraries — Shortcut's marketplace of LBO modeling, ASC 805 compliance, and bankruptcy workflows embodies "domain expertise that took years to develop."

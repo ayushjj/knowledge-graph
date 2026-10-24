@@ -6,6 +6,7 @@ source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Ha
 source_file: sources/yoonholee-meta-harness.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 Meta-Harness's key architectural decision: instead of compressing optimization history into brief summaries or sliding windows, it gives the proposer agent a full filesystem containing source code, scores, and execution traces of every prior candidate. The agent navigates this using standard Unix tools (grep, cat) to diagnose failure modes — the same pattern [[agentic-search-beats-rag-for-live-codebases]] describes for code navigation. This approach enabled up to 10 million tokens of context per iteration, versus prior methods' 26K-token maximum.

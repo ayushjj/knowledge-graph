@@ -5,6 +5,7 @@ topics: [decision-making]
 source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
 date: 2026-03-30
 domain: "mental-models"
+kind: "principle"
 ---
 
 For two decades, the binding constraints in software were hiring engineers, writing code, and shipping products. AI is dissolving all three in real time — code is generated, prototypes are instant, iteration is nearly free. But dissolving production constraints doesn't eliminate all constraints. It reveals the one that was always there, hidden behind execution bottlenecks: judgment.

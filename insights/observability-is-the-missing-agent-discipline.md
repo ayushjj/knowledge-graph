@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
 date: 2026-03-16
 domain: "ai"
+kind: "principle"
 ---
 
 Most agent systems are built with zero observability — no token tracking, no error rate dashboards, no cost-per-task visibility. Teams discover problems through user complaints, not telemetry. This is the equivalent of running a web service without logging or metrics — technically possible, but operationally reckless.

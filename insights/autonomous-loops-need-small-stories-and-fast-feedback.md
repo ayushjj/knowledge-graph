@@ -4,6 +4,7 @@ description: "The Ralph pattern ships 13 user stories in 1 hour by decomposing i
 topics: [ai-agents, ai-coding-tools]
 source: "Ryan Carson — Ralph / Autonomous Coding Loop"
 date: 2025-01-15
+kind: "practice"
 ---
 
 The Ralph pattern (originally created by Geoff Huntley, popularized by Ryan Carson) — a bash loop that reads a task list, implements, tests, commits, and repeats — shipped 13 user stories in 1 hour. But the loop itself is trivial. The real insight is what makes it work: stories small enough to fit in one context window, explicit acceptance criteria, and test suites that provide fast binary feedback (pass/fail) — a direct application of why [[verification-multiplies-agent-output-quality]]. But the quality of those test suites matters: [[evaluate-tools-with-real-multi-step-tasks]] shows that toy single-step checks miss the integration flaws that chained, multi-step tasks expose.

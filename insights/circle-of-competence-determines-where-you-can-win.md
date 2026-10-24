@@ -5,6 +5,7 @@ topics: [decision-making, psychology]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 196-200)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger states this as close to a guaranteed prediction as exists: "If you play games where other people have the aptitudes and you don't, you're going to lose." Every person has a circle of competence — partly innate, partly built through work — and "it's going to be very hard to enlarge that circle." Even Munger and Buffett acknowledge their limits: "Warren and I don't feel like we have any great advantage in the high-tech sector. In fact, we feel like we're at a big disadvantage in trying to understand the nature of technical developments in software, computer chips, or what have you. So we tend to avoid that stuff, based on our personal inadequacies."

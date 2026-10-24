@@ -6,6 +6,7 @@ source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-O
 source_file: sources/kevingu-autoagent-self-optimizing-agents.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 AutoAgent discovered that same-model pairings produce better results than cross-model pairings. Claude meta-agent + Claude task agent outperformed Claude meta-agent + GPT task agent. The explanation: the meta-agent writes harnesses the inner model actually understands, because it shares the same weights and knows how that model reasons. They call this "model empathy."

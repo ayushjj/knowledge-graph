@@ -6,6 +6,7 @@ source: "@jaynitx — first principles thinking: how to see what everyone else m
 source_file: sources/jaynitx-first-principles-thinking.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 The author cites Bezos to draw the line between when first-principles thinking is worth its cost and when it isn't: "Some decisions are consequential and irreversible or nearly irreversible. These decisions must be made methodically, carefully, slowly, with great deliberation and consultation. If you walk through and don't like what you see on the other side, you can't get back to where you were before." Those are Type 1 decisions — first-principles territory. Type 2 decisions are reversible: "You can change your mind. For these, go fast. Use analogies."

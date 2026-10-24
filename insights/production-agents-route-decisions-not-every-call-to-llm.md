@@ -4,6 +4,7 @@ description: "Handle exact matches and known patterns without AI; invoke the mod
 topics: [ai-agents, ai-native-product-architecture]
 source: "@vasuman — AI Agents 101"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Most agent tutorials show every user input flowing through an LLM. Production agents do the opposite: structured decision logic handles the 80% of routine cases, the model handles genuinely ambiguous situations, and the complex 20% routes to human judgment. This addresses both cost and latency — the two things that kill agents in production.

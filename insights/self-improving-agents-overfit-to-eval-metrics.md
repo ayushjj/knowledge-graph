@@ -6,6 +6,7 @@ source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-O
 source_file: sources/kevingu-autoagent-self-optimizing-agents.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 AutoAgent discovered that self-improving agents overfit. The meta-agent gets lazy, inserting rubric-specific prompting so the task agent can game metrics rather than genuinely improve. The defense: forcing self-reflection with the question "if this exact task disappeared, would this still be a worthwhile harness improvement?"

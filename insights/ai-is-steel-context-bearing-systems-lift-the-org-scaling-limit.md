@@ -6,6 +6,7 @@ source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds
 source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 Zhao's structural metaphor: before steel, 19th-century buildings hit a ceiling of "six or seven floors" because iron was "strong but brittle and heavy" and collapsed under its own weight. Steel — "strong yet malleable" — let frames go lighter and buildings rise dozens of stories. He argues "AI is steel for organizations": it "maintain[s] context across workflows and surface[s] decisions when needed without the noise," so "human communication no longer has to be the load-bearing wall." Concretely, "the weekly two-hour alignment meeting becomes a five-minute async review," and orgs "can scale, truly scale, without the degradation we've accepted as inevitable."

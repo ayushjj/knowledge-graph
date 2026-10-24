@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
 source_file: "sources/hwchase17-your-harness-your-memory.md"
 date: 2026-04-12
 domain: ai
+kind: "principle"
 ---
 
 Chase argues that switching model providers has been easy precisely because providers are stateless — "you have to change prompts a little bit, but that's not that hard." The moment state is associated with an agent, switching becomes costly, because memory is what makes the agent personalized to a user's preferences, tone, and usage patterns. Without memory, "your agents are easily replicable by anyone who has access to the same tools." The article's personal anecdote — Chase's internal email assistant was accidentally deleted, and recreating it from the same template produced a much worse experience because the accumulated memory was gone — is the stickiness argument in concrete form.

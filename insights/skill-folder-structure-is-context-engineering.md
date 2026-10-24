@@ -5,6 +5,7 @@ topics: [knowledge-systems, ai-agents]
 source: "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills"
 date: 2026-03-18
 domain: ai
+kind: "principle"
 ---
 
 The most common misconception about agent skills is that they are "just markdown files." In practice, a skill is a folder that can include scripts, assets, data, and reference documents that the agent discovers and reads at appropriate times. This reframes the file system itself as a [[skill-graphs-enable-progressive-disclosure]] mechanism — you split detailed API signatures into `references/api.md`, output templates into `assets/`, and helper libraries into `scripts/`, and the agent navigates this structure progressively rather than loading everything upfront.

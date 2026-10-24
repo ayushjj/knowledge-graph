@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI"
 source_file: sources/jayagup10-organizational-shape-is-the-moat.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Gupta singles out one denomination as uniquely toxic among the levers companies use to retain ambitious people: "While there are many different levers for employees like ownership and compensation, the most dangerous promises are denominated in time. Over time, this will become bigger. Over time, you will own more. Over time, the structure will catch up. However, time does not announce itself as it leaves. You arrive at a later version of your life and realize the future-tense promise never came to be (unless it does)." The failure mode is not that the company lies — it's that there is no surfaced moment when the promise's expiration becomes legible.

@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
 source_file: "sources/thariq-field-guide-to-fable.md"
 date: 2026-07-09
 domain: ai
+kind: "thinking-tool"
 ---
 
 Thariq Shihipar names the failure mode behind "the agent did something I didn't want" precisely: "the plan and prompt and spec that I have in my mind is the map... but the territory is the actual codebase, the real world, the constraints that Claude needs to navigate... whenever Claude runs into something in the territory that's not in the map, I call that an unknown" — a decision point the human never specified, which the agent now has to resolve unassisted. What makes Fable-class models different is scale of exposure: "Fable is one of the first models where I felt that I really have to figure out my unknowns, because if not, it's going to traverse such a large area that it's going to run into a lot of them." A more capable, more autonomous agent doesn't reduce the number of unknowns in a plan — it multiplies how many of them actually get exercised, because it covers more territory per session.

@@ -14,7 +14,7 @@ const insights = defineCollection({
     domain: z.string().default('ai'),
     // Allowed values are defined in lib/kind.js; validate-graph.js Check 9 enforces the
     // bet <-> bet_date rule and that this frontmatter matches graph-index.yaml.
-    kind: z.enum(['thinking-tool', 'principle', 'practice', 'bet']).optional(),
+    kind: z.enum(['thinking-tool', 'principle', 'practice', 'bet']),
     bet_date: z.coerce.date().optional(),
   }),
 });

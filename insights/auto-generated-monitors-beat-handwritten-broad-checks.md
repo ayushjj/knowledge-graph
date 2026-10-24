@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
 date: 2026-03-24
 domain: "ai"
+kind: "practice"
 ---
 
 Ramp scaled from 10 hand-written monitors to 1,000+ AI-generated ones — each shaped to a specific code path introduced by a specific PR. The result was "like a tight mesh over the exact shape of the code," catching one real bug per 75 lines in the first week. The key architectural move: on PR merge, an agent reads the diff and generates monitors tailored to the new code, so the monitoring surface grows with the codebase automatically.

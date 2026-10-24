@@ -5,6 +5,7 @@ topics: [business-models, future-of-ai-business]
 source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
 date: 2026-03-16
 domain: "ai"
+kind: "principle"
 ---
 
 Bustamante identifies the accuracy cliff that kills AI products: "the gap between 80% and 99% accuracy is often infinite in practice." The first 80% is achievable with a good model, reasonable prompts, and a compelling demo. The last 19% requires edge-case engineering, domain-specific guardrails, human-in-the-loop escalation, robust error handling, and production telemetry — fundamentally different work than what got you to the demo.

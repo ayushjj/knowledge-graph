@@ -4,6 +4,7 @@ description: "Designing effective agent tools requires iterating by watching act
 topics: [ai-agents, ai-coding-tools]
 source: "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code"
 date: 2026-02-28
+kind: "practice"
 ---
 
 "Experiment often, read your outputs, try new things. See like an agent." — Thariq

@@ -5,6 +5,7 @@ topics: [future-of-ai-business, ai-native-product-architecture]
 source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
 date: 2026-03-18
 domain: ai
+kind: "principle"
 ---
 
 The intuitive assumption is that better models will eventually solve the verification problem. The reality is the opposite: more capable models expand the deployment surface and increase the stakes of the verification gap, making the infrastructure more valuable, not less. Verification infrastructure sits permanently between AI and production and does not get displaced when the next model drops — unlike [[harness-quality-beats-model-intelligence]] which focuses on the harness *around* a single agent, verification infrastructure operates across the entire deployment boundary.

@@ -4,6 +4,7 @@ description: "When a human's agent consistently performs well, other team member
 topics: [ai-agents, future-of-ai-business]
 source: "@danshipper (Dan Shipper) — 'What personal software actually is' (tweet thread)"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Shipper's Deputy model implies a social mechanism for agent adoption: trust is first earned by the agent through daily performance with its operator, then transfers socially to colleagues through the operator's credibility. When colleagues see that your agent handles tasks reliably, they start depending on it — inheriting trust from you. This mirrors how [[agents-become-the-buyer]] works at the organizational level, but at the interpersonal level.

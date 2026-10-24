@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Hor
 source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Harrison Chase identifies the pattern that makes long-horizon agents practically useful today: "If you can find these framings where they run for a long period of time but produce like a first draft of something, those to me are the killer applications of long horizon agents right now."

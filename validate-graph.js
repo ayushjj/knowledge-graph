@@ -209,7 +209,7 @@ if (unknown.length === 0) {
 // Values are closed (lib/kind.js): an unknown kind fails, a bet without bet_date fails, a
 // bet_date on a non-bet fails. The frontmatter (what the site shows) must match the yaml
 // mirror (what agents read), so the two cannot disagree about what an insight is.
-const REQUIRE_KIND = false;
+const REQUIRE_KIND = true;   // every insight labelled 2026-10-24
 const frontmatterRe = /^---\r?\n([\s\S]*?)\r?\n---/;
 const kindProblems = [];
 

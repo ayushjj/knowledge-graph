@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
 date: 2026-03-24
 domain: "ai"
+kind: "principle"
 ---
 
 Ramp's self-maintaining system watches every signal — 1,000+ auto-generated monitors covering new code on every PR merge — but applies aggressive filtering before anything reaches a human. An agent triages each alert, assesses scope, and only notifies when the issue is real and impactful. Noise gets silently handled: the monitor is tuned or deleted, with state stored on the monitor itself (PR link appended) to prevent duplicate alerts.

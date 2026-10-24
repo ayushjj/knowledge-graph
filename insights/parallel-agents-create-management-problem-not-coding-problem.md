@@ -4,6 +4,7 @@ description: "When AI agents can work on multiple projects simultaneously, the b
 topics: [ai-coding-tools, ai-agents]
 source: "Learning Technical Concepts chat — discussion of parallel agent workflows"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The emerging problem is clear: with AI coding agents, you're no longer working on one project at a time. You have Claude Code running on Project A in one terminal, checking Project B in another, while Project C finishes in the background. The old mental model of "everything open relates to what I'm working on" breaks completely. The challenge isn't getting the agent to write code — it's managing which agent is working on what, when to context-switch your own attention, and how to review multiple streams of output.

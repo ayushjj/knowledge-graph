@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had"
 source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
 date: 2026-04-03
 domain: ai
+kind: "principle"
 ---
 
 An agent drafts a pricing proposal; the sales rep adjusts the discount from 25% to 30% and adds a note about competitive pressure. That edit is a decision trace. The model's proposal is a structured prior — what the system thought was right. The human's modification is the judgment signal — what actually matters that the model missed.

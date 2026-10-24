@@ -4,6 +4,7 @@ description: "React + Node + TypeScript + Postgres + Redis scales to $1M ARR wit
 topics: [ai-native-product-architecture, ai-coding-tools]
 source: "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)"
 date: 2025-01-29
+kind: "principle"
 ---
 
 Byatnal's Extend hit $1M+ ARR with 3 engineers on the most boring possible stack: React, Node, TypeScript, Postgres, Redis. Core stack unchanged through 2.5 years of growth. The counterintuitive insight: this simplicity is a competitive advantage specifically because AI coding assistants work better with standard, well-documented technologies.

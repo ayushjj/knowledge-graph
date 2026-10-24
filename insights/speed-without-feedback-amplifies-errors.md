@@ -5,6 +5,7 @@ topics: [engineering, decision-making]
 source: "Mario Zechner — Thoughts on Slowing the Fuck Down"
 date: 2026-03-30
 domain: "mental-models"
+kind: "principle"
 ---
 
 Any system that increases output speed without proportional error-correction feedback will compound errors at scale. Humans serve as natural bottlenecks: they make mistakes, feel consequences, and modify behavior. This negative feedback loop limits the daily rate of errors to something sustainable. Agents lack this mechanism entirely — they perpetuate identical errors indefinitely, and orchestrated agent armies generate mistakes at rates where consequences surface long after the damage is done.

@@ -4,6 +4,7 @@ description: "Chrome's MCP integration lets websites expose structured tools to 
 topics: [ai-agents, ai-native-product-architecture]
 source: "Chrome for Developers — WebMCP announcement (https://developer.chrome.com/blog/web-mcp)"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Today's browser agents work by screenshotting pages, reading HTML, and guessing which elements are buttons — essentially screen-scraping with extra steps. WebMCP flips this: websites expose structured tools directly via `navigator.modelContext.registerTool()`, telling agents exactly what actions are available and what parameters they accept. Instead of guessing "this looks like a search box," the agent knows "call searchFlights(from, to, date)."

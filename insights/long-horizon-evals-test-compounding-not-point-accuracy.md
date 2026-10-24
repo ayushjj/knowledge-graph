@@ -6,6 +6,7 @@ source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytic
 source_file: sources/izzymiller-hex-building-ai-agents-data.md
 date: 2026-04-10
 domain: "ai"
+kind: "principle"
 ---
 
 Izzy Miller is building "Metric City" — a long-horizon eval benchmark with a fake company (Shorelane Commerce) that simulates 90 days of operations: daily data changes, incoming tickets, and the agent accumulating knowledge. Day 0 accuracy: ~4%. Day 90 with Sonnet 4.6: 24% (target: 100% if the agent demonstrates ideal compounding behavior). Plans to open-source it.

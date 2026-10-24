@@ -5,6 +5,7 @@ topics: [ai-agents, decision-making]
 source: "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)"
 date: 2026-03-17
 domain: "ai"
+kind: "principle"
 ---
 
 In any iterative optimization loop, improving one metric risks silently degrading another. Karpathy's Autoresearch verifies val_bpb after every experiment, but the original design has no mechanism to check whether VRAM usage exploded or code complexity ballooned. The guard command pattern — a separate invariant check that runs alongside the primary metric — makes these shadow regressions visible before they compound.

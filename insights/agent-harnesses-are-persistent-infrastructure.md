@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
 source_file: "sources/hwchase17-your-harness-your-memory.md"
 date: 2026-04-12
 domain: ai
+kind: "principle"
 ---
 
 A common sentiment holds that stronger models will absorb the scaffolding around them, eventually making harnesses obsolete. Harrison Chase argues the opposite: the scaffolding needed in 2023 (RAG chains, LangGraph flows) has been replaced, not eliminated — by agent harnesses like Claude Code, Deep Agents, Codex, OpenCode, and Letta Code. The concrete evidence is that Claude Code's leaked source code weighs 512k lines; even the makers of the best model in the world invest heavily in harness engineering. Web search "built into" OpenAI and Anthropic APIs is itself just a lightweight harness doing tool calling behind the curtain.

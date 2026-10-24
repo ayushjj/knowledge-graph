@@ -6,6 +6,7 @@ source: "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-O
 source_file: sources/kevingu-autoagent-self-optimizing-agents.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 AutoAgent found that when the meta-agent received only scores without trajectories, its improvement rate dropped hard. Understanding why something improved matters as much as knowing that it improved. Traces give the meta-agent interpretability over the task agent's reasoning — that is what makes targeted edits possible rather than blind grid search.

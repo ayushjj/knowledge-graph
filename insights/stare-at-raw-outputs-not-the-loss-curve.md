@@ -6,6 +6,7 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "practice"
 ---
 
 Vivek's warning: "a descending loss curve is not analysis, it's reassurance. your experiments throw off far more information than you consume: transcripts, failure cases, the strange tail of the distribution. most of it dies unread in a logs folder." Karpathy's recipe "starts before any training code gets written, with hours spent on the raw data by hand," because "most ml bugs live in the data, and they fail silently. nothing crashes. you simply get a mediocre model and a wrong theory about why." Andrew Ng's decade-old move still wins: "pull a hundred failures, read all of them, sort them into piles, attack the biggest pile" — and it applies to evals too, where "a benchmark you've never read transcripts from is a benchmark you don't actually understand."

@@ -6,6 +6,7 @@ source: "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Ha
 source_file: sources/yoonholee-meta-harness.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 A single evolved retrieval harness, optimized on one model for IMO-level math problems, improved performance by an average of 4.7 percentage points (34.1% to 38.8%) across five completely different held-out models. The harness was never trained on these models — it transferred directly.

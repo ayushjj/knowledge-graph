@@ -4,6 +4,7 @@ description: "Anyone can call the API — differentiation comes from the data yo
 topics: [ai-native-product-architecture, business-models]
 source: "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The model is not your product. The experience around the model is your product. Anyone can call Claude or GPT — the API is the same for everyone. Your differentiation is the data you have access to, the skills you've built, the UX you've designed, the reliability you've engineered, and how well you know the industry.

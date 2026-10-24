@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Tan's sharpest claim is that a skill file is not a document but "a piece of your cognition, how you do the thing, extracted from your head, written down, and executable." He runs it through a deliberately ordinary fictional case: a support engineer, Maya, who over two years teaches her agents 40 skills — triaging a P0 at 2am, de-escalating a customer about to churn, writing a postmortem that actually prevents the next incident. Same forty files, two opposite futures. In her repo, she changes jobs and arrives on day one with years of compounded judgment on tap. In the company's repo under the company's IT policy, she leaves with nothing while the company keeps running her judgment without her, her name not even in the commit history: "She didn't have a career, she had an extraction."

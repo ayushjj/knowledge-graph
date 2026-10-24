@@ -6,6 +6,7 @@ source: "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Ha
 source_file: sources/aparnadhinak-data-architectures-tracing.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Harvey's data architecture makes a sharp distinction: evaluations are assessments OF your traces, not a parallel dataset. They should augment the data directly so you can slice results by customer segment, agent version, or time window at scale. When a domain expert marks a false positive or edits a label, that correction must land on the trace data itself — not in a sidecar system.

@@ -5,6 +5,7 @@ topics: [business-models, ai-native-product-architecture]
 source: "Nikunj Kothari — Revealed Preferences"
 date: 2026-03-16
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Economists have known since Samuelson (1938) that what people do diverges from what they say. In AI products, this gap is amplified: users say they want "more control" but skip configuration screens; they say accuracy matters most but tolerate errors when speed improves; they claim to read documentation but engagement data shows they don't. Building on stated preferences produces features nobody uses.

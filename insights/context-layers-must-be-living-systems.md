@@ -5,6 +5,7 @@ topics: [ai-native-product-architecture, ai-agents]
 source: "@jasonscui — Your Data Agents Need Context, a16z"
 date: 2026-03-11
 domain: "ai"
+kind: "principle"
 ---
 
 A cautionary pattern from the article: semantic layer YAML files were last updated by a data team member who left the company, are no longer used by BI tools, and don't include two new product lines launched since. Static context rots. Data systems are never static, and the context layer shouldn't be either — data sources change upstream, business requirements evolve, and agents encounter novel situations that expose gaps.

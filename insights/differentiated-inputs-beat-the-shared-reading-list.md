@@ -6,6 +6,7 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Vivek's input thesis is blunt: "shared reading lists produce shared ideas. if your information diet is the trending page of arxiv plus whatever survives the group chat filter, you will reliably reach the same conclusions as everyone else, at the same time, which makes those conclusions worth approximately nothing." The arbitrage is in what others skip — "old material is criminally underpriced" (mixture of experts dates to 1991, LSTMs to 1997, Sutton's bitter lesson "predicts the shape of the field better than surveys ten times its length"), and in range: "interpretability borrows shamelessly from neuroscience. eval design is mechanism design wearing a lab coat." He adds a fidelity rule: "read the paper itself, not the thread summarizing it. the appendix is where the bodies are buried, and the limitations section is usually the most honest paragraph."

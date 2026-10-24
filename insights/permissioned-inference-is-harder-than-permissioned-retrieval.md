@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had"
 source_file: sources/jayagup10-trillion-dollar-loop-b2b.md
 date: 2026-04-03
 domain: ai
+kind: "principle"
 ---
 
 Enterprise decision traces are too sensitive for ordinary access controls. A law firm cannot let one client's precedent quietly shape reasoning for a competitor. A healthcare organization cannot allow operational history to leak through abstraction. The companies that solve this earn trust that compounds just as surely as the data itself.

@@ -5,6 +5,7 @@ topics: [ai-agents, ai-coding-tools]
 source: "@RampLabs — How We Made Ramp Sheets Self-Maintaining"
 date: 2026-03-24
 domain: "ai"
+kind: "principle"
 ---
 
 Ramp's first self-maintenance approach was a nightly agent running QA passes — sanity-testing core features, stress-testing recent PRs, probing for latent bugs. The limitation: the agent always followed the same paths. It was good at high-radius issues (things that affect many paths) but consistently missed narrow, situational bugs. This path dependency is an emergent property of unfocused agents — given a broad mandate, they converge on the same exploration strategy each run.

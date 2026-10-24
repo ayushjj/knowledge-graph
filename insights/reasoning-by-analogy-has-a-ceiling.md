@@ -6,6 +6,7 @@ source: "@jaynitx — first principles thinking: how to see what everyone else m
 source_file: sources/jaynitx-first-principles-thinking.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 The author defines the choice plainly: "Reasoning by analogy means looking at what exists and copying it. 'This worked for them, so it'll work for me.' 'This is how it's always been done.' 'Everyone does X, so X must be right.' Analogy is faster. Easier. Less mentally taxing. But it has a ceiling. You can never get beyond what already exists by copying what already exists." This is the structural limit: the entire space of solutions reachable by analogy is the space of solutions that already exist, so any breakthrough requires a different mode.

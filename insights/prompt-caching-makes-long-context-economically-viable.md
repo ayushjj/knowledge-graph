@@ -4,6 +4,7 @@ description: "Prefix-matching cache enables 80%+ cost reduction for multi-turn c
 topics: [ai-native-product-architecture, ai-coding-tools]
 source: "Anthropic documentation — Prompt Caching"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Without caching, every turn in a conversation resends the entire context — system prompts, conversation history, tool definitions — at full price. Prompt caching stores processed prefix tokens so subsequent requests reuse them at ~90% discount. The critical constraint is the prefix matching rule: cache hits only work when the beginning of the request is identical. Change anything in the middle and the cache breaks.

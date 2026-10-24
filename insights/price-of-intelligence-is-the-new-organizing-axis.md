@@ -6,6 +6,8 @@ source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
 source_file: "sources/jayagup10-who-sets-price-of-intelligence.md"
 date: 2026-06-15
 domain: "ai"
+kind: "bet"
+bet_date: 2026-06-15
 ---
 
 Gupta's framing inverts where we usually put cost: "The cost of intelligence is no longer an input to software, but rather is becoming the axis around which companies, markets, and geopolitics reorganize." Three constituencies fight over who sets that price — labs ("want usage to run through them"), applications ("want to prove they can allocate intelligence better than the labs"), and countries ("want intelligence cheap enough to become national infrastructure"). DeepSeek, in this reading, "was more than a model release... it was a shot in the war over who gets to set the price of intelligence." The geopolitical version resolves to a two-variable balance: the country that wins is the one that makes intelligence "both safe enough to trust and cheap enough to spread," not the one that regulates or releases the most.

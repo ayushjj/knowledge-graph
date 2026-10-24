@@ -5,6 +5,7 @@ topics: [future-of-ai-business, business-models]
 source: "@nicbstme — The Crumbling Workflow Moat: Aggregation Theory's Final Chapter"
 date: 2026-03-05
 domain: "ai"
+kind: "principle"
 ---
 
 Three layers historically protected software suppliers: discovery (commoditized by Google), interface (proprietary UIs with years of learned muscle memory), and data. LLMs collapse the interface layer entirely — users never see supplier brands, interfaces, or origins when querying through an LLM. The web becomes "a backend database" and supplier competition reduces to pure data quality and API accessibility.

@@ -4,6 +4,7 @@ description: "Reading category summaries first, then drilling to items, then raw
 topics: [ai-native-product-architecture, knowledge-systems]
 source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
 date: 2026-01-24
+kind: "principle"
 ---
 
 The naive approach to memory retrieval dumps everything potentially relevant into the prompt. The smarter approach uses tiered retrieval: pull category summaries first, ask the LLM "is this enough?", and only drill down to atomic facts or raw resources if the summary is insufficient. Each tier is progressively more detailed and more expensive in tokens.

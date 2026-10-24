@@ -6,6 +6,7 @@ source: "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?"
 source_file: "sources/jayagup10-who-sets-price-of-intelligence.md"
 date: 2026-06-15
 domain: "ai"
+kind: "principle"
 ---
 
 Gupta makes deployment a strategic variable rather than a fixed assumption: "the value will not all accrue to the cloud. If cost matters, inference will move to wherever it can be done cheapest without breaking the product: cloud for frontier reasoning, edge for latency, on-device for privacy and personalization, hybrid for workflows that need all three." The reason privacy weighs more than in SaaS is that "the model is not just storing data; it is reasoning over the user's context, memory, documents, voice, code, behavior, and enterprise permissions." Her conclusion is sharp: "Where inference happens determines who captures the margin, who owns the context, and who the customer trusts."

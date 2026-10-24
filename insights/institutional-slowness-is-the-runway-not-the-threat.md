@@ -6,6 +6,8 @@ source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish 
 source_file: "sources/garry-tan-a16z-new-rules-for-founders.md"
 date: 2026-08-21
 domain: "ai"
+kind: "bet"
+bet_date: 2026-08-21
 ---
 
 Asked whether the remaining problems are intelligence-bound, Tan says "it's all human — humans are the ones who are going to slow this down," then reframes that as good news. Against a discourse he characterizes as "all white-collar jobs are going to go away, there's going to be a permanent underclass," he argues the opposite: "all of the bureaucracy and the slowness and the seven plus or minus two of like every company, every institution, every organization, all the middle managers in the world — that is actually the white pill." His estimate is explicit: "it's going to be 20 years and that's not a bad thing. That's actually a good thing. Society is way slower than you think. Government is way slower than you think. Every company in the world is way slower than you think."

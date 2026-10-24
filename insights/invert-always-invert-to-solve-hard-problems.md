@@ -5,6 +5,7 @@ topics: [decision-making, mathematics]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger lists "thinking in reverse" as one of his five most powerful problem-solving techniques, citing the algebraist Carl Jacobi who "so often said, 'Invert, always invert.'" Many problems that seem intractable when approached forward become obvious when inverted. The Pythagoreans proved the square root of two was irrational by thinking in reverse. The rustic "wanted to know where he was going to die so that he'd never go there."

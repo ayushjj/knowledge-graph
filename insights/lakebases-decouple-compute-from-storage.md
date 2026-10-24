@@ -4,6 +4,8 @@ description: "Third-generation databases separate compute and storage entirely, 
 topics: [ai-native-product-architecture]
 source: "Databricks — What Is a Lakebase"
 date: 2026-02-28
+kind: "bet"
+bet_date: 2026-02-28
 ---
 
 Traditional databases bundle compute and storage together — a monolithic architecture that means, rigid provisioning, proprietary formats, constant specialist oversight.

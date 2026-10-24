@@ -5,6 +5,7 @@ topics: [psychology, engineering]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger argues that "people who create things like cash registers, which make dishonest behavior hard to accomplish, are some of the effective saints of our civilization." The pattern repeats across his examples: Federal Express couldn't get its night shift to work fast enough through "moral suasion" or "everything in the world" — but when they switched from paying by the hour to paying per shift (go home when planes are loaded), "lo and behold, that solution worked." Patterson's cash register invention came from personal experience — "his employees were stealing him blind" until the register made theft mechanically difficult. Westinghouse's accounting disaster shows the inverse: when the system *enabled* bad behavior (accounting that showed high starting income on risky loans), even well-meaning lending officers drifted into reckless decisions.

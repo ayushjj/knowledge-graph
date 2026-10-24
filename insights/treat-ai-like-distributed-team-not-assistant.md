@@ -4,6 +4,7 @@ description: "Running 15 parallel Claude streams with specialized roles (writer,
 topics: [ai-coding-tools, ai-agents]
 source: "Boris Cherny — How I Use Claude Code"
 date: 2025-01-13
+kind: "practice"
 ---
 
 Cherny runs 5 Claude instances in terminal, 5-10 on claude.ai in browser — 15 parallel streams simultaneously, each with a different task. This isn't multitasking for efficiency; it's a mental model shift. (Note: the "distributed team" framing is editorial — Cherny describes the workflow patterns, and this insight synthesizes them into a team metaphor.)

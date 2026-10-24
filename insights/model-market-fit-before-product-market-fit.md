@@ -4,6 +4,7 @@ description: "AI startups need a prerequisite layer beneath PMF: the capability 
 topics: [business-models, future-of-ai-business]
 source: "@nicbstme (Nicolas Bustamante) — Model-Market Fit"
 date: 2026-02-28
+kind: "principle"
 ---
 
 Andreessen's 2007 principle — "market matters most" — still holds, but AI introduces a new variable: model capability. A great market only pulls product out of a startup when the underlying model can actually perform the required task. Without model-market fit, no amount of excellent design or strategy drives adoption.

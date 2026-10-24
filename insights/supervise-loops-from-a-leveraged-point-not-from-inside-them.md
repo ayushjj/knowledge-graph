@@ -6,6 +6,7 @@ source: "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds
 source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
 date: 2026-06-01
 domain: ai
+kind: "principle"
 ---
 
 Zhao challenges the reflexive "human-in-the-loop" virtue: programming agents "taught us that having a 'human-in-the-loop' isn't always desirable. It's like having someone personally inspect every bolt on a factory line, or walk in front of a car to clear the road" — a reference to Britain's 1865 Red Flag Act, which required a flag bearer to walk ahead of every motor vehicle. "We want humans to supervise the loops from a leveraged point, not be in them."

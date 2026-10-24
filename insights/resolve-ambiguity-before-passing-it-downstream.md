@@ -5,6 +5,7 @@ topics: [engineering, decision-making]
 source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
 domain: mental-models
 date: 2026-03-25
+kind: "practice"
 ---
 
 Clay's communication principle: **don't pass on ambiguity.** Ask the next question, suggest a path forward, or take a first pass. The person who encounters ambiguity first is best positioned to resolve it — forwarding it only multiplies the confusion.

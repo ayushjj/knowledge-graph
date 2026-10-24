@@ -6,6 +6,7 @@ source: "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ system
 source_file: specs/knowledge-graph-architectures/research.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Pal's most important architectural claim, confirmed across multiple systems: **vector similarity search flattens everything into the same embedding space, losing the native query affordances of each data source**. SQL is excellent at filtering, aggregating, and joining structured data. File systems are excellent at hierarchical browsing and pattern matching. Wikis are excellent at following cross-references. Embedding all of these into vectors and searching by cosine similarity discards what each format is naturally good at.

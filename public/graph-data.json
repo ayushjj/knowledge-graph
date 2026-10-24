@@ -11,7 +11,8 @@
       "source": "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agent-inputs-could-compile-to-one-checkable-execution-plan",
@@ -24,7 +25,9 @@
       "source": "@tobi (tobi lutke) — MCP vs CLI for LLMs is the wrong discussion",
       "color": "#6366f1",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-10-24"
     },
     {
       "id": "durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives",
@@ -37,7 +40,8 @@
       "source": "@tobi (tobi lutke) — Excellent code mode env (stencil-hq/dquickts README)",
       "color": "#6366f1",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "choose-problems-backward-from-an-outcome-you-want",
@@ -50,7 +54,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
       "degree": 9,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "taste-is-a-muscle-trained-by-forecasting",
@@ -63,7 +68,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "differentiated-inputs-beat-the-shared-reading-list",
@@ -76,7 +82,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
       "degree": 5,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "writing-is-the-cheapest-defense-against-fooling-yourself",
@@ -89,7 +96,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#f43f5e",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "clear-explanation-is-a-contribution-and-a-credential",
@@ -102,7 +110,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#f43f5e",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "research-speed-is-the-rate-you-discover-youre-wrong",
@@ -115,7 +124,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#06b6d4",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "engineering-and-research-have-fused-at-the-frontier",
@@ -128,7 +138,9 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#06b6d4",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-06-15"
     },
     {
       "id": "stare-at-raw-outputs-not-the-loss-curve",
@@ -141,7 +153,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "wander-across-subfields-before-you-settle",
@@ -154,7 +167,8 @@
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#eab308",
       "degree": 5,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "price-of-intelligence-is-the-new-organizing-axis",
@@ -167,7 +181,9 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#f59e0b",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-06-15"
     },
     {
       "id": "ai-strategy-is-a-self-rewriting-equation",
@@ -180,7 +196,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#f59e0b",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "layer-migration-is-the-real-threat-not-competition",
@@ -193,7 +210,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#f59e0b",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "inference-time-compute-makes-cost-per-outcome-a-choice",
@@ -206,7 +224,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#8b5cf6",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "task-horizon-breaks-seat-based-pricing",
@@ -219,7 +238,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#10b981",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "where-inference-runs-decides-margin-context-and-trust",
@@ -232,7 +252,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "building-in-ai-is-running-a-trading-book",
@@ -245,7 +266,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — Who will set price / intelligence?",
       "color": "#eab308",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "human-capital-and-token-capital-compound-together",
@@ -258,7 +280,8 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#f59e0b",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "offload-the-task-but-never-the-learning",
@@ -271,7 +294,8 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#f59e0b",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "model-portability-is-the-sovereignty-test",
@@ -284,7 +308,8 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "private-evals-measure-business-outcomes-not-benchmarks",
@@ -297,7 +322,8 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "the-learning-loop-is-the-firms-new-ip-and-it-compounds",
@@ -310,7 +336,8 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#f59e0b",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "a-frontier-without-an-ecosystem-is-not-stable",
@@ -323,7 +350,9 @@
       "source": "@satyanadella (Satya Nadella) — A frontier without an ecosystem is not stable",
       "color": "#f59e0b",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-06-15"
     },
     {
       "id": "reorganize-around-agents-dont-bolt-them-onto-old-workflows",
@@ -336,7 +365,8 @@
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
       "degree": 14,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "new-tech-first-imitates-the-medium-it-replaces",
@@ -349,7 +379,8 @@
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "ai-erases-the-api-line",
@@ -362,7 +393,9 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
       "color": "#8b5cf6",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-08-21"
     },
     {
       "id": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
@@ -375,7 +408,8 @@
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "supervise-loops-from-a-leveraged-point-not-from-inside-them",
@@ -388,7 +422,8 @@
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#6366f1",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "system-of-work-is-the-moat-not-the-model",
@@ -401,7 +436,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#f59e0b",
       "degree": 15,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "capability-curve-decides-which-work-the-labs-take",
@@ -414,7 +450,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#f59e0b",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "vertical-workflow-surfaces-capture-knowledge-horizontal-tools-cant",
@@ -427,7 +464,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "operate-across-the-whole-model-market-not-just-one-lab",
@@ -440,7 +478,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "guardrails-are-the-product-customers-pay-for",
@@ -453,7 +492,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agentic-workflows-encode-intelligence-the-model-cant-read",
@@ -466,7 +506,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it",
@@ -479,7 +520,8 @@
       "source": "@joeschmidtiv (Joe Schmidt IV, a16z) — Avoiding Death on the Yellow Brick Road",
       "color": "#10b981",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "experience-times-agent-multiplier-favors-veteran-founders",
@@ -492,7 +534,9 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
       "color": "#f59e0b",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-08-21"
     },
     {
       "id": "features-are-prompts-not-code",
@@ -505,7 +549,8 @@
       "source": "@danshipper — Agent-Native Architectures (co-authored with Claude)",
       "color": "#6366f1",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "files-are-the-universal-agent-interface",
@@ -518,7 +563,8 @@
       "source": "@danshipper + @nicbstme — Agent-Native Architectures + Fintool",
       "color": "#8b5cf6",
       "degree": 19,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "technical-knowledge-becomes-liability",
@@ -531,7 +577,8 @@
       "source": "@WorkflowWhisper (Alton Syn) — tweets on n8n and automation gap closing",
       "color": "#06b6d4",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-learning-spans-agent-tenant-and-org-levels",
@@ -544,7 +591,8 @@
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "compression-is-a-forking-lifecycle-event-not-a-rewrite",
@@ -557,7 +605,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "separate-tool-registration-from-tool-exposure",
@@ -570,7 +619,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "sessions-are-runtime-infrastructure-not-just-transcripts",
@@ -583,7 +633,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "order-system-prompt-by-volatility-for-cache-reuse",
@@ -596,7 +647,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "delegation-is-not-orchestration",
@@ -609,7 +661,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "unattended-jobs-need-the-same-permission-machinery-as-interactive",
@@ -622,7 +675,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "enforcement-must-run-independently-of-model-cooperation",
@@ -635,7 +689,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-centralization-is-why-coding-ai-works",
@@ -648,7 +703,8 @@
       "source": "@businessbarista (Alex Lieberman) quoting @da_fant (David Fant)",
       "color": "#f43f5e",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-is-the-product-not-the-model",
@@ -661,7 +717,8 @@
       "source": "@nicbstme (Nicolas Bustamante) — Lessons from Building AI Agents for Financial Services",
       "color": "#8b5cf6",
       "degree": 39,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "skills-as-markdown-replace-fine-tuning",
@@ -674,7 +731,9 @@
       "source": "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services",
       "color": "#6366f1",
       "degree": 14,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-24"
     },
     {
       "id": "deputies-and-sheriffs-distribute-agent-authority",
@@ -687,7 +746,9 @@
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-24"
     },
     {
       "id": "data-agents-fail-from-missing-context-not-sql-gaps",
@@ -700,7 +761,8 @@
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "decision-traces-are-the-missing-data-layer",
@@ -713,7 +775,8 @@
       "source": "Jaya Gupta & Ashu Garg — Foundation Capital, Context Graphs",
       "color": "#8b5cf6",
       "degree": 27,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "declarative-beats-imperative-for-agents",
@@ -726,7 +789,8 @@
       "source": "Andrej Karpathy — Coding Observations",
       "color": "#6366f1",
       "degree": 15,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "ui-moat-collapses-api-becomes-purchasing-criterion",
@@ -739,7 +803,9 @@
       "source": "@chrysb (Chrys Bader) + @nicbstme (Nicolas Bustamante) — Apps Are Dead + Every SaaS Is Now an API",
       "color": "#10b981",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-24"
     },
     {
       "id": "saas-survives-as-governance-and-coordination-layer",
@@ -752,7 +818,8 @@
       "source": "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning",
       "color": "#10b981",
       "degree": 15,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "software-abundance-unlocks-categories-that-never-existed",
@@ -765,7 +832,8 @@
       "source": "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance",
       "color": "#f59e0b",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "ai-self-improvement-loop-accelerates-everything",
@@ -778,7 +846,9 @@
       "source": "@mattshumer_ (Matt Shumer) — Something Big Is Happening",
       "color": "#f59e0b",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-24"
     },
     {
       "id": "verification-multiplies-agent-output-quality",
@@ -790,7 +860,8 @@
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
       "degree": 34,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "verification-is-a-red-queen-race",
@@ -803,7 +874,8 @@
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
       "degree": 14,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "cross-user-knowledge-transfer-needs-no-fine-tuning",
@@ -816,7 +888,8 @@
       "source": "Ashpreet Bedi — Agents That Learn (Agno Framework)",
       "color": "#f43f5e",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "boring-tech-wins-for-ai-native-startups",
@@ -829,7 +902,8 @@
       "source": "Kushal Byatnal — Extend ($1M+ ARR, 3 engineers)",
       "color": "#8b5cf6",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "specs-are-external-memory-surviving-context-resets",
@@ -842,7 +916,8 @@
       "source": "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)",
       "color": "#f43f5e",
       "degree": 13,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "agents-learn-at-three-layers-model-harness-context",
@@ -855,7 +930,8 @@
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agent-edits-are-automatic-decision-instrumentation",
@@ -868,7 +944,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agent-memory-preserves-institutional-knowledge",
@@ -881,7 +958,8 @@
       "source": "@nicbstme (Nicolas Bustamante) + @rohit4verse (Rohit) — Memory Architecture",
       "color": "#f43f5e",
       "degree": 21,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "similarity-is-not-relevance-relevance-requires-reasoning",
@@ -893,7 +971,8 @@
       "source": "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex",
       "color": "#8b5cf6",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "stronger-models-expand-the-verification-gap",
@@ -906,7 +985,8 @@
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#f59e0b",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "structure-plus-reasoning-beats-flat-similarity",
@@ -920,7 +1000,8 @@
       "source": "Recurring pattern across PageIndex, Claude Code agentic search, and @arscontexta skill graphs",
       "color": "#8b5cf6",
       "degree": 12,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agentic-search-beats-rag-for-live-codebases",
@@ -933,7 +1014,8 @@
       "source": "Boris Cherny (@bcherny, Claude Code team) — Twitter reply to @EthanLipnik",
       "color": "#8b5cf6",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "permissioned-inference-is-harder-than-permissioned-retrieval",
@@ -946,7 +1028,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The Trillion Dollar Loop B2B Never Had",
       "color": "#8b5cf6",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "personal-software-grows-through-relationship-not-configuration",
@@ -959,7 +1042,8 @@
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "platform-economics-beat-labor-arbitrage",
@@ -972,7 +1056,8 @@
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#10b981",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "postgresql-scales-further-than-you-think",
@@ -984,7 +1069,8 @@
       "source": "OpenAI — https://openai.com/index/scaling-postgresql/",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "resolve-ambiguity-before-passing-it-downstream",
@@ -997,7 +1083,8 @@
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#a855f7",
       "degree": 2,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "practice"
     },
     {
       "id": "response-ux-should-match-retrieval-intelligence",
@@ -1009,7 +1096,8 @@
       "source": "@akshay_pachaar — 'Your RAG System Has a Hidden UX Problem' (Daily Dose of Data Science blog), referencing Zilliz semantic highlighting model",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "skill-graphs-enable-progressive-disclosure",
@@ -1022,7 +1110,8 @@
       "source": "@arscontexta (Heinrich) — Twitter thread on skill graphs",
       "color": "#f43f5e",
       "degree": 13,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "skill-folder-structure-is-context-engineering",
@@ -1035,7 +1124,8 @@
       "source": "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills",
       "color": "#f43f5e",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "orchestrator-agent-replaces-human-coordination",
@@ -1048,7 +1138,8 @@
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
       "degree": 13,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "outsourcing-is-the-autopilot-wedge",
@@ -1061,7 +1152,8 @@
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
       "degree": 2,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "open-source-captures-value-through-services-not-software",
@@ -1074,7 +1166,8 @@
       "source": "Learning Technical Concepts chat — Ayush exploring open source revenue",
       "color": "#10b981",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "webmcp-turns-websites-into-agent-native-interfaces",
@@ -1087,7 +1180,8 @@
       "source": "Learning Technical Concepts chat — Chrome for Developers WebMCP announcement",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "prompt-caching-makes-long-context-economically-viable",
@@ -1100,7 +1194,8 @@
       "source": "Learning Technical Concepts chat — Thariq's prompt caching article",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "parallel-agents-create-management-problem-not-coding-problem",
@@ -1113,7 +1208,8 @@
       "source": "Learning Technical Concepts chat — Theo's tweet about multiple projects with agents",
       "color": "#06b6d4",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "dont-be-the-discriminator-be-the-patron",
@@ -1126,7 +1222,8 @@
       "source": "@WillManidis (Will Manidis) — Against Taste",
       "color": "#f59e0b",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "autonomous-loops-need-small-stories-and-fast-feedback",
@@ -1139,7 +1236,8 @@
       "source": "Ryan Carson — Ralph / Autonomous Coding Loop",
       "color": "#6366f1",
       "degree": 21,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "autopilots-capture-work-budget-not-tool-budget",
@@ -1152,7 +1250,8 @@
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "automation-amplifies-expert-demand",
@@ -1164,7 +1263,9 @@
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-03-11"
     },
     {
       "id": "technology-transitions-create-more-not-less",
@@ -1176,7 +1277,8 @@
       "source": "@stevesi (Steven Sinofsky) — Death of Software?",
       "color": "#f59e0b",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "hybrid-search-is-the-default-not-the-exception",
@@ -1188,7 +1290,8 @@
       "source": "QMD by Tobi Lütke, pg_textsearch by Timescale, TigerData BM25 article",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "negative-maintenance-reduces-future-work-for-everyone",
@@ -1201,7 +1304,8 @@
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#a855f7",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "non-attached-action-enables-clearer-course-correction",
@@ -1214,7 +1318,8 @@
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#eab308",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "multi-model-ensemble-catches-single-model-blindspots",
@@ -1227,7 +1332,8 @@
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#06b6d4",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "agent-trust-transfers-from-human-credibility",
@@ -1240,7 +1346,8 @@
       "source": "@danshipper — Personal Software and AI Agents",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "ask-for-no-not-yes-to-accelerate-decisions",
@@ -1253,7 +1360,8 @@
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#eab308",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "practice"
     },
     {
       "id": "agents-running-platform-not-just-on-platform",
@@ -1266,7 +1374,8 @@
       "source": "@dharmesh (Dharmesh Shah, HubSpot CTO)",
       "color": "#f59e0b",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agentic-ux-is-distinct-design-problem-from-human-ux",
@@ -1279,7 +1388,8 @@
       "source": "@dharmesh (Dharmesh Shah, HubSpot CTO)",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agents-become-the-buyer",
@@ -1292,7 +1402,9 @@
       "source": "@nicbstme (Nicolas Bustamante) — Every SaaS Is Now an API",
       "color": "#f59e0b",
       "degree": 14,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-24"
     },
     {
       "id": "treat-ai-like-distributed-team-not-assistant",
@@ -1305,7 +1417,8 @@
       "source": "Boris Cherny — Creator of Claude Code",
       "color": "#06b6d4",
       "degree": 17,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "evolving-summaries-beat-append-only-memory",
@@ -1318,7 +1431,8 @@
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
       "degree": 13,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "evolved-harnesses-transfer-across-models",
@@ -1331,7 +1445,8 @@
       "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "every-optimization-has-a-shadow-regression",
@@ -1344,7 +1459,8 @@
       "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
       "color": "#6366f1",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "treat-agent-as-operating-system-not-function",
@@ -1357,7 +1473,8 @@
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "tiered-retrieval-prevents-context-overload",
@@ -1370,7 +1487,8 @@
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "traces-replace-code-as-agent-source-of-truth",
@@ -1383,7 +1501,8 @@
       "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "trust-boundaries-must-be-mapped-and-externalized",
@@ -1396,7 +1515,8 @@
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "tribal-knowledge-is-the-last-mile-for-agent-automation",
@@ -1409,7 +1529,8 @@
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "session-capture-compounds-development-knowledge",
@@ -1422,7 +1543,8 @@
       "source": "shadcn (via X/Twitter) — /done skill pattern",
       "color": "#06b6d4",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "embeddings-measure-similarity-not-truth",
@@ -1435,7 +1557,8 @@
       "source": "Rohit (@rohit4verse) — How to Build Agents That Never Forget",
       "color": "#f43f5e",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-window-is-the-fundamental-constraint",
@@ -1448,7 +1571,8 @@
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
       "degree": 22,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "three-layer-ai-stack-memory-search-reasoning",
@@ -1461,7 +1585,8 @@
       "source": "Synthesis from Supermemory, QMD, and PageIndex architectures",
       "color": "#8b5cf6",
       "degree": 14,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "compound-engineering-makes-future-work-easier",
@@ -1474,7 +1599,8 @@
       "source": "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering",
       "color": "#06b6d4",
       "degree": 35,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "commodity-terminal-value-zero-expert-judgment-compounds",
@@ -1487,7 +1613,8 @@
       "source": "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India",
       "color": "#f59e0b",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "build-for-the-model-six-months-from-now",
@@ -1500,7 +1627,8 @@
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
       "degree": 15,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "building-beats-following-for-ai-mastery",
@@ -1513,7 +1641,8 @@
       "source": "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap",
       "color": "#06b6d4",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "procedural-memory-is-highest-impact-agent-memory",
@@ -1526,7 +1655,8 @@
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "production-agents-route-decisions-not-every-call-to-llm",
@@ -1539,7 +1669,8 @@
       "source": "@vasuman — AI Agents 101",
       "color": "#6366f1",
       "degree": 16,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "malleable-software-writes-its-own-extensions",
@@ -1552,7 +1683,8 @@
       "source": "@tolobi (Tobi Lutke, Shopify CEO) — Pi and Clawdbot",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "enterprise-agents-need-deterministic-structure-startups-need-loops",
@@ -1565,7 +1697,8 @@
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "error-memory-enables-learning-without-retraining",
@@ -1578,7 +1711,8 @@
       "source": "@ashpreetbedi — Dash (OpenAI-inspired data agent)",
       "color": "#6366f1",
       "degree": 14,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "tools-are-contracts-between-deterministic-and-nondeterministic-systems",
@@ -1591,7 +1725,8 @@
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "every-role-codes-when-implementation-cost-drops-to-zero",
@@ -1604,7 +1739,9 @@
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#f59e0b",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-03-30"
     },
     {
       "id": "eval-suites-must-shrink-not-just-grow",
@@ -1616,7 +1753,8 @@
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "evals-are-behavioral-pressure-vectors-not-neutral-measurements",
@@ -1629,7 +1767,8 @@
       "source": "LangChain — How We Build Evals for Deep Agents",
       "color": "#6366f1",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "evals-are-gradient-signal-for-harness-engineering",
@@ -1642,7 +1781,8 @@
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "evaluate-tools-with-real-multi-step-tasks",
@@ -1655,7 +1795,8 @@
       "source": "Anthropic Engineering — Writing Effective Tools for Agents",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "rigid-schemas-exist-because-rigid-apps-demand-them",
@@ -1668,7 +1809,9 @@
       "source": "@zain_hoda (Zain Hoda, Vanna AI) — The Agent Will Eat Your System of Record",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-28"
     },
     {
       "id": "rollback-safety-nets-enable-autonomy-not-intelligence",
@@ -1681,7 +1824,8 @@
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works; Andrej Karpathy — autoresearch program.md",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "tool-design-is-continuous-observation-see-like-an-agent",
@@ -1694,7 +1838,8 @@
       "source": "@trq212 (Thariq, Claude Code team) — Lessons from Building Claude Code",
       "color": "#6366f1",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "domain-skill-libraries-are-the-real-agent-moat",
@@ -1707,7 +1852,8 @@
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
       "degree": 18,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-inefficiency-compounds-three-penalties",
@@ -1720,7 +1866,8 @@
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-layers-must-be-living-systems",
@@ -1733,7 +1880,8 @@
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#8b5cf6",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-layers-supersede-semantic-layers",
@@ -1746,7 +1894,8 @@
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "kv-cache-hit-rate-determines-agent-economics",
@@ -1759,7 +1908,8 @@
       "source": "@nicbstme — The LLM Context Tax: Best Tips for Tax Avoidance",
       "color": "#8b5cf6",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "latent-demand-is-the-strongest-product-signal",
@@ -1772,7 +1922,8 @@
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#10b981",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "lakebases-decouple-compute-from-storage",
@@ -1784,7 +1935,9 @@
       "source": "Databricks (Ali Ghodsi, Matei Zaharia et al.) — What Is a Lakebase",
       "color": "#8b5cf6",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-28"
     },
     {
       "id": "llms-complete-aggregation-theory-by-collapsing-interface-layer",
@@ -1797,7 +1950,8 @@
       "source": "@nicbstme — The Crumbling Workflow Moat: Aggregation Theory's Final Chapter",
       "color": "#f59e0b",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "llms-selectively-destroy-vertical-software-moats",
@@ -1810,7 +1964,8 @@
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
       "degree": 16,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "llm-judge-must-calibrate-against-human-judgment",
@@ -1823,7 +1978,8 @@
       "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "llm-competition-fragments-markets-not-consolidates",
@@ -1836,7 +1992,9 @@
       "source": "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff",
       "color": "#f59e0b",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-03-05"
     },
     {
       "id": "safety-enforcement-belongs-in-tool-design-not-prompts",
@@ -1849,7 +2007,8 @@
       "source": "@nicbstme — Lessons from Reverse Engineering Excel AI Agents",
       "color": "#6366f1",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "saas-grows-but-consolidates-around-platforms",
@@ -1862,7 +2021,9 @@
       "source": "@Konstantine (Konstantine Buhler, Sequoia Capital) — The Great SaaS Consolidation + AI Ascent 2025",
       "color": "#10b981",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-28"
     },
     {
       "id": "metadata-for-llm-consumers-needs-trigger-specs-not-summaries",
@@ -1875,7 +2036,8 @@
       "source": "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "model-market-fit-before-product-market-fit",
@@ -1888,7 +2050,8 @@
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "holdout-sets-gate-autonomous-harness-optimization",
@@ -1900,7 +2063,8 @@
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "hot-path-vs-offline-learning-are-two-temporal-modes",
@@ -1913,7 +2077,8 @@
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "harness-engineers-need-docs-as-first-class-output",
@@ -1926,7 +2091,8 @@
       "source": "OpenAI Codex Team — Harness Engineering: Leveraging Codex in an Agent-First World",
       "color": "#06b6d4",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "harness-quality-beats-model-intelligence",
@@ -1939,7 +2105,8 @@
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
       "degree": 30,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "multi-model-orchestration-beats-any-single-family",
@@ -1952,7 +2119,9 @@
       "source": "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-02-28"
     },
     {
       "id": "if-you-can-find-the-edge-it-isnt-interesting-enough",
@@ -1965,7 +2134,8 @@
       "source": "Credited in conversation to Chris Dixon — The a16z Show, Garry Tan with Anish Acharya, \"New Rules for Founders\"",
       "color": "#eab308",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "incentive-caused-bias-makes-good-people-rationalize",
@@ -1978,7 +2148,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 505-514)",
       "color": "#ec4899",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "institutional-slowness-is-the-runway-not-the-threat",
@@ -1991,7 +2162,9 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
       "color": "#f59e0b",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-08-21"
     },
     {
       "id": "intelligence-judgement-ratio-determines-automation-order",
@@ -2004,7 +2177,8 @@
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "systems-that-prevent-bad-behavior-beat-moral-appeals",
@@ -2017,7 +2191,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)",
       "color": "#ec4899",
       "degree": 11,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "first-conclusions-become-nearly-permanent",
@@ -2030,7 +2205,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 523-527)",
       "color": "#ec4899",
       "degree": 11,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "small-concessions-trigger-disproportionate-reciprocation",
@@ -2043,7 +2219,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 537-545)",
       "color": "#ec4899",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "confluence-of-tendencies-produces-extreme-outcomes",
@@ -2056,7 +2233,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 599-604)",
       "color": "#ec4899",
       "degree": 5,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "social-proof-makes-groups-passive-before-visible-harm",
@@ -2069,7 +2247,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 572-579)",
       "color": "#ec4899",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "excessive-self-regard-makes-fixable-failures-persist",
@@ -2082,7 +2261,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 556-563)",
       "color": "#ec4899",
       "degree": 7,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "latticework-of-models-beats-isolated-facts",
@@ -2095,7 +2275,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 164-170)",
       "color": "#eab308",
       "degree": 12,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "scaffolding-is-tech-debt-against-the-next-model",
@@ -2108,7 +2289,8 @@
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#06b6d4",
       "degree": 19,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "scale-advantages-cascade-until-bureaucracy-kills-them",
@@ -2121,7 +2303,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 174-192)",
       "color": "#f97316",
       "degree": 5,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "technology-helps-moats-kills-commodity-businesses",
@@ -2134,7 +2317,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 192-198)",
       "color": "#f97316",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "causal-triage-must-gate-automated-fixes",
@@ -2147,7 +2331,8 @@
       "source": "Vishnu Suresh (LangChain) — How My Agents Self-Heal in Production",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "circle-of-competence-determines-where-you-can-win",
@@ -2160,7 +2345,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 196-200)",
       "color": "#eab308",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "bet-seldom-but-heavily-when-odds-are-extreme",
@@ -2173,7 +2359,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 206-220)",
       "color": "#eab308",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "inference-capability-lowers-input-fidelity-requirements",
@@ -2186,7 +2373,8 @@
       "source": "@mvanhorn (Matt Van Horn) — Every Claude Code Hack I Know (March 2026)",
       "color": "#8b5cf6",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "invert-always-invert-to-solve-hard-problems",
@@ -2199,7 +2387,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 299-305)",
       "color": "#eab308",
       "degree": 10,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "pavlovian-association-builds-durable-brand-moats",
@@ -2212,7 +2401,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 4: Practical Thought About Practical Thought (pp. 305-315)",
       "color": "#ec4899",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "pilot-training-model-builds-reliable-knowledge",
@@ -2225,7 +2415,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 5: The Need for More Multidisciplinary Skills (pp. 327-336)",
       "color": "#eab308",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "ideology-is-among-the-most-extreme-distorters-of-cognition",
@@ -2238,7 +2429,8 @@
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 3: Elementary Worldly Wisdom, Revisited (pp. 235-239)",
       "color": "#ec4899",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "weaponize-sycophancy-with-adversarial-agent-ensembles",
@@ -2251,7 +2443,8 @@
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "claude-md-should-be-routing-table-not-knowledge-base",
@@ -2264,7 +2457,8 @@
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#06b6d4",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization",
@@ -2277,7 +2471,8 @@
       "source": "Yoonho Lee et al. — Meta-Harness: End-to-End Optimization of Model Harnesses (arXiv:2603.28052)",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "first-draft-pattern-is-killer-app-for-long-horizon-agents",
@@ -2290,7 +2485,8 @@
       "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "frontier-companies-absorb-every-useful-agentic-pattern",
@@ -2303,7 +2499,8 @@
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#f59e0b",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "one-session-per-contract-beats-long-running-agents",
@@ -2316,7 +2513,8 @@
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "separate-research-from-implementation-to-preserve-context",
@@ -2329,7 +2527,8 @@
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "sell-the-work-not-the-tool",
@@ -2342,7 +2541,8 @@
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
       "degree": 13,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "observability-is-the-missing-agent-discipline",
@@ -2355,7 +2555,8 @@
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#6366f1",
       "degree": 12,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "property-based-testing-explores-agent-input-spaces",
@@ -2368,7 +2569,8 @@
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#06b6d4",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "proprietary-feedback-loops-widen-the-moat",
@@ -2381,7 +2583,8 @@
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
       "degree": 17,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "the-80-99-gap-is-where-ai-products-die",
@@ -2394,7 +2597,8 @@
       "source": "@nicbstme (Nicolas Bustamante) — Model-Market Fit",
       "color": "#10b981",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "the-first-enterprise-ai-sale-is-a-trust-sale",
@@ -2407,7 +2611,8 @@
       "source": "Shekhar Kirani (Accel India) — LinkedIn post on a conversation with Jason Graefe (Microsoft)",
       "color": "#10b981",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "time-bounded-evaluation-optimizes-for-usefulness",
@@ -2420,7 +2625,8 @@
       "source": "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "revealed-preferences-trump-stated-preferences",
@@ -2433,7 +2639,8 @@
       "source": "Nikunj Kothari — Revealed Preferences",
       "color": "#10b981",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "adversarial-branch-walking-beats-review-for-planning",
@@ -2446,7 +2653,8 @@
       "source": "@mattpocockuk (Matt Pocock) — grill-me skill (mattpocock/skills, 9.5K stars, 151K views)",
       "color": "#06b6d4",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "detect-everything-notify-selectively",
@@ -2459,7 +2667,8 @@
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "auto-generated-monitors-beat-handwritten-broad-checks",
@@ -2472,7 +2681,8 @@
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "uncorrelated-context-windows-are-test-time-compute",
@@ -2485,7 +2695,8 @@
       "source": "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "unfocused-agents-develop-path-dependency",
@@ -2498,7 +2709,8 @@
       "source": "@RampLabs — How We Made Ramp Sheets Self-Maintaining",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "reasoning-evaporation-destroys-agent-decision-chains",
@@ -2511,7 +2723,8 @@
       "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agent-trace-accumulation-produces-emergent-world-models",
@@ -2524,7 +2737,8 @@
       "source": "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "software-bimodal-fork-growth-or-margins-no-middle",
@@ -2537,7 +2751,9 @@
       "source": "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software",
       "color": "#f59e0b",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-03-24"
     },
     {
       "id": "token-maxing-buys-lead-time-not-efficiency",
@@ -2550,7 +2766,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "token-spend-replaces-headcount-as-scaling-unit",
@@ -2563,7 +2780,9 @@
       "source": "@DavidGeorge83 (David George, a16z) — There Are Only Two Paths Left for Software",
       "color": "#f59e0b",
       "degree": 11,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-03-24"
     },
     {
       "id": "ai-compresses-execution-not-judgment",
@@ -2575,7 +2794,8 @@
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
       "degree": 11,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "principle"
     },
     {
       "id": "amplification-widens-the-judgment-gap",
@@ -2587,7 +2807,8 @@
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
       "degree": 7,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "principle"
     },
     {
       "id": "dissolved-constraints-shift-bottleneck-to-judgment",
@@ -2600,7 +2821,8 @@
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
       "degree": 14,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "principle"
     },
     {
       "id": "speed-without-feedback-amplifies-errors",
@@ -2613,7 +2835,8 @@
       "source": "Mario Zechner — Thoughts on Slowing the Fuck Down",
       "color": "#a855f7",
       "degree": 7,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "principle"
     },
     {
       "id": "meta-agents-beat-manual-harness-engineering",
@@ -2626,7 +2849,8 @@
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "same-model-pairings-win-through-model-empathy",
@@ -2638,7 +2862,8 @@
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "self-disruption-follows-the-value-chain-downward",
@@ -2651,7 +2876,8 @@
       "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
       "color": "#f59e0b",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "self-improving-agents-overfit-to-eval-metrics",
@@ -2663,7 +2889,8 @@
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "traces-not-scores-enable-agent-improvement",
@@ -2676,7 +2903,8 @@
       "source": "@kevingu (Kevin Gu) — AutoAgent: First Open Source Library for Self-Optimizing Agents",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "vertical-models-beat-frontier-models-in-their-domain",
@@ -2689,7 +2917,8 @@
       "source": "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yourself: Introducing the Fin API Platform",
       "color": "#10b981",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "virtual-filesystems-replace-sandboxes-for-agent-navigation",
@@ -2702,7 +2931,8 @@
       "source": "Mintlify — How We Built a Virtual Filesystem for Our Assistant",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "trace-to-eval-flywheel-compounds-agent-quality",
@@ -2715,7 +2945,8 @@
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
       "degree": 10,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "traces-are-the-universal-substrate-for-agent-learning",
@@ -2728,7 +2959,8 @@
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "trace-data-retention-must-match-ai-knowledge-lifespan",
@@ -2741,7 +2973,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Harnesses & Agents",
       "color": "#8b5cf6",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "evals-must-augment-traces-in-place-not-diverge",
@@ -2753,7 +2986,8 @@
       "source": "@aparnadhinak (Aparna Dhinakaran) — Data Architectures For Tracing Harnesses & Agents",
       "color": "#8b5cf6",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "teacher-student-trace-distillation-beats-single-oracle",
@@ -2766,7 +3000,8 @@
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "workflow-strategies-beat-individual-tool-instructions",
@@ -2779,7 +3014,8 @@
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "shadow-execution-enables-safe-trace-learning",
@@ -2792,7 +3028,8 @@
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "two-tier-agent-memory-separates-org-from-user",
@@ -2805,7 +3042,8 @@
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "compilation-scales-curation-compounds",
@@ -2818,7 +3056,8 @@
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "intelligence-location-determines-system-fragility",
@@ -2832,7 +3071,8 @@
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "knowledge-evolution-is-the-biggest-unsolved-problem",
@@ -2845,7 +3085,8 @@
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "knowledge-is-not-memory-ingestion-vs-learning",
@@ -2858,7 +3099,8 @@
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#f43f5e",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "knowledge-systems-need-dual-layer-storage",
@@ -2871,7 +3113,8 @@
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "navigation-beats-search-for-knowledge-retrieval",
@@ -2884,7 +3127,8 @@
       "source": "Ayush Jhunjhunwala — KG Architecture Comparative Research (10+ systems analyzed)",
       "color": "#f43f5e",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "sand-vs-stone-separates-durable-from-disposable-product-value",
@@ -2897,7 +3141,8 @@
       "source": "@izzymiller (Izzy Miller, Hex) relaying Barry McCardel (Hex CEO) — Building AI Agents for Data Analytics",
       "color": "#8b5cf6",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "model-compensations-become-liabilities-as-capabilities-advance",
@@ -2910,7 +3155,8 @@
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "conflicting-context-causes-agent-collapse-not-graceful-degradation",
@@ -2923,7 +3169,8 @@
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#6366f1",
       "degree": 2,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "context-flywheel-is-day-90-not-day-0",
@@ -2936,7 +3183,8 @@
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#8b5cf6",
       "degree": 13,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "long-horizon-evals-test-compounding-not-point-accuracy",
@@ -2949,7 +3197,8 @@
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "agent-harnesses-are-persistent-infrastructure",
@@ -2962,7 +3211,8 @@
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "memory-defines-the-agent-portable-memory-is-frontier",
@@ -2975,7 +3225,8 @@
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "memory-is-harness-responsibility-not-plugin",
@@ -2988,7 +3239,8 @@
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "closed-harnesses-behind-apis-create-memory-lock-in",
@@ -3001,7 +3253,8 @@
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "memory-is-where-agent-lock-in-lives",
@@ -3014,7 +3267,8 @@
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#10b981",
       "degree": 12,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "open-harnesses-with-owned-databases-prevent-model-provider-lock-in",
@@ -3027,7 +3281,8 @@
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory",
       "color": "#8b5cf6",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "organizational-shape-is-the-emerging-moat-in-ai",
@@ -3040,7 +3295,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#f59e0b",
       "degree": 16,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "great-companies-are-wrappers-around-a-kind-of-person",
@@ -3053,7 +3309,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#f97316",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "emotional-promises-must-be-structural-promises",
@@ -3066,7 +3323,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#eab308",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "mission-strength-is-measured-by-who-it-repels",
@@ -3079,7 +3337,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#ec4899",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "being-chosen-vs-being-seen-is-the-talent-trap",
@@ -3092,7 +3351,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#ec4899",
       "degree": 5,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "time-denominated-promises-decay-invisibly",
@@ -3105,7 +3365,8 @@
       "source": "@JayaGup10 (Jaya Gupta) — The next biggest moat in AI",
       "color": "#eab308",
       "degree": 2,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "provenance-becomes-the-constraint-when-skill-files-scale",
@@ -3118,7 +3379,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
       "color": "#f43f5e",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "reasoning-by-analogy-has-a-ceiling",
@@ -3131,7 +3393,8 @@
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
       "degree": 12,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "templates-encode-someone-elses-constraints",
@@ -3144,7 +3407,8 @@
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "type-1-vs-type-2-decisions-allocate-thinking-modes",
@@ -3157,7 +3421,8 @@
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "first-principles-thinking-is-responsibility-taking",
@@ -3170,7 +3435,8 @@
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#ec4899",
       "degree": 6,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "users-describe-solutions-within-the-constraint-set-they-know",
@@ -3183,7 +3449,8 @@
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#ec4899",
       "degree": 3,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "principle"
     },
     {
       "id": "peter-thiel-test-detects-actual-first-principles-thinking",
@@ -3196,7 +3463,8 @@
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
       "degree": 4,
-      "domain": "mental-models"
+      "domain": "mental-models",
+      "kind": "thinking-tool"
     },
     {
       "id": "bad-code-is-the-most-expensive-its-ever-been",
@@ -3208,7 +3476,8 @@
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "specs-to-code-degrades-without-reading-the-code",
@@ -3220,7 +3489,8 @@
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "ubiquitous-language-file-reduces-ai-verbosity-and-drift",
@@ -3233,7 +3503,8 @@
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "feedback-loop-speed-is-the-ais-speed-limit",
@@ -3245,7 +3516,8 @@
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "deep-modules-make-codebases-ai-legible-and-testable",
@@ -3257,7 +3529,8 @@
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "models-are-grown-not-designed-treat-fable-empirically",
@@ -3270,7 +3543,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "capability-overhang-tools-unlock-latent-model-ability",
@@ -3283,7 +3557,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
       "degree": 9,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "system-prompt-guardrails-become-constraints-as-models-get-more-imaginative",
@@ -3295,7 +3570,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#06b6d4",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
@@ -3308,7 +3584,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "force-reality-to-reveal-the-tradeoff-instead-of-presuming-one",
@@ -3321,7 +3598,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#f59e0b",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "thinking-tool"
     },
     {
       "id": "building-is-easier-but-generating-value-is-still-hard",
@@ -3334,7 +3612,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#f59e0b",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "reducing-your-unknowns-is-the-trainable-skill-of-agentic-coding",
@@ -3347,7 +3626,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "symmetric-failure-of-over-and-under-specified-instructions",
@@ -3360,7 +3640,8 @@
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Claude Fable 5: Finding Your Unknowns",
       "color": "#6366f1",
       "degree": 4,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "a-human-in-the-loop-caps-the-loop-at-waking-hours",
@@ -3373,7 +3654,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#6366f1",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline",
@@ -3386,7 +3668,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#8b5cf6",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "make-the-quality-gate-a-second-adversarial-model-not-a-human",
@@ -3399,7 +3682,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#6366f1",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "put-a-second-agent-on-the-first-agents-failure-log",
@@ -3412,7 +3696,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#6366f1",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "derive-the-manual-from-observed-practice-not-written-procedure",
@@ -3425,7 +3710,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#f43f5e",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "if-it-left-no-artifact-it-didnt-happen",
@@ -3438,7 +3724,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#f43f5e",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "humans-move-to-the-edge-where-the-model-touches-reality",
@@ -3451,7 +3738,8 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris, quoting Jack Dorsey",
       "color": "#f59e0b",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "ic-and-dri-are-the-only-roles-left-without-middle-management",
@@ -3464,7 +3752,9 @@
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#f59e0b",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "bet",
+      "bet_date": "2026-08-21"
     },
     {
       "id": "own-your-skill-files-or-your-job-becomes-one",
@@ -3477,7 +3767,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#10b981",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "personal-agi-is-an-asset-you-build-not-a-subscription-you-rent",
@@ -3490,7 +3781,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#f43f5e",
       "degree": 8,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "know-which-computation-belongs-in-latent-vs-deterministic-space",
@@ -3503,7 +3795,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#8b5cf6",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "a-better-model-makes-your-library-worth-more",
@@ -3516,7 +3809,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#f59e0b",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "being-worth-retrieving-from-is-the-product",
@@ -3529,7 +3823,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#f43f5e",
       "degree": 6,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "custody-is-the-security-model",
@@ -3542,7 +3837,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#f43f5e",
       "degree": 3,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     },
     {
       "id": "never-do-one-off-work-skillify-every-task",
@@ -3555,7 +3851,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#f43f5e",
       "degree": 7,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "practice"
     },
     {
       "id": "if-a-smart-intern-could-follow-it-an-agent-can-run-it",
@@ -3568,7 +3865,8 @@
       "source": "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\", Startup School 2026",
       "color": "#06b6d4",
       "degree": 5,
-      "domain": "ai"
+      "domain": "ai",
+      "kind": "principle"
     }
   ],
   "links": [

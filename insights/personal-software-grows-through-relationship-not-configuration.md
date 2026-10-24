@@ -4,6 +4,7 @@ description: "Unlike traditional SaaS where users adapt to the tool, personal so
 topics: [ai-agents, future-of-ai-business]
 source: "@danshipper (Dan Shipper) — 'What personal software actually is' (tweet thread)"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Dan Shipper frames personal software not as customizable apps but as agents that evolve a personality in response to you. This is a step beyond [[malleable-software-writes-its-own-extensions]] — the software doesn't just extend itself, it develops a relationship. The user doesn't configure settings; they guide an agent through interaction, and the agent adapts its strengths and preferences over time.

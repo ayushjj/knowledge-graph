@@ -6,6 +6,7 @@ source: "Thariq Shihipar (Anthropic) — A Field Guide to Fable"
 source_file: "sources/thariq-field-guide-to-fable.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 Thariq Shihipar's illustration: a viral question asked "why can't LLMs say which Pokémon end in AW?" — of a thousand Pokémon, two names end in AW (Croconaw and Drednaw). A normal chat model can't answer, "which is kind of confusing because it definitely knows all the names of the Pokémon." But Claude Code can, because "it fetches every Pokémon and writes a script to filter for AW." Anthropic calls this gap capability overhang: "Claude gets smarter in spiky ways" — the knowledge was already there, but reasoning through a thousand names by pure recall-and-filter isn't reliable, while writing a filter script is. Give it the tool, and dormant capability becomes usable capability.

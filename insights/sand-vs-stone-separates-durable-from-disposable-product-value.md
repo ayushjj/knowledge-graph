@@ -6,6 +6,7 @@ source: "@izzymiller (Izzy Miller, Hex) relaying Barry McCardel (Hex CEO) — Bu
 source_file: sources/izzymiller-hex-building-ai-agents-data.md
 date: 2026-04-10
 domain: "ai"
+kind: "thinking-tool"
 ---
 
 Barry McCardel's framework for prioritizing AI product investment: ask "what's sand and what is stone? If the models get twice as good tomorrow, what turns out to have been sand that can be washed away and what is stone that remains?" Izzy Miller's answer at Hex: UX polish and domain opinions are a small slice of the pie, but the **context flywheel** — accumulated artifacts, verified knowledge, feedback loops — is the majority of durable value.

@@ -4,6 +4,7 @@ description: "Multiple agents with independent context windows avoid polluting e
 topics: [ai-agents, ai-coding-tools]
 source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
 date: 2026-03-30
+kind: "principle"
 ---
 
 Boris Cherny describes a key insight behind agent topologies: "Multiple agents, they have fresh context windows that aren't essentially polluted with each other's context or their own previous context. And if you throw more context at a problem, that's like a form of test time compute."

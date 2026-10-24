@@ -5,6 +5,7 @@ topics: [ai-agents, ai-coding-tools]
 source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works; Andrej Karpathy — autoresearch program.md"
 date: 2026-03-17
 domain: "ai"
+kind: "principle"
 ---
 
 You don't need AGI for autonomous improvement — you need three things: a quantifiable metric, atomic changes, and automatic rollback. In Karpathy's Autoresearch, every experiment commits before verification, then either advances the branch (if val_bpb improved) or resets to the previous state. This makes failure cheap and reversible, which is what makes aggressive exploration safe.

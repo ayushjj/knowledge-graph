@@ -4,6 +4,8 @@ description: "Perplexity launched a unified agent system orchestrating 19 backen
 topics: [ai-agents, ai-native-product-architecture]
 source: "@AravSrinivas (Aravind Srinivas, Perplexity CEO) — AI Is the Computer"
 date: 2026-02-28
+kind: "bet"
+bet_date: 2026-02-28
 ---
 
 Aravind Srinivas reframes what a "computer" is. The next evolution of computing isn't a better model — it's the orchestration system that conducts many models into a unified intelligence. Perplexity launched a massively multimodel product: 19 backend models functioning as a single agent system, capable of delegating tasks, managing files, executing code, and browsing the web within a secure sandbox.

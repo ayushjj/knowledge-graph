@@ -5,6 +5,7 @@ topics: [psychology, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 572-579)"
 date: 2026-03-02
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger identifies Social-Proof Tendency as especially dangerous when it produces collective inaction. The murder of Kitty Genovese — where dozens of neighbors witnessed an assault and none intervened — demonstrates how "everybody looked at everybody else and nobody acted." The pattern scales: in the "Serpico Syndrome," named after the honest New York cop who found that virtually the entire department was corrupt, the rare individual who resists social proof faces retaliation from the very group whose behavior should be corrected. Munger extends this to corporate governance, noting that boards of directors often behave like the corrupt police rather than like Serpico — they see problems, observe that no one else is objecting, and remain silent.

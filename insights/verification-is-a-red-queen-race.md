@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
 date: 2026-03-18
 domain: ai
+kind: "principle"
 ---
 
 Any fixed target that an agent is optimized against will eventually be gamed, whether deliberately or emergently. The eval becomes a benchmark, the benchmark becomes a leaderboard, and the leaderboard stops correlating with the thing you actually cared about. This means [[verification-multiplies-agent-output-quality]] is necessary but the verification system itself must evolve faster than the agent — a fundamentally different infrastructure problem than static test suites.

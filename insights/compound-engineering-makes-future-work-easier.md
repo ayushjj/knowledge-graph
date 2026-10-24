@@ -4,6 +4,7 @@ description: "The 80/20 ratio (80% plan+review, 20% work+compound) ensures learn
 topics: [ai-coding-tools, knowledge-systems]
 source: "Dan Shipper & Kieran Klaassen (Every) — Compound Engineering"
 date: 2025-01-15
+kind: "practice"
 ---
 
 Most engineering treats work as linear — you finish one thing, start the next. Compound engineering inverts this: each unit of work makes the next one easier. The four-step loop is Plan → Work → Review → Compound, with 80% of time in Plan and Review. The Review phase is the compounding mechanism — it's where patterns get extracted, mistakes get documented, and [[skills-as-markdown-replace-fine-tuning]] grow. The Compound step explicitly records learnings for future use — this is what makes it compound, not just iterative.

@@ -4,6 +4,7 @@ description: "The emerging AI product architecture has three layers — Memory (
 topics: [ai-native-product-architecture, ai-agents]
 source: "Synthesis from Supermemory, QMD, and PageIndex architectures"
 date: 2026-02-24
+kind: "principle"
 ---
 
 A clear architectural pattern is emerging for AI-native products. The Memory layer handles who the user is — fact extraction, knowledge graphs, temporal handling, conflict resolution, and user profiles (Supermemory's approach). The Search layer finds the right information — BM25 for labels, vectors for meaning, hybrid for both, reranking for quality ([[hybrid-search-is-the-default-not-the-exception]]). The Reasoning layer navigates complex information — PageIndex for structured documents, [[agentic-search-beats-rag-for-live-codebases]] for code, multi-hop for following trails.

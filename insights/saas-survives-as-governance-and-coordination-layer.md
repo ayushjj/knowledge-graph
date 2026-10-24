@@ -4,6 +4,7 @@ description: "When non-deterministic AI feeds into deterministic systems (databa
 topics: [business-models, future-of-ai-business]
 source: "@clarashih (Clara Shih) — Head of Business AI at Meta (former CEO of Salesforce AI), How to Survive the SaaS Reckoning"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The "SaaS is dead" narrative misses something structural: when a non-deterministic process (AI/LLM) feeds into a deterministic one (database, approval workflow), the entire system is governed by the deterministic layer. Boards won't accept AI-generated forecasts the VP Sales can't explain. SaaS is essentially a system of governance and accountability.

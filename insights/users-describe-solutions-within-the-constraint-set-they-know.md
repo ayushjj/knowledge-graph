@@ -6,6 +6,7 @@ source: "@jaynitx — first principles thinking: how to see what everyone else m
 source_file: sources/jaynitx-first-principles-thinking.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "principle"
 ---
 
 The author retells the (acknowledged-as-possibly-apocryphal) Henry Ford line: "If I had asked people what they wanted, they would have said faster horses." His framing of why it matters: "Analogy says: people use horses for transportation. Give them better horses. First principles says: what problem is actually being solved? Getting from A to B. What's the best way to solve that? Maybe not horses at all." The user isn't lying or wrong — they're applying analogy mode honestly and returning the only thing analogy can return: a better version of what already exists.

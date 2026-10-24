@@ -6,6 +6,7 @@ source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Im
 source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
 date: 2026-04-04
 domain: ai
+kind: "practice"
 ---
 
 Glean's trace learning replays actions that would write to apps like Google Drive, Salesforce, Jira, Asana, or Slack in a shadow path without touching production data. This lets the system learn from realistic end-to-end flows — including the write operations that are most informative about workflow patterns — without impacting customer data.

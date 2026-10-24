@@ -6,6 +6,7 @@ source: "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Im
 source_file: sources/tonygentilcore-trace-learning-self-improving-agents.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Glean made a conscious decision to store learnings that were intentionally narrow — guidance like "in this situation, prefer this strategy" rather than prescribing exact sequences or abstracting too broadly. The insight is that trace learning shifts the focus from "which tool to call" to "how to accomplish a task across tools." In an environment with hundreds of connectors and actions, agents need to learn reusable patterns: when to parallelize versus sequence tool calls, when one system is authoritative for analytics versus record-level detail, and how multiple tools combine into a single workflow.

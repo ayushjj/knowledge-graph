@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Hor
 source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 In traditional software, the code IS the source of truth for how the system behaves — you can read it, set breakpoints, trace execution deterministically. In agent systems, that breaks down completely.

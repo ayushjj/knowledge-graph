@@ -4,6 +4,8 @@ description: "When AI handles implementation, the title 'software engineer' give
 topics: [future-of-ai-business, ai-coding-tools]
 source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
 date: 2026-03-30
+kind: "bet"
+bet_date: 2026-03-30
 ---
 
 Boris Cherny describes a transformation already complete at Anthropic: "Every single function on our team codes. Our PMs code, our designers code, our EM codes, our finance guy codes. Everyone on our team codes." He predicts "the title software engineer is going to go away. It's just going to be maybe builder, maybe product manager."

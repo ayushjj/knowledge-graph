@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
 source_file: sources/hwchase17-continual-learning-ai-agents.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 Chase identifies two temporal modes for context updates: **hot-path** (the agent updates memory while executing its core task — the user prompts it or the harness instructs it to save learnings in real-time) and **offline** (batch processing recent traces to extract insights — what OpenClaw calls "dreaming"). A third dimension cuts across both: how explicit the update is — whether the user actively prompts the agent to remember, or the agent remembers based on standing instructions in the harness.

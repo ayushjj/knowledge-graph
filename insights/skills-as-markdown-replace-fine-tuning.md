@@ -4,6 +4,8 @@ description: "A SKILL.md file that teaches an agent how to do something specific
 topics: [ai-agents, ai-native-product-architecture]
 source: "Nicolas Bustamante (@nicbstme) — Lessons from Building AI Agents for Financial Services"
 date: 2026-02-24
+kind: "bet"
+bet_date: 2026-02-24
 ---
 
 A skill is just a markdown file that tells the agent how to do something specific. Non-engineers can create skills (analysts, customers), no deployment is needed — change the file, it takes effect immediately, and everything is readable and auditable.

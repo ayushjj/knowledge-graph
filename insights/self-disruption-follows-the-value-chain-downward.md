@@ -6,6 +6,7 @@ source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yoursel
 source_file: sources/eoghan-fin-api-platform.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Intercom's trajectory — software company → agent company → AI model company — is a deliberate three-stage self-disruption. McCabe frames it explicitly: "as we did when we started to disrupt our software business with our agent business, we will now begin the processes of disrupting our agent business with our AI business." The thesis is that value accrues to the model layer, so the winning move is to cannibalize your own higher layers before competitors do.

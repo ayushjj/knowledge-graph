@@ -4,6 +4,7 @@ description: "A non-technical user who built a production WhatsApp bot reached '
 topics: [ai-coding-tools, knowledge-systems]
 source: "Analysis of Machina (@EXM7777) — 30-Day AI Mastery Roadmap"
 date: 2026-01-24
+kind: "practice"
 ---
 
 A structured 30-day AI mastery roadmap follows a progression from prompting through data to applications. But mapping a real builder's journey against the same roadmap revealed they'd already mastered context engineering, AI-assisted coding, and RAG fundamentals — not through study, but through solving real deployment problems, writing specs, and debugging integration issues on a production system serving 700 people.

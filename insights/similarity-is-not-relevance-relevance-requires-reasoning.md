@@ -4,6 +4,7 @@ description: "Vector search finds semantically similar content, but what users n
 topics: [ai-native-product-architecture]
 source: "PageIndex by VectifyAI — https://github.com/VectifyAI/PageIndex"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The foundational insight behind PageIndex: vector embeddings measure semantic distance, but distance and relevance are different things. A document about "interest rates" might be semantically similar to a query about "monetary policy effects on housing," but the actually relevant section lives inside a chapter on domestic policy implications — something only [[structure-plus-reasoning-beats-flat-similarity]] can find.

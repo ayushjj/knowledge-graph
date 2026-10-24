@@ -6,6 +6,7 @@ source: "@jaynitx — first principles thinking: how to see what everyone else m
 source_file: sources/jaynitx-first-principles-thinking.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 The author reframes resistance to first-principles thinking as an accountability problem rather than a cognitive one: "First principles thinking is uncomfortable because it makes you responsible. When you reason by analogy, you have an excuse. 'I did what everyone said to do. I followed best practices. Not my fault.' When you reason from first principles, you own the outcome. You questioned the assumptions. You made the call. Most people don't want that responsibility. Easier to follow the template and blame the template when things go wrong."

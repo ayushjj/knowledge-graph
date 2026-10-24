@@ -6,6 +6,8 @@ source: "@itsreallyvivek (vivek) — how to be good at research"
 source_file: "sources/itsreallyvivek-how-to-be-good-at-research.md"
 date: 2026-06-15
 domain: "ai"
+kind: "bet"
+bet_date: 2026-06-15
 ---
 
 Vivek retires a status hierarchy: "retire the idea that engineering is the junior partner here. at the frontier the two jobs have fused. the researcher who can build the harness, the eval, and the data pipeline is the one whose hypotheses actually get tested. everyone else is waiting in a queue." The ability to build the infrastructure is not support work for the "real" research — it is the gating constraint on which ideas ever get tested at all.

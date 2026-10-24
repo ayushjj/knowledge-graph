@@ -4,6 +4,7 @@ description: "Every predicted death — mainframes, physical retail, traditional
 topics: [future-of-ai-business]
 source: "@stevesi (Steven Sinofsky) — Death of Software?"
 date: 2026-02-24
+kind: "thinking-tool"
 ---
 
 PCs were supposed to kill mainframes — both grew massively. Amazon was supposed to kill physical retail — both Amazon and Walmart became trillion-dollar companies. Digital was supposed to kill traditional media — there's vastly more media today. The pattern repeats: old thing grows larger, new thing adds to ecosystem, transition takes a generation (not five years), and there are multiple winners.

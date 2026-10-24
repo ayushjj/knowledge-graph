@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
 date: 2026-03-17
 domain: "ai"
+kind: "principle"
 ---
 
 The central lesson of Karpathy's Autoresearch is that the harness is the product, not the agent. The agent edits one file, chases one metric, operates within one fixed harness, and advances only when the score improves — and that's not a limitation but the reason the system can run for hours without dissolving into noise. As the analysis puts it: "A mediocre agent inside a strong harness can outperform a stronger agent inside a messy one."

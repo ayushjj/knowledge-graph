@@ -4,6 +4,7 @@ description: "Markdown and YAML files on disk beat databases because agents alre
 topics: [ai-native-product-architecture, knowledge-systems]
 source: "@danshipper + @nicbstme — Agent-Native Architectures + Fintool"
 date: 2026-02-24
+kind: "principle"
 ---
 
 Agents already know `cat`, `grep`, `mv`, `mkdir`. Users can inspect and edit what agents create. File paths are self-documenting — `/projects/acme/notes/` beats `SELECT * FROM notes WHERE project_id = 123`. iCloud handles multi-device sync for free.

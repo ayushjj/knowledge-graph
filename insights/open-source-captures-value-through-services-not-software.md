@@ -4,6 +4,7 @@ description: "Free software builds billion-dollar companies because the money is
 topics: [business-models, future-of-ai-business]
 source: "Learning Technical Concepts chat — Ayush exploring open source revenue"
 date: 2026-02-24
+kind: "principle"
 ---
 
 The counterintuitive pattern of open source economics: giving away the software creates more value than selling it. Red Hat was acquired for $34 billion, GitHub for $7.5 billion, Docker valued at $2.1 billion — all built on free software. Four distinct models emerge: corporate sponsors who need the tool (Linux), paid services layers on top of free engines (Docker Enterprise), hosted platform ecosystems (Git → GitHub), and cloud strategy where the free tool is a funnel to paid infrastructure (TensorFlow → Google Cloud).

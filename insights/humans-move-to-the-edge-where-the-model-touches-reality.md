@@ -6,6 +6,7 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Blomfield borrows Jack Dorsey's framing explicitly: in a conventional company intelligence is spread throughout the people and the hierarchy routes it; in the new model intelligence lives in the system, and people live around the edge where that intelligence makes contact with reality. Dorsey's list of what stays human is specific — reaching into places the model cannot yet go, sensing what it cannot perceive, intuition, opinionated direction, cultural context, trust dynamics, the feeling in a room — plus the calls the model should not make on its own: ethical decisions, novel situations, and high-stakes moments where the cost of being wrong is existential.

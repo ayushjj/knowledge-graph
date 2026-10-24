@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "Manthan Gupta (@manthanguptaa) — How Karpathy's Autoresearch Works And What You Can Learn From It"
 date: 2026-03-17
 domain: "ai"
+kind: "practice"
 ---
 
 Karpathy's Autoresearch gives every experiment exactly 5 minutes of wall-clock time. The question shifts from "what model is best after N steps?" to "what configuration gives the best result within this exact time budget?" That reframing changes the optimization surface entirely — the agent must optimize for improvement per unit time, not abstract model quality.

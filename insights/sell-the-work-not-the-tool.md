@@ -5,6 +5,7 @@ topics: [future-of-ai-business, business-models]
 source: "@julienbek — Services: The New Software"
 date: 2026-03-06
 domain: "ai"
+kind: "principle"
 ---
 
 The strategic fork for AI companies is stark: "If you sell the tool, you're in a race against the model. But if you sell the work, every improvement in the model makes your service faster, cheaper, and harder to compete with." A company might spend $10K a year on QuickBooks and $120K on an accountant to close the books — the next legendary company will just close the books. This reframes [[llms-selectively-destroy-vertical-software-moats]] from the buyer's perspective: the moats that fall (learned interfaces, custom workflows) are all tool moats, while the real opportunity is capturing the work those tools enabled. Joe Schmidt IV gives this a concrete diagnostic — [[system-vs-tool-test-would-they-need-you-if-a-lab-shipped-it]]: if the customer would still need you after a lab ships a direct competitor, you sell the work (a system); if not, you were selling the tool, even at high ACV.

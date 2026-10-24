@@ -5,6 +5,7 @@ topics: [ai-agents, knowledge-systems]
 source: "@rohit4verse (Rohit) — The Missing Layer in Your Agentic Stack"
 date: 2026-03-24
 domain: "ai"
+kind: "principle"
 ---
 
 When agents investigate incidents repeatedly, their trajectories become decision traces. Accumulate enough traces and a world model emerges — the entities that matter, the relationships that carry weight, the constraints that shape outcomes. This model was not designed by anyone; it was discovered through actual agent use. The first incident with trace architecture feels the same as traditional approaches. The hundredth feels like a different discipline entirely, because the system has built a map of its own domain.

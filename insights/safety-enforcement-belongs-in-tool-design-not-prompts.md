@@ -5,6 +5,7 @@ topics: [ai-agents, ai-native-product-architecture]
 source: "@nicbstme — Lessons from Reverse Engineering Excel AI Agents"
 date: 2026-03-05
 domain: "ai"
+kind: "principle"
 ---
 
 Reverse-engineering three production Excel AI agents revealed a critical architectural divergence in safety. Claude embeds overwrite protection at the API level — "the blocking is in the tool, the consent is in the prompt" — while Microsoft Copilot has no overwrite protection at all (it just overwrites) and Shortcut AI relies on system prompt instructions to prevent destructive operations. Behavioral compliance is inherently unreliable at millions of sessions; tool-enforced safety is deterministic.

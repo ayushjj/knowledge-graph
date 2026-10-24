@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnes
 source_file: sources/hwchase17-everything-gets-rebuilt-agents-harnesses.md
 date: 2026-04-17
 domain: ai
+kind: "principle"
 ---
 
 Harrison Chase draws a critical distinction: "I do think there's a difference between knowledge and memory. Knowledge would be like 'hey, let's ingest all these documents and put them into a database.' And great, like semantic search over that is solved. Memory, I think you kind of learn on the fly almost."

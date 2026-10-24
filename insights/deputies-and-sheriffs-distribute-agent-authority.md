@@ -4,6 +4,8 @@ description: "Individual employees train specialized 'Deputy' agents while organ
 topics: [ai-agents, future-of-ai-business]
 source: "@danshipper (Dan Shipper) — 'What personal software actually is' (tweet thread)"
 date: 2026-02-24
+kind: "bet"
+bet_date: 2026-02-24
 ---
 
 Shipper proposes a two-tier organizational structure: Deputies are personal agents that "promote you out of your current job" — you teach it, it's yours, and it takes over your role. Sheriffs are higher-permission agents managing access, setting rules, and orienting new agents across the organization. This maps directly to [[treat-ai-like-distributed-team-not-assistant]] — instead of one central AI system, you have a distributed team of specialized agents with clear authority hierarchies.

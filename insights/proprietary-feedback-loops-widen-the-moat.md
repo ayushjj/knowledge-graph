@@ -5,6 +5,7 @@ topics: [business-models, future-of-ai-business]
 source: "Nikunj Kothari — Revealed Preferences"
 date: 2026-03-16
 domain: "ai"
+kind: "principle"
 ---
 
 The strongest AI moat isn't proprietary data at rest — it's proprietary data in motion. Every user interaction generates correction patterns, preference signals, and edge-case resolutions that feed back into the system. A competitor starting from scratch faces not just a data gap but an accumulating gap: the incumbent's system improves with every interaction while the challenger has zero signal.

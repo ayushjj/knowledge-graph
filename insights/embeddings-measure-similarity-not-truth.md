@@ -4,6 +4,7 @@ description: "Vector search can't resolve contradictions or understand time; 'I 
 topics: [knowledge-systems, ai-native-product-architecture]
 source: "Rohit (@rohit4verse) — How to Build Agents That Never Forget"
 date: 2026-01-24
+kind: "principle"
 ---
 
 The standard RAG pattern treats all stored content as equally valid, but real information evolves and contradicts itself. "I love my job" (Week 1) and "I'm thinking about quitting" (Week 2) both retrieve with equal confidence because embeddings have no concept of recency, supersession, or conflict resolution. Without explicit resolution logic, the agent fails to recognize that the newer fact invalidates the older one.

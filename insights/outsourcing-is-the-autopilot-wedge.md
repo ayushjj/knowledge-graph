@@ -5,6 +5,7 @@ topics: [future-of-ai-business, business-models]
 source: "@julienbek — Services: The New Software"
 date: 2026-03-06
 domain: "ai"
+kind: "principle"
 ---
 
 Bek identifies three signals that a task is ripe for autopilot disruption: "One, the company has accepted that this work can be done externally. Two, there's an existing budget line that can be substituted cleanly. Three, the buyer is already purchasing an outcome." The critical distinction: "Replacing an outsourcing contract with an AI-native services provider is a vendor swap. Replacing headcount is a reorg."

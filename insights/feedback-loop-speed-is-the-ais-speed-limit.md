@@ -6,6 +6,7 @@ source: "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Enginee
 source_file: "sources/mattpocock-software-fundamentals-matter-more-than-ever.md"
 date: 2026-07-09
 domain: ai
+kind: "principle"
 ---
 
 Even when an agent has good feedback loops available — static types, browser access, automated tests — Matt Pocock observed it "doesn't use them very well... it doesn't kind of like get the most out of its feedback loops in the way that a veteran developer would." The default failure pattern: produce a huge amount of code, then think belatedly, "Oh, I should probably type check that." The Pragmatic Programmer names this outrunning your headlights — "driving too fast because the rate of feedback is your speed limit." Feedback loops don't make an agent careful by existing; they only bound speed if something forces the agent to actually check in at a pace it can absorb.

@@ -5,6 +5,7 @@ topics: [decision-making, economics]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 2: Elementary Worldly Wisdom (pp. 206-220)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger uses the pari-mutuel system at the racetrack as a model for stock markets and decision-making generally. In a pari-mutuel system, the odds adjust to what people bet — "any damn fool can see that a horse with a wonderful win rate is way more likely to win, but if you look at the damn odds, the bad horse pays 100 to 1, whereas the good horse pays 3 to 2. Then it's not clear which is statistically the best bet." The house takes seventeen percent off the top, so "not only do you have to outwit all the other bettors, but you've got to outwit them by such a big margin" that you can still profit after the vig.

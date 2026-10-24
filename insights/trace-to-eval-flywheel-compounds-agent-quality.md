@@ -6,6 +6,7 @@ source: "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbin
 source_file: sources/vtrivedy10-better-harness-hill-climbing-evals.md
 date: 2026-04-09
 domain: ai
+kind: "principle"
 ---
 
 The flywheel is explicit: more usage → more traces → more evals → better harness. Every trace contains valuable data to produce a potential eval, and every good eval makes the harness better. A trace where the agent made a mistake is an eval case; a trace where a user corrected the agent is even better. This builds on [[traces-are-the-universal-substrate-for-agent-learning]] by showing traces don't just feed model/harness/context updates — they also generate the very eval suite that powers autonomous improvement.

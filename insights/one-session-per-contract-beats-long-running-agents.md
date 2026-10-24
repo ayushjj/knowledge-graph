@@ -5,6 +5,7 @@ topics: [ai-agents, ai-coding-tools]
 source: "@systematicls — How To Be A World-Class Agentic Engineer"
 date: 2026-03-05
 domain: "ai"
+kind: "practice"
 ---
 
 Long-running 24-hour agent sessions force context bloat by introducing context from unrelated contracts into the same session. The better architecture: define task contracts (with tests, screenshots, and verification criteria as completion conditions), use stop-hooks to prevent termination until the contract is fulfilled, and create a new session for each contract. An orchestration layer handles spawning new contracts whenever something needs to be done and creating fresh sessions to work on them.

@@ -6,6 +6,7 @@ source: "@eoghan (Eoghan McCabe, Intercom CEO) — Never Stop Disrupting Yoursel
 source_file: sources/eoghan-fin-api-platform.md
 date: 2026-04-04
 domain: ai
+kind: "principle"
 ---
 
 Intercom's Apex — described as the world's first specialized customer service LLM — beat every frontier model in production tests over six months on resolution rate, latency, hallucination rate, and cost. Fin already resolves over 2M customer issues per week across ~8k companies. This suggests that [[model-market-fit-before-product-market-fit]] has a corollary: once you cross the capability threshold, vertical training data creates a compounding advantage that generalist models cannot match.

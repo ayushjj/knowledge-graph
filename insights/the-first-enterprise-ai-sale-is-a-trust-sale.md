@@ -6,6 +6,7 @@ source: "Shekhar Kirani (Accel India) — LinkedIn post on a conversation with J
 source_file: "sources/shekhar-kirani-enterprise-ai-trust-sale.md"
 date: 2026-06-22
 domain: "ai"
+kind: "principle"
 ---
 
 Kirani's takeaway from Jason Graefe: "The first sale is a trust sale." Early AI deployments "are not judged purely on capability. They are judged on reliability, control, and whether the system can be trusted in real workflows" — and "founders often underestimate how much of the sale is about de-risking, not just performance." The buying decision turns on whether the system can be handed real work without blowing up, not on how impressive the demo is.

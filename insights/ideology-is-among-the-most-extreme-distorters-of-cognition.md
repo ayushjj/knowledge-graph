@@ -5,6 +5,7 @@ topics: [psychology, decision-making]
 source: "Charlie Munger — Poor Charlie's Almanack, Talk 3: Elementary Worldly Wisdom, Revisited (pp. 235-239)"
 date: 2026-03-05
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 Munger argues that ideology ranks among the most dangerous cognitive distorters, illustrating with Noam Chomsky — "possibly the greatest semanticist who ever lived" — who cannot accept the obvious Darwinian explanation for the human language instinct because "if he concedes this particular Darwinian point, the implications threaten his leftist ideology. So he naturally has his conclusion affected by his ideological bias." If ideology can corrupt the cognition of a genius, "imagine what it does to people like you and me."

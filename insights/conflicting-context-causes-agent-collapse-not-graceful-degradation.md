@@ -6,6 +6,7 @@ source: "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytic
 source_file: sources/izzymiller-hex-building-ai-agents-data.md
 date: 2026-04-10
 domain: "ai"
+kind: "principle"
 ---
 
 Hex ran evaluations specifically on conflicting context and found that Sonnet 4.6 runs "fairly efficiently and quickly up to a point" — but when injected with contradictory information, "it will spend 30 minutes pondering, going 'wait, but let me see, hm, actually' and enter this crazy collapse mode." This happens at smaller scales constantly in production.

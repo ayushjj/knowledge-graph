@@ -6,6 +6,7 @@ source: "Tom Blomfield (General Partner, Y Combinator) — \"Building And Struct
 source_file: "sources/tom-blomfield-yc-building-ai-native-company.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Blomfield decomposes an AI loop into five layers: signal from the real world at the top (product telemetry, inbound messages, billing signals, support tickets, code changes); a policy layer defining what rules constrain the AI, what it must seek approval for, and what it must log; a tool layer for calling internal APIs, sending email, updating billing; a series of quality gates; and finally a learning mechanism that loops back so a deployed change is measured against what it did to the real world.

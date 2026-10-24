@@ -5,6 +5,8 @@ topics: [future-of-ai-business, business-models]
 source: "@nicbstme — 10 Years Building Vertical Software: My Perspective on the Selloff"
 date: 2026-03-05
 domain: "ai"
+kind: "bet"
+bet_date: 2026-03-05
 ---
 
 The market selloff in vertical software isn't about immediate revenue loss — it's about anticipated competition fragmentation. As Bustamante puts it: "You don't go from 3 incumbents to 4. You go from 3 to 300." When [[llms-selectively-destroy-vertical-software-moats]] remove the engineering barriers that protected incumbents, anyone with domain expertise can build a competitor in weeks rather than years.

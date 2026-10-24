@@ -4,6 +4,7 @@ description: "AI product builders should target the capability frontier the mode
 topics: [ai-coding-tools, future-of-ai-business]
 source: "Boris Cherny (@bcherny) — Inside Claude Code With Its Creator, Y Combinator Light Cone podcast"
 date: 2026-03-30
+kind: "principle"
 ---
 
 Boris Cherny repeats this as Anthropic's core product philosophy: "We don't build for the model of today. We build for the model six months from now." He frames it as advice to LLM founders: identify the frontier where the model is not very good today, because it's going to get good at it.

@@ -4,6 +4,7 @@ description: "A structured specs/ folder (design.md, implementation.md, decision
 topics: [knowledge-systems, ai-coding-tools]
 source: "Community pattern — spec-first development (implementations by AWS Kiro, GitHub spec-kit, and multiple Claude Code workflows)"
 date: 2025-01-15
+kind: "practice"
 ---
 
 When you `/clear` your context, everything the agent learned that session vanishes. The solution: a specs/ folder where design.md captures the problem and approach, implementation.md tracks progress, and decisions.md records architectural choices with reasoning. The agent reads these files first in every new session, instantly recovering the full context of the work.

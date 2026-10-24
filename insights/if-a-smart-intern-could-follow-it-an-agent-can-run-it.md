@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — \"Own Your Intelligence\"
 source_file: "sources/garry-tan-yc-own-your-intelligence.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Tan walks through a real skill file to show how unmagical it is. When a meeting recording lands, transcribe it with speaker labels, pull out the commitments made and who made them and the deadline, cross-check every person named against the library and link their pages, file the summary here and the full transcript there — and if anything contradicts something already believed, flag it rather than overwrite it. That is the whole artifact: a page of English. The test he draws from it is the portable part: "If a smart intern could follow it, an agent can run it."

@@ -5,6 +5,7 @@ topics: [ai-agents, knowledge-systems]
 source: "@jasonscui — Your Data Agents Need Context, a16z"
 date: 2026-03-11
 domain: "ai"
+kind: "principle"
 ---
 
 LLMs can automate much of initial context gathering — scanning query history to find the most referenced tables, extracting definitions from dbt or LookML models. But the most important context is implicit, conditional, and historically contingent, and only exists as tribal knowledge inside teams. A concrete example: "for CRM data, look at Affinity for all new USCAN deals from 2025 onwards but Salesforce for all global leads before that." No automated scan discovers that rule.

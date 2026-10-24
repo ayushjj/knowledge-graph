@@ -6,6 +6,7 @@ source: "@jaynitx — first principles thinking: how to see what everyone else m
 source_file: sources/jaynitx-first-principles-thinking.md
 date: 2026-05-09
 domain: "mental-models"
+kind: "thinking-tool"
 ---
 
 The author opens with a concrete failure: "I spent six months building something nobody wanted… The problem was I built what I thought I was supposed to build. I looked at what other people in my space were doing and I did a version of that. Copied the model. Followed the template. And it didn't work. Because the template was designed for someone else's situation. Someone else's audience. Someone else's strengths." The diagnostic question he eventually asks himself: "I'm 23. I don't have the same audience as someone who's been doing this for a decade. I don't have the same resources. I don't have the same strengths. Why would the same playbook work?"

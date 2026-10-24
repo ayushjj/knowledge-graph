@@ -5,6 +5,7 @@ topics: [ai-native-product-architecture, knowledge-systems]
 source: "@trq212 (Thariq) — Lessons from Building Claude Code: How We Use Skills"
 date: 2026-03-18
 domain: ai
+kind: "practice"
 ---
 
 When Claude Code starts a session, it builds a listing of every available skill with its description and scans this listing to decide "is there a skill for this request?" This means the description field is not a summary — it is a trigger specification. Writing "Process content into graph nodes" tells the model *what* the skill does; writing "Use when you have a URL or article to extract insights from" tells it *when* to activate. The difference is the same as [[features-are-prompts-not-code]]: you are programming the model's routing behavior through natural language.

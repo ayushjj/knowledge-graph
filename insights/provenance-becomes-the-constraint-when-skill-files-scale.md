@@ -6,6 +6,7 @@ source: "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish 
 source_file: "sources/garry-tan-a16z-new-rules-for-founders.md"
 date: 2026-08-21
 domain: "ai"
+kind: "principle"
 ---
 
 Asked where the recursive self-improvement loop starts to fall over — whether errors compound, whether exception handling constrains it — Tan locates the failure precisely: "once you get a lot of markdown files, or yeah, anytime you have like some large amount of data, that's where like provenance matters. That's where conflict management — when you have two facts, if you have provenance then you're like, well, this is the more recent one, this is the one that wins. You need a cron job that's sort of sweeping through that and making sure that things are accurate and from the right places."

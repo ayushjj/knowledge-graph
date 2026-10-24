@@ -5,6 +5,8 @@ topics: [future-of-ai-business]
 source: "@GowriShankarNag — #MarketMapMondays: The Label Paradox of AI, Antler India"
 date: 2026-03-11
 domain: "ai"
+kind: "bet"
+bet_date: 2026-03-11
 ---
 
 The data annotation industry reveals a counterintuitive pattern: as AI gets smarter, the demand for humans is rising, not falling. Pre-labeling can slash costs by 100,000x for simple bounding boxes, and Active Learning loops cut labeling effort by 35% while maintaining identical accuracy. But the result is not fewer humans — it is fewer humans doing higher-value work. Projects that needed 500 contributors now need 100, but expert rates for medical diagnosis or legal annotation hit $200/hour.

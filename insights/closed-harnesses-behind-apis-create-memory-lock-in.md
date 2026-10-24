@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Your harness, your memory"
 source_file: "sources/hwchase17-your-harness-your-memory.md"
 date: 2026-04-12
 domain: ai
+kind: "principle"
 ---
 
 Chase separates lock-in into three escalating levels. Mildly bad: stateful APIs like OpenAI's Responses API or Anthropic's server-side compaction store state on the provider's server, preventing mid-thread model swaps. Bad: closed harnesses like Claude Agent SDK (built on Claude Code, which is not open source) interact with memory in ways unknown to the developer, so any client-side artifacts are non-transferable to other harnesses. Worst: the whole harness, including long-term memory, sits behind an API — the concrete example given is Anthropic's Claude Managed Agents, which "puts literally everything behind an API, locked into their platform." Even nominally open systems drift this way: Codex is open source but generates an encrypted compaction summary usable only inside the OpenAI ecosystem.

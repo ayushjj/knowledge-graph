@@ -6,6 +6,7 @@ source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
 source_file: sources/hwchase17-continual-learning-ai-agents.md
 date: 2026-04-06
 domain: ai
+kind: "principle"
 ---
 
 Chase identifies three granularities at which context learning happens: **agent-level** (the agent updates its own persistent configuration — OpenClaw's SOUL.md that evolves over time), **tenant-level** (each user, org, or team gets their own context that updates independently — Hex's Context Studio, Decagon's Duet, Sierra's Explorer), and **mixed** (an agent can have agent-level + user-level + org-level context updates simultaneously).
