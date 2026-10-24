@@ -6,7 +6,7 @@ date: 2026-04-10
 type: transcript
 ---
 
-[Source file: procurement-intelligence/research/external/hex-izzy-miller-building-ai-agents-data.md]
+[Source file: research/external/hex-izzy-miller-building-ai-agents-data.md]
 [Full auto-caption transcript downloaded via yt-dlp, cleaned and synthesized]
 
 Speaker: Izzy Miller, AI Engineer at Hex. Former DevRel/marketing, transitioned to AI engineering.

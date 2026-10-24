@@ -877,7 +877,7 @@ What Supermemory adds:
 | Component | Analogy | What it does |
 |-----------|---------|--------------|
 | **Fact extraction** | Highlighting key info as you talk | Pulls out "user lives in Mumbai" |
-| **Knowledge graph** | Connecting related facts | "Ayush → works at → IndustryPrime" |
+| **Knowledge graph** | Connecting related facts | "Priya → works at → Acme" |
 | **Temporal handling** | Dating entries | Knows old vs current facts |
 | **Conflict resolution** | Crossing out old info | Keeps latest/correct version |
 | **User profiles** | Summary page at front | Quick reference of key facts |
@@ -1047,7 +1047,7 @@ Level 5: FULL CONTENT
 
 ### When Skill Graphs Would Help
 
-1. **Sales/BD knowledge at IndustryPrime**
+1. **Sales/BD knowledge at a company**
    - How to position against competitors
    - Which customer segments respond to which arguments
    - Industry-specific pain points
