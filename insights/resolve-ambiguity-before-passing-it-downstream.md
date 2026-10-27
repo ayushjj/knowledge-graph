@@ -10,7 +10,7 @@ kind: "practice"
 
 Clay's communication principle: **don't pass on ambiguity.** Ask the next question, suggest a path forward, or take a first pass. The person who encounters ambiguity first is best positioned to resolve it — forwarding it only multiplies the confusion.
 
-This is the organizational equivalent of error handling at the boundary: just as [[systems-that-prevent-bad-behavior-beat-moral-appeals]] argues for structural prevention over moral appeals, ambiguity should be caught and resolved at the point of origin rather than propagated through the system.
+This is the organizational equivalent of error handling at the boundary: just as [[systems-that-prevent-bad-behavior-beat-moral-appeals]] argues for structural prevention over moral appeals, ambiguity should be caught and resolved at the point of origin rather than propagated through the system. When the ambiguity lives in documents rather than people, [[cross-check-inconsistent-sources-to-converge-on-a-spec]] is the mechanical version: check every inconsistent account against the others until a consistent spec emerges.
 
 Ambiguity compounds because each person who receives an unclear message adds their own interpretation, creating a branching tree of possible meanings. By the time it reaches the person who needs to act, the original intent may be completely obscured.
 

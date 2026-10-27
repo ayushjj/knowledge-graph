@@ -56,3 +56,4 @@ Research is not an innate gift but a stack of deliberately trainable sub-skills 
 - [[map-is-not-the-territory-unknowns-are-the-real-bottleneck]] — The plan is the map, the codebase is the territory; a capable-enough agent covers more territory, so finding your unknowns becomes the bottleneck
 - [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint
 - [[if-you-can-find-the-edge-it-isnt-interesting-enough]] — A test for whether a field is worth entering, credited to Chris Dixon
+- [[most-people-still-carry-a-pre-agentic-cost-model]] — Luu: problems people complain about daily are now cheap to fix; aim AI at what used to be too expensive, not at the old work

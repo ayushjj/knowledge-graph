@@ -135,3 +135,8 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]] — CLI wins today only because bash keeps state in the file system; the harness decides, not the protocol
 - [[agent-inputs-could-compile-to-one-checkable-execution-plan]] — Tobi's bet: bash, code and tool calls become one plan, checked before it runs
 - [[durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives]] — dquickts pauses a program mid-loop, saves its whole heap, resumes it in another process
+- [[cross-check-inconsistent-sources-to-converge-on-a-spec]] — Luu: when every written source contradicts the others, consistency checks across all of them converge on a usable spec
+- [[human-code-review-is-for-understanding-not-only-bug-catching]] — Minsky: AI review finds defects, human review builds understanding; expect tests show the behaviour diff next to the code diff
+- [[score-an-ai-reviewer-on-escapes-noise-and-convergence]] — Claude Code team: re-run the reviewer on every incident-causing PR, measure noise by what people did with each comment, cap cycles
+- [[if-the-agent-cannot-see-it-it-makes-it-up]] — Ball: tool calls stopped hallucination; anything the team can see (logs, rollouts, flags, bug reports) the agent should see too
+- [[test-agent-knowledge-with-blind-control-and-treatment-runs]] — Ball: AGENTS.md, skills and docs pile up; blind agents with and without them show whether they change anything

@@ -17,3 +17,4 @@ The most reliable predictor of behavior is the incentive structure, not the char
 - [[organizational-shape-is-the-emerging-moat-in-ai]] — When AI commoditizes the visible layer, the institution underneath becomes the moat
 - [[great-companies-are-wrappers-around-a-kind-of-person]] — Institutions are organizational inventions that make a new kind of person possible
 - [[being-chosen-vs-being-seen-is-the-talent-trap]] — Identity validation captures founder-level intensity at employee-level structure
+- [[coordination-cost-decides-the-shape-of-the-firm]] — Coase via Masad: firms exist where internal coordination beats the market; agents cutting coordination cost redraw the firm

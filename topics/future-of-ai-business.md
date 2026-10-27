@@ -92,3 +92,5 @@ The price of intelligence is the new organizing axis, and value is never capture
 - [[ic-and-dri-are-the-only-roles-left-without-middle-management]] — When the system routes information, the layer whose job was routing has no function
 - [[personal-agi-is-an-asset-you-build-not-a-subscription-you-rent]] — AGI arriving diffused as your agent on your context, owned rather than rented
 - [[a-better-model-makes-your-library-worth-more]] — Tan's answer to the bitter lesson: the differentiator moves to context as weights commoditize
+- [[most-people-still-carry-a-pre-agentic-cost-model]] — Luu: problems people complain about daily are now cheap to fix; aim AI at what used to be too expensive, not at the old work
+- [[coordination-cost-decides-the-shape-of-the-firm]] — Coase via Masad: firms exist where internal coordination beats the market; agents cutting coordination cost redraw the firm

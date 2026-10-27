@@ -2,7 +2,7 @@
 
 [![Live Site](https://img.shields.io/badge/Live_Site-ayushjj.github.io-blue)](https://ayushjj.github.io/knowledge-graph/) [![Last Commit](https://img.shields.io/github/last-commit/ayushjj/knowledge-graph)](https://github.com/ayushjj/knowledge-graph/commits/master) [![CI](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml/badge.svg)](https://github.com/ayushjj/knowledge-graph/actions/workflows/deploy.yml)
 
-**258 insights · 12 topics · 25+ sources · updated weekly**
+**266 insights · 12 topics · 25+ sources · updated weekly**
 
 > Munger says you can't really know anything useful by remembering isolated facts — they must hang on a latticework of theory. I was doing exactly that with AI articles: isolated facts scattered across dozens of chat threads, rediscovered months later with no connection between them.
 
@@ -18,7 +18,7 @@ The agent use case works particularly well. The human browsing UX is catching up
 
 ## What's in it
 
-258+ insights across 2 domains, updated weekly as I encounter new ideas:
+266+ insights across 2 domains, updated weekly as I encounter new ideas:
 
 **AI Product Building**: Agents, Architecture, Coding Tools, Business Models, Knowledge Systems, Future of AI
 

@@ -19,6 +19,9 @@ The single highest-leverage practice isn't better prompts — it's giving the ag
 ### Software Fundamentals Still Matter
 Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriting the spec while never reading the code compounds bad architecture instead of investing in it. Deep modules, TDD-forced small steps, and a shared ubiquitous-language file are the old-books answer (Ousterhout, The Pragmatic Programmer, DDD) to why a codebase is or isn't AI-legible — and why a shared design concept has to exist before any plan artifact does.
 
+### Review Is Two Jobs
+AI review finds defects and is a system to measure: recall on past escapes, noise judged by what people did with each comment, and cycles to converge. Human review exists so someone understands the system; expect tests and typed invariants make an agent's change readable and its mistakes impossible rather than merely caught.
+
 ## Insights
 - [[declarative-beats-imperative-for-agents]] — Karpathy: success criteria > step-by-step instructions
 - [[technical-knowledge-becomes-liability]] — Implementation reflexes slow you down when agents handle the building
@@ -72,3 +75,7 @@ Specs-to-code inverts the discipline that makes AI-assisted coding work: rewriti
 - [[symmetric-failure-of-over-and-under-specified-instructions]] — Over-specify and you block a needed pivot; under-specify and it defaults to the wrong assumptions
 - [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — Markdown is code and the compiler is a language model, which is why non-engineers ship automation
 - [[durable-execution-snapshots-the-whole-interpreter-so-agent-state-survives]] — dquickts pauses a program mid-loop, saves its whole heap, resumes it in another process
+- [[types-are-the-fastest-feedback-an-agent-gets]] — Minsky: a type checker beats any test suite for speed and never forgets an invariant; make illegal states unrepresentable
+- [[human-code-review-is-for-understanding-not-only-bug-catching]] — Minsky: AI review finds defects, human review builds understanding; expect tests show the behaviour diff next to the code diff
+- [[score-an-ai-reviewer-on-escapes-noise-and-convergence]] — Claude Code team: re-run the reviewer on every incident-causing PR, measure noise by what people did with each comment, cap cycles
+- [[if-the-agent-cannot-see-it-it-makes-it-up]] — Ball: tool calls stopped hallucination; anything the team can see (logs, rollouts, flags, bug reports) the agent should see too

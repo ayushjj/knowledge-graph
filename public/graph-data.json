@@ -1,6 +1,118 @@
 {
   "nodes": [
     {
+      "id": "most-people-still-carry-a-pre-agentic-cost-model",
+      "label": "Most people still carry a pre-agentic cost model — re-price the problems you stopped trying to fix",
+      "description": "Dan Luu argues that the slow builds and missing tools people complain about daily are now cheap to fix; not attempting them is an old cost estimate, and doing exactly the work of five years ago with AI buys little because of Amdahl's law",
+      "topics": [
+        "future-of-ai-business",
+        "decision-making"
+      ],
+      "source": "Dan Luu — We should be more ambitious with the software we build (shared by @dabit3)",
+      "color": "#f59e0b",
+      "degree": 5,
+      "domain": "ai",
+      "kind": "thinking-tool"
+    },
+    {
+      "id": "cross-check-inconsistent-sources-to-converge-on-a-spec",
+      "label": "When every written source is inconsistent, cross-check them against each other to converge on a spec",
+      "description": "Dan Luu got a near-correct rule set for a board game whose official rules contradict themselves by running consistency checks across all the inconsistent explanations — costlier in tokens than a manual approach, cheaper than his own time writing a clean spec",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "Dan Luu — We should be more ambitious with the software we build (shared by @dabit3)",
+      "color": "#6366f1",
+      "degree": 4,
+      "domain": "ai",
+      "kind": "practice"
+    },
+    {
+      "id": "types-are-the-fastest-feedback-an-agent-gets",
+      "label": "Types are the fastest feedback an agent gets — make illegal states unrepresentable and a mistake becomes impossible everywhere",
+      "description": "Ron Minsky (Jane Street) argues agents thrive on feedback, and a type checker answers faster than any test suite and never forgets an invariant the way a long context does; shaping data so the wrong combination cannot be written enforces a rule across the whole codebase",
+      "topics": [
+        "ai-coding-tools",
+        "engineering"
+      ],
+      "source": "Ron Minsky (Jane Street) — Now more than ever: building reliable software in the age of agents (talk, shared by @poteto)",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai",
+      "kind": "principle"
+    },
+    {
+      "id": "human-code-review-is-for-understanding-not-only-bug-catching",
+      "label": "Human code review is for understanding the system, not only catching bugs — expect tests put an agent's behaviour change next to its code change",
+      "description": "Ron Minsky treats AI review as useful but a distinct thing from a person understanding the system; expect tests commit readable program output to the repo, so a diff shows both the change in logic and the change in behaviour",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "Ron Minsky (Jane Street) — Now more than ever: building reliable software in the age of agents (talk, shared by @poteto)",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai",
+      "kind": "principle"
+    },
+    {
+      "id": "score-an-ai-reviewer-on-escapes-noise-and-convergence",
+      "label": "Score an automated code reviewer on the bugs that escaped it, the noise it makes, and whether its loop converges",
+      "description": "The Claude Code team re-runs its review system daily against every incident-causing PR, measures noise by what people did with each comment, and caps review cycles after one agent-vs-agent PR looped more than fifty times overnight",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "@addyosmani (Addy Osmani) — How the Claude Code team does code review",
+      "color": "#06b6d4",
+      "degree": 5,
+      "domain": "ai",
+      "kind": "practice"
+    },
+    {
+      "id": "if-the-agent-cannot-see-it-it-makes-it-up",
+      "label": "If the agent can't see something, it makes it up — give it every view of the system a person has",
+      "description": "Thorsten Ball credits tool calls with stopping hallucination, and concludes the agent should see everything the team sees: production logs, deploys, rollouts, feature flags, bug reports and the customer",
+      "topics": [
+        "ai-agents",
+        "ai-coding-tools"
+      ],
+      "source": "@thorstenball (Thorsten Ball) — How I work with Agents",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai",
+      "kind": "principle"
+    },
+    {
+      "id": "test-agent-knowledge-with-blind-control-and-treatment-runs",
+      "label": "Knowledge an agent can reach is not knowledge it uses — test AGENTS.md, skills and docs with blind control-versus-treatment runs",
+      "description": "Thorsten Ball's rule: as AGENTS.md files, skills, scripts and docs pile up, spawn a handful of blind agents with and without the knowledge and see whether the outcome actually changes",
+      "topics": [
+        "ai-agents",
+        "knowledge-systems"
+      ],
+      "source": "@thorstenball (Thorsten Ball) — How I work with Agents",
+      "color": "#6366f1",
+      "degree": 5,
+      "domain": "ai",
+      "kind": "practice"
+    },
+    {
+      "id": "coordination-cost-decides-the-shape-of-the-firm",
+      "label": "Firms exist where coordinating inside is cheaper than coordinating through a market — so whatever cuts coordination cost redraws the firm",
+      "description": "Coase's 1937 answer to why firms exist is transaction costs, but firms carry their own coordination costs (management, meetings, reporting); Amjad Masad argues agents now absorb execution and coordination, so the organization itself is up for redesign",
+      "topics": [
+        "economics",
+        "future-of-ai-business"
+      ],
+      "source": "@amasad (Amjad Masad) — The Rise of the Self-Driving Company",
+      "color": "#f97316",
+      "degree": 5,
+      "domain": "mental-models",
+      "kind": "thinking-tool"
+    },
+    {
       "id": "mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state",
       "label": "Agents need a REPL that keeps state between steps — the harness decides whether a tool protocol works, not the protocol",
       "description": "CLI tools beat MCP today only because they are reached through bash, which is a REPL whose state persists in the file system; that is a harness property, not something intrinsic to MCP",
@@ -394,7 +506,7 @@
       ],
       "source": "@ivanhzhao (Ivan Zhao, Notion CEO) — Steam, Steel, and Infinite Minds",
       "color": "#f59e0b",
-      "degree": 9,
+      "degree": 11,
       "domain": "ai",
       "kind": "principle"
     },
@@ -675,7 +787,7 @@
       ],
       "source": "@aparnadhinak (Aparna Dhinakaran) — Hermes Harness Architecture",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai",
       "kind": "principle"
     },
@@ -747,7 +859,7 @@
       ],
       "source": "@jasonscui — Your Data Agents Need Context, a16z",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -818,7 +930,7 @@
       ],
       "source": "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -974,7 +1086,7 @@
       ],
       "source": "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)",
       "color": "#f59e0b",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1057,7 +1169,7 @@
       ],
       "source": "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles",
       "color": "#a855f7",
-      "degree": 2,
+      "degree": 4,
       "domain": "mental-models",
       "kind": "practice"
     },
@@ -1098,7 +1210,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#6366f1",
-      "degree": 13,
+      "degree": 14,
       "domain": "ai",
       "kind": "practice"
     },
@@ -1112,7 +1224,7 @@
       ],
       "source": "@julienbek — Services: The New Software",
       "color": "#f59e0b",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1293,7 +1405,7 @@
       ],
       "source": "@elvissun (Elvis Sun) — OpenClaw Agent Swarm",
       "color": "#06b6d4",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai",
       "kind": "practice"
     },
@@ -1420,7 +1532,7 @@
       ],
       "source": "Udit Goenka (@uditg) — autoresearch Claude Code skill v1.6.1 (Guard feature by Roman Pronskiy, JetBrains)",
       "color": "#6366f1",
-      "degree": 10,
+      "degree": 11,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1532,7 +1644,7 @@
       ],
       "source": "Anthropic Official Best Practices + Jarrod Watts",
       "color": "#06b6d4",
-      "degree": 22,
+      "degree": 23,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1616,7 +1728,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Everything Gets Rebuilt: Agents, Harnesses, and the New Compute Layer",
       "color": "#6366f1",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1700,7 +1812,7 @@
       ],
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1728,7 +1840,7 @@
       ],
       "source": "@Vtrivedy10 (Viv) — Better Harness: A Recipe for Harness Hill-Climbing with Evals",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -1911,7 +2023,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Context Engineering Our Way to Long-Horizon Agents",
       "color": "#6366f1",
-      "degree": 3,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2110,7 +2222,7 @@
       ],
       "source": "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)",
       "color": "#ec4899",
-      "degree": 11,
+      "degree": 13,
       "domain": "mental-models",
       "kind": "thinking-tool"
     },
@@ -2251,7 +2363,7 @@
       ],
       "source": "Vishnu Suresh (LangChain) — How My Agents Self-Heal in Production",
       "color": "#6366f1",
-      "degree": 4,
+      "degree": 5,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2377,7 +2489,7 @@
       ],
       "source": "@systematicls — How To Be A World-Class Agentic Engineer",
       "color": "#06b6d4",
-      "degree": 9,
+      "degree": 11,
       "domain": "ai",
       "kind": "practice"
     },
@@ -2462,7 +2574,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#6366f1",
-      "degree": 12,
+      "degree": 14,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2476,7 +2588,7 @@
       ],
       "source": "Geoff Huntley — Latent Patterns Principles (verification over testing)",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 8,
       "domain": "ai",
       "kind": "practice"
     },
@@ -2717,7 +2829,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 7,
+      "degree": 8,
       "domain": "mental-models",
       "kind": "principle"
     },
@@ -2828,7 +2940,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai",
       "kind": "principle"
     },
@@ -2869,7 +2981,7 @@
       ],
       "source": "@tonygentilcore (Tony Gentilcore, Glean) — Trace Learning for Self-Improving Agents",
       "color": "#6366f1",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai",
       "kind": "practice"
     },
@@ -3010,7 +3122,7 @@
       ],
       "source": "@izzymiller (Izzy Miller, Hex) — Building AI Agents for Data Analytics",
       "color": "#6366f1",
-      "degree": 2,
+      "degree": 3,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3080,7 +3192,7 @@
       ],
       "source": "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)",
       "color": "#8b5cf6",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3206,7 +3318,7 @@
       ],
       "source": "Garry Tan (President & CEO, Y Combinator) — The a16z Show with Anish Acharya, \"New Rules for Founders\"",
       "color": "#f43f5e",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3303,7 +3415,7 @@
       ],
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3316,7 +3428,7 @@
       ],
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
-      "degree": 3,
+      "degree": 4,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3343,7 +3455,7 @@
       ],
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3384,7 +3496,7 @@
       ],
       "source": "Thariq Shihipar (Anthropic) — A Field Guide to Fable",
       "color": "#6366f1",
-      "degree": 8,
+      "degree": 10,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3469,7 +3581,7 @@
       ],
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#6366f1",
-      "degree": 6,
+      "degree": 9,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3483,7 +3595,7 @@
       ],
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#6366f1",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai",
       "kind": "practice"
     },
@@ -3497,7 +3609,7 @@
       ],
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#f43f5e",
-      "degree": 5,
+      "degree": 6,
       "domain": "ai",
       "kind": "practice"
     },
@@ -3539,7 +3651,7 @@
       ],
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#f59e0b",
-      "degree": 7,
+      "degree": 8,
       "domain": "ai",
       "kind": "bet",
       "bet_date": "2026-08-21"
@@ -3630,6 +3742,118 @@
     }
   ],
   "links": [
+    {
+      "source": "most-people-still-carry-a-pre-agentic-cost-model",
+      "target": "amplification-widens-the-judgment-gap"
+    },
+    {
+      "source": "most-people-still-carry-a-pre-agentic-cost-model",
+      "target": "software-abundance-unlocks-categories-that-never-existed"
+    },
+    {
+      "source": "most-people-still-carry-a-pre-agentic-cost-model",
+      "target": "stronger-models-expand-the-verification-gap"
+    },
+    {
+      "source": "cross-check-inconsistent-sources-to-converge-on-a-spec",
+      "target": "conflicting-context-causes-agent-collapse-not-graceful-degradation"
+    },
+    {
+      "source": "cross-check-inconsistent-sources-to-converge-on-a-spec",
+      "target": "derive-the-manual-from-observed-practice-not-written-procedure"
+    },
+    {
+      "source": "cross-check-inconsistent-sources-to-converge-on-a-spec",
+      "target": "resolve-ambiguity-before-passing-it-downstream"
+    },
+    {
+      "source": "types-are-the-fastest-feedback-an-agent-gets",
+      "target": "context-window-is-the-fundamental-constraint"
+    },
+    {
+      "source": "types-are-the-fastest-feedback-an-agent-gets",
+      "target": "enforcement-must-run-independently-of-model-cooperation"
+    },
+    {
+      "source": "types-are-the-fastest-feedback-an-agent-gets",
+      "target": "feedback-loop-speed-is-the-ais-speed-limit"
+    },
+    {
+      "source": "types-are-the-fastest-feedback-an-agent-gets",
+      "target": "systems-that-prevent-bad-behavior-beat-moral-appeals"
+    },
+    {
+      "source": "human-code-review-is-for-understanding-not-only-bug-catching",
+      "target": "bad-code-is-the-most-expensive-its-ever-been"
+    },
+    {
+      "source": "human-code-review-is-for-understanding-not-only-bug-catching",
+      "target": "make-the-quality-gate-a-second-adversarial-model-not-a-human"
+    },
+    {
+      "source": "human-code-review-is-for-understanding-not-only-bug-catching",
+      "target": "property-based-testing-explores-agent-input-spaces"
+    },
+    {
+      "source": "human-code-review-is-for-understanding-not-only-bug-catching",
+      "target": "specs-to-code-degrades-without-reading-the-code"
+    },
+    {
+      "source": "score-an-ai-reviewer-on-escapes-noise-and-convergence",
+      "target": "every-optimization-has-a-shadow-regression"
+    },
+    {
+      "source": "score-an-ai-reviewer-on-escapes-noise-and-convergence",
+      "target": "llm-judge-must-calibrate-against-human-judgment"
+    },
+    {
+      "source": "score-an-ai-reviewer-on-escapes-noise-and-convergence",
+      "target": "make-the-quality-gate-a-second-adversarial-model-not-a-human"
+    },
+    {
+      "source": "if-the-agent-cannot-see-it-it-makes-it-up",
+      "target": "capability-overhang-tools-unlock-latent-model-ability"
+    },
+    {
+      "source": "if-the-agent-cannot-see-it-it-makes-it-up",
+      "target": "data-agents-fail-from-missing-context-not-sql-gaps"
+    },
+    {
+      "source": "if-the-agent-cannot-see-it-it-makes-it-up",
+      "target": "observability-is-the-missing-agent-discipline"
+    },
+    {
+      "source": "test-agent-knowledge-with-blind-control-and-treatment-runs",
+      "target": "claude-md-should-be-routing-table-not-knowledge-base"
+    },
+    {
+      "source": "test-agent-knowledge-with-blind-control-and-treatment-runs",
+      "target": "eval-suites-must-shrink-not-just-grow"
+    },
+    {
+      "source": "test-agent-knowledge-with-blind-control-and-treatment-runs",
+      "target": "evals-are-gradient-signal-for-harness-engineering"
+    },
+    {
+      "source": "test-agent-knowledge-with-blind-control-and-treatment-runs",
+      "target": "provenance-becomes-the-constraint-when-skill-files-scale"
+    },
+    {
+      "source": "coordination-cost-decides-the-shape-of-the-firm",
+      "target": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit"
+    },
+    {
+      "source": "coordination-cost-decides-the-shape-of-the-firm",
+      "target": "ic-and-dri-are-the-only-roles-left-without-middle-management"
+    },
+    {
+      "source": "coordination-cost-decides-the-shape-of-the-firm",
+      "target": "orchestrator-agent-replaces-human-coordination"
+    },
+    {
+      "source": "coordination-cost-decides-the-shape-of-the-firm",
+      "target": "outsourcing-is-the-autopilot-wedge"
+    },
     {
       "source": "mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state",
       "target": "agent-inputs-could-compile-to-one-checkable-execution-plan"
@@ -4092,11 +4316,15 @@
     },
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
+      "target": "ai-compresses-execution-not-judgment"
+    },
+    {
+      "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
       "target": "context-centralization-is-why-coding-ai-works"
     },
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
-      "target": "ai-compresses-execution-not-judgment"
+      "target": "coordination-cost-decides-the-shape-of-the-firm"
     },
     {
       "source": "ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit",
@@ -4552,6 +4780,10 @@
     },
     {
       "source": "software-abundance-unlocks-categories-that-never-existed",
+      "target": "most-people-still-carry-a-pre-agentic-cost-model"
+    },
+    {
+      "source": "software-abundance-unlocks-categories-that-never-existed",
       "target": "technology-transitions-create-more-not-less"
     },
     {
@@ -4760,6 +4992,10 @@
     },
     {
       "source": "stronger-models-expand-the-verification-gap",
+      "target": "most-people-still-carry-a-pre-agentic-cost-model"
+    },
+    {
+      "source": "stronger-models-expand-the-verification-gap",
       "target": "verification-is-a-red-queen-race"
     },
     {
@@ -4825,6 +5061,10 @@
     {
       "source": "postgresql-scales-further-than-you-think",
       "target": "three-layer-ai-stack-memory-search-reasoning"
+    },
+    {
+      "source": "resolve-ambiguity-before-passing-it-downstream",
+      "target": "cross-check-inconsistent-sources-to-converge-on-a-spec"
     },
     {
       "source": "resolve-ambiguity-before-passing-it-downstream",
@@ -5073,6 +5313,10 @@
     {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
       "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "multi-model-ensemble-catches-single-model-blindspots",
+      "target": "score-an-ai-reviewer-on-escapes-noise-and-convergence"
     },
     {
       "source": "multi-model-ensemble-catches-single-model-blindspots",
@@ -5764,6 +6008,10 @@
     },
     {
       "source": "llm-judge-must-calibrate-against-human-judgment",
+      "target": "score-an-ai-reviewer-on-escapes-noise-and-convergence"
+    },
+    {
+      "source": "llm-judge-must-calibrate-against-human-judgment",
       "target": "verification-is-a-red-queen-race"
     },
     {
@@ -5995,6 +6243,10 @@
       "target": "resolve-ambiguity-before-passing-it-downstream"
     },
     {
+      "source": "systems-that-prevent-bad-behavior-beat-moral-appeals",
+      "target": "types-are-the-fastest-feedback-an-agent-gets"
+    },
+    {
       "source": "first-conclusions-become-nearly-permanent",
       "target": "evolving-summaries-beat-append-only-memory"
     },
@@ -6224,6 +6476,10 @@
     },
     {
       "source": "claude-md-should-be-routing-table-not-knowledge-base",
+      "target": "test-agent-knowledge-with-blind-control-and-treatment-runs"
+    },
+    {
+      "source": "claude-md-should-be-routing-table-not-knowledge-base",
       "target": "ubiquitous-language-file-reduces-ai-verbosity-and-drift"
     },
     {
@@ -6292,15 +6548,19 @@
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
-      "target": "decision-traces-are-the-missing-data-layer"
-    },
-    {
-      "source": "observability-is-the-missing-agent-discipline",
       "target": "cross-user-knowledge-transfer-needs-no-fine-tuning"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
+      "target": "decision-traces-are-the-missing-data-layer"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
       "target": "evals-must-augment-traces-in-place-not-diverge"
+    },
+    {
+      "source": "observability-is-the-missing-agent-discipline",
+      "target": "if-the-agent-cannot-see-it-it-makes-it-up"
     },
     {
       "source": "observability-is-the-missing-agent-discipline",
@@ -6317,6 +6577,10 @@
     {
       "source": "property-based-testing-explores-agent-input-spaces",
       "target": "evaluate-tools-with-real-multi-step-tasks"
+    },
+    {
+      "source": "property-based-testing-explores-agent-input-spaces",
+      "target": "human-code-review-is-for-understanding-not-only-bug-catching"
     },
     {
       "source": "property-based-testing-explores-agent-input-spaces",
@@ -6744,11 +7008,15 @@
     },
     {
       "source": "traces-are-the-universal-substrate-for-agent-learning",
-      "target": "trace-data-retention-must-match-ai-knowledge-lifespan"
+      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
     },
     {
       "source": "traces-are-the-universal-substrate-for-agent-learning",
-      "target": "full-trace-filesystem-beats-compressed-summaries-for-harness-optimization"
+      "target": "teacher-student-trace-distillation-beats-single-oracle"
+    },
+    {
+      "source": "traces-are-the-universal-substrate-for-agent-learning",
+      "target": "trace-data-retention-must-match-ai-knowledge-lifespan"
     },
     {
       "source": "trace-data-retention-must-match-ai-knowledge-lifespan",
@@ -6971,6 +7239,10 @@
       "target": "context-learning-spans-agent-tenant-and-org-levels"
     },
     {
+      "source": "memory-is-harness-responsibility-not-plugin",
+      "target": "procedural-memory-is-highest-impact-agent-memory"
+    },
+    {
       "source": "closed-harnesses-behind-apis-create-memory-lock-in",
       "target": "context-is-the-product-not-the-model"
     },
@@ -7176,6 +7448,10 @@
     },
     {
       "source": "feedback-loop-speed-is-the-ais-speed-limit",
+      "target": "types-are-the-fastest-feedback-an-agent-gets"
+    },
+    {
+      "source": "feedback-loop-speed-is-the-ais-speed-limit",
       "target": "verification-multiplies-agent-output-quality"
     },
     {
@@ -7208,11 +7484,15 @@
     },
     {
       "source": "capability-overhang-tools-unlock-latent-model-ability",
-      "target": "mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state"
+      "target": "if-the-agent-cannot-see-it-it-makes-it-up"
     },
     {
       "source": "capability-overhang-tools-unlock-latent-model-ability",
       "target": "map-is-not-the-territory-unknowns-are-the-real-bottleneck"
+    },
+    {
+      "source": "capability-overhang-tools-unlock-latent-model-ability",
+      "target": "mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state"
     },
     {
       "source": "map-is-not-the-territory-unknowns-are-the-real-bottleneck",
@@ -7284,6 +7564,10 @@
     },
     {
       "source": "make-the-quality-gate-a-second-adversarial-model-not-a-human",
+      "target": "human-code-review-is-for-understanding-not-only-bug-catching"
+    },
+    {
+      "source": "make-the-quality-gate-a-second-adversarial-model-not-a-human",
       "target": "private-evals-measure-business-outcomes-not-benchmarks"
     },
     {
@@ -7297,6 +7581,10 @@
     {
       "source": "put-a-second-agent-on-the-first-agents-failure-log",
       "target": "ai-self-improvement-loop-accelerates-everything"
+    },
+    {
+      "source": "put-a-second-agent-on-the-first-agents-failure-log",
+      "target": "causal-triage-must-gate-automated-fixes"
     },
     {
       "source": "put-a-second-agent-on-the-first-agents-failure-log",

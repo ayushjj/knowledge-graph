@@ -18,3 +18,4 @@ Effective systems assume people will behave predictably (incentive-following, lo
 - [[emotional-promises-must-be-structural-promises]] — Each cultural claim creates a falsifiable structural prediction
 - [[type-1-vs-type-2-decisions-allocate-thinking-modes]] — Bezos's reversibility split: process selection is itself a decision
 - [[research-speed-is-the-rate-you-discover-youre-wrong]] — Build the tooling so launching, plotting, and comparing runs is instant; speed is disconfirmation throughput
+- [[types-are-the-fastest-feedback-an-agent-gets]] — Minsky: a type checker beats any test suite for speed and never forgets an invariant; make illegal states unrepresentable

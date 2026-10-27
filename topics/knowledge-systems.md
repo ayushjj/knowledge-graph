@@ -66,3 +66,5 @@ Complex domains need interconnected knowledge that agents navigate progressively
 - [[being-worth-retrieving-from-is-the-product]] — Postgres is just B-trees; retrieval is the primitive and curation is the hard part
 - [[custody-is-the-security-model]] — Consolidation doesn't create the risk, it takes custody of one already spread across ten clouds
 - [[if-a-smart-intern-could-follow-it-an-agent-can-run-it]] — The readiness test for a skill file, and the claim that clear English is a programming language
+- [[cross-check-inconsistent-sources-to-converge-on-a-spec]] — Luu: when every written source contradicts the others, consistency checks across all of them converge on a usable spec
+- [[test-agent-knowledge-with-blind-control-and-treatment-runs]] — Ball: AGENTS.md, skills and docs pile up; blind agents with and without them show whether they change anything

@@ -11,11 +11,91 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-10-24
-node_count: 258
+last_updated: 2026-10-27
+node_count: 266
 domains: [ai, mental-models]
 
 nodes:
+  most-people-still-carry-a-pre-agentic-cost-model:
+    title: "Most people still carry a pre-agentic cost model — re-price the problems you stopped trying to fix"
+    description: "Dan Luu argues that the slow builds and missing tools people complain about daily are now cheap to fix; not attempting them is an old cost estimate, and doing exactly the work of five years ago with AI buys little because of Amdahl's law"
+    topics: [future-of-ai-business, decision-making]
+    source: "Dan Luu — We should be more ambitious with the software we build (shared by @dabit3)"
+    source_file: sources/danluu-we-should-be-more-ambitious.md
+    domain: ai
+    kind: thinking-tool
+    outgoing: [amplification-widens-the-judgment-gap, software-abundance-unlocks-categories-that-never-existed, stronger-models-expand-the-verification-gap]
+
+  cross-check-inconsistent-sources-to-converge-on-a-spec:
+    title: "When every written source is inconsistent, cross-check them against each other to converge on a spec"
+    description: "Dan Luu got a near-correct rule set for a board game whose official rules contradict themselves by running consistency checks across all the inconsistent explanations — costlier in tokens than a manual approach, cheaper than his own time writing a clean spec"
+    topics: [ai-agents, knowledge-systems]
+    source: "Dan Luu — We should be more ambitious with the software we build (shared by @dabit3)"
+    source_file: sources/danluu-we-should-be-more-ambitious.md
+    domain: ai
+    kind: practice
+    outgoing: [conflicting-context-causes-agent-collapse-not-graceful-degradation, derive-the-manual-from-observed-practice-not-written-procedure, resolve-ambiguity-before-passing-it-downstream]
+
+  types-are-the-fastest-feedback-an-agent-gets:
+    title: "Types are the fastest feedback an agent gets — make illegal states unrepresentable and a mistake becomes impossible everywhere"
+    description: "Ron Minsky (Jane Street) argues agents thrive on feedback, and a type checker answers faster than any test suite and never forgets an invariant the way a long context does; shaping data so the wrong combination cannot be written enforces a rule across the whole codebase"
+    topics: [ai-coding-tools, engineering]
+    source: "Ron Minsky (Jane Street) — Now more than ever: building reliable software in the age of agents (talk, shared by @poteto)"
+    source_file: sources/yminsky-reliable-software-in-the-age-of-agents.md
+    domain: ai
+    kind: principle
+    outgoing: [context-window-is-the-fundamental-constraint, enforcement-must-run-independently-of-model-cooperation, feedback-loop-speed-is-the-ais-speed-limit, systems-that-prevent-bad-behavior-beat-moral-appeals]
+
+  human-code-review-is-for-understanding-not-only-bug-catching:
+    title: "Human code review is for understanding the system, not only catching bugs — expect tests put an agent's behaviour change next to its code change"
+    description: "Ron Minsky treats AI review as useful but a distinct thing from a person understanding the system; expect tests commit readable program output to the repo, so a diff shows both the change in logic and the change in behaviour"
+    topics: [ai-coding-tools, ai-agents]
+    source: "Ron Minsky (Jane Street) — Now more than ever: building reliable software in the age of agents (talk, shared by @poteto)"
+    source_file: sources/yminsky-reliable-software-in-the-age-of-agents.md
+    domain: ai
+    kind: principle
+    outgoing: [bad-code-is-the-most-expensive-its-ever-been, make-the-quality-gate-a-second-adversarial-model-not-a-human, property-based-testing-explores-agent-input-spaces, specs-to-code-degrades-without-reading-the-code]
+
+  score-an-ai-reviewer-on-escapes-noise-and-convergence:
+    title: "Score an automated code reviewer on the bugs that escaped it, the noise it makes, and whether its loop converges"
+    description: "The Claude Code team re-runs its review system daily against every incident-causing PR, measures noise by what people did with each comment, and caps review cycles after one agent-vs-agent PR looped more than fifty times overnight"
+    topics: [ai-coding-tools, ai-agents]
+    source: "@addyosmani (Addy Osmani) — How the Claude Code team does code review"
+    source_file: sources/addyosmani-how-the-claude-code-team-does-code-review.md
+    domain: ai
+    kind: practice
+    outgoing: [every-optimization-has-a-shadow-regression, llm-judge-must-calibrate-against-human-judgment, make-the-quality-gate-a-second-adversarial-model-not-a-human]
+
+  if-the-agent-cannot-see-it-it-makes-it-up:
+    title: "If the agent can't see something, it makes it up — give it every view of the system a person has"
+    description: "Thorsten Ball credits tool calls with stopping hallucination, and concludes the agent should see everything the team sees: production logs, deploys, rollouts, feature flags, bug reports and the customer"
+    topics: [ai-agents, ai-coding-tools]
+    source: "@thorstenball (Thorsten Ball) — How I work with Agents"
+    source_file: sources/thorstenball-how-i-work-with-agents.md
+    domain: ai
+    kind: principle
+    outgoing: [capability-overhang-tools-unlock-latent-model-ability, data-agents-fail-from-missing-context-not-sql-gaps, observability-is-the-missing-agent-discipline]
+
+  test-agent-knowledge-with-blind-control-and-treatment-runs:
+    title: "Knowledge an agent can reach is not knowledge it uses — test AGENTS.md, skills and docs with blind control-versus-treatment runs"
+    description: "Thorsten Ball's rule: as AGENTS.md files, skills, scripts and docs pile up, spawn a handful of blind agents with and without the knowledge and see whether the outcome actually changes"
+    topics: [ai-agents, knowledge-systems]
+    source: "@thorstenball (Thorsten Ball) — How I work with Agents"
+    source_file: sources/thorstenball-how-i-work-with-agents.md
+    domain: ai
+    kind: practice
+    outgoing: [claude-md-should-be-routing-table-not-knowledge-base, eval-suites-must-shrink-not-just-grow, evals-are-gradient-signal-for-harness-engineering, provenance-becomes-the-constraint-when-skill-files-scale]
+
+  coordination-cost-decides-the-shape-of-the-firm:
+    title: "Firms exist where coordinating inside is cheaper than coordinating through a market — so whatever cuts coordination cost redraws the firm"
+    description: "Coase's 1937 answer to why firms exist is transaction costs, but firms carry their own coordination costs (management, meetings, reporting); Amjad Masad argues agents now absorb execution and coordination, so the organization itself is up for redesign"
+    topics: [economics, future-of-ai-business]
+    source: "@amasad (Amjad Masad) — The Rise of the Self-Driving Company"
+    source_file: sources/amasad-rise-of-the-self-driving-company.md
+    domain: mental-models
+    kind: thinking-tool
+    outgoing: [ai-is-steel-context-bearing-systems-lift-the-org-scaling-limit, ic-and-dri-are-the-only-roles-left-without-middle-management, orchestrator-agent-replaces-human-coordination, outsourcing-is-the-autopilot-wedge]
+
   mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state:
     title: "Agents need a REPL that keeps state between steps — the harness decides whether a tool protocol works, not the protocol"
     description: "CLI tools beat MCP today only because they are reached through bash, which is a REPL whose state persists in the file system; that is a harness property, not something intrinsic to MCP"
@@ -298,7 +378,7 @@ nodes:
     source_file: sources/ivanhzhao-steam-steel-infinite-minds.md
     domain: ai
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-centralization-is-why-coding-ai-works, ai-compresses-execution-not-judgment, experience-times-agent-multiplier-favors-veteran-founders, humans-move-to-the-edge-where-the-model-touches-reality, organizational-shape-is-the-emerging-moat-in-ai]
+    outgoing: [agent-memory-preserves-institutional-knowledge, ai-compresses-execution-not-judgment, context-centralization-is-why-coding-ai-works, coordination-cost-decides-the-shape-of-the-firm, experience-times-agent-multiplier-favors-veteran-founders, humans-move-to-the-edge-where-the-model-touches-reality, organizational-shape-is-the-emerging-moat-in-ai]
 
   supervise-loops-from-a-leveraged-point-not-from-inside-them:
     title: "Humans should supervise agent loops from a leveraged point, not sit inside every one"
@@ -574,7 +654,7 @@ nodes:
     topics: [future-of-ai-business, ai-coding-tools]
     source: "@dabit3 (Nader Dabit) — Joining Cognition / Software Abundance"
     kind: principle
-    outgoing: [features-are-prompts-not-code, technology-transitions-create-more-not-less]
+    outgoing: [features-are-prompts-not-code, most-people-still-carry-a-pre-agentic-cost-model, technology-transitions-create-more-not-less]
 
   ai-self-improvement-loop-accelerates-everything:
     title: "AI's self-improvement loop means each generation builds the next one faster"
@@ -665,7 +745,7 @@ nodes:
     topics: [future-of-ai-business, ai-native-product-architecture]
     source: "@natashamalpani (Natasha Malpani) — The Verification Economy: The Red Queen Problem (Part III)"
     kind: principle
-    outgoing: [harness-quality-beats-model-intelligence, verification-is-a-red-queen-race]
+    outgoing: [harness-quality-beats-model-intelligence, most-people-still-carry-a-pre-agentic-cost-model, verification-is-a-red-queen-race]
 
   agentic-search-beats-rag-for-live-codebases:
     title: "Agentic search beats RAG for live codebases"
@@ -714,7 +794,7 @@ nodes:
     topics: [engineering, decision-making]
     source: "@vxanand (Varun Anand, Clay co-founder) — Clay's Operating Principles"
     kind: practice
-    outgoing: [systems-that-prevent-bad-behavior-beat-moral-appeals]
+    outgoing: [cross-check-inconsistent-sources-to-converge-on-a-spec, systems-that-prevent-bad-behavior-beat-moral-appeals]
 
   response-ux-should-match-retrieval-intelligence:
     title: "Response UX should match retrieval intelligence"
@@ -851,7 +931,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "@elvissun (Elvis Sun) — OpenClaw Agent Swarm"
     kind: practice
-    outgoing: [evaluate-tools-with-real-multi-step-tasks, treat-ai-like-distributed-team-not-assistant, verification-multiplies-agent-output-quality, weaponize-sycophancy-with-adversarial-agent-ensembles]
+    outgoing: [evaluate-tools-with-real-multi-step-tasks, score-an-ai-reviewer-on-escapes-noise-and-convergence, treat-ai-like-distributed-team-not-assistant, verification-multiplies-agent-output-quality, weaponize-sycophancy-with-adversarial-agent-ensembles]
 
   agent-trust-transfers-from-human-credibility:
     title: "Agent trust transfers from human credibility — colleagues adopt agents operated by people they trust"
@@ -1223,7 +1303,7 @@ nodes:
     source_file: sources/hwchase17-context-engineering-long-horizon-agents.md
     domain: ai
     kind: principle
-    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, verification-is-a-red-queen-race]
+    outgoing: [evals-are-behavioral-pressure-vectors-not-neutral-measurements, score-an-ai-reviewer-on-escapes-noise-and-convergence, verification-is-a-red-queen-race]
 
   llm-competition-fragments-markets-not-consolidates:
     title: "LLM competition fragments markets from 3 incumbents to 300"
@@ -1343,7 +1423,7 @@ nodes:
     topics: [psychology, engineering]
     source: "Charlie Munger — Poor Charlie's Almanack, Talk 11: The Psychology of Human Misjudgment (pp. 500-511)"
     kind: thinking-tool
-    outgoing: [incentive-caused-bias-makes-good-people-rationalize, pilot-training-model-builds-reliable-knowledge, production-agents-route-decisions-not-every-call-to-llm, resolve-ambiguity-before-passing-it-downstream]
+    outgoing: [incentive-caused-bias-makes-good-people-rationalize, pilot-training-model-builds-reliable-knowledge, production-agents-route-decisions-not-every-call-to-llm, resolve-ambiguity-before-passing-it-downstream, types-are-the-fastest-feedback-an-agent-gets]
 
   first-conclusions-become-nearly-permanent:
     title: "First conclusions become nearly permanent — the brain resists its own updates"
@@ -1496,7 +1576,7 @@ nodes:
     topics: [ai-coding-tools, knowledge-systems]
     source: "@systematicls — How To Be A World-Class Agentic Engineer"
     kind: practice
-    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, skill-graphs-enable-progressive-disclosure, ubiquitous-language-file-reduces-ai-verbosity-and-drift]
+    outgoing: [compound-engineering-makes-future-work-easier, context-window-is-the-fundamental-constraint, skill-graphs-enable-progressive-disclosure, test-agent-knowledge-with-blind-control-and-treatment-runs, ubiquitous-language-file-reduces-ai-verbosity-and-drift]
 
   full-trace-filesystem-beats-compressed-summaries-for-harness-optimization:
     title: "Give an optimizing agent full traces, not compressed summaries — it has to see why past attempts failed"
@@ -1547,7 +1627,7 @@ nodes:
     topics: [ai-agents, ai-native-product-architecture]
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     kind: principle
-    outgoing: [decision-traces-are-the-missing-data-layer, cross-user-knowledge-transfer-needs-no-fine-tuning, evals-must-augment-traces-in-place-not-diverge, prompt-caching-makes-long-context-economically-viable, trust-boundaries-must-be-mapped-and-externalized]
+    outgoing: [cross-user-knowledge-transfer-needs-no-fine-tuning, decision-traces-are-the-missing-data-layer, evals-must-augment-traces-in-place-not-diverge, if-the-agent-cannot-see-it-it-makes-it-up, prompt-caching-makes-long-context-economically-viable, trust-boundaries-must-be-mapped-and-externalized]
 
   property-based-testing-explores-agent-input-spaces:
     title: "Property-based testing explores agent input spaces that example-based tests miss"
@@ -1555,7 +1635,7 @@ nodes:
     topics: [ai-coding-tools, ai-agents]
     source: "Geoff Huntley — Latent Patterns Principles (verification over testing)"
     kind: practice
-    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, evaluate-tools-with-real-multi-step-tasks, unfocused-agents-develop-path-dependency, verification-multiplies-agent-output-quality]
+    outgoing: [autonomous-loops-need-small-stories-and-fast-feedback, evaluate-tools-with-real-multi-step-tasks, human-code-review-is-for-understanding-not-only-bug-catching, unfocused-agents-develop-path-dependency, verification-multiplies-agent-output-quality]
 
   proprietary-feedback-loops-widen-the-moat:
     title: "Proprietary feedback loops create moats that widen with every interaction"
@@ -1767,7 +1847,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Continual Learning for AI Agents"
     source_file: sources/hwchase17-continual-learning-ai-agents.md
     kind: principle
-    outgoing: [decision-traces-are-the-missing-data-layer, trace-data-retention-must-match-ai-knowledge-lifespan, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization]
+    outgoing: [decision-traces-are-the-missing-data-layer, full-trace-filesystem-beats-compressed-summaries-for-harness-optimization, teacher-student-trace-distillation-beats-single-oracle, trace-data-retention-must-match-ai-knowledge-lifespan]
 
   trace-data-retention-must-match-ai-knowledge-lifespan:
     title: "AI trace data has an indefinite useful lifespan — SaaS observability's 30-day retention model destroys institutional knowledge"
@@ -1931,7 +2011,7 @@ nodes:
     source: "@hwchase17 (Harrison Chase) — Your harness, your memory (citing Sarah Wooders, Letta)"
     source_file: sources/hwchase17-your-harness-your-memory.md
     kind: principle
-    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, context-learning-spans-agent-tenant-and-org-levels]
+    outgoing: [agent-memory-preserves-institutional-knowledge, context-is-the-product-not-the-model, context-learning-spans-agent-tenant-and-org-levels, procedural-memory-is-highest-impact-agent-memory]
 
   closed-harnesses-behind-apis-create-memory-lock-in:
     title: "Closed harnesses behind APIs create memory lock-in by design"
@@ -2118,7 +2198,7 @@ nodes:
     source_file: sources/mattpocock-software-fundamentals-matter-more-than-ever.md
     domain: ai
     kind: principle
-    outgoing: [deep-modules-make-codebases-ai-legible-and-testable, verification-multiplies-agent-output-quality]
+    outgoing: [deep-modules-make-codebases-ai-legible-and-testable, types-are-the-fastest-feedback-an-agent-gets, verification-multiplies-agent-output-quality]
 
   deep-modules-make-codebases-ai-legible-and-testable:
     title: "Deep modules make a codebase both AI-legible and safe to gray-box"
@@ -2148,7 +2228,7 @@ nodes:
     source_file: sources/thariq-field-guide-to-fable.md
     domain: ai
     kind: principle
-    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state, map-is-not-the-territory-unknowns-are-the-real-bottleneck]
+    outgoing: [build-for-the-model-six-months-from-now, harness-quality-beats-model-intelligence, if-the-agent-cannot-see-it-it-makes-it-up, map-is-not-the-territory-unknowns-are-the-real-bottleneck, mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]
 
   map-is-not-the-territory-unknowns-are-the-real-bottleneck:
     title: "The map is not the territory — with a capable-enough agent, finding your unknowns becomes the real bottleneck"
@@ -2208,7 +2288,7 @@ nodes:
     source_file: sources/tom-blomfield-yc-building-ai-native-company.md
     domain: ai
     kind: principle
-    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, private-evals-measure-business-outcomes-not-benchmarks, verification-multiplies-agent-output-quality]
+    outgoing: [a-human-in-the-loop-caps-the-loop-at-waking-hours, a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, human-code-review-is-for-understanding-not-only-bug-catching, private-evals-measure-business-outcomes-not-benchmarks, verification-multiplies-agent-output-quality]
 
   put-a-second-agent-on-the-first-agents-failure-log:
     title: "Point a second agent at the first agent's failure log and the system repairs itself overnight"
@@ -2218,7 +2298,7 @@ nodes:
     source_file: sources/tom-blomfield-yc-building-ai-native-company.md
     domain: ai
     kind: practice
-    outgoing: [a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, ai-self-improvement-loop-accelerates-everything, decision-traces-are-the-missing-data-layer, proprietary-feedback-loops-widen-the-moat]
+    outgoing: [a-learning-mechanism-is-what-separates-a-loop-from-a-pipeline, ai-self-improvement-loop-accelerates-everything, causal-triage-must-gate-automated-fixes, decision-traces-are-the-missing-data-layer, proprietary-feedback-loops-widen-the-moat]
 
   derive-the-manual-from-observed-practice-not-written-procedure:
     title: "Derive the manual from observed practice — written SOPs miss the edge cases people actually handle"

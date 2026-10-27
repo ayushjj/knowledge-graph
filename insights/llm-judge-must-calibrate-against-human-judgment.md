@@ -22,3 +22,5 @@ This matters because uncalibrated LLM judges create false confidence. An agent c
 Chase also notes that LLM-as-judge operates in multiple contexts: offline eval scoring, online quality monitoring, and even agent self-correction (when an agent hits an error and corrects). "It's all kind of the same thing" — reflecting on traces and updating behavior.
 
 Connects to [[evals-are-behavioral-pressure-vectors-not-neutral-measurements]] — an uncalibrated judge exerts behavioral pressure in the wrong direction. Also connects to [[verification-is-a-red-queen-race]] — the judge itself degrades as the agent adapts to it.
+
+The same discipline applies to an AI code reviewer, where the human labels already exist as incidents: [[score-an-ai-reviewer-on-escapes-noise-and-convergence]] re-runs the reviewer against every incident-causing PR and measures noise by what people did with each comment.
