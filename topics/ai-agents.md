@@ -140,3 +140,5 @@ Whether an agent can work depends on an environment that keeps its state between
 - [[score-an-ai-reviewer-on-escapes-noise-and-convergence]] — Claude Code team: re-run the reviewer on every incident-causing PR, measure noise by what people did with each comment, cap cycles
 - [[if-the-agent-cannot-see-it-it-makes-it-up]] — Ball: tool calls stopped hallucination; anything the team can see (logs, rollouts, flags, bug reports) the agent should see too
 - [[test-agent-knowledge-with-blind-control-and-treatment-runs]] — Ball: AGENTS.md, skills and docs pile up; blind agents with and without them show whether they change anything
+- [[hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay]] — Osmani: offloading, deferral, surrender; if you cannot explain the answer even with the agent, you ceded it; keep reasoning where others bear the cost
+- [[a-green-check-proves-one-property-define-verified-before-the-run]] — Osmani: verification can be surrendered too; define verified upfront, read the run before the summary, ask what the check missed

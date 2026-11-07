@@ -11,11 +11,31 @@
 #
 # outgoing: insight-to-insight links only (topic MOC links excluded). Incoming is derived at build time — per Principle 30.
 
-last_updated: 2026-10-27
-node_count: 266
+last_updated: 2026-11-07
+node_count: 268
 domains: [ai, mental-models]
 
 nodes:
+  hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay:
+    title: "Trust in agents slides from offloading to deferral to surrender in reasonable-looking steps — hand off where being wrong is cheap, keep the reasoning where others pay for mistakes"
+    description: "Addy Osmani's spectrum: offloading keeps ownership, deferral turns output into your next input, surrender makes it your own unchecked; the line is the cost of being wrong and whether you can still explain the answer"
+    topics: [ai-coding-tools, ai-agents, decision-making]
+    source: "@addyosmani (Addy Osmani) — Critical thinking when agents do the work"
+    source_file: sources/addyosmani-critical-thinking-when-agents-do-the-work.md
+    domain: ai
+    kind: thinking-tool
+    outgoing: [ai-compresses-execution-not-judgment, human-code-review-is-for-understanding-not-only-bug-catching, specs-to-code-degrades-without-reading-the-code, type-1-vs-type-2-decisions-allocate-thinking-modes]
+
+  a-green-check-proves-one-property-define-verified-before-the-run:
+    title: "A green check proves one property — define \"verified\" before the run, read the evidence before the summary, and ask what the check missed"
+    description: "Verification itself can be surrendered: cheap agent-written tests make green everywhere, a test with the same mistake as the code still passes, and after the fact you will rationalize any result"
+    topics: [ai-coding-tools, ai-agents]
+    source: "@addyosmani (Addy Osmani) — Critical thinking when agents do the work"
+    source_file: sources/addyosmani-critical-thinking-when-agents-do-the-work.md
+    domain: ai
+    kind: practice
+    outgoing: [make-the-quality-gate-a-second-adversarial-model-not-a-human, score-an-ai-reviewer-on-escapes-noise-and-convergence, stare-at-raw-outputs-not-the-loss-curve, verification-multiplies-agent-output-quality]
+
   most-people-still-carry-a-pre-agentic-cost-model:
     title: "Most people still carry a pre-agentic cost model — re-price the problems you stopped trying to fix"
     description: "Dan Luu argues that the slow builds and missing tools people complain about daily are now cheap to fix; not attempting them is an old cost estimate, and doing exactly the work of five years ago with AI buys little because of Amdahl's law"
@@ -64,7 +84,7 @@ nodes:
     source_file: sources/addyosmani-how-the-claude-code-team-does-code-review.md
     domain: ai
     kind: practice
-    outgoing: [every-optimization-has-a-shadow-regression, llm-judge-must-calibrate-against-human-judgment, make-the-quality-gate-a-second-adversarial-model-not-a-human]
+    outgoing: [a-green-check-proves-one-property-define-verified-before-the-run, every-optimization-has-a-shadow-regression, llm-judge-must-calibrate-against-human-judgment, make-the-quality-gate-a-second-adversarial-model-not-a-human]
 
   if-the-agent-cannot-see-it-it-makes-it-up:
     title: "If the agent can't see something, it makes it up — give it every view of the system a person has"
@@ -671,7 +691,7 @@ nodes:
     topics: [ai-coding-tools]
     source: "Boris Cherny + Anthropic Official Best Practices"
     kind: practice
-    outgoing: [ai-compresses-execution-not-judgment, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, make-the-quality-gate-a-second-adversarial-model-not-a-human, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
+    outgoing: [a-green-check-proves-one-property-define-verified-before-the-run, ai-compresses-execution-not-judgment, compound-engineering-makes-future-work-easier, declarative-beats-imperative-for-agents, feedback-loop-speed-is-the-ais-speed-limit, first-draft-pattern-is-killer-app-for-long-horizon-agents, harness-quality-beats-model-intelligence, make-the-quality-gate-a-second-adversarial-model-not-a-human, multi-model-ensemble-catches-single-model-blindspots, property-based-testing-explores-agent-input-spaces, rollback-safety-nets-enable-autonomy-not-intelligence, stare-at-raw-outputs-not-the-loss-curve, the-80-99-gap-is-where-ai-products-die, verification-is-a-red-queen-race]
 
   verification-is-a-red-queen-race:
     title: "Verification is a Red Queen race — optimizing against a fixed eval contaminates it"
@@ -1768,7 +1788,7 @@ nodes:
     topics: [decision-making, business-models, economics, future-of-ai-business]
     source: "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage"
     kind: principle
-    outgoing: [amplification-widens-the-judgment-gap, automation-amplifies-expert-demand, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, verification-multiplies-agent-output-quality]
+    outgoing: [amplification-widens-the-judgment-gap, automation-amplifies-expert-demand, hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay, intelligence-judgement-ratio-determines-automation-order, organizational-shape-is-the-emerging-moat-in-ai, verification-multiplies-agent-output-quality]
 
   amplification-widens-the-judgment-gap:
     title: "Amplification widens the judgment gap — AI magnifies clear thinking into compounding advantage and confused thinking into accelerating waste"
@@ -2178,7 +2198,7 @@ nodes:
     source_file: sources/mattpocock-software-fundamentals-matter-more-than-ever.md
     domain: ai
     kind: principle
-    outgoing: [bad-code-is-the-most-expensive-its-ever-been, deep-modules-make-codebases-ai-legible-and-testable]
+    outgoing: [bad-code-is-the-most-expensive-its-ever-been, deep-modules-make-codebases-ai-legible-and-testable, hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay]
 
   ubiquitous-language-file-reduces-ai-verbosity-and-drift:
     title: "A ubiquitous-language file cuts AI verbosity and keeps implementation aligned with the plan"

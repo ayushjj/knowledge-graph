@@ -57,3 +57,4 @@ Research is not an innate gift but a stack of deliberately trainable sub-skills 
 - [[force-reality-to-reveal-the-tradeoff-instead-of-presuming-one]] — Don't pre-rank priorities; attempt everything and let reality show you the real constraint
 - [[if-you-can-find-the-edge-it-isnt-interesting-enough]] — A test for whether a field is worth entering, credited to Chris Dixon
 - [[most-people-still-carry-a-pre-agentic-cost-model]] — Luu: problems people complain about daily are now cheap to fix; aim AI at what used to be too expensive, not at the old work
+- [[hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay]] — Osmani: offloading, deferral, surrender; if you cannot explain the answer even with the agent, you ceded it; keep reasoning where others bear the cost

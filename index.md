@@ -14,6 +14,7 @@ Claude: read this index first, then follow relevant topic links based on the cur
 ## Cross-Domain Insights
 - [[context-is-the-product-not-the-model]] — spans architecture, business models, knowledge systems
 - [[similarity-is-not-relevance-relevance-requires-reasoning]] — spans architecture, knowledge systems, agents
+- [[hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay]] — spans coding tools, agents, decision-making
 
 ## Mental Models Domain
 - [[decision-making]] — checklists, inversion, concentrated betting, circle of competence
@@ -24,6 +25,8 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[mathematics]] — inversion, probability, compound interest
 
 ## Recent Additions
+- [[hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay]] — offloading, deferral, surrender; keep the reasoning where others bear the cost of a mistake (2026-11-07)
+- [[a-green-check-proves-one-property-define-verified-before-the-run]] — a passing check proves one thing; define verified upfront and read the run before the summary (2026-11-07)
 - [[most-people-still-carry-a-pre-agentic-cost-model]] — problems you complain about daily may now be cheap to fix; aim AI at what used to be too expensive (2026-10-27)
 - [[cross-check-inconsistent-sources-to-converge-on-a-spec]] — when every rulebook contradicts the others, check them against each other until a spec emerges (2026-10-27)
 - [[types-are-the-fastest-feedback-an-agent-gets]] — faster than any test suite, never forgotten 230k tokens later; make illegal states unrepresentable (2026-10-27)
@@ -32,5 +35,3 @@ Claude: read this index first, then follow relevant topic links based on the cur
 - [[if-the-agent-cannot-see-it-it-makes-it-up]] — anything the team can see, the agent should see too (2026-10-27)
 - [[test-agent-knowledge-with-blind-control-and-treatment-runs]] — blind agents with and without a rule show whether it changes anything (2026-10-27)
 - [[coordination-cost-decides-the-shape-of-the-firm]] — Coase: whatever cuts coordination cost redraws what belongs inside the firm (2026-10-27)
-- [[mcp-vs-cli-is-the-wrong-layer-agents-need-a-repl-that-keeps-state]] — the debate is at the wrong layer; what matters is a REPL that keeps state (2026-10-24)
-- [[agent-inputs-could-compile-to-one-checkable-execution-plan]] — Tobi's bet: one security-checked plan under CLI, MCP and WebMCP (2026-10-24)

@@ -1,6 +1,35 @@
 {
   "nodes": [
     {
+      "id": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay",
+      "label": "Trust in agents slides from offloading to deferral to surrender in reasonable-looking steps — hand off where being wrong is cheap, keep the reasoning where others pay for mistakes",
+      "description": "Addy Osmani's spectrum: offloading keeps ownership, deferral turns output into your next input, surrender makes it your own unchecked; the line is the cost of being wrong and whether you can still explain the answer",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents",
+        "decision-making"
+      ],
+      "source": "@addyosmani (Addy Osmani) — Critical thinking when agents do the work",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai",
+      "kind": "thinking-tool"
+    },
+    {
+      "id": "a-green-check-proves-one-property-define-verified-before-the-run",
+      "label": "A green check proves one property — define \"verified\" before the run, read the evidence before the summary, and ask what the check missed",
+      "description": "Verification itself can be surrendered: cheap agent-written tests make green everywhere, a test with the same mistake as the code still passes, and after the fact you will rationalize any result",
+      "topics": [
+        "ai-coding-tools",
+        "ai-agents"
+      ],
+      "source": "@addyosmani (Addy Osmani) — Critical thinking when agents do the work",
+      "color": "#06b6d4",
+      "degree": 6,
+      "domain": "ai",
+      "kind": "practice"
+    },
+    {
       "id": "most-people-still-carry-a-pre-agentic-cost-model",
       "label": "Most people still carry a pre-agentic cost model — re-price the problems you stopped trying to fix",
       "description": "Dan Luu argues that the slow builds and missing tools people complain about daily are now cheap to fix; not attempting them is an old cost estimate, and doing exactly the work of five years ago with AI buys little because of Amdahl's law",
@@ -52,7 +81,7 @@
       ],
       "source": "Ron Minsky (Jane Street) — Now more than ever: building reliable software in the age of agents (talk, shared by @poteto)",
       "color": "#06b6d4",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai",
       "kind": "principle"
     },
@@ -66,7 +95,7 @@
       ],
       "source": "@addyosmani (Addy Osmani) — How the Claude Code team does code review",
       "color": "#06b6d4",
-      "degree": 5,
+      "degree": 7,
       "domain": "ai",
       "kind": "practice"
     },
@@ -264,7 +293,7 @@
       ],
       "source": "@itsreallyvivek (vivek) — how to be good at research",
       "color": "#8b5cf6",
-      "degree": 6,
+      "degree": 7,
       "domain": "ai",
       "kind": "practice"
     },
@@ -958,7 +987,7 @@
       ],
       "source": "Boris Cherny + Anthropic Official Best Practices",
       "color": "#06b6d4",
-      "degree": 34,
+      "degree": 36,
       "domain": "ai",
       "kind": "practice"
     },
@@ -2816,7 +2845,7 @@
       ],
       "source": "Alfred Lin (@Alfred_Lin) — AI Adoption vs. AI Advantage",
       "color": "#eab308",
-      "degree": 18,
+      "degree": 20,
       "domain": "mental-models",
       "kind": "principle"
     },
@@ -3360,7 +3389,7 @@
       ],
       "source": "@jaynitx — first principles thinking: how to see what everyone else misses",
       "color": "#eab308",
-      "degree": 3,
+      "degree": 4,
       "domain": "mental-models",
       "kind": "thinking-tool"
     },
@@ -3428,7 +3457,7 @@
       ],
       "source": "Matt Pocock — Software Fundamentals Matter More Than Ever (AI Engineer conference)",
       "color": "#06b6d4",
-      "degree": 4,
+      "degree": 6,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3581,7 +3610,7 @@
       ],
       "source": "Tom Blomfield (General Partner, Y Combinator) — \"Building And Structuring An AI Native Company\", Startup School Paris",
       "color": "#6366f1",
-      "degree": 9,
+      "degree": 10,
       "domain": "ai",
       "kind": "principle"
     },
@@ -3743,6 +3772,38 @@
   ],
   "links": [
     {
+      "source": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay",
+      "target": "ai-compresses-execution-not-judgment"
+    },
+    {
+      "source": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay",
+      "target": "human-code-review-is-for-understanding-not-only-bug-catching"
+    },
+    {
+      "source": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay",
+      "target": "specs-to-code-degrades-without-reading-the-code"
+    },
+    {
+      "source": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay",
+      "target": "type-1-vs-type-2-decisions-allocate-thinking-modes"
+    },
+    {
+      "source": "a-green-check-proves-one-property-define-verified-before-the-run",
+      "target": "make-the-quality-gate-a-second-adversarial-model-not-a-human"
+    },
+    {
+      "source": "a-green-check-proves-one-property-define-verified-before-the-run",
+      "target": "score-an-ai-reviewer-on-escapes-noise-and-convergence"
+    },
+    {
+      "source": "a-green-check-proves-one-property-define-verified-before-the-run",
+      "target": "stare-at-raw-outputs-not-the-loss-curve"
+    },
+    {
+      "source": "a-green-check-proves-one-property-define-verified-before-the-run",
+      "target": "verification-multiplies-agent-output-quality"
+    },
+    {
       "source": "most-people-still-carry-a-pre-agentic-cost-model",
       "target": "amplification-widens-the-judgment-gap"
     },
@@ -3797,6 +3858,10 @@
     {
       "source": "human-code-review-is-for-understanding-not-only-bug-catching",
       "target": "specs-to-code-degrades-without-reading-the-code"
+    },
+    {
+      "source": "score-an-ai-reviewer-on-escapes-noise-and-convergence",
+      "target": "a-green-check-proves-one-property-define-verified-before-the-run"
     },
     {
       "source": "score-an-ai-reviewer-on-escapes-noise-and-convergence",
@@ -4797,6 +4862,10 @@
     {
       "source": "ai-self-improvement-loop-accelerates-everything",
       "target": "dont-be-the-discriminator-be-the-patron"
+    },
+    {
+      "source": "verification-multiplies-agent-output-quality",
+      "target": "a-green-check-proves-one-property-define-verified-before-the-run"
     },
     {
       "source": "verification-multiplies-agent-output-quality",
@@ -6860,6 +6929,10 @@
     },
     {
       "source": "ai-compresses-execution-not-judgment",
+      "target": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay"
+    },
+    {
+      "source": "ai-compresses-execution-not-judgment",
       "target": "intelligence-judgement-ratio-determines-automation-order"
     },
     {
@@ -7437,6 +7510,10 @@
     {
       "source": "specs-to-code-degrades-without-reading-the-code",
       "target": "deep-modules-make-codebases-ai-legible-and-testable"
+    },
+    {
+      "source": "specs-to-code-degrades-without-reading-the-code",
+      "target": "hand-off-where-being-wrong-is-cheap-keep-the-reasoning-where-others-pay"
     },
     {
       "source": "ubiquitous-language-file-reduces-ai-verbosity-and-drift",
